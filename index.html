@@ -7,13 +7,12 @@
     <title>Webtellisense</title>
 
     <link rel="stylesheet" href="./assets/style/style.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
 
 </head>
 
 <body>
-
     <header class="header" id="header">
         <div class="container">
             <nav class="nav" id="nav">
@@ -25,7 +24,7 @@
                     <li class="nav-item"><a href="#about">About</a></li>
                     <li class="nav-item"><a href="#services">Services</a></li>
                     <li class="nav-item"><a href="#contact">Contact</a></li>
-                    <li class="nav-item ctn"><a href="#quote">Get a Quote</a></li>
+                    <li class="nav-item"><a class="head-quote" href="#quote">Get a Quote</a></li>
                 </ul>
                 <div class="toggle">
                     <i class="fa-solid fa-bars-staggered"></i>
@@ -33,11 +32,17 @@
             </nav>
 
             <div data-aos="fade-down" class="header-content">
-                <h3>The Ultimate Framework for Small Businesses</h3>
-                <h1>Create Stunning <br> <span class="spot">Websites</span> That Elevate Your Brand</h1>
-                <p>Unlock the potential of your business with beautifully designed, functional websites. At
-                    Webtellisense, we specialize in helping schools and small businesses stand out online.</p>
-                <button class="ctn"><a href="#quote">Get a Quote</a></button>
+                <div class="header-content-left">
+                    <h3>The Ultimate Framework for Small Businesses</h3>
+                    <h1>Create Stunning <br> <span class="spot">Websites</span> That Elevate Your Brand</h1>
+                    <p>Unlock the potential of your business with beautifully designed, functional websites. At
+                        Webtellisense, we specialize in helping schools and small businesses stand out online.</p>
+                    <button class="ctn"><a href="#quote">Get a Quote</a></button>
+                </div>
+                <div class="header-content-right">
+                    <img src="./assets/img/rb_7797.png" alt="">
+                </div>
+
             </div>
         </div>
     </header>
@@ -234,13 +239,13 @@
         </div>
     </div>
 
-
+<!-- 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script> AOS.init({
             duration: 600,
         }); 
-    </script>
+    </script> -->
 
     <script>
         let menuBtn = document.querySelector('.toggle')
