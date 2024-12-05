@@ -5,56 +5,137 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact | Webtellisense</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
     <link rel="stylesheet" href="./assets/style/style.css">
 </head>
 
 <body>
-    <div class="contact">
-        <div class="content">
-            <h2>contact us</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea tenetur dolore animi. Numquam, odio quae
-                obcaecati optio esse consequatur dolorum.</p>
-        </div>
+
+    <header class="header" id="header">
         <div class="container">
+            <nav class="nav" id="nav">
+                <div class="logo">
+                    <img src="./assets/img/logo.png" alt="Webtellisense Logo">
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#header">Home</a></li>
+                    <li class="nav-item"><a href="#about">About</a></li>
+                    <li class="nav-item"><a href="#services">Services</a></li>
+                    <li class="nav-item"><a href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="head-quote" href="#quote">Get a Quote</a></li>
+                </ul>
+                <div class="toggle">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="contact">
+        <!-- header -->
+        <div class="content">
+            <h2 class="content-intro">contact us</h2>
+        </div>
+        <!-- main -->
+        <div class="contact-wrapper">
             <div class="contact-info">
+                <div class="content">
+                    <h2>contact us</h2>
+                    <h1>get in touch</h1>
+                    <p>Send us an email and let us know everything you want out of a new site. We respond to everyone
+                        within 24
+                        hours of contacting us. Or give us a call and reach us immediately for a chat. If we are
+                        unavailable we
+                        will call back same day.</p>
+                </div>
                 <div class="box">
-                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                    <div class="icon"><i class="fa-solid fa-map-location-dot"></i></div>
                     <div class="text">
                         <h3>address</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint velit aliquid unde, laboriosam
-                            eveniet repellat?</p>
+                        <p>ikot ibiok, eket</p>
                     </div>
                 </div>
                 <div class="box">
-                    <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                    <div class="icon"><i class="fa-solid fa-phone"></i></i></div>
                     <div class="text">
                         <h3>phone</h3>
-                        <p>l2345678901</p>
+                        <p>(234) 812-986-3189</p>
                     </div>
                 </div>
                 <div class="box">
-                    <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                    <div class="icon"><i class="fa-solid fa-envelope"></i></i></div>
                     <div class="text">
                         <h3>email</h3>
-                        <p>Lorem ipsum dolor sit.</p>
+                        <a href="">click to email</a>
                     </div>
                 </div>
             </div>
             <div class="contact-form">
-                <div class="input-box">
-                    <input type="text" name="" id="" required="required">
-                    <span>full name</span>
+                <form action="">
+                    <h2>send message</h2>
+                    <div class="input-box">
+                        <input type="text" name="" id="" required="required">
+                        <span>full name</span>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" name="" id="" required="required">
+                        <span>email</span>
+                    </div>
+                    <div class="input-box">
+                        <textarea name="" required="required" id=""></textarea>
+                        <span>type your message</span>
+                    </div>
+                    <div class="input-box">
+                        <input type="submit" name="" id="" value="Send">
+                    </div>
+                </form>
+
+
+            </div>
+        </div>
+    </section>
+
+    <div class="footer">
+        <div class="ft-wrapper">
+            <div class="row">
+                <div class="footer-col">
+                    <div class="logo">
+                        <img src="./assets/img/logo.png" alt="">
+                    </div>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-google"></i></a>
+                    </div>
                 </div>
-                <div class="input-box">
-                    <input type="text" name="" id="" required="required">
-                    <span>email</span>
+
+                <div class="footer-col">
+                    <h3>company</h3>
+                    <ul class="footer-links">
+                        <li><a href="">home</a></li>
+                        <li><a href="">about</a></li>
+                        <li><a href="">services</a></li>
+                        <li><a href="">contact</a></li>
+                    </ul>
                 </div>
-                <div class="input-box">
-                    <textarea name="" required="required" id=""></textarea>
-                    <span>type your message</span>
+
+                <div class="footer-col">
+                    <h3>business</h3>
+                    <ul class="footer-links">
+                        <li><a href="">project</a></li>
+                        <li><a href="">our team</a></li>
+                        <li><a href="">referral program</a></li>
+                        <li><a href="">customers</a></li>
+                    </ul>
                 </div>
-                <div class="input-box">
-                    <input type="submit" name="" id="" value="Send">
+
+                <div class="footer-col">
+                    <h3>get in touch</h3>
+                    <ul class="footer-links">
+                        <li><a href="">info@company.com</a></li>
+                        <li><a href="">0803-24568-563</a></li>
+                        <li><a href="">Webtellisense, akwa ibom</a></li>
+                        <li><a href="">contact</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
