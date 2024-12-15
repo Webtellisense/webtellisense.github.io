@@ -18,7 +18,7 @@
                     <img src="./assets/img/logo.png" alt="Webtellisense Logo">
                 </div>
                 <ul class="nav-list">
-                    <li class="nav-item"><a href="#header">Home</a></li>
+                    <li class="nav-item"><a href="index.html">Home</a></li>
                     <li class="nav-item"><a href="#about">About</a></li>
                     <li class="nav-item"><a href="#services">Services</a></li>
                     <li class="nav-item"><a href="contact.html">Contact</a></li>
@@ -140,6 +140,15 @@
             </div>
         </div>
     </div>
+
+    <script>
+        let menuBtn = document.querySelector('.toggle')
+        let navList = document.querySelector('.nav-list')
+
+        menuBtn.addEventListener('click', () => {
+            navList.classList.toggle('active')
+        })
+    </script>
 </body>
 
 </html>
