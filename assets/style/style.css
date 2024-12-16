@@ -784,7 +784,7 @@ header ul li a {
   display: grid;
   gap: 1rem;
   background-color: var(white);
-  border-radius: 5px;
+  border-radius: 25px;
   box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
@@ -1248,7 +1248,7 @@ hr,
   justify-content: center;
   align-items: center;
   margin-top: 130px;
-  z-index: 33;
+  z-index: 3;
 }
 
 .contact .content {
