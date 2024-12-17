@@ -360,8 +360,8 @@ header ul li a {
     font-size: 8px;
   }
 
-  .ctn-wrapper .ctn{
-    padding: 12px 19px  !important;
+  .ctn-wrapper .ctn {
+    padding: 12px 19px !important;
     border-radius: 50px;
   }
 }
@@ -817,7 +817,7 @@ header ul li a {
   color: var(white);
   transition: 0.3s;
 }
-.card .role{
+.card .role {
   line-height: 1px;
   font-size: 0.8rem;
   font-weight: 300;
@@ -1266,9 +1266,8 @@ hr,
   margin-bottom: 2px;
   text-transform: uppercase;
   font-weight: 500;
-  color: fff;
 }
-.content-intro {
+.contact .content-intro {
   color: var(--darkwebblue) !important;
   font-size: 50px !important;
   font-weight: 600 !important;
@@ -1415,3 +1414,4 @@ hr,
     width: 100%;
   }
 }
+
