@@ -1269,7 +1269,6 @@ hr,
 }
 .contact .content-intro {
   color: var(--darkwebblue) !important;
-  font-size: 50px !important;
   font-weight: 600 !important;
 }
 .contact .content h1 {
@@ -1401,7 +1400,7 @@ hr,
     border-radius: 0 0 60% 60%/0 0 70% 70%;
   }
   .content-intro {
-    font-size: 30px !important;
+    font-size: 26px !important;
   }
   .contact-wrapper {
     flex-direction: column;
