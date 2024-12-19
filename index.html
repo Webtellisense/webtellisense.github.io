@@ -19,6 +19,24 @@
 
 <body>
 
+    <!-- POPUP WINDOW -->
+    <div class="popup">
+        <div class="content-box">
+            <div class="close"></div>
+            <div class="img-box">
+                <img src="/assets/img/popimg.png" alt="">
+            </div>
+            <div class="cntnt">
+                <div>
+                    <h1>special offer</h1>
+                    <h2>80% <span>off</span></h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, nisi!</p>
+                    <a href="">get the deal</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- HEADER -->
     <header class="header" id="header">
         <div class="container">
@@ -414,6 +432,21 @@
     </script> -->
 
     <script>
+
+        const popup = document.querySelector('.popup');
+        const close = document.querySelector('.close');
+
+
+        window.onload = function () {
+            setTimeout(function () {
+                popup.style.display = "block"
+            },6000)
+        }
+
+        close.addEventListener('click', ()=>{
+            popup.style.display = "none"
+        })
+
         let menuBtn = document.querySelector('.toggle')
         let navList = document.querySelector('.nav-list')
 
