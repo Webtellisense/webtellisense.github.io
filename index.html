@@ -21,20 +21,36 @@
 
     <!-- POPUP WINDOW -->
     <div class="popup">
-        <div class="content-box">
-            <div class="close"></div>
-            <div class="img-box">
-                <img src="/assets/img/job-offer.gif" alt="">
+        <div class="parent-content">
+            <div class="content-box">
+                <div class="close"></div>
+                <div class="img-box">
+                    <img src="/assets/img/job-offer.gif" alt="">
+                </div>
+                <div class="cntnt">
+                    <div>
+                        <h1>special offer</h1>
+                        <h2>80% <span>off</span></h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, nisi!</p>
+                        <!-- <a href="">get the deal</a> -->
+                    </div>
+                </div>
             </div>
-            <div class="cntnt">
-                <div>
-                    <h1>special offer</h1>
-                    <h2>80% <span>off</span></h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, nisi!</p>
-                    <a href="">get the deal</a>
+            <div class="cntnt-form">
+                <input class="c-checkbox" type="checkbox" id="checkbox">
+                <div class="c-formContainer">
+                    <form class="c-form" action="">
+                        <input class="c-form__input" placeholder="E-mail" type="email"
+                            pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" required>
+                        <label class="c-form__buttonLabel" for="checkbox">
+                            <button class="c-form__button" type="button">Send</button>
+                        </label>
+                        <label class="c-form__toggle" for="checkbox" data-title="Notify me"></label>
+                    </form>
                 </div>
             </div>
         </div>
+
     </div>
 
     <!-- HEADER -->
