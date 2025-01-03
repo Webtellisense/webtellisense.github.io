@@ -258,7 +258,7 @@ section {
 }
 .content-box .cntnt {
   position: relative;
-  width: 300px;
+  width: 320px;
   height: 50%;
   display: flex;
   justify-content: center;
@@ -268,6 +268,7 @@ section {
 .content-box .cntnt h1 {
   text-transform: uppercase;
   font-weight: 900;
+  font-size: 20px;
 }
 .content-box .cntnt h2 {
   color: #333;

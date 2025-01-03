@@ -277,15 +277,18 @@ body {
 }
 
 .cardImg {
-  width: 31px;
-  height: 31px;
+  width: 51px;
+  object-fit: cover;
+  height: 51px;
 }
-
+.values-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: self-start;
+  justify-content: center;
+}
 .cardImgContainer {
-  padding-top: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
+  padding: 9px;
   border-top-width: 1px;
   border-right-width: 1px;
   border-bottom-width: 1px;
