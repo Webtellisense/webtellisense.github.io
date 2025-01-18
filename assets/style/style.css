@@ -867,12 +867,16 @@ header ul li a {
   line-height: 2.2rem;
 }
 .pricing .wrapper .pw-card {
-  /* max-width: 300px; */
+  max-width: 420px;
+  flex: 1;
   background-color: white;
   padding: 40px;
   margin: 30px 15px;
   border-radius: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.non-active{
+  /* max-height: 60vh; */
 }
 .pricing .wrapper .pw-card.active {
   background-color: var(--darkwebblue);
@@ -893,6 +897,11 @@ header ul li a {
 
 .pricing .wrapper .pw-card.active h1 span {
   color: whitesmoke;
+}
+.pricing .wrapper .pw-card h1 .h1-sub{
+  /* color: red; */
+  font-size: 8px;
+  text-transform: uppercase;
 }
 .pricing .wrapper .pw-card h3 {
   text-transform: uppercase;
