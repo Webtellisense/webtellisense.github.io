@@ -315,13 +315,13 @@ section {
     height: auto;
     flex-direction: column;
   }
-  .parent-content{
+  .parent-content {
     width: 300px;
   }
 
-.c-checkbox:checked + .c-formContainer .c-form {
-  width: 18em;
-}
+  .c-checkbox:checked + .c-formContainer .c-form {
+    width: 18em;
+  }
   .content-box .img-box {
     height: 200px;
     transform: translateY(-50px);
@@ -867,6 +867,7 @@ header ul li a {
   line-height: 2.2rem;
 }
 .pricing .wrapper .pw-card {
+  position: relative;
   max-width: 420px;
   flex: 1;
   background-color: white;
@@ -875,7 +876,23 @@ header ul li a {
   border-radius: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-.non-active{
+.pricing .wrapper .pw-card .pop-span {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: gold;
+  border-radius: 7px;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1px;
+  padding: 5px 10px;
+  border: 2px solid #01344e;
+}
+.pop-span i{
+  margin-right: 7px;
+}
+.non-active {
   /* max-height: 60vh; */
 }
 .pricing .wrapper .pw-card.active {
@@ -898,7 +915,7 @@ header ul li a {
 .pricing .wrapper .pw-card.active h1 span {
   color: whitesmoke;
 }
-.pricing .wrapper .pw-card h1 .h1-sub{
+.pricing .wrapper .pw-card h1 .h1-sub {
   /* color: red; */
   font-size: 8px;
   text-transform: uppercase;
