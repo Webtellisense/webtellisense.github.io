@@ -1000,14 +1000,20 @@ header ul li a {
     text-align: center;
     flex-direction: column;
     padding: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 35px;
   }
 
   .pricing .wrapper {
     flex-direction: column;
   }
   .pricing .wrapper .pw-card {
-    margin: 20px 0;
+    margin: 30px 0;
+  }
+
+  .pricing .wrapper .pw-card .pop-span {
+    font-weight: 800;
+    font-size: 12px;
+    padding: 5px 10px;
   }
 }
 
