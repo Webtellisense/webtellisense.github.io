@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webtellisense | 12-Month Interactive Roadmap</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Chosen Palette: Warm Neutral Harmony -->
+    <!-- Application Structure Plan: An interactive timeline dashboard. The primary navigation is a horizontal 12-month timeline representing the four phases. Clicking a phase dynamically updates a central content area, showing qualitative details (goals, activities) on one side and quantitative KPIs visualized with Chart.js on the other. This structure was chosen to transform a static, linear document into an engaging, explorable dashboard, allowing users to get a high-level overview and then drill down into specific periods, which is more intuitive and user-friendly for data consumption than simple scrolling. -->
+    <!-- Visualization & Content Choices: Phase 1 KPIs (completion) use bar charts to show 100% goals. Phase 2 (acquisition) uses a bar chart for client numbers and a doughnut chart for conversion rates to compare targets. Phase 3 (optimization) uses doughnut and bar charts to show retention and efficiency gains. Phase 4 (growth) uses a pie chart for client sources and a bar chart for revenue to visualize scaling. All choices use Chart.js (Canvas) to make abstract numbers tangible and interactive, directly supporting the dashboard structure. -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 400px;
+            max-height: 400px;
+        }
+
+        @media (max-width: 768px) {
+            .chart-container {
+                height: 350px;
+                max-height: 350px;
+            }
+        }
+
+        .timeline-item {
+            transition: all 0.3s ease-in-out;
+        }
+
+        .timeline-item.active {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+        }
+
+        .phase-content {
+            transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+        }
+
+        .phase-content.hidden {
+            opacity: 0;
+            transform: translateY(10px);
+            position: absolute;
+            pointer-events: none;
+        }
+    </style>
+</head>
+
+<body class="bg-amber-50 text-stone-800">
+
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold text-teal-800 mb-2">Webtellisense</h1>
+            <h2 class="text-xl md:text-2xl font-semibold text-stone-700 mb-4">12-Month Interactive Business Roadmap</h2>
+            <p class="max-w-3xl mx-auto text-stone-600">
+                This dashboard visualizes our objective: to build a stable, scalable, and profitable digital agency. We
+                bridge offline businesses into the digital space through branding, strategy, and accessible solutions.
+                Use the interactive timeline below to explore our strategic plan, phase by phase.
+            </p>
+        </header>
+
+        <main>
+            <section id="timeline-navigation" class="mb-12">
+                <h3 class="text-lg font-semibold text-center text-stone-700 mb-2">Explore the Roadmap</h3>
+                <p class="text-center text-stone-500 mb-8">Click on a phase to view its goals, activities, and key
+                    performance indicators.</p>
+                <div class="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-0 md:space-x-4">
+                    <div class="w-full h-1 bg-teal-200 rounded-full md:hidden"></div>
+                    <div id="timeline-container" class="w-full grid grid-cols-2 md:grid-cols-4 gap-4">
+                    </div>
+                </div>
+            </section>
+
+            <section id="content-display" class="relative">
+            </section>
+
+            <section id="quarterly-review" class="mt-16 bg-white rounded-xl shadow-lg p-8 border border-stone-200">
+                <h3 class="text-2xl font-bold text-teal-800 mb-4 text-center">Quarterly Review Process</h3>
+                <p class="text-center text-stone-600 mb-6 max-w-2xl mx-auto">To ensure our roadmap remains agile and
+                    effective, we conduct rigorous quarterly reviews. This process allows us to adapt to market
+                    feedback, optimize operations, and stay on track to achieve our long-term vision.</p>
+                <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-center">
+                    <li class="bg-amber-50 p-4 rounded-lg border border-amber-200">
+                        <span class="text-3xl mb-2 block">📊</span>
+                        <h4 class="font-semibold text-stone-700">Performance Review</h4>
+                        <p class="text-sm text-stone-500">Conduct internal performance review against goals.</p>
+                    </li>
+                    <li class="bg-amber-50 p-4 rounded-lg border border-amber-200">
+                        <span class="text-3xl mb-2 block">🎯</span>
+                        <h4 class="font-semibold text-stone-700">Evaluate KPIs</h4>
+                        <p class="text-sm text-stone-500">Evaluate KPIs across all active and past phases.</p>
+                    </li>
+                    <li class="bg-amber-50 p-4 rounded-lg border border-amber-200">
+                        <span class="text-3xl mb-2 block">🛠️</span>
+                        <h4 class="font-semibold text-stone-700">Refine Offers</h4>
+                        <p class="text-sm text-stone-500">Refine offers, pricing, and operational workflows.</p>
+                    </li>
+                    <li class="bg-amber-50 p-4 rounded-lg border border-amber-200">
+                        <span class="text-3xl mb-2 block">🗺️</span>
+                        <h4 class="font-semibold text-stone-700">Adjust Roadmap</h4>
+                        <p class="text-sm text-stone-500">Revisit roadmap and adjust for trends or feedback.</p>
+                    </li>
+                </ul>
+            </section>
+
+        </main>
+
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const roadmapData = {
+                1: {
+                    title: "Foundation & Identity",
+                    icon: "✅",
+                    months: "Months 1–2",
+                    goal: "Build brand identity, define services, and set operational structure.",
+                    activities: [
+                        "Finalize brand identity, voice, and design system",
+                        "Define core services and packages",
+                        "Build internal team & assign roles",
+                        "Create website & portfolio",
+                        "Set up operational systems"
+                    ],
+                    milestones: [
+                        "Brand book complete",
+                        "Website live with portfolio",
+                        "Core team fully onboarded",
+                        "2 pilot projects initiated"
+                    ],
+                    kpis: {
+                        labels: ["Brand Assets", "Team Structure", "Outreach Launch"],
+                        data: [100, 100, 100],
+                        description: "Key Performance Indicators for this phase focus on completion. Our goal is to ensure all foundational elements are 100% in place before moving to market entry."
+                    }
+                },
+                2: {
+                    title: "Market Entry & Client Acquisition",
+                    icon: "�",
+                    months: "Months 3–5",
+                    goal: "Acquire first 10 clients, test service delivery, and optimize process.",
+                    activities: [
+                        "Launch content marketing on social media",
+                        "Run targeted lead generation campaigns",
+                        "Test service delivery with diverse clients",
+                        "Collect testimonials & success stories"
+                    ],
+                    milestones: [
+                        "10+ leads generated monthly",
+                        "First 5 clients successfully converted",
+                        "Brand messaging refined from feedback",
+                        "Client delivery system fully tested"
+                    ],
+                    kpis: {
+                        labels: ['New Clients', 'Testimonials'],
+                        data: [10, 2],
+                        conversionRate: 20,
+                        engagementRate: 5,
+                        description: "This phase's KPIs measure our initial market traction. We are tracking client acquisition, conversion rates from our outreach efforts, and engagement with our content to validate our strategy."
+                    }
+                },
+                3: {
+                    title: "Optimization & Systems",
+                    icon: "⚖️",
+                    months: "Months 6–8",
+                    goal: "Refine delivery, increase client retention, and improve efficiency.",
+                    activities: [
+                        "Build SOPs for all core service delivery",
+                        "Automate client onboarding & reporting",
+                        "Expand team with freelance talent",
+                        "Create in-depth case studies"
+                    ],
+                    milestones: [
+                        "Client onboarding fully automated",
+                        "SOP library 80% complete",
+                        "Repeat client rate begins to rise",
+                        "First case studies published"
+                    ],
+                    kpis: {
+                        retention: 50,
+                        turnaroundReduction: 25,
+                        satisfaction: 8,
+                        description: "Here, we focus on internal efficiency and client happiness. KPIs track our ability to retain clients, reduce project delivery times, and maintain a high satisfaction score, ensuring a sustainable service model."
+                    }
+                },
+                4: {
+                    title: "Growth & Expansion",
+                    icon: "✨",
+                    months: "Months 9–12",
+                    goal: "Scale sustainably through stronger branding, new offers, and partnerships.",
+                    activities: [
+                        "Launch strategic partnerships",
+                        "Introduce new scalable services",
+                        "Explore affiliate/referral systems",
+                        "Position brand for event collaborations"
+                    ],
+                    milestones: [
+                        "Revenue targets consistently met",
+                        "Formal partner network established",
+                        "New scalable offer successfully launched",
+                        "Team capacity significantly increased"
+                    ],
+                    kpis: {
+                        referralRate: 20,
+                        revenueTargetMet: 100,
+                        socialGrowth: 100,
+                        satisfaction: 80,
+                        description: "The final phase measures our ability to scale. We monitor new client sources from partnerships, revenue growth, expanded brand reach, and continued high project satisfaction."
+                    }
+                }
+            };
+
+            let currentPhase = 1;
+            let currentChart = null;
+
+            const timelineContainer = document.getElementById('timeline-container');
+            const contentDisplay = document.getElementById('content-display');
+
+            function init() {
+                Object.keys(roadmapData).forEach(phaseKey => {
+                    const phase = roadmapData[phaseKey];
+
+                    const timelineItem = document.createElement('button');
+                    timelineItem.className = 'timeline-item text-left p-4 rounded-lg bg-white border border-stone-200 hover:shadow-lg hover:-translate-y-2 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500';
+                    timelineItem.dataset.phase = phaseKey;
+                    timelineItem.innerHTML = `
+                        <div class="flex items-start">
+                            <span class="text-2xl mr-3">${phase.icon}</span>
+                            <div>
+                                <p class="font-bold text-teal-700">${phase.title}</p>
+                                <p class="text-sm text-stone-500">${phase.months}</p>
+                            </div>
+                        </div>
+                    `;
+                    timelineContainer.appendChild(timelineItem);
+
+                    const phaseContent = document.createElement('div');
+                    phaseContent.id = `phase-${phaseKey}-content`;
+                    phaseContent.className = 'phase-content';
+                    phaseContent.innerHTML = `
+                        <div class="bg-white rounded-xl shadow-lg p-6 md:p-8 border border-stone-200">
+                             <div class="text-center mb-8">
+                                <span class="text-5xl">${phase.icon}</span>
+                                <h3 class="text-3xl font-bold text-teal-800 mt-2">Phase ${phaseKey}: ${phase.title}</h3>
+                                <p class="text-lg text-stone-600 font-medium mt-1">${phase.goal}</p>
+                            </div>
+                            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+                                <div class="space-y-6">
+                                    <div>
+                                        <h4 class="font-semibold text-lg text-stone-700 mb-2 border-b-2 border-amber-300 pb-1">Key Activities</h4>
+                                        <ul class="list-none space-y-2">
+                                            ${phase.activities.map(item => `<li class="flex items-start"><span class="text-teal-500 mr-2 mt-1">◆</span><span class="text-stone-600">${item}</span></li>`).join('')}
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-semibold text-lg text-stone-700 mb-2 border-b-2 border-amber-300 pb-1">Milestones</h4>
+                                        <ul class="list-none space-y-2">
+                                            ${phase.milestones.map(item => `<li class="flex items-start"><span class="text-teal-500 mr-2 mt-1">◆</span><span class="text-stone-600">${item}</span></li>`).join('')}
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-lg text-stone-700 mb-2 text-center">Key Performance Indicators</h4>
+                                    <p class="text-sm text-stone-500 text-center mb-4">${phase.kpis.description}</p>
+                                    <div class="chart-container">
+                                        <canvas id="chart-phase-${phaseKey}"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    contentDisplay.appendChild(phaseContent);
+                });
+
+                timelineContainer.addEventListener('click', (e) => {
+                    const button = e.target.closest('.timeline-item');
+                    if (button) {
+                        updateView(parseInt(button.dataset.phase));
+                    }
+                });
+
+                updateView(1);
+            }
+
+            function updateView(phaseNumber) {
+                if (currentChart) {
+                    currentChart.destroy();
+                }
+
+                currentPhase = phaseNumber;
+
+                document.querySelectorAll('.timeline-item').forEach(item => {
+                    if (parseInt(item.dataset.phase) === currentPhase) {
+                        item.classList.add('active', 'bg-teal-50', 'border-teal-300');
+                    } else {
+                        item.classList.remove('active', 'bg-teal-50', 'border-teal-300');
+                    }
+                });
+
+                document.querySelectorAll('.phase-content').forEach(content => {
+                    if (content.id === `phase-${currentPhase}-content`) {
+                        content.classList.remove('hidden');
+                    } else {
+                        content.classList.add('hidden');
+                    }
+                });
+
+                createChartForPhase(currentPhase);
+            }
+
+            function createChartForPhase(phaseNumber) {
+                const ctx = document.getElementById(`chart-phase-${phaseNumber}`).getContext('2d');
+                const kpiData = roadmapData[phaseNumber].kpis;
+                const chartOptions = {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { position: 'bottom' },
+                        tooltip: {
+                            backgroundColor: '#1f2937',
+                            titleColor: '#ffffff',
+                            bodyColor: '#ffffff',
+                            padding: 10,
+                            cornerRadius: 4
+                        }
+                    },
+                    scales: {
+                        y: { beginAtZero: true, max: 100 },
+                        x: { ticks: { autoSkip: false, maxRotation: 0 } }
+                    }
+                };
+
+                switch (phaseNumber) {
+                    case 1:
+                        currentChart = new Chart(ctx, {
+                            type: 'bar',
+                            data: {
+                                labels: kpiData.labels,
+                                datasets: [{
+                                    label: '% Complete',
+                                    data: kpiData.data,
+                                    backgroundColor: ['#2dd4bf', '#5eead4', '#99f6e4'],
+                                    borderColor: '#0d9488',
+                                    borderWidth: 1
+                                }]
+                            },
+                            options: chartOptions
+                        });
+                        break;
+                    case 2:
+                        currentChart = new Chart(ctx, {
+                            type: 'bar',
+                            data: {
+                                labels: ['New Clients (Target)', 'Testimonials (Target)', 'Conversion Rate (%)', 'Engagement Rate (%)'],
+                                datasets: [{
+                                    label: 'Value',
+                                    data: [kpiData.data[0], kpiData.data[1], kpiData.conversionRate, kpiData.engagementRate],
+                                    backgroundColor: ['#0d9488', '#2dd4bf', '#5eead4', '#99f6e4'],
+                                    borderColor: '#042f2e',
+                                    borderWidth: 1
+                                }]
+                            },
+                            options: { ...chartOptions, scales: { y: { beginAtZero: true, max: 25 } } }
+                        });
+                        break;
+                    case 3:
+                        currentChart = new Chart(ctx, {
+                            type: 'bar',
+                            data: {
+                                labels: ['Client Retention (%)', 'Turnaround Reduction (%)', 'Satisfaction (out of 10)'],
+                                datasets: [{
+                                    label: 'KPI Value',
+                                    data: [kpiData.retention, kpiData.turnaroundReduction, kpiData.satisfaction * 10],
+                                    backgroundColor: ['#0d9488', '#2dd4bf', '#5eead4'],
+                                    borderColor: '#042f2e',
+                                    borderWidth: 1
+                                }]
+                            },
+                            options: chartOptions
+                        });
+                        break;
+                    case 4:
+                        currentChart = new Chart(ctx, {
+                            type: 'pie',
+                            data: {
+                                labels: ['Referral/Partner Clients', 'Other Acquisition'],
+                                datasets: [{
+                                    label: '% of New Clients',
+                                    data: [kpiData.referralRate, 100 - kpiData.referralRate],
+                                    backgroundColor: ['#0d9488', '#99f6e4'],
+                                    borderColor: '#ffffff',
+                                    borderWidth: 2
+                                }]
+                            },
+                            options: { ...chartOptions, scales: {} }
+                        });
+                        break;
+                }
+            }
+
+            init();
+        });
+    </script>
+</body>
+
+</html>
+�
