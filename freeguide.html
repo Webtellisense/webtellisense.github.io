@@ -52,6 +52,9 @@
 </head>
 
 <body>
+
+
+
     <!-- Hero Section -->
     <section class="hero">
         <div class="container">
@@ -168,7 +171,10 @@
                 <h2>Where should we send your <br><span style="color: #667eea;">FREE checklist?</span></h2>
             </div>
 
-            <form id="leadForm" onsubmit="handleSubmit(event)">
+            <form id="leadForm" name="lead-magnet" method="POST" data-netlify="true" onsubmit="handleSubmit(event)">
+                <!-- Netlify form detection -->
+                <input type="hidden" name="form-name" value="lead-magnet" />
+
                 <div class="form-group">
                     <label for="fullName">Full Name *</label>
                     <input type="text" id="fullName" name="fullName" required placeholder="Enter your full name">
@@ -192,9 +198,8 @@
                 </div>
 
                 <div class="success-message">
-                    <h3>🎉 Success! Check your email!</h3>
-                    <p>Your free checklist is on its way to your inbox. Don't forget to check your spam folder just in
-                        case.</p>
+                    <h3>🎉 Success! Redirecting to WhatsApp...</h3>
+                    <p>Your form has been submitted successfully. You'll be redirected to WhatsApp in a moment.</p>
                 </div>
 
                 <div class="trust-indicators">
@@ -222,7 +227,7 @@
             document.getElementById('leadModal').style.display = 'block';
             document.body.style.overflow = 'hidden';
 
-            // Track modal open event (replace with your analytics)
+            // Track modal open event
             if (typeof gtag !== 'undefined') {
                 gtag('event', 'modal_open', {
                     'event_category': 'lead_magnet',
@@ -254,56 +259,75 @@
             const successMessage = form.querySelector('.success-message');
 
             // Get form data
-            const formData = {
-                fullName: document.getElementById('fullName').value,
-                email: document.getElementById('email').value,
-                whatsapp: document.getElementById('whatsapp').value
-            };
+            const formData = new FormData(form);
+            const fullName = formData.get('fullName');
+            const email = formData.get('email');
+            const whatsapp = formData.get('whatsapp').replace(/\D/g, ''); // Remove non-digits
 
             // Show loading
             submitBtn.style.display = 'none';
             loading.style.display = 'block';
 
             try {
-                // Replace this with your actual form submission logic
-                // This could be a webhook, API call, or email service
+                // Submit to Netlify
+                const response = await fetch('/', {
+                    method: 'POST',
+                    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                    body: new URLSearchParams(formData).toString()
+                });
 
-                // Simulate API call
-                await new Promise(resolve => setTimeout(resolve, 2000));
+                if (response.ok) {
+                    // Track conversion
+                    if (typeof gtag !== 'undefined') {
+                        gtag('event', 'form_submit', {
+                            'event_category': 'lead_magnet',
+                            'event_label': 'checklist_download',
+                            'value': 1
+                        });
+                    }
 
-                // Track conversion (replace with your analytics)
-                if (typeof gtag !== 'undefined') {
-                    gtag('event', 'form_submit', {
-                        'event_category': 'lead_magnet',
-                        'event_label': 'checklist_download',
-                        'value': 1
-                    });
+                    // Facebook Pixel tracking
+                    if (typeof fbq !== 'undefined') {
+                        fbq('track', 'Lead');
+                    }
+
+                    // Show success message
+                    loading.style.display = 'none';
+                    successMessage.style.display = 'block';
+
+                    // Create WhatsApp message
+                    const whatsappMessage = encodeURIComponent(
+                        `Hi! I just downloaded your free checklist. My details are:\n\n` +
+                        `Name: ${fullName}\n` +
+                        `Email: ${email}\n\n` +
+                        `Looking forward to receiving the checklist!`
+                    );
+
+                    // Clean WhatsApp number (remove + and spaces)
+                    const cleanWhatsApp = whatsapp.startsWith('234') ? whatsapp : '234' + whatsapp.replace(/^0/, '');
+
+                    // Your WhatsApp number (replace with your actual number)
+                    const businessWhatsApp = '2347075848564'; // Replace with your number
+
+                    // Create WhatsApp URL
+                    const whatsappUrl = `https://wa.me/${businessWhatsApp}?text=${whatsappMessage}`;
+
+                    // Reset form
+                    form.reset();
+
+                    // Redirect to WhatsApp after 3 seconds
+                    setTimeout(() => {
+                        window.open(whatsappUrl, '_blank');
+                        closeModal();
+                        successMessage.style.display = 'none';
+                        submitBtn.style.display = 'block';
+                    }, 3000);
+
+                    console.log('Form submitted successfully to Netlify');
+
+                } else {
+                    throw new Error('Network response was not ok');
                 }
-
-                // Facebook Pixel tracking (if you have it)
-                if (typeof fbq !== 'undefined') {
-                    fbq('track', 'Lead');
-                }
-
-                // Show success message
-                loading.style.display = 'none';
-                successMessage.style.display = 'block';
-
-                // Reset form
-                form.reset();
-
-                // Close modal after 3 seconds
-                setTimeout(() => {
-                    closeModal();
-                    successMessage.style.display = 'none';
-                    submitBtn.style.display = 'block';
-                }, 3000);
-
-                // Here you would typically:
-                // 1. Send the data to your email marketing platform
-                // 2. Trigger an email with the checklist
-                // 3. Add the lead to your CRM
-                console.log('Form submitted:', formData);
 
             } catch (error) {
                 console.error('Form submission error:', error);
