@@ -19,13 +19,12 @@
     <link rel="stylesheet" href="assets/css/guide.css">
 
 
-    <!-- Meta Pixel -->
     <!-- Meta Pixel Code -->
     <script>
         !function (f, b, e, v, n, t, s) {
             if (f.fbq) return; n = f.fbq = function () {
                 n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
             };
             if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
             n.queue = []; t = b.createElement(e); t.async = !0;
@@ -33,11 +32,11 @@
             s.parentNode.insertBefore(t, s)
         }(window, document, 'script',
             'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '623478247158411');
+        fbq('init', '806267492040936');
         fbq('track', 'PageView');
     </script>
     <noscript><img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=623478247158411&ev=PageView&noscript=1" /></noscript>
+            src="https://www.facebook.com/tr?id=806267492040936&ev=PageView&noscript=1" /></noscript>
     <!-- End Meta Pixel Code -->
 
     <!-- Google tag (gtag.js) -->
@@ -297,10 +296,7 @@
 
                     // Create WhatsApp message
                     const whatsappMessage = encodeURIComponent(
-                        `Hi! I just downloaded your free checklist. My details are:\n\n` +
-                        `Name: ${fullName}\n` +
-                        `Email: ${email}\n\n` +
-                        `Looking forward to receiving the checklist!`
+                        `Hi, I'm ${fullName}, and I'm interested in the free guide`
                     );
 
                     // Clean WhatsApp number (remove + and spaces)
