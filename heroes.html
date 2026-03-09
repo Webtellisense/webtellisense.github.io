@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>₦200,000 Webtellisense Business Heroes Challenge</title>
+    <!-- Favicon (All Formats for Cross-Browser Support) -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Canonical URL (Avoid Duplicate Content Issues) -->
+    <link rel="canonical" href="https://webtellisense.com">
+
+    <!-- Preload Critical Resources (Faster Loading) -->
+    <link rel="preload" href="./assets/style/style.css" as="style">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" as="style">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Font CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            color: #2d3748;
+            /* background: #f7fafc; */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            font-weight: 800;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .hero .subtitle {
+            font-size: 24px;
+            margin-bottom: 30px;
+            opacity: 0.95;
+        }
+
+        .hero .dates {
+            font-size: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 15px 30px;
+            border-radius: 50px;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: #48bb78;
+            color: white;
+            padding: 18px 40px;
+            font-size: 20px;
+            font-weight: 700;
+            text-decoration: none;
+            border-radius: 50px;
+            margin-top: 20px;
+            transition: transform 0.2s;
+        }
+
+        .cta-button:hover {
+            transform: scale(1.05);
+        }
+
+        .section {
+            padding: 60px 20px;
+        }
+
+        .section h2 {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 30px;
+            text-align: center;
+            color: #1a202c;
+        }
+
+        .prizes {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .prize-card {
+            background: linear-gradient(to bottom, #f7fafc, #ffffff);
+            border: 3px solid #e2e8f0;
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .prize-card:hover {
+            transform: translateY(-10px);
+            border-color: #667eea;
+        }
+
+        .prize-card.first {
+            border-color: #ffd700;
+            background: linear-gradient(to bottom, #fffbeb, #ffffff);
+        }
+
+        .prize-card.second {
+            border-color: #c0c0c0;
+        }
+
+        .prize-card.third {
+            border-color: #cd7f32;
+        }
+
+        .prize-icon {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        .prize-title {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: #2d3748;
+        }
+
+        .prize-amount {
+            font-size: 36px;
+            font-weight: 800;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .prize-description {
+            font-size: 16px;
+            color: #4a5568;
+            line-height: 1.5;
+        }
+
+        .how-it-works {
+            background: #f7fafc;
+        }
+
+        .steps {
+            display: grid;
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .step {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            border-left: 5px solid #667eea;
+        }
+
+        .step-number {
+            background: #667eea;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 20px;
+            flex-shrink: 0;
+        }
+
+        .step-content h3 {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #2d3748;
+        }
+
+        .step-content p {
+            color: #4a5568;
+            font-size: 16px;
+        }
+
+        .rules {
+            background: white;
+        }
+
+        .rules-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .rule-box {
+            background: #f7fafc;
+            padding: 25px;
+            border-radius: 15px;
+            border: 2px solid #e2e8f0;
+        }
+
+        .rule-box h3 {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: #667eea;
+        }
+
+        .rule-box ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .rule-box li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+            color: #4a5568;
+        }
+
+        .rule-box li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #48bb78;
+            font-weight: 700;
+        }
+
+        .scoring {
+            background: #f7fafc;
+        }
+
+        .score-breakdown {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            margin-top: 40px;
+            border: 3px solid #667eea;
+        }
+
+        .score-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+            border-bottom: 2px solid #e2e8f0;
+        }
+
+        .score-item:last-child {
+            border-bottom: none;
+        }
+
+        .score-label {
+            font-size: 18px;
+            font-weight: 600;
+            color: #2d3748;
+        }
+
+        .score-value {
+            font-size: 28px;
+            font-weight: 800;
+            color: #667eea;
+        }
+
+        .timeline {
+            background: white;
+        }
+
+        .timeline-items {
+            margin-top: 40px;
+        }
+
+        .timeline-item {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .timeline-date {
+            background: #667eea;
+            color: white;
+            padding: 15px 20px;
+            border-radius: 10px;
+            font-weight: 700;
+            min-width: 140px;
+            text-align: center;
+        }
+
+        .timeline-content {
+            flex: 1;
+            background: #f7fafc;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .timeline-content h3 {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #2d3748;
+        }
+
+        .faq {
+            background: #f7fafc;
+        }
+
+        .faq-item {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            border: 2px solid #e2e8f0;
+        }
+
+        .faq-question {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: #2d3748;
+        }
+
+        .faq-answer {
+            color: #4a5568;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .final-cta {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .final-cta h2 {
+            font-size: 42px;
+            font-weight: 800;
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        .final-cta p {
+            font-size: 20px;
+            margin-bottom: 30px;
+            opacity: 0.95;
+        }
+
+        .footer {
+            background: #1a202c;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 32px;
+            }
+
+            .hero .subtitle {
+                font-size: 18px;
+            }
+
+            .section h2 {
+                font-size: 28px;
+            }
+
+            .prizes {
+                grid-template-columns: 1fr;
+            }
+
+            .timeline-item {
+                flex-direction: column;
+            }
+
+            .timeline-date {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container position-relative d-flex align-items-center">
+
+        <a href="index.html" class="logo d-flex align-items-center me-auto">
+            <img src="./assets/img/webtillisenselogo.svg" height="40" width="40" alt="Webtellisense Logo">
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+            <ul>
+                <li><a href="index.html#hero" class="active">Home</a></li>
+                <li class="dropdown"><a href="about.html"><span>About Us</span> <i
+                            class="bi bi-chevron-down toggle-dropdown"></i></a>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="reviews.html">Reviews</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="about.html"><span>Services</span> <i
+                            class="bi bi-chevron-down toggle-dropdown"></i></a>
+                    <ul class="sub-menu">
+                        <li><a href="web-design.html">web design</a></li>
+                        <li><a href="graphics-design.html">graphics design</a></li>
+                        <li><a href="brand-identity.html">brand identity</a></li>
+                        <li><a href="social-media-management.html">social media management</a></li>
+                    </ul>
+                </li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+        <div class="header-social-links">
+            <a href="https://www.facebook.com/profile.php?id=61569413316306" class="facebook"><i
+                    class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/webtellisense?igsh=Y21jZHpxcWlqNWZm" class="instagram"><i
+                    class="bi bi-instagram"></i></a>
+            <a href="https://maps.app.goo.gl/Hx2cDWJcLzEJef4Z6" class="google"><i class="bi bi-google"></i></a>
+        </div>
+
+    </div>
+</header>
+
+<body>
+    <div class="container">
+        <!-- HERO SECTION -->
+        <div class="hero">
+            <h1>₦200,000 Business Heroes Challenge</h1>
+            <p class="subtitle">Transform Your Business in 30 Days + Win Cash Prizes</p>
+            <div class="dates">📅 March 15 - April 13, 2025</div>
+            <p style="font-size: 18px; margin-top: 20px;">100% FREE to Join • Real Results • Real Prizes</p>
+            <a href="#join" class="cta-button">JOIN THE CHALLENGE</a>
+        </div>
+
+        <!-- PRIZES SECTION -->
+        <div class="section">
+            <h2>💰 Win Up to ₦200,000 in Cash + Services</h2>
+            <div class="prizes">
+                <div class="prize-card first">
+                    <div class="prize-icon">🥇</div>
+                    <div class="prize-title">1st Place</div>
+                    <div class="prize-amount">₦50,000</div>
+                    <div class="prize-description">+ Free Webtellisense Consultation<br>(₦50,000 value)</div>
+                </div>
+
+                <div class="prize-card second">
+                    <div class="prize-icon">🥈</div>
+                    <div class="prize-title">2nd Place</div>
+                    <div class="prize-amount">₦30,000</div>
+                    <div class="prize-description">+ Free Website Design Consultation<br>(₦30,000 value)</div>
+                </div>
+
+                <div class="prize-card third">
+                    <div class="prize-icon">🥉</div>
+                    <div class="prize-title">3rd Place</div>
+                    <div class="prize-amount">₦20,000</div>
+                    <div class="prize-description">+ Free Month of Social Media Content<br>(₦20,000 value)</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- HOW IT WORKS -->
+        <div class="section how-it-works">
+            <h2>🎯 How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Follow & Register</h3>
+                        <p>Follow @<a href="https://www.facebook.com/profile.php?id=100006870970406">Ephraim Etuk</a> +
+                            @ <a href="https://www.facebook.com/profile.php?id=61569413316306">Webtellisense</a> on
+                            Facebook. Comment "I'M IN 🔥" on the March 15 launch post. That's it—you're registered!</p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Complete Daily Tasks (30 Days)</h3>
+                        <p>Every day at 9am, we post one simple task (5-15 minutes each). Tasks include: optimizing your
+                            Google presence, creating better content, building credibility, attracting customers.</p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Post Your Results</h3>
+                        <p>After completing each task, post your result on YOUR feed/story, tag @ <a
+                                href="https://www.facebook.com/profile.php?id=100006870970406">Ephraim Etuk</a> +
+                            @Webtellisense, use #WebtellisenseHeroes, and comment "DONE Day X ✅" on our post.</p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Submit Weekly Check-Ins</h3>
+                        <p>Every Sunday, fill out a quick Google Form with links to your week's tasks. This is how we
+                            track your progress.</p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h3>Win Prizes + Transform Your Business</h3>
+                        <p>Top 3 participants with highest scores win cash + services. But everyone who completes the
+                            challenge walks away with a transformed business.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- RULES -->
+        <div class="section rules">
+            <h2>📋 Challenge Rules</h2>
+            <div class="rules-grid">
+                <div class="rule-box">
+                    <h3>To Participate</h3>
+                    <ul>
+                        <li>Follow @<a href="https://www.facebook.com/profile.php?id=100006870970406">Ephraim Etuk</a> +
+                            @<a href="https://www.facebook.com/profile.php?id=61569413316306">Webtellisense</a></li>
+                        <li>Be a business owner (any business type)</li>
+                        <li>Complete minimum 20 out of 30 tasks</li>
+                        <li>Tag us in all your posts</li>
+                        <li>Submit weekly check-in forms</li>
+                        <li>Stay following until April 14</li>
+                    </ul>
+                </div>
+
+                <div class="rule-box">
+                    <h3>How to Post Tasks</h3>
+                    <ul>
+                        <li>Post results on YOUR account</li>
+                        <li>Tag @<a href="https://www.facebook.com/profile.php?id=100006870970406">Ephraim Etuk</a> +
+                            @<a href="https://www.facebook.com/profile.php?id=61569413316306">Webtellisense</a> in post
+                        </li>
+                        <li>Use #WebtellisenseHeroes</li>
+                        <li>Comment "DONE Day X ✅" on our post</li>
+                        <li>Original work only (no copying)</li>
+                    </ul>
+                </div>
+
+                <div class="rule-box">
+                    <h3>Disqualification</h3>
+                    <ul>
+                        <li>Unfollowing before April 19</li>
+                        <li>Cheating (fake screenshots, plagiarism)</li>
+                        <li>Not tagging us in posts</li>
+                        <li>Completing under 20 tasks</li>
+                        <li>Abusive/spammy behavior</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- SCORING -->
+        <div class="section scoring">
+            <h2>🏆 How Winners Are Chosen</h2>
+            <div class="score-breakdown">
+                <div class="score-item">
+                    <div class="score-label">Task Completion (30 tasks max)</div>
+                    <div class="score-value">60 pts</div>
+                </div>
+                <div class="score-item">
+                    <div class="score-label">Quality of Work (creativity, professionalism, improvement)</div>
+                    <div class="score-value">30 pts</div>
+                </div>
+                <div class="score-item">
+                    <div class="score-label">Bonus Points (engagement, referrals)</div>
+                    <div class="score-value">10 pts</div>
+                </div>
+                <div class="score-item"
+                    style="background: #f7fafc; margin-top: 20px; padding: 15px; border-radius: 10px;">
+                    <div class="score-label" style="font-size: 24px;">TOTAL POSSIBLE SCORE</div>
+                    <div class="score-value" style="font-size: 42px;">100 pts</div>
+                </div>
+            </div>
+            <p style="text-align: center; margin-top: 30px; font-size: 18px; color: #4a5568;">
+                Top 3 highest scores win the prizes. Judging happens April 14-18. Winners announced April 19.
+            </p>
+        </div>
+
+        <!-- TIMELINE -->
+        <div class="section timeline">
+            <h2>📅 Important Dates</h2>
+            <div class="timeline-items">
+                <div class="timeline-item">
+                    <div class="timeline-date">March 15<br>9:00 AM</div>
+                    <div class="timeline-content">
+                        <h3>Challenge Starts + Registration Opens</h3>
+                        <p>Launch post goes live. Comment "I'M IN 🔥" to register. Day 1 task posted at 9:15am.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">March 15 -<br>April 13</div>
+                    <div class="timeline-content">
+                        <h3>30 Days of Tasks</h3>
+                        <p>Daily tasks posted at 9am. Complete, post your results, submit weekly forms every Sunday.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">April 13<br>11:59 PM</div>
+                    <div class="timeline-content">
+                        <h3>Final Submissions Deadline</h3>
+                        <p>Last day to complete tasks and submit your final weekly form. After this, no more entries
+                            accepted.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">April 14-18</div>
+                    <div class="timeline-content">
+                        <h3>Judging Period</h3>
+                        <p>We review all entries, score submissions, and determine Top 3 winners.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">April 19</div>
+                    <div class="timeline-content">
+                        <h3>Winners Announced! 🎉</h3>
+                        <p>Winners revealed via Instagram/Facebook Live. Cash prizes transferred within 7 days. Service
+                            prizes delivered within 14 days.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQ -->
+        <div class="section faq">
+            <h2>❓ Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <div class="faq-question">Is this really free?</div>
+                <div class="faq-answer">YES. ₦0 to join. ₦0 to participate. No hidden fees. We're giving away ₦100,000
+                    in cash + ₦100,000 in services completely free.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Do I need technical skills?</div>
+                <div class="faq-answer">No! If you can send a WhatsApp message, you can do these tasks. Everything is
+                    beginner-friendly and explained step-by-step.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">How much time does each task take?</div>
+                <div class="faq-answer">5-15 minutes per day. That's it. You scroll social media for 2 hours daily—this
+                    is 15 minutes to actually GROW your business.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">What if I miss a day?</div>
+                <div class="faq-answer">You can catch up! As long as you complete minimum 20 out of 30 tasks by April
+                    13, you qualify for prizes. Quality matters more than perfection.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">What if I don't win a prize?</div>
+                <div class="faq-answer">You still walk away with: 30 days of free training, a transformed business,
+                    skills that will make you money for years, and a real online presence. The prize is a bonus—the
+                    knowledge is the real win.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Can I join if I don't have a business yet?</div>
+                <div class="faq-answer">This challenge is specifically for existing business owners (even if your
+                    business is brand new or small). If you're planning to start soon, join anyway and get ahead!</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">How are winners chosen?</div>
+                <div class="faq-answer">Objective scoring: Task completion (60%), Quality of work (30%), Bonus points
+                    (10%). Top 3 scores win. Judges' decision is final.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">When do I get my prize if I win?</div>
+                <div class="faq-answer">Cash transferred within 7 days of announcement (April 17-24). Service prizes
+                    (consultation, website help, content calendar) scheduled and delivered within 14 days.</div>
+            </div>
+        </div>
+
+        <!-- FINAL CTA -->
+        <div class="final-cta" id="join">
+            <h2>Ready to Transform Your Business?</h2>
+            <p>Join 100+ business owners growing together.</p>
+            <p style="font-size: 28px; font-weight: 700; margin: 30px 0;">Registration Opens: March 15, 2025 at 9:00 AM
+            </p>
+            <p style="font-size: 18px; margin-bottom: 30px;">
+                <strong>How to Join:</strong><br>
+                1. Follow @<a href="https://www.facebook.com/profile.php?id=100006870970406">Ephraim Etuk</a> + @<a
+                    href="https://www.facebook.com/profile.php?id=61569413316306">Webtellisense</a><br>
+                2. Watch for the launch post on March 15 at 9am<br>
+                3. Comment "I'M IN 🔥" on that post<br>
+                4. You're registered!
+            </p>
+            <a href="https://instagram.com/[YourHandle]" class="cta-button">FOLLOW NOW TO GET NOTIFIED</a>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="footer">
+            <p style="margin-bottom: 20px; font-size: 18px;">
+                <strong>Powered by Webtellisense</strong><br>
+                Digital Growth Solutions for Nigerian Businesses
+            </p>
+            <p style="margin-bottom: 20px;">
+                📱 Facebook: <a href="https://www.facebook.com/profile.php?id=100006870970406">@Ephraim Etuk</a> | <a
+                    href="https://instagram.com/Webtellisense">@Webtellisense</a><br>
+                📘 Facebook: Webtellisense<br>
+                💬 WhatsApp: 0707 584 8564<br>
+                🌐 Website: www.webtellisense.com
+            </p>
+            <p style="font-size: 14px; opacity: 0.7; margin-top: 30px;">
+                <a href="#terms">Terms & Conditions</a> | <a href="#privacy">Privacy Policy</a><br>
+                © 2026 Webtellisense Consult. All rights reserved.
+            </p>
+        </div>
+
+
+    </div>
+</body>
+
+<footer id="footer" class="footer dark-background">
+
+    <div class="container footer-top">
+        <div class="row gy-4">
+            <div class="col-lg-4 col-md-6 footer-about">
+                <a href="index.html" class="logo d-flex align-items-center">
+                    <span class="sitename">Webtellisense</span>
+                </a>
+                <div class="footer-contact pt-3">
+                    <p>KM15 Ikot Ibiok</p>
+                    <p>Eket, Akwa Ibom State</p>
+                    <p class="mt-3"><strong>Phone:</strong> <span>+234 707 584 8564</span></p>
+                    <p><strong>Email:</strong> <span>webtellisense@gmail.com</span></p>
+                </div>
+                <div class="social-links d-flex mt-4">
+                    <a href="https://www.facebook.com/profile.php?id=61569413316306" class="facebook"><i
+                            class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/webtellisense?igsh=Y21jZHpxcWlqNWZm" class="instagram"><i
+                            class="bi bi-instagram"></i></a>
+                    <a href="https://maps.app.goo.gl/Hx2cDWJcLzEJef4Z6" class="google"><i class="bi bi-google"></i></a>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 footer-links">
+                <h4>Useful Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="#">Terms of service</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-2 col-md-3 footer-links">
+                <h4>Our Services</h4>
+                <ul>
+                    <li><a href="web-design.html">Web Design</a></li>
+                    <li><a href="brand-identity">Brand Identity</a></li>
+                    <li><a href="graphics-design.html">Graphic Design</a></li>
+                    <li><a href="social-media-management">Social Media Management</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-4 col-md-12 footer-newsletter">
+                <h4>Our Newsletter</h4>
+                <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+                <form name="contact" method="POST" netlify>
+                    <div class="newsletter-form"><input type="email" name="email"><input type="submit"
+                            value="Subscribe"></div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Webtellisense Consult</strong> <span>All Rights
+                Reserved</span></p>
+        <div class="credits">
+            Designed by <a href="https://webtellisense.com/">Webtellisense</a>
+        </div>
+    </div>
+
+</footer>
+
+<!-- Scroll Top -->
+<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
+
+<!-- Preloader -->
+<!-- <div id="preloader"></div> -->
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+<!-- Main JS File -->
+<script src="assets/js/main.js"></script>
+
+</html>
