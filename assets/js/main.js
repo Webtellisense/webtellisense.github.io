@@ -262,4 +262,24 @@
   }
 
   window.addEventListener("load", initSwiper);
+
+  /**
+   * Init image animation on business audit tool page
+   */
+  const cards = document.querySelectorAll(".wt-card");
+
+  cards.forEach((card, index) => {
+    card.animate(
+      [
+        { transform: "translateY(0px)" },
+        { transform: "translateY(-12px)" },
+        { transform: "translateY(0px)" },
+      ],
+      {
+        duration: 4000 + index * 500,
+        iterations: Infinity,
+        easing: "ease-in-out",
+      }
+    );
+  });
 })();

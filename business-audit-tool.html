@@ -9,7 +9,7 @@
   <!-- Primary Meta Tags (SEO Critical) -->
   <title>Webtellisense | Eket’s Top Web Design & Digital Marketing Agency</title>
   <meta name="description"
-    content="Webtellisense: Eket’s leading digital agency for fast, affordable & high-converting websites. Web design, SEO & branding that grows your business.">
+    content="Webtellisense: Eket, Akwa Ibom, Nigeria's leading digital agency for fast, affordable & high-converting websites. Web design, SEO & branding that grows your business.">
   <meta name="keywords"
     content="web design Eket, digital agency Nigeria, affordable SEO, website development, branding">
 
@@ -45,9 +45,34 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- Meta Pixel -->
+  <!-- Meta Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '623478247158411');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=623478247158411&ev=PageView&noscript=1" /></noscript>
+  <!-- End Meta Pixel Code -->
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PS5FNQCJRN"></script>
@@ -59,12 +84,13 @@
     gtag('config', 'G-PS5FNQCJRN');
   </script>
 
+  <!-- Meta Pixel Code 1v -->
   <!-- Meta Pixel Code -->
   <script>
     !function (f, b, e, v, n, t, s) {
       if (f.fbq) return; n = f.fbq = function () {
         n.callMethod ?
-        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
       };
       if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
       n.queue = []; t = b.createElement(e); t.async = !0;
@@ -81,7 +107,7 @@
 
 </head>
 
-<body class="pricing-page">
+<body class="index-page">
 
   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container position-relative d-flex align-items-center">
@@ -92,23 +118,13 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html#hero">Home</a></li>
+          <li><a href="index.html#hero" class="active">Home</a></li>
           <li class="dropdown"><a href="about.html"><span>About Us</span> <i
                 class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="about.html">About Us</a></li>
               <li><a href="faq.html">FAQ</a></li>
               <li><a href="reviews.html">Reviews</a></li>
-              <!-- <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
-                    class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li> -->
             </ul>
           </li>
           <li class="dropdown"><a href="about.html"><span>Services</span> <i
@@ -117,9 +133,10 @@
               <li><a href="web-design.html">web design</a></li>
               <li><a href="graphics-design.html">graphics design</a></li>
               <li><a href="brand-identity.html">brand identity</a></li>
+              <li><a href="social-media-management.html">social media management</a></li>
             </ul>
           </li>
-          <li><a href="pricing.html" class="active">Pricing</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
           <li><a href="blog.html">Blog</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
@@ -139,89 +156,79 @@
 
   <main class="main">
 
-    <!-- Page Title -->
-    <div class="page-title accent-background">
-      <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Pricing</h1>
-        <nav class="breadcrumbs">
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">Pricing</li>
-          </ol>
-        </nav>
+    <!-- Hero Section -->
+    <section id="hero audit-hero" class="audit-sec hero section dark-background">
+
+      <div id="hero-carousel" class="audit-carousel carousel slide carousel-fade" data-bs-ride="carousel"
+        data-bs-interval="5000">
+
+        <div class="carousel-item active">
+          <img src="assets/img/audit-banner.jpg" alt="Nigerian business owner smiling at computer">
+          <div class="container">
+            <h2 class="hero-sub-h">BUSINESS AUDIT TOOL</h2>
+            <!-- <p>For just <strong>₦75,000/month</strong>, we design, build, and manage your <strong>website, social media,
+                and branding</strong>—so you get 3x more leads without the hassle. <span class="highlight">First month
+                50% off!</span></p>
+            <a href="contact.html" class="button-57">
+              <span class="text">Claim Your Discount</span>
+              <span>₦15K Today →</span>
+            </a> -->
+          </div>
+        </div><!-- End Carousel Item -->
+
       </div>
-    </div><!-- End Page Title -->
 
-    <!-- Pricing Section -->
-    <!-- Pricing Section -->
-    <section id="pricing" class="pricing section">
-      <div class="container">
-        <div class="row gy-4">
+    </section>
+    <!-- /Hero Section -->
 
-          <!-- Starter Plan -->
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="pricing-item">
-              <h3>Starter Plan</h3>
-              <p class="description">Perfect for micro-businesses and new entrepreneurs.</p>
-              <h4><sup>₦</sup>75,000<span> / month</span></h4>
-              <a href="#" class="cta-btn">Get Started</a>
-              <p class="text-center small">6-month contract (₦450k total)</p>
-              <ul>
-                <li><i class="bi bi-check"></i> <span>5-Page Website (WordPress, mobile-optimized)</span></li>
-                <li><i class="bi bi-check"></i> <span>Basic SEO + Google My Business Setup</span></li>
-                <li><i class="bi bi-check"></i> <span>10 Social Media Graphics/Month (static)</span></li>
-                <li><i class="bi bi-check"></i> <span>8 Social Media Posts/Month (caption + posting)</span></li>
-                <li><i class="bi bi-check"></i> <span>1 Lead Magnet Design (e.g., flyer, promo graphic)</span></li>
-                <li><i class="bi bi-check"></i> <span>Email Support (48-hour response)</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>No paid ads or advanced analytics</span></li>
-              </ul>
-            </div>
-          </div><!-- End Pricing Item -->
 
-          <!-- Growth Plan (Featured) -->
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
-            <div class="pricing-item featured">
-              <p class="popular">Most Popular</p>
-              <h3>Growth Plan</h3>
-              <p class="description">For established SMBs ready to scale.</p>
-              <h4><sup>₦</sup>150,000<span> / month</span></h4>
-              <a href="#" class="cta-btn">Start Scaling</a>
-              <p class="text-center small">3-month contract (₦450k total)</p>
-              <ul>
-                <li><i class="bi bi-check"></i> <span>10-Page Website + Speed Optimization</span></li>
-                <li><i class="bi bi-check"></i> <span>Advanced SEO + Google Ads Setup</span></li>
-                <li><i class="bi bi-check"></i> <span>20 Social Media Graphics + 2 Reels/Month</span></li>
-                <li><i class="bi bi-check"></i> <span>AI-Powered Chatbot (lead generation)</span></li>
-                <li><i class="bi bi-check"></i> <span>Basic Social Media Management (IG + FB)</span></li>
-                <li><i class="bi bi-check"></i> <span>Monthly Analytics Report</span></li>
-                <li><i class="bi bi-check"></i> <span>Weekly Strategy Call</span></li>
-              </ul>
-            </div>
-          </div><!-- End Pricing Item -->
+    <iframe src="/audit.html" style="width:100%;border:none;min-height:800px" id="audit-frame">
+    </iframe>
 
-          <!-- Premium Plan -->
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
-            <div class="pricing-item">
-              <h3>Premium Plan</h3>
-              <p class="description">For high-ticket clients (real estate, healthcare, luxury).</p>
-              <h4><sup>₦</sup>300,000<span>+ / month</span></h4>
-              <a href="#" class="cta-btn">Contact Us</a>
-              <p class="text-center small">1-month trial, then 3-month contract</p>
-              <ul>
-                <li><i class="bi bi-check"></i> <span>Custom Website (20+ pages, UX design)</span></li>
-                <li><i class="bi bi-check"></i> <span>Full Social Media Management (IG, FB, LinkedIn)</span></li>
-                <li><i class="bi bi-check"></i> <span>30 Graphics + 4 Reels + 2 Blog Posts/Month</span></li>
-                <li><i class="bi bi-check"></i> <span>Paid Ads Management (10% of ad spend)</span></li>
-                <li><i class="bi bi-check"></i> <span>Dedicated Account Manager</span></li>
-                <li><i class="bi bi-check"></i> <span>Bi-Weekly Strategy Sessions</span></li>
-                <li><i class="bi bi-check"></i> <span>Priority Support (24-hour response)</span></li>
-              </ul>
-            </div>
-          </div><!-- End Pricing Item -->
+    <!-- CTA SECTION -->
+    <section class="wt-cta-section">
+      <div class="wt-cta-overlay"></div>
 
+      <div class="wt-cta-content">
+        <h2>
+          Join successful business owners
+          growing with Webtellisense
+        </h2>
+
+        <p>
+          Websites, SEO, content, ads, funnels — everything your business needs to
+          stay visible and convert customers consistently.
+        </p>
+
+        <a href="https://wa.me/2347075848564" target="_blank" class="wt-cta-btn">
+          Message Us on WhatsApp
+        </a>
+      </div>
+
+      <!-- Floating cards -->
+      <div class="wt-cta-cards">
+        <div class="wt-card wt-card-1">
+          <img src="/assets/img/join-us-1.jpg" alt="" />
+        </div>
+
+        <div class="wt-card wt-card-2">
+          <img src="/assets/img/join-us-2.jpg" alt="" />
+        </div>
+
+        <div class="wt-card wt-card-3">
+          <img src="/assets/img/join-us-3.jpg" alt="" />
+        </div>
+
+        <div class="wt-card wt-card-4">
+          <img src="/assets/img/join-us.jpg" alt="" />
+        </div>
+
+        <div class="wt-card wt-card-5">
+          <img src="/assets/img/join-us-11.jpg" alt="" />
         </div>
       </div>
-    </section><!-- /Pricing Section -->
+    </section>
+
 
   </main>
 
@@ -272,11 +279,8 @@
         <div class="col-lg-4 col-md-12 footer-newsletter">
           <h4>Our Newsletter</h4>
           <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
-          <form action="forms/newsletter.php" method="post" class="php-email-form">
+          <form name="contact" method="POST" netlify>
             <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your subscription request has been sent. Thank you!</div>
           </form>
         </div>
 
@@ -296,6 +300,16 @@
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
+
+  <script>
+    window.addEventListener('message', function (e) {
+      if (e.data.type === 'audit-height') {
+        document.getElementById('audit-frame').style.height = e.data.height + 'px';
+      }
+    });
+  </script>
+
+
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
