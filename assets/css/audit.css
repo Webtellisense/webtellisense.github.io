@@ -27,6 +27,8 @@
     text-transform: uppercase;
     color: var(--heading-color);
   }
+
+ 
   
   .header .logo span {
     color: var(--accent-color);

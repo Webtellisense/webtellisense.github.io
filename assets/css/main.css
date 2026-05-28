@@ -876,9 +876,16 @@ section,
 .audit-hero .carousel {
   min-height: calc(70vh - 75px) !important;
 }
+@media (max-width: 768px) {
+  .audit-carousel .carousel-item {
+    min-height: 25vh;
+    padding: 100px 20px 60px;
+  }
+}
 .audit-carousel {
   min-height: calc(70vh - 75px) !important;
 }
+
 .audit-sec .container .hero-sub-h {
   /* color: var(--heading-color); */
   text-transform: uppercase;
@@ -930,6 +937,71 @@ section,
     max-width: 15ch !important;
     margin: 0 0 1rem 0 !important;
     position: relative;
+  }
+}
+
+/* HERO SECTION */
+.audit-sec {
+  position: relative;
+  min-height: 70vh;
+  overflow: hidden;
+}
+
+/* carousel item */
+.audit-carousel .carousel-item {
+  min-height: 70vh;
+  position: relative;
+}
+
+/* hero image */
+.audit-carousel .carousel-item img {
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+  object-position: center top;
+}
+
+/* content */
+.audit-sec .container {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  padding: 120px 20px 60px;
+}
+
+/* heading */
+.hero-sub-h {
+  color: #fff;
+  font-size: 5rem;
+  font-weight: 800;
+  line-height: 0.95;
+  margin: 0;
+}
+
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+  .audit-sec,
+  .audit-carousel .carousel-item,
+  .audit-carousel .carousel-item img {
+    min-height: 35vh;
+    height: 35vh;
+  }
+
+  .audit-sec .container {
+    padding: 80px 20px 40px;
+  }
+
+  .hero-sub-h {
+    font-size: 3rem;
+    line-height: 1;
   }
 }
 
