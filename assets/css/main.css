@@ -160,8 +160,14 @@ h6 {
   line-height: 1;
 }
 
+.main-logo {
+  height: 80px !important;
+  width: 80px !important;
+  object-fit: cover;
+}
+
 .header .logo img {
-  max-height: 36px;
+  /* max-height: 36px; */
   margin-right: 8px;
 }
 
@@ -694,6 +700,30 @@ h6 {
   opacity: 1;
 }
 
+/* WhatsApp Floating Button */
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 65px;
+  right: 25px;
+  background: #25d366;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  text-decoration: none;
+  z-index: 9999;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp-float:hover {
+  color: #fff;
+  transform: scale(1.05);
+}
+
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
@@ -984,10 +1014,8 @@ section,
   margin: 0;
 }
 
-
 /* MOBILE */
 @media (max-width: 768px) {
-
   .audit-sec,
   .audit-carousel .carousel-item,
   .audit-carousel .carousel-item img {
@@ -1491,6 +1519,61 @@ section,
 .portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
   bottom: 0;
+}
+
+/* CTA SECTION */
+.audit-cta-section {
+  background: #f5f1e8;
+  padding: 100px 20px;
+  border-radius: 12px;
+  font-family: var(--secondary-font);
+  /* margin: 60px 0; */
+}
+
+.audit-cta-card {
+  max-width: 650px;
+  margin: 0 auto;
+  background: #fff;
+  text-align: center;
+  padding: 40px;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.08);
+}
+
+.audit-stars {
+  color: #f4b400;
+  font-size: 4rem;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.audit-cta-card h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 10px;
+}
+
+.audit-cta-card p {
+  color: #6b7280;
+  font-size: 0.95rem;
+  margin-bottom: 25px;
+}
+
+.audit-btn {
+  display: inline-block;
+  background: #f4a000;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 28px;
+  border-radius: 999px;
+  font-weight: 600;
+  transition: .3s ease;
+}
+
+.audit-btn:hover {
+  background: #d98e00;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
