@@ -1,63 +1,107 @@
 /**
 * Website For: Webtellisense
 * Website URL: https://webtellisense.com
-* Updated: May 08 2025
+* Updated: June 2026 (refactored)
 * Author: Ephraim Etuk
 */
 
-/* Fonts */
+/* =========================
+   1. TYPOGRAPHY
+========================= */
+
 :root {
-  --default-font: "Oswald", sans-serif;
-  --heading-font: "Oswald", sans-serif;
-  --nav-font: "Nunito", sans-serif;
-  --secondary-font: "Open Sans", sans-serif;
+  --font-primary: "Montserrat", sans-serif;
+  --font-secondary: "Campton", sans-serif;
 }
 
-/* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
+/* Load Campton properly */
+@font-face {
+  font-family: "Campton";
+  src: url("../fonts/CamptonLight.otf") format("opentype");
+  font-weight: 300 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Optional utility style */
+.eyebrow {
+  font-family: var(--font-secondary);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-primary-2);
+}
+
+/* =========================
+   2. BRAND COLOR SYSTEM
+========================= */
+
 :root {
-  --background-color: #ffffff; /* White background */
-  --default-color: #444444; /* Dark gray (body text) */
-  --heading-color: #01344e; /* Dark blue (headings) */
-  --accent-color: #37697e; /* Medium blue (buttons, links) */
-  --surface-color: #f8fafc; /* Off-white (cards, boxes) */
-  --contrast-color: #ffffff; /* White (text on dark backgrounds) */
+  /* Core Brand */
+  --color-primary-1: #01033e; /* deep navy (main dark) */
+  --color-primary-2: #0331b0; /* strong blue */
+  --color-primary-3: #0033ff; /* bright accent blue */
+
+  /* Neutrals */
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-gray-100: #f4f4f4;
+  --color-gray-200: #d4d6e2;
+
+  /* Semantic UI colors */
+  --color-text: #1a1a1a;
+  --color-background: var(--color-white);
+  --color-surface: var(--color-gray-100);
 }
 
-/* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
+/* =========================
+   3. UI SEMANTIC COLORS
+   (maps brand → usage)
+========================= */
+
 :root {
-  --nav-color: #01344e; /* Dark blue (nav links) */
-  --nav-hover-color: #37697e; /* Medium blue (hover) */
-  --nav-mobile-background-color: #ffffff;
-  --nav-dropdown-background-color: #ffffff;
-  --nav-dropdown-color: #01344e; /* Dark blue (dropdown text) */
-  --nav-dropdown-hover-color: #37697e;
+  --text-color: var(--color-text);
+  --heading-color: var(--color-primary-1);
+
+  --accent-color: var(--color-primary-2);
+  --link-color: var(--color-primary-3);
+
+  --nav-color: var(--color-primary-1);
+  --nav-hover-color: var(--color-primary-2);
+
+  --nav-bg: var(--color-white);
+  --dropdown-bg: var(--color-white);
+  --dropdown-text: var(--color-primary-1);
 }
 
-/* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
+/* =========================
+   4. THEMING HELPERS
+========================= */
 
-.light-background {
-  --background-color: #f7f7f7;
-  --surface-color: #ffffff;
+.light-theme {
+  --color-background: var(--color-white);
+  --color-surface: var(--color-gray-100);
+  --text-color: var(--color-text);
 }
 
-/* .dark-background {
-  --background-color: #060606;
-  --default-color: #ffffff;
-  --heading-color: #ffffff;
-  --surface-color: #252525;
-  --contrast-color: #ffffff;
-} */
-
-.accent-background {
-  --background-color: #01344e; /* Dark blue */
-  --default-color: #ffffff; /* White text */
-  --heading-color: #ffffff;
-  --accent-color: #37697e; /* Medium blue (buttons) */
-  --surface-color: #286584b3; /* Light blue (translucent cards) */
-  --contrast-color: #ffffff;
+.dark-theme {
+  --color-background: var(--color-primary-1);
+  --color-surface: #0b0f2f;
+  --text-color: var(--color-white);
 }
 
-/* Smooth scroll */
+/* Accent section override */
+.accent-section {
+  --color-background: var(--color-primary-1);
+  --text-color: var(--color-white);
+  --accent-color: var(--color-primary-3);
+}
+
+/* =========================
+   5. GLOBAL BEHAVIOR
+========================= */
+
 :root {
   scroll-behavior: smooth;
 }
@@ -68,7 +112,7 @@
 body {
   color: var(--default-color);
   background-color: var(--background-color);
-  font-family: var(--default-font);
+  font-family: var(--font-primary);
 }
 
 a {
@@ -82,6 +126,14 @@ a:hover {
   text-decoration: none;
 }
 
+section {
+  padding: 96px 0;
+}
+
+.section-header {
+  margin-bottom: 56px;
+}
+
 h1,
 h2,
 h3,
@@ -89,7 +141,7 @@ h4,
 h5,
 h6 {
   color: var(--heading-color);
-  font-family: var(--heading-font);
+  font-family: var(--font-primary);
 }
 
 /* PHP Email Form Messages
@@ -161,8 +213,8 @@ h6 {
 }
 
 .main-logo {
-  height: 80px !important;
-  width: 80px !important;
+  height: 60px !important;
+  width: 60px !important;
   object-fit: cover;
 }
 
@@ -499,13 +551,13 @@ h6 {
   font-size: 26px;
   font-weight: 700;
   letter-spacing: 1px;
-  font-family: var(--heading-font);
+  font-family: var(--font-primary);
   color: var(--heading-color);
 }
 
 .footer .footer-about p {
   font-size: 14px;
-  font-family: var(--heading-font);
+  font-family: var(--font-primary);
 }
 
 .footer .social-links a {
@@ -1441,7 +1493,7 @@ section,
   margin-bottom: 5px;
   border-radius: 4px;
   transition: all 0.3s ease-in-out;
-  font-family: var(--heading-font);
+  font-family: var(--font-primary);
 }
 
 .portfolio .portfolio-filters li:hover,
@@ -1537,7 +1589,7 @@ section,
   text-align: center;
   padding: 40px;
   border-radius: 18px;
-  box-shadow: 0 10px 25px rgba(0,0,0,.08);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 }
 
 .audit-stars {
@@ -1568,7 +1620,7 @@ section,
   padding: 12px 28px;
   border-radius: 999px;
   font-weight: 600;
-  transition: .3s ease;
+  transition: 0.3s ease;
 }
 
 .audit-btn:hover {
@@ -1633,7 +1685,7 @@ section,
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: var(--heading-font);
+  font-family: var(--font-primary);
 }
 
 .skills .progress .skill .val {
@@ -2244,7 +2296,7 @@ section,
   color: var(--accent-color);
   font-size: 48px;
   font-weight: 700;
-  font-family: var(--heading-font);
+  font-family: var(--font-primary);
   margin-bottom: 0;
 }
 
@@ -2271,7 +2323,7 @@ section,
   border-radius: 5px;
   font-size: 16px;
   font-weight: 500;
-  font-family: var(--heading-font);
+  font-family: var(--font-primary);
   transition: 0.3s;
   margin-top: 20px;
   margin-bottom: 6px;
@@ -3261,4 +3313,390 @@ section,
   .wt-cta-btn {
     width: 100%;
   }
+}
+
+/* SERVICE(S) PAGES */
+/* ─── HERO ─── */
+.services-hero {
+  position: relative;
+  background-image: url("../img/hero-carousel/service-hero2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--light-background-color);
+  color: var(--white);
+  padding: 120px 0 100px;
+  overflow: hidden;
+}
+
+.services-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.85) 0%,
+    rgba(0, 0, 0, 0.53) 45%,
+    rgba(0, 0, 0, 0.25) 100%
+  );
+
+  z-index: 1;
+}
+
+.services-hero-inner {
+  position: relative;
+  z-index: 2;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: end;
+}
+
+.services-hero-left {
+}
+
+.services-hero h1 {
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  letter-spacing: 2px;
+  font-weight: 800;
+  margin-top: 20px;
+  line-height: 1.1;
+  color: white;
+}
+
+.services-hero h1 em {
+  font-style: normal;
+  color: #0331b0;
+}
+
+.services-hero-desc {
+  font-size: 1.05rem;
+  color: white;
+  margin-top: 24px;
+  max-width: 480px;
+  line-height: 1.7;
+}
+
+.services-hero-cta {
+  display: inline-block;
+  margin-top: 36px;
+  background: var(--ember);
+  color: var(--white);
+  text-decoration: none;
+  font-family: var(--nav-font);
+  font-weight: 700;
+  font-size: 0.95rem;
+  padding: 14px 32px;
+  transition: background 0.2s;
+}
+
+.services-hero-cta:hover {
+  background: #c93e0f;
+}
+
+.services-hero-right {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-bottom: 6px;
+}
+
+.services-hero-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: Campton;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border-left: 2px solid #333;
+  padding-left: 14px;
+  transition:
+    color 0.2s,
+    border-color 0.2s;
+}
+
+.services-hero-tag:hover {
+  color: #0331b0;
+  border-color: var(--ember);
+}
+
+.services-hero-tag.active {
+  font-size: 1rem;
+  color: #0331b0;
+  border-color: var(--ember);
+}
+
+.sh-2 {
+  font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+  font-weight: 800;
+  margin-top: 12px;
+}
+
+/* ─── HEROES SECTION ─── */
+.heroes-section {
+  background-color: var(--color-primary-1);
+  color: var(--white);
+}
+
+.heroes-section .eyebrow {
+  color: var(--ember);
+  font-family: var(--font-secondary);
+}
+
+.heroes-section .section-header h2 {
+  color: var(--white);
+}
+
+.heroes-section .section-header p {
+  color: #888;
+}
+
+.tiers-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+  background: #222;
+  margin-top: 48px;
+}
+
+.tier-card {
+  background: #111;
+  padding: 44px 36px;
+  position: relative;
+}
+
+.tier-card.featured {
+  background: var(--color-primary-3);
+}
+
+.tier-badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #555;
+  margin-bottom: 16px;
+}
+
+.tier-card.featured .tier-badge {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.tier-name {
+  font-family: var(--font-primary);
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 8px;
+}
+
+.tier-subtitle {
+  font-size: 0.82rem;
+  color: #666;
+  margin-bottom: 28px;
+  font-weight: 500;
+}
+
+.tier-card.featured .tier-subtitle {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.tier-includes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 32px;
+}
+
+.tier-includes li {
+  font-size: 0.9rem;
+  color: #777;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.tier-card.featured .tier-includes li {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.tier-includes li::before {
+  content: "✓";
+  color: var(--color-primary-3);
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.tier-card.featured .tier-includes li::before {
+  color: white;
+}
+
+.tier-cta {
+  display: inline-block;
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 13px 28px;
+  text-decoration: none;
+  letter-spacing: 0.04em;
+  transition: all 0.2s;
+}
+
+.tier-cta-outline {
+  border: 1px solid #333;
+  color: #888;
+}
+
+.tier-cta-outline:hover {
+  border-color: var(--ember);
+  color: var(--color-primary-3);
+}
+
+.tier-cta-solid {
+  background: white;
+  color: var(--color-primary-3);
+}
+
+.tier-cta-solid:hover {
+  background: black;
+  color: white;
+}
+
+@media (max-width: 900px) {
+  .tiers-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ─── WHY US ─── */
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px;
+  margin-top: 56px;
+}
+
+.why-item {
+}
+
+.why-number {
+  font-family: var(--font-secondary);
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: var(--color-primary-3);
+  line-height: 1;
+  margin-bottom: 12px;
+}
+
+.why-item h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.why-item p {
+  font-size: 0.92rem;
+  color: var(--slate);
+  line-height: 1.7;
+}
+
+@media (max-width: 600px) {
+  .why-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+
+/* ─── LOCAL SEO COPY SECTION ─── */
+.local-section {
+  background: var(--color-gray-100);
+}
+
+.local-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.local-copy h2 {
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  font-weight: 800;
+  margin-top: 12px;
+  line-height: 1.2;
+}
+
+.local-copy p {
+  color: var(--slate);
+  font-size: 1rem;
+  line-height: 1.75;
+  margin-top: 20px;
+}
+
+.local-copy p + p {
+  margin-top: 16px;
+}
+
+.local-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2px;
+  background: var(--divider);
+}
+
+.stat-box {
+  background: var(--color-gray-200);
+  padding: 32px 28px;
+}
+
+.stat-value {
+  font-family: var(--font-secondary);
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--color-primary-2);
+  line-height: 1;
+}
+
+.stat-label {
+  font-size: 0.85rem;
+  color: black;
+  margin-top: 8px;
+  line-height: 1.5;
+}
+
+/* ─── FAQ ─── */
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  border-top: 1px solid var(--divider);
+  margin-top: 48px;
+}
+
+.faq-item {
+  border-bottom: 1px solid var(--divider);
+  padding: 28px 0;
+}
+
+.faq-q {
+  font-family: var(--font-secondary);
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  cursor: default;
+}
+
+.faq-a {
+  font-size: 0.95rem;
+  color: black;
+  line-height: 1.75;
+  max-width: 720px;
 }

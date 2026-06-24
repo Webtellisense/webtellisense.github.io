@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        @layer reset, base, composition, features, utilities;
+
+@import "https://cdn.jsdelivr.net/npm/kiso.css@latest/kiso.css" layer(reset);
+
+@layer features {
+  @scope (.scope.product-cards) to (.scope) {
+    :scope {
+      container: --scope / inline-size;
+    }
+
+    ._card-list {
+      & > * {
+        grid-row: span 5;
+      }
+    }
+
+    ._card {
+      --_accent: var(--product-card--accent, #c34a36);
+      --_row-gap: 0.25rlh;
+      --_padding: 16px;
+      --_radius: 40px;
+      --_accent-contrast: oklch(from var(--_accent) sign(0.7 - l) 0 0);
+      --_inner-radius: calc(var(--_radius) - var(--_padding));
+      --_category-radius: 16px;
+      --_duration: 350ms;
+      --_has-hocus-on: ;
+      --_has-hocus-off: initial;
+
+      display: block grid;
+      reading-flow: grid-rows;
+      grid-template-columns:
+        [--full-start --heading-start]
+        minmax(0, 1fr)
+        [--heading-end --price-start]
+        max-content
+        [--price-end --full-end];
+      grid-template-rows: subgrid;
+      gap: var(--_row-gap) 1rem;
+      padding: var(--_padding);
+      border-radius: var(--_radius);
+      box-shadow: 0 20px 40px -14px oklch(from black l c h / 25%);
+      background-color: var(--card-background);
+      color: var(--card-foreground);
+      zoom: min(progress(100cqi, 0px, 320 / 16 * 1rem), 1);
+
+      &:has(:any-link:hover) {
+        @media (any-hover) {
+          --_has-hocus-on: initial;
+          --_has-hocus-off: ;
+        }
+      }
+
+      &:has(:focus-visible) {
+        --_has-hocus-on: initial;
+        --_has-hocus-off: ;
+      }
+
+      & > * {
+        grid-column: --full;
+      }
+
+      & > ._thumbnail-stack {
+        grid-row: 1 / 2;
+      }
+
+      & > ._category {
+        z-index: 1;
+        grid-row: 1 / 2;
+        place-self: start;
+        max-inline-size: calc(
+          100% - (var(--_category-radius) + var(--_inner-radius))
+        );
+      }
+
+      & > ._heading {
+        grid-column: --heading;
+        align-self: center;
+      }
+
+      & > ._price {
+        grid-column: --price;
+        place-self: center end;
+      }
+    }
+
+    ._thumbnail-stack {
+      display: block grid;
+
+      & > img {
+        grid-area: 1 / 1;
+        inline-size: 100%;
+      }
+    }
+
+    img {
+      aspect-ratio: 1;
+      border-radius: var(--_inner-radius);
+      filter: url(#svg-inset-shadow);
+
+      @media (prefers-reduced-motion: no-preference) {
+        transition-property: clip-path;
+        transition-duration: var(--_duration);
+        transition-timing-function: var(--_has-hocus-on, var(--ease-out-expo))
+          var(--_has-hocus-off, var(--ease-in-expo));
+      }
+
+      :nth-child(1 of &) {
+        filter: brightness(0.8) grayscale(1);
+      }
+
+      :nth-child(2 of &) {
+        @media (any-hover) {
+          clip-path: var(--_has-hocus-on, inset(0 round var(--_inner-radius)))
+            var(--_has-hocus-off, inset(100% round var(--_inner-radius)));
+        }
+      }
+    }
+
+    ._heading {
+      padding-block: calc(var(--_row-gap) * 2);
+    }
+
+    ._price {
+      padding-block: 0.5em;
+      padding-inline: 1em;
+      border-radius: calc(infinity * 1px);
+      background-color: var(--_accent);
+      color: var(--_accent-contrast);
+      font-variant-numeric: tabular-nums;
+    }
+
+    ._category {
+      position: relative;
+      align-content: center;
+      min-block-size: calc(var(--_category-radius) * 2);
+      padding-block: 1em;
+      padding-inline: 1.5em;
+      border-end-end-radius: var(--_category-radius);
+      background-color: var(--card-background);
+      filter: drop-shadow(6px 6px 3px oklch(from black l c h / 15%));
+
+      &::before,
+      &::after {
+        content: "";
+        position: absolute;
+        block-size: var(--_category-radius);
+        aspect-ratio: 1;
+        mask-image: radial-gradient(
+          circle at 100% 100%,
+          transparent var(--_category-radius),
+          red calc(var(--_category-radius) + 1px)
+            /* ギザギザを防止するために 1px 加える */
+        );
+        background-color: inherit;
+      }
+
+      &::before {
+        inset-block-start: 0;
+        inset-inline-start: 100%;
+      }
+
+      &::after {
+        inset-block-start: 100%;
+        inset-inline-start: 0;
+      }
+    }
+
+    /* ._tag-list {
+      padding-block: calc(var--_row-gap);
+    } */
+
+    ._tag {
+      margin: 20px 0;
+      padding-block: 0.5em;
+      padding-inline: 1em;
+      border-radius: calc(infinity * 1px);
+      background-color: oklch(from var(--_accent) 90% 25% h);
+      font-size: 0.75rem;
+    }
+  }
+
+  @scope (.scope.purchase-button) to (.scope) {
+    :scope {
+      --_background: var(--purchase-button--background, var(--color-darker));
+      --_backgorund-hocus: oklch(from var(--_background) 60% 60% h);
+      --_foreground: var(--purchase-button--foreground, var(--color-lightest));
+      --_foreground-hocus: oklch(
+        from var(--_backgorund-hocus) sign(0.7 - l) 0 0
+      );
+      --_hocus-on: ;
+      --_hocus-off: initial;
+
+      display: block flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 1ch;
+      padding: 1em;
+      border: 1px solid transparent; /* for Forced Colors Mode */
+      border-radius: calc(infinity * 1px);
+      background-color: var(--_hocus-on, var(--_backgorund-hocus))
+        var(--_hocus-off, var(--_background));
+      color: var(--_hocus-on, var(--_foreground-hocus))
+        var(--_hocus-off, var(--_foreground));
+      font-weight: bolder;
+      transition-property: background-color, color;
+      transition-duration: 300ms;
+
+      &::before {
+        content: "";
+        flex: 0 0 1em;
+        mask-image: var(--icon-cart);
+        mask-repeat: no-repeat;
+        mask-position: center;
+        mask-size: contain;
+        aspect-ratio: 1;
+        background-color: CanvasText; /* for Forced Colors Mode */
+        background-image: conic-gradient(
+          currentcolor 0 0
+        ); /* for Forced Colors Mode */
+      }
+
+      &:any-link:hover {
+        @media (any-hover) {
+          --_hocus-on: initial;
+          --_hocus-off: ;
+        }
+      }
+
+      &:focus-visible {
+        --_hocus-on: initial;
+        --_hocus-off: ;
+      }
+    }
+  }
+}
+
+@layer composition {
+  .grid {
+    --_c-fill-mode: var(--grid--fill-mode, auto-fit);
+    --_c-row-gap: var(--grid--row-gap, 1.5rem);
+    --_c-column-gap: var(--grid--column-gap, 1.5rem);
+    --_c-column-max-count: var(--grid--column-max-count, 5);
+    --_c-column-min-width: var(--grid--column-min-width, 20rem);
+    --_c-column-width-calculated: calc(
+      (100% - var(--_c-column-gap) * (var(--_c-column-max-count) - 1)) /
+        var(--_c-column-max-count)
+    );
+    --_c-column-width: min(
+      100%,
+      max(var(--_c-column-min-width), var(--_c-column-width-calculated))
+    );
+
+    display: block grid;
+    grid-template-columns: repeat(
+      var(--_c-fill-mode),
+      minmax(var(--_c-column-width), 1fr)
+    );
+    gap: var(--_c-row-gap) var(--_c-column-gap);
+  }
+
+  .cluster {
+    --_c-main-alignment: var(--cluster--main-alignment, start);
+    --_c-cross-alignment: var(--cluster--cross-alignment, center);
+    --_c-gap: var(--cluster--gap, 1rem);
+
+    /* display: block flex; */
+    flex-wrap: wrap;
+    gap: var(--_c-gap);
+    justify-content: var(--_c-main-alignment);
+    align-items: var(--_c-cross-alignment);
+  }
+}
+
+@layer utilities {
+  .-fluid-text {
+    --_fluid-text--min-width: var(--fluid-text--min-width, 375);
+    --_fluid-text--max-width: var(--fluid-text--max-width, 1280);
+    --_fluid-text--min-font-size: var(--fluid-text--min-font-size, 14);
+    --_fluid-text--max-font-size: var(--fluid-text--max-font-size, 16);
+    --_fluid-text--base-font-size: var(--fluid-text--base-font-size, 16);
+    --_fluid-text--relative-unit: var(
+      --fluid-text--relative-unit,
+      100svi
+    ); /* 100svi or 100cqi */
+    --_fluid-text--slope: calc(
+      (var(--_fluid-text--max-font-size) - var(--_fluid-text--min-font-size)) /
+        (var(--_fluid-text--max-width) - var(--_fluid-text--min-width))
+    );
+    --_fluid-text--intercept: calc(
+      var(--_fluid-text--min-font-size) - var(--_fluid-text--slope) *
+        var(--_fluid-text--min-width)
+    );
+    --_fluid-text--font-size: clamp(
+      var(--_fluid-text--min-font-size) / var(--_fluid-text--base-font-size) *
+        1rem,
+      var(--_fluid-text--slope) * var(--_fluid-text--relative-unit) +
+        var(--_fluid-text--intercept) / var(--_fluid-text--base-font-size) *
+        1rem,
+      var(--_fluid-text--max-font-size) / var(--_fluid-text--base-font-size) *
+        1rem
+    );
+
+    font-size: var(--_fluid-text--font-size);
+  }
+
+  .-trim-both {
+    text-box: trim-both cap alphabetic;
+
+    &:lang(ja) {
+      text-box: trim-both text;
+    }
+  }
+
+  .-line-clamp {
+    --_limit: var(--line-clamp--limit, 3);
+
+    display: -webkit-box;
+    overflow-block: clip;
+    -webkit-box-orient: block-axis;
+    -webkit-line-clamp: var(--_limit);
+
+    @supports not (overflow-block: clip) {
+      overflow-y: clip;
+    }
+  }
+}
+
+@layer base {
+  :root {
+    --card-foreground: var(--color-darkest);
+    --card-background: var(--color-lightest);
+    --ease-in-expo: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+    --ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
+    --ease-in-out-expo: cubic-bezier(1, 0, 0, 1);
+    --_background: #fcfcfc;
+    --_grid-color: #efefef;
+
+    background-position:
+      -2px -2px,
+      -2px -2px,
+      -1px -1px,
+      -1px -1px;
+    background-size:
+      50px 50px,
+      50px 50px,
+      10px 10px,
+      10px 10px;
+    color: var(--color-darkest);
+    font-family: Montserrat, sans-serif;
+    line-height: 1.618;
+  }
+
+  body {
+    padding-block: 2rlh;
+    padding-inline: max(24px, 5%);
+
+    @supports (position-anchor: --test) {
+      &::before {
+        content: "";
+        position: fixed;
+        inset: anchor(inside);
+        z-index: calc(infinity);
+        position-anchor: --focus-anchor;
+        margin: -8px;
+        border: 2px solid CanvasText;
+        border-radius: 8px;
+        box-shadow: 0 0 0 2px Canvas;
+        background-color: color-mix(in oklab, Mark 10%, transparent);
+        pointer-events: none;
+
+        @media (prefers-reduced-motion: no-preference) {
+          transition-duration: 200ms;
+          transition-property: inset;
+          transition-timing-function: linear;
+          transition-behavior: allow-discrete;
+        }
+      }
+
+      &:not(:has(:focus-visible))::before {
+        visibility: hidden;
+      }
+    }
+
+    & > * {
+      max-inline-size: 80rem;
+      margin-inline: auto;
+    }
+  }
+
+  :where(:focus-visible) {
+    @supports (position-anchor: --test) {
+      anchor-name: --focus-anchor;
+      outline: none;
+    }
+  }
+
+  :where(h1, h2, h3, h4, h5, h6) {
+    line-height: 1.25;
+  }
+
+  img {
+    display: block flow;
+    object-fit: cover;
+  }
+}
+
+@property --color-darkest {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #444;
+}
+
+@property --color-darker {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #696969;
+}
+
+@property --color-dark {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #999;
+}
+
+@property --color-light {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #ccc;
+}
+
+@property --color-lighter {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #ececec;
+}
+
+@property --color-lightest {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: oklch(from #ececec calc(l + 0.05) c h);
+}
+
+@property --icon-cart {
+  syntax: "<url>";
+  inherits: false;
+  initial-value: url('data:image/svg+xml,<svg viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg"><path fill="red" d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0 5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5L488 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-288.3 0c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5L24 48C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" /></svg>');
+}
+
+    </style>
+</head>
+
+<body>
+    <main>
+        <!-- ─── SERVICES ─── -->
+        <section id="services" aria-label="All services">
+
+            <div class="container">
+                <div class="scope product-cards | -fluid-text">
+                    <div class="_card-list | grid" style=" --grid--fill-mode: var(--product-cards--fill-mode, auto-fill);
+      --grid--row-gap: var(--product-cards--gap, 1.5rem);
+      --grid--column-gap: var(--product-cards--gap, 1.5rem);
+      --grid--column-max-count: var(--product-cards--column-max-count, 4);
+      --grid--column-min-width: var(--product-cards--column-min-width, 20rem);">
+
+                        <section class="_card">
+                            <h2 class="_heading | -fluid-text -trim-both" style="--fluid-text--min-font-size: 16;
+      --fluid-text--max-font-size: 24;">Brand Identity Design</h2>
+                            <div class="_thumbnail-stack">
+                                <img src="https://picsum.photos/id/100/1200/630" alt="" width="400" height="210"
+                                    fetchpriority="high" />
+                                <img src="https://picsum.photos/id/100/1200/630" alt="" width="400" height="210"
+                                    fetchpriority="high" />
+                            </div>
+                            <p class="_category | -trim-both">Swagger</p>
+                            <p class="_price | -trim-both">From &#8358;80,000</p>
+                            <p class="_description | -line-clamp">
+                                Every serious business deserves to walk into any room and turn heads."
+                            </p>
+                            <p>Your logo, colours, typography, and brand voice — built once, and built properly. Swagger
+                                gives your
+                                business a face that earns trust before you say a word. For businesses in Eket starting
+                                fresh, and
+                                established ones finally ready to look the part.</p>
+                            <ul class="_tag-list | cluster" style="
+      --cluster--gap: 0.5rem;">
+                                <li class="_tag | -trim-both">Logo design — primary, secondary, and icon variants</li>
+                                <li class="_tag | -trim-both">Brand colour palette and typography system</li>
+                                <li class="_tag | -trim-both">Brand voice and tone guide</li>
+                                <li class="_tag | -trim-both">Business card, letterhead, and basic stationery</li>
+                                <li class="_tag | -trim-both">Social media profile kit — covers, profile templates</li>
+                                <li class="_tag | -trim-both">Complete brand style guide document</li>
+                            </ul>
+                            <div class="_button"
+                                style="--purchase-button--background: var(--_accent); --purchase-button--foreground: var(--_accent-contrast); margin-top: 23rem;">
+                                <a href="#" class="scope purchase-button">Add To Cart</a>
+                            </div>
+                        </section>
+
+                        <section class="_card" style="--product-card--accent: #01033e;">
+                            <h2 class="_heading | -fluid-text -trim-both" style="--fluid-text--min-font-size: 16;
+      --fluid-text--max-font-size: 24;">SEO Programs</h2>
+                            <div class="_thumbnail-stack">
+                                <img src="https://picsum.photos/id/100/1200/630" alt="" width="400" height="210"
+                                    fetchpriority="high" />
+                                <img src="https://picsum.photos/id/100/1200/630" alt="" width="400" height="210"
+                                    fetchpriority="high" />
+                            </div>
+                            <p class="_category | -trim-both">Deeproots</p>
+                            <p class="_price | -trim-both">From &#8358;50,000</p>
+                            <p class="_description | -line-clamp">
+                                SEO is the well you dig once and drink from forever."
+                            </p>
+                            <p>Search engine optimisation for Nigerian businesses that want to be found — without paying
+                                for ads
+                                forever.
+                                Deeproots builds your visibility on Google through technical SEO, keyword strategy, and
+                                local
+                                optimisation
+                                specifically for Eket, Akwa Ibom, and surrounding cities.</p>
+                            <ul class="_tag-list | cluster" style="--cluster--gap: 0.5rem;">
+                                <li class="_tag | -trim-both">Technical SEO audit — speed, structure, mobile performance
+                                </li>
+                                <li class="_tag | -trim-both">Keyword research and content strategy</li>
+                                <li class="_tag | -trim-both">On-page SEO — meta tags, headings, alt text</li>
+                                <li class="_tag | -trim-both">Google Business Profile setup and optimisation</li>
+                                <li class="_tag | -trim-both">Local SEO targeting Eket, Akwa Ibom, and region</li>
+                                <li class="_tag | -trim-both">Monthly ranking reports and recommendations</li>
+                            </ul>
+                            <div class="_button"
+                                style="--purchase-button--background: var(--_accent); --purchase-button--foreground: var(--_accent-contrast); margin-top: 23rem;">
+                                <a href="#" class="scope purchase-button">Add To Cart</a>
+                            </div>
+                        </section>
+
+                        <section class="_card" style="--product-card--accent: #0331b0;">
+                            <h2 class="_heading | -fluid-text -trim-both" style="--fluid-text--min-font-size: 16;
+      --fluid-text--max-font-size: 24;">PPC Advertising &amp; Paid Social Ads</h2>
+                            <div class="_thumbnail-stack">
+                                <img src="https://picsum.photos/id/100/1200/630" alt="" width="400" height="210"
+                                    fetchpriority="high" />
+                                <img src="https://picsum.photos/id/100/1200/630" alt="" width="400" height="210"
+                                    fetchpriority="high" />
+                            </div>
+                            <p class="_category | -trim-both">Fireshot</p>
+                            <p class="_price | -trim-both">From &#8358;75,000</p>
+                            <p class="_description | -line-clamp">
+                                "Some businesses cannot wait. Turn it on, and the whole market hears you."
+                            </p>
+                            <p>Paid advertising on Meta, Google, and TikTok — built around where your customers actually
+                                are.
+                                Fireshot
+                                handles everything from platform selection and ad creative to launch, monitoring, and
+                                performance
+                                reports.
+                                Results from day one.</p>
+                            <ul class="_tag-list | cluster" style="
+      --cluster--gap: 0.5rem;">
+                                <li class="_tag | -trim-both">Platform assessment — Meta, Google, TikTok, or combination
+                                </li>
+                                <li class="_tag | -trim-both">Ad account setup or full audit</li>
+                                <li class="_tag | -trim-both">Campaign strategy — audience targeting, budget, objectives
+                                </li>
+                                <li class="_tag | -trim-both">Ad copywriting and creative briefs</li>
+                                <li class="_tag | -trim-both">Campaign launch and 72-hour active monitoring</li>
+                                <li class="_tag | -trim-both">Bi-weekly performance reports with optimisation</li>
+                            </ul>
+                            <div class="_button"
+                                style="--purchase-button--background: var(--_accent); --purchase-button--foreground: var(--_accent-contrast); margin-top: 23rem;">
+                                <a href="#" class="scope purchase-button">Add To Cart</a>
+                            </div>
+                        </section>
+
+                        <section class="_card" style="--product-card--accent: #0033ff;">
+                            <h2 class="_heading | -fluid-text -trim-both" style="--fluid-text--min-font-size: 16;
+      --fluid-text--max-font-size: 24;">Social Media Management &amp; Content Marketing</h2>
+                            <div class="_thumbnail-stack">
+                                <img src="https://picsum.photos/id/100/1200/630" alt="" width="400" height="210"
+                                    fetchpriority="high" />
+                                <img src="https://picsum.photos/id/100/1200/630" alt="" width="400" height="210"
+                                    fetchpriority="high" />
+                            </div>
+                            <p class="_category | -trim-both">Vibes</p>
+                            <p class="_price | -trim-both">From &#8358;50,000</p>
+                            <p class="_description | -line-clamp">
+                                "Your brand either has it or it does not. Vibes makes sure yours has it."
+                            </p>
+                            <p>Consistent, strategic content across Facebook, Instagram, and TikTok. Vibes handles the
+                                full rhythm
+                                of your
+                                brand's online life — from monthly content calendars and reels scripting to community
+                                engagement and
+                                performance analytics. No more posting for the sake of it.</p>
+                            <ul class="_tag-list | cluster" style="
+      --cluster--gap: 0.5rem;">
+                                <li class="_tag | -trim-both">Monthly content calendar — 30 posts planned, captioned,
+                                    scheduled</li>
+                                <li class="_tag | -trim-both">Platform management — Facebook, Instagram, TikTok</li>
+                                <li class="_tag | -trim-both">Reels and short-form video scripting</li>
+                                <li class="_tag | -trim-both">Community engagement — comments, DMs, brand reputation
+                                </li>
+                                <li class="_tag | -trim-both">Hashtag and platform strategy</li>
+                                <li class="_tag | -trim-both">Monthly report — reach, engagement, growth</li>
+                            </ul>
+                            <div class="_button"
+                                style="--purchase-button--background: var(--_accent); --purchase-button--foreground: var(--_accent-contrast); margin-top: 23rem;">
+                                <a href="#" class="scope purchase-button">Add To Cart</a>
+                            </div>
+                        </section>
+
+                        <section class="_card" style="--product-card--accent: #f4f4f4;">
+                            <h2 class="_heading | -fluid-text -trim-both" style="--fluid-text--min-font-size: 16;
+      --fluid-text--max-font-size: 24;">Website Development &amp; Google Business Profile</h2>
+                            <div class="_thumbnail-stack">
+                                <img src="https://picsum.photos/id/100/1200/630" alt="" width="400" height="210"
+                                    fetchpriority="high" />
+                                <img src="https://picsum.photos/id/100/1200/630" alt="" width="400" height="210"
+                                    fetchpriority="high" />
+                            </div>
+                            <p class="_category | -trim-both">Frontline</p>
+                            <p class="_price | -trim-both">From &#8358;200,000</p>
+                            <p class="_description | -line-clamp">
+                                "When a customer searches for you, this is what they see first."
+                            </p>
+                            <p>Consistent, strategic content across Facebook, Instagram, and TikTok. Vibes handles the
+                                full rhythm
+                                of your
+                                brand's online life — from monthly content calendars and reels scripting to community
+                                engagement and
+                                performance analytics. No more posting for the sake of it.</p>
+                            <ul class="_tag-list | cluster" style="
+      --cluster--gap: 0.5rem;">
+                                <li class="_tag | -trim-both">Monthly content calendar — 30 posts planned, captioned,
+                                    scheduled</li>
+                                <li class="_tag | -trim-both">Platform management — Facebook, Instagram, TikTok</li>
+                                <li class="_tag | -trim-both">Reels and short-form video scripting</li>
+                                <li class="_tag | -trim-both">Community engagement — comments, DMs, brand reputation
+                                </li>
+                                <li class="_tag | -trim-both">Hashtag and platform strategy</li>
+                                <li class="_tag | -trim-both">Monthly report — reach, engagement, growth</li>
+                            </ul>
+                            <div class="_button"
+                                style="--purchase-button--background: var(--_accent); --purchase-button--foreground: var(--_accent-contrast); margin-top: 23rem;">
+                                <a href="#" class="scope purchase-button">Add To Cart</a>
+                            </div>
+                        </section>
+
+                        <section class="_card" style="--product-card--accent: #d4d6e2;">
+                            <h2 class="_heading | -fluid-text -trim-both" style="--fluid-text--min-font-size: 16;
+      --fluid-text--max-font-size: 24;">Landing Pages &amp; WhatsApp Funnel Automation</h2>
+                            <div class="_thumbnail-stack">
+                                <img src="https://picsum.photos/id/100/1200/630" alt="" width="400" height="210"
+                                    fetchpriority="high" />
+                                <img src="https://picsum.photos/id/100/1200/630" alt="" width="400" height="210"
+                                    fetchpriority="high" />
+                            </div>
+                            <p class="_category | -trim-both">Cashflow</p>
+                            <p class="_price | -trim-both">From &#8358;50,000</p>
+                            <p class="_description | -line-clamp">
+                                "Traffic without conversion is just noise. And noise does not pay rent."
+                            </p>
+                            <p>Cashflow turns attention into actual sales. A purpose-built landing page for each offer,
+                                combined
+                                with a
+                                WhatsApp Business funnel designed specifically for how Nigerian SME customers buy —
+                                these are the
+                                two tools
+                                that move people from interested to paying.</p>
+                            <ul class="_tag-list | cluster" style="
+      --cluster--gap: 0.5rem;">
+                                <li class="_tag | -trim-both">Purpose-built landing page per offer or campaign</li>
+                                <li class="_tag | -trim-both">Conversion copywriting — headline, offer, CTA</li>
+                                <li class="_tag | -trim-both">WhatsApp Business account setup or audit</li>
+                                <li class="_tag | -trim-both">Automated welcome message and quick-reply menu</li>
+                                <li class="_tag | -trim-both">Lead follow-up sequence — up to 3 messages</li>
+                                <li class="_tag | -trim-both">Client response guide for closing inbound leads</li>
+                            </ul>
+                            <div class="_button"
+                                style="--purchase-button--background: var(--_accent); --purchase-button--foreground: var(--_accent-contrast); margin-top: 23rem;">
+                                <a href="#" class="scope purchase-button">Add To Cart</a>
+                            </div>
+                        </section>
+
+                        <section class="_card">
+                            <h2 class="_heading | -fluid-text -trim-both" style="--fluid-text--min-font-size: 16;
+      --fluid-text--max-font-size: 24;">Webtellisense — The Complete System</h2>
+                            <div class="_thumbnail-stack">
+                                <img src="https://picsum.photos/id/100/1200/630" alt="" width="400" height="210"
+                                    fetchpriority="high" />
+                                <img src="https://picsum.photos/id/100/1200/630" alt="" width="400" height="210"
+                                    fetchpriority="high" />
+                            </div>
+                            <p class="_category | -trim-both">Heroes</p>
+                            <p class="_price | -trim-both">From &#8358;200,000</p>
+                            <p class="_description | -line-clamp">
+                                Heroes: when you are done managing five different vendors.
+                            </p>
+                            <p>Heroes bundles everything into one account, one team, one monthly conversation. Three
+                                tiers — scaled
+                                by where
+                                your business is right now.</p>
+                            <ul class="_tag-list | cluster" style="
+      --cluster--gap: 0.5rem;">
+                                <li class="_tag | -trim-both">Foundation System</li>
+                                <li class="_tag | -trim-both">Growth System</li>
+                                <li class="_tag | -trim-both">Complete System</li>
+                            </ul>
+                            <div class="_button"
+                                style="--purchase-button--background: var(--_accent); --purchase-button--foreground: var(--_accent-contrast); margin-top: 23rem;">
+                                <a href="#" class="scope purchase-button">Add To Cart</a>
+                            </div>
+                        </section>
+                    </div>
+
+                    <!-- `display: none` can cause SVG filters to be ineffective in Firefox. -->
+                    <svg width="0" height="0" style="visibility: hidden; position: fixed;">
+                        <filter id="svg-inset-shadow">
+                            <feOffset in="SourceAlpha" dx="6" dy="8" />
+                            <feGaussianBlur in="SourceAlpha" stdDeviation="8" />
+                            <feComposite in="SourceAlpha" operator="out" />
+                            <feBlend in2="SourceGraphic" mode="multiply" />
+                        </filter>
+                    </svg>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        // Post height to parent whenever content changes
+        const observer = new ResizeObserver(() => {
+            window.parent.postMessage({
+                type: 'audit-height',
+                height: document.body.scrollHeight
+            }, '*');
+        });
+        observer.observe(document.body);
+    </script>
+</body>
