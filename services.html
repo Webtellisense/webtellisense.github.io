@@ -31,7 +31,7 @@
     <link rel="canonical" href="https://webtellisense.com">
 
     <!-- Preload Critical Resources (Faster Loading) -->
-    <link rel="preload" href="./assets/style/style.css" as="style">
+    <!-- <link rel="preload" href="./assets/style/style.css" as="style"> -->
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" as="style">
 
     <!-- Vendor CSS Files -->
@@ -446,81 +446,33 @@
 
         <section class="audit-section">
             <div class="audit-container">
-                <!-- Left Side: Content & Badges -->
+                <!-- Left Side: Content -->
                 <div class="audit-content">
                     <span class="badge-pill main-badge">Free Tool</span>
-                    <h2 class="audit-title">Audit Your Business Digital Presence</h2>
+                    <h2 class="audit-title">Check Your Business Digital Performance</h2>
                     <p class="audit-description">
-                        Get an instant, actionable breakdown of your business's branding, digital discoverability, and
-                        positioning. Find out exactly where you're losing customers—and how to fix it.
+                        Get an instant, free audit of your business's online visibility, branding strength, and local
+                        discoverability. No registration required.
                     </p>
                     <div class="tag-group">
                         <span class="badge-pill tag-badge">⚡ Branding & Strategy</span>
                         <span class="badge-pill tag-badge">🔍 Local Discoverability</span>
-                        <span class="badge-pill tag-badge">📈 Growth Opportunities</span>
                     </div>
                 </div>
 
-                <!-- Right Side: Form Card -->
+                <!-- Right Side: The Lure Card -->
                 <div class="audit-card">
-                    <h3>📋 Step 1: Your Details</h3>
+                    <h3 id="hook-title">🌐 Let's start with your web presence</h3>
+                    <p class="card-subtext" id="hook-question">Do you currently have a website for your business?</p>
 
-                    <!-- This points directly to your main multi-step tool page -->
-                    <form action="https://webtellisense.com/business-audit-tool" method="GET" class="audit-form"
-                        id="cta-audit-form">
-                        <div class="audit-form-grid">
-                            <div class="audit-form-group">
-                                <label for="biz-name">Business Name *</label>
-                                <input type="text" name="biz_name" placeholder="e.g. Mama Cee's Kitchen" required>
-                            </div>
-                            <div class="audit-form-group">
-                                <label for="location">City / Location *</label>
-                                <input type="text" name="city" placeholder="e.g. Eket, Akwa Ibom" required>
-                            </div>
-                            <div class="audit-form-group">
-                                <label for="your-name">Your Name *</label>
-                                <input type="text" name="name" placeholder="First name is fine" required>
-                            </div>
-                            <div class="audit-form-group">
-                                <label for="email">Email Address *</label>
-                                <input type="email" name="email" placeholder="you@yourbusiness.com" required>
-                            </div>
-                        </div>
+                    <div class="lure-options" id="hook-options-container">
 
-                        <!-- Hidden Input to catch the chosen category -->
-                        <input type="hidden" name="category" id="cta-category-input" required>
+                    </div>
 
-                        <div class="audit-form-group full-width" style="margin-top: 12px;">
-                            <label>Business Category *</label>
-                            <div class="cta-options">
-                                <div class="cta-opt" onclick="selectCtaCategory(this)" data-val="Food & Drinks">Food &
-                                    Drinks</div>
-                                <div class="cta-opt" onclick="selectCtaCategory(this)" data-val="Retail / Shop">Retail /
-                                    Shop</div>
-                                <div class="cta-opt" onclick="selectCtaCategory(this)" data-val="Fashion & Beauty">
-                                    Fashion & Beauty</div>
-                                <div class="cta-opt" onclick="selectCtaCategory(this)" data-val="Professional Services">
-                                    Professional Services</div>
-                                <div class="cta-opt" onclick="selectCtaCategory(this)" data-val="Other">Other</div>
-                            </div>
-                        </div>
-
-                        <button type="submit" class="submit-btn" style="margin-top: 20px;">
-                            Start Audit →
-                        </button>
-                    </form>
+                    <p class="card-footer-text">Takes 45 seconds • 100% Free</p>
                 </div>
             </div>
         </section>
-
-        <script>
-            // Small script for the Home page CTA to toggle category selection
-            function selectCtaCategory(element) {
-                document.querySelectorAll('.cta-opt').forEach(opt => opt.classList.remove('active'));
-                element.classList.add('active');
-                document.getElementById('cta-category-input').value = element.getAttribute('data-val');
-            }
-        </script>
     </main>
 
     <footer id="footer" class="footer dark-background">
@@ -590,6 +542,8 @@
 
     </footer>
 
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
 
     <script>
         function resizeIframe(iframe) {

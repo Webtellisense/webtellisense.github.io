@@ -86,17 +86,20 @@
         : scrollTop.classList.remove("active");
     }
   }
-  scrollTop.addEventListener("click", (e) => {
-    e.preventDefault();
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
+
+  // Add the missing safety check here!
+  if (scrollTop) {
+    scrollTop.addEventListener("click", (e) => {
+      e.preventDefault();
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
     });
-  });
+  }
 
   window.addEventListener("load", toggleScrollTop);
   document.addEventListener("scroll", toggleScrollTop);
-
   /**
    * Animation on scroll function and init
    */

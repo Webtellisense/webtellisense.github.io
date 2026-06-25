@@ -729,7 +729,8 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background-color: var(--accent-color);
+  background-color: var(--color-primary-3);
+  color: white;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -758,7 +759,7 @@ h6 {
   width: 60px;
   height: 60px;
   bottom: 65px;
-  right: 25px;
+  right: 10px;
   background: #25d366;
   color: #fff;
   border-radius: 50%;
@@ -1671,7 +1672,7 @@ section,
   max-width: 100%;
   height: auto;
   max-height: 45px; /* Keeps them looking uniform and not overly huge */
-  filter: grayscale(100%); /* Optional: Gives a modern aesthetic */
+  /* filter: grayscale(100%); Optional: Gives a modern aesthetic */
   opacity: 0.6;
   transition: all 0.3s ease;
 }
