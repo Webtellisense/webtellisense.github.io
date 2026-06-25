@@ -1631,43 +1631,80 @@ section,
 /*--------------------------------------------------------------
 # Clients Section
 --------------------------------------------------------------*/
-.clients .clients-wrap {
-  border-top: 1px solid
-    color-mix(in srgb, var(--default-color), transparent 85%);
-  border-left: 1px solid
-    color-mix(in srgb, var(--default-color), transparent 85%);
-}
-
-.clients .client-logo {
+/* Container holds everything inside the view width and masks overflow */
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  user-select: none;
   background-color: var(--surface-color);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-right: 1px solid
+  padding: 20px 0; /* Vertical breathing room for the entire strip */
+  border-top: 1px solid
     color-mix(in srgb, var(--default-color), transparent 85%);
   border-bottom: 1px solid
     color-mix(in srgb, var(--default-color), transparent 85%);
-  overflow: hidden;
-  width: 20%;
 }
 
+/* Flex track running the endless loop animation */
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: scrollMarquee 25s linear infinite;
+}
+
+/* Pause the scrolling animation when a user hovers over a logo */
+.marquee-container:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+/* Logo block formatting */
+.clients .client-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px; /* Locked explicit width for perfect scaling consistency */
+  padding: 0 30px; /* Horizontal spacing between individual logos */
+  box-sizing: border-box;
+}
+
+/* Logo image scaling and constraint normalization */
 .clients .client-logo img {
-  padding: 30px;
-  max-width: 60%;
-  transition: 0.3s;
+  max-width: 100%;
+  height: auto;
+  max-height: 45px; /* Keeps them looking uniform and not overly huge */
+  filter: grayscale(100%); /* Optional: Gives a modern aesthetic */
+  opacity: 0.6;
+  transition: all 0.3s ease;
 }
 
-@media (max-width: 640px) {
-  .clients .client-logo img {
-    padding: 30px;
-    max-width: 50%;
+/* Bring logo colors back and slightly scale up on hover */
+.clients .client-logo:hover img {
+  filter: grayscale(0%);
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+/* Smooth Infinite Loop Timeline Calculation */
+@keyframes scrollMarquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(
+      -50%
+    ); /* Shifts perfectly by half, hiding the track reset */
   }
 }
 
-.clients .client-logo:hover img {
-  transform: scale(1.1);
+/* Mobile responsive fixes */
+@media (max-width: 768px) {
+  .clients .client-logo {
+    width: 120px; /* Smaller layout boundary sizing for mobile */
+    padding: 0 15px; /* Reduced spacing boundaries */
+  }
+  .clients .client-logo img {
+    max-height: 35px; /* Slightly scaled down height so screens don't choke */
+  }
 }
-
 /*--------------------------------------------------------------
 # Skills Section
 --------------------------------------------------------------*/
@@ -3699,4 +3736,134 @@ section,
   color: black;
   line-height: 1.75;
   max-width: 720px;
+}
+
+/* AUDIT CTA SECTION */
+.audit-section {
+  background-color: var(--color-gray-100);
+  padding: 60px 24px;
+  font-family: var(--font-primary);
+}
+.audit-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+.audit-content {
+  flex: 1;
+  max-width: 500px;
+}
+.badge-pill {
+  display: inline-block;
+  padding: 6px 16px;
+  border-radius: 99px;
+  font-size: 13px;
+  font-weight: 600;
+}
+.main-badge {
+  background-color: #e0e7ff;
+  color: var(--color-primary-3);
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.audit-title {
+  font-size: 34px;
+  color: var(--color-primary-1);
+  font-weight: 700;
+  margin: 0 0 12px 0;
+}
+.audit-description {
+  font-size: 15px;
+  /* color: var(--text-muted); */
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.tag-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.tag-badge {
+  background-color: #ffffff;
+  color: var(--primary-blue);
+  border: 1px solid var(--color-primary-3);
+}
+
+/* Card Styling */
+.audit-card {
+  flex: 1;
+  max-width: 440px;
+  background: #ffffff;
+  padding: 32px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  border: 1px solid var(--color-gray-200);
+}
+.audit-card h3 {
+  margin: 0;
+  font-size: 18px;
+  color: var(--color-primary-1);
+}
+.card-subtext {
+  font-size: 14px;
+  color: var(--color-primary-2);
+  margin: 8px 0 20px 0;
+}
+
+/* Interactive Lure Links */
+.lure-options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.lure-opt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border: 1px solid var(--color-gray-200);
+  border-radius: 12px;
+  text-decoration: none;
+  color: var(--text-dark);
+  font-weight: 500;
+  font-size: 15px;
+  transition: all 0.2s ease;
+}
+.lure-opt:hover {
+  border-color: var(--primary-blue);
+  background-color: var(--bg-light-blue);
+  color: var(--primary-blue);
+  transform: translateY(-1px);
+}
+.lure-opt .arrow {
+  opacity: 0.5;
+  transition: transform 0.2s;
+}
+.lure-opt:hover .arrow {
+  opacity: 1;
+  transform: translateX(3px);
+}
+.card-footer-text {
+  text-align: center;
+  font-size: 12px;
+  color: var(--color-primary-2);
+  margin: 16px 0 0 0;
+}
+
+@media (max-width: 850px) {
+  .audit-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .tag-group {
+    justify-content: center;
+  }
+  .audit-card {
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+  }
 }

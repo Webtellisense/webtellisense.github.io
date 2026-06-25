@@ -443,7 +443,152 @@
                 </div>
             </div>
         </section>
+
+        <section class="audit-section">
+            <div class="audit-container">
+                <!-- Left Side: Content & Badges -->
+                <div class="audit-content">
+                    <span class="badge-pill main-badge">Free Tool</span>
+                    <h2 class="audit-title">Audit Your Business Digital Presence</h2>
+                    <p class="audit-description">
+                        Get an instant, actionable breakdown of your business's branding, digital discoverability, and
+                        positioning. Find out exactly where you're losing customers—and how to fix it.
+                    </p>
+                    <div class="tag-group">
+                        <span class="badge-pill tag-badge">⚡ Branding & Strategy</span>
+                        <span class="badge-pill tag-badge">🔍 Local Discoverability</span>
+                        <span class="badge-pill tag-badge">📈 Growth Opportunities</span>
+                    </div>
+                </div>
+
+                <!-- Right Side: Form Card -->
+                <div class="audit-card">
+                    <h3>📋 Step 1: Your Details</h3>
+
+                    <!-- This points directly to your main multi-step tool page -->
+                    <form action="https://webtellisense.com/business-audit-tool" method="GET" class="audit-form"
+                        id="cta-audit-form">
+                        <div class="audit-form-grid">
+                            <div class="audit-form-group">
+                                <label for="biz-name">Business Name *</label>
+                                <input type="text" name="biz_name" placeholder="e.g. Mama Cee's Kitchen" required>
+                            </div>
+                            <div class="audit-form-group">
+                                <label for="location">City / Location *</label>
+                                <input type="text" name="city" placeholder="e.g. Eket, Akwa Ibom" required>
+                            </div>
+                            <div class="audit-form-group">
+                                <label for="your-name">Your Name *</label>
+                                <input type="text" name="name" placeholder="First name is fine" required>
+                            </div>
+                            <div class="audit-form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" name="email" placeholder="you@yourbusiness.com" required>
+                            </div>
+                        </div>
+
+                        <!-- Hidden Input to catch the chosen category -->
+                        <input type="hidden" name="category" id="cta-category-input" required>
+
+                        <div class="audit-form-group full-width" style="margin-top: 12px;">
+                            <label>Business Category *</label>
+                            <div class="cta-options">
+                                <div class="cta-opt" onclick="selectCtaCategory(this)" data-val="Food & Drinks">Food &
+                                    Drinks</div>
+                                <div class="cta-opt" onclick="selectCtaCategory(this)" data-val="Retail / Shop">Retail /
+                                    Shop</div>
+                                <div class="cta-opt" onclick="selectCtaCategory(this)" data-val="Fashion & Beauty">
+                                    Fashion & Beauty</div>
+                                <div class="cta-opt" onclick="selectCtaCategory(this)" data-val="Professional Services">
+                                    Professional Services</div>
+                                <div class="cta-opt" onclick="selectCtaCategory(this)" data-val="Other">Other</div>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="submit-btn" style="margin-top: 20px;">
+                            Start Audit →
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <script>
+            // Small script for the Home page CTA to toggle category selection
+            function selectCtaCategory(element) {
+                document.querySelectorAll('.cta-opt').forEach(opt => opt.classList.remove('active'));
+                element.classList.add('active');
+                document.getElementById('cta-category-input').value = element.getAttribute('data-val');
+            }
+        </script>
     </main>
+
+    <footer id="footer" class="footer dark-background">
+
+        <div class="container footer-top">
+            <div class="row gy-4">
+                <div class="col-lg-4 col-md-6 footer-about">
+                    <a href="index.html" class="logo d-flex align-items-center">
+                        <span class="sitename">Webtellisense</span>
+                    </a>
+                    <div class="footer-contact pt-3">
+                        <p>KM15 Ikot Ibiok</p>
+                        <p>Eket, Akwa Ibom State</p>
+                        <p class="mt-3"><strong>Phone:</strong> <span>+234 707 584 8564</span></p>
+                        <p><strong>Email:</strong> <span>webtellisense@gmail.com</span></p>
+                    </div>
+                    <div class="social-links d-flex mt-4">
+                        <a href="https://www.facebook.com/profile.php?id=61569413316306" class="facebook"><i
+                                class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/webtellisense?igsh=Y21jZHpxcWlqNWZm" class="instagram"><i
+                                class="bi bi-instagram"></i></a>
+                        <a href="https://maps.app.goo.gl/Hx2cDWJcLzEJef4Z6" class="google"><i
+                                class="bi bi-google"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="#">Terms of service</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-3 footer-links">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="web-design.html">Web Design</a></li>
+                        <li><a href="brand-identity">Brand Identity</a></li>
+                        <li><a href="graphics-design.html">Graphic Design</a></li>
+                        <li><a href="social-media-management">Social Media Management</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-12 footer-newsletter">
+                    <h4>Our Newsletter</h4>
+                    <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+                    <form name="contact" method="POST" netlify>
+                        <div class="newsletter-form"><input type="email" name="email"><input type="submit"
+                                value="Subscribe"></div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container copyright text-center mt-4">
+            <p>© <span>Copyright</span> <strong class="px-1 sitename">Webtellisense Consult</strong> <span>All Rights
+                    Reserved</span></p>
+            <div class="credits">
+                Designed by <a href="https://webtellisense.com/">Webtellisense</a>
+            </div>
+        </div>
+
+    </footer>
 
 
     <script>

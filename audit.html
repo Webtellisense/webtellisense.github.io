@@ -1369,6 +1369,59 @@
   <!-- TOAST -->
   <div class="toast" id="toast">✓ Copied to clipboard!</div>
 
+
+  <script>
+    window.addEventListener('load', () => {
+      // A micro 200ms delay ensures your core audit script setup handles listeners first
+      setTimeout(() => {
+        const urlParams = new URLSearchParams(window.location.search);
+
+        const bizName = urlParams.get('biz_name');
+        const city = urlParams.get('city');
+        const name = urlParams.get('name');
+        const email = urlParams.get('email');
+        const category = urlParams.get('category');
+
+        // Verify that the essential Step 0 details came through the URL
+        if (bizName && city && name && email) {
+
+          // 1. Safely bind and populate the raw text inputs
+          const fName = document.getElementById('f-name');
+          const fCity = document.getElementById('f-city');
+          const fContact = document.getElementById('f-contact');
+          const fEmail = document.getElementById('f-email');
+
+          if (fName) fName.value = bizName;
+          if (fCity) fCity.value = city;
+          if (fContact) fContact.value = name;
+          if (fEmail) fEmail.value = email;
+
+          // 2. Handle the custom category pills
+          if (category) {
+            const options = document.querySelectorAll('#cat-options .opt');
+            options.forEach(opt => {
+              if (opt.getAttribute('data-val').trim() === category.trim()) {
+                // Explicitly add your visual active class structure 
+                opt.classList.add('active');
+
+                // Fire a programmatic native click event so your backend logic captures it
+                opt.dispatchEvent(new Event('click', { bubbles: true }));
+              }
+            });
+          }
+
+          // 3. Jump straight into Step 1
+          if (typeof startAudit === "function") {
+            startAudit();
+          } else if (typeof goStep === "function") {
+            // Fallback option in case your system relies entirely on goStep indexing
+            goStep(1);
+          }
+        }
+      }, 200);
+    });
+  </script>
+
   <script>
     // Post height to parent whenever content changes
     const observer = new ResizeObserver(() => {

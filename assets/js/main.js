@@ -132,6 +132,104 @@
         });
     });
 
+  // Hook Rotators
+  document.addEventListener("DOMContentLoaded", () => {
+    // 1. Define your copy variations and their respective target URL parameters
+    const hooks = [
+      {
+        title: "🌐 Web Presence",
+        question: "Do you currently have a website for your business?",
+        options: [
+          {
+            text: "Yes — professionally built",
+            param: "has_website=yes_professional",
+          },
+          {
+            text: "Yes — I built it myself / basic",
+            param: "has_website=yes_diy",
+          },
+          { text: "No website yet", param: "has_website=no" },
+        ],
+      },
+      {
+        title: "📈 Growth & Scaling",
+        question: "What is your primary goal for your business right now?",
+        options: [
+          {
+            text: "Getting more consistent daily customers",
+            param: "goal=more_customers",
+          },
+          {
+            text: "Building a stronger online brand presence",
+            param: "goal=brand_building",
+          },
+          {
+            text: "Fixing internal operational bottlenecks",
+            param: "goal=operations",
+          },
+        ],
+      },
+      {
+        title: "📣 Marketing & Visibility",
+        question: "Where do most of your current customers come from?",
+        options: [
+          { text: "Word of mouth / Referrals", param: "source=referrals" },
+          {
+            text: "Social media (Instagram, Facebook, etc.)",
+            param: "source=social_media",
+          },
+          {
+            text: "Google search / Local map listings",
+            param: "source=google_search",
+          },
+        ],
+      },
+      {
+        title: "🎯 Strategy Check",
+        question:
+          "Do you actively know what your competitors are doing online?",
+        options: [
+          {
+            text: "Yes, I keep a close eye on them",
+            param: "competitor_awareness=high",
+          },
+          {
+            text: "I have a vague idea, but nothing concrete",
+            param: "competitor_awareness=medium",
+          },
+          {
+            text: "No, I focus entirely on my own setup",
+            param: "competitor_awareness=low",
+          },
+        ],
+      },
+    ];
+
+    // 2. Pick a random hook variation
+    const randomHook = hooks[Math.floor(Math.random() * hooks.length)];
+
+    // 3. Update the text copy inside the card
+    document.getElementById("hook-title").textContent = randomHook.title;
+    document.getElementById("hook-question").textContent = randomHook.question;
+
+    // 4. Build and inject the new option buttons
+    const container = document.getElementById("hook-options-container");
+    container.innerHTML = ""; // Clear out placeholders
+
+    randomHook.options.forEach((opt) => {
+      const link = document.createElement("a");
+      link.href = `https://webtellisense.com/business-audit-tool?${opt.param}`;
+      link.className = "lure-opt";
+      link.innerHTML = `
+            <span>${opt.text}</span>
+            <span class="arrow">→</span>
+        `;
+      container.appendChild(link);
+    });
+  });
+
+  // Hook Rotators End
+
   /**
    * Initiate glightbox
    */
@@ -156,7 +254,7 @@
           layoutMode: layout,
           filter: filter,
           sortBy: sort,
-        }
+        },
       );
     });
 
@@ -177,7 +275,7 @@
               aosInit();
             }
           },
-          false
+          false,
         );
       });
   });
@@ -250,7 +348,7 @@
   function initSwiper() {
     document.querySelectorAll(".init-swiper").forEach(function (swiperElement) {
       let config = JSON.parse(
-        swiperElement.querySelector(".swiper-config").innerHTML.trim()
+        swiperElement.querySelector(".swiper-config").innerHTML.trim(),
       );
 
       if (swiperElement.classList.contains("swiper-tab")) {
@@ -279,7 +377,7 @@
         duration: 4000 + index * 500,
         iterations: Infinity,
         easing: "ease-in-out",
-      }
+      },
     );
   });
 })();
