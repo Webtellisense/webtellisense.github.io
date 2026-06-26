@@ -1703,7 +1703,7 @@ section,
     padding: 0 15px; /* Reduced spacing boundaries */
   }
   .clients .client-logo img {
-    max-height: 35px; /* Slightly scaled down height so screens don't choke */
+    max-height: 45px; /* Slightly scaled down height so screens don't choke */
   }
 }
 /*--------------------------------------------------------------
