@@ -1671,8 +1671,8 @@ section,
 .clients .client-logo img {
   max-width: 100%;
   height: auto;
-  max-height: 45px; /* Keeps them looking uniform and not overly huge */
-  /* filter: grayscale(100%); Optional: Gives a modern aesthetic */
+  max-height: 65px;
+  /* filter: grayscale(100%); */
   opacity: 0.6;
   transition: all 0.3s ease;
 }
