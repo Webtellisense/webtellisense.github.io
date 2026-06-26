@@ -335,7 +335,7 @@ h6 {
   .navmenu .dropdown ul {
     margin: 0;
     padding: 10px 0;
-    background: var(--nav-dropdown-background-color);
+    background: var(--accent-color);
     display: block;
     position: absolute;
     visibility: hidden;
@@ -356,7 +356,7 @@ h6 {
     padding: 10px 20px;
     font-size: 15px;
     text-transform: none;
-    color: var(--nav-dropdown-color);
+    color: var(--color-white);
   }
 
   .navmenu .dropdown ul a i {
@@ -1375,7 +1375,7 @@ section,
 
 .services .service-item .icon svg path {
   transition: 0.5s;
-  fill: color-mix(in srgb, var(--default-color), transparent 95%);
+  fill: color-mix(in srgb, var(--color-gray-200), transparent 5%);
 }
 
 .services .service-item h3 {
@@ -3477,6 +3477,50 @@ section,
   margin-top: 12px;
 }
 
+/* ─── RESPONSIVE ─── */
+@media (max-width: 900px) {
+  .services-hero-inner {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+  .services-hero-right {
+    display: none;
+  }
+  .tiers-grid {
+    grid-template-columns: 1fr;
+  }
+  .why-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .local-inner {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+  .cta-banner-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 600px) {
+  section {
+    padding: 64px 0;
+  }
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+  .why-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .local-stats {
+    grid-template-columns: 1fr 1fr;
+  }
+  .service-card {
+    padding: 36px 24px;
+  }
+}
+
 /* ─── HEROES SECTION ─── */
 .heroes-section {
   background-color: var(--color-primary-1);
@@ -3867,4 +3911,69 @@ section,
     width: 100%;
     box-sizing: border-box;
   }
+}
+
+/* ─── CTA BANNER ─── */
+.cta-banner {
+  background: var(--color-primary-3);
+  padding: 80px 0;
+}
+
+.cta-banner-inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.cta-banner h2 {
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  color: var(--color-white);
+  font-weight: 800;
+  max-width: 560px;
+}
+
+.cta-banner-actions {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.btn-white {
+  display: inline-block;
+  background: var(--color-white);
+  color: var(--color-primary-3);
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 14px 32px;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background 0.2s;
+}
+
+.btn-white:hover {
+  background: var(--color-black);
+  color: var(--color-white);
+}
+
+.btn-ghost {
+  display: inline-block;
+  border: 2px solid rgba(255, 255, 255, 0.45);
+  color: var(--color-white);
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 12px 30px;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: border-color 0.2s;
+}
+
+.btn-ghost:hover {
+  border-color: var(--color-white);
+  color: var(--color-black);
 }
