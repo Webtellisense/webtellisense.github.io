@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Google Ads & Pay-Per-Click (PPC) Advertising Nigeria - Webtellisense</title>
+    <meta name="description"
+        content="Get immediate customer phone calls and sales with expert Google Ads management. Perfect for businesses in Uyo, Eket, and all over Nigeria.">
+    <meta name="keywords"
+        content="Google Ads Nigeria, PPC Advertising Uyo, Paid Search Marketing Eket, Lead Generation Nigeria">
+
+    <!-- Favicon (All Formats for Cross-Browser Support) -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Canonical URL (Avoid Duplicate Content Issues) -->
+    <link rel="canonical" href="https://webtellisense.com">
+
+    <!-- Preload Critical Resources (Faster Loading) -->
+    <link rel="preload" href="./assets/style/style.css" as="style">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" as="style">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Font CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+
+    <style>
+        :root {
+            --primary-agency: #0033ff;
+            --text-dark: #01033e;
+            --text-muted: #4B5563;
+            --bg-light: #F9FAFB;
+        }
+
+        .services-list a {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 16px 20px;
+            background-color: #ffffff;
+            color: var(--text-dark);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            border-left: 4px solid transparent;
+            text-decoration: none;
+            font-weight: 600;
+            border-bottom: 1px solid #F3F4F6;
+        }
+
+        .services-list a.active,
+        .services-list a:hover {
+            background-color: rgba(10, 54, 212, 0.04);
+            color: var(--primary-agency);
+            border-left-color: var(--primary-agency);
+        }
+
+        .agency-section-title {
+            font-size: 2.25rem;
+            font-weight: 800;
+            letter-spacing: -0.025em;
+            color: var(--text-dark);
+            line-height: 1.2;
+        }
+
+        .pillar-card {
+            background: #ffffff;
+            padding: 24px;
+            border-radius: 12px;
+            border: 1px solid #E5E7EB;
+            height: 100%;
+        }
+
+        .pillar-icon {
+            width: 48px;
+            height: 48px;
+            background: rgba(10, 54, 212, 0.08);
+            color: var(--primary-agency);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            margin-bottom: 16px;
+        }
+
+        .pricing-card {
+            background: #ffffff;
+            padding: 35px 28px;
+            border-radius: 20px;
+            border: 1px solid #E5E7EB;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: all 0.3s ease;
+        }
+
+        .pricing-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 24px -8px rgba(10, 54, 212, 0.12);
+        }
+
+        .pricing-card.featured {
+            border: 2px solid var(--primary-agency);
+            position: relative;
+        }
+
+        .pricing-badge {
+            position: absolute;
+            top: -14px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--primary-agency);
+            color: #fff;
+            padding: 4px 14px;
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            border-radius: 20px;
+            letter-spacing: 1px;
+        }
+
+        .feature-list-items {
+            list-style: none;
+            padding: 0;
+            margin: 24px 0 0 0;
+        }
+
+        .feature-list-items li {
+            padding: 8px 0;
+            font-size: 13px;
+            color: var(--text-muted);
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            line-height: 1.4;
+            border-bottom: 1px dashed #F3F4F6;
+        }
+
+        .feature-list-items li:last-child {
+            border: none;
+        }
+
+        .feature-list-items li i {
+            color: #10B981;
+            font-size: 15px;
+        }
+
+        .audit-box-premium {
+            background: linear-gradient(135deg, #061B69 0%, #0A36D4 100%);
+            border-radius: 24px;
+            padding: 48px;
+            color: #ffffff;
+            margin-top: 50px;
+        }
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PS5FNQCJRN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-PS5FNQCJRN');
+    </script>
+
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '806267492040936');
+        fbq('track', 'PageView');
+    </script>
+</head>
+
+<body class="service-details-page">
+
+    <header id="header" class="header d-flex align-items-center sticky-top">
+        <div class="container position-relative d-flex align-items-center">
+
+            <a href="index.html" class="logo d-flex align-items-center me-auto">
+                <img src="./assets/img/logo.png" class="main-logo" alt="Webtellisense Logo">
+            </a>
+
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a href="index.html#hero" class="active">Home</a></li>
+                    <li class="dropdown"><a href="about.html"><span>About Us</span> <i
+                                class="bi bi-chevron-down toggle-dropdown"></i></a>
+                        <ul>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="reviews.html">Reviews</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#"><span>Services</span> <i
+                                class="bi bi-chevron-down toggle-dropdown"></i></a>
+                        <ul class="sub-menu">
+                            <li><a href="/google-business-profile.html">Google Business Profile Management</a>
+                            <li><a href="/web-design.html">Web Design & Development</a></li>
+                            <li><a href="/ppc.html">Pay-Per-Click (PPC) Advertising</a></li>
+                            <li><a href="/social-media-management.html">social media management</a></li>
+                            <li><a href="/social-media-marketing.html">Social Media Marketing (Paid Ads)</a></li>
+                            <li><a href="/branding.html">Brand Identity Design</a></li>
+                            <li><a href="/graphics-design.html">Graphics Design</a></li>
+                            <li><a href="/email-marketing.html">Email Marketing</a></li>
+                            <li><a href="/content-marketing.html">Content Marketing</a></li>
+                            <li><a href="/conversion-rate-optimization.html">Conversion Rate Optimization</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="packages.html">Packages</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+
+            <div class="header-social-links">
+                <a href="https://www.facebook.com/profile.php?id=61569413316306" class="facebook"><i
+                        class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/webtellisense?igsh=Y21jZHpxcWlqNWZm" class="instagram"><i
+                        class="bi bi-instagram"></i></a>
+                <a href="https://maps.app.goo.gl/Hx2cDWJcLzEJef4Z6" class="google"><i class="bi bi-google"></i></a>
+            </div>
+
+        </div>
+    </header>
+
+    <main class="main">
+
+        <!-- Page Title -->
+        <div class="page-title accent-background">
+            <div class="container d-lg-flex justify-content-between align-items-center">
+                <h1 class="mb-2 mb-lg-0">PPC Advertising & Google Ads</h1>
+                <nav class="breadcrumbs">
+                    <ol>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li class="current">PPC Advertising</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Service Details Section -->
+        <section id="service-details" class="service-details section bg-white">
+            <div class="container">
+                <div class="row gy-5">
+
+                    <!-- Left Sidebar Menu Panel -->
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="services-list shadow-sm rounded border bg-white overflow-hidden">
+                            <a href="google-business-profile.html"><i class="bi bi-geo-alt"></i> Google Business
+                                Profile</a>
+                            <a href="web-development.html"><i class="bi bi-code-slash"></i> Website Development</a>
+                            <a href="ppc-advertising.html" class="active"><i class="bi bi-cursor-fill"></i> PPC
+                                Advertising</a>
+                            <a href="social-media-management.html"><i class="bi bi-chat-heart"></i> Social Media
+                                Management</a>
+                            <a href="social-media-marketing.html"><i class="bi bi-megaphone"></i> Paid Social Ads</a>
+                            <a href="brand-identity.html"><i class="bi bi-fingerprint"></i> Brand Identity Design</a>
+                            <a href="graphic-design.html"><i class="bi bi-palette"></i> Graphic Design</a>
+                            <a href="email-marketing.html"><i class="bi bi-envelope-paper-heart"></i> Email
+                                Marketing</a>
+                            <a href="content-marketing.html"><i class="bi bi-journal-text"></i> Content Marketing</a>
+                            <a href="conversion-optimization.html"><i class="bi bi-graph-up-arrow"></i> Conversion
+                                Optimization (CRO)</a>
+                        </div>
+
+                        <div class="p-4 mt-4 rounded border" style="background: var(--bg-light);">
+                            <h5 class="fw-bold text-dark mb-2">Our Promise</h5>
+                            <p class="small text-muted m-0 italic">"We don't waste your budget. We build ad campaigns
+                                that pay for themselves."</p>
+                        </div>
+                    </div>
+
+                    <!-- Right Content Area -->
+                    <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+                        <div class="content-wrapper">
+
+                            <span class="text-primary uppercase fw-bold tracking-wider small d-block mb-2">GET CUSTOMERS
+                                TODAY</span>
+                            <h2 class="agency-section-title mb-4">Stop Waiting for Customers. Put Your Business Right in
+                                Front of Them.</h2>
+
+                            <p class="lead text-muted mb-4">
+                                When someone wants to buy a product or hire a service in Nigeria, what do they do? They
+                                open Google and type exactly what they need. Pay-Per-Click (PPC) advertising means your
+                                business shows up at the very top of those search results the exact second they press
+                                enter.
+                            </p>
+
+                            <p class="text-muted mb-5">
+                                The best part? You only pay when someone actually clicks on your ad to call you or visit
+                                your website. At Webtellisense, we set up, manage, and optimize your Google Ads
+                                campaigns. Whether you want local buyers in Uyo and Eket, or you want to sell to people
+                                nationwide across Lagos and Abuja, we make sure your ad spend brings in real profit.
+                            </p>
+
+                            <!-- Simple Data Callout Grid -->
+                            <div class="row g-4 mb-5">
+                                <div class="col-md-6">
+                                    <div class="pillar-card">
+                                        <div class="pillar-icon"><i class="bi bi-telephone-inbound-fill"></i></div>
+                                        <h5 class="fw-bold text-dark">Ready-to-Buy Traffic</h5>
+                                        <p class="text-muted small m-0">Unlike normal social media scrolling, people on
+                                            Google are already looking for a solution. When they search for things like
+                                            "best hospital in Uyo" or "logistics company in Eket," showing up at the top
+                                            means you get the call first.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="pillar-card">
+                                        <div class="pillar-icon"><i class="bi bi-cash-coin"></i></div>
+                                        <h5 class="fw-bold text-dark">No Wasted Money</h5>
+                                        <p class="text-muted small m-0">We don't show your ads to random people. We
+                                            target your exact audience by their age, location, and the specific words
+                                            they type. If they aren't looking for what you sell, they won't see your ad.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Plain English Pillars -->
+                            <h3 class="fw-bold text-dark mb-3">How We Run Your Ad Campaigns</h3>
+                            <p class="text-muted mb-4">We manage everything from start to finish so your budget is
+                                highly protected:</p>
+
+                            <div class="row g-4 mb-5">
+                                <div class="col-md-6">
+                                    <h6 class="fw-bold text-dark mb-1"><i class="bi bi-bullseye text-primary me-1"></i>
+                                        Keyword Research</h6>
+                                    <p class="text-muted small">We discover the exact phrases your real customers are
+                                        typing into Google so we don't buy useless search traffic.</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <h6 class="fw-bold text-dark mb-1"><i
+                                            class="bi bi-pencil-square text-primary me-1"></i> Persuasive Ad Writing
+                                    </h6>
+                                    <p class="text-muted small">We write clear, highly professional text headlines that
+                                        encourage searchers to click your business over competitors.</p>
+                                </div>
+                            </div>
+
+                            <!-- Pricing Matrix Component -->
+                            <h3 class="fw-bold text-dark text-center mt-5 mb-2">Transparent PPC Management Fees</h3>
+                            <p class="text-muted text-center small mb-4">Our flat monthly management fees. Note: Your
+                                actual Google ad budget is paid directly to Google.</p>
+
+                            <div class="row g-4 pt-2">
+
+                                <!-- Starter Ads Package -->
+                                <div class="col-md-4">
+                                    <div class="pricing-card">
+                                        <div>
+                                            <h5 class="fw-bold text-dark mb-1">STARTER ADS</h5>
+                                            <h4 class="text-primary fw-bold mb-1">₦40,000<span
+                                                    class="fs-6 text-muted fw-normal">/month</span></h4>
+                                            <p class="text-muted small m-0">Perfect for small local businesses and
+                                                single service providers.</p>
+                                            <hr class="my-3">
+                                            <ul class="feature-list-items">
+                                                <li><i class="bi bi-check-circle-fill"></i> Google Search Ads Campaign
+                                                </li>
+                                                <li><i class="bi bi-check-circle-fill"></i> Targeted to 1 Location
+                                                    (e.g., Uyo)</li>
+                                                <li><i class="bi bi-check-circle-fill"></i> Up to 20 Target Keywords
+                                                </li>
+                                                <li><i class="bi bi-check-circle-fill"></i> Negative Keyword Setup
+                                                    (Blocks waste)</li>
+                                                <li><i class="bi bi-check-circle-fill"></i> Phone Call Extensions Setup
+                                                </li>
+                                                <li><i class="bi bi-check-circle-fill"></i> Weekly Campaign Monitoring
+                                                </li>
+                                                <li><i class="bi bi-check-circle-fill"></i> Monthly Performance Report
+                                                </li>
+                                                <li><i class="bi bi-exclamation-circle text-warning"></i> <i>Recommended
+                                                        Ad Budget: ₦50k+/mo</i></li>
+                                            </ul>
+                                        </div>
+                                        <a href="contact.html?tier=starter_ppc"
+                                            class="btn btn-outline-primary btn-sm w-100 mt-4 py-2 fw-bold">Launch
+                                            Starter Ads</a>
+                                    </div>
+                                </div>
+
+                                <!-- Growth Ads Package -->
+                                <div class="col-md-4">
+                                    <div class="pricing-card featured">
+                                        <span class="pricing-badge">Best ROI</span>
+                                        <div>
+                                            <h5 class="fw-bold text-dark mb-1">GROWTH ADS</h5>
+                                            <h4 class="text-primary fw-bold mb-1">₦75,000<span
+                                                    class="fs-6 text-muted fw-normal">/month</span></h4>
+                                            <p class="text-muted small m-0">Great for growing companies, retail setups,
+                                                and regional brands.</p>
+                                            <hr class="my-3">
+                                            <ul class="feature-list-items">
+                                                <li><i class="bi bi-check-circle-fill"></i> Google Search + Display
+                                                    Banner Ads</li>
+                                                <li><i class="bi bi-check-circle-fill"></i> Targeted to Multiple States
+                                                    or Nationwide</li>
+                                                <li><i class="bi bi-check-circle-fill"></i> Unlimited Target Keywords
+                                                </li>
+                                                <li><i class="bi bi-check-circle-fill"></i> Competitor Targeting
+                                                    Integration</li>
+                                                <li><i class="bi bi-check-circle-fill"></i> Conversion Tracking Setup
+                                                </li>
+                                                <li><i class="bi bi-check-circle-fill"></i> A/B Testing (Testing
+                                                    multiple ad ideas)</li>
+                                                <li><i class="bi bi-check-circle-fill"></i> Bi-Weekly Progress Reviews
+                                                </li>
+                                                <li><i class="bi bi-exclamation-circle text-warning"></i> <i>Recommended
+                                                        Ad Budget: ₦150k+/mo</i></li>
+                                            </ul>
+                                        </div>
+                                        <a href="contact.html?tier=growth_ppc"
+                                            class="btn btn-primary btn-sm w-100 mt-4 py-2 fw-bold">Choose Growth
+                                            Plan</a>
+                                    </div>
+                                </div>
+
+                                <!-- Scale Enterprise Package -->
+                                <div class="col-md-4">
+                                    <div class="pricing-card">
+                                        <div>
+                                            <h5 class="fw-bold text-dark mb-1">SCALE ENTERPRISE</h5>
+                                            <h4 class="text-primary fw-bold mb-1">₦130,000<span
+                                                    class="fs-6 text-muted fw-normal">/month</span></h4>
+                                            <p class="text-muted small m-0">Full-scale setup for high-volume nationwide
+                                                & international brands.</p>
+                                            <hr class="my-3">
+                                            <ul class="feature-list-items">
+                                                <li><i class="bi bi-check-circle-fill"></i> Search, Display, & YouTube
+                                                    Video Ads</li>
+                                                <li><i class="bi bi-check-circle-fill"></i> Nationwide + International
+                                                    Targeting</li>
+                                                <li><i class="bi bi-check-circle-fill"></i> Google Shopping Ads (for
+                                                    E-commerce)</li>
+                                                <li><i class="bi bi-check-circle-fill"></i> Advanced Remarketing
+                                                    Campaigns</li>
+                                                <li><i class="bi bi-check-circle-fill"></i> Landing Page Optimization
+                                                    Advice</li>
+                                                <li><i class="bi bi-check-circle-fill"></i> Dedicated Ad Account Manager
+                                                </li>
+                                                <li><i class="bi bi-check-circle-fill"></i> Weekly Live Analytics
+                                                    Reports</li>
+                                                <li><i class="bi bi-exclamation-circle text-warning"></i> <i>Recommended
+                                                        Ad Budget: ₦400k+/mo</i></li>
+                                            </ul>
+                                        </div>
+                                        <a href="contact.html?tier=enterprise_ppc"
+                                            class="btn btn-outline-primary btn-sm w-100 mt-4 py-2 fw-bold">Talk to Ad
+                                            Expert</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <!-- High-Converting Dynamic Audit Form Block Area -->
+                            <div class="audit-box-premium shadow">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-7">
+                                        <h4 class="fw-bold text-white mb-2">Want to know what your customers are
+                                            searching for?</h4>
+                                        <p class="text-white-50 small m-0 mb-4 mb-lg-0">Let us run a free search volume
+                                            check for your industry. We will show you exactly how many people are
+                                            looking for your services in your area right now.</p>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <div id="hook-options-container" class="d-flex flex-column gap-2">
+                                            <a href="https://webtellisense.com/business-audit-tool?service=ppc"
+                                                class="btn btn-light text-start py-3 px-3 d-flex justify-content-between align-items-center text-dark rounded-3 small fw-bold">
+                                                <span>Check Local Search Volumes</span>
+                                                <i class="bi bi-arrow-right text-primary"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="footer" class="footer dark-background">
+
+        <div class="container footer-top">
+            <div class="row gy-4">
+                <div class="col-lg-4 col-md-6 footer-about">
+                    <a href="index.html" class="logo d-flex align-items-center">
+                        <span class="sitename">Webtellisense</span>
+                    </a>
+                    <div class="footer-contact pt-3">
+                        <p>KM15 Ikot Ibiok</p>
+                        <p>Eket, Akwa Ibom State</p>
+                        <p class="mt-3"><strong>Phone:</strong> <span>+234 707 584 8564</span></p>
+                        <p><strong>Email:</strong> <span>webtellisense@gmail.com</span></p>
+                    </div>
+                    <div class="social-links d-flex mt-4">
+                        <a href="https://www.facebook.com/profile.php?id=61569413316306" class="facebook"><i
+                                class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/webtellisense?igsh=Y21jZHpxcWlqNWZm" class="instagram"><i
+                                class="bi bi-instagram"></i></a>
+                        <a href="https://maps.app.goo.gl/Hx2cDWJcLzEJef4Z6" class="google"><i
+                                class="bi bi-google"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="faq.html">Frequently Asked Questions(FAQs)</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-3 footer-links">
+                    <h4>Services and Packages</h4>
+                    <ul>
+                        <li><a href="web-design.html">Web Design</a></li>
+                        <li><a href="brand-identity">Brand Identity</a></li>
+                        <li><a href="graphics-design.html">Graphic Design</a></li>
+                        <li><a href="social-media-management">Social Media Management</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-12 footer-newsletter">
+                    <h4>Our Newsletter</h4>
+                    <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+                    <form name="contact" method="POST" netlify>
+                        <div class="newsletter-form"><input type="email" name="email"><input type="submit"
+                                value="Subscribe"></div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container copyright text-center mt-4">
+            <p>© <span>Copyright</span> <strong class="px-1 sitename">Webtellisense Consult</strong> <span>All Rights
+                    Reserved</span></p>
+            <div class="credits">
+                Designed by <a href="https://webtellisense.com/">Webtellisense</a>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/2347075848564?text=Hi%20Webtellisense%2C%20I%20found%20your%20website%20and%20would%20like%20to%20learn%20how%20you%20can%20help%20my%20business%20become%20more%20visible%20online."
+        class="whatsapp-float" target="_blank">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

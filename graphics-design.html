@@ -2,35 +2,24 @@
 <html lang="en">
 
 <head>
-  <!-- Basic Essentials -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- Primary Meta Tags -->
-  <title>Professional Graphic Design Services in Eket | Webtellisense</title>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Professional Graphic Design Services Nigeria - Webtellisense</title>
   <meta name="description"
-    content="Elevate your brand with custom graphic design services in Eket. Logos, marketing materials & social media graphics that convert. Get a free consultation today.">
+    content="Get stunning flyers, social media graphics, event banners, and business prints designed by experts. Fast delivery for businesses in Uyo, Eket, and all over Nigeria.">
   <meta name="keywords"
-    content="graphic design Eket, logo design Nigeria, branding services, print design, social media graphics, Eket designers">
+    content="Graphic Designer Uyo, Flyer Design Nigeria, Banner Design Eket, Business Graphics Akwa Ibom">
 
-  <!-- Open Graph / Social Media Meta -->
-  <meta property="og:title" content="Professional Graphic Design Services in Eket | Webtellisense">
-  <meta property="og:description"
-    content="Stand out in Eket with custom graphic design that captures attention and converts customers. See our portfolio today.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://webtellisense.com/graphics-design">
-  <meta property="og:image" content="https://webtellisense.com/assets/img/graphics-design-og.jpg">
-
-  <!-- Favicon -->
+  <!-- Favicon (All Formats for Cross-Browser Support) -->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
 
-  <!-- Canonical URL -->
-  <link rel="canonical" href="https://webtellisense.com/graphics-design">
+  <!-- Canonical URL (Avoid Duplicate Content Issues) -->
+  <link rel="canonical" href="https://webtellisense.com">
 
-  <!-- Preload Critical Resources -->
+  <!-- Preload Critical Resources (Faster Loading) -->
   <link rel="preload" href="./assets/style/style.css" as="style">
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" as="style">
 
@@ -44,10 +33,148 @@
   <!-- Font CSS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary-agency: #0033ff;
+      --text-dark: #01033e;
+      --text-muted: #4B5563;
+      --bg-light: #F9FAFB;
+    }
+
+    .services-list a {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 16px 20px;
+      background-color: #ffffff;
+      color: var(--text-dark);
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      border-left: 4px solid transparent;
+      text-decoration: none;
+      font-weight: 600;
+      border-bottom: 1px solid #F3F4F6;
+    }
+
+    .services-list a.active,
+    .services-list a:hover {
+      background-color: rgba(10, 54, 212, 0.04);
+      color: var(--primary-agency);
+      border-left-color: var(--primary-agency);
+    }
+
+    .agency-section-title {
+      font-size: 2.25rem;
+      font-weight: 800;
+      letter-spacing: -0.025em;
+      color: var(--text-dark);
+      line-height: 1.2;
+    }
+
+    .pillar-card {
+      background: #ffffff;
+      padding: 24px;
+      border-radius: 12px;
+      border: 1px solid #E5E7EB;
+      height: 100%;
+    }
+
+    .pillar-icon {
+      width: 48px;
+      height: 48px;
+      background: rgba(10, 54, 212, 0.08);
+      color: var(--primary-agency);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      margin-bottom: 16px;
+    }
+
+    .pricing-card {
+      background: #ffffff;
+      padding: 35px 28px;
+      border-radius: 20px;
+      border: 1px solid #E5E7EB;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02);
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.3s ease;
+    }
+
+    .pricing-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 24px -8px rgba(10, 54, 212, 0.12);
+    }
+
+    .pricing-card.featured {
+      border: 2px solid var(--primary-agency);
+      position: relative;
+    }
+
+    .pricing-badge {
+      position: absolute;
+      top: -14px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--primary-agency);
+      color: #fff;
+      padding: 4px 14px;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      border-radius: 20px;
+      letter-spacing: 1px;
+    }
+
+    .feature-list-items {
+      list-style: none;
+      padding: 0;
+      margin: 24px 0 0 0;
+    }
+
+    .feature-list-items li {
+      padding: 8px 0;
+      font-size: 13px;
+      color: var(--text-muted);
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      line-height: 1.4;
+      border-bottom: 1px dashed #F3F4F6;
+    }
+
+    .feature-list-items li:last-child {
+      border: none;
+    }
+
+    .feature-list-items li i {
+      color: #10B981;
+      font-size: 15px;
+    }
+
+    .audit-box-premium {
+      background: linear-gradient(135deg, #061B69 0%, #0A36D4 100%);
+      border-radius: 24px;
+      padding: 48px;
+      color: #ffffff;
+      margin-top: 50px;
+    }
+  </style>
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PS5FNQCJRN"></script>
@@ -55,7 +182,6 @@
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'G-PS5FNQCJRN');
   </script>
 
@@ -75,9 +201,6 @@
     fbq('init', '806267492040936');
     fbq('track', 'PageView');
   </script>
-  <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=806267492040936&ev=PageView&noscript=1" /></noscript>
-  <!-- End Meta Pixel Code -->
 </head>
 
 <body class="service-details-page">
@@ -86,38 +209,35 @@
     <div class="container position-relative d-flex align-items-center">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <img src="./assets/img/logo.png" height="40" width="40" alt="Webtellisense Logo">
+        <img src="./assets/img/logo.png" class="main-logo" alt="Webtellisense Logo">
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="index.html#hero" class="active">Home</a></li>
           <li class="dropdown"><a href="about.html"><span>About Us</span> <i
                 class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="about.html">About Us</a></li>
               <li><a href="faq.html">FAQ</a></li>
               <li><a href="reviews.html">Reviews</a></li>
-              <!-- <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
-                    class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li> -->
             </ul>
           </li>
-          <li class="dropdown"><a href="about.html"><span>Services</span> <i
-                class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="web-design.html">web design</a></li>
-              <li><a href="graphics-design">graphics design</a></li>
-              <li><a href="brand-identity.html">brand identity</a></li>
+          <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul class="sub-menu">
+              <li><a href="/google-business-profile.html">Google Business Profile Management</a>
+              <li><a href="/web-design.html">Web Design & Development</a></li>
+              <li><a href="/ppc.html">Pay-Per-Click (PPC) Advertising</a></li>
+              <li><a href="/social-media-management.html">social media management</a></li>
+              <li><a href="/social-media-marketing.html">Social Media Marketing (Paid Ads)</a></li>
+              <li><a href="/branding.html">Brand Identity Design</a></li>
+              <li><a href="/graphics-design.html">Graphics Design</a></li>
+              <li><a href="/email-marketing.html">Email Marketing</a></li>
+              <li><a href="/content-marketing.html">Content Marketing</a></li>
+              <li><a href="/conversion-rate-optimization.html">Conversion Rate Optimization</a></li>
             </ul>
           </li>
+          <li><a href="packages.html">Packages</a></li>
           <li><a href="pricing.html">Pricing</a></li>
           <li><a href="blog.html">Blog</a></li>
           <li><a href="contact.html">Contact</a></li>
@@ -126,9 +246,11 @@
       </nav>
 
       <div class="header-social-links">
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="google"><i class="bi bi-google"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=61569413316306" class="facebook"><i
+            class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/webtellisense?igsh=Y21jZHpxcWlqNWZm" class="instagram"><i
+            class="bi bi-instagram"></i></a>
+        <a href="https://maps.app.goo.gl/Hx2cDWJcLzEJef4Z6" class="google"><i class="bi bi-google"></i></a>
       </div>
 
     </div>
@@ -139,241 +261,226 @@
     <!-- Page Title -->
     <div class="page-title accent-background">
       <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Graphics Design</h1>
+        <h1 class="mb-2 mb-lg-0">Graphic Design Services</h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">Graphics Design</li>
+            <li><a href="services.html">Services</a></li>
+            <li class="current">Graphic Design</li>
           </ol>
         </nav>
       </div>
-    </div><!-- End Page Title -->
+    </div>
 
     <!-- Service Details Section -->
-    <section id="service-details" class="service-details section">
+    <section id="service-details" class="service-details section bg-white">
       <div class="container">
-        <div class="row gy-4">
+        <div class="row gy-5">
 
+          <!-- Left Sidebar Menu Panel -->
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="services-list">
-              <a href="web-design.html">Web Design</a>
-              <a href="seo.html">SEO & Marketing</a>
-              <a href="#" class="active">Graphic Design</a>
-              <a href="branding.html">Brand Identity</a>
-              <a href="social-media.html">Social Media</a>
+            <div class="services-list shadow-sm rounded border bg-white overflow-hidden">
+              <a href="google-business-profile.html"><i class="bi bi-geo-alt"></i> Google Business Profile</a>
+              <a href="web-development.html"><i class="bi bi-code-slash"></i> Website Development</a>
+              <a href="ppc-advertising.html"><i class="bi bi-cursor-fill"></i> PPC Advertising</a>
+              <a href="social-media-management.html"><i class="bi bi-chat-heart"></i> Social Media Management</a>
+              <a href="social-media-marketing.html"><i class="bi bi-megaphone"></i> Paid Social Ads</a>
+              <a href="brand-identity.html"><i class="bi bi-fingerprint"></i> Brand Identity Design</a>
+              <a href="graphic-design.html" class="active"><i class="bi bi-palette"></i> Graphic Design</a>
+              <a href="email-marketing.html"><i class="bi bi-envelope-paper-heart"></i> Email Marketing</a>
+              <a href="content-marketing.html"><i class="bi bi-journal-text"></i> Content Marketing</a>
+              <a href="conversion-optimization.html"><i class="bi bi-graph-up-arrow"></i> Conversion Optimization
+                (CRO)</a>
             </div>
 
-            <h4>Visuals That Speak Louder Than Words</h4>
-            <p>In Eket's competitive market, professional design makes the difference between being noticed and being
-              ignored. Our designs don't just look good - they work hard to attract and convert your ideal customers.
-            </p>
-
-            <div class="design-types mt-4">
-              <h5>We Specialize In:</h5>
-              <ul>
-                <li><i class="bi bi-check-circle"></i> Business Cards & Stationery</li>
-                <li><i class="bi bi-check-circle"></i> Social Media Graphics</li>
-                <li><i class="bi bi-check-circle"></i> Flyers & Brochures</li>
-                <li><i class="bi bi-check-circle"></i> Signage & Banner Designs</li>
-              </ul>
+            <div class="p-4 mt-4 rounded border" style="background: var(--bg-light);">
+              <h5 class="fw-bold text-dark mb-2">Our Promise</h5>
+              <p class="small text-muted m-0 italic">"No messy, cluttered designs. We deliver sharp, modern visuals that
+                make your business stand out instantly."</p>
             </div>
           </div>
 
+          <!-- Right Content Area -->
           <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-            <img src="assets/img/graphics-design-header.jpg" alt="Graphic design portfolio samples for Eket businesses"
-              class="img-fluid services-img" loading="lazy">
+            <div class="content-wrapper">
 
-            <h2>Graphic Design That Grows Your Business</h2>
-            <p>
-              In today's visually-driven world, your brand needs to do more than just exist—it needs to captivate,
-              communicate, and convert. At Webtellisense, we specialize in Graphic Design and Brand Identity services
-              that transform your ideas into compelling visuals, ensuring your business not only stands out but leaves a
-              lasting impression.
-            </p>
+              <span class="text-primary uppercase fw-bold tracking-wider small d-block mb-2">STAND OUT INSTANTLY</span>
+              <h2 class="agency-section-title mb-4">Bad Designs Confuse Buyers. Clean Designs Make Sales.</h2>
 
-            <h3>What We Offer</h3>
-            <p>We bring your written and spoken concepts to life with a range of specific deliverables, including:</p>
-            <ul>
-              <li><i class="bi bi-check-circle"></i> <span><strong>Custom Flyers</strong> - Designed to grab attention
-                  and convey your message effectively.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span><strong>Cohesive Brand Visuals</strong> - From logos and
-                  color palettes to typography, we create a consistent visual language that speaks volumes about your
-                  brand.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span><strong>Dynamic Motion Graphics</strong> - Bringing your
-                  stories to life with engaging animations and videos that static images simply can't.</span></li>
-            </ul>
-
-            <h3 class="mt-4">The Webtellisense Difference: Design with Purpose</h3>
-            <p>
-              Why do our graphic design services matter? Because in a competitive online landscape, strong, consistent,
-              and emotionally resonant design is paramount for building trust and instantly communicating value. We help
-              brands transition from being unnoticed to unforgettable by crafting visuals that are not only
-              aesthetically pleasing but also strategically sound.
-            </p>
-
-            <p>What truly sets us apart is our unique blend of <b>strategy and creativity</b>. We don't just "make
-              things look
-              good"; we design with a clear purpose. Every visual element we create is intentional, tailored
-              specifically to your brand's voice, target audience, and overarching goals. This intentionality, coupled
-              with the power of motion elements, ensures your brand's story is told vividly and memorably.</p>
-
-            <div class="process-steps">
-              <h4>We solve the common pain points of:</h4>
-              <ul>
-                <li><i class="bi bi-check-circle"></i> <span><strong>Brand Inconsistency</strong> - Ensuring every
-                    visual touchpoint aligns perfectly with your brand identity.</span></li>
-                <li><i class="bi bi-check-circle"></i> <span><strong>Poor Visual Communication</strong> - Translating
-                    complex ideas into clear, engaging visuals.</span></li>
-                <li><i class="bi bi-check-circle"></i> <span><strong>Lack of Engagement</strong> - Creating captivating
-                    designs that resonate with your audience and drive interaction.</span></li>
-              </ul>
-            </div>
-
-            <p>The transformation for our clients is profound: you move from struggling with weak, forgettable brand
-              visuals to possessing a strong, recognizable identity that fosters engagement, builds credibility, and
-              attracts your ideal audience. Our designs empower you with increased visibility, professionalism, and
-              confidence in how you present your brand to the world.
-            </p>
-
-            <div class="case-study mt-5">
-              <h3>Our Collaborative Design Process</h3>
-              <p>Our service delivery is a collaborative and structured creative process, ensuring your vision is
-                central to every step.</p>
-              <ul>
-                <li><i class="bi bi-check-circle"></i> <span><strong>Consultation & Brand Discovery</strong> - We begin
-                    by deeply understanding your goals, audience, and brand personality.</span></li>
-                <li><i class="bi bi-check-circle"></i> <span><strong>Conceptual Development</strong> - We then move into
-                    crafting initial concepts based on our insights.</span></li>
-                <li><i class="bi bi-check-circle"></i> <span><strong>Design Execution & Revisions</strong> - Our
-                    designers bring
-                    these concepts to life, with your involvement at key stages for feedback and revisions.</span></li>
-              </ul>
-              <p>We utilize industry-leading tools like Adobe Illustrator, Photoshop, Alight Motion, and After Effects
-                to bring your designs to fruition. Final deliverables are provided in organized digital formats,
-                optimized for both print and digital use.</p>
-
-              <h4>Typical Project Timelines:</h4>
-              <ul>
-                <li><i class="bi bi-check-circle"></i> <span><strong>Logo Design & Brand Identity</strong> - 7–14
-                    days</span></li>
-                <li><i class="bi bi-check-circle"></i> <span><strong>Social Media Graphics Packs</strong> - 3–5
-                    days</span></li>
-                <li><i class="bi bi-check-circle"></i> <span><strong>Motion Graphics Videos</strong> - 5–10 days</span>
-                </li>
-              </ul>
-              <p><i>Rush delivery options are available for urgent needs, with clear expectations on turnaround and
-                  revisions.</i></p>
-            </div>
-
-            <div class="who-we-serve mt-5">
-              <h3>Who We Serve</h3>
-              <p>
-                Our graphic design and brand identity services are ideal for **passionate business owners, personal
-                brands, startups, schools, and creative entrepreneurs** who understand the critical importance of a
-                professional visual identity. Our clients are often in the early to mid-stage of business growth,
-                looking to launch, rebrand, or scale their presence. We frequently partner with businesses in education,
-                fashion, tech, lifestyle, media, and service-based entrepreneurship.
+              <p class="lead text-muted mb-4">
+                We live in a world where everyone is scrolling incredibly fast. If your event flyer, product banner, or
+                social media image looks cluttered, hard to read, or unprofessional, people will scroll right past it
+                without a second thought.
               </p>
-              <p>
-                Our ideal clients value **creativity, clarity, and dependability**. While speed is always appreciated,
-                they prioritize strategic design, consistent communication, and a visual identity that authentically
-                reflects their purpose and deeply connects with their audience.
-              </p>
-            </div>
 
-            <div class="defining-success mt-5">
-              <h3>Defining Success</h3>
-              <p>
-                We define success not just by a beautiful visual outcome, but by tangible improvements in how your
-                audience perceives and engages with your brand. Our key performance indicators (KPIs) include:
+              <p class="text-muted mb-5">
+                At Webtellisense, our **Graphic Design** service is built to stop the scroll. We focus on clean layouts,
+                sharp typography, and perfect color balance that guides the viewer's eye straight to what matters: your
+                offer and your contact details. From local church banners in Uyo and retail storefront stickers in Eket,
+                to massive corporate project presentations across Nigeria, we create visuals that turn casual viewers
+                into paying customers.
               </p>
-              <ul>
-                <li><i class="bi bi-check-circle"></i> <span>A cohesive and easily recognizable brand identity.</span>
-                </li>
-                <li><i class="bi bi-check-circle"></i> <span>Increased audience engagement across social media or
-                    platforms.</span></li>
-                <li><i class="bi bi-check-circle"></i> <span>Positive client and customer feedback on brand
-                    visuals.</span></li>
-                <li><i class="bi bi-check-circle"></i> <span>Growth in leads, conversions, or followers due to improved
-                    presentation.</span></li>
-                <li><i class="bi bi-check-circle"></i> <span>Reduced need for constant redesigns or visual
-                    confusion.</span></li>
-              </ul>
+
+              <!-- Simple Data Callout Grid -->
+              <div class="row g-4 mb-5">
+                <div class="col-md-6">
+                  <div class="pillar-card">
+                    <div class="pillar-icon"><i class="bi bi-lightning-charge-fill"></i></div>
+                    <h5 class="fw-bold text-dark">Fast & Reliable Delivery</h5>
+                    <p class="text-muted small m-0">We know business moves fast. You don’t have to wait weeks or chase
+                      down unreliable freelancers. We deliver your draft designs exactly when promised, ensuring your
+                      marketing runs perfectly on schedule.</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="pillar-card">
+                    <div class="pillar-icon"><i class="bi bi-printer-fill"></i></div>
+                    <h5 class="fw-bold text-dark">Print-Ready Formats</h5>
+                    <p class="text-muted small m-0">Tired of designs looking blurry when printed? We provide
+                      ultra-high-resolution files in the exact color profiles and formats your printing house needs for
+                      billboards, brochures, and stickers.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Plain English Pillars -->
+              <h3 class="fw-bold text-dark mb-3">What We Can Design for You</h3>
+              <p class="text-muted mb-4">Whatever your business needs to communicate visually, our creative team has you
+                covered:</p>
+
+              <div class="row g-4 mb-5">
+                <div class="col-md-6">
+                  <h6 class="fw-bold text-dark mb-1"><i class="bi bi-image text-primary me-1"></i> Marketing & Promo
+                    Flyers</h6>
+                  <p class="text-muted small">Beautiful promo flyers, social media product cards, restaurant menus, and
+                    seasonal discount graphics.</p>
+                </div>
+                <div class="col-md-6">
+                  <h6 class="fw-bold text-dark mb-1"><i class="bi bi-aspect-ratio text-primary me-1"></i> Large Scale
+                    Banners</h6>
+                  <p class="text-muted small">High-impact roll-up banners, event backdrops, outdoor signboards, and
+                    church conference signage layouts.</p>
+                </div>
+              </div>
+
+              <!-- Pricing Matrix Component -->
+              <h3 class="fw-bold text-dark text-center mt-5 mb-2">Flat-Rate, Affordable Design Packs</h3>
+              <p class="text-muted text-center small mb-4">No hidden project fees. Choose a design bundle that fits your
+                current marketing campaign requirements.</p>
+
+              <div class="row g-4 pt-2">
+
+                <!-- Single Asset Package -->
+                <div class="col-md-4">
+                  <div class="pricing-card">
+                    <div>
+                      <h5 class="fw-bold text-dark mb-1">SINGLE GRAPHIC</h5>
+                      <h4 class="text-primary fw-bold mb-1">₦8,000<span class="fs-6 text-muted fw-normal">
+                          /design</span></h4>
+                      <p class="text-muted small m-0">Perfect for quick, one-off projects like a single product launch
+                        flyer or profile poster.</p>
+                      <hr class="my-3">
+                      <ul class="feature-list-items">
+                        <li><i class="bi bi-check-circle-fill"></i> 1 High-Resolution Digital Layout</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Optimized for WhatsApp/Instagram</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Professional Stock Imagery Included</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Standard 48-Hour Turnaround</li>
+                        <li><i class="bi bi-check-circle-fill"></i> 2 Round of Corrections/Revisions</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Formatted in High-Quality JPEG/PNG</li>
+                        <li><i class="bi bi-dash-circle text-muted"></i> <span class="text-muted">No Vector Source
+                            Files</span></li>
+                      </ul>
+                    </div>
+                    <a href="contact.html?tier=single_design"
+                      class="btn btn-outline-primary btn-sm w-100 mt-4 py-2 fw-bold">Order Single Flyer</a>
+                  </div>
+                </div>
+
+                <!-- Promo Bundle Package -->
+                <div class="col-md-4">
+                  <div class="pricing-card featured">
+                    <span class="pricing-badge">Best Value</span>
+                    <div>
+                      <h5 class="fw-bold text-dark mb-1">PROMO BUNDLE</h5>
+                      <h4 class="text-primary fw-bold mb-1">₦35,000<span class="fs-6 text-muted fw-normal"> /pack</span>
+                      </h4>
+                      <p class="text-muted small m-0">Ideal for full marketing events, product campaigns, or a month’s
+                        worth of promo posts.</p>
+                      <hr class="my-3">
+                      <ul class="feature-list-items">
+                        <li><i class="bi bi-check-circle-fill"></i> 5 Custom Creative Graphic Layouts</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Mix of Flyers, Stories, or Banner styles</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Matching Brand Theme Alignment</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Print-Ready High-Res Formats (PDF)</li>
+                        <li><i class="bi bi-check-circle-fill"></i> 3 Complete Revision Rounds</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Dedicated Creative Assistant</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Rapid 3-5 Day Delivery Window</li>
+                      </ul>
+                    </div>
+                    <a href="contact.html?tier=promo_bundle" class="btn btn-primary btn-sm w-100 mt-4 py-2 fw-bold">Get
+                      Promo Bundle</a>
+                  </div>
+                </div>
+
+                <!-- Corporate Print Package -->
+                <div class="col-md-4">
+                  <div class="pricing-card">
+                    <div>
+                      <h5 class="fw-bold text-dark mb-1">BUSINESS PRINT</h5>
+                      <h4 class="text-primary fw-bold mb-1">₦70,000<span class="fs-6 text-muted fw-normal"> /pack</span>
+                      </h4>
+                      <p class="text-muted small m-0">Best for professional stationary, product catalogs, and detailed
+                        company printouts.</p>
+                      <hr class="my-3">
+                      <ul class="feature-list-items">
+                        <li><i class="bi bi-check-circle-fill"></i> 1 Multi-Page Catalog or Brochure (Up to 8 pgs)</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Roll-Up Banner + Signboard Layouts</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Label, Sticker, or Package Design Blueprint</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Fully Scalable Vector Source Files (AI/EPS)</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Unlimited Revision Safeguards</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Commercial Use License Release</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Premium Font Pairing Strategy</li>
+                      </ul>
+                    </div>
+                    <a href="contact.html?tier=business_print"
+                      class="btn btn-outline-primary btn-sm w-100 mt-4 py-2 fw-bold">Order Business Print</a>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- High-Converting Dynamic Audit Form Block Area -->
+              <div class="audit-box-premium shadow">
+                <div class="row align-items-center">
+                  <div class="col-lg-7">
+                    <h4 class="fw-bold text-white mb-2">Need advice on an upcoming design layout or billboard?</h4>
+                    <p class="text-white-50 small m-0 mb-4 mb-lg-0">Send over your draft text and concept idea. Our
+                      design team will give you a free expert review on how to structure the text hierarchy and images
+                      for maximum customer response.</p>
+                  </div>
+                  <div class="col-lg-5">
+                    <div id="hook-options-container" class="d-flex flex-column gap-2">
+                      <a href="https://webtellisense.com/business-audit-tool?service=design_review"
+                        class="btn btn-light text-start py-3 px-3 d-flex justify-content-between align-items-center text-dark rounded-3 small fw-bold">
+                        <span>Get Free Layout Review</span>
+                        <i class="bi bi-arrow-right text-primary"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
-        </div>
-      </div>
-    </section><!-- /Service Details Section -->
-
-    <!-- Pricing/Packages Section -->
-    <section id="pricing" class="pricing section">
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="pricing-item">
-              <h3>Starter Package</h3>
-              <p class="description"><em>Ideal for:</em> Businesses testing digital marketing or running lean
-                operations
-              </p>
-              <h4><sup>₦</sup>80,000<span> / month</span></h4>
-              <a href="#" class="cta-btn">Start a free trial</a>
-              <p class="text-center small">No credit card required</p>
-              <ul>
-                <li><i class="bi bi-check"></i> <span>8 content pieces/month (static + carousels)</span></li>
-                <li><i class="bi bi-check"></i> <span>Meta Ads setup & management (1 campaign)</span></li>
-                <li><i class="bi bi-check"></i> <span>Monthly performance report</span></li>
-                </li>
-              </ul>
-            </div>
-          </div><!-- End Pricing Item -->
-
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
-            <div class="pricing-item featured">
-              <p class="popular">Popular</p>
-              <h3>Growth Package</h3>
-              <p class="description"><em>Ideal for:</em> SMEs ready to scale lead generation
-              </p>
-              <h4><sup>₦</sup>130,000<span> / month</span></h4>
-              <a href="#" class="cta-btn">Start a free trial</a>
-              <p class="text-center small">No credit card required</p>
-              <ul>
-                <li><i class="bi bi-check"></i> <span>12-15 premium content pieces (including Reels)</span></li>
-                <li><i class="bi bi-check"></i> <span>Meta + Google Ads (2 campaigns each)</span></li>
-                <li><i class="bi bi-check"></i> <span>Lead capture funnel + CRM tracking</span></li>
-                <li><i class="bi bi-check"></i> <span>Bi-weekly strategy calls</span></li>
-              </ul>
-            </div>
-          </div><!-- End Pricing Item -->
-
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
-            <div class="pricing-item">
-              <h3>Scale & Automate</h3>
-              <p class="description"><em>Ideal for:</em> Established businesses needing hands-off growth
-              </p>
-              <h4><sup>₦</sup>300,000<span> / month</span></h4>
-              <a href="#" class="cta-btn">Start a free trial</a>
-              <p class="text-center small">No credit card required</p>
-              <ul>
-                <li><i class="bi bi-check"></i> <span>20+ video-heavy content pieces</span></li>
-                <li><i class="bi bi-check"></i> <span>Sales funnel with email/SMS automation</span></li>
-                <li><i class="bi bi-check"></i> <span>CRM integration & weekly optimizations</span></li>
-
-              </ul>
-            </div>
-          </div><!-- End Pricing Item -->
 
         </div>
-
       </div>
-
-    </section><!-- /Pricing Section -->
+    </section>
 
   </main>
 
   <footer id="footer" class="footer dark-background">
+
     <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
@@ -387,9 +494,11 @@
             <p><strong>Email:</strong> <span>webtellisense@gmail.com</span></p>
           </div>
           <div class="social-links d-flex mt-4">
-            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="google"><i class="bi bi-google"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61569413316306" class="facebook"><i
+                class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/webtellisense?igsh=Y21jZHpxcWlqNWZm" class="instagram"><i
+                class="bi bi-instagram"></i></a>
+            <a href="https://maps.app.goo.gl/Hx2cDWJcLzEJef4Z6" class="google"><i class="bi bi-google"></i></a>
           </div>
         </div>
 
@@ -399,13 +508,13 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About us</a></li>
             <li><a href="services.html">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
+            <li><a href="faq.html">Frequently Asked Questions(FAQs)</a></li>
             <li><a href="#">Privacy policy</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
+          <h4>Services and Packages</h4>
           <ul>
             <li><a href="web-design.html">Web Design</a></li>
             <li><a href="brand-identity">Brand Identity</a></li>
@@ -417,11 +526,8 @@
         <div class="col-lg-4 col-md-12 footer-newsletter">
           <h4>Our Newsletter</h4>
           <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
-          <form action="forms/newsletter.php" method="post" class="php-email-form">
+          <form name="contact" method="POST" netlify>
             <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your subscription request has been sent. Thank you!</div>
           </form>
         </div>
 
@@ -442,6 +548,11 @@
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
 
+  <!-- WhatsApp Button -->
+  <a href="https://wa.me/2347075848564?text=Hi%20Webtellisense%2C%20I%20found%20your%20website%20and%20would%20like%20to%20learn%20how%20you%20can%20help%20my%20business%20become%20more%20visible%20online."
+    class="whatsapp-float" target="_blank">
+    <i class="bi bi-whatsapp"></i>
+  </a>
 
 
   <!-- Vendor JS Files -->

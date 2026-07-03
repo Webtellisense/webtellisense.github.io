@@ -4,13 +4,13 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Professional Brand Identity Services in Eket | Webtellisens</title>
+  <title>Professional Brand Identity & Logo Design Nigeria - Webtellisense</title>
   <meta name="description"
-    content="Craft a memorable brand identity in Eket with our complete branding solutions - logo design, style guides, and visual assets that make your business unforgettable.">
+    content="Stop looking like a small business. Get a professional logo, official brand colors, business cards, and letterheads that make you look elite. Services in Uyo, Eket, and nationwide.">
   <meta name="keywords"
-    content="Eket branding, brand identity design, logo creation, business branding, Akwa Ibom brand agency">
+    content="Logo Design Uyo, Corporate Branding Nigeria, Business Stationery Eket, Brand Book Design Akwa Ibom">
 
-  <!-- Favicons -->
+  <!-- Favicon (All Formats for Cross-Browser Support) -->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -33,10 +33,148 @@
   <!-- Font CSS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary-agency: #0033ff;
+      --text-dark: #01033e;
+      --text-muted: #4B5563;
+      --bg-light: #F9FAFB;
+    }
+
+    .services-list a {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 16px 20px;
+      background-color: #ffffff;
+      color: var(--text-dark);
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      border-left: 4px solid transparent;
+      text-decoration: none;
+      font-weight: 600;
+      border-bottom: 1px solid #F3F4F6;
+    }
+
+    .services-list a.active,
+    .services-list a:hover {
+      background-color: rgba(10, 54, 212, 0.04);
+      color: var(--primary-agency);
+      border-left-color: var(--primary-agency);
+    }
+
+    .agency-section-title {
+      font-size: 2.25rem;
+      font-weight: 800;
+      letter-spacing: -0.025em;
+      color: var(--text-dark);
+      line-height: 1.2;
+    }
+
+    .pillar-card {
+      background: #ffffff;
+      padding: 24px;
+      border-radius: 12px;
+      border: 1px solid #E5E7EB;
+      height: 100%;
+    }
+
+    .pillar-icon {
+      width: 48px;
+      height: 48px;
+      background: rgba(10, 54, 212, 0.08);
+      color: var(--primary-agency);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      margin-bottom: 16px;
+    }
+
+    .pricing-card {
+      background: #ffffff;
+      padding: 35px 28px;
+      border-radius: 20px;
+      border: 1px solid #E5E7EB;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02);
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.3s ease;
+    }
+
+    .pricing-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 24px -8px rgba(10, 54, 212, 0.12);
+    }
+
+    .pricing-card.featured {
+      border: 2px solid var(--primary-agency);
+      position: relative;
+    }
+
+    .pricing-badge {
+      position: absolute;
+      top: -14px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--primary-agency);
+      color: #fff;
+      padding: 4px 14px;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      border-radius: 20px;
+      letter-spacing: 1px;
+    }
+
+    .feature-list-items {
+      list-style: none;
+      padding: 0;
+      margin: 24px 0 0 0;
+    }
+
+    .feature-list-items li {
+      padding: 8px 0;
+      font-size: 13px;
+      color: var(--text-muted);
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      line-height: 1.4;
+      border-bottom: 1px dashed #F3F4F6;
+    }
+
+    .feature-list-items li:last-child {
+      border: none;
+    }
+
+    .feature-list-items li i {
+      color: #10B981;
+      font-size: 15px;
+    }
+
+    .audit-box-premium {
+      background: linear-gradient(135deg, #061B69 0%, #0A36D4 100%);
+      border-radius: 24px;
+      padding: 48px;
+      color: #ffffff;
+      margin-top: 50px;
+    }
+  </style>
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PS5FNQCJRN"></script>
@@ -44,27 +182,25 @@
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'G-PS5FNQCJRN');
   </script>
 
   <!-- Meta Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '806267492040936');
-  fbq('track', 'PageView');
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '806267492040936');
+    fbq('track', 'PageView');
   </script>
-  <noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=806267492040936&ev=PageView&noscript=1"
-  /></noscript>
-  <!-- End Meta Pixel Code -->
 </head>
 
 <body class="service-details-page">
@@ -73,39 +209,35 @@
     <div class="container position-relative d-flex align-items-center">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <img src="./assets/img/logo.png" height="40" width="40" alt="Webtellisense Logo">
+        <img src="./assets/img/logo.png" class="main-logo" alt="Webtellisense Logo">
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html#hero">Home</a></li>
+          <li><a href="index.html#hero" class="active">Home</a></li>
           <li class="dropdown"><a href="about.html"><span>About Us</span> <i
                 class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="about.html">About Us</a></li>
               <li><a href="faq.html">FAQ</a></li>
               <li><a href="reviews.html">Reviews</a></li>
-              <!-- <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
-                    class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li> -->
             </ul>
           </li>
-          <li class="dropdown"><a href="about.html" class="active"><span>Services</span> <i
-                class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul class="sub-menu">
-              <li><a href="web-design.html">web design</a></li>
-              <li><a href="graphics-design.html">graphics design</a></li>
-              <li><a href="brand-identity.html">brand identity</a></li>
-              <li><a href="social-media-management.html">social media management</a></li>
+              <li><a href="/google-business-profile.html">Google Business Profile Management</a>
+              <li><a href="/web-design.html">Web Design & Development</a></li>
+              <li><a href="/ppc.html">Pay-Per-Click (PPC) Advertising</a></li>
+              <li><a href="/social-media-management.html">social media management</a></li>
+              <li><a href="/social-media-marketing.html">Social Media Marketing (Paid Ads)</a></li>
+              <li><a href="/branding.html">Brand Identity Design</a></li>
+              <li><a href="/graphics-design.html">Graphics Design</a></li>
+              <li><a href="/email-marketing.html">Email Marketing</a></li>
+              <li><a href="/content-marketing.html">Content Marketing</a></li>
+              <li><a href="/conversion-rate-optimization.html">Conversion Rate Optimization</a></li>
             </ul>
           </li>
+          <li><a href="packages.html">Packages</a></li>
           <li><a href="pricing.html">Pricing</a></li>
           <li><a href="blog.html">Blog</a></li>
           <li><a href="contact.html">Contact</a></li>
@@ -129,112 +261,224 @@
     <!-- Page Title -->
     <div class="page-title accent-background">
       <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Brand Identity</h1>
+        <h1 class="mb-2 mb-lg-0">Brand Identity Design</h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">Brand Identity</li>
+            <li><a href="services.html">Services</a></li>
+            <li class="current">Brand Identity Design</li>
           </ol>
         </nav>
       </div>
-    </div><!-- End Page Title -->
+    </div>
 
     <!-- Service Details Section -->
-    <section id="service-details" class="service-details section">
+    <section id="service-details" class="service-details section bg-white">
       <div class="container">
-        <div class="row gy-4">
+        <div class="row gy-5">
 
-          <!-- Sidebar Navigation -->
+          <!-- Left Sidebar Menu Panel -->
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="services-list">
-              <a href="web-design.html">Web Design</a>
-              <a href="graphic-design.html">Graphic Design</a>
-              <a href="#" class="active">Brand Identity</a>
-              <a href="social-media.html">Social Media</a>
-              <a href="seo.html">SEO & Marketing</a>
+            <div class="services-list shadow-sm rounded border bg-white overflow-hidden">
+              <a href="google-business-profile.html"><i class="bi bi-geo-alt"></i> Google Business Profile</a>
+              <a href="web-development.html"><i class="bi bi-code-slash"></i> Website Development</a>
+              <a href="ppc-advertising.html"><i class="bi bi-cursor-fill"></i> PPC Advertising</a>
+              <a href="social-media-management.html"><i class="bi bi-chat-heart"></i> Social Media Management</a>
+              <a href="social-media-marketing.html"><i class="bi bi-megaphone"></i> Paid Social Ads</a>
+              <a href="brand-identity.html" class="active"><i class="bi bi-fingerprint"></i> Brand Identity Design</a>
+              <a href="graphic-design.html"><i class="bi bi-palette"></i> Graphic Design</a>
+              <a href="email-marketing.html"><i class="bi bi-envelope-paper-heart"></i> Email Marketing</a>
+              <a href="content-marketing.html"><i class="bi bi-journal-text"></i> Content Marketing</a>
+              <a href="conversion-optimization.html"><i class="bi bi-graph-up-arrow"></i> Conversion Optimization
+                (CRO)</a>
             </div>
 
-            <div class="sidebar-content">
-              <h4>Your Brand, Your Promise</h4>
-              <p>A powerful brand identity does more than look good - it communicates your values, builds trust with
-                Eket customers, and makes your business instantly recognizable. We translate what makes you unique into
-                visual storytelling.</p>
-
-              <div class="branding-package mt-4">
-                <h5>Our Brand Package Includes:</h5>
-                <ul>
-                  <li><i class="bi bi-check-circle"></i> 3 unique logo concepts</li>
-                  <li><i class="bi bi-check-circle"></i> Complete color palette</li>
-                  <li><i class="bi bi-check-circle"></i> Typography system</li>
-                  <li><i class="bi bi-check-circle"></i> Brand style guide</li>
-                  <li><i class="bi bi-check-circle"></i> Social media branding kit</li>
-                </ul>
-              </div>
+            <div class="p-4 mt-4 rounded border" style="background: var(--bg-light);">
+              <h5 class="fw-bold text-dark mb-2">Our Promise</h5>
+              <p class="small text-muted m-0 italic">"We give you a look that lets you command respect and price your
+                services higher."</p>
             </div>
           </div>
 
-          <!-- Main Content -->
+          <!-- Right Content Area -->
           <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-            <img src="assets/img/brand-idenity-header.jpg" alt="Brand identity design samples for Eket businesses"
-              class="img-fluid services-img" loading="lazy">
+            <div class="content-wrapper">
 
-            <h1>Brand Identity That Makes Eket Businesses Unforgettable</h1>
+              <span class="text-primary uppercase fw-bold tracking-wider small d-block mb-2">LOOK PROFESSIONAL</span>
+              <h2 class="agency-section-title mb-4">If Your Branding Looks Cheap, People Will Ask for Discounts.</h2>
 
-            <p class="lead">In a crowded market, your brand identity is what makes customers choose you over
-              competitors. We create cohesive visual systems that tell your story and drive recognition across all
-              touchpoints.</p>
+              <p class="lead text-muted mb-4">
+                Let’s be completely honest: customers judge your business by how it looks. If you are using a messy logo
+                built from a free mobile app, or your business cards look poorly printed, high-end clients will assume
+                your service is low quality. They will try to argue with your prices or choose a competitor instead.
+              </p>
 
-            <div class="branding-benefits">
-              <h3>Why Invest in Professional Branding?</h3>
-              <ul>
-                <li><i class="bi bi-check-circle"></i> <strong>3x more memorable:</strong> Consistent branding makes
-                  customers 3x more likely to remember your business</li>
-                <li><i class="bi bi-check-circle"></i> <strong>Trust building:</strong> 60% of consumers avoid
-                  businesses with amateur branding</li>
-                <li><i class="bi bi-check-circle"></i> <strong>Competitive edge:</strong> Stand out in Eket's growing
-                  business landscape</li>
-              </ul>
-            </div>
+              <p class="text-muted mb-5">
+                **Brand Identity Design** is how we change that story. We don't just sketch a random icon. We build an
+                entire corporate layout—combining luxury typography, matching official color schemes, premium
+                letterheads, corporate receipts, and clean signage designs. Whether you are building an elite hospital
+                in Uyo, a major real estate brand in Eket, or a product line selling nationwide, we build a physical
+                look that immediately commands respect.
+              </p>
 
-            <div class="our-process mt-5">
-              <h3>Our Brand Development Process</h3>
-              <div class="process-step">
-                <h4>1. Discovery Workshop</h4>
-                <p>We dive deep into your business values, target audience, and competition through questionnaires and
-                  strategy sessions.</p>
+              <!-- Simple Data Callout Grid -->
+              <div class="row g-4 mb-5">
+                <div class="col-md-6">
+                  <div class="pillar-card">
+                    <div class="pillar-icon"><i class="bi bi-gem"></i></div>
+                    <h5 class="fw-bold text-dark">Charge Premium Rates</h5>
+                    <p class="text-muted small m-0">When your presentation looks clean and matching—from your Instagram
+                      profile down to your physical delivery invoices—your service feels premium. Wealthy clients buy
+                      with confidence because you look like a verified, established firm.</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="pillar-card">
+                    <div class="pillar-icon"><i class="bi bi-journal-check"></i></div>
+                    <h5 class="fw-bold text-dark">100% Original Artwork</h5>
+                    <p class="text-muted small m-0">We never copy and paste online stock graphics or generic internet
+                      templates. Everything we design for you is drawn from scratch based on your company history,
+                      making sure you own your unique intellectual trademark.</p>
+                  </div>
+                </div>
               </div>
 
-              <div class="process-step">
-                <h4>2. Conceptualization</h4>
-                <p>Our designers create 3 distinct visual directions based on your unique positioning.</p>
+              <!-- Plain English Pillars -->
+              <h3 class="fw-bold text-dark mb-3">Every Asset Pack Handled Professionally</h3>
+              <p class="text-muted mb-4">We deliver completely clean, scalable vectors you can use on billboards,
+                t-shirts, or building paints without losing quality:</p>
+
+              <div class="row g-4 mb-5">
+                <div class="col-md-6">
+                  <h6 class="fw-bold text-dark mb-1"><i class="bi bi-vector-pen text-primary me-1"></i> Core Logo
+                    Variations</h6>
+                  <p class="text-muted small">You receive your main corporate logo, a horizontal version for website
+                    headers, and a simplified square watermark icon for profile avatars.</p>
+                </div>
+                <div class="col-md-6">
+                  <h6 class="fw-bold text-dark mb-1"><i class="bi bi-file-earmark-pdf-fill text-primary me-1"></i>
+                    Official Style Guidelines</h6>
+                  <p class="text-muted small">We give you a handy brand book document showing your exact color hex codes
+                    and font types, so any future painter or printer never ruins your colors.</p>
+                </div>
               </div>
 
-              <div class="process-step">
-                <h4>3. Refinement</h4>
-                <p>You provide feedback and we polish the chosen concept into a complete brand system.</p>
+              <!-- Pricing Matrix Component -->
+              <h3 class="fw-bold text-dark text-center mt-5 mb-2">Upfront, Flat-Rate Branding Packages</h3>
+              <p class="text-muted text-center small mb-4">No monthly commitments. Pay once, own your professional
+                identity completely forever.</p>
+
+              <div class="row g-4 pt-2">
+
+                <!-- Essentials Package -->
+                <div class="col-md-4">
+                  <div class="pricing-card">
+                    <div>
+                      <h5 class="fw-bold text-dark mb-1">ESSENTIALS PACK</h5>
+                      <h4 class="text-primary fw-bold mb-1">₦60,000<span class="fs-6 text-muted fw-normal">
+                          (One-time)</span></h4>
+                      <p class="text-muted small m-0">Ideal for small startups, independent coaches, and private fashion
+                        houses.</p>
+                      <hr class="my-3">
+                      <ul class="feature-list-items">
+                        <li><i class="bi bi-check-circle-fill"></i> 2 Core Logo Design Concepts</li>
+                        <li><i class="bi bi-check-circle-fill"></i> High-Resolution Transparent Files</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Official Color Palette Definition</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Corporate Typography Selection</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Premium Business Card Blueprint</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Social Media Display Avatar Kit</li>
+                        <li><i class="bi bi-check-circle-fill"></i> 3 Core Design Revisions Included</li>
+                        <li><i class="bi bi-dash-circle text-muted"></i> <span class="text-muted">No Letterhead or Brand
+                            Book</span></li>
+                      </ul>
+                    </div>
+                    <a href="contact.html?tier=essentials_brand"
+                      class="btn btn-outline-primary btn-sm w-100 mt-4 py-2 fw-bold">Order Essentials</a>
+                  </div>
+                </div>
+
+                <!-- Corporate Standard Package -->
+                <div class="col-md-4">
+                  <div class="pricing-card featured">
+                    <span class="pricing-badge">Complete Identity</span>
+                    <div>
+                      <h5 class="fw-bold text-dark mb-1">CORPORATE GROW</h5>
+                      <h4 class="text-primary fw-bold mb-1">₦120,000<span class="fs-6 text-muted fw-normal">
+                          (One-time)</span></h4>
+                      <p class="text-muted small m-0">Perfect for growing schools, clinics, consultancy firms, and
+                        oil-field suppliers.</p>
+                      <hr class="my-3">
+                      <ul class="feature-list-items">
+                        <li><i class="bi bi-check-circle-fill"></i> 4 Premium Logo Design Directions</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Business Card & Letterhead Layouts</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Official Receipt / Invoice Design</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Corporate Envelopes / Folder Designs</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Social Media Launch Banner Pack</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Print-Ready Vector Source Files (AI/PDF)</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Official Mini Brand Guidelines Manual</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Unlimited Modifications Until Approval</li>
+                      </ul>
+                    </div>
+                    <a href="contact.html?tier=corporate_brand"
+                      class="btn btn-primary btn-sm w-100 mt-4 py-2 fw-bold">Build Brand Identity</a>
+                  </div>
+                </div>
+
+                <!-- Ultimate Enterprise Package -->
+                <div class="col-md-4">
+                  <div class="pricing-card">
+                    <div>
+                      <h5 class="fw-bold text-dark mb-1">ULTIMATE ENTERPRISE</h5>
+                      <h4 class="text-primary fw-bold mb-1">₦250,000<span class="fs-6 text-muted fw-normal">
+                          (One-time)</span></h4>
+                      <p class="text-muted small m-0">Designed for major hotels, multi-branch supermarkets, and massive
+                        group brands.</p>
+                      <hr class="my-3">
+                      <ul class="feature-list-items">
+                        <li><i class="bi bi-check-circle-fill"></i> 6 Premium Executive Brand Directions</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Everything included in Corporate Grow</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Product Packaging / Label Design Templates</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Staff Uniform / Polo T-shirt mockups</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Vehicle Branding / Car Wrap Blueprint</li>
+                        <li><i class="bi bi-check-circle-fill"></i> In-Office Signage & Billboard templates</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Comprehensive Brand Book (20+ Pages)</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Full Intellectual Property Release Letter</li>
+                      </ul>
+                    </div>
+                    <a href="contact.html?tier=enterprise_brand"
+                      class="btn btn-outline-primary btn-sm w-100 mt-4 py-2 fw-bold">Consult Executive Designer</a>
+                  </div>
+                </div>
+
               </div>
 
-              <div class="process-step">
-                <h4>4. Delivery & Implementation</h4>
-                <p>Receive all final files and guidelines to maintain consistency across all platforms.</p>
+              <!-- High-Converting Dynamic Audit Form Block Area -->
+              <div class="audit-box-premium shadow">
+                <div class="row align-items-center">
+                  <div class="col-lg-7">
+                    <h4 class="fw-bold text-white mb-2">Not sure if your current logo is holding you back?</h4>
+                    <p class="text-white-50 small m-0 mb-4 mb-lg-0">Let our creative director take an objective look at
+                      your design layout. We will tell you if your colors, typography, and icon layout look truly
+                      industrial—completely free.</p>
+                  </div>
+                  <div class="col-lg-5">
+                    <div id="hook-options-container" class="d-flex flex-column gap-2">
+                      <a href="https://webtellisense.com/business-audit-tool?service=brand_audit"
+                        class="btn btn-light text-start py-3 px-3 d-flex justify-content-between align-items-center text-dark rounded-3 small fw-bold">
+                        <span>Get My Logo Checked Free</span>
+                        <i class="bi bi-arrow-right text-primary"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
 
-            <div class="case-study-highlight bg-light p-4 mt-5">
-              <h4>Case Study: Prime Pharmacy Eket</h4>
-              <p>After our brand redesign:</p>
-              <ul>
-                <li>Customer recognition increased by 140%</li>
-                <li>Social media engagement grew by 85%</li>
-                <li>Perceived value of services increased significantly</li>
-              </ul>
-              <a href="portfolio/prime-pharmacy" class="btn btn-outline-brand">View Full Project</a>
             </div>
           </div>
 
         </div>
       </div>
-    </section><!-- /Service Details Section -->
+    </section>
 
   </main>
 
@@ -253,9 +497,11 @@
             <p><strong>Email:</strong> <span>webtellisense@gmail.com</span></p>
           </div>
           <div class="social-links d-flex mt-4">
-            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="google"><i class="bi bi-google"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61569413316306" class="facebook"><i
+                class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/webtellisense?igsh=Y21jZHpxcWlqNWZm" class="instagram"><i
+                class="bi bi-instagram"></i></a>
+            <a href="https://maps.app.goo.gl/Hx2cDWJcLzEJef4Z6" class="google"><i class="bi bi-google"></i></a>
           </div>
         </div>
 
@@ -265,13 +511,13 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About us</a></li>
             <li><a href="services.html">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
+            <li><a href="faq.html">Frequently Asked Questions(FAQs)</a></li>
             <li><a href="#">Privacy policy</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
+          <h4>Services and Packages</h4>
           <ul>
             <li><a href="web-design.html">Web Design</a></li>
             <li><a href="brand-identity">Brand Identity</a></li>
@@ -283,11 +529,8 @@
         <div class="col-lg-4 col-md-12 footer-newsletter">
           <h4>Our Newsletter</h4>
           <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
-          <form action="forms/newsletter.php" method="post" class="php-email-form">
+          <form name="contact" method="POST" netlify>
             <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your subscription request has been sent. Thank you!</div>
           </form>
         </div>
 
@@ -307,6 +550,13 @@
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
+
+  <!-- WhatsApp Button -->
+  <a href="https://wa.me/2347075848564?text=Hi%20Webtellisense%2C%20I%20found%20your%20website%20and%20would%20like%20to%20learn%20how%20you%20can%20help%20my%20business%20become%20more%20visible%20online."
+    class="whatsapp-float" target="_blank">
+    <i class="bi bi-whatsapp"></i>
+  </a>
+
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

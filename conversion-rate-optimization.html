@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Conversion Rate Optimization (CRO) Nigeria - Webtellisense</title>
+    <meta name="description"
+        content="Stop wasting money on website traffic that doesn't buy. We fix your confusing checkout forms, slow buttons, and hidden contact links so you double your sales.">
+    <meta name="keywords"
+        content="Conversion Rate Optimization Uyo, Website Sales Fix Nigeria, Landing Page Audit Eket, Fix Website Sales Akwa Ibom">
+
+    <!-- Favicon (All Formats for Cross-Browser Support) -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Canonical URL (Avoid Duplicate Content Issues) -->
+    <link rel="canonical" href="https://webtellisense.com">
+
+    <!-- Preload Critical Resources (Faster Loading) -->
+    <link rel="preload" href="./assets/style/style.css" as="style">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" as="style">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Font CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary-agency: #0033ff;
+            --text-dark: #01033e;
+            --text-muted: #4B5563;
+            --bg-light: #F9FAFB;
+        }
+
+        .services-list a {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 16px 20px;
+            background-color: #ffffff;
+            color: var(--text-dark);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            border-left: 4px solid transparent;
+            text-decoration: none;
+            font-weight: 600;
+            border-bottom: 1px solid #F3F4F6;
+        }
+
+        .services-list a.active,
+        .services-list a:hover {
+            background-color: rgba(10, 54, 212, 0.04);
+            color: var(--primary-agency);
+            border-left-color: var(--primary-agency);
+        }
+
+        .agency-section-title {
+            font-size: 2.25rem;
+            font-weight: 800;
+            letter-spacing: -0.025em;
+            color: var(--text-dark);
+            line-height: 1.2;
+        }
+
+        .pillar-card {
+            background: #ffffff;
+            padding: 24px;
+            border-radius: 12px;
+            border: 1px solid #E5E7EB;
+            height: 100%;
+        }
+
+        .pillar-icon {
+            width: 48px;
+            height: 48px;
+            background: rgba(10, 54, 212, 0.08);
+            color: var(--primary-agency);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            margin-bottom: 16px;
+        }
+
+        .pricing-card {
+            background: #ffffff;
+            padding: 35px 28px;
+            border-radius: 20px;
+            border: 1px solid #E5E7EB;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: all 0.3s ease;
+        }
+
+        .pricing-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 24px -8px rgba(10, 54, 212, 0.12);
+        }
+
+        .pricing-card.featured {
+            border: 2px solid var(--primary-agency);
+            position: relative;
+        }
+
+        .pricing-badge {
+            position: absolute;
+            top: -14px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--primary-agency);
+            color: #fff;
+            padding: 4px 14px;
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            border-radius: 20px;
+            letter-spacing: 1px;
+        }
+
+        .feature-list-items {
+            list-style: none;
+            padding: 0;
+            margin: 24px 0 0 0;
+        }
+
+        .feature-list-items li {
+            padding: 8px 0;
+            font-size: 13px;
+            color: var(--text-muted);
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            line-height: 1.4;
+            border-bottom: 1px dashed #F3F4F6;
+        }
+
+        .feature-list-items li:last-child {
+            border: none;
+        }
+
+        .feature-list-items li i {
+            color: #10B981;
+            font-size: 15px;
+        }
+
+        .audit-box-premium {
+            background: linear-gradient(135deg, #061B69 0%, #0A36D4 100%);
+            border-radius: 24px;
+            padding: 48px;
+            color: #ffffff;
+            margin-top: 50px;
+        }
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PS5FNQCJRN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-PS5FNQCJRN');
+    </script>
+
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '806267492040936');
+        fbq('track', 'PageView');
+    </script>
+</head>
+
+<body class="service-details-page">
+
+    <header id="header" class="header d-flex align-items-center sticky-top">
+        <div class="container position-relative d-flex align-items-center">
+
+            <a href="index.html" class="logo d-flex align-items-center me-auto">
+                <img src="./assets/img/logo.png" class="main-logo" alt="Webtellisense Logo">
+            </a>
+
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a href="index.html#hero" class="active">Home</a></li>
+                    <li class="dropdown"><a href="about.html"><span>About Us</span> <i
+                                class="bi bi-chevron-down toggle-dropdown"></i></a>
+                        <ul>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="reviews.html">Reviews</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#"><span>Services</span> <i
+                                class="bi bi-chevron-down toggle-dropdown"></i></a>
+                        <ul class="sub-menu">
+                            <li><a href="/google-business-profile.html">Google Business Profile Management</a>
+                            <li><a href="/web-design.html">Web Design & Development</a></li>
+                            <li><a href="/ppc.html">Pay-Per-Click (PPC) Advertising</a></li>
+                            <li><a href="/social-media-management.html">social media management</a></li>
+                            <li><a href="/social-media-marketing.html">Social Media Marketing (Paid Ads)</a></li>
+                            <li><a href="/branding.html">Brand Identity Design</a></li>
+                            <li><a href="/graphics-design.html">Graphics Design</a></li>
+                            <li><a href="/email-marketing.html">Email Marketing</a></li>
+                            <li><a href="/content-marketing.html">Content Marketing</a></li>
+                            <li><a href="/conversion-rate-optimization.html">Conversion Rate Optimization</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="packages.html">Packages</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+
+            <div class="header-social-links">
+                <a href="https://www.facebook.com/profile.php?id=61569413316306" class="facebook"><i
+                        class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/webtellisense?igsh=Y21jZHpxcWlqNWZm" class="instagram"><i
+                        class="bi bi-instagram"></i></a>
+                <a href="https://maps.app.goo.gl/Hx2cDWJcLzEJef4Z6" class="google"><i class="bi bi-google"></i></a>
+            </div>
+
+        </div>
+    </header>
+
+    <main class="main">
+
+        <!-- Page Title -->
+        <div class="page-title accent-background">
+            <div class="container d-lg-flex justify-content-between align-items-center">
+                <h1 class="mb-2 mb-lg-0">Conversion Rate Optimization (CRO)</h1>
+                <nav class="breadcrumbs">
+                    <ol>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li class="current">Conversion Optimization</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Service Details Section -->
+        <section id="service-details" class="service-details section bg-white">
+            <div class="container">
+                <div class="row gy-5">
+
+                    <!-- Left Sidebar Menu Panel -->
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="services-list shadow-sm rounded border bg-white overflow-hidden">
+                            <a href="google-business-profile.html"><i class="bi bi-geo-alt"></i> Google Business
+                                Profile</a>
+                            <a href="web-development.html"><i class="bi bi-code-slash"></i> Website Development</a>
+                            <a href="ppc-advertising.html"><i class="bi bi-cursor-fill"></i> PPC Advertising</a>
+                            <a href="social-media-management.html"><i class="bi bi-chat-heart"></i> Social Media
+                                Management</a>
+                            <a href="social-media-marketing.html"><i class="bi bi-megaphone"></i> Paid Social Ads</a>
+                            <a href="brand-identity.html"><i class="bi bi-fingerprint"></i> Brand Identity Design</a>
+                            <a href="graphic-design.html"><i class="bi bi-palette"></i> Graphic Design</a>
+                            <a href="email-marketing.html"><i class="bi bi-envelope-paper-heart"></i> Email
+                                Marketing</a>
+                            <a href="content-marketing.html"><i class="bi bi-journal-text"></i> Content Marketing</a>
+                            <a href="conversion-optimization.html" class="active"><i class="bi bi-graph-up-arrow"></i>
+                                Conversion Optimization (CRO)</a>
+                        </div>
+
+                        <div class="p-4 mt-4 rounded border" style="background: var(--bg-light);">
+                            <h5 class="fw-bold text-dark mb-2">Our Promise</h5>
+                            <p class="small text-muted m-0 italic">"We look for every broken button, hidden form, and
+                                confusing text blocking your sales, so you get more orders from the same traffic."</p>
+                        </div>
+                    </div>
+
+                    <!-- Right Content Area -->
+                    <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+                        <div class="content-wrapper">
+
+                            <span class="text-primary uppercase fw-bold tracking-wider small d-block mb-2">FIX YOUR
+                                LEAKY FUNNEL</span>
+                            <h2 class="agency-section-title mb-4">Stop Buying More Website Traffic. Start Fixing the
+                                Website You Have.</h2>
+
+                            <p class="lead text-muted mb-4">
+                                It is heartbreaking to check your business analytics and see that thousands of people
+                                are visiting your website from Google or social media ads, but almost nobody is filling
+                                out your forms, booking appointments, or making purchases.
+                            </p>
+
+                            <p class="text-muted mb-5">
+                                Buying more ads will not fix a broken layout. **Conversion Rate Optimization (CRO)** is
+                                the science of finding out *why* visitors leave without spending money and fixing it. We
+                                study how local users move across your web layouts. Whether you operate a luxury rental
+                                agency in Eket, a major hospital booking platform in Uyo, or an online storefront
+                                selling products nationwide, we remove the friction points so a much higher percentage
+                                of your visitors turn into actual paying customers.
+                            </p>
+
+                            <!-- Simple Data Callout Grid -->
+                            <div class="row g-4 mb-5">
+                                <div class="col-md-6">
+                                    <div class="pillar-card">
+                                        <div class="pillar-icon"><i class="bi bi-currency-exchange"></i></div>
+                                        <h5 class="fw-bold text-dark">Instantly Double Your Profits</h5>
+                                        <p class="text-muted small m-0">If 1 out of 100 visitors currently buys your
+                                            service, doubling that to 2 out of 100 instantly doubles your revenue
+                                            without spending an extra Kobo on marketing ads. It maximizes your existing
+                                            infrastructure completely.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="pillar-card">
+                                        <div class="pillar-icon"><i class="bi bi-shield-fill-x"></i></div>
+                                        <h5 class="fw-bold text-dark">Remove Checkout Confusion</h5>
+                                        <p class="text-muted small m-0">Local buyers give up if checkout forms ask for
+                                            too much personal information or if your WhatsApp call-to-action link
+                                            responds slowly. We simplify your user steps down to a single clean, clear
+                                            click.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Plain English Pillars -->
+                            <h3 class="fw-bold text-dark mb-3">Our Structural Audit & Optimization Process</h3>
+                            <p class="text-muted mb-4">We don't guess what will work. We audit your layout
+                                systematically using hard analytics tracking:</p>
+
+                            <div class="row g-4 mb-5">
+                                <div class="col-md-6">
+                                    <h6 class="fw-bold text-dark mb-1"><i class="bi bi-eye-fill text-primary me-1"></i>
+                                        Form Friction Elimination</h6>
+                                    <p class="text-muted small">We look at your booking sheets and contact input fields,
+                                        deleting useless questions that make visitors abandon your checkout process
+                                        midway.</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <h6 class="fw-bold text-dark mb-1"><i class="bi bi-phone text-primary me-1"></i>
+                                        Mobile Speed Engineering</h6>
+                                    <p class="text-muted small">Most Nigerians browse on mobile phones using unstable
+                                        data connections. We strip heavy weights to make your order buttons load
+                                        instantly on any network tier.</p>
+                                </div>
+                            </div>
+
+                            <!-- Pricing Matrix Component -->
+                            <h3 class="fw-bold text-dark text-center mt-5 mb-2">Flat-Rate Optimization & Audit Packages
+                            </h3>
+                            <p class="text-muted text-center small mb-4">One-off or monthly continuous optimization
+                                cycles to extract maximum cash generation out of your internet platform.</p>
+
+                            <div class="row g-4 pt-2">
+
+                                <!-- Single Page Audit Package -->
+                                <div class="col-md-4">
+                                    <div class="pricing-card">
+                                        <div>
+                                            <h5 class="fw-bold text-dark mb-1">LANDING PAGE AUDIT</h5>
+                                            <h4 class="text-primary fw-bold mb-1">₦40,000<span
+                                                    class="fs-6 text-muted fw-normal"> (One-time)</span></h4>
+                                            <p class="text-muted small m-0">Best for standalone campaign landing pages,
+                                                single event systems, or local promo funnels.</p>
+                                            <hr class="my-3">
+                                            <ul class="feature-list-items">
+                                                <li><i class="bi bi-check-circle-fill"></i> Full Screen-by-Screen Mobile
+                                                    User Audit</li>
+                                                <li><i class="bi bi-check-circle-fill"></i> Broken Link & Call-To-Action
+                                                    Button Check</li>
+                                                <li><i class="bi bi-check-circle-fill"></i> Page Loading Speed
+                                                    Diagnostic Overview</li>
+                                                <li><i class="bi bi-check-circle-fill"></i> 1 Comprehensive Report video
+                                                    breakdown</li>
+                                                <li><i class="bi bi-check-circle-fill"></i> Concrete Text Rewrite
+                                                    Recommendations</li>
+                                                <li><i class="bi bi-check-circle-fill"></i> Form Design Flow Simplify
+                                                    Blueprints</li>
+                                                <li><i class="bi bi-dash-circle text-muted"></i> <span
+                                                        class="text-muted">No Direct Development Recoding</span></li>
+                                            </ul>
+                                        </div>
+                                        <a href="contact.html?tier=cro_audit"
+                                            class="btn btn-outline-primary btn-sm w-100 mt-4 py-2 fw-bold">Order Page
+                                            Audit</a>
+                                    </div>
+                                </div>
+
+                                <!-- Complete CRO Package -->
+                                <div class="col-md-4">
+                                    <div class="pricing-card featured">
+                                        <span class="pricing-badge">Most Popular</span>
+                                        <div>
+                                            <h5 class="fw-bold text-dark mb-1">SALES TUNING</h5>
+                                            <h4 class="text-primary fw-bold mb-1">₦95,000<span
+                                                    class="fs-6 text-muted fw-normal"> (One-time)</span></h4>
+                                            <p class="text-muted small m-0">Perfect for multi-page corporate sites,
+                                                consulting directories, and service bookers.</p>
+                                            <hr class="my-3">
+                                            <ul class="feature-list-items">
+                                                <li><i class="bi bi-check-circle-fill"></i> Complete Website Sales Flow
+                                                    Audit (Up to 5 Pages)</li>
+                                                <li><i class="bi bi-check-circle-fill"></i> We directly modify and fix
+                                                    the text titles</li>
+                                                <li><i class="bi bi-check-circle-fill"></i> Floating WhatsApp Quick-Chat
+                                                    System Setup</li>
+                                                <li><i class="bi bi-check-circle-fill"></i> Live User Session Analytics
+                                                    Software Tracking</li>
+                                                <li><i class="bi bi-check-circle-fill"></i> Trust Badge & Reviews
+                                                    Placement Injection</li>
+                                                <li><i class="bi bi-check-circle-fill"></i> Form Optimization Code
+                                                    Adjustments</li>
+                                                <li><i class="bi bi-check-circle-fill"></i> 30 Days Post-Optimization
+                                                    Data Review</li>
+                                            </ul>
+                                        </div>
+                                        <a href="contact.html?tier=cro_tuning"
+                                            class="btn btn-primary btn-sm w-100 mt-4 py-2 fw-bold">Fix My Website
+                                            Sales</a>
+                                    </div>
+                                </div>
+
+                                <!-- E-Commerce Growth Package -->
+                                <div class="col-md-4">
+                                    <div class="pricing-card">
+                                        <div>
+                                            <h5 class="fw-bold text-dark mb-1">E-COM ACCELERATE</h5>
+                                            <h4 class="text-primary fw-bold mb-1">₦180,000<span
+                                                    class="fs-6 text-muted fw-normal"> /month</span></h4>
+                                            <p class="text-muted small m-0">Designed for online stores with massive
+                                                inventories trying to maximize checkout returns.</p>
+                                            <hr class="my-3">
+                                            <ul class="feature-list-items">
+                                                <li><i class="bi bi-check-circle-fill"></i> Continuous Monthly A/B Split
+                                                    Text Testing</li>
+                                                <li><i class="bi bi-check-circle-fill"></i> Full Cart Abandonment
+                                                    Tracking Engineering</li>
+                                                <li><i class="bi bi-check-circle-fill"></i> Payment Gateway Success Rate
+                                                    Diagnostic</li>
+                                                <li><i class="bi bi-check-circle-fill"></i> Continuous Heatmap Scroll
+                                                    Behavior Tracking</li>
+                                                <li><i class="bi bi-check-circle-fill"></i> Upsell & Cross-sell
+                                                    Recommendation Box Setup</li>
+                                                <li><i class="bi bi-check-circle-fill"></i> Direct Dedicated Frontend UI
+                                                    Developer Support</li>
+                                                <li><i class="bi bi-check-circle-fill"></i> Comprehensive Weekly Sales
+                                                    Lift Performance Report</li>
+                                            </ul>
+                                        </div>
+                                        <a href="contact.html?tier=cro_ecommerce"
+                                            class="btn btn-outline-primary btn-sm w-100 mt-4 py-2 fw-bold">Scale
+                                            E-Commerce</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <!-- High-Converting Dynamic Audit Form Block Area -->
+                            <div class="audit-box-premium shadow">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-7">
+                                        <h4 class="fw-bold text-white mb-2">Want a professional eye to check your
+                                            website's biggest leak?</h4>
+                                        <p class="text-white-50 small m-0 mb-4 mb-lg-0">Send us your link today. Our
+                                            optimization technician will manually check it on a mobile device and send
+                                            you one major layout adjustment you can implement immediately to rescue lost
+                                            clients.</p>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <div id="hook-options-container" class="d-flex flex-column gap-2">
+                                            <a href="https://webtellisense.com/business-audit-tool?service=cro_review"
+                                                class="btn btn-light text-start py-3 px-3 d-flex justify-content-between align-items-center text-dark rounded-3 small fw-bold">
+                                                <span>Check My Website Link Free</span>
+                                                <i class="bi bi-arrow-right text-primary"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="footer" class="footer dark-background">
+
+        <div class="container footer-top">
+            <div class="row gy-4">
+                <div class="col-lg-4 col-md-6 footer-about">
+                    <a href="index.html" class="logo d-flex align-items-center">
+                        <span class="sitename">Webtellisense</span>
+                    </a>
+                    <div class="footer-contact pt-3">
+                        <p>KM15 Ikot Ibiok</p>
+                        <p>Eket, Akwa Ibom State</p>
+                        <p class="mt-3"><strong>Phone:</strong> <span>+234 707 584 8564</span></p>
+                        <p><strong>Email:</strong> <span>webtellisense@gmail.com</span></p>
+                    </div>
+                    <div class="social-links d-flex mt-4">
+                        <a href="https://www.facebook.com/profile.php?id=61569413316306" class="facebook"><i
+                                class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/webtellisense?igsh=Y21jZHpxcWlqNWZm" class="instagram"><i
+                                class="bi bi-instagram"></i></a>
+                        <a href="https://maps.app.goo.gl/Hx2cDWJcLzEJef4Z6" class="google"><i
+                                class="bi bi-google"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="faq.html">Frequently Asked Questions(FAQs)</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-3 footer-links">
+                    <h4>Services and Packages</h4>
+                    <ul>
+                        <li><a href="web-design.html">Web Design</a></li>
+                        <li><a href="brand-identity">Brand Identity</a></li>
+                        <li><a href="graphics-design.html">Graphic Design</a></li>
+                        <li><a href="social-media-management">Social Media Management</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-12 footer-newsletter">
+                    <h4>Our Newsletter</h4>
+                    <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+                    <form name="contact" method="POST" netlify>
+                        <div class="newsletter-form"><input type="email" name="email"><input type="submit"
+                                value="Subscribe"></div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container copyright text-center mt-4">
+            <p>© <span>Copyright</span> <strong class="px-1 sitename">Webtellisense Consult</strong> <span>All Rights
+                    Reserved</span></p>
+            <div class="credits">
+                Designed by <a href="https://webtellisense.com/">Webtellisense</a>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/2347075848564?text=Hi%20Webtellisense%2C%20I%20found%20your%20website%20and%20would%20like%20to%20learn%20how%20you%20can%20help%20my%20business%20become%20more%20visible%20online."
+        class="whatsapp-float" target="_blank">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

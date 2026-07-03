@@ -259,6 +259,9 @@ h6 {
 .sub-menu li a {
   text-transform: capitalize !important;
 }
+.sub-menu li a:hover{
+  background-color: white !important;
+}
 @media (max-width: 1200px) {
   .header .logo {
     order: 1;
@@ -329,7 +332,8 @@ h6 {
   .navmenu li:hover > a,
   .navmenu .active,
   .navmenu .active:focus {
-    color: var(--nav-hover-color);
+    color: var(--color-primary-3);
+    background-color: white;
   }
 
   .navmenu .dropdown ul {
