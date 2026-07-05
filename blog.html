@@ -50,31 +50,33 @@
   <link href="assets/css/main.css" rel="stylesheet">
 
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-PS5FNQCJRN"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PS5FNQCJRN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-PS5FNQCJRN');
-</script>
+    gtag('config', 'G-PS5FNQCJRN');
+  </script>
 
-<!-- Meta Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '806267492040936');
-  fbq('track', 'PageView');
+  <!-- Meta Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '806267492040936');
+    fbq('track', 'PageView');
   </script>
   <noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=806267492040936&ev=PageView&noscript=1"
-  /></noscript>
+      src="https://www.facebook.com/tr?id=806267492040936&ev=PageView&noscript=1" /></noscript>
   <!-- End Meta Pixel Code -->
 
 </head>
@@ -85,7 +87,7 @@
     <div class="container position-relative d-flex align-items-center">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <img src="./assets/img/logo.png" height="40" width="40" alt="Webtellisense Logo">
+        <img src="./assets/img/logo.png" class="main-logo" alt="Webtellisense Logo">
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -97,27 +99,23 @@
               <li><a href="about.html">About Us</a></li>
               <li><a href="faq.html">FAQ</a></li>
               <li><a href="reviews.html">Reviews</a></li>
-              <!-- <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
-                    class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li> -->
             </ul>
           </li>
-          <li class="dropdown"><a href="about.html"><span>Services</span> <i
-                class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul class="sub-menu">
-              <li><a href="web-design.html">web design</a></li>
-              <li><a href="graphics-design.html">graphics design</a></li>
-              <li><a href="brand-identity.html">brand identity</a></li>
-              <li><a href="social-media-management.html">social media management</a></li>
+              <li><a href="/google-business-profile.html">Google Business Profile Management</a>
+              <li><a href="/web-design.html">Web Design & Development</a></li>
+              <li><a href="/ppc.html">Pay-Per-Click (PPC) Advertising</a></li>
+              <li><a href="/social-media-management.html">social media management</a></li>
+              <li><a href="/social-media-marketing.html">Social Media Marketing (Paid Ads)</a></li>
+              <li><a href="/branding.html">Brand Identity Design</a></li>
+              <li><a href="/graphics-design.html">Graphics Design</a></li>
+              <li><a href="/email-marketing.html">Email Marketing</a></li>
+              <li><a href="/content-marketing.html">Content Marketing</a></li>
+              <li><a href="/conversion-rate-optimization.html">Conversion Rate Optimization</a></li>
             </ul>
           </li>
+          <li><a href="packages.html">Packages</a></li>
           <li><a href="pricing.html">Pricing</a></li>
           <li><a href="blog.html" class="active">Blog</a></li>
           <li><a href="contact.html">Contact</a></li>
@@ -151,11 +149,88 @@
       </div>
     </div><!-- End Page Title -->
 
+    <section class="audit-section">
+      <div class="audit-container">
+        <!-- Left Side: Content -->
+        <div class="audit-content">
+          <span class="badge-pill main-badge">Free Tool</span>
+          <h2 class="audit-title">Check Your Business Digital Performance</h2>
+          <p class="audit-description">
+            Get an instant, free audit of your business's online visibility, branding strength, and local
+            discoverability. No registration required.
+          </p>
+          <div class="tag-group">
+            <span class="badge-pill tag-badge">⚡ Branding & Strategy</span>
+            <span class="badge-pill tag-badge">🔍 Local Discoverability</span>
+          </div>
+        </div>
+
+        <!-- Right Side: The Lure Card -->
+        <div class="audit-card">
+          <h3 id="hook-title">🌐 Let's start with your web presence</h3>
+          <p class="card-subtext" id="hook-question">Do you currently have a website for your business?</p>
+
+          <div class="lure-options" id="hook-options-container">
+            <!-- <a href="https://webtellisense.com/business-audit-tool?has_website=yes_professional" class="lure-opt">
+              <span>Yes — professionally built</span>
+              <span class="arrow">→</span>
+            </a>
+            <a href="https://webtellisense.com/business-audit-tool?has_website=yes_diy" class="lure-opt">
+              <span>Yes — I built it myself / basic</span>
+              <span class="arrow">→</span>
+            </a>
+            <a href="https://webtellisense.com/business-audit-tool?has_website=no" class="lure-opt">
+              <span>No website yet</span>
+              <span class="arrow">→</span>
+            </a> -->
+          </div>
+
+          <p class="card-footer-text">Takes 45 seconds • 100% Free</p>
+        </div>
+      </div>
+    </section>
+
     <!-- Blog Posts Section -->
     <section id="blog-posts" class="blog-posts section">
 
       <div class="container">
         <div class="row gy-4">
+          <div class="col-lg-4">
+            <article class="position-relative h-100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/blog/business-not-showing-up-online.jpeg" class="img-fluid" alt="">
+                <span class="post-date">May 30, 2026</span>
+              </div>
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">Why Your Business Isn't Showing Up Online</h3>
+
+                <div class="meta d-flex align-items-center">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-person"></i> <span class="ps-2">Webtellisense Team</span>
+                  </div>
+                  <span class="px-3 text-black-50">/</span>
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-folder2"></i> <span class="ps-2">Business</span>
+                  </div>
+                </div>
+
+                <p>
+                  If you've ever wondered why your business isn't showing up online despite being active on social
+                  media, you're not alone. The good news is that the
+                </p>
+
+                <hr>
+
+                <a href="business-not-showing-up-online.html" class="readmore stretched-link"><span>Read More</span><i
+                    class="bi bi-arrow-right"></i></a>
+
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
 
           <div class="col-lg-4">
             <article class="position-relative h-100">
@@ -293,9 +368,22 @@
 
     </section><!-- /Blog Pagination Section -->
 
+    <!-- ─── CTA BANNER ─── -->
+    <section class="cta-banner" aria-label="Get started">
+      <div class="cta-banner-inner">
+        <h2>Your competitors are already online. Your customers are already searching.</h2>
+        <div class="cta-banner-actions">
+          <a href="/contact.html" class="btn-white">Book a free consultation</a>
+          <a href="https://wa.me/2347075848564?text=Hi%20Webtellisense%2C%20I%20found%20your%20website%20and%20would%20like%20to%20learn%20how%20you%20can%20help%20my%20business%20become%20more%20visible%20online."
+            class="btn-ghost" target="_blank" rel="noopener">Chat on WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <footer id="footer" class="footer dark-background">
+
     <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
@@ -323,29 +411,28 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About us</a></li>
             <li><a href="services.html">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
+            <li><a href="faq.html">Frequently Asked Questions(FAQs)</a></li>
             <li><a href="#">Privacy policy</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
+          <h4>Services and Packages</h4>
           <ul>
-            <li><a href="web-design.html">Web Design</a></li>
-            <li><a href="brand-identity">Brand Identity</a></li>
-            <li><a href="graphics-design.html">Graphic Design</a></li>
-            <li><a href="social-media-management">Social Media Management</a></li>
+            <li><a href="web-design.html">Websites for Businesses and Individuals</a></li>
+            <li><a href="brand-identity">Get a Logo and Brand Identity</a></li>
+            <li><a href="packages.html#vibes">Vibes</a></li>
+            <li><a href="graphics-design.html">Get Flyers and more</a></li>
+            <li><a href="social-media-management">Manage your Social Media with Webtellisense</a></li>
           </ul>
         </div>
 
         <div class="col-lg-4 col-md-12 footer-newsletter">
           <h4>Our Newsletter</h4>
           <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
-          <form action="forms/newsletter.php" method="post" class="php-email-form">
-            <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+          <form name="contact" method="POST" netlify>
+            <div class="newsletter-form"><input type="email" placeholder="Email" name="email"><input type="submit"
+                value="Subscribe"></div>
           </form>
         </div>
 
@@ -365,6 +452,13 @@
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
+
+  <!-- WhatsApp Button -->
+  <a href="https://wa.me/2347075848564?text=Hi%20Webtellisense%2C%20I%20found%20your%20website%20and%20would%20like%20to%20learn%20how%20you%20can%20help%20my%20business%20become%20more%20visible%20online."
+    class="whatsapp-float" target="_blank">
+    <i class="bi bi-whatsapp"></i>
+  </a>
+
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

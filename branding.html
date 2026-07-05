@@ -205,7 +205,7 @@
 
 <body class="service-details-page">
 
-  <header id="header" class="header d-flex align-items-center sticky-top">
+   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container position-relative d-flex align-items-center">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
@@ -214,7 +214,7 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html#hero" class="active">Home</a></li>
+          <li><a href="index.html#hero">Home</a></li>
           <li class="dropdown"><a href="about.html"><span>About Us</span> <i
                 class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
@@ -223,7 +223,7 @@
               <li><a href="reviews.html">Reviews</a></li>
             </ul>
           </li>
-          <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li class="dropdown"><a href="#" class="active"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul class="sub-menu">
               <li><a href="/google-business-profile.html">Google Business Profile Management</a>
               <li><a href="/web-design.html">Web Design & Development</a></li>
@@ -265,7 +265,7 @@
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
+                        <li><a href="#">Services</a></li>
             <li class="current">Brand Identity Design</li>
           </ol>
         </nav>
@@ -281,15 +281,15 @@
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="services-list shadow-sm rounded border bg-white overflow-hidden">
               <a href="google-business-profile.html"><i class="bi bi-geo-alt"></i> Google Business Profile</a>
-              <a href="web-development.html"><i class="bi bi-code-slash"></i> Website Development</a>
-              <a href="ppc-advertising.html"><i class="bi bi-cursor-fill"></i> PPC Advertising</a>
+              <a href="web-design.html"><i class="bi bi-code-slash"></i> Website Development</a>
+              <a href="ppc.html"><i class="bi bi-cursor-fill"></i> PPC Advertising</a>
               <a href="social-media-management.html"><i class="bi bi-chat-heart"></i> Social Media Management</a>
               <a href="social-media-marketing.html"><i class="bi bi-megaphone"></i> Paid Social Ads</a>
-              <a href="brand-identity.html" class="active"><i class="bi bi-fingerprint"></i> Brand Identity Design</a>
-              <a href="graphic-design.html"><i class="bi bi-palette"></i> Graphic Design</a>
+              <a href="branding.html" class="active"><i class="bi bi-fingerprint"></i> Brand Identity Design</a>
+              <a href="graphics-design.html"><i class="bi bi-palette"></i> Graphic Design</a>
               <a href="email-marketing.html"><i class="bi bi-envelope-paper-heart"></i> Email Marketing</a>
               <a href="content-marketing.html"><i class="bi bi-journal-text"></i> Content Marketing</a>
-              <a href="conversion-optimization.html"><i class="bi bi-graph-up-arrow"></i> Conversion Optimization
+              <a href="conversion-rate-optimization.html"><i class="bi bi-graph-up-arrow"></i> Conversion Optimization
                 (CRO)</a>
             </div>
 
@@ -482,7 +482,7 @@
 
   </main>
 
-  <footer id="footer" class="footer dark-background">
+   <footer id="footer" class="footer dark-background">
 
     <div class="container footer-top">
       <div class="row gy-4">
@@ -519,10 +519,11 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Services and Packages</h4>
           <ul>
-            <li><a href="web-design.html">Web Design</a></li>
-            <li><a href="brand-identity">Brand Identity</a></li>
-            <li><a href="graphics-design.html">Graphic Design</a></li>
-            <li><a href="social-media-management">Social Media Management</a></li>
+            <li><a href="web-design.html">Websites for Businesses and Individuals</a></li>
+            <li><a href="brand-identity">Get a Logo and Brand Identity</a></li>
+            <li><a href="packages.html#vibes">Vibes</a></li>
+            <li><a href="graphics-design.html">Get Flyers and more</a></li>
+            <li><a href="social-media-management">Manage your Social Media with Webtellisense</a></li>
           </ul>
         </div>
 
@@ -530,7 +531,7 @@
           <h4>Our Newsletter</h4>
           <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
           <form name="contact" method="POST" netlify>
-            <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+            <div class="newsletter-form"><input type="email" placeholder="Email" name="email"><input type="submit" value="Subscribe"></div>
           </form>
         </div>
 
