@@ -113,6 +113,7 @@ body {
   color: var(--default-color);
   background-color: var(--background-color);
   font-family: var(--font-primary);
+  scroll-behavior: smooth;
 }
 
 a {
@@ -3435,18 +3436,19 @@ section,
 .services-hero-cta {
   display: inline-block;
   margin-top: 36px;
-  background: var(--ember);
-  color: var(--white);
+  background: var(--color-primary-3);
+  color: var(--color-white);
   text-decoration: none;
-  font-family: var(--nav-font);
+  font-family: var(--font-secondary);
   font-weight: 700;
   font-size: 0.95rem;
+  text-transform: capitalize;
   padding: 14px 32px;
   transition: background 0.2s;
 }
 
 .services-hero-cta:hover {
-  background: #c93e0f;
+  background: var(--color-white);
 }
 
 .services-hero-right {
