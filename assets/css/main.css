@@ -4564,3 +4564,170 @@ section,
     padding: 24px;
   }
 }
+
+/* --- FAQ SYSTEM STYLING --- */
+.kh-faq-section {
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 0 24px;
+}
+
+.kh-faq-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.kh-faq-item {
+  background-color: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 8px;
+  padding: 16px 20px;
+  transition: border-color 0.3s ease;
+}
+
+.kh-faq-item[open] {
+  border-color: var(--color-brand-blue);
+}
+
+.kh-faq-item summary {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #ffffff;
+  cursor: pointer;
+  list-style: none;
+  position: relative;
+  padding-right: 30px;
+}
+
+/* Custom indicator toggle icon */
+.kh-faq-item summary::after {
+  content: "+";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--color-brand-orange);
+  font-size: 1.4rem;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+.kh-faq-item[open] summary::after {
+  content: "−";
+}
+
+.kh-faq-item p {
+  margin-top: 12px;
+  color: #9ca3af;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+/* --- ONBOARDING WORKFLOW SYSTEM --- */
+.onboarding-flow-section {
+  margin: 80px 0;
+  padding: 0 24px;
+}
+
+.on-section-title,
+.ts-section-title {
+  color: #e06600;
+  font-weight: 900;
+}
+
+.flow-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.flow-card {
+  background-color: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 12px;
+  padding: 32px;
+  position: relative;
+  overflow: hidden;
+}
+
+.flow-step-number {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: rgba(3, 49, 176, 0.15);
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  line-height: 1;
+}
+
+.flow-card h3 {
+  font-size: 1.25rem;
+  color: #ffffff;
+  margin-bottom: 12px;
+  font-weight: 700;
+  position: relative;
+  z-index: 2;
+}
+
+.flow-card p {
+  color: #9ca3af;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  position: relative;
+  z-index: 2;
+}
+
+/* --- RISK MITIGATION PANEL STYLING --- */
+.risk-mitigation-panel {
+  background-color: rgba(255, 255, 255, 0.02);
+  border: 1px solid #1f2937;
+  border-radius: 10px;
+  padding: 24px;
+  margin-top: 24px;
+}
+
+.rm-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.rm-header h4 {
+  font-size: 1.05rem;
+  color: #ffffff;
+  font-weight: 700;
+  margin: 0;
+}
+
+.rm-body p {
+  font-size: 0.9rem;
+  color: #9ca3af;
+  line-height: 1.5;
+  margin-bottom: 14px;
+}
+
+.rm-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.rm-list li {
+  font-size: 0.85rem;
+  color: #e5e7eb;
+  line-height: 1.5;
+  margin-bottom: 8px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.rm-list li::before {
+  content: "🛡️";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 0.85rem;
+}
