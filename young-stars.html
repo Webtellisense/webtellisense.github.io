@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Titans Tech Accelerator | Powered by Webtellisense Uyo</title>
+    <!-- Local Uyo Search Optimization Engine Keywords -->
+    <meta name="keywords"
+        content="holiday training for kids in uyo, tech camp for teens akwa ibom, code summer camp uyo, web design training uyo, cybersecurity for kids nigeria">
+    <meta name="description"
+        content="An elite 4-week tech accelerator for teenagers aged 12-17 in Uyo. Hosted at the ARISE ICT Hub. Open engineering training powered by Webtellisense.">
+
+    <!-- Premium Fonts Setup -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+         <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg-dark: #0B0F19;
+            --bg-card: #131A2C;
+            --brand-primary: #3B82F6;
+            --brand-accent: #10B981;
+            --text-main: #F3F4F6;
+            --text-muted: #9CA3AF;
+            --border-color: #242F48;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+
+        h1,
+        h2,
+        h3,
+        .heading-font {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 700;
+        }
+
+        /* Announcement Ticker */
+        .scarcity-ticker {
+            background: linear-gradient(90deg, var(--brand-primary), #2563EB);
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        /* Container Blueprint */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Navbar Layout */
+        header {
+            border-bottom: 1px solid var(--border-color);
+            padding: 20px 0;
+            background-color: rgba(11, 15, 25, 0.8);
+            backdrop-filter: blur(12px);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .nav-flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.4rem;
+            color: #fff;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .logo span {
+            color: var(--brand-primary);
+        }
+
+        .badge-hub {
+            background-color: rgba(59, 130, 246, 0.1);
+            border: 1px solid var(--brand-primary);
+            color: var(--brand-primary);
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        /* Hero Section Styling */
+        .hero {
+            padding: 80px 0 100px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        .hero {
+            padding: 120px 0 140px 0;
+            /* Slightly increased padding for better spacing */
+            text-align: center;
+            position: relative;
+            /* Replace the URL below with your actual hosted image link */
+            background: linear-gradient(180deg, rgba(11, 15, 25, 0.85) 0%, rgba(11, 15, 25, 0.5) 30%),
+                url('/assets/img/bootcamp-img.jpg') no-repeat center center;
+            background-size: cover;
+            background-attachment: fixed;
+            /* Gives a subtle, premium parallax scrolling effect */
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            background: radial-gradient(circle, rgba(59, 130, 246, 0.15) 0%, transparent 70%);
+            top: 10%;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: -1;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            line-height: 1.1;
+            margin-bottom: 24px;
+            letter-spacing: -1px;
+        }
+
+        .hero h1 span {
+            background: linear-gradient(135deg, #fff 0%, var(--brand-primary) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: var(--text-muted);
+            max-width: 700px;
+            margin: 0 auto 40px auto;
+        }
+
+        .cta-btn {
+            background-color: var(--brand-primary);
+            color: #fff;
+            padding: 16px 36px;
+            border-radius: 8px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            box-shadow: 0 4px 20px rgba(59, 130, 246, 0.3);
+        }
+
+        .cta-btn:hover {
+            transform: translateY(-2px);
+            background-color: #2563EB;
+            box-shadow: 0 6px 24px rgba(59, 130, 246, 0.4);
+        }
+
+        /* Agency Pedigree Block */
+        .pedigree {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-color);
+            padding: 40px;
+            border-radius: 16px;
+            margin-bottom: 80px;
+        }
+
+        .pedigree-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        @media (max-width: 768px) {
+            .pedigree-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+        }
+
+        .pedigree h3 {
+            font-size: 1.8rem;
+            margin-bottom: 16px;
+            color: #fff;
+        }
+
+        .pedigree p {
+            color: var(--text-muted);
+        }
+
+        /* Track Grid Sections */
+        .section-title {
+            text-align: center;
+            font-size: 2.2rem;
+            margin-bottom: 48px;
+        }
+
+        .track-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 24px;
+            margin-bottom: 80px;
+        }
+
+        .track-card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 32px;
+            transition: border-color 0.3s ease;
+        }
+
+        .track-card:hover {
+            border-color: var(--brand-primary);
+        }
+
+        .track-badge {
+            display: inline-block;
+            padding: 4px 10px;
+            background-color: rgba(255, 255, 255, 0.05);
+            border-radius: 6px;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 16px;
+            color: var(--brand-accent);
+        }
+
+        .track-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 12px;
+        }
+
+        .track-card p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+        }
+
+        .track-project {
+            background-color: rgba(11, 15, 25, 0.5);
+            padding: 16px;
+            border-radius: 8px;
+            border-left: 3px solid var(--brand-accent);
+            font-size: 0.9rem;
+        }
+
+        /* Infrastructure Section Layout */
+        .infra-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-bottom: 80px;
+        }
+
+        .infra-card {
+            border: 1px solid var(--border-color);
+            padding: 24px;
+            border-radius: 12px;
+        }
+
+        .infra-card h4 {
+            font-size: 1.2rem;
+            margin-bottom: 8px;
+            color: #fff;
+        }
+
+        /* Checkout Funnel Core Engine Styling */
+        .checkout-box {
+            background: linear-gradient(180deg, var(--bg-card) 0%, #172239 100%);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            padding: 48px;
+            max-width: 650px;
+            margin: 0 auto 80px auto;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        .checkout-box .form-group {
+            margin-bottom: 20px;
+        }
+
+        .checkout-box .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--text-main);
+        }
+
+        .checkout-box .form-control {
+            width: 100%;
+            background-color: var(--bg-dark);
+            border: 1px solid var(--border-color);
+            padding: 14px;
+            border-radius: 8px;
+            color: #fff;
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+        }
+
+        .checkout-box .form-control:focus {
+            outline: none;
+            border-color: var(--brand-primary);
+        }
+
+        .checkout-box .price-display {
+            background-color: rgba(11, 15, 25, 0.6);
+            padding: 24px;
+            border-radius: 8px;
+            margin: 24px 0;
+            border: 1px dashed var(--border-color);
+            text-align: center;
+        }
+
+        .checkout-box .price-display .amount {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #fff;
+            font-family: 'Space Grotesk', sans-serif;
+        }
+
+        .checkout-box .price-display .discount-note {
+            color: var(--brand-accent);
+            font-size: 0.85rem;
+            margin-top: 4px;
+            font-weight: 600;
+        }
+
+        footer {
+            border-top: 1px solid var(--border-color);
+            padding: 40px 0;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Scarcity Trigger Top Bar -->
+    <div class="scarcity-ticker">
+        🔥 FAST CHECKOUT: Batch 1 is capped at strictly 8 participants maximum to maintain mentor-student ratios.
+    </div>
+
+    <!-- Main Global Header Layout -->
+    <header>
+        <div class="container nav-flex">
+            <a href="#" class="logo">WEBTELISENSE<span>.CAMP</span></a>
+            <div class="badge-hub">📍 Venue: ARISE ICT Hub, Etuk Street</div>
+        </div>
+    </header>
+
+    <!-- Hero Conversion Layout -->
+    <section class="hero">
+        <div class="container">
+            <span class="track-badge" style="color: var(--brand-primary);">BATCH 1: AUG 3 – AUG 28, 2026</span>
+            <h1><span>Build the Tech Future.</span><br>Don't Just Scroll It.</h1>
+            <p>The official summer accelerator by Webtellisense. An intensive 4-week, product-first tech bootcamp for
+                ambitious teenagers aged 12–17 in Uyo.</p>
+            <a href="#checkout" class="cta-btn">Secure Your Child's Seat Instantly</a>
+        </div>
+    </section>
+
+    <main class="container">
+
+        <!-- Authority Pedigree Section -->
+        <section class="pedigree">
+            <div class="pedigree-grid">
+                <div>
+                    <h3>Learning From an Active Digital Agency Changes Everything</h3>
+                    <p>Most holiday training centers read straight out of old school textbooks. Webtellisense is a live,
+                        commercial agency building modern web ecosystems and software products every day. We are opening
+                        our engineering framework to guide teens into high-performing builders.</p>
+                </div>
+                <div class="pedigree-text">
+                    <p>"Your child won't just learn
+                        theory; they will design, code, and deploy projects utilizing the same workflows used by
+                        engineers at top global tech firms."</p>
+                    <strong>— The Webtellisense Product Team</strong>
+                </div>
+            </div>
+        </section>
+
+        <!-- Career Tracks Showcase Layout -->
+        <section>
+            <h2 class="section-title">High-Income Accelerator Tracks</h2>
+            <div class="track-grid">
+
+                <!-- Track A Card -->
+                <div class="track-card">
+                    <span class="track-badge">Track A</span>
+                    <h3>The Creator</h3>
+                    <p>Tailored for creative minds. Covers commercial graphic design asset creation, vector layout
+                        design systems, and digital content writing strategy.</p>
+                    <div class="track-project">
+                        <strong>Live Capstone Project:</strong> Build and package a complete commercial brand identity
+                        kit from scratch.
+                    </div>
+                </div>
+
+                <!-- Track B Card -->
+                <div class="track-card">
+                    <span class="track-badge">Track B</span>
+                    <h3>The Builder</h3>
+                    <p>For logical thinkers. Covers foundational Front-End Web Architecture (HTML5/CSS3 syntax) combined
+                        with systemic AI Prompt Engineering.</p>
+                    <div class="track-project">
+                        <strong>Live Capstone Project:</strong> Program, structure, and deploy a live personal portfolio
+                        website directly to the web.
+                    </div>
+                </div>
+
+                <!-- Track C Card -->
+                <div class="track-card">
+                    <span class="track-badge">Track C</span>
+                    <h3>The Guardian</h3>
+                    <p>For technical minds. Teaches defensive cybersecurity frameworks, system access protocols, and
+                        computer network architecture configurations.</p>
+                    <div class="track-project">
+                        <strong>Live Capstone Project:</strong> Run vulnerability audits on simulated servers and secure
+                        network vectors.
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Premium Infrastructure Grid -->
+        <section>
+            <h2 class="section-title">Premium Logistics Included</h2>
+            <div class="infra-grid">
+                <div class="infra-card">
+                    <h4>🚌 Chaperoned Gate Transit</h4>
+                    <p style="color: var(--text-muted); font-size: 0.9rem;">Seamless home pickup (9 AM) and drop-off (4
+                        PM) across Uyo routes with an active onboarding chaperone in the vehicle for total safety.</p>
+                </div>
+                <div class="infra-card">
+                    <h4>⚡ Uninterrupted Infrastructure</h4>
+                    <p style="color: var(--text-muted); font-size: 0.9rem;">Hosted entirely at the ARISE ICT Hub, Etuk
+                        Street around Plaza. Zero power downtime and enterprise-grade 5G network speeds.</p>
+                </div>
+                <div class="infra-card">
+                    <h4>🥧 Daily Catering Standard</h4>
+                    <p style="color: var(--text-muted); font-size: 0.9rem;">Fresh baked pastries, water, and sodas
+                        provided straight to students daily during the 30-minute afternoon breakout window.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Paystack Application Engine Block -->
+        <section id="checkout" class="checkout-box">
+            <h3 style="font-size: 1.8rem; text-align: center; margin-bottom: 8px;">Book Your Slot Securely</h3>
+            <p style="color: var(--text-muted); text-align: center; font-size: 0.95rem; margin-bottom: 32px;">Complete
+                your guardian payment via Paystack to reserve a position immediately. We will contact you directly to
+                configure student names and transit points.</p>
+
+            <form id="paymentForm" onsubmit="handleFormSubmit(event)">
+                <div class="form-group">
+                    <label for="guardianEmail">Guardian Email Address</label>
+                    <input type="email" id="guardianEmail" class="form-control" placeholder="parent@example.com"
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <label for="guardianPhone">Guardian Phone Number</label>
+                    <input type="tel" id="guardianPhone" class="form-control" placeholder="+234..." required>
+                </div>
+
+                <div class="form-group">
+                    <label for="childCount">Number of Children Registering</label>
+                    <select id="childCount" class="form-control" onchange="calculatePrice()">
+                        <option value="1">1 Child</option>
+                        <option value="2">2 Children (10% Sibling Discount Applied)</option>
+                        <option value="3">3 Children (10% Sibling Discount Applied)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="transitOption">Transit/Transportation Choice</label>
+                    <select id="transitOption" class="form-control" onchange="calculatePrice()">
+                        <option value="yes">Include Chaperoned Bus Pickups (+₦40,000 per child)</option>
+                        <option value="no">Self-Dropoff at ARISE Hub (Base Training Only)</option>
+                    </select>
+                </div>
+
+                <div class="price-display">
+                    <div
+                        style="font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px;">
+                        Total Investment Due</div>
+                    <div class="amount" id="totalAmountDisplay">₦100,000</div>
+                    <div class="discount-note" id="discountMessage">Standard individual transit package rate.</div>
+                </div>
+
+                <div style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 24px; text-align: center;">
+                    💻 *Requirement Notice: Every teen must come with their own laptop setup possessing minimum 4GB RAM
+                    configuration.*
+                </div>
+
+                <button type="submit" class="cta-btn" style="width: 100%;">Pay Now & Secure Seat via Paystack</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Universal Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Webtellisense Technology Camp Group. Sponsoring commercial innovation inside Uyo.</p>
+            <p style="font-size: 0.75rem; margin-top: 8px; color: #4B5563;">Operational partner location: KM15 Ikot
+                Ibiok, Eket / Etuk Street, Uyo, Akwa Ibom State.</p>
+        </div>
+    </footer>
+
+    <!-- Core Interactive Calculation Engine Logic -->
+    <script>
+        function calculatePrice() {
+            const count = parseInt(document.getElementById('childCount').value);
+            const transit = document.getElementById('transitOption').value;
+
+            // Core flat base pricing configuration matrix
+            let baseRatePerChild = 60000;
+            let transitCostPerChild = (transit === 'yes') ? 40000 : 0;
+
+            let totalCostPerChild = baseRatePerChild + transitCostPerChild;
+            let subtotal = totalCostPerChild * count;
+
+            // Group discount verification engine logic (10% discount for more than one kid)
+            if (count > 1) {
+                subtotal = subtotal * 0.9;
+                document.getElementById('discountMessage').innerText = `🔥 Success! 10% Sibling Group Discount applied across all configurations.`;
+            } else {
+                document.getElementById('discountMessage').innerText = `Standard individual training package rate.`;
+            }
+
+            // Render display update
+            document.getElementById('totalAmountDisplay').innerText = `₦${subtotal.toLocaleString()}`;
+        }
+
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            const finalAmount = document.getElementById('totalAmountDisplay').innerText;
+
+            // Interactive placeholder routing simulating direct Paystack Inline secure API handover hooks
+            alert(`Redirecting Securely to Paystack API Gateway Integration...\nTotal Amount: ${finalAmount}\n\nUpon successful verification, Webtellisense Onboarding will trigger an immediate localized contact call within 2 hours to sync student track names and transit parameters.`);
+        }
+    </script>
+</body>
+
+</html>
