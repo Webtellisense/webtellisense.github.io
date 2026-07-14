@@ -4018,7 +4018,7 @@ section,
 
 /* --- SCARCITY BAR --- */
 .scarcity-ticker {
-  background: linear-gradient(90deg, var(--color-brand-blue) 0%, #1e40af 100%);
+  background: linear-gradient(90deg, var(--color-primary-3) 0%, #1e40af 100%);
   color: #fff;
   text-align: center;
   padding: 12px;
@@ -4041,7 +4041,7 @@ section,
     url("/assets/img/bootcamp-img.jpg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--color-gray-200);
 }
 
 .kh-hero h1 {
@@ -4053,7 +4053,7 @@ section,
 }
 
 .kh-hero h1 span {
-  background: linear-gradient(135deg, #fff 0%, var(--color-brand-orange) 100%);
+  background: linear-gradient(135deg, #fff 0%, #fe7400 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -4067,7 +4067,7 @@ section,
 }
 
 .kh-cta-btn {
-  background-color: var(--color-brand-orange);
+  background-color: #fe7400;
   color: #fff;
   padding: 16px 40px;
   border-radius: 8px;
@@ -4086,7 +4086,7 @@ section,
 }
 
 .kh-track-badge {
-  color: var(--color-brand-orange);
+  color: #fe7400;
   display: inline-block;
   padding: 6px 14px;
   background-color: rgba(254, 116, 0, 0.1);
@@ -4128,7 +4128,7 @@ section,
 }
 
 .pedigree-quote {
-  border-left: 3px solid var(--color-brand-orange);
+  border-left: 3px solid #fe7400;
   padding-left: 24px;
 }
 
@@ -4141,14 +4141,14 @@ section,
 }
 
 .pedigree-quote strong {
-  color: var(--color-brand-orange);
+  color: #fe7400;
   font-size: 0.95rem;
   letter-spacing: 0.5px;
 }
 
 /* --- LOGISTICS ACCORD GRID --- */
 .program-details-banner {
-  background-color: var(--color-brand-blue);
+  background-color: var(--color-primary-3);
   padding: 60px 0;
   width: 100vw;
   position: relative;
@@ -4200,7 +4200,7 @@ section,
 .metric-icon {
   font-size: 2rem;
   margin-bottom: 12px;
-  color: var(--color-brand-orange);
+  color: #fe7400;
 }
 
 .metric-label {
@@ -4284,7 +4284,7 @@ section,
 .competitor-track-card h3 {
   font-size: 1.4rem;
   margin-bottom: 20px;
-  color: var(--color-brand-blue);
+  color: var(--color-primary-3);
   font-weight: 700;
 }
 
@@ -4306,7 +4306,7 @@ section,
   position: absolute;
   left: 0;
   top: -2px;
-  background-color: var(--color-brand-blue);
+  background-color: var(--color-primary-3);
   color: #ffffff;
   width: 18px;
   height: 18px;
@@ -4319,7 +4319,7 @@ section,
 }
 
 .competitor-track-card.highlight-accent {
-  background-color: var(--color-brand-blue);
+  background-color: var(--color-primary-3);
   color: #ffffff;
 }
 
@@ -4332,13 +4332,13 @@ section,
 }
 
 .competitor-track-card.highlight-accent .track-bullet-list li::before {
-  background-color: var(--color-brand-orange);
+  background-color: #fe7400;
   color: #fff;
 }
 
 /* --- SPLIT INFRASTRUCTURE BLOCK --- */
 .logistics-banner-split {
-  background: linear-gradient(135deg, var(--color-brand-blue) 0%, #061f63 100%);
+  background: linear-gradient(135deg, var(--color-primary-3) 0%, #061f63 100%);
   padding: 80px 0;
   margin: 80px 0;
   width: 100vw;
@@ -4385,7 +4385,7 @@ section,
   position: absolute;
   left: 0;
   top: 4px;
-  background-color: var(--color-brand-orange);
+  background-color: #fe7400;
   color: #fff;
   width: 22px;
   height: 22px;
@@ -4398,7 +4398,7 @@ section,
 }
 
 .banner-register-btn {
-  background-color: var(--color-brand-orange);
+  background-color: #fe7400;
   color: #fff;
   padding: 14px 44px;
   border-radius: 8px;
@@ -4433,7 +4433,7 @@ section,
 /* --- THE CHECKOUT ENGINE --- */
 .checkout-box {
   background: linear-gradient(180deg, #111827 0%, #0b0f19 100%);
-  border: 1px solid var(--border-color);
+  border: 1px solid var(--color-gray-200);
   border-radius: 20px;
   padding: 48px;
   max-width: 650px;
@@ -4480,7 +4480,7 @@ section,
 
 .checkout-box .form-control:focus {
   outline: none;
-  border-color: var(--color-brand-blue);
+  border-color: var(--color-primary-3);
 }
 
 .checkout-box .form-control::placeholder {
@@ -4492,7 +4492,7 @@ section,
   padding: 24px;
   border-radius: 8px;
   margin: 24px 0;
-  border: 1px dashed var(--color-brand-blue);
+  border: 1px dashed var(--color-primary-3);
   text-align: center;
 }
 
@@ -4512,7 +4512,7 @@ section,
 }
 
 .checkout-box .price-display .discount-note {
-  color: var(--color-brand-orange);
+  color: #fe7400;
   font-size: 0.9rem;
   font-weight: 600;
 }
@@ -4529,7 +4529,7 @@ section,
 }
 
 .checkout-cta-btn {
-  background-color: var(--color-brand-orange);
+  background-color: #fe7400;
   color: #fff;
   padding: 16px 36px;
   border-radius: 8px;
@@ -4591,7 +4591,7 @@ section,
 }
 
 .kh-faq-item[open] {
-  border-color: var(--color-brand-blue);
+  border-color: var(--color-primary-3);
 }
 
 .kh-faq-item summary {
@@ -4611,7 +4611,7 @@ section,
   right: 0;
   top: 50%;
   transform: translateY(-50%);
-  color: var(--color-brand-orange);
+  color: #fe7400;
   font-size: 1.4rem;
   font-weight: bold;
   transition: transform 0.3s ease;
