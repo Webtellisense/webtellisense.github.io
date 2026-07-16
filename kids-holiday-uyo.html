@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Future Titans Tech Accelerator | Powered by Webtellisense Uyo</title>
+    <title>Tech Bootcamp | Powered by Webtellisense Uyo</title>
 
     <meta name="keywords"
         content="holiday training for kids in uyo, tech camp for teens akwa ibom, code summer camp uyo, web design training uyo, cybersecurity for kids nigeria">
@@ -454,14 +454,14 @@
                 <div class="form-group">
                     <label for="transitOption">Transportation Package</label>
                     <select id="transitOption" class="form-control" onchange="calculatePrice()">
-                        <option value="yes">Include Chaperoned Bus Transit (+₦40,000 per student)</option>
+                        <option value="yes">Include Chaperoned Bus Transit (+₦60,000 per student)</option>
                         <option value="no">Self-Managed Transit (Base Accelerator Access)</option>
                     </select>
                 </div>
 
                 <div class="price-display">
                     <div class="price-display-label">Total Premium Investment</div>
-                    <div class="amount" id="totalAmountDisplay">₦100,000</div>
+                    <div class="amount" id="totalAmountDisplay">₦80,000</div>
                     <div class="discount-note" id="discountMessage">Standard individual transit package rate.</div>
                 </div>
 
@@ -594,8 +594,8 @@
             const transit = document.getElementById('transitOption').value;
 
             // Core flat base pricing configuration matrix
-            let baseRatePerChild = 60000;
-            let transitCostPerChild = (transit === 'yes') ? 40000 : 0;
+            let baseRatePerChild = 80000;
+            let transitCostPerChild = (transit === 'yes') ? 60000 : 0;
 
             let totalCostPerChild = baseRatePerChild + transitCostPerChild;
             let subtotal = totalCostPerChild * count;

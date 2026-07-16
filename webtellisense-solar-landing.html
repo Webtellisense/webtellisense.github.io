@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Get More Solar Installation Jobs — Webtellisense</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0A0F1C;
+    --panel:#111A2E;
+    --panel-2:#182342;
+    --line: rgba(244,241,232,0.10);
+    --gold:#F5A623;
+    --gold-bright:#FFC857;
+    --cyan:#38E1C6;
+    --paper:#F4F1E8;
+    --muted:#8B93A8;
+    --good:#34D399;
+    --danger:#F0654B;
+    --radius: 14px;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--ink);
+    color:var(--paper);
+    font-family:'Inter', sans-serif;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  h1,h2,h3,h4{font-family:'Space Grotesk', sans-serif; letter-spacing:-0.01em; line-height:1.08;}
+  .mono{font-family:'JetBrains Mono', monospace;}
+  img,svg{display:block; max-width:100%;}
+  a{color:inherit;}
+  .wrap{max-width:1120px; margin:0 auto; padding:0 24px;}
+  .wrap-narrow{max-width:760px; margin:0 auto; padding:0 24px;}
+
+  /* subtle solar-grid backdrop */
+  .grid-bg{
+    position:absolute; inset:0; z-index:0; opacity:0.5;
+    background-image:
+      linear-gradient(var(--line) 1px, transparent 1px),
+      linear-gradient(90deg, var(--line) 1px, transparent 1px);
+    background-size:44px 44px;
+    -webkit-mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, #000 40%, transparent 100%);
+            mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, #000 40%, transparent 100%);
+  }
+
+  /* ---------- NAV ---------- */
+  nav{position:sticky; top:0; z-index:40; backdrop-filter:blur(10px); background:rgba(10,15,28,0.82); border-bottom:1px solid var(--line);}
+  nav .wrap{display:flex; align-items:center; justify-content:space-between; height:64px;}
+  .logo{font-family:'Space Grotesk'; font-weight:700; font-size:18px; letter-spacing:-0.02em;}
+  .logo span{color:var(--gold);}
+  .nav-cta{
+    background:var(--gold); color:#1A1300; font-weight:700; font-size:14px;
+    padding:9px 18px; border-radius:999px; text-decoration:none; white-space:nowrap;
+  }
+
+  /* ---------- HERO ---------- */
+  header.hero{position:relative; padding:76px 0 60px; overflow:hidden;}
+  .eyebrow{
+    display:inline-flex; align-items:center; gap:8px;
+    font-family:'JetBrains Mono'; font-size:12.5px; letter-spacing:0.06em; text-transform:uppercase;
+    color:var(--cyan); background:rgba(56,225,198,0.08); border:1px solid rgba(56,225,198,0.25);
+    padding:6px 12px; border-radius:999px; margin-bottom:22px;
+  }
+  .eyebrow .dot{width:6px; height:6px; border-radius:50%; background:var(--cyan); box-shadow:0 0 8px var(--cyan);}
+  h1.headline{font-size:clamp(30px, 5.4vw, 52px); max-width:780px; font-weight:600;}
+  h1.headline em{font-style:normal; color:var(--gold);}
+  .sub{margin-top:20px; font-size:18px; color:var(--muted); max-width:600px;}
+  .hero-cta-row{margin-top:32px; display:flex; gap:14px; flex-wrap:wrap;}
+  .btn-primary{
+    background:linear-gradient(135deg, var(--gold-bright), var(--gold));
+    color:#1A1300; font-weight:700; font-size:15.5px;
+    padding:15px 26px; border-radius:10px; text-decoration:none; border:none; cursor:pointer;
+    box-shadow:0 8px 24px rgba(245,166,35,0.25);
+  }
+  .btn-ghost{
+    background:transparent; color:var(--paper); font-weight:600; font-size:15.5px;
+    padding:15px 22px; border-radius:10px; text-decoration:none; border:1px solid var(--line);
+  }
+  .hero-stats{margin-top:56px; display:grid; grid-template-columns:repeat(4,1fr); gap:1px; background:var(--line); border:1px solid var(--line); border-radius:var(--radius); overflow:hidden;}
+  .hero-stats div{background:var(--panel); padding:18px 16px;}
+  .hero-stats .num{font-family:'JetBrains Mono'; font-weight:700; font-size:22px; color:var(--gold-bright);}
+  .hero-stats .lbl{font-size:12.5px; color:var(--muted); margin-top:4px;}
+
+  @media (max-width:700px){ .hero-stats{grid-template-columns:repeat(2,1fr);} }
+
+  /* ---------- SECTION SHELL ---------- */
+  section{padding:76px 0; position:relative;}
+  .section-tag{font-family:'JetBrains Mono'; font-size:12.5px; text-transform:uppercase; letter-spacing:0.07em; color:var(--gold); margin-bottom:12px;}
+  h2.section-title{font-size:clamp(24px,3.6vw,36px); max-width:640px; margin-bottom:14px;}
+  .section-desc{color:var(--muted); max-width:560px; font-size:16px;}
+
+  /* ---------- CALCULATOR ---------- */
+  .calc-wrap{
+    margin-top:40px; background:var(--panel); border:1px solid var(--line); border-radius:20px;
+    padding:32px; display:grid; grid-template-columns:1.2fr 1fr; gap:36px;
+  }
+  @media (max-width:840px){ .calc-wrap{grid-template-columns:1fr;} }
+  .appliance{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:12px 4px; border-bottom:1px solid var(--line); gap:10px;
+  }
+  .appliance:last-child{border-bottom:none;}
+  .appliance-name{font-size:14.5px; font-weight:500;}
+  .appliance-watt{font-family:'JetBrains Mono'; font-size:12px; color:var(--muted);}
+  .stepper{display:flex; align-items:center; gap:10px;}
+  .stepper button{
+    width:30px; height:30px; border-radius:8px; border:1px solid var(--line); background:var(--panel-2);
+    color:var(--paper); font-size:16px; cursor:pointer; font-family:'JetBrains Mono';
+  }
+  .stepper button:hover{border-color:var(--gold);}
+  .stepper .qty{font-family:'JetBrains Mono'; font-weight:700; width:18px; text-align:center;}
+
+  .gauge-card{
+    display:flex; flex-direction:column; align-items:center; justify-content:center;
+    background:var(--panel-2); border-radius:16px; padding:28px 20px; text-align:center;
+  }
+  .gauge-label{font-family:'JetBrains Mono'; font-size:12px; text-transform:uppercase; letter-spacing:0.06em; color:var(--muted);}
+  #gaugeValue{font-family:'JetBrains Mono'; font-weight:700; font-size:44px; color:var(--gold-bright); margin:10px 0 2px;}
+  #gaugeBand{font-size:14px; color:var(--cyan); font-weight:600; margin-bottom:18px;}
+  .gauge-bar{width:100%; height:10px; background:rgba(255,255,255,0.06); border-radius:999px; overflow:hidden;}
+  .gauge-fill{height:100%; width:0%; background:linear-gradient(90deg, var(--cyan), var(--gold)); transition:width 0.5s ease;}
+  .gauge-note{margin-top:20px; font-size:13.5px; color:var(--muted); line-height:1.5;}
+  .gauge-note b{color:var(--paper);}
+
+  /* ---------- OFFER STACK ---------- */
+  .stack-card{
+    margin-top:36px; background:var(--panel); border:1px solid var(--line); border-radius:20px; padding:8px;
+  }
+  .stack-row{
+    display:flex; align-items:center; justify-content:space-between; gap:16px;
+    padding:18px 20px; border-bottom:1px solid var(--line);
+  }
+  .stack-row:last-child{border-bottom:none;}
+  .stack-left{display:flex; align-items:flex-start; gap:14px;}
+  .check{
+    flex:none; width:24px; height:24px; border-radius:7px; background:rgba(52,211,153,0.12);
+    color:var(--good); display:flex; align-items:center; justify-content:center; font-size:14px; font-weight:700;
+    border:1px solid rgba(52,211,153,0.35);
+  }
+  .stack-name{font-weight:600; font-size:15.5px;}
+  .stack-desc{font-size:13.5px; color:var(--muted); margin-top:2px;}
+  .stack-val{font-family:'JetBrains Mono'; font-weight:700; color:var(--muted); text-decoration:line-through; white-space:nowrap; font-size:14.5px;}
+
+  .stack-total{
+    display:flex; align-items:center; justify-content:space-between; padding:20px 20px 22px; gap:16px; flex-wrap:wrap;
+  }
+  .stack-total .label{font-family:'JetBrains Mono'; text-transform:uppercase; font-size:12.5px; letter-spacing:0.06em; color:var(--muted);}
+  .stack-total .value{font-family:'JetBrains Mono'; font-weight:700; font-size:22px; text-decoration:line-through; color:var(--muted);}
+
+  .price-reveal{
+    margin-top:2px; background:linear-gradient(160deg, rgba(245,166,35,0.14), rgba(56,225,198,0.06));
+    border:1px solid rgba(245,166,35,0.35); border-radius:16px; padding:28px 24px; text-align:center;
+  }
+  .price-reveal .tag{font-family:'JetBrains Mono'; font-size:12.5px; letter-spacing:0.06em; text-transform:uppercase; color:var(--cyan);}
+  .price-reveal .big{font-family:'Space Grotesk'; font-weight:700; font-size:clamp(38px,6vw,56px); margin:8px 0 4px; color:var(--paper);}
+  .price-reveal .save{display:inline-block; margin-top:8px; background:rgba(52,211,153,0.15); color:var(--good); border:1px solid rgba(52,211,153,0.35); padding:6px 14px; border-radius:999px; font-family:'JetBrains Mono'; font-weight:700; font-size:13px;}
+  .slots{margin-top:16px; font-size:13.5px; color:var(--muted);}
+  .slots b{color:var(--gold-bright);}
+
+  /* ---------- RETAINER ---------- */
+  .retainer-flow{margin-top:36px; display:grid; grid-template-columns:1fr 1fr; gap:20px;}
+  @media (max-width:700px){.retainer-flow{grid-template-columns:1fr;}}
+  .month-card{background:var(--panel); border:1px solid var(--line); border-radius:16px; padding:24px;}
+  .month-card .m{font-family:'JetBrains Mono'; font-size:12.5px; color:var(--gold); text-transform:uppercase; letter-spacing:0.06em;}
+  .month-card h3{margin:8px 0 10px; font-size:20px;}
+  .month-card p{color:var(--muted); font-size:14.5px;}
+  .month-card .price{font-family:'JetBrains Mono'; font-weight:700; font-size:26px; margin-top:14px; color:var(--paper);}
+
+  /* ---------- QUIZ ---------- */
+  .quiz-shell{
+    margin-top:40px; background:var(--panel); border:1px solid var(--line); border-radius:20px; padding:36px; max-width:640px; margin-left:auto; margin-right:auto;
+  }
+  .progress-track{height:6px; background:rgba(255,255,255,0.06); border-radius:999px; overflow:hidden; margin-bottom:28px;}
+  .progress-fill{height:100%; width:14%; background:linear-gradient(90deg,var(--cyan),var(--gold)); transition:width 0.35s ease;}
+  .q-step{display:none;}
+  .q-step.active{display:block; animation:fade 0.35s ease;}
+  @keyframes fade{from{opacity:0; transform:translateY(6px);} to{opacity:1; transform:translateY(0);}}
+  .q-num{font-family:'JetBrains Mono'; color:var(--muted); font-size:13px; margin-bottom:8px;}
+  .q-title{font-size:20px; font-weight:600; margin-bottom:20px;}
+  .opt{
+    display:block; width:100%; text-align:left; background:var(--panel-2); border:1px solid var(--line);
+    color:var(--paper); padding:14px 16px; border-radius:12px; font-size:15px; margin-bottom:10px; cursor:pointer;
+    font-family:'Inter'; transition:border-color 0.2s;
+  }
+  .opt:hover{border-color:rgba(245,166,35,0.5);}
+  .opt.selected{border-color:var(--gold); background:rgba(245,166,35,0.1);}
+  .q-input{
+    width:100%; background:var(--panel-2); border:1px solid var(--line); color:var(--paper);
+    padding:14px 16px; border-radius:12px; font-size:15px; margin-bottom:12px; font-family:'Inter';
+  }
+  .q-input::placeholder{color:var(--muted);}
+  .q-nav{display:flex; justify-content:space-between; align-items:center; margin-top:20px;}
+  .q-back{color:var(--muted); background:none; border:none; font-size:14px; cursor:pointer;}
+  .q-next{background:var(--gold); color:#1A1300; border:none; font-weight:700; padding:12px 22px; border-radius:10px; cursor:pointer; font-size:14.5px;}
+  .q-next:disabled{opacity:0.35; cursor:not-allowed;}
+
+  /* ---------- PROCESS ---------- */
+  .process{margin-top:40px; display:grid; grid-template-columns:repeat(4,1fr); gap:18px;}
+  @media (max-width:800px){.process{grid-template-columns:1fr 1fr;}}
+  @media (max-width:480px){.process{grid-template-columns:1fr;}}
+  .p-card{background:var(--panel); border:1px solid var(--line); border-radius:16px; padding:22px 18px;}
+  .p-step{font-family:'JetBrains Mono'; color:var(--cyan); font-size:13px;}
+  .p-card h4{margin:10px 0 8px; font-size:16px;}
+  .p-card p{color:var(--muted); font-size:13.5px;}
+
+  /* ---------- TRUST ---------- */
+  .founder-note{
+    margin-top:40px; background:var(--panel); border:1px solid var(--line); border-radius:20px; padding:32px;
+    display:grid; grid-template-columns:auto 1fr; gap:22px; align-items:flex-start;
+  }
+  @media (max-width:640px){.founder-note{grid-template-columns:1fr;}}
+  .avatar{width:56px; height:56px; border-radius:50%; background:linear-gradient(135deg,var(--gold),var(--cyan)); flex:none;}
+  .founder-note p{font-size:16px; color:var(--paper); line-height:1.65;}
+  .founder-note .who{margin-top:14px; font-family:'JetBrains Mono'; font-size:13px; color:var(--muted);}
+
+  .quotes{margin-top:20px; display:grid; grid-template-columns:repeat(3,1fr); gap:16px;}
+  @media (max-width:800px){.quotes{grid-template-columns:1fr;}}
+  .quote-card{background:var(--panel-2); border:1px solid var(--line); border-radius:14px; padding:20px;}
+  .quote-card p{font-size:14.5px; color:var(--paper); font-style:italic;}
+  .quote-card .attr{margin-top:12px; font-size:12.5px; color:var(--muted); font-family:'JetBrains Mono';}
+
+  .case-study{margin-top:20px; background:rgba(56,225,198,0.06); border:1px solid rgba(56,225,198,0.2); border-radius:16px; padding:22px;}
+  .case-study .tag{font-family:'JetBrains Mono'; font-size:12px; color:var(--cyan); text-transform:uppercase; letter-spacing:0.06em;}
+  .case-study p{margin-top:10px; font-size:14.5px; color:var(--muted);}
+
+  /* ---------- FAQ ---------- */
+  .faq-item{border-bottom:1px solid var(--line); padding:20px 0;}
+  .faq-q{display:flex; justify-content:space-between; align-items:center; cursor:pointer; font-weight:600; font-size:16px;}
+  .faq-a{max-height:0; overflow:hidden; transition:max-height 0.3s ease; color:var(--muted); font-size:14.5px;}
+  .faq-item.open .faq-a{max-height:200px; margin-top:12px;}
+  .faq-plus{font-family:'JetBrains Mono'; color:var(--gold); font-size:20px; transition:transform 0.25s;}
+  .faq-item.open .faq-plus{transform:rotate(45deg);}
+
+  /* ---------- FINAL CTA ---------- */
+  .final-cta{text-align:center; padding:80px 0; background:radial-gradient(ellipse at 50% 0%, rgba(245,166,35,0.12), transparent 60%);}
+  .final-cta h2{font-size:clamp(26px,4.4vw,40px); max-width:600px; margin:0 auto 16px;}
+  .final-cta p{color:var(--muted); max-width:480px; margin:0 auto 28px;}
+
+  footer{border-top:1px solid var(--line); padding:36px 0; font-size:13.5px; color:var(--muted);}
+  footer .wrap{display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px;}
+
+  /* ---------- ACTIVITY TOAST ---------- */
+  #toast{
+    position:fixed; left:18px; bottom:18px; z-index:60;
+    background:var(--panel); border:1px solid var(--line); border-radius:12px;
+    padding:12px 16px; display:flex; align-items:center; gap:10px; max-width:280px;
+    box-shadow:0 12px 30px rgba(0,0,0,0.4);
+    transform:translateY(20px); opacity:0; transition:all 0.4s ease; pointer-events:none;
+  }
+  #toast.show{transform:translateY(0); opacity:1;}
+  #toast .pulse{width:8px; height:8px; border-radius:50%; background:var(--good); flex:none; box-shadow:0 0 0 0 rgba(52,211,153,0.6); animation:pulse 1.6s infinite;}
+  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(52,211,153,0.5);}70%{box-shadow:0 0 0 8px rgba(52,211,153,0);}100%{box-shadow:0 0 0 0 rgba(52,211,153,0);}}
+  #toast .t-text{font-size:13px; line-height:1.4;}
+  #toast .t-text b{color:var(--paper);}
+
+  .whatsapp-fab{
+    position:fixed; right:18px; bottom:18px; z-index:60; background:#25D366; color:#06210F;
+    width:54px; height:54px; border-radius:50%; display:flex; align-items:center; justify-content:center;
+    text-decoration:none; box-shadow:0 10px 26px rgba(37,211,102,0.4); font-size:24px;
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <div class="logo">Webtellisense<span>.</span></div>
+    <a class="nav-cta" href="#quiz">Get my price</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="grid-bg"></div>
+  <div class="wrap" style="position:relative; z-index:1;">
+    <div class="eyebrow"><span class="dot"></span> Built for Nigerian solar installers</div>
+    <h1 class="headline">Homeowners are searching for a solar installer <em>right now.</em> Are they finding you, or your competitor?</h1>
+    <p class="sub">One offer, built for one trade: a website with a built-in load calculator, your Google reviews working for you, and a month of Google Ads pointed at people ready to install. No menu to pick from — this is the whole thing.</p>
+    <div class="hero-cta-row">
+      <a href="#quiz" class="btn-primary">See if you qualify →</a>
+      <a href="#calculator" class="btn-ghost">Try the load calculator</a>
+    </div>
+    <div class="hero-stats">
+      <div><div class="num">76%</div><div class="lbl">of local searchers visit a business within 24 hrs</div></div>
+      <div><div class="num">1</div><div class="lbl">offer — no packages to compare</div></div>
+      <div><div class="num">30d</div><div class="lbl">to a live website + running ads</div></div>
+      <div><div class="num">₦300k</div><div class="lbl">flat, first month</div></div>
+    </div>
+  </div>
+</header>
+
+<!-- CALCULATOR -->
+<section id="calculator">
+  <div class="wrap">
+    <div class="section-tag">The tool your customers will use</div>
+    <h2 class="section-title">Try the exact load calculator we'll put on your website</h2>
+    <p class="section-desc">This is the tool that turns a browsing homeowner into a lead who already knows roughly what system they need — before they've called you. Pick what's in a typical home and watch it work.</p>
+
+    <div class="calc-wrap">
+      <div id="applianceList"></div>
+      <div class="gauge-card">
+        <div class="gauge-label">Estimated load</div>
+        <div id="gaugeValue">0.0 kW</div>
+        <div id="gaugeBand">Add appliances to begin</div>
+        <div class="gauge-bar"><div class="gauge-fill" id="gaugeFill"></div></div>
+        <div class="gauge-note">This is what shows on your site as: <b>"Recommended system size"</b> — the exact moment a visitor becomes a qualified lead instead of a bounce.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OFFER STACK -->
+<section id="offer">
+  <div class="wrap-narrow">
+    <div class="section-tag">The offer</div>
+    <h2 class="section-title">Everything below, for one price</h2>
+    <p class="section-desc">Not a bundle you assemble. One offer, built specifically for solar installers, priced against what each piece is actually worth on its own.</p>
+
+    <div class="stack-card">
+      <div class="stack-row">
+        <div class="stack-left">
+          <div class="check">✓</div>
+          <div>
+            <div class="stack-name">Custom website with load calculator</div>
+            <div class="stack-desc">Built to explain your systems, show your work, and pre-qualify visitors before they call</div>
+          </div>
+        </div>
+        <div class="stack-val">₦350,000–₦500,000</div>
+      </div>
+      <div class="stack-row">
+        <div class="stack-left">
+          <div class="check">✓</div>
+          <div>
+            <div class="stack-name">Google Business Profile + reviews setup</div>
+            <div class="stack-desc">Optimised profile and a system for turning happy customers into visible 5-star reviews</div>
+          </div>
+        </div>
+        <div class="stack-val">Included</div>
+      </div>
+      <div class="stack-row">
+        <div class="stack-left">
+          <div class="check">✓</div>
+          <div>
+            <div class="stack-name">Google Ads — first month, fully managed</div>
+            <div class="stack-desc">Set up, launched, and optimised so people searching "solar installer near me" find you first</div>
+          </div>
+        </div>
+        <div class="stack-val">₦175,000</div>
+      </div>
+      <div class="stack-row">
+        <div class="stack-left">
+          <div class="check">✓</div>
+          <div>
+            <div class="stack-name">3 blog posts</div>
+            <div class="stack-desc">Written to answer what homeowners actually search before they buy solar</div>
+          </div>
+        </div>
+        <div class="stack-val">Included</div>
+      </div>
+
+      <div class="stack-total">
+        <div class="label">Total value</div>
+        <div class="value">₦525,000+</div>
+      </div>
+    </div>
+
+    <div class="price-reveal">
+      <div class="tag">Your price today</div>
+      <div class="big">₦300,000</div>
+      <div class="slots">One-time, first month. <b>We onboard a limited number of solar installers per month</b> so every client actually gets our attention.</div>
+      <div class="save">You save ₦225,000+</div>
+    </div>
+  </div>
+</section>
+
+<!-- RETAINER -->
+<section>
+  <div class="wrap-narrow">
+    <div class="section-tag">After month one</div>
+    <h2 class="section-title">What happens once your site is live</h2>
+    <p class="section-desc">No surprise upsell. The only thing that continues is the part that keeps bringing leads in.</p>
+    <div class="retainer-flow">
+      <div class="month-card">
+        <div class="m">Month 1</div>
+        <h3>Everything is built</h3>
+        <p>Website, load calculator, GBP + reviews, 3 blog posts, and your first month of Google Ads — all live.</p>
+        <div class="price">₦300,000</div>
+      </div>
+      <div class="month-card">
+        <div class="m">Month 2 onward</div>
+        <h3>Google Ads only</h3>
+        <p>Your site, GBP, and blog posts are yours — no further charge. If you want us to keep running and optimising your ads, that continues at a flat retainer.</p>
+        <div class="price">₦175,000/mo</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- QUIZ -->
+<section id="quiz">
+  <div class="wrap">
+    <div class="section-tag" style="text-align:center;">Before you book your call</div>
+    <h2 class="section-title" style="margin:0 auto 14px; text-align:center;">A few quick questions</h2>
+    <p class="section-desc" style="margin:0 auto; text-align:center;">Takes under a minute. It helps us prep for your call instead of spending it on small talk.</p>
+
+    <div class="quiz-shell">
+      <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+
+      <div class="q-step active" data-step="1">
+        <div class="q-num">Question 1 of 6</div>
+        <div class="q-title">What's your average installation value?</div>
+        <button class="opt" data-q="value" data-v="₦500k–₦1M">₦500,000 – ₦1,000,000</button>
+        <button class="opt" data-q="value" data-v="₦1M–₦3M">₦1,000,000 – ₦3,000,000</button>
+        <button class="opt" data-q="value" data-v="₦3M+">₦3,000,000+</button>
+      </div>
+
+      <div class="q-step" data-step="2">
+        <div class="q-num">Question 2 of 6</div>
+        <div class="q-title">How many jobs do you complete monthly?</div>
+        <button class="opt" data-q="volume" data-v="1–3">1 – 3</button>
+        <button class="opt" data-q="volume" data-v="4–10">4 – 10</button>
+        <button class="opt" data-q="volume" data-v="10+">10+</button>
+      </div>
+
+      <div class="q-step" data-step="3">
+        <div class="q-num">Question 3 of 6</div>
+        <div class="q-title">Do you currently run ads?</div>
+        <button class="opt" data-q="ads" data-v="Yes">Yes</button>
+        <button class="opt" data-q="ads" data-v="No">No</button>
+      </div>
+
+      <div class="q-step" data-step="4">
+        <div class="q-num">Question 4 of 6</div>
+        <div class="q-title">Do you already have a website?</div>
+        <button class="opt" data-q="website" data-v="Yes">Yes</button>
+        <button class="opt" data-q="website" data-v="No">No</button>
+      </div>
+
+      <div class="q-step" data-step="5">
+        <div class="q-num">Question 5 of 6</div>
+        <div class="q-title">Which state do you mainly operate in?</div>
+        <input class="q-input" id="stateInput" placeholder="e.g. Akwa Ibom, Lagos, Rivers…">
+        <div class="q-nav"><button class="q-back" onclick="prevStep()">Back</button><button class="q-next" id="stateNext" disabled onclick="nextStep()">Continue</button></div>
+      </div>
+
+      <div class="q-step" data-step="6">
+        <div class="q-num">Question 6 of 6</div>
+        <div class="q-title">How soon do you want more leads coming in?</div>
+        <button class="opt" data-q="urgency" data-v="This month">This month</button>
+        <button class="opt" data-q="urgency" data-v="Next month">Next month</button>
+        <button class="opt" data-q="urgency" data-v="Just researching">Just researching for now</button>
+      </div>
+
+      <div class="q-step" data-step="7">
+        <div class="q-num">Last step</div>
+        <div class="q-title">Where should we send your call confirmation?</div>
+        <input class="q-input" id="nameInput" placeholder="Your name">
+        <input class="q-input" id="bizInput" placeholder="Business name">
+        <input class="q-input" id="phoneInput" placeholder="WhatsApp number (e.g. 08012345678)">
+        <div class="q-nav">
+          <button class="q-back" onclick="prevStep()">Back</button>
+          <button class="q-next" id="finalNext" onclick="revealPrice()">See my price & book call</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESULT -->
+<section id="result" style="display:none;">
+  <div class="wrap-narrow" style="text-align:center;">
+    <div class="section-tag">Based on your answers</div>
+    <h2 class="section-title" style="margin:0 auto 16px;" id="resultHeadline">You're a strong fit for this offer.</h2>
+    <p class="section-desc" style="margin:0 auto 30px;" id="resultSub">Here's what you get, and what it costs.</p>
+    <div class="price-reveal">
+      <div class="tag">Your price</div>
+      <div class="big">₦300,000</div>
+      <div class="slots">Website + load calculator + GBP &amp; reviews + 3 blog posts + 1 month of Google Ads</div>
+      <div class="save">You save ₦225,000+</div>
+    </div>
+    <div style="margin-top:26px;">
+      <a href="#" id="waCta" target="_blank" class="btn-primary" style="display:inline-block;">Chat on WhatsApp to lock my slot →</a>
+    </div>
+    <p style="margin-top:16px; font-size:13px; color:var(--muted);">We'll confirm your details on WhatsApp, then call you to walk through scope before anything is charged.</p>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section>
+  <div class="wrap">
+    <div class="section-tag">What happens next</div>
+    <h2 class="section-title">From here to a live website in four steps</h2>
+    <div class="process">
+      <div class="p-card"><div class="p-step">Step 1</div><h4>You apply</h4><p>Answer the questions above — takes under a minute.</p></div>
+      <div class="p-card"><div class="p-step">Step 2</div><h4>We call you</h4><p>Usually within a few hours. We confirm scope and what we'll need from you.</p></div>
+      <div class="p-card"><div class="p-step">Step 3</div><h4>You lock your slot</h4><p>Transfer secures your onboarding slot for that month — slots are limited.</p></div>
+      <div class="p-card"><div class="p-step">Step 4</div><h4>We build</h4><p>Website, GBP, reviews system, blogs, and ads — live inside your first month.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST -->
+<section>
+  <div class="wrap-narrow">
+    <div class="section-tag">Why trust us with this</div>
+    <h2 class="section-title">We're not new to this — solar is just our newest focus</h2>
+
+    <div class="founder-note">
+      <div class="avatar"></div>
+      <div>
+        <p>"We built Webtellisense to help Nigerian business owners stop losing customers to whoever shows up first on Google. Solar is where we're putting that focus now — one offer, built properly, instead of ten services done halfway. If you book a call, you're talking to someone who'll actually be doing the work, not a sales rep reading a script."</p>
+        <div class="who">— Ephraim Etuk, Founder, Webtellisense</div>
+      </div>
+    </div>
+
+    <div class="quotes">
+      <div class="quote-card"><p>"Ephraim knows his stuff. He doesn't oversell — he tells you what you actually need."</p><div class="attr">— Business owner, Akwa Ibom</div></div>
+      <div class="quote-card"><p>"Webtellisense has been consistent with delivery. That's rarer than it should be with agencies."</p><div class="attr">— Client, Eket</div></div>
+      <div class="quote-card"><p>"They explain things in plain language instead of jargon. Made the whole process easy to trust."</p><div class="attr">— Client, Uyo</div></div>
+    </div>
+
+    <div class="case-study">
+      <div class="tag">Real result</div>
+      <p>A salon client on our Heroes program went from zero online presence to consistent monthly bookings within a few months — ads brought the first wave of customers immediately, and organic search picked up the rest over time. Same approach, applied to solar.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section>
+  <div class="wrap-narrow">
+    <div class="section-tag">Questions</div>
+    <h2 class="section-title">Before you book</h2>
+
+    <div class="faq-item" onclick="this.classList.toggle('open')">
+      <div class="faq-q">Does this work if I'm not in Lagos or Abuja? <span class="faq-plus">+</span></div>
+      <div class="faq-a">Yes. Your Google Business Profile and ad targeting are set to your actual service area — wherever in Nigeria that is. The offer isn't city-specific.</div>
+    </div>
+    <div class="faq-item" onclick="this.classList.toggle('open')">
+      <div class="faq-q">Why do you expect payment so soon after the call? <span class="faq-plus">+</span></div>
+      <div class="faq-a">Because the call itself does the confirming, not the selling — scope, timeline, and what we need from you are agreed before you pay. Once that's settled, fast payment just means we start faster. You'll get a written scope summary before any transfer.</div>
+    </div>
+    <div class="faq-item" onclick="this.classList.toggle('open')">
+      <div class="faq-q">What if I already have a website? <span class="faq-plus">+</span></div>
+      <div class="faq-a">We'll audit it on the call. If it's usable, we may adapt the offer around GBP, reviews, blogs, and ads instead of a full rebuild — worth mentioning when you book.</div>
+    </div>
+    <div class="faq-item" onclick="this.classList.toggle('open')">
+      <div class="faq-q">What happens after month one if I don't want to continue? <span class="faq-plus">+</span></div>
+      <div class="faq-a">Your website, GBP setup, and blog posts are yours regardless. The ₦175,000/month retainer only applies if you want us to keep running and optimising your Google Ads.</div>
+    </div>
+    <div class="faq-item" onclick="this.classList.toggle('open')">
+      <div class="faq-q">How fast can I actually be live? <span class="faq-plus">+</span></div>
+      <div class="faq-a">Inside your first month from the day your slot is confirmed — website, GBP, and ads included.</div>
+    </div>
+  </div>
+</section>
+
+<div class="final-cta">
+  <div class="wrap">
+    <h2>Your next customer is already searching. Let's make sure they find you.</h2>
+    <p>Answer six quick questions and see your price.</p>
+    <a href="#quiz" class="btn-primary">Get my price →</a>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div>Webtellisense · Eket, Akwa Ibom, Nigeria</div>
+    <div>WhatsApp: +234 707 584 8564 · webtellisense@gmail.com</div>
+  </div>
+</footer>
+
+<div id="toast">
+  <div class="pulse"></div>
+  <div class="t-text" id="toastText"><b>Tunde</b> from Ibadan just booked a call</div>
+</div>
+
+<a class="whatsapp-fab" href="https://wa.me/2347075848564?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20the%20solar%20installer%20offer" target="_blank" aria-label="Chat on WhatsApp">💬</a>
+
+<script>
+  /* ---------------- LOAD CALCULATOR ---------------- */
+  const appliances = [
+    {name:"Fridge", watt:150},
+    {name:"Chest freezer", watt:200},
+    {name:"Ceiling / standing fan", watt:80},
+    {name:"LED TV (32–43\")", watt:100},
+    {name:"Air conditioner (1HP)", watt:900},
+    {name:"Air conditioner (1.5HP)", watt:1300},
+    {name:"Washing machine", watt:500},
+    {name:"Water pump", watt:750},
+    {name:"Electric iron", watt:1000},
+    {name:"LED bulbs (per 5)", watt:75},
+  ];
+  const qty = {};
+  const list = document.getElementById('applianceList');
+  appliances.forEach((a,i)=>{
+    qty[i]=0;
+    const row=document.createElement('div');
+    row.className='appliance';
+    row.innerHTML = `
+      <div>
+        <div class="appliance-name">${a.name}</div>
+        <div class="appliance-watt">${a.watt}W each</div>
+      </div>
+      <div class="stepper">
+        <button onclick="changeQty(${i},-1)">−</button>
+        <div class="qty" id="qty-${i}">0</div>
+        <button onclick="changeQty(${i},1)">+</button>
+      </div>`;
+    list.appendChild(row);
+  });
+
+  function changeQty(i, d){
+    qty[i] = Math.max(0, qty[i]+d);
+    document.getElementById('qty-'+i).textContent = qty[i];
+    updateGauge();
+  }
+
+  function updateGauge(){
+    let totalWatt = 0;
+    appliances.forEach((a,i)=> totalWatt += a.watt * qty[i]);
+    const kw = totalWatt/1000;
+    document.getElementById('gaugeValue').textContent = kw.toFixed(1)+' kW';
+    let band, pct;
+    if(kw===0){ band='Add appliances to begin'; pct=0; }
+    else if(kw<2){ band='Entry system — small apartment'; pct=20; }
+    else if(kw<5){ band='Standard home system'; pct=50; }
+    else if(kw<10){ band='Large home / small business system'; pct=78; }
+    else { band='Commercial-grade system'; pct=100; }
+    document.getElementById('gaugeBand').textContent = band;
+    document.getElementById('gaugeFill').style.width = pct+'%';
+  }
+
+  /* ---------------- QUIZ ---------------- */
+  const answers = {};
+  let currentStep = 1;
+  const totalSteps = 7;
+
+  document.querySelectorAll('.opt').forEach(btn=>{
+    btn.addEventListener('click', ()=>{
+      const q = btn.dataset.q;
+      const v = btn.dataset.v;
+      document.querySelectorAll(`.opt[data-q="${q}"]`).forEach(b=>b.classList.remove('selected'));
+      btn.classList.add('selected');
+      answers[q]=v;
+      setTimeout(nextStep, 220);
+    });
+  });
+
+  document.getElementById('stateInput').addEventListener('input', function(){
+    answers.state = this.value;
+    document.getElementById('stateNext').disabled = this.value.trim().length===0;
+  });
+
+  function goTo(step){
+    document.querySelectorAll('.q-step').forEach(s=>s.classList.remove('active'));
+    document.querySelector(`.q-step[data-step="${step}"]`).classList.add('active');
+    currentStep = step;
+    document.getElementById('progressFill').style.width = (step/totalSteps*100)+'%';
+  }
+  function nextStep(){ if(currentStep<totalSteps) goTo(currentStep+1); }
+  function prevStep(){ if(currentStep>1) goTo(currentStep-1); }
+
+  function revealPrice(){
+    answers.name = document.getElementById('nameInput').value || 'there';
+    answers.biz = document.getElementById('bizInput').value || '';
+    answers.phone = document.getElementById('phoneInput').value || '';
+
+    let headline = "You're a strong fit for this offer.";
+    let sub = "Here's exactly what you get, and what it costs.";
+    if(answers.value === '₦3M+'){
+      sub = "At your average job value, this pays for itself with a single extra install.";
+    } else if(answers.website === 'Yes'){
+      sub = "We'll review your current site on the call and tailor scope around it.";
+    }
+    document.getElementById('resultHeadline').textContent = headline;
+    document.getElementById('resultSub').textContent = sub;
+
+    const msg = `Hi, I'm ${answers.name} from ${answers.biz || 'my solar business'} in ${answers.state || 'Nigeria'}. I filled the solar offer form — avg install value: ${answers.value || '-'}, jobs/month: ${answers.volume || '-'}, running ads: ${answers.ads || '-'}, have a website: ${answers.website || '-'}, timeline: ${answers.urgency || '-'}. Ready to book my call.`;
+    document.getElementById('waCta').href = `https://wa.me/2347075848564?text=${encodeURIComponent(msg)}`;
+
+    document.getElementById('quiz').style.display='none';
+    document.getElementById('result').style.display='block';
+    document.getElementById('result').scrollIntoView({behavior:'smooth'});
+  }
+
+  /* ---------------- ACTIVITY TOAST ----------------
+     Illustrative only — swap in real signups once you have live traffic,
+     so this reflects actual activity rather than simulated names. */
+  const toastMessages = [
+    "<b>Tunde</b> from Ibadan just booked a call",
+    "<b>Eyo</b> from Uyo just booked a call",
+    "<b>Emmanuel</b> from Uyo is filling the form",
+    "<b>Emmanuel</b> from Uyo just requested a callback",
+    "<b>Chinwe</b> in Port Harcourt is filling the form",
+    "<b>Musa</b> from Kano just secured a slot",
+    "<b>Blessing</b> in Abuja just requested a callback",
+    "<b>Segun</b> from Ilorin just booked a call",
+  ];
+  let toastIndex = 0;
+  const toastEl = document.getElementById('toast');
+  const toastTextEl = document.getElementById('toastText');
+  function cycleToast(){
+    toastTextEl.innerHTML = toastMessages[toastIndex % toastMessages.length];
+    toastIndex++;
+    toastEl.classList.add('show');
+    setTimeout(()=> toastEl.classList.remove('show'), 5200);
+  }
+  setTimeout(cycleToast, 4000);
+  setInterval(cycleToast, 13000);
+
+  updateGauge();
+</script>
+
+</body>
+</html>

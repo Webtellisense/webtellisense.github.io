@@ -1,0 +1,1709 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solar Launch™ — No-Brainer Client Acquisition Engine for Nigerian Solar Installers</title>
+
+  <!-- Font CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&family=JetBrains+Mono:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  <style>
+    :root {
+      --navy: #01033E;
+      --blue: #0331B0;
+      --accent: #0033FF;
+      --amber: #F5A623;
+      --paper: #F5F6FA;
+      --ink-soft: #B9C2E8;
+      --panel: #070A4D;
+      --panel-2: #0A1060;
+      --line: rgba(185, 194, 232, 0.14);
+      --good: #34D399;
+      --crimson: #E53935;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: var(--navy);
+      color: var(--paper);
+      font-family: "Montserrat", sans-serif;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      padding-bottom: 80px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      font-family: "Montserrat", sans-serif;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+    }
+
+    .mono {
+      font-family: "Montserrat", sans-serif;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .wrap {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .wrap-narrow {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    section {
+      padding: 80px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .tag {
+      font-family: "Montserrat", sans-serif;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--amber);
+      display: inline-block;
+      margin-bottom: 12px;
+      font-weight: 700;
+    }
+
+    /* TOP EYEBROW BAR */
+    .top-bar {
+      background: var(--accent);
+      text-align: center;
+      padding: 10px 14px;
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    /* HERO */
+    .hero {
+      padding: 80px 0 60px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 70% 50% at 50% 0%, rgba(3, 49, 176, 0.4), transparent 70%);
+      z-index: 0;
+    }
+
+    .hero-inner {
+      position: relative;
+      z-index: 1;
+    }
+
+    .quote-box {
+      text-align: center;
+      color: var(--paper);
+      max-width: 850px;
+      margin: 0 auto 35px;
+    }
+
+    .quote-box p {
+      font-size: clamp(22px, 3.8vw, 40px);
+      text-transform: uppercase;
+      line-height: 1.25;
+      font-weight: 900;
+      color: #FFF;
+      border-left: 5px solid var(--amber);
+      padding-left: 15px;
+      /* text-align: left; */
+    }
+
+    .quote-box .attr {
+      margin-top: 15px;
+      font-style: normal;
+      font-size: 14px;
+      color: var(--ink-soft);
+      font-family: "Montserrat", sans-serif;
+      text-align: left;
+      padding-left: 20px;
+    }
+
+    .image-placeholder-container {
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto 40px;
+      border-radius: 16px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    }
+
+    .image-placeholder-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+      object-fit: cover;
+    }
+
+    h1.headline {
+      font-size: clamp(26px, 4.5vw, 50px);
+      font-weight: 900;
+      text-transform: uppercase;
+      font-style: italic;
+      max-width: 900px;
+      margin: 0 auto 20px;
+    }
+
+    h1.headline em {
+      font-style: normal;
+      color: var(--amber);
+    }
+
+    .sub {
+      font-size: clamp(15px, 2vw, 18px);
+      color: var(--ink-soft);
+      max-width: 750px;
+      margin: 0 auto 35px;
+    }
+
+    .cta-row {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .btn-primary {
+      font-style: italic;
+      text-transform: uppercase;
+      background: linear-gradient(135deg, #FF9800, #F57C00);
+      color: #fff;
+      font-weight: 900;
+      font-size: clamp(18px, 3vw, 32px);
+      padding: 18px 65px;
+      border-radius: 10px;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+      box-shadow: 0 10px 30px rgba(245, 124, 0, 0.4);
+      display: inline-block;
+      transition: transform 0.2s, box-shadow 0.2s;
+      text-align: center;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 15px 35px rgba(245, 124, 0, 0.6);
+    }
+
+    /* FOMO STRIP & BANNER */
+    .fomo-banner {
+      background: rgba(229, 57, 53, 0.1);
+      border: 1px solid var(--crimson);
+      padding: 24px 16px;
+      border-radius: 12px;
+      text-align: center;
+      max-width: 600px;
+      margin: 20px auto;
+    }
+
+    .fomo-title {
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+      margin: 0 0 12px 0;
+      text-transform: uppercase;
+    }
+
+    .fomo-txt-black p,
+    .fomo-txt-black .fomo-title {
+      color: black;
+    }
+
+    .slots-container {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    .slot {
+      width: 32px;
+      height: 40px;
+      background-color: rgba(255, 255, 255, 0.1);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .slot.taken {
+      background-color: var(--good);
+      border-color: var(--good);
+      box-shadow: 0 0 10px rgba(52, 211, 153, 0.4);
+    }
+
+    .slot.taken::after {
+      content: "✓";
+      color: var(--navy);
+      font-weight: 900;
+      font-size: 18px;
+    }
+
+    .fomo-status {
+      color: var(--paper);
+      font-size: 13.5px;
+      font-weight: 600;
+    }
+
+    .fomo {
+      background: var(--panel-2);
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      padding: 16px 0;
+      text-align: center;
+    }
+
+    .fomo-inner {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      font-size: 14px;
+      flex-wrap: wrap;
+    }
+
+    .fomo .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--amber);
+      box-shadow: 0 0 10px var(--amber);
+      animation: blink 1.4s infinite;
+    }
+
+    @keyframes blink {
+
+      0%,
+      100% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0.35;
+      }
+    }
+
+    .fomo b {
+      color: var(--amber);
+    }
+
+    /* ATTENTION BANNER */
+    .attention-wrap {
+      padding: 40px 20px;
+      background-color: #DBE4FF;
+      color: #01033E;
+      text-align: center;
+    }
+
+    .attention-text h2 {
+      font-size: clamp(22px, 4vw, 42px);
+      font-weight: 900;
+      text-transform: uppercase;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    /* LETTER SECTION */
+    .lp-letter-section {
+      background-color: #DBE4FF;
+      color: #111;
+      border-bottom: none;
+      padding-bottom: 80px;
+    }
+
+    .letter {
+      font-size: clamp(16px, 2.5vw, 22px);
+      line-height: 1.7;
+    }
+
+    .letter p {
+      margin-bottom: 24px;
+    }
+
+    .letter .lead {
+      font-weight: 800;
+      font-size: 22px;
+    }
+
+    .letter .signoff {
+      margin-top: 35px;
+      font-weight: 700;
+      font-size: 16px;
+    }
+
+    /* TARGET / FILTER SECTION */
+    .lp-needs {
+      font-size: clamp(24px, 4vw, 43px);
+      font-weight: 900;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+    }
+
+    .qlist {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      margin-bottom: 30px;
+    }
+
+    .qitem {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 20px;
+    }
+
+    .qitem .mark {
+      flex: none;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: rgba(0, 51, 255, 0.2);
+      border: 1px solid var(--accent);
+      color: #FFF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-family: "Montserrat", sans-serif;
+    }
+
+    .qitem p {
+      font-size: clamp(15px, 2vw, 19px);
+      line-height: 1.5;
+    }
+
+    .qualify-line {
+      text-align: center;
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--amber);
+    }
+
+    /* IRRESISTIBLE OFFER / VALUE STACK */
+    .lp-offer {
+      font-size: clamp(20px, 3.5vw, 39px);
+      font-style: italic;
+      font-weight: 900;
+      text-transform: uppercase;
+      max-width: 900px;
+      margin: 0 auto 40px;
+      color: #FFF;
+      text-align: center;
+    }
+
+    .stack-card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 8px;
+      margin-bottom: 30px;
+    }
+
+    .stack-row {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      padding: 20px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    @media (min-width: 600px) {
+      .stack-row {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+
+    .stack-left {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+    }
+
+    .check {
+      flex: none;
+      width: 24px;
+      height: 24px;
+      border-radius: 6px;
+      background: rgba(52, 211, 153, 0.15);
+      color: var(--good);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      font-weight: 700;
+      border: 1px solid rgba(52, 211, 153, 0.35);
+    }
+
+    .stack-name {
+      font-weight: 700;
+      font-size: 18px;
+    }
+
+    .stack-desc {
+      font-size: 16.5px;
+      color: var(--ink-soft);
+      margin-top: 4px;
+    }
+
+    .stack-val {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      color: var(--ink-soft);
+      text-decoration: line-through;
+      font-size: 15px;
+      align-self: flex-start;
+    }
+
+    @media (min-width: 600px) {
+      .stack-val {
+        align-self: center;
+      }
+    }
+
+    .stack-total {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+    }
+
+    .stack-total .label {
+      font-family: "Montserrat", sans-serif;
+      text-transform: uppercase;
+      font-size: 13px;
+      letter-spacing: 0.05em;
+      color: var(--ink-soft);
+    }
+
+    .stack-total .value {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: 22px;
+      text-decoration: line-through;
+      color: var(--ink-soft);
+    }
+
+    .price-reveal {
+      background: linear-gradient(160deg, rgba(0, 51, 255, 0.25), rgba(245, 166, 35, 0.08));
+      border: 2px solid var(--accent);
+      border-radius: 16px;
+      padding: 30px;
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    .price-reveal .big {
+      font-weight: 800;
+      font-size: clamp(36px, 6vw, 56px);
+      margin: 10px 0;
+      color: #FFF;
+    }
+
+    .price-reveal .save {
+      display: inline-block;
+      background: rgba(52, 211, 153, 0.15);
+      color: var(--good);
+      border: 1px solid rgba(52, 211, 153, 0.35);
+      padding: 6px 16px;
+      border-radius: 999px;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: 13.5px;
+    }
+
+    /* THE GODFATHER GUARANTEE CARD */
+    .guarantee-card {
+      background: rgba(245, 166, 35, 0.05);
+      border: 2px dashed var(--amber);
+      border-radius: 16px;
+      padding: 30px;
+      margin-top: 30px;
+      position: relative;
+    }
+
+    .guarantee-title {
+      font-size: 20px;
+      font-weight: 800;
+      color: var(--amber);
+      margin-bottom: 12px;
+      text-transform: uppercase;
+    }
+
+    .guarantee-body {
+      font-size: 15px;
+      line-height: 1.6;
+      color: var(--paper);
+    }
+
+    /* CALCULATOR */
+    .calc-wrap {
+      margin-top: 35px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 20px;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 25px;
+    }
+
+    @media (min-width: 850px) {
+      .calc-wrap {
+        grid-template-columns: 1.2fr 1fr;
+        padding: 30px;
+      }
+    }
+
+    .appliance {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--line);
+      gap: 15px;
+    }
+
+    .appliance:last-child {
+      border-bottom: none;
+    }
+
+    .appliance-name {
+      font-size: 15px;
+      font-weight: 600;
+    }
+
+    .appliance-watt {
+      font-family: "Montserrat", sans-serif;
+      font-size: 12px;
+      color: var(--ink-soft);
+      margin-top: 2px;
+    }
+
+    .stepper {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .stepper button {
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      border: 1px solid var(--line);
+      background: var(--panel-2);
+      color: var(--paper);
+      font-size: 18px;
+      cursor: pointer;
+      font-family: "Montserrat", sans-serif;
+    }
+
+    .stepper .qty {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      width: 20px;
+      text-align: center;
+    }
+
+    .gauge-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: var(--panel-2);
+      border-radius: 16px;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    .gauge-label {
+      font-family: "Montserrat", sans-serif;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--ink-soft);
+    }
+
+    #gaugeValue {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: clamp(36px, 5vw, 48px);
+      color: var(--accent);
+      margin: 12px 0;
+    }
+
+    #gaugeBand {
+      font-size: 15px;
+      color: var(--amber);
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    .gauge-bar {
+      width: 100%;
+      height: 12px;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 999px;
+      overflow: hidden;
+    }
+
+    .gauge-fill {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, var(--accent), var(--amber));
+      transition: width .5s ease;
+    }
+
+    .gauge-note {
+      margin-top: 20px;
+      font-size: 14px;
+      color: var(--ink-soft);
+      line-height: 1.5;
+    }
+
+    .gauge-note b {
+      color: var(--paper);
+    }
+
+    /* PROOF & CASE STUDIES */
+    .case-studies-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      margin-bottom: 25px;
+    }
+
+    @media (min-width: 760px) {
+      .case-studies-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .case-study {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 24px;
+    }
+
+    .case-study p {
+      margin-top: 10px;
+      font-size: 15px;
+      color: var(--ink-soft);
+    }
+
+    .quotes {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+
+    @media (min-width: 760px) {
+      .quotes {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    .quote-card {
+      background: var(--panel-2);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 20px;
+    }
+
+    .quote-card p {
+      font-size: 14.5px;
+      font-style: italic;
+    }
+
+    .quote-card .attr {
+      margin-top: 12px;
+      font-size: 12.5px;
+      color: var(--ink-soft);
+      font-family: "Montserrat", sans-serif;
+    }
+
+    /* PROCESS TIMELINE */
+    .process {
+      margin-top: 40px;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+
+    @media (min-width: 600px) {
+      .process {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (min-width: 900px) {
+      .process {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    .p-card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 24px 20px;
+    }
+
+    .p-step {
+      font-family: "Montserrat", sans-serif;
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .p-card h4 {
+      margin: 10px 0 8px;
+      font-size: 17px;
+    }
+
+    .p-card p {
+      color: var(--ink-soft);
+      font-size: 14px;
+    }
+
+    /* QUIZ SYSTEM */
+    .quiz-shell {
+      margin-top: 35px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 24px;
+      max-width: 650px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    @media (min-width: 600px) {
+      .quiz-shell {
+        padding: 40px;
+      }
+    }
+
+    .progress-track {
+      height: 8px;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 999px;
+      overflow: hidden;
+      margin-bottom: 30px;
+    }
+
+    .progress-fill {
+      height: 100%;
+      width: 14%;
+      background: linear-gradient(90deg, var(--accent), var(--amber));
+      transition: width .35s ease;
+    }
+
+    .q-step {
+      display: none;
+    }
+
+    .q-step.active {
+      display: block;
+      animation: fade .35s ease;
+    }
+
+    @keyframes fade {
+      from {
+        opacity: 0;
+        transform: translateY(6px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .q-num {
+      font-family: "Montserrat", sans-serif;
+      color: var(--ink-soft);
+      font-size: 13px;
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+
+    .q-title {
+      font-size: clamp(18px, 2.5vw, 22px);
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    .opt {
+      display: block;
+      width: 100%;
+      text-align: left;
+      background: var(--panel-2);
+      border: 1px solid var(--line);
+      color: var(--paper);
+      padding: 16px 20px;
+      border-radius: 12px;
+      font-size: 16px;
+      margin-bottom: 12px;
+      cursor: pointer;
+      font-family: inherit;
+      transition: border-color .2s, background .2s;
+    }
+
+    .opt:hover {
+      border-color: var(--accent);
+      background: rgba(0, 51, 255, 0.05);
+    }
+
+    .opt.selected {
+      border-color: var(--accent);
+      background: rgba(0, 51, 255, 0.15);
+    }
+
+    .q-input {
+      width: 100%;
+      background: var(--panel-2);
+      border: 1px solid var(--line);
+      color: var(--paper);
+      padding: 16px 20px;
+      border-radius: 12px;
+      font-size: 16px;
+      margin-bottom: 14px;
+      font-family: inherit;
+    }
+
+    .q-input:focus {
+      outline: none;
+      border-color: var(--accent);
+    }
+
+    .q-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 24px;
+    }
+
+    .q-back {
+      color: var(--ink-soft);
+      background: none;
+      border: none;
+      font-size: 15px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    .q-next {
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      font-weight: 700;
+      padding: 14px 28px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 15px;
+    }
+
+    .q-next:disabled {
+      opacity: .35;
+      cursor: not-allowed;
+    }
+
+    /* RESULTS VIEW (Embedded in Quiz DOM) */
+    .result-container {
+      display: none;
+      text-align: center;
+    }
+
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 40px 20px;
+      font-size: 14px;
+      color: var(--ink-soft);
+      text-align: center;
+    }
+
+    /* ---------- ACTIVITY TOAST ---------- */
+    #toast {
+      position: fixed;
+      left: 18px;
+      bottom: 18px;
+      z-index: 60;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 12px 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      max-width: 290px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+      transform: translateY(20px);
+      opacity: 0;
+      transition: all 0.4s ease;
+      pointer-events: none;
+    }
+
+    #toast.show {
+      transform: translateY(0);
+      opacity: 1;
+    }
+
+    #toast .pulse {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--good);
+      flex: none;
+      box-shadow: 0 0 0 0 rgba(52, 211, 153, 0.6);
+      animation: pulse 1.6s infinite;
+    }
+
+    @keyframes pulse {
+      0% {
+        box-shadow: 0 0 0 0 rgba(52, 211, 153, 0.5);
+      }
+
+      70% {
+        box-shadow: 0 0 0 8px rgba(52, 211, 153, 0);
+      }
+
+      100% {
+        box-shadow: 0 0 0 0 rgba(52, 211, 153, 0);
+      }
+    }
+
+    #toast .t-text {
+      font-size: 13.5px;
+      line-height: 1.4;
+    }
+
+    #toast .t-text b {
+      color: var(--paper);
+    }
+
+    /* STICKY BOTTOM CTA */
+    #stickyCta {
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 50;
+      background: var(--panel);
+      border-top: 1px solid var(--line);
+      padding: 14px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 15px;
+      transform: translateY(100%);
+      transition: transform .35s ease;
+    }
+
+    #stickyCta.show {
+      transform: translateY(0);
+    }
+
+    #stickyCta .msg {
+      font-size: 14px;
+      color: var(--ink-soft);
+    }
+
+    #stickyCta .msg b {
+      color: var(--paper);
+    }
+
+    #stickyCta .btn-primary {
+      font-size: 14px;
+      padding: 10px 20px;
+      box-shadow: none;
+    }
+
+    @media (max-width: 600px) {
+      #stickyCta {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        padding: 12px 16px;
+      }
+
+      #stickyCta .btn-primary {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="top-bar">ATTENTION NIGERIAN SOLAR INSTALLERS: SECURE YOUR SERVICE AREA TODAY</div>
+
+  <header class="hero">
+    <div class="wrap hero-inner">
+      <div class="quote-box">
+        <p>"I STUDIED OVER 100 SOLAR INSTALLATION BUSINESSES ACROSS NIGERIA. THE ONES DOMINATING WEREN'T NECESSARILY THE
+          BEST TECHNICAL INSTALLERS — THEY WERE SIMPLY THE FIRST ONES HOMEOWNERS FOUND AND TRUSTED ONLINE."</p>
+        <div class="attr">— Ephraim Etuk, Founder, Webtellisense</div>
+      </div>
+
+      <!-- IMAGE AREA 1: Hero Visual Proof
+           Unsplash Recommendation: https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=800&q=80 (Solar arrays + technology interface)
+           Prompt in Nano Banana: 
+           "A high-quality 3D render bundle mockup featuring a modern, responsive landing page displayed on an iPhone 15 Pro, an iPad Pro, and a sleek dark laptop. The screen shows a clean solar installation website with a modern load calculator tool and high-quality solar panel icons. Behind the screens, soft blue and orange glowing abstract geometric shapes, depth of field, studio lighting, hyper-detailed, premium business software product design, 8k"
+      -->
+      <div class="image-placeholder-container">
+        <img src="assets/img/lp-img-hero.png" alt="Solar Launch Mockup Interface Visual">
+      </div>
+
+      <h1 class="headline">Stop Begging For Referrals. Lock Down Your City's Leads With The <em>Solar Launch™</em>
+        Engine.</h1>
+      <p class="sub">We build you a high-converting website featuring an interactive load calculator, claim and dominate
+        your local Google Maps search, and run fully managed Google Ads pointing buyers straight to your WhatsApp. You
+        only pay if you are satisfied.</p>
+
+      <div class="cta-row">
+        <a href="#quiz" class="btn-primary">Book my slot now →</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="fomo-banner">
+    <h2 class="fomo-title">WARNING! WE LIMIT ONBOARDING TO 5 INSTALLERS PER MONTH</h2>
+    <div class="slots-container">
+      <div class="slot taken"></div>
+      <div class="slot taken"></div>
+      <div class="slot taken"></div>
+      <div class="slot"></div>
+      <div class="slot"></div>
+    </div>
+    <p class="fomo-status">3 of 5 slots booked. Only 2 territory slots left for this batch!</p>
+  </div>
+
+  <div class="fomo">
+    <div class="wrap fomo-inner">
+      <span class="dot"></span> To protect campaign conversion metrics, we never work with competing installers in the
+      same city. <b id="slotsLeft">2</b> local slots remaining.
+    </div>
+  </div>
+
+  <div class="image-placeholder-container">
+    <img src="assets/img/lp-img.png" alt="Solar Lead Interface Success Proof Graph">
+  </div>
+
+  <div class="attention-wrap">
+    <div class="attention-text">
+      <h2>"This is not a generic template. It is a predictable pipeline built for Nigeria's solar boom."</h2>
+    </div>
+  </div>
+
+  <!-- LONG FORM Direct-Response Sales Letter -->
+  <div class="lp-letter-section">
+    <div class="wrap-narrow">
+      <div class="letter">
+        <p class="lead">Dear Solar Installer,</p>
+        <p>Right now, thousands of home and business owners across Nigeria are actively searching Google to find someone
+          to rescue them from the grid. They've decided to drop ₦1.5M to ₦5M+ on inverter systems.</p>
+        <p>But ask yourself: <strong>When they search online, do they find you, or do they find your
+            competitor?</strong></p>
+        <p>If you're relying entirely on 'word of mouth' and posting pictures of finished batteries on your personal
+          WhatsApp status, you are leaving millions of Naira in unclaimed bookings on the table. You are working too
+          hard for customer referrals that might dry up next month.</p>
+        <p>The truth is, the installers who are scaling fast in Lagos, Port Harcourt, Abuja, and Uyo aren't doing
+          cleaner wiring than you are. They simply look like the <strong>only obvious choice</strong> online before the
+          client even initiates a chat.</p>
+        <p>We built the <strong>Solar Launch™</strong> engine to change this for you. We build your high-performance web
+          setup, hand you an interactive load calculator that pre-qualifies incoming buyers, build out your active
+          5-star Google review system, and point laser-targeted local search ads directly to your team.</p>
+        <p>We take all the risk. Read our 30-day "Stupid to Say No" guarantee below to see how confident we are that
+          this will fundamentally scale your business.</p>
+        <div class="signoff">— The Webtellisense Team</div>
+      </div>
+      <div class="cta-row" style="margin-top: 40px;">
+        <a href="#quiz" class="btn-primary">Test My Area's Fit Now →</a>
+      </div>
+    </div>
+    <div class="fomo-banner fomo-txt-black">
+      <h2 class="fomo-title">WARNING! WE LIMIT ONBOARDING TO 5 INSTALLERS PER MONTH</h2>
+      <div class="slots-container">
+        <div class="slot taken"></div>
+        <div class="slot taken"></div>
+        <div class="slot taken"></div>
+        <div class="slot"></div>
+        <div class="slot"></div>
+      </div>
+      <p class="fomo-status">3 of 5 slots booked. Only 2 territory slots left for this batch!</p>
+    </div>
+  </div>
+
+  <!-- FILTER: WHO IS THIS FOR? -->
+  <section>
+    <div class="wrap-narrow center">
+      <span class="tag">Exclusive Business Filter</span>
+      <h2 class="lp-needs">Is Your Business Ready For The Solar Launch™ Engine?</h2>
+    </div>
+    <div class="wrap-narrow qlist">
+      <div class="qitem">
+        <div class="mark">1</div>
+        <p>You are tired of waiting for the phone to ring and want consistent, daily inquiries from property owners
+          ready to buy.</p>
+      </div>
+      <div class="qitem">
+        <div class="mark">2</div>
+        <p>You have lost major installation bids to other crews simply because their web presence looked more
+          established and trusted.</p>
+      </div>
+      <div class="qitem">
+        <div class="mark">3</div>
+        <p>You are an active installer anywhere in Nigeria and can comfortably handle an additional 3 to 5
+          medium-to-large installations every single month.</p>
+      </div>
+    </div>
+    <p class="qualify-line">If this is you, we need to talk today.</p>
+  </section>
+
+  <!-- THE GODFATHER OFFER STACK -->
+  <section id="offer">
+    <div class="wrap-narrow">
+      <h2 class="lp-offer">Here Is Exactly What We Build For Your Business Inside Solar Launch™</h2>
+
+      <div class="stack-card">
+        <div class="stack-row">
+          <div class="stack-left">
+            <div class="check">✓</div>
+            <div>
+              <div class="stack-name">Custom Solar Launch™ Website & Brand System</div>
+              <div class="stack-desc">Fully optimized layout built to explain your packages, build premium authority,
+                and capture buyer contact details.</div>
+            </div>
+          </div>
+          <div class="stack-val">Value: ₦300,000</div>
+        </div>
+        <div class="stack-row">
+          <div class="stack-left">
+            <div class="check">✓</div>
+            <div>
+              <div class="stack-name">Embedded Dynamic Solar Load Calculator</div>
+              <div class="stack-desc">An interactive tool (shown below) that allows clients to size their inverters
+                before messaging you. It builds absolute trust.</div>
+            </div>
+          </div>
+          <div class="stack-val">Value: ₦120,000</div>
+        </div>
+        <div class="stack-row">
+          <div class="stack-left">
+            <div class="check">✓</div>
+            <div>
+              <div class="stack-name">Local Google Search Mastery & Business Profile Setup</div>
+              <div class="stack-desc">Claiming and optimizing your business local maps rankings so you appear when
+                prospects search "Solar installer near me".</div>
+            </div>
+          </div>
+          <div class="stack-val">Value: ₦100,000</div>
+        </div>
+        <div class="stack-row">
+          <div class="stack-left">
+            <div class="check">✓</div>
+            <div>
+              <div class="stack-name">30 Days Fully Managed local Google Search Campaigns</div>
+              <div class="stack-desc">Our expert marketing team monitors, runs, and optimizes targeted search ads
+                directing active solar searchers to your door.</div>
+            </div>
+          </div>
+          <div class="stack-val">Value: ₦180,000</div>
+        </div>
+        <div class="stack-total">
+          <div class="label">Total Combined Value</div>
+          <div class="value">₦700,000</div>
+        </div>
+      </div>
+
+      <div class="price-reveal">
+        <span class="tag">All-Inclusive Implementation Package</span>
+        <div class="big">₦300,000</div>
+        <div class="save">Save ₦400,000 Immediately</div>
+      </div>
+
+      <!-- THE "STUPID TO SAY NO" HORMOSI-STYLE GUARANTEE -->
+      <div class="guarantee-card">
+        <h3 class="guarantee-title">🛡️ Our "Stupid to Say No" Double-Value Guarantee</h3>
+        <p class="guarantee-body">
+          We do not want your money if we do not get you results. Work with us. Let us launch the <strong>Solar
+            Launch™</strong> engine in your city. If within 30 days of your system going live you are not absolutely
+          thrilled with the sheer visibility, qualified leads, and authority you've gained, just tell us.
+          <br><br>
+          <strong>We will instantly transfer back your entire ₦300k. No drama, no hard feelings, and no long
+            stories.</strong> And to prove we are serious about your success, we will continue running your active
+          Google Search ads for another 30 days completely at our own cost. We take 100% of the risk.
+        </p>
+      </div>
+
+      <div class="cta-row" style="margin-top: 35px;">
+        <a href="#quiz" class="btn-primary">Apply To Lock In Your Area →</a>
+      </div>
+    </div>
+    <div class="fomo-banner">
+      <h2 class="fomo-title">WARNING! WE LIMIT ONBOARDING TO 5 INSTALLERS PER MONTH</h2>
+      <div class="slots-container">
+        <div class="slot taken"></div>
+        <div class="slot taken"></div>
+        <div class="slot taken"></div>
+        <div class="slot"></div>
+        <div class="slot"></div>
+      </div>
+      <p class="fomo-status">3 of 5 slots booked. Only 2 territory slots left for this batch!</p>
+    </div>
+  </section>
+
+  <!-- INTERACTIVE LOAD CALCULATOR (KILLER VALUE DEMO) -->
+  <section id="calculator">
+    <div class="wrap">
+      <span class="tag">Live Interactive System Demo</span>
+      <h2 class="section-title lp-offer">Test Drive The Inverter Load Calculator We Install On Your Website</h2>
+      <p class="section-desc" style="margin-bottom: 30px;">Imagine potential clients playing with this on your custom
+        website. They qualify themselves by inputting their real loads, instantly viewing their required power, and
+        pushing a single button to send their setup to your WhatsApp.</p>
+
+      <div class="calc-wrap">
+        <div id="applianceList"></div>
+        <div class="gauge-card">
+          <div class="gauge-label">Recommended Inverter System Load</div>
+          <div id="gaugeValue">0.0 kW</div>
+          <div id="gaugeBand">Click '+' on appliances to calculate load</div>
+          <div class="gauge-bar">
+            <div class="gauge-fill" id="gaugeFill"></div>
+          </div>
+          <p class="gauge-note">This calculator instantly transitions cold website traffic into high-value warm leads
+            who understand their consumption metrics before speaking to you.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROOF, EVIDENCE & NIGERIAN TESTIMONIALS -->
+  <section>
+    <div class="wrap-narrow">
+      <span class="tag" style="display:block; text-align:center;">Unshakable Proof</span>
+      <h2 class="section-title center" style="text-align:center; margin-bottom: 35px;">Why We Are So Confident This
+        Works</h2>
+
+      <!-- IMAGE AREA 2: Real System Execution Mockup 
+           Unsplash Recommendation: https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80 (Charts and performance metrics)
+           Prompt in Nano Banana: 
+           "A realistic high-conversion interface mockup screenshot showing real WhatsApp business chats filled with local Nigerian leads asking for solar installations, side-by-side with a Google Analytics graph spiking upwards, clean UX/UI style, high resolution, professional presentation"
+      -->
+      <div class="image-placeholder-container">
+        <img src="assets/img/lp-why-img.png" alt="Solar Lead Interface Success Proof Graph">
+      </div>
+
+      <div class="case-studies-grid">
+        <div class="case-study">
+          <span class="tag">Verified Local Launch</span>
+          <p>We built out our regional testing layout for an installation crew in Eket. Within weeks of their Google
+            Maps optimization and targeted ads going live, they had secured two commercial mini-grid bids they would
+            have normally never heard of.</p>
+        </div>
+        <div class="case-study">
+          <span class="tag">The System Model</span>
+          <p>Our Solar Launch™ is built on real-world search mechanics. Rather than wasting budget posting in Facebook
+            groups or printing flyers, we intercept buyers at the exact second they pull out their phones to search for
+            a solar solution.</p>
+        </div>
+      </div>
+
+      <div class="quotes">
+        <div class="quote-card">
+          <p>"Ephraim and his team are direct. No confusing marketing talk, they built what they promised and the leads
+            are solid."</p>
+          <div class="attr">— Solar Crew Lead, Akwa Ibom</div>
+        </div>
+        <div class="quote-card">
+          <p>"The calculator setup on the page makes a massive difference. Clients call us already knowing exactly what
+            system size they require."</p>
+          <div class="attr">— Installer, Lagos Mainland</div>
+        </div>
+        <div class="quote-card">
+          <p>"Within our first month using this engine, we successfully booked three 5kVA installations from Google
+            search traffic alone."</p>
+          <div class="attr">— Lead Tech, Abuja</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE TIMELINE PROCESS -->
+  <section>
+    <div class="wrap">
+      <span class="tag" style="display:block; text-align:center;">Speed to Market</span>
+      <h2 class="section-title center" style="text-align:center; max-width:800px; margin: 0 auto 35px;">How We Launch
+        Your Growth Engine In 4 Steps</h2>
+
+      <div class="process">
+        <div class="p-card">
+          <div class="p-step">Step 1</div>
+          <h4>Verify Your Region</h4>
+          <p>Complete the quick qualification form below to see if your city is still unclaimed.</p>
+        </div>
+        <div class="p-card">
+          <div class="p-step">Step 2</div>
+          <h4>Confirm Scope</h4>
+          <p>We will jump on a brief phone call with you to verify your target install types and system scope.</p>
+        </div>
+        <div class="p-card">
+          <div class="p-step">Step 3</div>
+          <h4>Secure Onboarding</h4>
+          <p>Once approved, secure your spot. We begin building your high-converting landing assets immediately.</p>
+        </div>
+        <div class="p-card">
+          <div class="p-step">Step 4</div>
+          <h4>Launch & Dominate</h4>
+          <p>Your brand presence goes live, your calculator begins qualifying leads, and search ads begin driving
+            traffic.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE UNIFIED QUALIFICATION & CONVERSION SYSTEM -->
+  <section id="quiz">
+    <div class="wrap center">
+      <span class="tag">Onboarding Verification</span>
+      <h2 class="section-title" style="max-width:700px; margin: 0 auto 15px;">Check Your Territory's Eligibility</h2>
+      <p class="section-desc" style="max-width:600px; margin: 0 auto 30px;">Answer these 6 quick questions to see if
+        your operating area has an open territory slot available for this batch.</p>
+
+      <div class="quiz-shell">
+        <div class="progress-track">
+          <div class="progress-fill" id="progressFill"></div>
+        </div>
+
+        <form id="leadForm" onsubmit="event.preventDefault();">
+          <!-- Question 1 -->
+          <div class="q-step active" data-step="1">
+            <div class="q-num">Question 1 of 6</div>
+            <div class="q-title">What is your average target installation size?</div>
+            <button type="button" class="opt" data-q="value" data-v="₦1M–₦3M">₦1,000,000 – ₦3,000,000</button>
+            <button type="button" class="opt" data-q="value" data-v="₦3M–₦5M">₦3,000,000 – ₦5,000,000</button>
+            <button type="button" class="opt" data-q="value" data-v="₦5M+">₦5,000,000+ / Commercial-scale</button>
+          </div>
+
+          <!-- Question 2 -->
+          <div class="q-step" data-step="2">
+            <div class="q-num">Question 2 of 6</div>
+            <div class="q-title">How many full installs does your crew complete monthly?</div>
+            <button type="button" class="opt" data-q="volume" data-v="1–3">1 – 3 Installations</button>
+            <button type="button" class="opt" data-q="volume" data-v="4–10">4 – 10 Installations</button>
+            <button type="button" class="opt" data-q="volume" data-v="10+">10+ / Highly Scalable</button>
+          </div>
+
+          <!-- Question 3 -->
+          <div class="q-step" data-step="3">
+            <div class="q-num">Question 3 of 6</div>
+            <div class="q-title">Are you currently running online advertising campaigns?</div>
+            <button type="button" class="opt" data-q="ads" data-v="Yes">Yes, we run ads actively</button>
+            <button type="button" class="opt" data-q="ads" data-v="No">No, we rely purely on referrals</button>
+          </div>
+
+          <!-- Question 4 -->
+          <div class="q-step" data-step="4">
+            <div class="q-num">Question 4 of 6</div>
+            <div class="q-title">Do you already have an active business website?</div>
+            <button type="button" class="opt" data-q="website" data-v="Yes">Yes, we have a website</button>
+            <button type="button" class="opt" data-q="website" data-v="No">No, we have zero web presence</button>
+          </div>
+
+          <!-- Question 5 -->
+          <div class="q-step" data-step="5">
+            <div class="q-num">Question 5 of 6</div>
+            <div class="q-title">Which main State / City in Nigeria do you operate in?</div>
+            <input class="q-input" id="stateInput" placeholder="e.g. Lagos, Uyo, Port Harcourt, Abuja..." required>
+            <div class="q-nav">
+              <button type="button" class="q-back" onclick="prevStep()">Back</button>
+              <button type="button" class="q-next" id="stateNext" disabled onclick="nextStep()">Continue</button>
+            </div>
+          </div>
+
+          <!-- Question 6 -->
+          <div class="q-step" data-step="6">
+            <div class="q-num">Question 6 of 6</div>
+            <div class="q-title">How soon can your crew take on new scheduled installations?</div>
+            <button type="button" class="opt" data-q="urgency" data-v="Immediately">Immediately (Within 7 days)</button>
+            <button type="button" class="opt" data-q="urgency" data-v="This Month">Sometime this month</button>
+            <button type="button" class="opt" data-q="urgency" data-v="Just exploring">Just researching for now</button>
+          </div>
+
+          <!-- Contact capture -->
+          <div class="q-step" data-step="7">
+            <div class="q-num">Final Step</div>
+            <div class="q-title">Where should we send your eligibility results and setup schedule?</div>
+
+            <!-- ADDED HIGH-INTENT WARNING BOX BELOW -->
+            <div
+              style="background: rgba(245, 166, 35, 0.1); border: 1px solid var(--amber); border-radius: 8px; padding: 12px 16px; margin-bottom: 20px; text-align: left; font-size: 13.5px;">
+              <b style="color: var(--amber); text-transform: uppercase; display: block; margin-bottom: 4px;">⚡ STRICT
+                HIGH-INTENT ONLY:</b>
+              Please only submit this form if you are ready to launch your client acquisition engine or are prepared to
+              receive a verification call from our team in under 5 minutes. We do not spam.
+            </div>
+
+            <input class="q-input" id="nameInput" placeholder="Your Name" required>
+            <input class="q-input" id="bizInput" placeholder="Business Name" required>
+            <input class="q-input" id="phoneInput" placeholder="WhatsApp Phone Number (e.g. 08031234567)" required>
+            <div class="q-nav">
+              <button type="button" class="q-back" onclick="prevStep()">Back</button>
+              <button type="submit" class="q-next" id="finalNext" onclick="revealPrice()">Verify My Area & Match
+                Offer</button>
+            </div>
+          </div>
+        </form>
+
+        <!-- Dynamic Success & Result Window -->
+        <div class="result-container" id="resultContainer">
+          <span class="tag">Assessment Complete</span>
+          <h2 class="section-title" style="margin: 15px auto;" id="resultHeadline">You Are A Great Fit For Solar Launch™
+          </h2>
+          <p class="section-desc" style="margin-bottom: 25px;" id="resultSub">We analyzed your inputs. Your territory is
+            currently unclaimed and your target installation sizes qualify for our full risk-reversal guarantee.</p>
+
+          <div class="price-reveal">
+            <span class="tag">Your Guaranteed Package Cost</span>
+            <div class="big">₦300,000</div>
+            <p style="color: var(--good); font-weight: 700;">Complete 30-Day Risk-Free Guarantee Included</p>
+          </div>
+
+          <div style="margin-top: 25px;">
+            <a href="#" id="waCta" target="_blank" class="btn-primary">Chat on WhatsApp to Secure Slot →</a>
+          </div>
+          <p style="margin-top: 15px; font-size: 13px; color: var(--ink-soft);">We will verify your setup metrics on
+            WhatsApp and call you to align the campaign goals before any booking deposit is made.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">Copyright Webtellisense 2026 · Need help? · WhatsApp: +234 707 584 8564</div>
+  </footer>
+
+  <!-- DYNAMIC LIVE NOTIFICATION TOAST -->
+  <div id="toast">
+    <div class="pulse"></div>
+    <div class="t-text" id="toastText"><b>Tunde</b> from Ibadan just qualified their territory</div>
+  </div>
+
+  <!-- PERSISTENT CONVERSION BOTTOM BAR -->
+  <div id="stickyCta">
+    <div class="msg">Only <b>1 remaining slot</b> open for this batch's launch campaign.</div>
+    <a href="#quiz" class="btn-primary">Apply Now →</a>
+  </div>
+
+  <!-- JS CONTROLS -->
+  <script>
+    /* ---- sticky CTA reveal after hero ---- */
+    const stickyEl = document.getElementById('stickyCta');
+    window.addEventListener('scroll', () => {
+      stickyEl.classList.toggle('show', window.scrollY > 600);
+    });
+
+    /* ---- load calculator logic ---- */
+    const appliances = [
+      { name: "Inverter Refrigerator", watt: 180 },
+      { name: "Deep Freezer", watt: 250 },
+      { name: "Ceiling / Standing Fan", watt: 75 },
+      { name: "LED TV Set", watt: 120 },
+      { name: "1.0 HP Inverter AC", watt: 850 },
+      { name: "1.5 HP Inverter AC", watt: 1250 },
+      { name: "Washing Machine", watt: 450 },
+      { name: "Water Pump (GP)", watt: 750 },
+      { name: "Microwave Oven", watt: 1200 },
+      { name: "LED Bulbs (Pack of 5)", watt: 50 },
+    ];
+
+    const qty = {};
+    const list = document.getElementById('applianceList');
+
+    appliances.forEach((a, i) => {
+      qty[i] = 0;
+      const row = document.createElement('div');
+      row.className = 'appliance';
+      row.innerHTML = `
+        <div>
+          <div class="appliance-name">${a.name}</div>
+          <div class="appliance-watt">${a.watt}W each</div>
+        </div>
+        <div class="stepper">
+          <button type="button" onclick="changeQty(${i},-1)">−</button>
+          <div class="qty" id="qty-${i}">0</div>
+          <button type="button" onclick="changeQty(${i},1)">+</button>
+        </div>`;
+      list.appendChild(row);
+    });
+
+    function changeQty(i, d) {
+      qty[i] = Math.max(0, qty[i] + d);
+      document.getElementById('qty-' + i).textContent = qty[i];
+      updateGauge();
+    }
+
+    function updateGauge() {
+      let totalWatt = 0;
+      appliances.forEach((a, i) => totalWatt += a.watt * qty[i]);
+      const kw = totalWatt / 1000;
+      document.getElementById('gaugeValue').textContent = kw.toFixed(1) + ' kW';
+      let band, pct;
+      if (kw === 0) { band = 'Select appliances to calculate load'; pct = 0; }
+      else if (kw < 2) { band = 'Compact System Setup (Recommended 1kVA - 2kVA Setup)'; pct = 25; }
+      else if (kw < 4.5) { band = 'Standard Domestic Load (Recommended 3.5kVA - 5kVA Setup)'; pct = 55; }
+      else if (kw < 9.5) { band = 'Heavy Domestic / Small Commercial (Recommended 7.5kVA - 10kVA Setup)'; pct = 80; }
+      else { band = 'Industrial Grade Setup (Recommended Custom Commercial Inverter Arrays)'; pct = 100; }
+      document.getElementById('gaugeBand').textContent = band;
+      document.getElementById('gaugeFill').style.width = pct + '%';
+    }
+    updateGauge();
+
+    /* ---- quiz execution engine ---- */
+    const answers = {};
+    let currentStep = 1;
+    const totalSteps = 7;
+
+    document.querySelectorAll('.opt').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const q = btn.dataset.q, v = btn.dataset.v;
+        document.querySelectorAll(`.opt[data-q="${q}"]`).forEach(b => b.classList.remove('selected'));
+        btn.classList.add('selected');
+        answers[q] = v;
+        setTimeout(nextStep, 250);
+      });
+    });
+
+    document.getElementById('stateInput').addEventListener('input', function () {
+      answers.state = this.value;
+      document.getElementById('stateNext').disabled = this.value.trim().length === 0;
+    });
+
+    function goTo(step) {
+      document.querySelectorAll('.q-step').forEach(s => s.classList.remove('active'));
+      const activeStepEl = document.querySelector(`.q-step[data-step="${step}"]`);
+      if (activeStepEl) activeStepEl.classList.add('active');
+      currentStep = step;
+      document.getElementById('progressFill').style.width = (step / totalSteps * 100) + '%';
+    }
+
+    function nextStep() {
+      if (currentStep < totalSteps) goTo(currentStep + 1);
+    }
+
+    function prevStep() {
+      if (currentStep > 1) goTo(currentStep - 1);
+    }
+
+    function revealPrice() {
+      // Form validation
+      const name = document.getElementById('nameInput').value;
+      const biz = document.getElementById('bizInput').value;
+      const phone = document.getElementById('phoneInput').value;
+
+      if (!name || !biz || !phone) {
+        alert("Please complete all profile inputs to verify your territory.");
+        return;
+      }
+
+      answers.name = name;
+      answers.biz = biz;
+      answers.phone = phone;
+
+      let subText = "Your territory is currently unclaimed and your target metrics align beautifully with our Solar Launch™ guarantee.";
+      if (answers.value === '₦5M+') {
+        subText = `At your high installation volumes, closing just one system easily recovers your full ${answers.value} investment multiple times over.`;
+      }
+
+      document.getElementById('resultSub').textContent = subText;
+
+      const msg = `Hello Ephraim, my name is ${answers.name} from ${answers.biz}. I just completed the qualification assessment for my territory in ${answers.state || 'Nigeria'}. 
+
+My installation stats:
+- Target Job Sizes: ${answers.value || 'Not selected'}
+- Active Install Volume: ${answers.volume || 'Not selected'}
+- running Ads: ${answers.ads || 'Not selected'}
+- website Status: ${answers.website || 'Not selected'}
+- Launch Urgency: ${answers.urgency || 'Not selected'}
+- WhatsApp Contact: ${answers.phone}
+
+I am ready to lock in our territory evaluation call under your 30-day risk-free guarantee. Let's talk.`;
+
+      document.getElementById('waCta').href = `https://wa.me/2347075848564?text=${encodeURIComponent(msg)}`;
+
+      // Hide the quiz elements and reveal the confirmation card cleanly
+      document.getElementById('leadForm').style.display = 'none';
+      document.getElementById('progressFill').parentElement.style.display = 'none';
+      document.getElementById('resultContainer').style.display = 'block';
+    }
+
+    /* ---------------- ACTIVITY TOAST ---------------- */
+    const toastMessages = [
+      "<b>Abiodun</b> from Lagos Mainland just qualified their territory",
+      "<b>Chidi</b> from Port Harcourt just secured their local slot",
+      "<b>Efe</b> from Warri is calculating their business fit",
+      "<b>Kabir</b> from Abuja just scheduled an evaluation call",
+      "<b>Nsikak</b> from Uyo just booked a territory slot",
+    ];
+    let toastIndex = 0;
+    const toastEl = document.getElementById('toast');
+    const toastTextEl = document.getElementById('toastText');
+
+    function cycleToast() {
+      toastTextEl.innerHTML = toastMessages[toastIndex % toastMessages.length];
+      toastIndex++;
+      toastEl.classList.add('show');
+      setTimeout(() => toastEl.classList.remove('show'), 5000);
+    }
+
+    setTimeout(cycleToast, 4000);
+    setInterval(cycleToast, 14000);
+  </script>
+
+</body>
+
+</html>
