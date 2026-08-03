@@ -1725,7 +1725,8 @@ I am ready to lock in our territory evaluation call under your 30-day risk-free 
       // Replace YOUR_APPS_SCRIPT_URL_HERE with the Web App URL from your Google Apps Script deployment.
       fetch('https://script.google.com/macros/s/AKfycbx4CKzrDasNs2X3qEAIC8YW8OcRTSfPvBf_5o2zyNEEGeRLwc-uTY5e6Gf2yr4ciHH5dg/exec', {
         method: 'POST',
-        headers: { 'Content-Type': 'text/plain;charset=utf-8' }, // avoids CORS preflight issues
+        mode: 'no-cors', // Apps Script doesn't send CORS headers back — this stops the browser blocking the request over it
+        headers: { 'Content-Type': 'text/plain;charset=utf-8' },
         body: JSON.stringify({
           name: answers.name,
           biz: answers.biz,
