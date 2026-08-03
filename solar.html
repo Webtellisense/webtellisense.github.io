@@ -1554,7 +1554,7 @@
           </div>
 
           <div style="margin-top: 25px;">
-            <a href="#" id="waCta" target="_blank" class="btn-primary">Chat on WhatsApp to Secure Slot →</a>
+            <a href="#" id="waCta" target="_blank" class="btn-primary" onclick="trackWhatsAppClick()">Chat on WhatsApp to Secure Slot →</a>
           </div>
           <p style="margin-top: 15px; font-size: 13px; color: var(--ink-soft);">We will verify your setup metrics on
             WhatsApp and call you to align the campaign goals before any booking deposit is made.</p>
@@ -1720,6 +1720,45 @@ I am ready to lock in our territory evaluation call under your 30-day risk-free 
       document.getElementById('leadForm').style.display = 'none';
       document.getElementById('progressFill').parentElement.style.display = 'none';
       document.getElementById('resultContainer').style.display = 'block';
+
+      // ---- AUTOCAPTURE: send this completed assessment straight to the Lead Tracker sheet ----
+      // Replace YOUR_APPS_SCRIPT_URL_HERE with the Web App URL from your Google Apps Script deployment.
+      fetch('https://script.google.com/macros/s/AKfycbx4CKzrDasNs2X3qEAIC8YW8OcRTSfPvBf_5o2zyNEEGeRLwc-uTY5e6Gf2yr4ciHH5dg/exec', {
+        method: 'POST',
+        headers: { 'Content-Type': 'text/plain;charset=utf-8' }, // avoids CORS preflight issues
+        body: JSON.stringify({
+          name: answers.name,
+          biz: answers.biz,
+          phone: answers.phone,
+          state: answers.state,
+          value: answers.value,
+          volume: answers.volume,
+          ads: answers.ads,
+          website: answers.website,
+          urgency: answers.urgency
+        })
+      }).catch(function(err) {
+        // Fails silently so a tracker hiccup never blocks the customer's experience
+        console.log('Autocapture failed:', err);
+      });
+
+      // ---- CONVERSION TRACKING: Assessment completed / price revealed ----
+      if (typeof fbq === 'function') {
+        fbq('track', 'Lead', {
+          content_name: 'Solar Launch Assessment Completed',
+          value: 300000,
+          currency: 'NGN'
+        });
+      }
+    }
+
+    // ---- CONVERSION TRACKING: WhatsApp CTA actually clicked ----
+    function trackWhatsAppClick() {
+      if (typeof fbq === 'function') {
+        fbq('track', 'Contact', {
+          content_name: 'WhatsApp CTA Click - Secure Slot'
+        });
+      }
     }
 
     /* ---------------- ACTIVITY TOAST ---------------- */
