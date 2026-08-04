@@ -1462,7 +1462,7 @@
         <form id="leadForm" onsubmit="event.preventDefault();">
           <!-- Question 1 -->
           <div class="q-step active" data-step="1">
-            <div class="q-num">Question 1 of 6</div>
+            <div class="q-num">Question 1 of 7</div>
             <div class="q-title">What is your average target installation size?</div>
             <button type="button" class="opt" data-q="value" data-v="₦1M–₦3M">₦1,000,000 – ₦3,000,000</button>
             <button type="button" class="opt" data-q="value" data-v="₦3M–₦5M">₦3,000,000 – ₦5,000,000</button>
@@ -1471,7 +1471,7 @@
 
           <!-- Question 2 -->
           <div class="q-step" data-step="2">
-            <div class="q-num">Question 2 of 6</div>
+            <div class="q-num">Question 2 of 7</div>
             <div class="q-title">How many full installs does your crew complete monthly?</div>
             <button type="button" class="opt" data-q="volume" data-v="1–3">1 – 3 Installations</button>
             <button type="button" class="opt" data-q="volume" data-v="4–10">4 – 10 Installations</button>
@@ -1480,7 +1480,7 @@
 
           <!-- Question 3 -->
           <div class="q-step" data-step="3">
-            <div class="q-num">Question 3 of 6</div>
+            <div class="q-num">Question 3 of 7</div>
             <div class="q-title">Are you currently running online advertising campaigns?</div>
             <button type="button" class="opt" data-q="ads" data-v="Yes">Yes, we run ads actively</button>
             <button type="button" class="opt" data-q="ads" data-v="No">No, we rely purely on referrals</button>
@@ -1488,7 +1488,7 @@
 
           <!-- Question 4 -->
           <div class="q-step" data-step="4">
-            <div class="q-num">Question 4 of 6</div>
+            <div class="q-num">Question 4 of 7</div>
             <div class="q-title">Do you already have an active business website?</div>
             <button type="button" class="opt" data-q="website" data-v="Yes">Yes, we have a website</button>
             <button type="button" class="opt" data-q="website" data-v="No">No, we have zero web presence</button>
@@ -1496,7 +1496,7 @@
 
           <!-- Question 5 -->
           <div class="q-step" data-step="5">
-            <div class="q-num">Question 5 of 6</div>
+            <div class="q-num">Question 5 of 7</div>
             <div class="q-title">Which main State / City in Nigeria do you operate in?</div>
             <input class="q-input" id="stateInput" placeholder="e.g. Lagos, Uyo, Port Harcourt, Abuja..." required>
             <div class="q-nav">
@@ -1507,26 +1507,56 @@
 
           <!-- Question 6 -->
           <div class="q-step" data-step="6">
-            <div class="q-num">Question 6 of 6</div>
+            <div class="q-num">Question 6 of 7</div>
             <div class="q-title">How soon can your crew take on new scheduled installations?</div>
             <button type="button" class="opt" data-q="urgency" data-v="Immediately">Immediately (Within 7 days)</button>
             <button type="button" class="opt" data-q="urgency" data-v="This Month">Sometime this month</button>
             <button type="button" class="opt" data-q="urgency" data-v="Just exploring">Just researching for now</button>
           </div>
 
-          <!-- Contact capture -->
+          <!-- Question 7: Financial Filter -->
           <div class="q-step" data-step="7">
+            <div class="q-num">Question 7 of 7</div>
+            <div class="q-title">To qualify for our 30-Day Risk-Free Guarantee, are you prepared to allocate a minimum
+              ₦300,000 setup budget to scale your territory?</div>
+
+            <div
+              style="background: rgba(245, 166, 35, 0.1); border: 1px solid var(--amber); border-radius: 8px; padding: 12px 16px; margin-bottom: 16px; text-align: left; font-size: 13.5px;">
+              <p><strong>⚠️ SERIOUS INQUIRIES ONLY:</strong> Do not waste your time or ours. Only complete this
+                evaluation if you have the decision-making authority and capital ready to launch your acquisition engine
+                within the next 24 hours. We immediately blacklist non-serious applicants and tire-kickers to protect
+                our verified territories.</p>
+            </div>
+
+            <button type="button" class="opt" data-q="budget" data-v="Yes">Yes, I have capital ready to invest if
+              qualified</button>
+            <button type="button" class="opt" data-q="budget" data-v="No">No, I'm looking for free advice / lower
+              budget</button>
+          </div>
+
+          <!-- Contact capture -->
+          <div class="q-step" data-step="8">
             <div class="q-num">Final Step</div>
             <div class="q-title">Where should we send your eligibility results and setup schedule?</div>
 
             <!-- ADDED HIGH-INTENT WARNING BOX BELOW -->
+            <!-- Option A (default, recommended for cold ad traffic - direct without contempt): -->
             <div
               style="background: rgba(245, 166, 35, 0.1); border: 1px solid var(--amber); border-radius: 8px; padding: 12px 16px; margin-bottom: 20px; text-align: left; font-size: 13.5px;">
               <b style="color: var(--amber); text-transform: uppercase; display: block; margin-bottom: 4px;">⚡ STRICT
                 HIGH-INTENT ONLY:</b>
-              Please only submit this form if you are ready to launch your client acquisition engine or are prepared to
-              receive a verification call from our team in under 5 minutes. We do not spam.
+              This assessment is for solar installers ready to invest in growth now — not for general advice. If that's
+              you, expect a call from our team within 5 minutes of submitting.
             </div>
+            <!-- Option B (stern version - swap in to A/B test, replace the div above with this one):
+            <div
+              style="background: rgba(245, 166, 35, 0.1); border: 1px solid var(--amber); border-radius: 8px; padding: 12px 16px; margin-bottom: 20px; text-align: left; font-size: 13.5px;">
+              <b style="color: var(--amber); text-transform: uppercase; display: block; margin-bottom: 4px;">⚡ STRICT
+                HIGH-INTENT ONLY:</b>
+              Don't waste our time and yours — only submit this if you're ready to invest in your growth in the next
+              24 hours. We do not spam.
+            </div>
+            -->
 
             <input class="q-input" id="nameInput" placeholder="Your Name" required>
             <input class="q-input" id="bizInput" placeholder="Business Name" required>
@@ -1541,22 +1571,24 @@
 
         <!-- Dynamic Success & Result Window -->
         <div class="result-container" id="resultContainer">
-          <span class="tag">Assessment Complete</span>
+          <span class="tag" id="resultTag">Assessment Complete</span>
           <h2 class="section-title" style="margin: 15px auto;" id="resultHeadline">You Are A Great Fit For Solar Launch™
           </h2>
           <p class="section-desc" style="margin-bottom: 25px;" id="resultSub">We analyzed your inputs. Your territory is
             currently unclaimed and your target installation sizes qualify for our full risk-reversal guarantee.</p>
 
-          <div class="price-reveal">
+          <div class="price-reveal" id="priceRevealBox">
             <span class="tag">Your Guaranteed Package Cost</span>
             <div class="big">₦300,000</div>
             <p style="color: var(--good); font-weight: 700;">Complete 30-Day Risk-Free Guarantee Included</p>
           </div>
 
-          <div style="margin-top: 25px;">
-            <a href="#" id="waCta" target="_blank" class="btn-primary" onclick="trackWhatsAppClick()">Chat on WhatsApp to Secure Slot →</a>
+          <div style="margin-top: 25px;" id="waCtaWrap">
+            <a href="#" id="waCta" target="_blank" class="btn-primary" onclick="trackWhatsAppClick()">Chat on WhatsApp
+              to Secure Slot →</a>
           </div>
-          <p style="margin-top: 15px; font-size: 13px; color: var(--ink-soft);">We will verify your setup metrics on
+          <p style="margin-top: 15px; font-size: 13px; color: var(--ink-soft);" id="resultFootnote">We will verify your
+            setup metrics on
             WhatsApp and call you to align the campaign goals before any booking deposit is made.</p>
         </div>
 
@@ -1647,7 +1679,7 @@
     /* ---- quiz execution engine ---- */
     const answers = {};
     let currentStep = 1;
-    const totalSteps = 7;
+    const totalSteps = 8;
 
     document.querySelectorAll('.opt').forEach(btn => {
       btn.addEventListener('click', () => {
@@ -1695,14 +1727,28 @@
       answers.biz = biz;
       answers.phone = phone;
 
-      let subText = "Your territory is currently unclaimed and your target metrics align beautifully with our Solar Launch™ guarantee.";
-      if (answers.value === '₦5M+') {
-        subText = `At your high installation volumes, closing just one system easily recovers your full ${answers.value} investment multiple times over.`;
-      }
+      const isQualified = answers.budget === "Yes";
 
-      document.getElementById('resultSub').textContent = subText;
+      // Hide the quiz elements either way
+      document.getElementById('leadForm').style.display = 'none';
+      document.getElementById('progressFill').parentElement.style.display = 'none';
+      document.getElementById('resultContainer').style.display = 'block';
 
-      const msg = `Hello Ephraim, my name is ${answers.name} from ${answers.biz}. I just completed the qualification assessment for my territory in ${answers.state || 'Nigeria'}. 
+      if (isQualified) {
+        // ---- QUALIFIED PATH: show price, guarantee, and the WhatsApp CTA as before ----
+        let subText = "Your territory is currently unclaimed and your target metrics align beautifully with our Solar Launch™ guarantee.";
+        if (answers.value === '₦5M+') {
+          subText = `At your high installation volumes, closing just one system easily recovers your full ${answers.value} investment multiple times over.`;
+        }
+
+        document.getElementById('resultTag').textContent = "Assessment Complete";
+        document.getElementById('resultHeadline').textContent = "You Are A Great Fit For Solar Launch™";
+        document.getElementById('resultSub').textContent = subText;
+        document.getElementById('priceRevealBox').style.display = 'block';
+        document.getElementById('waCtaWrap').style.display = 'block';
+        document.getElementById('resultFootnote').textContent = "We will verify your setup metrics on WhatsApp and call you to align the campaign goals before any booking deposit is made.";
+
+        const msg = `Hello Ephraim, my name is ${answers.name} from ${answers.biz}. I just completed the qualification assessment for my territory in ${answers.state || 'Nigeria'}. 
 
 My installation stats:
 - Target Job Sizes: ${answers.value || 'Not selected'}
@@ -1714,12 +1760,17 @@ My installation stats:
 
 I am ready to lock in our territory evaluation call under your 30-day risk-free guarantee. Let's talk.`;
 
-      document.getElementById('waCta').href = `https://wa.me/2347075848564?text=${encodeURIComponent(msg)}`;
+        document.getElementById('waCta').href = `https://wa.me/2347075848564?text=${encodeURIComponent(msg)}`;
 
-      // Hide the quiz elements and reveal the confirmation card cleanly
-      document.getElementById('leadForm').style.display = 'none';
-      document.getElementById('progressFill').parentElement.style.display = 'none';
-      document.getElementById('resultContainer').style.display = 'block';
+      } else {
+        // ---- NOT QUALIFIED PATH: no price, no WhatsApp button, just a holding message ----
+        document.getElementById('resultTag').textContent = "Application Received";
+        document.getElementById('resultHeadline').textContent = "You're Not Qualified Yet";
+        document.getElementById('resultSub').textContent = "Solar Launch™ is currently reserved for installers ready to invest in scaling their territory. We've received your details and will reach out when a lower-commitment option opens up for your area.";
+        document.getElementById('priceRevealBox').style.display = 'none';
+        document.getElementById('waCtaWrap').style.display = 'none';
+        document.getElementById('resultFootnote').textContent = "No action needed from you right now — we'll contact you directly if this changes.";
+      }
 
       // ---- AUTOCAPTURE: send this completed assessment straight to the Lead Tracker sheet ----
       // Replace YOUR_APPS_SCRIPT_URL_HERE with the Web App URL from your Google Apps Script deployment.
@@ -1736,20 +1787,32 @@ I am ready to lock in our territory evaluation call under your 30-day risk-free 
           volume: answers.volume,
           ads: answers.ads,
           website: answers.website,
-          urgency: answers.urgency
+          urgency: answers.urgency,
+          budgetReady: answers.budget
         })
-      }).catch(function(err) {
+      }).catch(function (err) {
         // Fails silently so a tracker hiccup never blocks the customer's experience
         console.log('Autocapture failed:', err);
       });
 
-      // ---- CONVERSION TRACKING: Assessment completed / price revealed ----
+      // ---- CONVERSION TRACKING ----
+      // Only fire the full-value Lead event for genuinely qualified completions,
+      // so Meta's algorithm learns to find more people like THEM, not more
+      // people who finish the quiz but can't actually afford the offer.
       if (typeof fbq === 'function') {
-        fbq('track', 'Lead', {
-          content_name: 'Solar Launch Assessment Completed',
-          value: 300000,
-          currency: 'NGN'
-        });
+        if (isQualified) {
+          fbq('track', 'Lead', {
+            content_name: 'Solar Launch Assessment Completed',
+            value: 300000,
+            currency: 'NGN'
+          });
+        } else {
+          // Custom event, not a standard Lead — keeps unqualified completions
+          // out of Meta's Lead-optimization signal entirely.
+          fbq('trackCustom', 'UnqualifiedAssessment', {
+            content_name: 'Solar Launch Assessment - Under Budget'
+          });
+        }
       }
     }
 
