@@ -108,6 +108,9 @@
             src="https://www.facebook.com/tr?id=806267492040936&ev=PageView&noscript=1" /></noscript>
     <!-- End Meta Pixel Code -->
 
+    <!-- Paystack -->
+    <script src="[https://js.paystack.co/v1/inline.js](https://js.paystack.co/v1/inline.js)"></script>
+
 </head>
 
 <body class="index-page">
@@ -190,22 +193,367 @@
             </div>
         </section>
 
-        <!-- ─── PACKAGES ─── -->
-        <section id="services" aria-label="All services">
+        <!-- ─── REBUILT PACKAGES SECTION (NATIVE - NO IFRAME) ─── -->
+        <section id="wt-services-section" aria-label="All packages">
             <div class="container">
-                <div class="section-header">
-                    <span class="eyebrow">What we offer</span>
-                    <h2 class="sh-2">Seven specialised packages. <br> One agency behind them.</h2>
-                    <p>Each package is built around a specific business problem. Start where your pain is — and grow
-                        from there.</p>
+
+                <!-- Section Header -->
+                <div class="section-header text-center mb-4">
+                    <span class="eyebrow">Tailored Solutions</span>
+                    <h2 class="sh-2">Seven Specialised Systems. Flexible Tiers.</h2>
+                    <p>Select your business focus below or switch between package tiers.</p>
+                </div>
+
+                <!-- Filter Buttons -->
+                <div class="wt-pkg-filter-bar">
+                    <button class="wt-pkg-filter-btn active" data-filter="all">All Packages</button>
+                    <button class="wt-pkg-filter-btn" data-filter="branding">Branding</button>
+                    <button class="wt-pkg-filter-btn" data-filter="web-seo">Web & SEO</button>
+                    <button class="wt-pkg-filter-btn" data-filter="ads">Ads & Growth</button>
+                    <button class="wt-pkg-filter-btn" data-filter="social">Social Media</button>
+                    <button class="wt-pkg-filter-btn" data-filter="systems">Full Systems</button>
+                </div>
+
+                <!-- ─── REBUILT PACKAGES GRID WITH DIRECT TIER BADGES ─── -->
+                <div class="wt-pkg-grid" id="wt-pkg-container">
+
+                    <!-- 1. SWAGGER (BRANDING) -->
+                    <article class="wt-pkg-card" data-category="branding" style="--wt-accent: #c34a36;">
+                        <div class="wt-pkg-thumb">
+                            <span class="wt-pkg-badge-cat">Swagger</span>
+                            <span class="wt-pkg-badge-model one-time">One-Time Fee</span>
+                            <img id="badge-swagger" src="assets/img/badges/swagger_badge_t1.png" alt="Swagger Badge"
+                                onerror="this.src='assets/img/badges/Swagger_badge_icon.png'">
+                        </div>
+                        <div class="wt-pkg-header">
+                            <h3 class="wt-pkg-title">Brand Identity Design</h3>
+                            <span class="wt-pkg-price" id="price-swagger">₦100,000</span>
+                        </div>
+                        <p class="wt-pkg-tagline">"Earn trust before you say a word."</p>
+
+                        <div class="wt-pkg-tier-selector">
+                            <button class="wt-pkg-tier-btn active"
+                                onclick="switchTier('swagger', 'entry')">Entry</button>
+                            <button class="wt-pkg-tier-btn" onclick="switchTier('swagger', 'mid')">Mid</button>
+                            <button class="wt-pkg-tier-btn" onclick="switchTier('swagger', 'top')">Top</button>
+                        </div>
+
+                        <ul class="wt-pkg-specs" id="specs-swagger">
+                            <li>✓ Primary & Secondary Logo Variants</li>
+                            <li>✓ Brand Color Palette & Typography Specs</li>
+                            <li>✓ Social Media Profile Kit</li>
+                            <li>✓ Basic Brand Style Guide (PDF)</li>
+                        </ul>
+
+                        <div class="wt-pkg-footer">
+                            <span class="wt-pkg-timeline" id="time-swagger">⏱ Delivery: 7 Days</span>
+                            <button class="wt-pkg-btn-buy" onclick="openCheckout('Swagger', 'swagger')">Buy Now
+                                →</button>
+                        </div>
+                    </article>
+
+                    <!-- 2. FIRESHOT (ADS & PPC) -->
+                    <article class="wt-pkg-card" data-category="ads" style="--wt-accent: #0331b0;">
+                        <div class="wt-pkg-thumb">
+                            <span class="wt-pkg-badge-cat">Fireshot</span>
+                            <span class="wt-pkg-badge-model retainer">Monthly Retainer</span>
+                            <img id="badge-fireshot" src="assets/img/badges/fireshot_badge_t1.png" alt="Fireshot Badge"
+                                onerror="this.src='assets/img/badges/fireshot_badge_icon.png'">
+                        </div>
+                        <div class="wt-pkg-header">
+                            <h3 class="wt-pkg-title">PPC & Paid Social Ads</h3>
+                            <span class="wt-pkg-price" id="price-fireshot">₦75,000<small>/mo</small></span>
+                        </div>
+                        <p class="wt-pkg-tagline">"Turn it on, and the market hears you."</p>
+
+                        <div class="wt-pkg-tier-selector">
+                            <button class="wt-pkg-tier-btn active"
+                                onclick="switchTier('fireshot', 'basic')">Basic</button>
+                            <button class="wt-pkg-tier-btn"
+                                onclick="switchTier('fireshot', 'standard')">Standard</button>
+                            <button class="wt-pkg-tier-btn" onclick="switchTier('fireshot', 'premium')">Premium</button>
+                        </div>
+
+                        <ul class="wt-pkg-specs" id="specs-fireshot">
+                            <li>✓ 1 Active Platform Campaign (Meta OR Google)</li>
+                            <li>✓ Standard Audience Targeting & Ad Copy</li>
+                            <li>✓ Monthly Performance Summary Report</li>
+                            <li>⚡ Requires Separate Ad Budget</li>
+                        </ul>
+
+                        <div class="wt-pkg-footer">
+                            <span class="wt-pkg-timeline" id="time-fireshot">⏱ 3-Month Recommended</span>
+                            <button class="wt-pkg-btn-buy" onclick="openCheckout('Fireshot', 'fireshot')">Get Started
+                                →</button>
+                        </div>
+                    </article>
+
+                    <!-- 3. DEEPROOTS (SEO) -->
+                    <article class="wt-pkg-card" data-category="web-seo" style="--wt-accent: #01033e;">
+                        <div class="wt-pkg-thumb">
+                            <span class="wt-pkg-badge-cat">Deeproots</span>
+                            <span class="wt-pkg-badge-model retainer">Monthly Retainer</span>
+                            <img id="badge-deeproots" src="assets/img/badges/deeproots_badge_t1.png"
+                                alt="Deeproots Badge" onerror="this.src='assets/img/badges/Deeproots_badge_icon.png'">
+                        </div>
+                        <div class="wt-pkg-header">
+                            <h3 class="wt-pkg-title">SEO & Google Authority</h3>
+                            <span class="wt-pkg-price" id="price-deeproots">₦75,000<small>/mo</small></span>
+                        </div>
+                        <p class="wt-pkg-tagline">"Dig the well once, drink forever."</p>
+
+                        <div class="wt-pkg-tier-selector">
+                            <button class="wt-pkg-tier-btn active"
+                                onclick="switchTier('deeproots', 'essentials')">Essentials</button>
+                            <button class="wt-pkg-tier-btn" onclick="switchTier('deeproots', 'growth')">Growth</button>
+                            <button class="wt-pkg-tier-btn"
+                                onclick="switchTier('deeproots', 'domination')">Domination</button>
+                        </div>
+
+                        <ul class="wt-pkg-specs" id="specs-deeproots">
+                            <li>✓ Technical Website Audit & Fixes</li>
+                            <li>✓ Local Keyword Research (Eket/Nigeria)</li>
+                            <li>✓ Google Business Profile Optimization</li>
+                            <li>✓ Monthly Ranking Reports</li>
+                        </ul>
+
+                        <div class="wt-pkg-footer">
+                            <span class="wt-pkg-timeline" id="time-deeproots">⏱ 6-Month Commitment</span>
+                            <button class="wt-pkg-btn-buy" onclick="openCheckout('Deeproots', 'deeproots')">Get Started
+                                →</button>
+                        </div>
+                    </article>
+
+                    <!-- 4. VIBES (SOCIAL MEDIA) -->
+                    <article class="wt-pkg-card" data-category="social" style="--wt-accent: #0033ff;">
+                        <div class="wt-pkg-thumb">
+                            <span class="wt-pkg-badge-cat">Vibes</span>
+                            <span class="wt-pkg-badge-model retainer">Monthly Retainer</span>
+                            <img id="badge-vibes" src="assets/img/badges/vibes_badge_t1.png" alt="Vibes Badge"
+                                onerror="this.src='assets/img/badges/vibes_badge_icon.png'">
+                        </div>
+                        <div class="wt-pkg-header">
+                            <h3 class="wt-pkg-title">Social Media Management</h3>
+                            <span class="wt-pkg-price" id="price-vibes">₦75,000<small>/mo</small></span>
+                        </div>
+                        <p class="wt-pkg-tagline">"Make sure your brand has it."</p>
+
+                        <div class="wt-pkg-tier-selector">
+                            <button class="wt-pkg-tier-btn active" onclick="switchTier('vibes', 'basic')">Basic</button>
+                            <button class="wt-pkg-tier-btn" onclick="switchTier('vibes', 'standard')">Standard</button>
+                            <button class="wt-pkg-tier-btn" onclick="switchTier('vibes', 'premium')">Premium</button>
+                        </div>
+
+                        <ul class="wt-pkg-specs" id="specs-vibes">
+                            <li>✓ Monthly Content Calendar</li>
+                            <li>✓ Graphic Design & Video Scripting</li>
+                            <li>✓ Community Engagement & Hashtags</li>
+                            <li>✓ Monthly Performance Analytics</li>
+                        </ul>
+
+                        <div class="wt-pkg-footer">
+                            <span class="wt-pkg-timeline" id="time-vibes">⏱ 3-Month Commitment</span>
+                            <button class="wt-pkg-btn-buy" onclick="openCheckout('Vibes', 'vibes')">Get Started
+                                →</button>
+                        </div>
+                    </article>
+
+                    <!-- 5. FRONTLINE (WEB DEVELOPMENT) -->
+                    <article class="wt-pkg-card" data-category="web-seo" style="--wt-accent: #555555;">
+                        <div class="wt-pkg-thumb">
+                            <span class="wt-pkg-badge-cat">Frontline</span>
+                            <span class="wt-pkg-badge-model hybrid">Hybrid Build</span>
+                            <img id="badge-frontline" src="assets/img/badges/frontline_badge_t1.png"
+                                alt="Frontline Badge" onerror="this.src='assets/img/badges/frontline_icon_v1.png'">
+                        </div>
+                        <div class="wt-pkg-header">
+                            <h3 class="wt-pkg-title">Website Design & GBP</h3>
+                            <span class="wt-pkg-price" id="price-frontline">₦200,000</span>
+                        </div>
+                        <p class="wt-pkg-tagline">"What customers see when they search."</p>
+
+                        <div class="wt-pkg-tier-selector">
+                            <button class="wt-pkg-tier-btn active"
+                                onclick="switchTier('frontline', 'basic')">Basic</button>
+                            <button class="wt-pkg-tier-btn" onclick="switchTier('frontline', 'pro')">Pro</button>
+                            <button class="wt-pkg-tier-btn"
+                                onclick="switchTier('frontline', 'enterprise')">Enterprise</button>
+                        </div>
+
+                        <ul class="wt-pkg-specs" id="specs-frontline">
+                            <li>✓ Essential Landing/Brochure Website</li>
+                            <li>✓ Basic Google Business Profile Setup</li>
+                            <li>✓ Mobile Responsive Design</li>
+                            <li>✓ Standard Contact Form</li>
+                        </ul>
+
+                        <div class="wt-pkg-footer">
+                            <span class="wt-pkg-timeline" id="time-frontline">⏱ Delivery: 14 Days</span>
+                            <button class="wt-pkg-btn-buy" onclick="openCheckout('Frontline', 'frontline')">Build My
+                                Site →</button>
+                        </div>
+                    </article>
+
+                    <!-- 6. CASHFLOW (FUNNELS & CRO) -->
+                    <article class="wt-pkg-card" data-category="ads" style="--wt-accent: #10b981;">
+                        <div class="wt-pkg-thumb">
+                            <span class="wt-pkg-badge-cat">Cashflow</span>
+                            <span class="wt-pkg-badge-model hybrid">Setup + Retainer</span>
+                            <img id="badge-cashflow" src="assets/img/badges/cashflow_badge_t1.png" alt="Cashflow Badge"
+                                onerror="this.src='assets/img/badges/cashflow_badge_icon_v1.png'">
+                        </div>
+                        <div class="wt-pkg-header">
+                            <h3 class="wt-pkg-title">Landing Pages & Funnels</h3>
+                            <span class="wt-pkg-price" id="price-cashflow">₦180,000</span>
+                        </div>
+                        <p class="wt-pkg-tagline">"Traffic without conversion is just noise."</p>
+
+                        <div class="wt-pkg-tier-selector">
+                            <button class="wt-pkg-tier-btn active"
+                                onclick="switchTier('cashflow', 'basic')">Basic</button>
+                            <button class="wt-pkg-tier-btn"
+                                onclick="switchTier('cashflow', 'standard')">Standard</button>
+                        </div>
+
+                        <ul class="wt-pkg-specs" id="specs-cashflow">
+                            <li>✓ Dedicated Sales Landing Page Build</li>
+                            <li>✓ WhatsApp Automation Integration</li>
+                            <li>✓ Copywriting Built for Nigerian Buyers</li>
+                            <li>✓ Basic Analytics Integration</li>
+                        </ul>
+
+                        <div class="wt-pkg-footer">
+                            <span class="wt-pkg-timeline" id="time-cashflow">⏱ 3 Months</span>
+                            <button class="wt-pkg-btn-buy" onclick="openCheckout('Cashflow', 'cashflow')">Get Cashflow
+                                →</button>
+                        </div>
+                    </article>
+
+                    <!-- 7. HEROES (FULL SYSTEM) -->
+                    <article class="wt-pkg-card" data-category="systems" style="--wt-accent: #d97706;">
+                        <div class="wt-pkg-thumb">
+                            <span class="wt-pkg-badge-cat">Heroes</span>
+                            <span class="wt-pkg-badge-model retainer">Monthly Retainer</span>
+                            <img id="badge-heroes" src="assets/img/badges/heroes_badge_t1.png" alt="Heroes Badge"
+                                onerror="this.src='assets/img/badges/heroes_badge_v1.png'">
+                        </div>
+                        <div class="wt-pkg-header">
+                            <h3 class="wt-pkg-title">Complete Growth Ecosystem</h3>
+                            <span class="wt-pkg-price" id="price-heroes">₦350,000<small>/mo</small></span>
+                        </div>
+                        <p class="wt-pkg-tagline">"Your entire marketing department, outsourced."</p>
+
+                        <div class="wt-pkg-tier-selector">
+                            <button class="wt-pkg-tier-btn active" onclick="switchTier('heroes', 'v1')">Heroes
+                                V1</button>
+                            <button class="wt-pkg-tier-btn" onclick="switchTier('heroes', 'v2')">Heroes V2</button>
+                            <button class="wt-pkg-tier-btn" onclick="switchTier('heroes', 'v3')">Heroes V3</button>
+                        </div>
+
+                        <ul class="wt-pkg-specs" id="specs-heroes">
+                            <li>✓ Full Ecosystem Integration: Web + Ads + Social</li>
+                            <li>✓ Fireshot Ads Management & Setup</li>
+                            <li>✓ Vibes Social Media Execution</li>
+                            <li>✓ Monthly Executive Dashboard Reporting</li>
+                        </ul>
+
+                        <div class="wt-pkg-footer">
+                            <span class="wt-pkg-timeline" id="time-heroes">⏱ 3-Month Commitment</span>
+                            <button class="wt-pkg-btn-buy" onclick="openCheckout('Heroes Ecosystem', 'heroes')">Activate
+                                Heroes →</button>
+                        </div>
+                    </article>
+
                 </div>
             </div>
-
-            <iframe src="/services-block.html" id="services-frame" scrolling="no"
-                style="width: 100%; border: none; display: block; margin: 0; padding: 0; overflow: hidden;"
-                onload="resizeIframe(this)">
-            </iframe>
         </section>
+
+        <!-- ─── CHECKOUT SLIDE-OVER DRAWER MODAL ─── -->
+        <div id="wt-checkout-drawer" class="wt-drawer-overlay">
+            <div class="wt-drawer-content">
+                <button class="wt-drawer-close" onclick="closeCheckout()">&times;</button>
+
+                <div class="wt-drawer-header">
+                    <span class="wt-drawer-badge">Order Summary</span>
+                    <h3 id="wt-cart-package-title">Package Name</h3>
+                    <p id="wt-cart-tier-title">Tier: Basic</p>
+                </div>
+
+                <form id="wt-checkout-form" onsubmit="executePaystackPayment(event)">
+
+                    <!-- Contact Info -->
+                    <div class="wt-form-group">
+                        <label>Full Name *</label>
+                        <input type="text" id="wt-client-name" required placeholder="e.g. Samuel Okon">
+                    </div>
+
+                    <div class="wt-form-group">
+                        <label>Email Address *</label>
+                        <input type="email" id="wt-client-email" required placeholder="e.g. samuel@business.ng">
+                    </div>
+
+                    <div class="wt-form-group">
+                        <label>WhatsApp Phone Number *</label>
+                        <input type="tel" id="wt-client-phone" required placeholder="08012345678">
+                    </div>
+
+                    <!-- Duration Commitment Selection (If applicable) -->
+                    <div class="wt-form-group" id="wt-commitment-container">
+                        <label>Select Commitment Duration</label>
+                        <div class="wt-duration-pills">
+                            <label class="wt-pill">
+                                <input type="radio" name="wt_duration" value="1" checked
+                                    onclick="calculateInvoiceTotal()">
+                                <span>1 Month (Standard)</span>
+                            </label>
+                            <label class="wt-pill">
+                                <input type="radio" name="wt_duration" value="3" onclick="calculateInvoiceTotal()">
+                                <span>3 Months (5% Off)</span>
+                            </label>
+                            <label class="wt-pill">
+                                <input type="radio" name="wt_duration" value="6" onclick="calculateInvoiceTotal()">
+                                <span>6 Months (10% Off)</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Optional Ad Budget Box (Dynamically shown for Fireshot/Heroes) -->
+                    <div class="wt-form-group" id="wt-ad-budget-container" style="display: none;">
+                        <div class="wt-ad-header">
+                            <label>Monthly Ad Spend Allocation (Client Funded) *</label>
+                            <span class="wt-ad-hint" id="wt-ad-limits">Min: ₦50,000 | Max: ₦100,000</span>
+                        </div>
+                        <input type="number" id="wt-ad-budget-input" oninput="calculateInvoiceTotal()"
+                            placeholder="Enter amount in Naira">
+                        <small class="text-muted">We will collect this alongside our service fee and fund your ad
+                            account directly.</small>
+                    </div>
+
+                    <!-- Live Price Calculation Breakdown -->
+                    <div class="wt-invoice-box">
+                        <div class="wt-inv-row">
+                            <span>Agency Management Fee:</span>
+                            <strong id="inv-service-fee">₦0</strong>
+                        </div>
+                        <div class="wt-inv-row" id="inv-ad-row" style="display:none;">
+                            <span>Ad Spend Budget:</span>
+                            <strong id="inv-ad-fee">₦0</strong>
+                        </div>
+                        <div class="wt-inv-row discount" id="inv-discount-row" style="display:none;">
+                            <span>Commitment Discount:</span>
+                            <strong id="inv-discount-fee">-₦0</strong>
+                        </div>
+                        <hr>
+                        <div class="wt-inv-row total">
+                            <span>Total Payable Now:</span>
+                            <strong id="inv-grand-total">₦0</strong>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="wt-btn-submit-pay">Proceed to Pay via Paystack →</button>
+                </form>
+            </div>
+        </div>
 
         <!-- ─── HEROES ─── -->
         <section class="heroes-section" id="heroes" aria-label="Heroes complete system">
@@ -220,19 +568,19 @@
 
                 <div class="tiers-grid">
 
-                    <!-- V1 -->
+                    <!-- t1 -->
                     <div class="tier-card">
-                        <div class="tier-badge">Heroes V1</div>
+                        <div class="tier-badge">Heroes t1</div>
                         <div class="tier-name">Foundation System</div>
                         <div class="tier-subtitle">For businesses that need to get visible and start converting.</div>
-                        <ul class="tier-includes" aria-label="Heroes V1 includes">
+                        <ul class="tier-includes" aria-label="Heroes t1 includes">
                             <li>Frontline — website + Google Business Profile</li>
                             <li>Vibes — social media management</li>
                             <li>Cashflow — landing pages + WhatsApp funnels</li>
                             <li>Dedicated account manager</li>
                             <li>Monthly strategy session with founders</li>
                         </ul>
-                        <a href="/contact" class="tier-cta tier-cta-outline">Start with V1 &rarr;</a>
+                        <a href="/contact" class="tier-cta tier-cta-outline">Start with t1 &rarr;</a>
                     </div>
 
                     <!-- V2 -->
@@ -242,7 +590,7 @@
                         <div class="tier-subtitle">For businesses ready to grow through paid and organic channels at the
                             same time.</div>
                         <ul class="tier-includes" aria-label="Heroes V2 includes">
-                            <li>Everything in V1</li>
+                            <li>Everything in t1</li>
                             <li>Fireshot — paid ads on Meta, Google, TikTok</li>
                             <li>Deeproots — SEO programs and local ranking</li>
                             <li>Priority turnaround on all deliverables</li>
@@ -591,6 +939,464 @@
 
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
+
+    <script>
+        /* ─── WEBTELLISENSE INTERACTIVE ENGINE ─── */
+
+        // Active State Tracker
+        let currentCart = {
+            packageName: '',
+            packageId: '',
+            tier: 'basic',
+            baseFee: 0,
+            adBudgetMin: 0,
+            adBudgetMax: 0,
+            selectedAdBudget: 0,
+            durationMonths: 1
+        };
+
+        // Filter Packages
+        document.querySelectorAll('.wt-pkg-filter-btn').forEach(button => {
+            button.addEventListener('click', () => {
+                document.querySelectorAll('.wt-pkg-filter-btn').forEach(b => b.classList.remove('active'));
+                button.classList.add('active');
+
+                const filter = button.getAttribute('data-filter');
+                const cards = document.querySelectorAll('.wt-pkg-card');
+
+                cards.forEach(card => {
+                    if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                        card.style.display = 'flex';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        /* ─── PACKAGE DATA WITH DYNAMIC TIER BADGES ─── */
+        const packageData = {
+            swagger: {
+                entry: {
+                    price: 100000,
+                    timeline: "7 Days",
+                    badge: "assets/img/badges/swagger_badge_t1.png", // Tier 1 Badge
+                    specs: [
+                        "✓ Primary & Secondary Logo Variants",
+                        "✓ Brand Color Palette & Typography Specs",
+                        "✓ Social Media Profile Kit",
+                        "✓ Basic Brand Style Guide (PDF)"
+                    ]
+                },
+                mid: {
+                    price: 400000,
+                    timeline: "14 Days",
+                    badge: "assets/img/badges/swagger_badge_t2.png", // Tier 2 (Falls back to t1 if missing)
+                    specs: [
+                        "✓ Advanced Logo System & Sub-marks",
+                        "✓ Full Corporate Stationery Suite (Cards, Letterhead)",
+                        "✓ Extended Brand Strategy & Tone Guidelines",
+                        "✓ Social Media Content Templates (10 Posts)"
+                    ]
+                },
+                top: {
+                    price: 800000,
+                    timeline: "21 Days",
+                    badge: "assets/img/badges/swagger_badge_t3.png", // Tier 3
+                    specs: [
+                        "✓ Enterprise Brand Architecture & Systems",
+                        "✓ Complete Packaging / Merchandise Mockups",
+                        "✓ Comprehensive 30+ Page Brand Book",
+                        "✓ Full Digital & Print Production Files"
+                    ]
+                }
+            },
+            cashflow: {
+                basic: {
+                    price: 180000,
+                    timeline: "3 Months",
+                    badge: "assets/img/badges/cashflow_badge_t1.png",
+                    specs: [
+                        "✓ Dedicated Sales Landing Page Build",
+                        "✓ WhatsApp Automation Integration",
+                        "✓ Copywriting Built for Nigerian Buyers",
+                        "✓ Basic Analytics Integration"
+                    ]
+                },
+                standard: {
+                    price: 280000,
+                    timeline: "3 Months",
+                    badge: "assets/img/badges/cashflow_badge_t2.png",
+                    specs: [
+                        "✓ Multi-step Conversion Funnel",
+                        "✓ Advanced WhatsApp Autoresponder Sequencing",
+                        "✓ A/B Split Testing & CRO Optimization",
+                        "✓ Priority Direct Support"
+                    ]
+                }
+            },
+            fireshot: {
+                basic: {
+                    price: 75000,
+                    timeline: "3 Months Min",
+                    adMin: 50000,
+                    adMax: 100000,
+                    badge: "assets/img/badges/fireshot_badge_t1.png",
+                    specs: [
+                        "✓ 1 Active Platform Campaign (Meta OR Google)",
+                        "✓ Standard Audience Targeting & Ad Copy",
+                        "✓ Monthly Performance Summary Report",
+                        "⚡ Requires Separate Ad Budget"
+                    ]
+                },
+                standard: {
+                    price: 150000,
+                    timeline: "3 Months Min",
+                    adMin: 100000,
+                    adMax: 300000,
+                    badge: "assets/img/badges/fireshot_badge_t2.png",
+                    specs: [
+                        "✓ Multi-Platform Campaigns (Meta AND Google)",
+                        "✓ Custom Creative Design & A/B Copy Testing",
+                        "✓ Bi-Weekly Optimization & Pixel Retargeting",
+                        "⚡ Requires Separate Ad Budget"
+                    ]
+                },
+                premium: {
+                    price: 250000,
+                    timeline: "3 Months Min",
+                    adMin: 250000,
+                    adMax: 1000000,
+                    badge: "assets/img/badges/fireshot_badge_t3.png",
+                    specs: [
+                        "✓ High-Scale Multi-Channel Ad Funnels",
+                        "✓ Custom Video Scripting & Dynamic Creatives",
+                        "✓ Weekly Strategy Calls & Conversion Tracking",
+                        "⚡ Requires Separate Ad Budget"
+                    ]
+                }
+            },
+            deeproots: {
+                essentials: {
+                    price: 75000,
+                    timeline: "6 Months Min",
+                    badge: "assets/img/badges/Deeproots_badge_t1.png",
+                    specs: [
+                        "✓ Technical Website Audit & Fixes",
+                        "✓ Local Keyword Research (Eket/Nigeria)",
+                        "✓ Google Business Profile Optimization",
+                        "✓ Monthly Ranking Reports"
+                    ]
+                },
+                growth: {
+                    price: 150000,
+                    timeline: "6 Months Min",
+                    badge: "assets/img/badges/deeproots_badge_t2.png",
+                    specs: [
+                        "✓ Comprehensive Content & Keyword Strategy",
+                        "✓ On-Page & Technical SEO Optimization",
+                        "✓ High-Authority Backlink Acquisition",
+                        "✓ Bi-weekly Performance Reporting"
+                    ]
+                },
+                domination: {
+                    price: 300000,
+                    timeline: "6 Months Min",
+                    badge: "assets/img/badges/deeproots_badge_t3.png",
+                    specs: [
+                        "✓ Aggressive Market Domination SEO Strategy",
+                        "✓ Full Content Marketing Execution",
+                        "✓ Custom Competitor Disruption Strategy",
+                        "✓ Weekly Analytics & Strategy Briefings"
+                    ]
+                }
+            },
+            vibes: {
+                basic: {
+                    price: 75000,
+                    timeline: "3 Months Min",
+                    badge: "assets/img/badges/vibes_badge_t1.png",
+                    specs: [
+                        "✓ Monthly Content Calendar",
+                        "✓ Graphic Design & Video Scripting",
+                        "✓ Community Engagement & Hashtags",
+                        "✓ Monthly Performance Analytics"
+                    ]
+                },
+                standard: {
+                    price: 120000,
+                    timeline: "3 Months Min",
+                    badge: "assets/img/badges/vibes_badge_t2.png",
+                    specs: [
+                        "✓ Multi-Platform Strategy (IG, FB, LinkedIn)",
+                        "✓ Professional Short-Form Reels Production",
+                        "✓ Dedicated Community Management",
+                        "✓ Bi-Weekly Growth Reporting"
+                    ]
+                },
+                premium: {
+                    price: 200000,
+                    timeline: "3 Months Min",
+                    badge: "assets/img/badges/vibes_badge_t3.png",
+                    specs: [
+                        "✓ Full-Scale Brand Omnipresence Package",
+                        "✓ High-End Video Production & Editing",
+                        "✓ Influencer & Campaign Partnerships",
+                        "✓ Weekly Strategy Alignment Calls"
+                    ]
+                }
+            },
+            frontline: {
+                basic: {
+                    price: 200000,
+                    timeline: "14 Days",
+                    badge: "assets/img/badges/frontline_badge_t1.png",
+                    specs: [
+                        "✓ Essential Landing/Brochure Website",
+                        "✓ Basic Google Business Profile Setup",
+                        "✓ Mobile Responsive Design",
+                        "✓ Standard Contact Form"
+                    ]
+                },
+                pro: {
+                    price: 500000,
+                    timeline: "21 Days",
+                    badge: "assets/img/badges/frontline_icon_t1.png",
+                    specs: [
+                        "✓ Multi-page Business Website (Up to 7 Pages)",
+                        "✓ GBP Optimization + Local Search Verification",
+                        "✓ Speed Optimization & Basic Technical SEO",
+                        "✓ WhatsApp Direct Live Chat Integration"
+                    ]
+                },
+                enterprise: {
+                    price: 850000,
+                    timeline: "30 Days",
+                    badge: "assets/img/badges/frontline_icon_v2.png",
+                    specs: [
+                        "✓ Custom High-Performance Web Application",
+                        "✓ Full Local SEO Domination & GBP Management",
+                        "✓ Advanced Analytics & Tracking Integrations",
+                        "✓ Priority Ongoing Maintenance Support"
+                    ]
+                }
+            },
+            heroes: {
+                t1: {
+                    price: 350000,
+                    timeline: "3 Months Min",
+                    badge: "assets/img/badges/heroes_badge_t1.png",
+                    specs: [
+                        "✓ Full Ecosystem Integration: Web + Ads + Social",
+                        "✓ Fireshot Ads Management & Setup",
+                        "✓ Vibes Social Media Execution",
+                        "✓ Monthly Executive Dashboard Reporting"
+                    ]
+                },
+                v2: {
+                    price: 500000,
+                    timeline: "3 Months Min",
+                    badge: "assets/img/badges/heroes_badge_v2.png",
+                    specs: [
+                        "✓ Scaled Growth Ecosystem Integration",
+                        "✓ Multi-Channel Ad Campaigns + Retargeting",
+                        "✓ High-Yield Social Content Strategy",
+                        "✓ Dedicated Account Manager & Weekly Syncs"
+                    ]
+                },
+                v3: {
+                    price: 800000,
+                    timeline: "3 Months Min",
+                    badge: "assets/img/badges/heroes_badge_v3.png",
+                    specs: [
+                        "✓ Market Domination System (Full Agency Force)",
+                        "✓ Complete Web, CRO, Funnels & Local SEO",
+                        "✓ Unlimited Multi-Platform Ad Optimization",
+                        "✓ Priority VIP Direct Access to Founders"
+                    ]
+                }
+            }
+        };
+
+        /* ─── DYNAMIC TIER SWITCHER ENGINE (UPDATED FOR BADGE SWAPPING) ─── */
+        function switchTier(packageId, tierName) {
+            const pkg = packageData[packageId];
+            if (!pkg || !pkg[tierName]) return;
+
+            const tierData = pkg[tierName];
+
+            // 1. Update Price
+            const priceElem = document.getElementById(`price-${packageId}`);
+            if (priceElem) priceElem.innerHTML = `₦${tierData.price.toLocaleString()}`;
+
+            // 2. Update Timeline
+            const timeElem = document.getElementById(`time-${packageId}`);
+            if (timeElem) timeElem.innerText = `⏱ ${tierData.timeline}`;
+
+            // 3. Update Thumbnail / Badge Image Dynamically with Fallback
+            const badgeImgElem = document.getElementById(`badge-${packageId}`);
+            if (badgeImgElem && tierData.badge) {
+                // Create temporary image to verify if tier specific badge exists
+                const tempImg = new Image();
+                tempImg.src = tierData.badge;
+
+                tempImg.onload = function () {
+                    badgeImgElem.src = tierData.badge;
+                };
+
+                tempImg.onerror = function () {
+                    // Fallback to base t1 badge if specific tier badge is missing
+                    const fallbackBadge = `assets/img/badges/${packageId}_badge_t1.png`;
+                    badgeImgElem.src = fallbackBadge;
+                };
+            }
+
+            // 4. Update Deliverable Specs List Dynamically
+            const specsContainer = document.getElementById(`specs-${packageId}`);
+            if (specsContainer && tierData.specs) {
+                specsContainer.innerHTML = tierData.specs.map(item => `<li>${item}</li>`).join('');
+            }
+
+            // 5. Update Active Button Styling
+            const card = priceElem.closest('.wt-pkg-card');
+            card.querySelectorAll('.wt-pkg-tier-btn').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+
+            // 6. Update Cart State for Checkout
+            currentCart.packageId = packageId;
+            currentCart.tier = tierName;
+            currentCart.baseFee = tierData.price;
+            currentCart.adBudgetMin = tierData.adMin || 0;
+            currentCart.adBudgetMax = tierData.adMax || 0;
+        }
+
+        // Open Checkout Drawer Modal
+        function openCheckout(packageName, packageId) {
+            currentCart.packageName = packageName;
+            currentCart.packageId = packageId;
+
+            if (!currentCart.baseFee || currentCart.baseFee === 0) {
+                // Default fallback if clicked without tier change
+                const priceTxt = document.getElementById(`price-${packageId}`).innerText.replace(/[^0-9]/g, '');
+                currentCart.baseFee = parseInt(priceTxt) || 75000;
+            }
+
+            document.getElementById('wt-cart-package-title').innerText = packageName;
+            document.getElementById('wt-cart-tier-title').innerText = `Tier: ${currentCart.tier.toUpperCase()}`;
+
+            // Configure Ad Budget UI
+            const adContainer = document.getElementById('wt-ad-budget-container');
+            const adInput = document.getElementById('wt-ad-budget-input');
+
+            if (currentCart.adBudgetMin > 0) {
+                adContainer.style.display = 'block';
+                document.getElementById('wt-ad-limits').innerText = `Min: ₦${currentCart.adBudgetMin.toLocaleString()} | Max: ₦${currentCart.adBudgetMax.toLocaleString()}`;
+                adInput.min = currentCart.adBudgetMin;
+                adInput.max = currentCart.adBudgetMax;
+                adInput.value = currentCart.adBudgetMin;
+                currentCart.selectedAdBudget = currentCart.adBudgetMin;
+            } else {
+                adContainer.style.display = 'none';
+                currentCart.selectedAdBudget = 0;
+            }
+
+            calculateInvoiceTotal();
+            document.getElementById('wt-checkout-drawer').style.display = 'flex';
+        }
+
+        function closeCheckout() {
+            document.getElementById('wt-checkout-drawer').style.display = 'none';
+        }
+
+        // Live Invoice Calculation
+        function calculateInvoiceTotal() {
+            const durationRadio = document.querySelector('input[name="wt_duration"]:checked');
+            currentCart.durationMonths = parseInt(durationRadio.value) || 1;
+
+            if (currentCart.adBudgetMin > 0) {
+                const inputVal = parseInt(document.getElementById('wt-ad-budget-input').value) || 0;
+                currentCart.selectedAdBudget = inputVal;
+            } else {
+                currentCart.selectedAdBudget = 0;
+            }
+
+            // Calculation Logic
+            let subtotalFee = currentCart.baseFee * currentCart.durationMonths;
+            let totalAdFee = currentCart.selectedAdBudget * currentCart.durationMonths;
+
+            let discountRate = 0;
+            if (currentCart.durationMonths === 3) discountRate = 0.05;
+            if (currentCart.durationMonths === 6) discountRate = 0.10;
+
+            let discountAmount = subtotalFee * discountRate;
+            let grandTotal = (subtotalFee - discountAmount) + totalAdFee;
+
+            // Render Breakdown
+            document.getElementById('inv-service-fee').innerText = `₦${subtotalFee.toLocaleString()}`;
+
+            if (totalAdFee > 0) {
+                document.getElementById('inv-ad-row').style.display = 'flex';
+                document.getElementById('inv-ad-fee').innerText = `₦${totalAdFee.toLocaleString()}`;
+            } else {
+                document.getElementById('inv-ad-row').style.display = 'none';
+            }
+
+            if (discountAmount > 0) {
+                document.getElementById('inv-discount-row').style.display = 'flex';
+                document.getElementById('inv-discount-fee').innerText = `-₦${discountAmount.toLocaleString()}`;
+            } else {
+                document.getElementById('inv-discount-row').style.display = 'none';
+            }
+
+            document.getElementById('inv-grand-total').innerText = `₦${grandTotal.toLocaleString()}`;
+            currentCart.calculatedGrandTotal = grandTotal;
+        }
+
+        // Paystack Payment Execution
+        function executePaystackPayment(e) {
+            e.preventDefault();
+
+            const clientName = document.getElementById('wt-client-name').value;
+            const clientEmail = document.getElementById('wt-client-email').value;
+            const clientPhone = document.getElementById('wt-client-phone').value;
+
+            const handler = PaystackPop.setup({
+                key: 'pk_live_YOUR_PAYSTACK_PUBLIC_KEY', // Replace with your Paystack key
+                email: clientEmail,
+                amount: currentCart.calculatedGrandTotal * 100, // Amount in kobo
+                currency: 'NGN',
+                metadata: {
+                    custom_fields: [
+                        { display_name: "Client Name", variable_name: "client_name", value: clientName },
+                        { display_name: "Phone/WhatsApp", variable_name: "client_phone", value: clientPhone },
+                        { display_name: "Package", variable_name: "package_name", value: currentCart.packageName },
+                        { display_name: "Tier", variable_name: "package_tier", value: currentCart.tier },
+                        { display_name: "Duration Months", variable_name: "duration_months", value: currentCart.durationMonths }
+                    ]
+                },
+                callback: function (response) {
+                    // Payment Successful! Redirect to Protected Gate
+                    const sessionToken = btoa(JSON.stringify({
+                        ref: response.reference,
+                        email: clientEmail,
+                        name: clientName,
+                        phone: clientPhone,
+                        pkg: currentCart.packageName,
+                        tier: currentCart.tier
+                    }));
+
+                    window.location.href = `/welcome.html?session_id=${sessionToken}`;
+                },
+                onClose: function () {
+                    alert('Transaction was cancelled.');
+                }
+            });
+
+            handler.openIframe();
+        }
+
+
+    </script>
 
 </body>
 
