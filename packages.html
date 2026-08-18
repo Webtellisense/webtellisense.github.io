@@ -190,7 +190,7 @@
             </div>
         </section>
 
-        <!-- ─── REBUILT PACKAGES SECTION (NATIVE - NO IFRAME) ─── -->
+        <!-- ─── REBUILT PACKAGES SECTION ─── -->
         <section id="wt-services-section" aria-label="All packages">
             <div class="container">
 
@@ -361,7 +361,7 @@
                             <span class="wt-pkg-badge-cat">Frontline</span>
                             <span class="wt-pkg-badge-model hybrid">Hybrid Build</span>
                             <img id="badge-frontline" src="assets/img/badges/frontline_badge_t1.png"
-                                alt="Frontline Badge" onerror="this.src='assets/img/badges/frontline_icon_v1.png'">
+                                alt="Frontline Badge" onerror="this.src='assets/img/badges/frontline_badge_t1.png'">
                         </div>
                         <div class="wt-pkg-header">
                             <h3 class="wt-pkg-title">Website Design & GBP</h3>
@@ -397,7 +397,7 @@
                             <span class="wt-pkg-badge-cat">Cashflow</span>
                             <span class="wt-pkg-badge-model hybrid">Setup + Retainer</span>
                             <img id="badge-cashflow" src="assets/img/badges/cashflow_badge_t1.png" alt="Cashflow Badge"
-                                onerror="this.src='assets/img/badges/cashflow_badge_icon_v1.png'">
+                                onerror="this.src='assets/img/badges/cashflow_badge_t1.png'">
                         </div>
                         <div class="wt-pkg-header">
                             <h3 class="wt-pkg-title">Landing Pages & Funnels</h3>
@@ -432,7 +432,7 @@
                             <span class="wt-pkg-badge-cat">Heroes</span>
                             <span class="wt-pkg-badge-model retainer">Monthly Retainer</span>
                             <img id="badge-heroes" src="assets/img/badges/heroes_badge_t1.png" alt="Heroes Badge"
-                                onerror="this.src='assets/img/badges/heroes_badge_v1.png'">
+                                onerror="this.src='assets/img/badges/heroes_badge_t1.png'">
                         </div>
                         <div class="wt-pkg-header">
                             <h3 class="wt-pkg-title">Complete Growth Ecosystem</h3>
@@ -565,19 +565,19 @@
 
                 <div class="tiers-grid">
 
-                    <!-- t1 -->
+                    <!-- V1 -->
                     <div class="tier-card">
-                        <div class="tier-badge">Heroes t1</div>
+                        <div class="tier-badge">Heroes V1</div>
                         <div class="tier-name">Foundation System</div>
                         <div class="tier-subtitle">For businesses that need to get visible and start converting.</div>
-                        <ul class="tier-includes" aria-label="Heroes t1 includes">
+                        <ul class="tier-includes" aria-label="Heroes V1 includes">
                             <li>Frontline — website + Google Business Profile</li>
                             <li>Vibes — social media management</li>
                             <li>Cashflow — landing pages + WhatsApp funnels</li>
                             <li>Dedicated account manager</li>
                             <li>Monthly strategy session with founders</li>
                         </ul>
-                        <a href="/contact" class="tier-cta tier-cta-outline">Start with t1 &rarr;</a>
+                        <a href="/contact" class="tier-cta tier-cta-outline">Start with V1 &rarr;</a>
                     </div>
 
                     <!-- V2 -->
@@ -587,7 +587,7 @@
                         <div class="tier-subtitle">For businesses ready to grow through paid and organic channels at the
                             same time.</div>
                         <ul class="tier-includes" aria-label="Heroes V2 includes">
-                            <li>Everything in t1</li>
+                            <li>Everything in V1</li>
                             <li>Fireshot — paid ads on Meta, Google, TikTok</li>
                             <li>Deeproots — SEO programs and local ranking</li>
                             <li>Priority turnaround on all deliverables</li>
@@ -940,6 +940,20 @@
     <script>
         /* ─── WEBTELLISENSE INTERACTIVE ENGINE ─── */
 
+        // ─── Update Drawer / Modal Header Text Dynamically ───
+        const headerTitle = document.getElementById('wt-drawer-pkg-title');
+        const headerTier = document.getElementById('wt-drawer-pkg-tier');
+
+        if (headerTitle) {
+            // Updates to e.g., "Fireshot" or "Heroes"
+            headerTitle.innerText = packageName;
+        }
+
+        if (headerTier) {
+            // Formats tier key to uppercase e.g., "ENTRY", "GROWTH", "SCALE"
+            headerTier.innerText = activeTierKey.toUpperCase();
+        }
+
         // Active State Tracker
         let currentCart = {
             packageId: 'swagger',
@@ -1179,9 +1193,11 @@
                 }
             },
             heroes: {
-                t1: {
+                v1: {
                     price: 350000,
                     timeline: "3 Months Min",
+                    adMin: 50000,
+                    adMax: 100000,
                     badge: "assets/img/badges/heroes_badge_t1.png",
                     specs: [
                         "✓ Full Ecosystem Integration: Web + Ads + Social",
@@ -1193,7 +1209,9 @@
                 v2: {
                     price: 500000,
                     timeline: "3 Months Min",
-                    badge: "assets/img/badges/heroes_badge_v2.png",
+                    adMin: 100000,
+                    adMax: 300000,
+                    badge: "assets/img/badges/heroes_badge_t2.png",
                     specs: [
                         "✓ Scaled Growth Ecosystem Integration",
                         "✓ Multi-Channel Ad Campaigns + Retargeting",
@@ -1204,7 +1222,9 @@
                 v3: {
                     price: 800000,
                     timeline: "3 Months Min",
-                    badge: "assets/img/badges/heroes_badge_v3.png",
+                    adMin: 250000,
+                    adMax: 1000000,
+                    badge: "assets/img/badges/heroes_badge_t3.png",
                     specs: [
                         "✓ Market Domination System (Full Agency Force)",
                         "✓ Complete Web, CRO, Funnels & Local SEO",
@@ -1297,18 +1317,40 @@
             currentCart.tier = activeTierKey;
             currentCart.baseFee = selectedTier.price;
             currentCart.adBudgetMin = selectedTier.adMin || 0;
+            currentCart.adBudgetMax = selectedTier.adMax || 0;
 
-            // Toggle Ad Budget Field visibility depending on package capability
-            const adBudgetWrapper = document.getElementById('wt-ad-budget-wrapper');
+            // Update Header Elements using exact HTML IDs
+            const pkgTitleElem = document.getElementById('wt-cart-package-title');
+            const tierTitleElem = document.getElementById('wt-cart-tier-title');
+
+            if (pkgTitleElem) pkgTitleElem.innerText = packageName;
+            if (tierTitleElem) tierTitleElem.innerText = `Tier: ${activeTierKey.toUpperCase()}`;
+
+            // Fixed ID Match: Target #wt-ad-budget-container
+            const adBudgetContainer = document.getElementById('wt-ad-budget-container');
             const adBudgetInput = document.getElementById('wt-ad-budget-input');
+            const adLimitsHint = document.getElementById('wt-ad-limits');
 
-            if (adBudgetWrapper && adBudgetInput) {
+            if (adBudgetContainer && adBudgetInput) {
                 if (currentCart.adBudgetMin > 0) {
-                    adBudgetWrapper.style.display = 'block';
+                    adBudgetContainer.style.display = 'block';
                     adBudgetInput.value = currentCart.adBudgetMin;
                     adBudgetInput.min = currentCart.adBudgetMin;
+
+                    if (currentCart.adBudgetMax) {
+                        adBudgetInput.max = currentCart.adBudgetMax;
+                    }
+
+                    // Update Dynamic Limits Badge Text
+                    if (adLimitsHint) {
+                        const minFormatted = `₦${currentCart.adBudgetMin.toLocaleString()}`;
+                        const maxFormatted = currentCart.adBudgetMax
+                            ? ` | Max: ₦${currentCart.adBudgetMax.toLocaleString()}`
+                            : '';
+                        adLimitsHint.innerText = `Min: ${minFormatted}${maxFormatted}`;
+                    }
                 } else {
-                    adBudgetWrapper.style.display = 'none';
+                    adBudgetContainer.style.display = 'none';
                     adBudgetInput.value = 0;
                 }
             }
@@ -1325,7 +1367,7 @@
             // Open Checkout Drawer
             const drawer = document.getElementById('wt-checkout-drawer');
             if (drawer) {
-                drawer.style.display = 'flex'; // or 'block' depending on your CSS setup
+                drawer.style.display = 'flex';
             }
         }
 
