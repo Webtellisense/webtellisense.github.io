@@ -108,9 +108,6 @@
             src="https://www.facebook.com/tr?id=806267492040936&ev=PageView&noscript=1" /></noscript>
     <!-- End Meta Pixel Code -->
 
-    <!-- Paystack -->
-    <script src="[https://js.paystack.co/v1/inline.js](https://js.paystack.co/v1/inline.js)"></script>
-
 </head>
 
 <body class="index-page">
@@ -483,8 +480,8 @@
 
                     <!-- Contact Info -->
                     <div class="wt-form-group">
-                        <label>Full Name *</label>
-                        <input type="text" id="wt-client-name" required placeholder="e.g. Samuel Okon">
+                        <label>Full Name or Business Name *</label>
+                        <input type="text" id="wt-client-name" required placeholder="e.g. Glofon Foods">
                     </div>
 
                     <div class="wt-form-group">
@@ -945,14 +942,14 @@
 
         // Active State Tracker
         let currentCart = {
-            packageName: '',
-            packageId: '',
-            tier: 'basic',
-            baseFee: 0,
+            packageId: 'swagger',
+            packageName: 'Swagger',
+            tier: 'entry',
+            baseFee: 100000,
+            durationMonths: 1,
             adBudgetMin: 0,
-            adBudgetMax: 0,
             selectedAdBudget: 0,
-            durationMonths: 1
+            calculatedGrandTotal: 100000
         };
 
         // Filter Packages
@@ -1270,51 +1267,84 @@
             currentCart.adBudgetMax = tierData.adMax || 0;
         }
 
-        // Open Checkout Drawer Modal
+        // ─── 1. OPEN CHECKOUT DRAWER / MODAL ───
         function openCheckout(packageName, packageId) {
-            currentCart.packageName = packageName;
+            const pkg = packageData[packageId];
+            if (!pkg) return;
+
+            // Find the active tier button inside the package card
+            const priceElem = document.getElementById(`price-${packageId}`);
+            const card = priceElem ? priceElem.closest('.wt-pkg-card') : null;
+            const activeBtn = card ? card.querySelector('.wt-pkg-tier-btn.active') : null;
+
+            // Extract active tier key (fallback to first available tier in pkg)
+            let activeTierKey = Object.keys(pkg)[0];
+            if (activeBtn) {
+                // Try getting from data-tier attribute first, else parse onclick
+                activeTierKey = activeBtn.getAttribute('data-tier');
+                if (!activeTierKey) {
+                    const onclickStr = activeBtn.getAttribute('onclick') || '';
+                    const match = onclickStr.match(/'([^']+)'\s*\)$/);
+                    if (match) activeTierKey = match[1];
+                }
+            }
+
+            const selectedTier = pkg[activeTierKey] || pkg[Object.keys(pkg)[0]];
+
+            // Update Cart State
             currentCart.packageId = packageId;
+            currentCart.packageName = packageName;
+            currentCart.tier = activeTierKey;
+            currentCart.baseFee = selectedTier.price;
+            currentCart.adBudgetMin = selectedTier.adMin || 0;
 
-            if (!currentCart.baseFee || currentCart.baseFee === 0) {
-                // Default fallback if clicked without tier change
-                const priceTxt = document.getElementById(`price-${packageId}`).innerText.replace(/[^0-9]/g, '');
-                currentCart.baseFee = parseInt(priceTxt) || 75000;
+            // Toggle Ad Budget Field visibility depending on package capability
+            const adBudgetWrapper = document.getElementById('wt-ad-budget-wrapper');
+            const adBudgetInput = document.getElementById('wt-ad-budget-input');
+
+            if (adBudgetWrapper && adBudgetInput) {
+                if (currentCart.adBudgetMin > 0) {
+                    adBudgetWrapper.style.display = 'block';
+                    adBudgetInput.value = currentCart.adBudgetMin;
+                    adBudgetInput.min = currentCart.adBudgetMin;
+                } else {
+                    adBudgetWrapper.style.display = 'none';
+                    adBudgetInput.value = 0;
+                }
             }
 
-            document.getElementById('wt-cart-package-title').innerText = packageName;
-            document.getElementById('wt-cart-tier-title').innerText = `Tier: ${currentCart.tier.toUpperCase()}`;
+            // Update Drawer Header Text
+            const headerTitle = document.getElementById('wt-drawer-pkg-title');
+            const headerTier = document.getElementById('wt-drawer-pkg-tier');
+            if (headerTitle) headerTitle.innerText = packageName;
+            if (headerTier) headerTier.innerText = activeTierKey.toUpperCase();
 
-            // Configure Ad Budget UI
-            const adContainer = document.getElementById('wt-ad-budget-container');
-            const adInput = document.getElementById('wt-ad-budget-input');
-
-            if (currentCart.adBudgetMin > 0) {
-                adContainer.style.display = 'block';
-                document.getElementById('wt-ad-limits').innerText = `Min: ₦${currentCart.adBudgetMin.toLocaleString()} | Max: ₦${currentCart.adBudgetMax.toLocaleString()}`;
-                adInput.min = currentCart.adBudgetMin;
-                adInput.max = currentCart.adBudgetMax;
-                adInput.value = currentCart.adBudgetMin;
-                currentCart.selectedAdBudget = currentCart.adBudgetMin;
-            } else {
-                adContainer.style.display = 'none';
-                currentCart.selectedAdBudget = 0;
-            }
-
+            // Recalculate Live Invoice Totals
             calculateInvoiceTotal();
-            document.getElementById('wt-checkout-drawer').style.display = 'flex';
+
+            // Open Checkout Drawer
+            const drawer = document.getElementById('wt-checkout-drawer');
+            if (drawer) {
+                drawer.style.display = 'flex'; // or 'block' depending on your CSS setup
+            }
         }
 
+        // ─── 2. CLOSE CHECKOUT DRAWER ───
         function closeCheckout() {
-            document.getElementById('wt-checkout-drawer').style.display = 'none';
+            const drawer = document.getElementById('wt-checkout-drawer');
+            if (drawer) {
+                drawer.style.display = 'none';
+            }
         }
 
-        // Live Invoice Calculation
+        // ─── 3. LIVE INVOICE CALCULATION ───
         function calculateInvoiceTotal() {
             const durationRadio = document.querySelector('input[name="wt_duration"]:checked');
-            currentCart.durationMonths = parseInt(durationRadio.value) || 1;
+            currentCart.durationMonths = durationRadio ? (parseInt(durationRadio.value, 10) || 1) : 1;
 
             if (currentCart.adBudgetMin > 0) {
-                const inputVal = parseInt(document.getElementById('wt-ad-budget-input').value) || 0;
+                const inputElem = document.getElementById('wt-ad-budget-input');
+                const inputVal = inputElem ? parseInt(inputElem.value, 10) || 0 : 0;
                 currentCart.selectedAdBudget = inputVal;
             } else {
                 currentCart.selectedAdBudget = 0;
@@ -1331,28 +1361,40 @@
             let discountAmount = subtotalFee * discountRate;
             let grandTotal = (subtotalFee - discountAmount) + totalAdFee;
 
-            // Render Breakdown
-            document.getElementById('inv-service-fee').innerText = `₦${subtotalFee.toLocaleString()}`;
+            // Update UI Breakdown Elements
+            const invService = document.getElementById('inv-service-fee');
+            const invAdRow = document.getElementById('inv-ad-row');
+            const invAdFee = document.getElementById('inv-ad-fee');
+            const invDiscountRow = document.getElementById('inv-discount-row');
+            const invDiscountFee = document.getElementById('inv-discount-fee');
+            const invGrandTotal = document.getElementById('inv-grand-total');
 
-            if (totalAdFee > 0) {
-                document.getElementById('inv-ad-row').style.display = 'flex';
-                document.getElementById('inv-ad-fee').innerText = `₦${totalAdFee.toLocaleString()}`;
-            } else {
-                document.getElementById('inv-ad-row').style.display = 'none';
+            if (invService) invService.innerText = `₦${subtotalFee.toLocaleString()}`;
+
+            if (invAdRow && invAdFee) {
+                if (totalAdFee > 0) {
+                    invAdRow.style.display = 'flex';
+                    invAdFee.innerText = `₦${totalAdFee.toLocaleString()}`;
+                } else {
+                    invAdRow.style.display = 'none';
+                }
             }
 
-            if (discountAmount > 0) {
-                document.getElementById('inv-discount-row').style.display = 'flex';
-                document.getElementById('inv-discount-fee').innerText = `-₦${discountAmount.toLocaleString()}`;
-            } else {
-                document.getElementById('inv-discount-row').style.display = 'none';
+            if (invDiscountRow && invDiscountFee) {
+                if (discountAmount > 0) {
+                    invDiscountRow.style.display = 'flex';
+                    invDiscountFee.innerText = `-₦${discountAmount.toLocaleString()}`;
+                } else {
+                    invDiscountRow.style.display = 'none';
+                }
             }
 
-            document.getElementById('inv-grand-total').innerText = `₦${grandTotal.toLocaleString()}`;
+            if (invGrandTotal) invGrandTotal.innerText = `₦${grandTotal.toLocaleString()}`;
+
             currentCart.calculatedGrandTotal = grandTotal;
         }
 
-        // Paystack Payment Execution
+        // ─── 4. EXECUTE PAYSTACK PAYMENT FROM FORM ───
         function executePaystackPayment(e) {
             e.preventDefault();
 
@@ -1360,22 +1402,29 @@
             const clientEmail = document.getElementById('wt-client-email').value;
             const clientPhone = document.getElementById('wt-client-phone').value;
 
+            if (!clientEmail) {
+                alert("Please enter a valid email address.");
+                return;
+            }
+
+            // Initialize Paystack Pop
             const handler = PaystackPop.setup({
-                key: 'pk_live_YOUR_PAYSTACK_PUBLIC_KEY', // Replace with your Paystack key
+                key: 'pk_test_5580403d072515c005ab132ce3c079d52afc5226', // Put your live/test Public Key here
                 email: clientEmail,
-                amount: currentCart.calculatedGrandTotal * 100, // Amount in kobo
+                amount: currentCart.calculatedGrandTotal * 100, // Converted to Kobo
                 currency: 'NGN',
+                ref: 'WT_' + Math.floor((Math.random() * 1000000000) + 1),
                 metadata: {
                     custom_fields: [
                         { display_name: "Client Name", variable_name: "client_name", value: clientName },
                         { display_name: "Phone/WhatsApp", variable_name: "client_phone", value: clientPhone },
                         { display_name: "Package", variable_name: "package_name", value: currentCart.packageName },
-                        { display_name: "Tier", variable_name: "package_tier", value: currentCart.tier },
+                        { display_name: "Tier", variable_name: "package_tier", value: currentCart.tier.toUpperCase() },
                         { display_name: "Duration Months", variable_name: "duration_months", value: currentCart.durationMonths }
                     ]
                 },
                 callback: function (response) {
-                    // Payment Successful! Redirect to Protected Gate
+                    // Payment Successful! Pass details to protected gate page
                     const sessionToken = btoa(JSON.stringify({
                         ref: response.reference,
                         email: clientEmail,
@@ -1398,6 +1447,7 @@
 
     </script>
 
+    <script src="https://js.paystack.co/v1/inline.js"></script>
 </body>
 
 </html>
