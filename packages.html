@@ -15,12 +15,11 @@
     </meta>
 
     <!-- Open Graph / Social Media Meta (For LinkedIn, WhatsApp, Twitter etc.) -->
-    <meta property="og:title" content="Webtellisense | Eket’s Top Web Design Agency">
-    <meta property="og:description"
-        content="Affordable web design & SEO solutions in Eket. Let’s build your online presence!">
+    <meta property="og:title" content="Digital Marketing Packages for Nigerian SMEs | Webtellisense">
+    <meta property="og:description" content="Affordable web design & SEO solutions in Eket. Let’s build your online presence!">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://webtellisense.com">
-    <meta property="og:image" content="https://webtellisense.com/assets/img/og-preview.jpg">
+    <meta property="og:image" content="https://webtellisense.com/assets/img/logo.png">
 
     <!-- Favicon (All Formats for Cross-Browser Support) -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -225,7 +224,8 @@
 
                         <div class="wt-pkg-footer">
                             <span class="wt-pkg-timeline" id="time-swagger">⏱ Delivery: 7 Days</span>
-                            <button class="wt-pkg-btn-buy" onclick="openCheckout('Swagger', 'swagger')">Buy Now
+                            <button class="wt-pkg-btn-buy"
+                                onclick="openCheckout('Swagger', 'swagger'); fbq('track', 'InitiateCheckout');">Buy Now
                                 →</button>
                         </div>
                     </article>
@@ -249,7 +249,8 @@
                                 onclick="switchTier('fireshot', 'basic')">Basic</button>
                             <button class="wt-pkg-tier-btn"
                                 onclick="switchTier('fireshot', 'standard')">Standard</button>
-                            <button class="wt-pkg-tier-btn" onclick="switchTier('fireshot', 'premium')">Premium</button>
+                            <button class="wt-pkg-tier-btn"
+                                onclick="switchTier('fireshot', 'premium'); fbq('track', 'InitiateCheckout');">Premium</button>
                         </div>
 
                         <ul class="wt-pkg-specs" id="specs-fireshot">
@@ -297,7 +298,9 @@
 
                         <div class="wt-pkg-footer">
                             <span class="wt-pkg-timeline" id="time-deeproots">⏱ 6-Month Commitment</span>
-                            <button class="wt-pkg-btn-buy" onclick="openCheckout('Deeproots', 'deeproots')">Get Started
+                            <button class="wt-pkg-btn-buy"
+                                onclick="openCheckout('Deeproots', 'deeproots'); fbq('track', 'InitiateCheckout');">Get
+                                Started
                                 →</button>
                         </div>
                     </article>
@@ -331,7 +334,8 @@
 
                         <div class="wt-pkg-footer">
                             <span class="wt-pkg-timeline" id="time-vibes">⏱ 3-Month Commitment</span>
-                            <button class="wt-pkg-btn-buy" onclick="openCheckout('Vibes', 'vibes')">Get Started
+                            <button class="wt-pkg-btn-buy"
+                                onclick="openCheckout('Vibes', 'vibes'); fbq('track', 'InitiateCheckout');">Get Started
                                 →</button>
                         </div>
                     </article>
@@ -367,7 +371,9 @@
 
                         <div class="wt-pkg-footer">
                             <span class="wt-pkg-timeline" id="time-frontline">⏱ Delivery: 14 Days</span>
-                            <button class="wt-pkg-btn-buy" onclick="openCheckout('Frontline', 'frontline')">Build My
+                            <button class="wt-pkg-btn-buy"
+                                onclick="openCheckout('Frontline', 'frontline'); fbq('track', 'InitiateCheckout');">Build
+                                My
                                 Site →</button>
                         </div>
                     </article>
@@ -402,7 +408,9 @@
 
                         <div class="wt-pkg-footer">
                             <span class="wt-pkg-timeline" id="time-cashflow">⏱ 3 Months</span>
-                            <button class="wt-pkg-btn-buy" onclick="openCheckout('Cashflow', 'cashflow')">Get Cashflow
+                            <button class="wt-pkg-btn-buy"
+                                onclick="openCheckout('Cashflow', 'cashflow'); fbq('track', 'InitiateCheckout');">Get
+                                Cashflow
                                 →</button>
                         </div>
                     </article>
@@ -437,7 +445,8 @@
 
                         <div class="wt-pkg-footer">
                             <span class="wt-pkg-timeline" id="time-heroes">⏱ 3-Month Commitment</span>
-                            <button class="wt-pkg-btn-buy" onclick="openCheckout('Heroes Ecosystem', 'heroes')">Activate
+                            <button class="wt-pkg-btn-buy"
+                                onclick="openCheckout('Heroes Ecosystem', 'heroes'); fbq('track', 'InitiateCheckout');">Activate
                                 Heroes →</button>
                         </div>
                     </article>
@@ -528,7 +537,8 @@
                         </div>
                     </div>
 
-                    <button type="submit" class="wt-btn-submit-pay">Proceed to Pay via Paystack →</button>
+                    <button type="submit" class="wt-btn-submit-pay" onclick="fbq('track', 'InitiateCheckout');">Proceed
+                        to Pay via Paystack →</button>
                 </form>
             </div>
         </div>
