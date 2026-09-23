@@ -3880,8 +3880,8 @@ section,
   background: #ffffff;
   padding: 32px;
   border-radius: 20px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
-  border: 1px solid var(--color-gray-200);
+  /* box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05); */
+  /* border: 1px solid var(--color-gray-200); */
 }
 .audit-card h3 {
   margin: 0;
@@ -5261,7 +5261,7 @@ hr.div {
 }
 
 .audit-content p {
-  color: rgba(255, 255, 255, 0.75);
+  color: --var(--font-secondary);
   font-size: 14.5px;
   margin-bottom: 16px;
 }
