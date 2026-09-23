@@ -12,11 +12,11 @@
         content="Compare website, SEO, ads, and full-service growth packages. Pick the plan that fits your business and start getting found online.">
     <meta name="keywords"
         content="digital marketing packages Nigeria, website packages Eket, SEO packages Akwa Ibom, SME growth plans">
-    </meta>
 
     <!-- Open Graph / Social Media Meta (For LinkedIn, WhatsApp, Twitter etc.) -->
     <meta property="og:title" content="Digital Marketing Packages for Nigerian SMEs | Webtellisense">
-    <meta property="og:description" content="Affordable web design & SEO solutions in Eket. Let’s build your online presence!">
+    <meta property="og:description"
+        content="Affordable web design & SEO solutions in Eket. Let’s build your online presence!">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://webtellisense.com">
     <meta property="og:image" content="https://webtellisense.com/assets/img/logo.png">
@@ -27,34 +27,35 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
 
-    <!-- Canonical URL (Avoid Duplicate Content Issues) -->
+    <!-- Canonical URL -->
     <link rel="canonical" href="https://webtellisense.com">
 
-    <!-- Preload Critical Resources (Faster Loading) -->
-    <!-- <link rel="preload" href="./assets/style/style.css" as="style"> -->
-    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" as="style">
-
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-    <!-- Font CSS -->
+    <!-- Font & Asset Preconnects -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+
+    <!-- Google Fonts with display=swap -->
     <link
-        href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
 
+    <!-- Preload Critical Icon Font -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    </noscript>
 
-    <!-- Main CSS File -->
-    <link href="assets/css/main.css" rel="stylesheet">
+    <!-- Vendor & Main CSS (Loaded Non-blocking) -->
+    <link rel="preload" href="assets/vendor/bootstrap/css/bootstrap.min.css" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    </noscript>
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/main.css">
 
     <!-- Meta WhatsApp Lead Pixel Code -->
     <script>
@@ -75,7 +76,6 @@
     <noscript><img height="1" width="1" style="display:none"
             src="https://www.facebook.com/tr?id=623478247158411&ev=PageView&noscript=1" />
     </noscript>
-    <!-- End Meta WhatsApp Pixel Code -->
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-PS5FNQCJRN"></script>
@@ -83,11 +83,8 @@
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'G-PS5FNQCJRN');
     </script>
-
-
 </head>
 
 <body class="index-page">
@@ -235,8 +232,8 @@
                         <div class="wt-pkg-thumb">
                             <span class="wt-pkg-badge-cat">Fireshot</span>
                             <span class="wt-pkg-badge-model retainer">Monthly Retainer</span>
-                            <img id="badge-fireshot" src="assets/img/badges/fireshot_badge_t1.png" alt="Fireshot Badge"
-                                onerror="this.src='assets/img/badges/fireshot_badge_icon.png'">
+                            <img id="badge-fireshot" src="assets/img/badges/fireshot_badge_t1.webp" alt="Fireshot Badge"
+                                onerror="this.src='assets/img/badges/fireshot_badge_t1.webp'">
                         </div>
                         <div class="wt-pkg-header">
                             <h3 class="wt-pkg-title">PPC & Paid Social Ads</h3>
@@ -249,8 +246,7 @@
                                 onclick="switchTier('fireshot', 'basic')">Basic</button>
                             <button class="wt-pkg-tier-btn"
                                 onclick="switchTier('fireshot', 'standard')">Standard</button>
-                            <button class="wt-pkg-tier-btn"
-                                onclick="switchTier('fireshot', 'premium')">Premium</button>
+                            <button class="wt-pkg-tier-btn" onclick="switchTier('fireshot', 'premium')">Premium</button>
                         </div>
 
                         <ul class="wt-pkg-specs" id="specs-fireshot">
@@ -262,7 +258,9 @@
 
                         <div class="wt-pkg-footer">
                             <span class="wt-pkg-timeline" id="time-fireshot">⏱ 3-Month Recommended</span>
-                            <button class="wt-pkg-btn-buy" onclick="openCheckout('Fireshot', 'fireshot'); fbq('track', 'InitiateCheckout');">Get Started
+                            <button class="wt-pkg-btn-buy"
+                                onclick="openCheckout('Fireshot', 'fireshot'); fbq('track', 'InitiateCheckout');">Get
+                                Started
                                 →</button>
                         </div>
                     </article>
@@ -273,7 +271,7 @@
                             <span class="wt-pkg-badge-cat">Deeproots</span>
                             <span class="wt-pkg-badge-model retainer">Monthly Retainer</span>
                             <img id="badge-deeproots" src="assets/img/badges/deeproots_badge_t1.png"
-                                alt="Deeproots Badge" onerror="this.src='assets/img/badges/Deeproots_badge_icon.png'">
+                                alt="Deeproots Badge" onerror="this.src='assets/img/badges/deeproots_badge_t1.webp'">
                         </div>
                         <div class="wt-pkg-header">
                             <h3 class="wt-pkg-title">SEO & Google Authority</h3>
@@ -311,7 +309,7 @@
                             <span class="wt-pkg-badge-cat">Vibes</span>
                             <span class="wt-pkg-badge-model retainer">Monthly Retainer</span>
                             <img id="badge-vibes" src="assets/img/badges/vibes_badge_t1.png" alt="Vibes Badge"
-                                onerror="this.src='assets/img/badges/vibes_badge_icon.png'">
+                                onerror="this.src='assets/img/badges/vibes_badge_t1.png'">
                         </div>
                         <div class="wt-pkg-header">
                             <h3 class="wt-pkg-title">Social Media Management</h3>
@@ -345,8 +343,8 @@
                         <div class="wt-pkg-thumb">
                             <span class="wt-pkg-badge-cat">Frontline</span>
                             <span class="wt-pkg-badge-model hybrid">Hybrid Build</span>
-                            <img id="badge-frontline" src="assets/img/badges/frontline_badge_t1.png"
-                                alt="Frontline Badge" onerror="this.src='assets/img/badges/frontline_badge_t1.png'">
+                            <img id="badge-frontline" src="assets/img/badges/frontline_badge_t1.webp"
+                                alt="Frontline Badge" onerror="this.src='assets/img/badges/frontline_badge_t1.webp'">
                         </div>
                         <div class="wt-pkg-header">
                             <h3 class="wt-pkg-title">Website Design & GBP</h3>
@@ -383,8 +381,8 @@
                         <div class="wt-pkg-thumb">
                             <span class="wt-pkg-badge-cat">Cashflow</span>
                             <span class="wt-pkg-badge-model hybrid">Setup + Retainer</span>
-                            <img id="badge-cashflow" src="assets/img/badges/cashflow_badge_t1.png" alt="Cashflow Badge"
-                                onerror="this.src='assets/img/badges/cashflow_badge_t1.png'">
+                            <img id="badge-cashflow" src="assets/img/badges/cashflow_badge_t1.webp" alt="Cashflow Badge"
+                                onerror="this.src='assets/img/badges/cashflow_badge_t1.webp'">
                         </div>
                         <div class="wt-pkg-header">
                             <h3 class="wt-pkg-title">Landing Pages & Funnels</h3>
@@ -896,37 +894,11 @@
     </a>
 
 
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <!-- Vendor & Core JS Files (Deferred Non-Blocking) -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script>
+    <script src="https://js.paystack.co/v1/inline.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
 
-    <script>
-        function resizeIframe(iframe) {
-            try {
-                const iframeDoc = iframe.contentWindow.document || iframe.contentDocument;
-
-                iframeDoc.body.style.margin = '0';
-                iframeDoc.body.style.padding = '0';
-                iframeDoc.body.style.overflow = 'hidden';
-
-                iframe.style.height = 'auto';
-                const innerHeight = iframeDoc.documentElement.scrollHeight;
-                iframe.style.height = innerHeight + 'px';
-            } catch (e) {
-                console.error("Cross-origin issue or loading error.", e);
-            }
-        }
-
-    </script>
-
-    <!-- Main JS File -->
-    <script src="assets/js/main.js"></script>
 
     <script>
         /* ─── WEBTELLISENSE INTERACTIVE ENGINE ─── */
@@ -1017,7 +989,7 @@
                 basic: {
                     price: 180000,
                     timeline: "3 Months",
-                    badge: "assets/img/badges/cashflow_badge_t1.png",
+                    badge: "assets/img/badges/cashflow_badge_t1.webp",
                     specs: [
                         "✓ Dedicated Sales Landing Page Build",
                         "✓ WhatsApp Automation Integration",
@@ -1028,7 +1000,7 @@
                 standard: {
                     price: 280000,
                     timeline: "3 Months",
-                    badge: "assets/img/badges/cashflow_badge_t2.png",
+                    badge: "assets/img/badges/cashflow_badge_t2.webp",
                     specs: [
                         "✓ Multi-step Conversion Funnel",
                         "✓ Advanced WhatsApp Autoresponder Sequencing",
@@ -1043,7 +1015,7 @@
                     timeline: "3 Months Min",
                     adMin: 50000,
                     adMax: 100000,
-                    badge: "assets/img/badges/fireshot_badge_t1.png",
+                    badge: "assets/img/badges/fireshot_badge_t1.webp",
                     specs: [
                         "✓ 1 Active Platform Campaign (Meta OR Google)",
                         "✓ Standard Audience Targeting & Ad Copy",
@@ -1069,7 +1041,7 @@
                     timeline: "3 Months Min",
                     adMin: 250000,
                     adMax: 1000000,
-                    badge: "assets/img/badges/fireshot_badge_t3.png",
+                    badge: "assets/img/badges/fireshot_badge_t3.webp",
                     specs: [
                         "✓ High-Scale Multi-Channel Ad Funnels",
                         "✓ Custom Video Scripting & Dynamic Creatives",
@@ -1082,7 +1054,7 @@
                 essentials: {
                     price: 75000,
                     timeline: "6 Months Min",
-                    badge: "assets/img/badges/Deeproots_badge_t1.png",
+                    badge: "assets/img/badges/Deeproots_badge_t1.webp",
                     specs: [
                         "✓ Technical Website Audit & Fixes",
                         "✓ Local Keyword Research (Eket/Nigeria)",
@@ -1104,7 +1076,7 @@
                 domination: {
                     price: 300000,
                     timeline: "6 Months Min",
-                    badge: "assets/img/badges/deeproots_badge_t3.png",
+                    badge: "assets/img/badges/deeproots_badge_t3.webp",
                     specs: [
                         "✓ Aggressive Market Domination SEO Strategy",
                         "✓ Full Content Marketing Execution",
@@ -1152,7 +1124,7 @@
                 basic: {
                     price: 200000,
                     timeline: "14 Days",
-                    badge: "assets/img/badges/frontline_badge_t1.png",
+                    badge: "assets/img/badges/frontline_badge_t1.webp",
                     specs: [
                         "✓ Essential Landing/Brochure Website",
                         "✓ Basic Google Business Profile Setup",
@@ -1163,7 +1135,7 @@
                 pro: {
                     price: 500000,
                     timeline: "21 Days",
-                    badge: "assets/img/badges/frontline_icon_t1.png",
+                    badge: "assets/img/badges/frontline_badge_t2.webp",
                     specs: [
                         "✓ Multi-page Business Website (Up to 7 Pages)",
                         "✓ GBP Optimization + Local Search Verification",
@@ -1174,7 +1146,7 @@
                 enterprise: {
                     price: 850000,
                     timeline: "30 Days",
-                    badge: "assets/img/badges/frontline_icon_v2.png",
+                    badge: "assets/img/badges/frontline_badge_t3.webp",
                     specs: [
                         "✓ Custom High-Performance Web Application",
                         "✓ Full Local SEO Domination & GBP Management",
@@ -1480,7 +1452,6 @@
 
     </script>
 
-    <script src="https://js.paystack.co/v1/inline.js"></script>
 </body>
 
 </html>
