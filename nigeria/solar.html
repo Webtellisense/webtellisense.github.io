@@ -1,0 +1,745 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0b1120" />
+    <meta name="description"
+        content="High-performance solar marketing and lead generation growth briefing for solar installers and inverter companies in Nigeria." />
+    <title>Nigeria Solar Marketing Briefing | Webtellisense</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <link rel="manifest" href="../site.webmanifest">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        ink: "#0B1120",
+                        panel: "#111B2D",
+                        line: "#26364A",
+                        cyan: "#0EA5E9",
+                        electric: "#0066FF",
+                        sun: "#F59E0B",
+                    },
+                    fontFamily: {
+                        sans: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
+                        display: ["Manrope", "Inter", "ui-sans-serif", "system-ui", "sans-serif"],
+                    },
+                },
+            },
+        };
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <style>
+        :root {
+            color-scheme: dark;
+            scroll-behavior: smooth;
+        }
+
+        html {
+            scroll-padding-top: 88px;
+        }
+
+        body {
+            background: #0b1120;
+            color: #e8eff8;
+        }
+
+        ::selection {
+            background: rgba(14, 165, 233, .32);
+            color: #fff;
+        }
+
+        .container-wide {
+            width: min(1160px, calc(100% - 40px));
+            margin-inline: auto;
+        }
+
+        .eyebrow {
+            letter-spacing: .16em;
+        }
+
+        .hero-glow {
+            background: radial-gradient(ellipse at 80% 15%, rgba(14, 165, 233, .18), transparent 40%), radial-gradient(ellipse at 28% 76%, rgba(245, 158, 11, .14), transparent 30%);
+        }
+
+        .hero-photo {
+            background-image: linear-gradient(180deg, rgba(11, 17, 32, .25) 0%, rgba(11, 17, 32, .85) 100%), url("https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=1200&q=80");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .grid-lines {
+            background-image: linear-gradient(rgba(148, 163, 184, .055) 1px, transparent 1px), linear-gradient(90deg, rgba(148, 163, 184, .055) 1px, transparent 1px);
+            background-size: 36px 36px;
+        }
+
+        .surface {
+            background: #f8fafc;
+            color: #102033;
+        }
+
+        .package-card {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .package-card ul {
+            flex: 1;
+        }
+
+        .wa-pulse {
+            animation: pulse-ring 2.2s ease-out infinite;
+        }
+
+        @keyframes pulse-ring {
+            0% {
+                box-shadow: 0 0 0 0 rgba(34, 197, 94, .42);
+            }
+
+            70% {
+                box-shadow: 0 0 0 13px rgba(34, 197, 94, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(34, 197, 94, 0);
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+
+            *,
+            *::before,
+            *::after {
+                scroll-behavior: auto !important;
+                animation-duration: .01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: .01ms !important;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .container-wide {
+                width: min(100% - 32px, 1160px);
+            }
+        }
+    </style>
+</head>
+
+<body class="font-sans antialiased">
+    <a class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:bg-white focus:px-4 focus:py-3 focus:text-ink"
+        href="#main">Skip to content</a>
+
+    <header class="sticky top-0 z-50 border-b border-white/10 bg-ink/90 backdrop-blur-xl">
+        <div class="container-wide flex h-[72px] items-center justify-between gap-5">
+            <a href="#top" class="flex shrink-0 items-center gap-2.5" aria-label="Webtellisense home">
+                <img style="width: 50px;" src="./logo-3.png" alt="Webtellisense Logo">
+            </a>
+            <nav class="hidden items-center gap-7 lg:flex" aria-label="Main navigation">
+                <a class="text-[13px] font-medium text-slate-300 transition hover:text-white" href="#economics">The
+                    Growth Math</a>
+                <a class="text-[13px] font-medium text-slate-300 transition hover:text-white" href="#deliverables">What
+                    You Get</a>
+                <a class="text-[13px] font-medium text-slate-300 transition hover:text-white" href="#packages">Retainer
+                    Packages</a>
+                <a class="text-[13px] font-medium text-slate-300 transition hover:text-white" href="#services">Itemized
+                    Services</a>
+                <a class="text-[13px] font-medium text-slate-300 transition hover:text-white" href="#ad-spend">Ad
+                    Budgets</a>
+            </nav>
+            <a class="hidden items-center gap-2 rounded-md bg-emerald-500 px-4 py-2.5 text-[13px] font-bold text-white transition hover:bg-emerald-400 sm:inline-flex"
+                href="https://wa.me/2347075848564?text=Hi%20Webtellisense%20team,%20I%20saw%20your%20Nigeria%20solar%20marketing%20breakdown%20and%20would%20like%20to%20chat."
+                target="_blank" rel="noopener noreferrer">
+                <i data-lucide="message-circle" class="size-4"></i> Message Us on WhatsApp
+            </a>
+            <button id="menu-toggle"
+                class="grid size-10 place-items-center rounded-md border border-white/15 text-white lg:hidden"
+                aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-menu"><i data-lucide="menu"
+                    class="size-5"></i></button>
+        </div>
+        <nav id="mobile-menu" class="hidden border-t border-white/10 bg-ink px-4 pb-5 pt-3 lg:hidden"
+            aria-label="Mobile navigation">
+            <div class="container-wide grid gap-1">
+                <a class="mobile-link rounded px-3 py-3 text-sm text-slate-200 hover:bg-white/5" href="#economics">The
+                    Growth Math</a>
+                <a class="mobile-link rounded px-3 py-3 text-sm text-slate-200 hover:bg-white/5"
+                    href="#deliverables">What You Get</a>
+                <a class="mobile-link rounded px-3 py-3 text-sm text-slate-200 hover:bg-white/5"
+                    href="#packages">Retainer Packages</a>
+                <a class="mobile-link rounded px-3 py-3 text-sm text-slate-200 hover:bg-white/5"
+                    href="#services">Itemized Services</a>
+                <a class="mobile-link rounded px-3 py-3 text-sm text-slate-200 hover:bg-white/5" href="#ad-spend">Ad
+                    Budgets</a>
+                <a class="mt-2 inline-flex items-center justify-center gap-2 rounded-md bg-emerald-500 px-4 py-3 text-sm font-bold text-white"
+                    href="https://wa.me/2347075848564?text=Hi%20Webtellisense%20team,%20I%20saw%20your%20Nigeria%20solar%20marketing%20breakdown%20and%20would%20like%20to%20chat."
+                    target="_blank" rel="noopener noreferrer"><i data-lucide="message-circle" class="size-4"></i>
+                    Message Us on WhatsApp</a>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section id="top" class="hero-glow relative overflow-hidden border-b border-white/10">
+            <div
+                class="container-wide grid min-h-[610px] items-center gap-12 py-16 md:grid-cols-[1.08fr_.92fr] md:py-20">
+                <div class="relative z-10">
+                    <p class="eyebrow mb-6 inline-flex items-center gap-2 text-[10px] font-bold uppercase text-cyan">
+                        <span class="size-1.5 rounded-full bg-sun"></span> Nigeria Solar Installer Growth Briefing</p>
+                    <h1
+                        class="max-w-[680px] font-display text-[clamp(2.65rem,5.1vw,4.55rem)] font-extrabold leading-[1.04] tracking-[-.035em] text-white">
+                        Turn grid failures into consistent <span class="text-cyan">solar &amp; inverter contracts</span>
+                        across Nigeria.</h1>
+                    <p class="mt-6 max-w-[620px] text-[16px] leading-7 text-slate-300">With soaring diesel costs and
+                        unstable grid power, demand for solar is at an all-time high. We build high-converting lead
+                        funnels, targeted Meta &amp; Google ads, and local dominance systems specifically for Nigerian
+                        solar installers in Lagos, Abuja, and beyond.</p>
+                    <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+                        <a class="inline-flex min-h-12 items-center justify-center gap-2 rounded-md bg-emerald-500 px-5 text-sm font-bold text-white transition hover:bg-emerald-400"
+                            href="https://wa.me/2347075848564?text=Hi%20Webtellisense%20team,%20I%20saw%20your%20Nigeria%20solar%20marketing%20breakdown%20and%20would%20like%20to%20chat."
+                            target="_blank" rel="noopener noreferrer"><i data-lucide="message-circle"
+                                class="size-4"></i> Chat Directly on WhatsApp <i data-lucide="arrow-up-right"
+                                class="size-4"></i></a>
+                        <a class="inline-flex min-h-12 items-center justify-center gap-2 rounded-md border border-white/20 px-5 text-sm font-semibold text-white transition hover:border-cyan/60 hover:bg-white/5"
+                            href="#packages">View Packages &amp; Pricing <i data-lucide="arrow-down"
+                                class="size-4 text-cyan"></i></a>
+                    </div>
+                    <div
+                        class="mt-10 flex flex-wrap items-center gap-x-6 gap-y-3 border-t border-white/10 pt-5 text-xs text-slate-400">
+                        <span class="inline-flex items-center gap-2"><i data-lucide="map-pin"
+                                class="size-4 text-sun"></i> Lagos · Abuja · Port Harcourt · Ibadan</span><span
+                            class="inline-flex items-center gap-2"><i data-lucide="shield-check"
+                                class="size-4 text-cyan"></i> Full account ownership &amp; zero ad markup</span>
+                    </div>
+                </div>
+                <figure
+                    class="relative min-h-[410px] overflow-hidden rounded-xl border border-white/20 bg-panel shadow-2xl md:min-h-[470px]">
+                    <div class="hero-photo absolute inset-0"></div>
+                    <div
+                        class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink via-ink/80 to-transparent p-6 sm:p-7">
+                        <div class="flex items-end justify-between gap-4">
+                            <figcaption class="max-w-[320px]"><span
+                                    class="eyebrow text-[10px] font-bold uppercase text-cyan">High-Ticket
+                                    Acquisition</span>
+                                <p class="mt-2 font-display text-xl font-bold text-white">Market directly to homeowners
+                                    &amp; businesses seeking power reliability.</p><span
+                                    class="mt-2 inline-block text-[11px] text-white/65">Inverter Systems &amp;
+                                    Commercial Solar</span>
+                            </figcaption>
+                            <span
+                                class="hidden size-12 shrink-0 place-items-center rounded-full border border-white/25 bg-ink/70 text-sun backdrop-blur sm:grid"><i
+                                    data-lucide="sun" class="size-5"></i></span>
+                        </div>
+                    </div>
+                    <div
+                        class="absolute right-4 top-4 inline-flex items-center gap-2 rounded border border-white/20 bg-ink/80 px-3 py-2 text-[11px] font-semibold text-white backdrop-blur">
+                        <span class="size-1.5 rounded-full bg-emerald-400"></span> Built for Nigerian Installers
+                    </div>
+                </figure>
+            </div>
+        </section>
+
+        <!-- SECTION 01: THE ECONOMICS -->
+        <section id="economics" class="border-b border-white/10 bg-[#0d1626] py-20 md:py-24">
+            <div class="container-wide">
+                <div class="grid gap-10 lg:grid-cols-[1fr_1fr] lg:items-center">
+                    <div>
+                        <p class="eyebrow text-[10px] font-bold uppercase text-cyan">01 / The Growth Math</p>
+                        <h2
+                            class="mt-4 max-w-lg font-display text-3xl font-bold leading-tight text-white md:text-[40px]">
+                            Why one closed solar contract pays for months of marketing.</h2>
+                        <div class="mt-6 space-y-4 text-sm leading-7 text-slate-300">
+                            <p>In the Nigerian market, a standard residential or commercial inverter and solar
+                                installation ranges from <strong class="text-white">₦2,500,000 to over
+                                    ₦15,000,000+</strong>. Traditional marketing agencies charge exorbitant monthly
+                                retainers that eat straight into your installation margins.</p>
+                            <p>Our lean digital growth engine gives you professional web funnels, Google search
+                                dominance, and high-converting Meta ads starting at just <strong
+                                    class="text-white">₦200,000/mo</strong>. Closing just <strong class="text-sun">one
+                                    medium-sized residential or office installation</strong> easily covers your entire
+                                marketing investment for the year.</p>
+                        </div>
+                    </div>
+                    <div class="relative overflow-hidden rounded-xl border border-white/15 bg-panel">
+                        <img src="./economics.jpg" alt="Solar installation project in Nigeria"
+                            class="h-[280px] w-full object-cover sm:h-[320px]" />
+                        <div class="p-6 bg-panel/90 backdrop-blur border-t border-white/10">
+                            <div
+                                class="flex items-center gap-3 text-sun font-semibold text-xs uppercase tracking-wider">
+                                <i data-lucide="zap" class="size-4"></i> High-Intent Buyers</div>
+                            <p class="mt-1 font-display text-lg font-bold text-white">Targeting clients fed up with high
+                                fuel costs</p>
+                            <p class="mt-1 text-xs text-slate-400">Positioning your brand in front of affluent estate
+                                owners in Lekki, Ikeja, Abuja Gwarimpa, and Victoria Island.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-12 grid gap-px overflow-hidden rounded-md border border-line bg-line md:grid-cols-3">
+                    <article class="bg-ink p-6 sm:p-7">
+                        <div class="flex items-center justify-between"><span
+                                class="eyebrow text-[10px] font-bold uppercase text-slate-500">01 / ROI Math</span><i
+                                data-lucide="badge-dollar-sign" class="size-5 text-sun"></i></div>
+                        <p class="mt-7 font-display text-[29px] font-extrabold text-white">1 closed deal</p>
+                        <p class="mt-2 text-sm font-semibold text-cyan">Funds 6 to 12 months of campaigns</p>
+                        <p class="mt-3 text-xs leading-5 text-slate-400">Based on typical Nigerian residential &amp;
+                            office solar contract values and profit margins.</p>
+                    </article>
+                    <article class="bg-ink p-6 sm:p-7">
+                        <div class="flex items-center justify-between"><span
+                                class="eyebrow text-[10px] font-bold uppercase text-slate-500">02 / Ad Budget</span><i
+                                data-lucide="receipt" class="size-5 text-cyan"></i></div>
+                        <p class="mt-7 font-display text-[29px] font-extrabold text-white">0% markup</p>
+                        <p class="mt-2 text-sm font-semibold text-cyan">Your ad spend goes straight to platforms</p>
+                        <p class="mt-3 text-xs leading-5 text-slate-400">Directly billed to your business debit/credit
+                            card. Complete financial transparency.</p>
+                    </article>
+                    <article class="bg-ink p-6 sm:p-7">
+                        <div class="flex items-center justify-between"><span
+                                class="eyebrow text-[10px] font-bold uppercase text-slate-500">03 / Lead
+                                Routing</span><i data-lucide="message-square" class="size-5 text-sun"></i></div>
+                        <p class="mt-7 font-display text-[29px] font-extrabold text-white">Instant WhatsApp</p>
+                        <p class="mt-2 text-sm font-semibold text-cyan">Leads drop directly to your sales reps</p>
+                        <p class="mt-3 text-xs leading-5 text-slate-400">Never miss a hot inquiry when grid power drops
+                            or fuel prices spike in your city.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 02: WHAT YOU GET (EXPECTED DELIVERABLES) -->
+        <section id="deliverables" class="surface py-20 md:py-24">
+            <div class="container-wide">
+                <div class="flex flex-col justify-between gap-5 md:flex-row md:items-end">
+                    <div>
+                        <p class="eyebrow text-[10px] font-bold uppercase text-electric">02 / Expected Deliverables</p>
+                        <h2 class="mt-4 font-display text-3xl font-extrabold leading-tight md:text-[40px]">What you
+                            actually get when we partner up.</h2>
+                    </div>
+                    <p class="max-w-md text-sm leading-6 text-slate-600">No fluff or vanity metrics. Here is the exact
+                        engine we build to position your solar business as the go-to installer.</p>
+                </div>
+
+                <div class="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                    <div class="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+                        <span class="grid size-12 place-items-center rounded-lg bg-electric/10 text-electric mb-4"><i
+                                data-lucide="layout-template" class="size-6"></i></span>
+                        <h3 class="font-display text-lg font-bold text-slate-900">High-Converting Funnel Website</h3>
+                        <p class="mt-2 text-xs leading-6 text-slate-600">A lightning-fast, mobile-optimized website
+                            featuring interactive solar cost estimators and instant quote request forms tailored for
+                            Nigerian clients.</p>
+                    </div>
+
+                    <div class="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+                        <span class="grid size-12 place-items-center rounded-lg bg-cyan/10 text-cyan mb-4"><i
+                                data-lucide="target" class="size-6"></i></span>
+                        <h3 class="font-display text-lg font-bold text-slate-900">Precision Meta &amp; Google Ads</h3>
+                        <p class="mt-2 text-xs leading-6 text-slate-600">Laser-targeted ad campaigns capturing
+                            high-intent searches on Google and capturing attention on Instagram/Facebook with real
+                            installation proof.</p>
+                    </div>
+
+                    <div class="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+                        <span class="grid size-12 place-items-center rounded-lg bg-amber-500/10 text-sun mb-4"><i
+                                data-lucide="map-pin" class="size-6"></i></span>
+                        <h3 class="font-display text-lg font-bold text-slate-900">Google Business Profile Domination
+                        </h3>
+                        <p class="mt-2 text-xs leading-6 text-slate-600">Optimized local maps listing so when estate
+                            managers or homeowners search "solar installer near me" in your city, your business appears
+                            first.</p>
+                    </div>
+
+                    <div class="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+                        <span
+                            class="grid size-12 place-items-center rounded-lg bg-emerald-500/10 text-emerald-600 mb-4"><i
+                                data-lucide="message-circle" class="size-6"></i></span>
+                        <h3 class="font-display text-lg font-bold text-slate-900">Automated WhatsApp CRM Routing</h3>
+                        <p class="mt-2 text-xs leading-6 text-slate-600">Instant lead notification setup so prospect
+                            inquiries from ads route straight to your sales team's WhatsApp within seconds.</p>
+                    </div>
+
+                    <div class="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+                        <span
+                            class="grid size-12 place-items-center rounded-lg bg-purple-500/10 text-purple-600 mb-4"><i
+                                data-lucide="video" class="size-6"></i></span>
+                        <h3 class="font-display text-lg font-bold text-slate-900">Professional Creative &amp;
+                            Copywriting</h3>
+                        <p class="mt-2 text-xs leading-6 text-slate-600">Engaging graphics, video reels, and copywriting
+                            crafted around current Nigerian economic realities (fuel prices, load shedding,
+                            uninterrupted power).</p>
+                    </div>
+
+                    <div class="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+                        <span class="grid size-12 place-items-center rounded-lg bg-blue-500/10 text-blue-600 mb-4"><i
+                                data-lucide="trending-up" class="size-6"></i></span>
+                        <h3 class="font-display text-lg font-bold text-slate-900">Transparent Bi-Weekly Reporting</h3>
+                        <p class="mt-2 text-xs leading-6 text-slate-600">Clear tracking dashboards showing exactly how
+                            many leads generated, cost per lead, and campaign performance without technical jargon.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 03: RETAINER PACKAGES (NGN PRICING) -->
+        <section id="packages" class="border-t border-white/10 bg-ink py-20 md:py-24">
+            <div class="container-wide">
+                <div class="flex flex-col justify-between gap-5 md:flex-row md:items-end">
+                    <div>
+                        <p class="eyebrow text-[10px] font-bold uppercase text-cyan">03 / Retainer Packages</p>
+                        <h2 class="mt-4 font-display text-3xl font-extrabold leading-tight text-white md:text-[40px]">
+                            Predictable monthly packages designed for Nigerian installers.</h2>
+                    </div>
+                    <p class="max-w-md text-sm leading-6 text-slate-400">Choose the growth tier that matches your
+                        installation capacity. Direct ad spend is billed separately.</p>
+                </div>
+                <div class="mt-9 grid items-stretch gap-4 lg:grid-cols-3">
+                    <!-- Package 1 -->
+                    <article class="package-card rounded-md border border-white/15 bg-panel p-6 shadow-sm sm:p-7">
+                        <p class="eyebrow text-[10px] font-bold uppercase text-slate-400">Local Foundation</p>
+                        <h3 class="mt-3 font-display text-xl font-bold text-white">Local Map &amp; Social Presence</h3>
+                        <p class="mt-4 flex items-baseline gap-1"><span
+                                class="font-display text-[32px] font-extrabold tracking-tight text-white">₦99,000</span><span
+                                class="text-xs text-slate-400">/ month</span></p>
+                        <p class="mt-3 min-h-[42px] text-sm leading-6 text-slate-300">For emerging independent
+                            installers building their local digital footprint.</p>
+                        <ul class="mt-5 space-y-3 border-t border-white/10 pt-5 text-[13px] leading-5 text-slate-300">
+                            <li class="flex gap-2.5"><i data-lucide="check"
+                                    class="mt-0.5 size-4 shrink-0 text-cyan"></i>Google Business Profile optimization
+                            </li>
+                            <li class="flex gap-2.5"><i data-lucide="check"
+                                    class="mt-0.5 size-4 shrink-0 text-cyan"></i>Ongoing local Map Pack SEO</li>
+                            <li class="flex gap-2.5"><i data-lucide="check"
+                                    class="mt-0.5 size-4 shrink-0 text-cyan"></i>12 custom Facebook / Instagram posts
+                                monthly</li>
+                            <li class="flex gap-2.5"><i data-lucide="check"
+                                    class="mt-0.5 size-4 shrink-0 text-cyan"></i>Direct WhatsApp lead button integration
+                            </li>
+                        </ul>
+                        <a class="mt-7 inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-cyan/40 px-4 text-sm font-bold text-white transition hover:bg-cyan/10"
+                            href="https://wa.me/2347075848564?text=Hi%20Webtellisense%20team,%20I%20am%20interested%20in%20the%20Local%20Map%20and%20Social%20Presence%20package%20(₦200k/mo)."
+                            target="_blank" rel="noopener noreferrer">Select on WhatsApp <i data-lucide="arrow-up-right"
+                                class="size-4"></i></a>
+                    </article>
+
+                    <!-- Package 2 (Most Popular) -->
+                    <article
+                        class="package-card relative rounded-md border-2 border-cyan bg-[#111e31] p-6 text-white shadow-xl shadow-cyan/10 sm:p-7">
+                        <span
+                            class="absolute right-4 top-4 rounded-sm bg-cyan px-2.5 py-1 text-[9px] font-extrabold uppercase tracking-[.12em] text-ink">Most
+                            Popular for Installers</span>
+                        <p class="eyebrow mt-8 text-[10px] font-bold uppercase text-sun">Consistent Quote Flow</p>
+                        <h3 class="mt-3 font-display text-xl font-bold text-white">The Solar Lead Engine</h3>
+                        <p class="mt-4 flex items-baseline gap-1"><span
+                                class="font-display text-[32px] font-extrabold tracking-tight text-white">₦399,000</span><span
+                                class="text-xs text-slate-300">/ month</span></p>
+                        <p class="mt-3 min-h-[42px] text-sm leading-6 text-slate-300">For established solar companies
+                            wanting steady weekly residential and commercial quote requests.</p>
+                        <ul class="mt-5 space-y-3 border-t border-white/15 pt-5 text-[13px] leading-5 text-slate-200">
+                            <li class="flex gap-2.5"><i data-lucide="check"
+                                    class="mt-0.5 size-4 shrink-0 text-sun"></i>Meta Ads Management (FB &amp; IG lead
+                                gen)</li>
+                            <li class="flex gap-2.5"><i data-lucide="check"
+                                    class="mt-0.5 size-4 shrink-0 text-sun"></i>Google Search Ads Management</li>
+                            <li class="flex gap-2.5"><i data-lucide="check"
+                                    class="mt-0.5 size-4 shrink-0 text-sun"></i>Custom solar quote landing page setup
+                            </li>
+                            <li class="flex gap-2.5"><i data-lucide="check"
+                                    class="mt-0.5 size-4 shrink-0 text-sun"></i>Google Business Profile local SEO</li>
+                            <li class="flex gap-2.5"><i data-lucide="check"
+                                    class="mt-0.5 size-4 shrink-0 text-sun"></i>Instant WhatsApp lead notifications</li>
+                        </ul>
+                        <p class="mt-4 text-[11px] text-slate-400">Ad spend is billed directly by Google/Meta.</p>
+                        <a class="mt-5 inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-emerald-500 px-4 text-sm font-bold text-white transition hover:bg-emerald-400"
+                            href="https://wa.me/2347075848564?text=Hi%20Webtellisense%20team,%20I%20am%20interested%20in%20The%20Solar%20Lead%20Engine%20package%20(₦450k/mo)."
+                            target="_blank" rel="noopener noreferrer">Select on WhatsApp <i data-lucide="arrow-up-right"
+                                class="size-4"></i></a>
+                    </article>
+
+                    <!-- Package 3 -->
+                    <article class="package-card rounded-md border border-white/15 bg-panel p-6 shadow-sm sm:p-7">
+                        <p class="eyebrow text-[10px] font-bold uppercase text-slate-400">Nationwide Scale</p>
+                        <h3 class="mt-3 font-display text-xl font-bold text-white">Total Market Dominance</h3>
+                        <p class="mt-4 flex items-baseline gap-1"><span
+                                class="font-display text-[32px] font-extrabold tracking-tight text-white">₦599,000</span><span
+                                class="text-xs text-slate-400">/ month</span></p>
+                        <p class="mt-3 min-h-[42px] text-sm leading-6 text-slate-300">For commercial enterprise firms
+                            bidding on large industrial and estate-wide power contracts.</p>
+                        <ul class="mt-5 space-y-3 border-t border-white/10 pt-5 text-[13px] leading-5 text-slate-300">
+                            <li class="flex gap-2.5"><i data-lucide="check"
+                                    class="mt-0.5 size-4 shrink-0 text-cyan"></i>Full website maintenance &amp; solar
+                                calculators</li>
+                            <li class="flex gap-2.5"><i data-lucide="check"
+                                    class="mt-0.5 size-4 shrink-0 text-cyan"></i>Advanced Meta &amp; Google Search Ads
+                            </li>
+                            <li class="flex gap-2.5"><i data-lucide="check"
+                                    class="mt-0.5 size-4 shrink-0 text-cyan"></i>16 custom graphics &amp; video Reels
+                                monthly</li>
+                            <li class="flex gap-2.5"><i data-lucide="check"
+                                    class="mt-0.5 size-4 shrink-0 text-cyan"></i>LinkedIn B2B targeting for corporate
+                                clients</li>
+                            <li class="flex gap-2.5"><i data-lucide="check"
+                                    class="mt-0.5 size-4 shrink-0 text-cyan"></i>CRM integration &amp; priority support
+                            </li>
+                        </ul>
+                        <a class="mt-7 inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-cyan/40 px-4 text-sm font-bold text-white transition hover:bg-cyan/10"
+                            href="https://wa.me/2347075848564?text=Hi%20Webtellisense%20team,%20I%20am%20interested%20in%20the%20Total%20Market%20Dominance%20package%20(₦750k/mo)."
+                            target="_blank" rel="noopener noreferrer">Select on WhatsApp <i data-lucide="arrow-up-right"
+                                class="size-4"></i></a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 04: ITEMIZED SERVICES -->
+        <section id="services" class="border-y border-white/10 bg-[#0d1626] py-20 md:py-24">
+            <div class="container-wide">
+                <div class="flex flex-col justify-between gap-5 md:flex-row md:items-end">
+                    <div>
+                        <p class="eyebrow text-[10px] font-bold uppercase text-cyan">04 / Itemized Services</p>
+                        <h2 class="mt-4 font-display text-3xl font-bold text-white md:text-[40px]">A la carte pricing
+                            for specific requirements.</h2>
+                    </div>
+                    <p class="max-w-md text-sm leading-6 text-slate-300">Need a standalone website build or a single
+                        channel managed? Pick your exact starting point.</p>
+                </div>
+                <div class="mt-9 grid gap-4 md:grid-cols-2 lg:grid-cols-6">
+                    <article
+                        class="overflow-hidden rounded-lg border border-line bg-panel transition hover:border-cyan/40 lg:col-span-3">
+                        <div class="h-36 w-full overflow-hidden relative">
+                            <img src="./website-prev.webp" alt="Solar Website Build"
+                                class="h-full w-full object-cover" />
+                            <div class="absolute inset-0 bg-gradient-to-t from-panel via-panel/50 to-transparent"></div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-start justify-between gap-4"><span
+                                    class="grid size-10 shrink-0 place-items-center rounded border border-cyan/25 bg-cyan/10 text-cyan"><i
+                                        data-lucide="panels-top-left" class="size-5"></i></span><span
+                                    class="eyebrow text-[9px] font-bold uppercase text-slate-400">01 / Build</span>
+                            </div>
+                            <h3 class="mt-4 font-display text-lg font-bold text-white">Custom Solar Website &amp; Funnel
+                                Build</h3>
+                            <p class="mt-2 text-[13px] leading-6 text-slate-300">6–10 pages with solar savings
+                                calculators and fast mobile loading for Nigerian prospective clients.</p>
+                            <p class="mt-5 border-t border-white/10 pt-4 text-sm font-bold text-white"><span
+                                    class="text-cyan">₦350,000 – ₦650,000</span> <span
+                                    class="font-medium text-slate-400">/ one-time</span></p>
+                        </div>
+                    </article>
+
+                    <article
+                        class="overflow-hidden rounded-lg border border-line bg-panel transition hover:border-cyan/40 lg:col-span-3">
+                        <div class="h-36 w-full overflow-hidden relative">
+                            <img src="./g-ads-prev.jpg" alt="Google Search Ads" class="h-full w-full object-cover" />
+                            <div class="absolute inset-0 bg-gradient-to-t from-panel via-panel/50 to-transparent"></div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-start justify-between gap-4"><span
+                                    class="grid size-10 shrink-0 place-items-center rounded border border-cyan/25 bg-cyan/10 text-cyan"><i
+                                        data-lucide="search" class="size-5"></i></span><span
+                                    class="eyebrow text-[9px] font-bold uppercase text-slate-400">02 / Search</span>
+                            </div>
+                            <h3 class="mt-4 font-display text-lg font-bold text-white">Google Search Ads Management</h3>
+                            <p class="mt-2 text-[13px] leading-6 text-slate-300">Targeting high-intent search terms like
+                                "solar inverter installation Lagos" and "best inverter battery Abuja".</p>
+                            <p class="mt-5 border-t border-white/10 pt-4 text-sm font-bold text-white"><span
+                                    class="text-cyan">₦150,000 – ₦250,000</span> <span
+                                    class="font-medium text-slate-400">/ month</span></p>
+                        </div>
+                    </article>
+
+                    <article
+                        class="overflow-hidden rounded-lg border border-line bg-panel transition hover:border-cyan/40 lg:col-span-2">
+                        <div class="h-32 w-full overflow-hidden relative">
+                            <img src="./meta-leads-prev.jpeg" alt="Meta Lead Gen Ads"
+                                class="h-full w-full object-cover" />
+                            <div class="absolute inset-0 bg-gradient-to-t from-panel via-panel/50 to-transparent"></div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-start justify-between gap-4"><span
+                                    class="grid size-10 shrink-0 place-items-center rounded border border-sun/25 bg-sun/10 text-sun"><i
+                                        data-lucide="megaphone" class="size-5"></i></span><span
+                                    class="eyebrow text-[9px] font-bold uppercase text-slate-400">03 / Paid
+                                    social</span></div>
+                            <h3 class="mt-4 font-display text-lg font-bold text-white">Meta Lead Generation Ads</h3>
+                            <p class="mt-2 text-[13px] leading-6 text-slate-300">FB &amp; IG ad creatives focusing on
+                                fuel savings, backup power, and instant lead forms.</p>
+                            <p class="mt-5 border-t border-white/10 pt-4 text-sm font-bold text-white"><span
+                                    class="text-cyan">₦150,000 – ₦250,000</span> <span
+                                    class="font-medium text-slate-400">/ month</span></p>
+                        </div>
+                    </article>
+
+                    <article
+                        class="overflow-hidden rounded-lg border border-line bg-panel transition hover:border-cyan/40 lg:col-span-2">
+                        <div class="h-32 w-full overflow-hidden relative">
+                            <img src="./soc-media-prev.avif" alt="Organic Social Media"
+                                class="h-full w-full object-cover" />
+                            <div class="absolute inset-0 bg-gradient-to-t from-panel via-panel/50 to-transparent"></div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-start justify-between gap-4"><span
+                                    class="grid size-10 shrink-0 place-items-center rounded border border-cyan/25 bg-cyan/10 text-cyan"><i
+                                        data-lucide="share-2" class="size-5"></i></span><span
+                                    class="eyebrow text-[9px] font-bold uppercase text-slate-400">04 / Organic</span>
+                            </div>
+                            <h3 class="mt-4 font-display text-lg font-bold text-white">Organic Social Media Management
+                            </h3>
+                            <p class="mt-2 text-[13px] leading-6 text-slate-300">Professional branding, graphics, and
+                                engaging copy published regularly across your pages.</p>
+                            <p class="mt-5 border-t border-white/10 pt-4 text-sm font-bold text-white"><span
+                                    class="text-cyan">₦120,000 – ₦200,000</span> <span
+                                    class="font-medium text-slate-400">/ month</span></p>
+                        </div>
+                    </article>
+
+                    <article
+                        class="overflow-hidden rounded-lg border border-line bg-panel transition hover:border-cyan/40 lg:col-span-2">
+                        <div class="h-32 w-full overflow-hidden relative">
+                            <img src="./gbp-prev.png" alt="Google Business Profile"
+                                class="h-full w-full object-cover" />
+                            <div class="absolute inset-0 bg-gradient-to-t from-panel via-panel/50 to-transparent"></div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-start justify-between gap-4"><span
+                                    class="grid size-10 shrink-0 place-items-center rounded border border-sun/25 bg-sun/10 text-sun"><i
+                                        data-lucide="map-pin-check-inside" class="size-5"></i></span><span
+                                    class="eyebrow text-[9px] font-bold uppercase text-slate-400">05 / Local
+                                    search</span></div>
+                            <h3 class="mt-4 font-display text-lg font-bold text-white">Google Business Profile Setup
+                            </h3>
+                            <p class="mt-2 text-[13px] leading-6 text-slate-300">Local map pack optimization, geotagged
+                                project photos, and review collection automation.</p>
+                            <p class="mt-5 border-t border-white/10 pt-4 text-sm font-bold text-white"><span
+                                    class="text-cyan">₦80,000 setup</span><br /><span class="text-slate-400">₦50,000 /
+                                    month ongoing</span></p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 05: AD BUDGET RECOMMENDATIONS -->
+        <section id="ad-spend" class="bg-ink py-16 md:py-20 relative overflow-hidden">
+            <div class="container-wide relative z-10">
+                <div
+                    class="grid overflow-hidden rounded-xl border border-cyan/25 bg-[#111e31] md:grid-cols-[.8fr_1.2fr]">
+                    <div
+                        class="grid-lines relative flex min-h-[220px] items-end overflow-hidden border-b border-white/10 p-7 md:border-b-0 md:border-r md:p-9">
+                        <div class="absolute inset-0 opacity-20 bg-cover bg-center"
+                            style="background-image: url('https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&fit=crop&w=800&q=80');">
+                        </div>
+                        <div class="absolute right-8 top-8 text-sun/80 z-10"><i data-lucide="sun" class="size-9"></i>
+                        </div>
+                        <div class="relative z-10">
+                            <p class="eyebrow text-[10px] font-bold uppercase text-cyan">05 / Recommended Ad Budgets</p>
+                            <h2 class="mt-3 max-w-sm font-display text-2xl font-bold text-white">What should you spend
+                                on ads?</h2>
+                        </div>
+                    </div>
+                    <div class="p-7 md:p-9">
+                        <div class="flex gap-4">
+                            <span
+                                class="grid size-10 shrink-0 place-items-center rounded border border-emerald-400/25 bg-emerald-400/10 text-emerald-300"><i
+                                    data-lucide="badge-check" class="size-5"></i></span>
+                            <div>
+                                <h3 class="font-display text-lg font-bold text-white">Smart Ad Investments (Billed
+                                    Directly to You)</h3>
+                                <p class="mt-3 text-sm leading-7 text-slate-300">To see consistent inbound requests in
+                                    major Nigerian cities, we recommend allocating:</p>
+                                <ul class="mt-3 space-y-2 text-xs text-slate-300">
+                                    <li>• <strong class="text-white">Meta Ads (FB/IG):</strong> ₦150,000 – ₦400,000 /
+                                        month</li>
+                                    <li>• <strong class="text-white">Google Search Ads:</strong> ₦200,000 – ₦500,000 /
+                                        month</li>
+                                </ul>
+                                <p class="mt-4 text-xs leading-5 text-slate-500">You pay Meta and Google directly with
+                                    your card. We never markup ad budgets, ensuring absolute transparency and full asset
+                                    ownership.</p>
+                                <a class="mt-5 inline-flex items-center gap-2 text-sm font-bold text-cyan hover:text-white"
+                                    href="https://wa.me/2347075848564?text=Hi%20Webtellisense%20team,%20I%20want%20to%20discuss%20recommended%20ad%20budgets%20for%20my%20solar%20business."
+                                    target="_blank" rel="noopener noreferrer">Discuss ad strategy <i
+                                        data-lucide="arrow-up-right" class="size-4"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CALL TO ACTION SECTION -->
+        <section class="relative overflow-hidden border-y border-white/10 bg-[#101c2d] py-16 md:py-20">
+            <div class="absolute -right-16 -top-24 size-80 rounded-full border border-cyan/10"></div>
+            <div class="absolute -right-4 -top-12 size-56 rounded-full border border-sun/10"></div>
+            <div class="container-wide relative grid gap-8 md:grid-cols-[1fr_auto] md:items-center">
+                <div>
+                    <p class="eyebrow text-[10px] font-bold uppercase text-sun">Start with a quick conversation</p>
+                    <h2
+                        class="mt-4 max-w-3xl font-display text-3xl font-extrabold leading-tight text-white md:text-[40px]">
+                        Ready to dominate solar installations in your city?</h2>
+                    <p class="mt-4 max-w-2xl text-sm leading-7 text-slate-300">Let’s review your current digital setup.
+                        Drop us a quick message on WhatsApp, and let's get on a brief call when you're free.</p>
+                </div>
+                <a class="inline-flex min-h-14 items-center justify-center gap-2 rounded-md bg-emerald-500 px-6 text-sm font-extrabold text-white shadow-lg shadow-emerald-950/30 transition hover:bg-emerald-400"
+                    href="https://wa.me/2347075848564?text=Hi%20Webtellisense%20team,%20I%20saw%20your%20Nigeria%20solar%20marketing%20briefing%20and%20I'd%20like%20to%20chat."
+                    target="_blank" rel="noopener noreferrer"><i data-lucide="message-circle" class="size-5"></i>
+                    Message 07075848564 on WhatsApp <i data-lucide="arrow-up-right" class="size-4"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-ink py-7">
+        <div
+            class="container-wide flex flex-col gap-4 text-xs text-slate-500 sm:flex-row sm:items-center sm:justify-between">
+            <a href="#top" class="flex items-center gap-2 font-display font-bold text-slate-300">
+                <img style="width: 50px;" src="./logo-3.png" alt="Webtellisense Logo">
+            </a>
+            <p>Solar marketing briefing for Lagos, Abuja, Port Harcourt, Ibadan &amp; Nigeria.</p>
+            <a class="text-slate-400 hover:text-white"
+                href="https://wa.me/2347075848564?text=Hi%20Webtellisense%20team,%20I%20saw%20your%20Nigeria%20solar%20marketing%20briefing%20and%20I'd%20like%20to%20chat."
+                target="_blank" rel="noopener noreferrer">WhatsApp: +234 707 584 8564</a>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a class="wa-pulse fixed bottom-5 right-5 z-40 grid size-14 place-items-center rounded-full bg-emerald-500 text-white shadow-lg shadow-black/30 transition hover:scale-105 hover:bg-emerald-400 sm:bottom-6 sm:right-6"
+        href="https://wa.me/2347075848564?text=Hi%20Webtellisense%20team,%20I%20saw%20your%20Nigeria%20solar%20marketing%20briefing%20and%20I'd%20like%20to%20chat."
+        target="_blank" rel="noopener noreferrer" aria-label="Message Webtellisense on WhatsApp"><i
+            data-lucide="message-circle" class="size-6"></i><span class="sr-only">Message us on WhatsApp</span></a>
+
+    <script>
+        lucide.createIcons();
+        const toggle = document.getElementById("menu-toggle");
+        const menu = document.getElementById("mobile-menu");
+        toggle.addEventListener("click", () => {
+            const open = toggle.getAttribute("aria-expanded") === "true";
+            toggle.setAttribute("aria-expanded", String(!open));
+            toggle.setAttribute("aria-label", open ? "Open navigation" : "Close navigation");
+            menu.classList.toggle("hidden", open);
+            toggle.innerHTML = open ? '<i data-lucide="menu" class="size-5"></i>' : '<i data-lucide="x" class="size-5"></i>';
+            lucide.createIcons();
+        });
+        document.querySelectorAll(".mobile-link").forEach((link) => link.addEventListener("click", () => {
+            menu.classList.add("hidden");
+            toggle.setAttribute("aria-expanded", "false");
+            toggle.setAttribute("aria-label", "Open navigation");
+            toggle.innerHTML = '<i data-lucide="menu" class="size-5"></i>';
+            lucide.createIcons();
+        }));
+    </script>
+</body>
+
+</html>

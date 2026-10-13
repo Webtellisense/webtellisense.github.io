@@ -1,0 +1,625 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0b1120" />
+  <meta name="description"
+    content="A transparent solar marketing pricing and growth briefing for installers in Nassau, Freeport, Abaco, Exuma, and across The Bahamas." />
+  <title>Bahamas Solar Marketing Briefing | Webtellisense</title>
+
+  <!-- Favicon (All Formats for Cross-Browser Support) -->
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+  <link rel="manifest" href="../site.webmanifest">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: "#0B1120",
+            panel: "#111B2D",
+            line: "#26364A",
+            cyan: "#0EA5E9",
+            electric: "#0066FF",
+            sun: "#F59E0B",
+          },
+          fontFamily: {
+            sans: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
+            display: ["Manrope", "Inter", "ui-sans-serif", "sans-serif"],
+          },
+        },
+      },
+    };
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <style>
+    :root {
+      color-scheme: dark;
+      scroll-behavior: smooth;
+    }
+
+    html {
+      scroll-padding-top: 88px;
+    }
+
+    body {
+      background: #0b1120;
+      color: #e8eff8;
+    }
+
+    ::selection {
+      background: rgba(14, 165, 233, .32);
+      color: #fff;
+    }
+
+    .container-wide {
+      width: min(1160px, calc(100% - 40px));
+      margin-inline: auto;
+    }
+
+    .eyebrow {
+      letter-spacing: .16em;
+    }
+
+    .hero-glow {
+      background: radial-gradient(ellipse at 80% 15%, rgba(14, 165, 233, .18), transparent 40%), radial-gradient(ellipse at 28% 76%, rgba(245, 158, 11, .14), transparent 30%);
+    }
+
+    .hero-photo {
+      background-image: linear-gradient(180deg, rgba(11, 17, 32, .25) 0%, rgba(11, 17, 32, .85) 100%), url("https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=1200&q=80");
+      background-size: cover;
+      background-position: center;
+    }
+
+    .grid-lines {
+      background-image: linear-gradient(rgba(148, 163, 184, .055) 1px, transparent 1px), linear-gradient(90deg, rgba(148, 163, 184, .055) 1px, transparent 1px);
+      background-size: 36px 36px;
+    }
+
+    .surface {
+      background: #f8fafc;
+      color: #102033;
+    }
+
+    .package-card {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .package-card ul {
+      flex: 1;
+    }
+
+    .wa-pulse {
+      animation: pulse-ring 2.2s ease-out infinite;
+    }
+
+    @keyframes pulse-ring {
+      0% {
+        box-shadow: 0 0 0 0 rgba(34, 197, 94, .42);
+      }
+
+      70% {
+        box-shadow: 0 0 0 13px rgba(34, 197, 94, 0);
+      }
+
+      100% {
+        box-shadow: 0 0 0 0 rgba(34, 197, 94, 0);
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+
+      *,
+      *::before,
+      *::after {
+        scroll-behavior: auto !important;
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: .01ms !important;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .container-wide {
+        width: min(100% - 32px, 1160px);
+      }
+    }
+  </style>
+</head>
+
+<body class="font-sans antialiased">
+  <a class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:bg-white focus:px-4 focus:py-3 focus:text-ink"
+    href="#main">Skip to content</a>
+  <header class="sticky top-0 z-50 border-b border-white/10 bg-ink/90 backdrop-blur-xl">
+    <div class="container-wide flex h-[72px] items-center justify-between gap-5">
+      <a href="#top" class="flex shrink-0 items-center gap-2.5" aria-label="Webtellisense home">
+        <img style="width: 50px;" src="./logo-3.png" alt="" srcset="">
+        <!-- <span class="grid size-9 place-items-center rounded-lg border border-cyan/30 bg-cyan/10 text-cyan"><i
+            data-lucide="sun" class="size-[19px]"></i></span>
+        <span class="font-display text-[17px] font-extrabold tracking-[-.02em] text-white">Webtellisense<span
+            class="text-cyan">.</span></span> -->
+      </a>
+      <nav class="hidden items-center gap-7 lg:flex" aria-label="Main navigation">
+        <a class="text-[13px] font-medium text-slate-300 transition hover:text-white" href="#economics">The Math &amp;
+          ROI</a>
+        <a class="text-[13px] font-medium text-slate-300 transition hover:text-white" href="#services">Itemized
+          Services</a>
+        <a class="text-[13px] font-medium text-slate-300 transition hover:text-white" href="#packages">Retainer
+          Packages</a>
+        <a class="text-[13px] font-medium text-slate-300 transition hover:text-white" href="#ad-spend">Ad Spend
+          Policy</a>
+      </nav>
+      <a class="hidden items-center gap-2 rounded-md bg-emerald-500 px-4 py-2.5 text-[13px] font-bold text-white transition hover:bg-emerald-400 sm:inline-flex"
+        href="https://wa.me/2347075848564?text=Hi%20Webtellisense%20team,%20I%20saw%20your%20Bahamas%20solar%20marketing%20breakdown%20and%20would%20like%20to%20chat."
+        target="_blank" rel="noopener noreferrer">
+        <i data-lucide="message-circle" class="size-4"></i> Message Us on WhatsApp
+      </a>
+      <button id="menu-toggle"
+        class="grid size-10 place-items-center rounded-md border border-white/15 text-white lg:hidden"
+        aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-menu"><i data-lucide="menu"
+          class="size-5"></i></button>
+    </div>
+    <nav id="mobile-menu" class="hidden border-t border-white/10 bg-ink px-4 pb-5 pt-3 lg:hidden"
+      aria-label="Mobile navigation">
+      <div class="container-wide grid gap-1">
+        <a class="mobile-link rounded px-3 py-3 text-sm text-slate-200 hover:bg-white/5" href="#economics">The Math
+          &amp; ROI</a>
+        <a class="mobile-link rounded px-3 py-3 text-sm text-slate-200 hover:bg-white/5" href="#services">Itemized
+          Services</a>
+        <a class="mobile-link rounded px-3 py-3 text-sm text-slate-200 hover:bg-white/5" href="#packages">Retainer
+          Packages</a>
+        <a class="mobile-link rounded px-3 py-3 text-sm text-slate-200 hover:bg-white/5" href="#ad-spend">Ad Spend
+          Policy</a>
+        <a class="mt-2 inline-flex items-center justify-center gap-2 rounded-md bg-emerald-500 px-4 py-3 text-sm font-bold text-white"
+          href="https://wa.me/2347075848564?text=Hi%20Webtellisense%20team,%20I%20saw%20your%20Bahamas%20solar%20marketing%20breakdown%20and%20would%20like%20to%20chat."
+          target="_blank" rel="noopener noreferrer"><i data-lucide="message-circle" class="size-4"></i> Message Us on
+          WhatsApp</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero-glow relative overflow-hidden border-b border-white/10">
+      <div class="container-wide grid min-h-[610px] items-center gap-12 py-16 md:grid-cols-[1.08fr_.92fr] md:py-20">
+        <div class="relative z-10">
+          <p class="eyebrow mb-6 inline-flex items-center gap-2 text-[10px] font-bold uppercase text-cyan"><span
+              class="size-1.5 rounded-full bg-sun"></span> The Bahamas Solar Marketing &amp; Lean Growth Briefing</p>
+          <h1
+            class="max-w-[680px] font-display text-[clamp(2.65rem,5.1vw,4.55rem)] font-extrabold leading-[1.04] tracking-[-.035em] text-white">
+            High-performance solar marketing built for <span class="text-cyan">The Bahamas</span>—without Nassau agency
+            markups.</h1>
+          <p class="mt-6 max-w-[620px] text-[16px] leading-7 text-slate-300">A complete, transparent pricing and service
+            breakdown for Bahamian residential and commercial solar installers. See how a lean execution model can bring
+            together conversion-focused funnels, local search visibility, and Meta and Google ads.</p>
+          <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+            <a class="inline-flex min-h-12 items-center justify-center gap-2 rounded-md bg-emerald-500 px-5 text-sm font-bold text-white transition hover:bg-emerald-400"
+              href="https://wa.me/2347075848564?text=Hi%20Webtellisense%20team,%20I%20saw%20your%20Bahamas%20solar%20marketing%20breakdown%20and%20would%20like%20to%20chat."
+              target="_blank" rel="noopener noreferrer"><i data-lucide="message-circle" class="size-4"></i> Chat
+              Directly on WhatsApp <i data-lucide="arrow-up-right" class="size-4"></i></a>
+            <a class="inline-flex min-h-12 items-center justify-center gap-2 rounded-md border border-white/20 px-5 text-sm font-semibold text-white transition hover:border-cyan/60 hover:bg-white/5"
+              href="#packages">Explore Pricing Breakdown <i data-lucide="arrow-down" class="size-4 text-cyan"></i></a>
+          </div>
+          <div
+            class="mt-10 flex flex-wrap items-center gap-x-6 gap-y-3 border-t border-white/10 pt-5 text-xs text-slate-400">
+            <span class="inline-flex items-center gap-2"><i data-lucide="map-pin" class="size-4 text-sun"></i> Nassau ·
+              Freeport · Abaco · Exuma</span><span class="inline-flex items-center gap-2"><i data-lucide="shield-check"
+                class="size-4 text-cyan"></i> Transparent scope &amp; account ownership</span>
+          </div>
+        </div>
+        <figure
+          class="relative min-h-[410px] overflow-hidden rounded-xl border border-white/20 bg-panel shadow-2xl md:min-h-[470px]">
+          <div class="hero-photo absolute inset-0"></div>
+          <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink via-ink/80 to-transparent p-6 sm:p-7">
+            <div class="flex items-end justify-between gap-4">
+              <figcaption class="max-w-[320px]"><span
+                  class="eyebrow text-[10px] font-bold uppercase text-cyan">Island-ready growth</span>
+                <p class="mt-2 font-display text-xl font-bold text-white">Marketing built around how Bahamians buy
+                  solar.</p><span class="mt-2 inline-block text-[11px] text-white/65">Rooftop Solar Installations ·
+                  Nassau &amp; Out Islands</span>
+              </figcaption>
+              <span
+                class="hidden size-12 shrink-0 place-items-center rounded-full border border-white/25 bg-ink/70 text-sun backdrop-blur sm:grid"><i
+                  data-lucide="sun" class="size-5"></i></span>
+            </div>
+          </div>
+          <div
+            class="absolute right-4 top-4 inline-flex items-center gap-2 rounded border border-white/20 bg-ink/80 px-3 py-2 text-[11px] font-semibold text-white backdrop-blur">
+            <span class="size-1.5 rounded-full bg-emerald-400"></span> Nassau to the Out Islands
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <section id="economics" class="border-b border-white/10 bg-[#0d1626] py-20 md:py-24">
+      <div class="container-wide">
+        <div class="grid gap-10 lg:grid-cols-[1fr_1fr] lg:items-center">
+          <div>
+            <p class="eyebrow text-[10px] font-bold uppercase text-cyan">01 / The economics</p>
+            <h2 class="mt-4 max-w-lg font-display text-3xl font-bold leading-tight text-white md:text-[40px]">Make the
+              marketing math work for the installer.</h2>
+            <div class="mt-6 space-y-4 text-sm leading-7 text-slate-300">
+              <p>Solar contracts in Nassau and the Out Islands can be substantial. This briefing uses an illustrative
+                <strong class="text-white">$15,000–$40,000+</strong> installation range and compares it with a cited
+                local-agency management range of <strong class="text-white">$3,500–$5,000 per month</strong>.
+              </p>
+              <p>Our offshore lean model can scope focused services in the <strong class="text-white">$600–$800 per
+                  month</strong> range; bundled retainers begin at <strong class="text-white">$750 per month</strong>.
+                The right fee depends on the channels and workload included.</p>
+            </div>
+          </div>
+          <div class="relative overflow-hidden rounded-xl border border-white/15 bg-panel">
+            <img src="./economics.jpg" alt="Solar installer mounting panels"
+              class="h-[280px] w-full object-cover sm:h-[320px]" />
+            <div class="p-6 bg-panel/90 backdrop-blur border-t border-white/10">
+              <div class="flex items-center gap-3 text-sun font-semibold text-xs uppercase tracking-wider"><i
+                  data-lucide="zap" class="size-4"></i> High Margin Opportunity</div>
+              <p class="mt-1 font-display text-lg font-bold text-white">Target high-intent homeowner quote requests</p>
+              <p class="mt-1 text-xs text-slate-400">Pairing digital lead generation with local installer trust drives
+                higher closing rates across Nassau, Freeport, and Exuma.</p>
+            </div>
+          </div>
+        </div>
+        <div class="mt-12 grid gap-px overflow-hidden rounded-md border border-line bg-line md:grid-cols-3">
+          <article class="bg-ink p-6 sm:p-7">
+            <div class="flex items-center justify-between"><span
+                class="eyebrow text-[10px] font-bold uppercase text-slate-500">01 / Contract economics</span><i
+                data-lucide="badge-dollar-sign" class="size-5 text-sun"></i></div>
+            <p class="mt-7 font-display text-[29px] font-extrabold text-white">1 closed deal</p>
+            <p class="mt-2 text-sm font-semibold text-cyan">Can fund 6–12 months of a retainer</p>
+            <p class="mt-3 text-xs leading-5 text-slate-400">Illustrative comparison using contract value; actual
+              payback depends on gross margin, scope, and close rate.</p>
+          </article>
+          <article class="bg-ink p-6 sm:p-7">
+            <div class="flex items-center justify-between"><span
+                class="eyebrow text-[10px] font-bold uppercase text-slate-500">02 / Media budget</span><i
+                data-lucide="receipt" class="size-5 text-cyan"></i></div>
+            <p class="mt-7 font-display text-[29px] font-extrabold text-white">0% markup</p>
+            <p class="mt-2 text-sm font-semibold text-cyan">Your full media budget goes to platforms</p>
+            <p class="mt-3 text-xs leading-5 text-slate-400">Google and Meta charges are paid directly from your company
+              payment method.</p>
+          </article>
+          <article class="bg-ink p-6 sm:p-7">
+            <div class="flex items-center justify-between"><span
+                class="eyebrow text-[10px] font-bold uppercase text-slate-500">03 / Market fit</span><i
+                data-lucide="locate-fixed" class="size-5 text-sun"></i></div>
+            <p class="mt-7 font-display text-[29px] font-extrabold text-white">100% local intent</p>
+            <p class="mt-2 text-sm font-semibold text-cyan">Campaigns shaped for island demand</p>
+            <p class="mt-3 text-xs leading-5 text-slate-400">Targeting and messaging can reflect island service areas,
+              power reliability, and BPL bill reduction concerns.</p>
+          </article>
+        </div>
+        <p class="mt-4 text-[11px] leading-5 text-slate-500">Planning figures shown for comparison, not a market-wide
+          survey or performance guarantee. Confirm pricing, margins, and serviceability for each island and project.</p>
+      </div>
+    </section>
+
+    <section id="packages" class="surface py-20 md:py-24">
+      <div class="container-wide">
+        <div class="flex flex-col justify-between gap-5 md:flex-row md:items-end">
+          <div>
+            <p class="eyebrow text-[10px] font-bold uppercase text-electric">02 / Retainer packages</p>
+            <h2 class="mt-4 font-display text-3xl font-extrabold leading-tight md:text-[40px]">A clear monthly scope. A
+              predictable fee.</h2>
+          </div>
+          <p class="max-w-md text-sm leading-6 text-slate-600">Choose a starting point based on your current sales
+            capacity and the support you need. Media spend is separate from every package.</p>
+        </div>
+        <div class="mt-9 grid items-stretch gap-4 lg:grid-cols-3">
+          <article class="package-card rounded-md border border-slate-200 bg-white p-6 shadow-sm sm:p-7">
+            <p class="eyebrow text-[10px] font-bold uppercase text-slate-500">Local foundation</p>
+            <h3 class="mt-3 font-display text-xl font-bold">Local Map &amp; Social Presence</h3>
+            <p class="mt-4 flex items-baseline gap-1"><span
+                class="font-display text-[38px] font-extrabold tracking-tight">$750</span><span
+                class="text-sm text-slate-500">/ mo</span></p>
+            <p class="mt-3 min-h-[42px] text-sm leading-6 text-slate-600">For emerging or independent Bahamian
+              installers.</p>
+            <ul class="mt-5 space-y-3 border-t border-slate-200 pt-5 text-[13px] leading-5 text-slate-700">
+              <li class="flex gap-2.5"><i data-lucide="check" class="mt-0.5 size-4 shrink-0 text-electric"></i>Google
+                Business Profile optimization</li>
+              <li class="flex gap-2.5"><i data-lucide="check" class="mt-0.5 size-4 shrink-0 text-electric"></i>Ongoing
+                local Map Pack SEO</li>
+              <li class="flex gap-2.5"><i data-lucide="check" class="mt-0.5 size-4 shrink-0 text-electric"></i>12 custom
+                Facebook / Instagram posts monthly</li>
+              <li class="flex gap-2.5"><i data-lucide="check" class="mt-0.5 size-4 shrink-0 text-electric"></i>Direct
+                WhatsApp lead integration</li>
+            </ul>
+            <a class="mt-7 inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-slate-300 px-4 text-sm font-bold text-slate-900 transition hover:border-emerald-500 hover:text-emerald-700"
+              href="https://wa.me/2347075848564?text=Hi%20Webtellisense%20team,%20I%20saw%20your%20Bahamas%20solar%20marketing%20breakdown%20and%20would%20like%20to%20chat."
+              target="_blank" rel="noopener noreferrer">Select Package on WhatsApp <i data-lucide="arrow-up-right"
+                class="size-4"></i></a>
+          </article>
+          <article
+            class="package-card relative rounded-md border-2 border-electric bg-[#0f1a2b] p-6 text-white shadow-xl shadow-electric/10 sm:p-7">
+            <span
+              class="absolute right-4 top-4 rounded-sm bg-electric px-2.5 py-1 text-[9px] font-extrabold uppercase tracking-[.12em] text-white">Most
+              popular for Bahamas installers</span>
+            <p class="eyebrow mt-8 text-[10px] font-bold uppercase text-cyan">Consistent quote flow</p>
+            <h3 class="mt-3 font-display text-xl font-bold">The Solar Lead Engine</h3>
+            <p class="mt-4 flex items-baseline gap-1"><span
+                class="font-display text-[38px] font-extrabold tracking-tight">$1,450</span><span
+                class="text-sm text-slate-400">/ mo</span></p>
+            <p class="mt-3 min-h-[42px] text-sm leading-6 text-slate-300">For established installers seeking steady
+              weekly residential quote requests.</p>
+            <ul class="mt-5 space-y-3 border-t border-white/15 pt-5 text-[13px] leading-5 text-slate-200">
+              <li class="flex gap-2.5"><i data-lucide="check" class="mt-0.5 size-4 shrink-0 text-cyan"></i>Meta ads
+                management (Facebook / Instagram)</li>
+              <li class="flex gap-2.5"><i data-lucide="check" class="mt-0.5 size-4 shrink-0 text-cyan"></i>Google Search
+                Ads management</li>
+              <li class="flex gap-2.5"><i data-lucide="check" class="mt-0.5 size-4 shrink-0 text-cyan"></i>Custom solar
+                quote landing page</li>
+              <li class="flex gap-2.5"><i data-lucide="check" class="mt-0.5 size-4 shrink-0 text-cyan"></i>GBP local SEO
+              </li>
+              <li class="flex gap-2.5"><i data-lucide="check" class="mt-0.5 size-4 shrink-0 text-cyan"></i>Instant SMS /
+                WhatsApp lead notifications</li>
+            </ul>
+            <p class="mt-4 text-[11px] text-slate-400">Advertising spend is billed separately to your business.</p><a
+              class="mt-5 inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-emerald-500 px-4 text-sm font-bold text-white transition hover:bg-emerald-400"
+              href="https://wa.me/2347075848564?text=Hi%20Webtellisense%20team,%20I%20saw%20your%20Bahamas%20solar%20marketing%20breakdown%20and%20would%20like%20to%20chat."
+              target="_blank" rel="noopener noreferrer">Select Package on WhatsApp <i data-lucide="arrow-up-right"
+                class="size-4"></i></a>
+          </article>
+          <article class="package-card rounded-md border border-slate-200 bg-white p-6 shadow-sm sm:p-7">
+            <p class="eyebrow text-[10px] font-bold uppercase text-slate-500">Island-wide growth</p>
+            <h3 class="mt-3 font-display text-xl font-bold">Total Island Dominance</h3>
+            <p class="mt-4 flex items-baseline gap-1"><span
+                class="font-display text-[38px] font-extrabold tracking-tight">$2,200</span><span
+                class="text-sm text-slate-500">/ mo</span></p>
+            <p class="mt-3 min-h-[42px] text-sm leading-6 text-slate-600">For commercial and enterprise firms pursuing
+              larger contracts across Nassau and the Out Islands.</p>
+            <ul class="mt-5 space-y-3 border-t border-slate-200 pt-5 text-[13px] leading-5 text-slate-700">
+              <li class="flex gap-2.5"><i data-lucide="check" class="mt-0.5 size-4 shrink-0 text-electric"></i>Website
+                maintenance &amp; calculator funnels</li>
+              <li class="flex gap-2.5"><i data-lucide="check" class="mt-0.5 size-4 shrink-0 text-electric"></i>Meta and
+                Google Ads management</li>
+              <li class="flex gap-2.5"><i data-lucide="check" class="mt-0.5 size-4 shrink-0 text-electric"></i>16 custom
+                graphics and Reels monthly</li>
+              <li class="flex gap-2.5"><i data-lucide="check" class="mt-0.5 size-4 shrink-0 text-electric"></i>LinkedIn
+                B2B targeting</li>
+              <li class="flex gap-2.5"><i data-lucide="check" class="mt-0.5 size-4 shrink-0 text-electric"></i>Automated
+                CRM integration &amp; priority support</li>
+            </ul>
+            <a class="mt-7 inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-slate-300 px-4 text-sm font-bold text-slate-900 transition hover:border-emerald-500 hover:text-emerald-700"
+              href="https://wa.me/2347075848564?text=Hi%20Webtellisense%20team,%20I%20saw%20your%20Bahamas%20solar%20marketing%20breakdown%20and%20would%20like%20to%20chat."
+              target="_blank" rel="noopener noreferrer">Select Package on WhatsApp <i data-lucide="arrow-up-right"
+                class="size-4"></i></a>
+          </article>
+        </div>
+        <p class="mt-5 text-xs leading-5 text-slate-500">Package scope is subject to discovery and service-area fit.
+          Third-party platform fees and ad spend are separate.</p>
+      </div>
+    </section>
+
+    <section id="services" class="border-y border-white/10 bg-ink py-20 md:py-24">
+      <div class="container-wide">
+        <div class="flex flex-col justify-between gap-5 md:flex-row md:items-end">
+          <div>
+            <p class="eyebrow text-[10px] font-bold uppercase text-cyan">03 / Itemized services</p>
+            <h2 class="mt-4 font-display text-3xl font-bold text-white md:text-[40px]">Know what each service covers.
+            </h2>
+          </div>
+          <p class="max-w-md text-sm leading-6 text-slate-400">A la carte options for teams that want a focused build, a
+            specific channel, or a clear starting point.</p>
+        </div>
+        <div class="mt-9 grid gap-4 md:grid-cols-2 lg:grid-cols-6">
+          <article
+            class="overflow-hidden rounded-lg border border-line bg-panel transition hover:border-cyan/40 lg:col-span-3">
+            <div class="h-36 w-full overflow-hidden relative">
+              <img src="./website-prev.webp" alt="Solar Web Funnel" class="h-full w-full object-cover" />
+              <div class="absolute inset-0 bg-gradient-to-t from-panel via-panel/50 to-transparent"></div>
+            </div>
+            <div class="p-6">
+              <div class="flex items-start justify-between gap-4"><span
+                  class="grid size-10 shrink-0 place-items-center rounded border border-cyan/25 bg-cyan/10 text-cyan"><i
+                    data-lucide="panels-top-left" class="size-5"></i></span><span
+                  class="eyebrow text-[9px] font-bold uppercase text-slate-500">01 / Build</span></div>
+              <h3 class="mt-4 font-display text-lg font-bold text-white">Custom Solar Website &amp; Funnel Build</h3>
+              <p class="mt-2 text-[13px] leading-6 text-slate-400">6–10 pages with an interactive “Estimate Solar
+                Savings” form, built for fast loading over mobile connections in Nassau, Abaco, Exuma, and beyond.</p>
+              <p class="mt-5 border-t border-white/10 pt-4 text-sm font-bold text-white"><span
+                  class="text-cyan">$1,200–$2,200</span> <span class="font-medium text-slate-500">/ one-time</span></p>
+            </div>
+          </article>
+
+          <article
+            class="overflow-hidden rounded-lg border border-line bg-panel transition hover:border-cyan/40 lg:col-span-3">
+            <div class="h-36 w-full overflow-hidden relative">
+              <img src="./g-ads-prev.jpg" alt="Search Engine Ads" class="h-full w-full object-cover" />
+              <div class="absolute inset-0 bg-gradient-to-t from-panel via-panel/50 to-transparent"></div>
+            </div>
+            <div class="p-6">
+              <div class="flex items-start justify-between gap-4"><span
+                  class="grid size-10 shrink-0 place-items-center rounded border border-cyan/25 bg-cyan/10 text-cyan"><i
+                    data-lucide="search" class="size-5"></i></span><span
+                  class="eyebrow text-[9px] font-bold uppercase text-slate-500">02 / Search</span></div>
+              <h3 class="mt-4 font-display text-lg font-bold text-white">Google Search Ads Management</h3>
+              <p class="mt-2 text-[13px] leading-6 text-slate-400">High-intent search terms such as “solar panel
+                installation Nassau,” negative keyword filtering, and bi-weekly conversion optimization.</p>
+              <p class="mt-5 border-t border-white/10 pt-4 text-sm font-bold text-white"><span
+                  class="text-cyan">$550–$800</span> <span class="font-medium text-slate-500">/ month</span></p>
+            </div>
+          </article>
+
+          <article
+            class="overflow-hidden rounded-lg border border-line bg-panel transition hover:border-cyan/40 lg:col-span-2">
+            <div class="h-32 w-full overflow-hidden relative">
+              <img src="./meta-leads-prev.jpeg" alt="Social Media Ads" class="h-full w-full object-cover" />
+              <div class="absolute inset-0 bg-gradient-to-t from-panel via-panel/50 to-transparent"></div>
+            </div>
+            <div class="p-6">
+              <div class="flex items-start justify-between gap-4"><span
+                  class="grid size-10 shrink-0 place-items-center rounded border border-sun/25 bg-sun/10 text-sun"><i
+                    data-lucide="megaphone" class="size-5"></i></span><span
+                  class="eyebrow text-[9px] font-bold uppercase text-slate-500">03 / Paid social</span></div>
+              <h3 class="mt-4 font-display text-lg font-bold text-white">Meta Lead Generation Ads</h3>
+              <p class="mt-2 text-[13px] leading-6 text-slate-400">Facebook and Instagram creative around battery
+                backup, electricity bills, and video Reels optimization.</p>
+              <p class="mt-5 border-t border-white/10 pt-4 text-sm font-bold text-white"><span
+                  class="text-cyan">$600–$850</span> <span class="font-medium text-slate-500">/ month</span></p>
+            </div>
+          </article>
+
+          <article
+            class="overflow-hidden rounded-lg border border-line bg-panel transition hover:border-cyan/40 lg:col-span-2">
+            <div class="h-32 w-full overflow-hidden relative">
+              <img src="./soc-media-prev.avif" alt="Organic Solar Content" class="h-full w-full object-cover" />
+              <div class="absolute inset-0 bg-gradient-to-t from-panel via-panel/50 to-transparent"></div>
+            </div>
+            <div class="p-6">
+              <div class="flex items-start justify-between gap-4"><span
+                  class="grid size-10 shrink-0 place-items-center rounded border border-cyan/25 bg-cyan/10 text-cyan"><i
+                    data-lucide="share-2" class="size-5"></i></span><span
+                  class="eyebrow text-[9px] font-bold uppercase text-slate-500">04 / Organic</span></div>
+              <h3 class="mt-4 font-display text-lg font-bold text-white">Organic Social Media Management</h3>
+              <p class="mt-2 text-[13px] leading-6 text-slate-400">Professional graphics, copy for Bahamian homeowners,
+                community engagement, and multi-platform publishing.</p>
+              <p class="mt-5 border-t border-white/10 pt-4 text-sm font-bold text-white"><span
+                  class="text-cyan">$500–$800</span> <span class="font-medium text-slate-500">/ month</span></p>
+            </div>
+          </article>
+
+          <article
+            class="overflow-hidden rounded-lg border border-line bg-panel transition hover:border-cyan/40 lg:col-span-2">
+            <div class="h-32 w-full overflow-hidden relative">
+              <img src="./gbp-prev.png" alt="Local Search Map" class="h-full w-full object-cover" />
+              <div class="absolute inset-0 bg-gradient-to-t from-panel via-panel/50 to-transparent"></div>
+            </div>
+            <div class="p-6">
+              <div class="flex items-start justify-between gap-4"><span
+                  class="grid size-10 shrink-0 place-items-center rounded border border-sun/25 bg-sun/10 text-sun"><i
+                    data-lucide="map-pin-check-inside" class="size-5"></i></span><span
+                  class="eyebrow text-[9px] font-bold uppercase text-slate-500">05 / Local search</span></div>
+              <h3 class="mt-4 font-display text-lg font-bold text-white">Google Business Profile &amp; Local Search</h3>
+              <p class="mt-2 text-[13px] leading-6 text-slate-400">Local Map Pack foundations, photo geotagging, and
+                review-request automation for “solar near me” searches.</p>
+              <p class="mt-5 border-t border-white/10 pt-4 text-sm font-bold text-white"><span
+                  class="text-cyan">$250–$400 setup</span><br /><span class="text-slate-400">$180–$300 / month
+                  ongoing</span></p>
+            </div>
+          </article>
+        </div>
+        <div
+          class="mt-8 flex flex-col items-start justify-between gap-5 rounded-md border border-white/10 bg-[#0d1626] p-6 sm:flex-row sm:items-center">
+          <p class="max-w-xl text-sm leading-6 text-slate-300">Need help deciding what to prioritize? Share your current
+            site and service area; we’ll point you to the right starting scope.</p><a
+            class="inline-flex shrink-0 items-center gap-2 text-sm font-bold text-cyan hover:text-white"
+            href="https://wa.me/2347075848564?text=Hi%20Webtellisense%20team,%20I%20saw%20your%20Bahamas%20solar%20marketing%20breakdown%20and%20would%20like%20to%20chat."
+            target="_blank" rel="noopener noreferrer">Discuss your scope <i data-lucide="arrow-up-right"
+              class="size-4"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="ad-spend" class="bg-[#0d1626] py-16 md:py-20 relative overflow-hidden">
+      <div class="container-wide relative z-10">
+        <div class="grid overflow-hidden rounded-xl border border-cyan/25 bg-[#111e31] md:grid-cols-[.8fr_1.2fr]">
+          <div
+            class="grid-lines relative flex min-h-[220px] items-end overflow-hidden border-b border-white/10 p-7 md:border-b-0 md:border-r md:p-9">
+            <div class="absolute inset-0 opacity-20 bg-cover bg-center"
+              style="background-image: url('https://images.unsplash.com/photo-1509391365360-2e959784a276?auto=format&fit=crop&w=800&q=80');">
+            </div>
+            <div class="absolute right-8 top-8 text-sun/80 z-10"><i data-lucide="sun" class="size-9"></i></div>
+            <div class="relative z-10">
+              <p class="eyebrow text-[10px] font-bold uppercase text-cyan">04 / Transparency policy</p>
+              <h2 class="mt-3 max-w-sm font-display text-2xl font-bold text-white">Your budget stays yours.</h2>
+            </div>
+          </div>
+          <div class="p-7 md:p-9">
+            <div class="flex gap-4"><span
+                class="grid size-10 shrink-0 place-items-center rounded border border-emerald-400/25 bg-emerald-400/10 text-emerald-300"><i
+                  data-lucide="badge-check" class="size-5"></i></span>
+              <div>
+                <h3 class="font-display text-lg font-bold text-white">Direct ad spend. Full account ownership.</h3>
+                <p class="mt-3 text-sm leading-7 text-slate-300">We never bill you for ad spend. Your Google and Meta
+                  advertising budgets are charged directly to your business payment method. You retain ownership of your
+                  ad accounts, pixel data, and domain assets at all times.</p>
+                <p class="mt-4 text-xs leading-5 text-slate-500">Management fees and platform media charges are separate
+                  line items. You can review spend in your own accounts.</p><a
+                  class="mt-5 inline-flex items-center gap-2 text-sm font-bold text-cyan hover:text-white"
+                  href="https://wa.me/2347075848564?text=Hi%20Webtellisense%20team,%20I%20saw%20your%20Bahamas%20solar%20marketing%20breakdown%20and%20would%20like%20to%20chat."
+                  target="_blank" rel="noopener noreferrer">Ask about account access <i data-lucide="arrow-up-right"
+                    class="size-4"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="relative overflow-hidden border-y border-white/10 bg-[#101c2d] py-16 md:py-20">
+      <div class="absolute -right-16 -top-24 size-80 rounded-full border border-cyan/10"></div>
+      <div class="absolute -right-4 -top-12 size-56 rounded-full border border-sun/10"></div>
+      <div class="container-wide relative grid gap-8 md:grid-cols-[1fr_auto] md:items-center">
+        <div>
+          <p class="eyebrow text-[10px] font-bold uppercase text-sun">Start with a clear next step</p>
+          <h2 class="mt-4 max-w-3xl font-display text-3xl font-extrabold leading-tight text-white md:text-[40px]">Ready
+            to scale your solar installation pipeline in The Bahamas?</h2>
+          <p class="mt-4 max-w-2xl text-sm leading-7 text-slate-300">Let’s review your current digital footprint. Send a
+            quick WhatsApp message and we’ll reply with a brief video audit or a conversation at a time that works for
+            you.</p>
+        </div>
+        <a class="inline-flex min-h-14 items-center justify-center gap-2 rounded-md bg-emerald-500 px-6 text-sm font-extrabold text-white shadow-lg shadow-emerald-950/30 transition hover:bg-emerald-400"
+          href="https://wa.me/2347075848564?text=Hi%20Webtellisense%20team,%20I%20saw%20your%20Bahamas%20solar%20marketing%20breakdown%20and%20would%20like%20to%20chat."
+          target="_blank" rel="noopener noreferrer"><i data-lucide="message-circle" class="size-5"></i> Message
+          07075848564 on WhatsApp <i data-lucide="arrow-up-right" class="size-4"></i></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-ink py-7">
+    <div
+      class="container-wide flex flex-col gap-4 text-xs text-slate-500 sm:flex-row sm:items-center sm:justify-between">
+      <a href="#top" class="flex items-center gap-2 font-display font-bold text-slate-300">
+        <!-- <i data-lucide="sun"
+          class="size-4 text-cyan"></i> Webtellisense -->
+        <img style="width: 50px;" src="./logo-3.png" alt="" srcset="">
+      </a>
+      <p>Solar marketing briefing for Nassau, Freeport, Abaco, Exuma &amp; The Bahamas.</p><a
+        class="text-slate-400 hover:text-white"
+        href="https://wa.me/2347075848564?text=Hi%20Webtellisense%20team,%20I%20saw%20your%20Bahamas%20solar%20marketing%20breakdown%20and%20would%20like%20to%20chat."
+        target="_blank" rel="noopener noreferrer">WhatsApp: +234 707 584 8564</a>
+    </div>
+  </footer>
+
+  <a class="wa-pulse fixed bottom-5 right-5 z-40 grid size-14 place-items-center rounded-full bg-emerald-500 text-white shadow-lg shadow-black/30 transition hover:scale-105 hover:bg-emerald-400 sm:bottom-6 sm:right-6"
+    href="https://wa.me/2347075848564?text=Hi%20Webtellisense%20team,%20I%20saw%20your%20Bahamas%20solar%20marketing%20breakdown%20and%20would%20like%20to%20chat."
+    target="_blank" rel="noopener noreferrer" aria-label="Message Webtellisense on WhatsApp"><i
+      data-lucide="message-circle" class="size-6"></i><span class="sr-only">Message us on WhatsApp</span></a>
+
+  <script>
+    lucide.createIcons();
+    const toggle = document.getElementById("menu-toggle");
+    const menu = document.getElementById("mobile-menu");
+    toggle.addEventListener("click", () => {
+      const open = toggle.getAttribute("aria-expanded") === "true";
+      toggle.setAttribute("aria-expanded", String(!open));
+      toggle.setAttribute("aria-label", open ? "Open navigation" : "Close navigation");
+      menu.classList.toggle("hidden", open);
+      toggle.innerHTML = open ? '<i data-lucide="menu" class="size-5"></i>' : '<i data-lucide="x" class="size-5"></i>';
+      lucide.createIcons();
+    });
+    document.querySelectorAll(".mobile-link").forEach((link) => link.addEventListener("click", () => {
+      menu.classList.add("hidden");
+      toggle.setAttribute("aria-expanded", "false");
+      toggle.setAttribute("aria-label", "Open navigation");
+      toggle.innerHTML = '<i data-lucide="menu" class="size-5"></i>';
+      lucide.createIcons();
+    }));
+  </script>
+</body>
+
+</html>
