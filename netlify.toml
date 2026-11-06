@@ -14,3 +14,8 @@
   [headers.values]
     Cache-Control = "no-store"
     Referrer-Policy = "no-referrer"
+[[headers]]
+  for = "/heroes-welcome.html"
+  [headers.values]
+    Cache-Control = "no-store"
+    Referrer-Policy = "no-referrer"

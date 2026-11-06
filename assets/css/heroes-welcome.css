@@ -1,0 +1,67 @@
+/* Heroes uses the agency's existing brand tokens. No global site overrides. */
+.heroes-welcome-page {margin:0;color:#1a1a1a;background:#fff;font-family:var(--font-primary),sans-serif;font-size:16px;line-height:1.75}
+.heroes-welcome-page * {box-sizing:border-box}
+.heroes-welcome-page [hidden] {display:none!important}
+.heroes-welcome-page h1,.heroes-welcome-page h2 {font-family:var(--font-primary),sans-serif;color:var(--color-primary-1);line-height:1.18;letter-spacing:-.035em}
+.heroes-welcome-page h1 {font-size:clamp(2.2rem,5vw,3.6rem);font-weight:700;margin:18px 0 22px}
+.heroes-welcome-page h2 {font-size:clamp(1.55rem,3vw,2rem);font-weight:600}
+.heroes-welcome-page p {margin:0 0 18px}
+.heroes-welcome-page a {color:var(--color-primary-2);text-underline-offset:4px}
+.hw-wrap {max-width:1080px;margin:auto;padding:0 36px}
+.hw-header {border-bottom:1px solid var(--color-gray-200);background:white}
+.hw-header-inner {min-height:94px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.hw-header .hw-brand {display:flex;align-items:center;gap:12px;text-decoration:none;font-size:1.25rem;font-weight:700;color:var(--color-primary-1)}
+.hw-header img {width:52px;height:52px;display:block}
+.hw-header nav {display:flex;gap:30px;font-size:.85rem;font-weight:600}
+.hw-header nav a {text-decoration:none}
+.hw-intro {display:flex;align-items:center;justify-content:space-between;gap:40px;padding:70px 0 44px}
+.hw-intro .eyebrow {font-family:var(--font-primary);font-size:.7rem;letter-spacing:.11em;font-weight:600}
+.hw-badge {object-fit:contain;flex-shrink:0}
+.hw-lead {font-size:1.1rem;color:#45485d}
+.hw-callback {padding:38px 42px;background:var(--color-primary-1);color:white;border-radius:12px}
+.hw-callback-label {font-size:.75rem;font-weight:600;letter-spacing:.04em;display:flex;gap:10px;align-items:center}
+.hw-marker {width:7px;height:7px;border-radius:50%;background:#a6b9ff}
+.hw-callback h2 {color:white;font-size:clamp(1.65rem,3.3vw,2.15rem);max-width:810px;margin:20px 0}
+.hw-callback p {max-width:750px;color:#e0e5ff}
+.hw-callback .hw-callback-window {color:white;font-weight:600;font-size:.95rem}
+.hw-hours {border-top:1px solid #42466d;padding-top:18px;font-size:.8rem;color:#e0e5ff}
+.hw-receipt {padding:28px 0 32px;border-bottom:1px solid var(--color-gray-200)}
+.hw-receipt h2 {font-size:.85rem;letter-spacing:0;font-weight:600;margin-bottom:18px}
+.hw-receipt dl {display:grid;grid-template-columns:1fr 1fr;gap:18px 36px;margin:0;font-size:.8rem}
+.hw-receipt dt {color:#565a6b}
+.hw-receipt dd {margin:3px 0 0;font-weight:500;overflow-wrap:anywhere}
+.hw-next {display:grid;grid-template-columns:1fr 1.6fr;gap:65px;padding:50px 0 30px}
+.hw-next h2 {margin-top:12px}
+.hw-next .eyebrow,.hw-contact .eyebrow {font-family:var(--font-primary);font-size:.65rem;font-weight:600}
+.hw-profile {background:var(--color-gray-100);border:1px solid var(--color-gray-200);border-radius:10px;padding:28px 32px}
+.hw-profile summary {display:flex;justify-content:space-between;align-items:center;gap:24px;cursor:pointer;list-style:none}
+.hw-profile summary::-webkit-details-marker {display:none}
+.hw-profile summary .eyebrow {display:block;font-family:var(--font-primary);font-size:.65rem;margin-bottom:6px}
+#profile-title {display:block;font-size:1.15rem;font-weight:600;color:var(--color-primary-1);line-height:1.5}
+.hw-expand {font-size:1.8rem;font-weight:400;color:var(--color-primary-2)}
+.hw-profile details[open] summary {margin-bottom:24px}
+.hw-form-grid {display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.hw-profile label {display:block;margin-bottom:20px;font-size:.85rem;font-weight:500}
+.hw-profile input,.hw-profile textarea {display:block;width:100%;margin-top:8px;border:1px solid #85899d;border-radius:5px;background:white;color:#1a1a1a;padding:12px;font:inherit}
+.hw-profile textarea {resize:vertical}
+.hw-note {font-size:.8rem;font-weight:400;color:#565a6b;display:block;line-height:1.65}
+.hw-honeypot {display:none}
+.hw-button {display:inline-flex;align-items:center;justify-content:center;gap:20px;background:var(--color-primary-2);color:white!important;border:0;border-radius:5px;padding:14px 22px;font-family:inherit;font-size:.85rem;font-weight:600;text-decoration:none;cursor:pointer;line-height:1.5;min-height:48px}
+.hw-button:hover {background:var(--color-primary-1)}
+.hw-button:disabled {opacity:.65;cursor:wait}
+.heroes-welcome-page :is(a,button,input,textarea,summary):focus-visible {outline:3px solid #5271ff;outline-offset:4px}
+.hw-separate {padding:24px 0 0;font-size:.8rem;color:#565a6b}
+.hw-contact {display:grid;grid-template-columns:1fr 1fr;gap:50px;padding:50px 0;margin-top:20px;border-top:1px solid var(--color-gray-200)}
+.hw-contact h2 {font-size:1.5rem;margin:10px 0 16px}
+.hw-contact p:not(.eyebrow) {font-size:.85rem;color:#565a6b}
+.hw-contact-links {display:flex;flex-direction:column;align-items:flex-start;gap:12px;font-size:.85rem;overflow-wrap:anywhere}
+.hw-footer {display:flex;justify-content:space-between;gap:24px;border-top:1px solid var(--color-gray-200);padding-top:24px;padding-bottom:24px;font-size:.75rem;color:#565a6b}
+.hw-verification {max-width:760px;padding:65px 0 25px;min-height:340px}
+.hw-verification .hw-note {margin-top:24px}
+#profile-status {margin:16px 0 0;font-size:.85rem}
+@media(max-width:650px) {
+ .hw-wrap {padding-left:22px;padding-right:22px}.hw-header-inner{min-height:80px}.hw-header img{width:38px;height:38px}.hw-header .hw-brand{font-size:1rem;gap:9px}.hw-header nav a:first-child{display:none}
+ .hw-header nav {gap:0}.hw-intro {padding-top:40px;gap:12px}.hw-badge{width:85px;height:110px}.hw-intro h1{font-size:2.15rem}.hw-intro .eyebrow{font-size:.57rem}.hw-lead{font-size:.95rem}.hw-desktop-break{display:none}
+ .hw-callback {padding:26px 24px}.hw-callback-label{font-size:.65rem}.hw-callback h2{font-size:1.55rem}.hw-callback p{font-size:.9rem}.hw-hours{font-size:.75rem}
+ .hw-receipt dl{grid-template-columns:1fr}.hw-next,.hw-contact{grid-template-columns:1fr;gap:12px;padding-top:35px}.hw-next h2 br{display:none}.hw-profile{padding:24px 20px}.hw-form-grid{grid-template-columns:1fr;gap:0}.hw-footer{flex-direction:column;gap:0}#profile-title{font-size:1rem}
+}

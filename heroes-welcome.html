@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="referrer" content="no-referrer">
+  <title>Your Heroes welcome | Webtellisense</title>
+  <link rel="icon" href="favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/heroes-welcome.css">
+  <script defer src="assets/js/heroes-welcome.js"></script>
+</head>
+<body class="heroes-welcome-page">
+  <header class="hw-header">
+    <div class="hw-wrap hw-header-inner">
+      <a class="hw-brand" href="index.html" aria-label="Webtellisense home"><img src="assets/img/logo.png" alt="" width="52" height="52"><span>Webtellisense</span></a>
+      <nav aria-label="Welcome navigation"><a href="packages.html">Our packages</a><a href="#contact">Talk to us</a></nav>
+    </div>
+  </header>
+  <main id="main" class="hw-wrap">
+    <section id="verification-panel" class="hw-verification" aria-labelledby="verification-title">
+      <span class="eyebrow">WEBTELLISENSE HEROES</span>
+      <h1 id="verification-title">Let’s check your payment.</h1>
+      <p id="verification-message" role="status" aria-live="polite">We’re securely checking your payment with Paystack. This may take a moment.</p>
+      <button id="verification-retry" class="hw-button" type="button" hidden>Check again</button>
+      <p class="hw-note">A payment reference alone doesn’t confirm payment. If you’ve already paid, please don’t pay again while we check.</p>
+      <noscript><p>Enable JavaScript to check your payment, or contact us below so we can help.</p></noscript>
+    </section>
+
+    <div id="verified-welcome" hidden>
+      <section class="hw-intro" aria-labelledby="welcome-title">
+        <div>
+          <p class="eyebrow">WEBTELLISENSE HEROES · <span id="heroes-tier"></span></p>
+          <h1 id="welcome-title">Welcome to the team,<br><span id="heroes-name"></span>.</h1>
+          <p class="hw-lead">You’ve taken the next step for your business.<br class="hw-desktop-break"> We’ll take it from here, together.</p>
+        </div>
+        <img id="heroes-badge" class="hw-badge" alt="" width="190" height="190">
+      </section>
+
+      <section class="hw-callback" aria-labelledby="callback-title">
+        <div class="hw-callback-label"><span class="hw-marker" aria-hidden="true"></span>Your next step is a conversation</div>
+        <h2 id="callback-title"></h2>
+        <p id="callback-window" class="hw-callback-window"></p>
+        <p>Our first call is to welcome you and find a good time for your onboarding session. There’s nothing you need to fill in before we speak.</p>
+        <p id="callback-overdue" hidden>If we haven’t reached you in this window, please call or message us below so we can follow up personally.</p>
+        <div class="hw-hours">Contact hours: <span id="contact-hours"></span></div>
+      </section>
+
+      <section class="hw-receipt" aria-labelledby="receipt-title">
+        <h2 id="receipt-title">Your payment is verified.</h2>
+        <dl>
+          <div><dt>Heroes package</dt><dd id="receipt-tier"></dd></div>
+          <div><dt>Amount paid</dt><dd id="receipt-amount"></dd></div>
+          <div><dt>Payment reference</dt><dd id="receipt-reference"></dd></div>
+          <div><dt>Confirmed by our system</dt><dd id="receipt-time"></dd></div>
+        </dl>
+      </section>
+
+      <section class="hw-next" aria-labelledby="next-title">
+        <div>
+          <p class="eyebrow">A CLEAR START</p>
+          <h2 id="next-title">Your business.<br> Our full attention.</h2>
+        </div>
+        <div>
+          <p>Your onboarding conversation takes approximately <strong>30–60 minutes</strong>. We’ll talk through your business, the digital assets you already have, your priorities and the access we’ll need.</p>
+          <p>Then we’ll agree on the initial implementation plan. If account access is needed, we’ll guide you through secure invitations. <strong>Please don’t send passwords or recovery codes.</strong></p>
+          <p>After discovery, we’ll put your agreed priorities into a personalized 30-day activation plan.</p>
+        </div>
+      </section>
+
+      <section class="hw-profile" aria-labelledby="profile-title">
+        <details>
+          <summary><span><span class="eyebrow">OPTIONAL · WHILE YOU WAIT</span><span id="profile-title">Tell us a little about your business.</span></span><span class="hw-expand" aria-hidden="true">+</span></summary>
+          <p>A few details can help us prepare. You can skip this and tell us everything when we call.</p>
+          <form name="heroes-business-profile" method="POST" data-netlify="true" netlify-honeypot="company-fax" id="heroes-profile-form">
+            <input type="hidden" name="form-name" value="heroes-business-profile">
+            <input type="hidden" name="order-reference" id="profile-reference">
+            <p class="hw-honeypot"><label>Leave this blank <input name="company-fax" tabindex="-1" autocomplete="off"></label></p>
+            <div class="hw-form-grid">
+              <label>Business name <input name="business-name" maxlength="150" autocomplete="organization" required></label>
+              <label>Contact email <input name="contact-email" type="email" maxlength="254" autocomplete="email" required></label>
+            </div>
+            <label>Website or public social page <input name="public-link" type="url" placeholder="https://" maxlength="500"><span class="hw-note">Optional. A public link is enough; no account access details.</span></label>
+            <label>What would you most like us to help with? <textarea name="priority" rows="3" maxlength="1000" required></textarea></label>
+            <p class="hw-note">We’ll use these details to prepare for your onboarding. Don’t include passwords, payment details, API keys or other sensitive credentials. You can also share your profile directly when we call.</p>
+            <button class="hw-button" type="submit" id="profile-submit">Send your profile</button>
+            <p id="profile-status" role="status" aria-live="polite"></p>
+          </form>
+        </details>
+      </section>
+      <p class="hw-separate">Have a separate project in mind? <a href="contact.html">Talk to us about a quote.</a> We’ll agree any work outside your Heroes scope separately.</p>
+    </div>
+
+    <section id="contact" class="hw-contact" aria-labelledby="contact-title">
+      <div><p class="eyebrow">REAL PEOPLE. READY TO HELP.</p><h2 id="contact-title">You can reach us directly.</h2><p>Need to update your number or ask a question? Get in touch.</p></div>
+      <div class="hw-contact-links">
+        <a class="hw-button" href="https://wa.me/2347075848564?text=Hi%20Webtellisense%2C%20I%20need%20help%20with%20my%20Heroes%20onboarding.">Message on WhatsApp</a>
+        <a href="tel:+2347075848564">Call +234 707 584 8564</a>
+        <a href="mailto:webtellisense@gmail.com">webtellisense@gmail.com</a>
+      </div>
+    </section>
+  </main>
+  <footer class="hw-footer hw-wrap"><p>Webtellisense Consult</p><p>Eket, Akwa Ibom · <a href="index.html">Back to our website</a></p></footer>
+</body>
+</html>

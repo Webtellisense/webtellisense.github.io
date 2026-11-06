@@ -20,10 +20,10 @@ function createStore(pool) {
   };
 }
 let pool;
-function productionStore(env) {
+function getPool(env) {
   if (!env.DATABASE_URL) throw new Error('Order storage is not configured');
-  // A reused pool is only a connection cache. All order state lives in PostgreSQL.
   pool ||= new Pool({connectionString:env.DATABASE_URL,ssl:{rejectUnauthorized:true},max:2,connectionTimeoutMillis:5000,query_timeout:5000});
-  return createStore(pool);
+  return pool;
 }
-module.exports = {createStore,productionStore};
+function productionStore(env) { return createStore(getPool(env)); }
+module.exports = {createStore,productionStore,getPool};

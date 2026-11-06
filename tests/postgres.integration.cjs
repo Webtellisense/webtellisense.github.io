@@ -33,5 +33,22 @@ test('real PostgreSQL: concurrent settlement, restart persistence, unique IDs an
   await assert.rejects(service.initialize(input),/timeout/);
   await assert.rejects(service.initialize(input),/pending reconciliation/);
   assert.equal(calls,1);
+  await isolated.query(fs.readFileSync('migrations/002_purchase_alerts.sql','utf8'));
+  const heroes={...order,reference:'WT-heroes',request_hash:'heroes',quote:{packageId:'heroes',tier:'v1'},customer:{name:'Fixture',email:'test@example.invalid',phone:'0000000'}};
+  await store.create(heroes);await store.markPaid(heroes.reference,'777');
+  const {createAlertDispatcher}=require('../server/purchase-alerts.cjs');
+  let alerts=0;const env={HEROES_ALERT_EMAIL_KEY:'fixture',HEROES_ALERT_FROM:'test@example.invalid',HEROES_ALERT_TO:'ops@example.invalid'};
+  const dispatch=createAlertDispatcher(isolated,env,async()=>{alerts++;return {ok:true};});
+  await Promise.all(Array.from({length:8},()=>dispatch()));
+  assert.equal(alerts,1);
+  let row=(await isolated.query('SELECT * FROM payment_outbox WHERE reference=$1',[heroes.reference])).rows[0];
+  assert.equal(row.alert_delivered_via,'email');assert.ok(row.processed_at);
+  const failed={...heroes,reference:'WT-retry',request_hash:'retry'};await store.create(failed);await store.markPaid(failed.reference,'778');
+  await createAlertDispatcher(isolated,{},async()=>{throw new Error('offline');})();
+  row=(await isolated.query('SELECT * FROM payment_outbox WHERE reference=$1',[failed.reference])).rows[0];assert.equal(row.processed_at,null);assert.ok(row.alert_next_attempt);
+  await isolated.query('UPDATE payment_outbox SET alert_next_attempt=NULL WHERE reference=$1',[failed.reference]);
+  await createAlertDispatcher(isolated,{HEROES_ALERT_FALLBACK_URL:'https://test.example.invalid'},async()=>({ok:true}))();
+  row=(await isolated.query('SELECT * FROM payment_outbox WHERE reference=$1',[failed.reference])).rows[0];assert.equal(row.alert_delivered_via,'fallback');assert.ok(row.processed_at);
+
  } finally {await isolated.end();await pool.query(`DROP SCHEMA ${schema} CASCADE`);await pool.end();}
 });

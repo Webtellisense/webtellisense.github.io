@@ -16,6 +16,7 @@
       const data=await response.json();
       if(!response.ok)throw new Error(data.error || 'Verification unavailable.');
       if(data.status!=='paid'){message.textContent='Payment is not yet confirmed. Retry after completing checkout.';retry.hidden=false;return;}
+      if(data.packageId==='heroes'){location.replace('/heroes-welcome.html');return;}
       message.textContent='Payment verified.';
       document.getElementById('client-first-name').textContent=data.name.split(' ')[0];
       document.getElementById('client-onboarding-view').style.display='block';
