@@ -1,0 +1,16 @@
+[build]
+  command = "npm run build"
+  publish = "public"
+  # Review-only branch: prevent automatic branch builds/deploys. Release requires approval.
+  ignore = "exit 0"
+[build.environment]
+  NODE_VERSION = "22"
+[[headers]]
+  for = "/heroes-welcome.html"
+  [headers.values]
+    Cache-Control = "no-store"
+    Referrer-Policy = "no-referrer"
+[[headers]]
+  for = "/heroes-start.html"
+  [headers.values]
+    Referrer-Policy = "no-referrer"
