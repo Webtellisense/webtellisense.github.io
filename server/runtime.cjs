@@ -1,6 +1,8 @@
 const JSONbig = require('json-bigint')({storeAsString:true});
 const {createService,PaymentError,fail,quote,authenticateWebhook} = require('./payments.cjs');
-const {productionStore} = require('./store.cjs');
+const {productionStore,getPool} = require('./store.cjs');
+const {heroesDetails}=require('./heroes.cjs');
+const {createAlertDispatcher}=require('./purchase-alerts.cjs');
 function config(env) {
   // Deliberately no live-mode escape hatch in this PR.
   if (!/^sk_test_[A-Za-z0-9]+$/.test(env.PAYSTACK_SECRET_KEY || '')) fail(503,'Test payment credentials are not configured.');
@@ -47,9 +49,23 @@ function makeHandler(action, dependencies={}) {
         const result = await service.initialize(body);
         return response(200,result,{'Set-Cookie':`${cookieName}=${body.requestKey}; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=86400`});
       }
+      async function alertVerifiedHeroes(ref) {
+        try {
+          const order=await store.get(ref);
+          if(order?.status==='paid' && order.quote.packageId==='heroes') {
+            const dispatch=dependencies.dispatchAlerts || createAlertDispatcher(getPool(env),env);
+            await dispatch(ref);
+          }
+        } catch {console.error('Heroes alert dispatch pending; inspect payment outbox.');}
+      }
       if (action === 'status') {
         if (!/^WT-[a-f0-9-]{36}$/.test(body.reference || '')) return response(400,{error:'Invalid reference'});
-        return response(200,await service.status(body.reference,readCookie(h)));
+        const result=await service.status(body.reference,readCookie(h));
+        if(result.status==='paid' && result.packageId==='heroes') {
+          await alertVerifiedHeroes(body.reference);
+          result.heroes=heroesDetails(await store.get(body.reference),env);
+        }
+        return response(200,result);
       }
       if (action === 'webhook') {
         if (body.event !== 'charge.success') return response(200,{received:true});
@@ -57,6 +73,7 @@ function makeHandler(action, dependencies={}) {
         if (!/^WT-[a-f0-9-]{36}$/.test(ref || '') || !await store.get(ref)) return response(200,{received:true});
         const settled=await service.settle(ref);
         if(settled.status !== 'paid') return response(503,{error:'Payment awaiting verification'});
+        await alertVerifiedHeroes(ref);
         return response(200,{received:true});
       }
       return response(404,{error:'Not found'});

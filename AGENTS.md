@@ -63,3 +63,9 @@ The user subsequently authorized implementation of A01/A02 on an isolated branch
 - `server/catalog.json` deliberately disables every package until commercial approval. Test-only fixtures are not offers. Paystack live keys are rejected; no subscription plans or renewals are created.
 - `netlify.toml` skips automatic builds for this review branch. A future approved build must publish the allowlisted `public/` directory, never the root/backend files.
 - Follow `docs/payment-architecture.md` for setup, signature verification, outstanding decisions and tests. Never use Function memory as order persistence or customer URL tokens as payment confirmation.
+
+## Heroes personal onboarding follow-up
+
+The user authorized a separate implementation branch/PR for a personal callback-led Heroes welcome. Preserve unrelated packages/Tally, marketing pages and quote processes. Defaults: 08:00–19:00 Africa/Lagos daily, callback within 1–2 hours of authoritative confirmation during hours, otherwise from the next 08:00. The first call arranges a 30–60-minute onboarding session. See `docs/heroes-onboarding.md` for edge cases, configuration and staffing dependencies.
+
+Heroes-only UI is in `heroes-welcome.html` and scoped CSS/JS. No calendar or custom profile database. Alerts extend the existing payment outbox via migration 002: immediate verified-purchase email, independent webhook fallback and one scheduled retry Function. Never send a paid alert based on a submitted profile, query token or browser redirect. Test all outbound services with mocks; no deployment/merge or production settings under this authorization.
