@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="referrer" content="no-referrer">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Welcome to Webtellisense | Immediate Onboarding</title>
   <link href="assets/css/main.css" rel="stylesheet">
@@ -16,6 +17,8 @@
 <body style="background:#f8fafc;">
 
   <div class="welcome-container" id="gate-container">
+    <p id="payment-status" role="status" aria-live="polite">Verifying your payment…</p>
+    <button id="payment-retry" type="button" hidden>Retry verification</button>
     <!-- Unverified Visitor Access Denied Guard -->
     <div id="unauthorized-msg" style="display:none; text-align:center;">
       <h2>Access Denied</h2>
@@ -32,38 +35,10 @@
       </div>
 
       <!-- Embedded Interactive Questionnaire (Tally / Typeform) -->
-      <iframe id="tally-onboarding-frame" class="form-embed-wrapper" src="https://tally.so/r/3yD4kx?transparentBackground=1"></iframe>
+      <iframe id="tally-onboarding-frame" class="form-embed-wrapper" title="Client onboarding questionnaire"></iframe>
     </div>
   </div>
 
-  <script>
-    // URL Session Validation Security Script
-    window.addEventListener('DOMContentLoaded', () => {
-      const urlParams = new URLSearchParams(window.location.search);
-      const sessionId = urlParams.get('session_id');
-
-      if (!sessionId) {
-        document.getElementById('unauthorized-msg').style.display = 'block';
-        return;
-      }
-
-      try {
-        const decodedData = JSON.parse(atob(sessionId));
-        
-        if (decodedData.ref && decodedData.name) {
-          document.getElementById('client-onboarding-view').style.display = 'block';
-          document.getElementById('client-first-name').innerText = decodedData.name.split(' ')[0];
-          
-          // Optionally pass parameters to embedded questionnaire URL
-          const frame = document.getElementById('tally-onboarding-frame');
-          frame.src = `https://tally.so/r/3yD4kx?name=${encodeURIComponent(decodedData.name)}&email=${encodeURIComponent(decodedData.email)}&pkg=${encodeURIComponent(decodedData.pkg)}`;
-        } else {
-          document.getElementById('unauthorized-msg').style.display = 'block';
-        }
-      } catch (e) {
-        document.getElementById('unauthorized-msg').style.display = 'block';
-      }
-    });
-  </script>
+  <script src="assets/js/payment-welcome.js"></script>
 </body>
 </html>

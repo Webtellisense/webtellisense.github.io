@@ -1,0 +1,67 @@
+{
+  "version": "pending-commercial-approval",
+  "packages": {
+    "swagger": {
+      "approved": false,
+      "reason": "Billing rules require owner approval",
+      "tiers": {
+        "entry": {},
+        "mid": {},
+        "top": {}
+      }
+    },
+    "frontline": {
+      "approved": false,
+      "reason": "Billing rules require owner approval",
+      "tiers": {
+        "basic": {},
+        "pro": {},
+        "enterprise": {}
+      }
+    },
+    "cashflow": {
+      "approved": false,
+      "reason": "Billing rules require owner approval",
+      "tiers": {
+        "basic": {},
+        "standard": {}
+      }
+    },
+    "fireshot": {
+      "approved": false,
+      "reason": "Billing rules require owner approval",
+      "tiers": {
+        "basic": {},
+        "standard": {},
+        "premium": {}
+      }
+    },
+    "deeproots": {
+      "approved": false,
+      "reason": "Billing rules require owner approval",
+      "tiers": {
+        "essentials": {},
+        "growth": {},
+        "domination": {}
+      }
+    },
+    "vibes": {
+      "approved": false,
+      "reason": "Billing rules require owner approval",
+      "tiers": {
+        "basic": {},
+        "standard": {},
+        "premium": {}
+      }
+    },
+    "heroes": {
+      "approved": false,
+      "reason": "Billing rules require owner approval",
+      "tiers": {
+        "v1": {},
+        "v2": {},
+        "v3": {}
+      }
+    }
+  }
+}
