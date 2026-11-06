@@ -1,1 +1,7 @@
 .vscode
+node_modules/
+public/
+.netlify/
+.env
+.env.*
+!.env.example

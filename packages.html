@@ -489,11 +489,11 @@
                             </label>
                             <label class="wt-pill">
                                 <input type="radio" name="wt_duration" value="3" onclick="calculateInvoiceTotal()">
-                                <span>3 Months (5% Off)</span>
+                                <span>3 Months</span>
                             </label>
                             <label class="wt-pill">
                                 <input type="radio" name="wt_duration" value="6" onclick="calculateInvoiceTotal()">
-                                <span>6 Months (10% Off)</span>
+                                <span>6 Months</span>
                             </label>
                         </div>
                     </div>
@@ -531,7 +531,8 @@
                         </div>
                     </div>
 
-                    <button type="submit" class="wt-btn-submit-pay" onclick="fbq('track', 'InitiateCheckout');">Proceed
+                    <p id="wt-payment-message" role="status" aria-live="polite">Billing availability will be checked before payment.</p>
+                    <button type="submit" class="wt-btn-submit-pay" disabled>Proceed
                         to Pay via Paystack →</button>
                 </form>
             </div>
@@ -892,7 +893,7 @@
 
     <!-- Vendor & Core JS Files (Deferred Non-Blocking) -->
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script>
-    <script src="https://js.paystack.co/v1/inline.js" defer></script>
+
     <script src="assets/js/main.js" defer></script>
 
 
@@ -1338,115 +1339,8 @@
             }
         }
 
-        // ─── 3. LIVE INVOICE CALCULATION ───
-        function calculateInvoiceTotal() {
-            const durationRadio = document.querySelector('input[name="wt_duration"]:checked');
-            currentCart.durationMonths = durationRadio ? (parseInt(durationRadio.value, 10) || 1) : 1;
-
-            if (currentCart.adBudgetMin > 0) {
-                const inputElem = document.getElementById('wt-ad-budget-input');
-                const inputVal = inputElem ? parseInt(inputElem.value, 10) || 0 : 0;
-                currentCart.selectedAdBudget = inputVal;
-            } else {
-                currentCart.selectedAdBudget = 0;
-            }
-
-            // Calculation Logic
-            let subtotalFee = currentCart.baseFee * currentCart.durationMonths;
-            let totalAdFee = currentCart.selectedAdBudget * currentCart.durationMonths;
-
-            let discountRate = 0;
-            if (currentCart.durationMonths === 3) discountRate = 0.05;
-            if (currentCart.durationMonths === 6) discountRate = 0.10;
-
-            let discountAmount = subtotalFee * discountRate;
-            let grandTotal = (subtotalFee - discountAmount) + totalAdFee;
-
-            // Update UI Breakdown Elements
-            const invService = document.getElementById('inv-service-fee');
-            const invAdRow = document.getElementById('inv-ad-row');
-            const invAdFee = document.getElementById('inv-ad-fee');
-            const invDiscountRow = document.getElementById('inv-discount-row');
-            const invDiscountFee = document.getElementById('inv-discount-fee');
-            const invGrandTotal = document.getElementById('inv-grand-total');
-
-            if (invService) invService.innerText = `₦${subtotalFee.toLocaleString()}`;
-
-            if (invAdRow && invAdFee) {
-                if (totalAdFee > 0) {
-                    invAdRow.style.display = 'flex';
-                    invAdFee.innerText = `₦${totalAdFee.toLocaleString()}`;
-                } else {
-                    invAdRow.style.display = 'none';
-                }
-            }
-
-            if (invDiscountRow && invDiscountFee) {
-                if (discountAmount > 0) {
-                    invDiscountRow.style.display = 'flex';
-                    invDiscountFee.innerText = `-₦${discountAmount.toLocaleString()}`;
-                } else {
-                    invDiscountRow.style.display = 'none';
-                }
-            }
-
-            if (invGrandTotal) invGrandTotal.innerText = `₦${grandTotal.toLocaleString()}`;
-
-            currentCart.calculatedGrandTotal = grandTotal;
-        }
-
-        // ─── 4. EXECUTE PAYSTACK PAYMENT FROM FORM ───
-        function executePaystackPayment(e) {
-            e.preventDefault();
-
-            const clientName = document.getElementById('wt-client-name').value;
-            const clientEmail = document.getElementById('wt-client-email').value;
-            const clientPhone = document.getElementById('wt-client-phone').value;
-
-            if (!clientEmail) {
-                alert("Please enter a valid email address.");
-                return;
-            }
-
-            // Initialize Paystack Pop
-            const handler = PaystackPop.setup({
-                key: 'pk_live_34d327b16eefa5f8ac8faa9ddbcc496cbfc68a21',
-                email: clientEmail,
-                amount: currentCart.calculatedGrandTotal * 100, // Converted to Kobo
-                currency: 'NGN',
-                ref: 'WT_' + Math.floor((Math.random() * 1000000000) + 1),
-                metadata: {
-                    custom_fields: [
-                        { display_name: "Client Name", variable_name: "client_name", value: clientName },
-                        { display_name: "Phone/WhatsApp", variable_name: "client_phone", value: clientPhone },
-                        { display_name: "Package", variable_name: "package_name", value: currentCart.packageName },
-                        { display_name: "Tier", variable_name: "package_tier", value: currentCart.tier.toUpperCase() },
-                        { display_name: "Duration Months", variable_name: "duration_months", value: currentCart.durationMonths }
-                    ]
-                },
-                callback: function (response) {
-                    // Payment Successful! Pass details to protected gate page
-                    const sessionToken = btoa(JSON.stringify({
-                        ref: response.reference,
-                        email: clientEmail,
-                        name: clientName,
-                        phone: clientPhone,
-                        pkg: currentCart.packageName,
-                        tier: currentCart.tier
-                    }));
-
-                    window.location.href = `/welcome.html?session_id=${sessionToken}`;
-                },
-                onClose: function () {
-                    alert('Transaction was cancelled.');
-                }
-            });
-
-            handler.openIframe();
-        }
-
-
     </script>
+    <script src="assets/js/payment-checkout.js"></script>
 
 </body>
 

@@ -1,0 +1,16 @@
+[build]
+  publish = "public"
+  command = "node scripts/build-public.cjs"
+  # Review-only branch: skip automatic builds/deploy previews. Remove only in an approved release.
+  ignore = "exit 0"
+[build.environment]
+  NODE_VERSION = "22"
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+  included_files = ["server/catalog.json"]
+[[headers]]
+  for = "/welcome.html"
+  [headers.values]
+    Cache-Control = "no-store"
+    Referrer-Policy = "no-referrer"
