@@ -1,0 +1,7 @@
+# One public flagship route. No duplicate HTML is published at the old name.
+/webtellisense-heroes.html /heroes 301!
+/webtellisense-heroes /heroes 301!
+/webtellisense-heroes/ /heroes 301!
+/heroes.html /heroes 301!
+/heroes/ /heroes 301!
+/heroes /heroes.html 200!

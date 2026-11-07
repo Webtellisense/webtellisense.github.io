@@ -1,0 +1,3298 @@
+{
+  "baseline": "1dab681492ea2f2cab18fde9d942acffce6211d5",
+  "preserved_pr4_links": 71,
+  "total_current_contextual_links": 126,
+  "new_heroes_inbound_links": 16,
+  "new_heroes_sources": [
+    "about.html",
+    "business-audit-tool.html",
+    "business-not-showing-up-online.html",
+    "construction-property-marketing.html",
+    "conversion-rate-optimization.html",
+    "education-marketing.html",
+    "how-to-grow-your-business-online-2026.html",
+    "index.html",
+    "industries.html",
+    "pricing.html",
+    "social-media-management.html",
+    "solar-and-home-services-marketing.html",
+    "value-of-a-digital-agency.html",
+    "web-design.html"
+  ],
+  "destinations": {
+    "10-essential-tips-for-businesses-2025.html": 1,
+    "about.html": 2,
+    "blog.html": 1,
+    "branding.html": 4,
+    "business-audit-tool.html": 2,
+    "business-not-showing-up-online.html": 5,
+    "construction-property-marketing.html": 2,
+    "contact.html": 6,
+    "content-marketing.html": 5,
+    "conversion-rate-optimization.html": 11,
+    "education-marketing.html": 2,
+    "email-marketing.html": 2,
+    "google-business-profile.html": 11,
+    "graphics-design.html": 4,
+    "heroes-welcome.html": 1,
+    "heroes.html": 16,
+    "how-to-grow-your-business-online-2026.html": 6,
+    "industries.html": 5,
+    "packages.html": 2,
+    "ppc.html": 4,
+    "reviews.html": 1,
+    "social-media-management.html": 7,
+    "social-media-marketing.html": 5,
+    "solar-and-home-services-marketing.html": 2,
+    "solar.html": 1,
+    "top-features-for-a-school-website.html": 2,
+    "value-of-a-digital-agency.html": 3,
+    "web-design.html": 13
+  },
+  "pages": [
+    {
+      "page": "10-essential-tips-for-businesses-2025.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/10-essential-tips-for-businesses-2025"
+      ],
+      "headings": [
+        "10 Essential Tips for Small Business",
+        "10 Essential Tips for Small Business Online Success in Eket",
+        "1. Claim Your Google Business Profile",
+        "2. Build a Mobile-Friendly Website",
+        "3. Leverage Local Social Media Groups",
+        "4. Collect Customer Reviews",
+        "Other Posts",
+        "Tags",
+        "Check Your Business Digital Performance",
+        "🌐 Let's start with your web presence"
+      ],
+      "links": [
+        {
+          "source": "10-essential-tips-for-businesses-2025.html",
+          "destination": "google-business-profile.html",
+          "anchor": "complete, optimized profile",
+          "line": 193,
+          "context": "Over 80% of local searches start on Google. A complete, optimized profile makes you visible when customers search for services in Eket. Include photos, accurate hours, and respond to reviews.",
+          "status": "Retained PR #4",
+          "reason": "Local search tip → profile setup and management"
+        },
+        {
+          "source": "10-essential-tips-for-businesses-2025.html",
+          "destination": "web-design.html",
+          "anchor": "work perfectly on phones",
+          "line": 199,
+          "context": "With most Nigerian internet users on mobile, your site must work perfectly on phones. Ensure fast loading speeds and easy navigation - we've seen businesses increase leads by 150% after mobile optimization.",
+          "status": "Retained PR #4",
+          "reason": "Mobile-site advice → responsive website service"
+        },
+        {
+          "source": "10-essential-tips-for-businesses-2025.html",
+          "destination": "content-marketing.html",
+          "anchor": "Share valuable content",
+          "line": 213,
+          "context": "Active in communities like \"Eket Business Network\" on Facebook? Share valuable content (not just ads) to build trust. A local mechanic gained 30 new customers monthly this way.",
+          "status": "Retained PR #4",
+          "reason": "Helpful community content → content strategy and writing"
+        },
+        {
+          "source": "10-essential-tips-for-businesses-2025.html",
+          "destination": "business-not-showing-up-online.html",
+          "anchor": "why a Facebook page alone is not enough",
+          "line": 224,
+          "context": "Nigerian consumers trust online reviews as much as personal recommendations. Politely ask satisfied customers to leave feedback on Google or Facebook. If you're active online but still hard to find, read why a Facebook page alone is not enough.",
+          "status": "Retained PR #4",
+          "reason": "Reviews and discovery → deeper visibility diagnosis"
+        }
+      ],
+      "operational_links": []
+    },
+    {
+      "page": "about.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/about"
+      ],
+      "headings": [
+        "About",
+        "Bridging Eket’s Digital Divide",
+        "Your Digital Advantage",
+        "Our Team",
+        "Our Core Competencies",
+        "Clients"
+      ],
+      "links": [
+        {
+          "source": "about.html",
+          "destination": "web-design.html",
+          "anchor": "Websites that showcase your business",
+          "line": 177,
+          "context": "Be Unmissable: Websites that showcase your business 24/7 to ready-to-buy customers",
+          "status": "Retained PR #4",
+          "reason": "Agency strengths → website capability"
+        },
+        {
+          "source": "about.html",
+          "destination": "google-business-profile.html",
+          "anchor": "SEO strategies",
+          "line": 179,
+          "context": "Get Discovered: SEO strategies tailored for how Eket residents search locally",
+          "status": "Retained PR #4",
+          "reason": "Eket local-search positioning → local SEO service"
+        },
+        {
+          "source": "about.html",
+          "destination": "branding.html",
+          "anchor": "Professional branding",
+          "line": 181,
+          "context": "Build Trust: Professional branding that makes your quality impossible to ignore",
+          "status": "Retained PR #4",
+          "reason": "Agency strengths → identity capability"
+        },
+        {
+          "source": "about.html",
+          "destination": "heroes.html",
+          "anchor": "meet Heroes",
+          "line": 186,
+          "context": "We've helped 50+ Eket businesses like yours overcome digital barriers. From bakeries doubling online orders to law firms dominating local searches, our framework delivers real results. For a unified, ongoing team relationship, meet Heroes. Read client feedback or learn what to consider when working with a digital partner.",
+          "status": "Added in integration",
+          "reason": "For a unified, ongoing team relationship, meet Heroes."
+        },
+        {
+          "source": "about.html",
+          "destination": "reviews.html",
+          "anchor": "client feedback",
+          "line": 187,
+          "context": "We've helped 50+ Eket businesses like yours overcome digital barriers. From bakeries doubling online orders to law firms dominating local searches, our framework delivers real results. For a unified, ongoing team relationship, meet Heroes. Read client feedback or learn what to consider when working with a digital partner.",
+          "status": "Retained PR #4",
+          "reason": "Agency evaluation → existing client reviews, no quote changes"
+        },
+        {
+          "source": "about.html",
+          "destination": "value-of-a-digital-agency.html",
+          "anchor": "working with a digital partner",
+          "line": 188,
+          "context": "We've helped 50+ Eket businesses like yours overcome digital barriers. From bakeries doubling online orders to law firms dominating local searches, our framework delivers real results. For a unified, ongoing team relationship, meet Heroes. Read client feedback or learn what to consider when working with a digital partner.",
+          "status": "Retained PR #4",
+          "reason": "Agency evaluation → existing support and strategy article"
+        }
+      ],
+      "operational_links": []
+    },
+    {
+      "page": "audit.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/audit"
+      ],
+      "headings": [
+        "How visible is yourbusiness online?",
+        "Let's start with your business",
+        "Your website & online home",
+        "Can customers find you on Google?",
+        "Your social media presence",
+        "How your business looks and sounds",
+        "Turning interest into paying customers",
+        "Are you paying to be seen?",
+        "What you put out into the world",
+        "Calculating your score..."
+      ],
+      "links": [],
+      "operational_links": [
+        {
+          "source": "audit.html",
+          "destination": "privacy-policy.html",
+          "anchor": "privacy information (draft)",
+          "line": 982,
+          "context": "Read our privacy information (draft) before sharing details. Don’t include passwords or sensitive account information."
+        }
+      ]
+    },
+    {
+      "page": "bahamas/solar.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/bahamas/solar"
+      ],
+      "headings": [
+        "High-performance solar marketing built for The Bahamas—without Nassau agency markups.",
+        "Make the marketing math work for the installer.",
+        "A clear monthly scope. A predictable fee.",
+        "Local Map & Social Presence",
+        "The Solar Lead Engine",
+        "Total Island Dominance",
+        "Know what each service covers.",
+        "Custom Solar Website & Funnel Build",
+        "Google Search Ads Management",
+        "Meta Lead Generation Ads",
+        "Organic Social Media Management",
+        "Google Business Profile & Local Search",
+        "Your budget stays yours.",
+        "Direct ad spend. Full account ownership.",
+        "Ready to scale your solar installation pipeline in The Bahamas?"
+      ],
+      "links": [],
+      "operational_links": []
+    },
+    {
+      "page": "blog-details.html",
+      "indexable_in_source": false,
+      "canonical": [
+        "https://webtellisense.com/blog-details"
+      ],
+      "headings": [
+        "Blog Details",
+        "Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia",
+        "Et quae iure vel ut odit alias.",
+        "Ut repellat blanditiis est dolore sunt dolorum quae.",
+        "Other Posts",
+        "Tags"
+      ],
+      "links": [],
+      "operational_links": []
+    },
+    {
+      "page": "blog.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/blog"
+      ],
+      "headings": [
+        "Blog",
+        "Check Your Business Digital Performance",
+        "🌐 Let's start with your web presence",
+        "How To Grow Your Business Online",
+        "Why Your Business Isn't Showing Up Online",
+        "10 Essential Tips for Small Business Online Success",
+        "Top Features to Have on a School Website",
+        "The Value of a Trusted Digital Agency",
+        "Your competitors are already online. Your customers are already searching."
+      ],
+      "links": [],
+      "operational_links": []
+    },
+    {
+      "page": "branding.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/branding"
+      ],
+      "headings": [
+        "Brand Identity Design",
+        "If Your Branding Looks Cheap, People Will Ask for Discounts.",
+        "Every Asset Pack Handled Professionally",
+        "Upfront, Flat-Rate Branding Packages"
+      ],
+      "links": [
+        {
+          "source": "branding.html",
+          "destination": "value-of-a-digital-agency.html",
+          "anchor": "how an agency supports business growth",
+          "line": 338,
+          "context": "**Brand Identity Design** is how we change that story. We don't just sketch a random icon. We build an entire corporate layout—combining luxury typography, matching official color schemes, premium letterheads, corporate receipts, and clean signage designs. Whether you are building an elite hospital in Uyo, a major real estate brand in Eket, or a product line selling nationwide, we build a physical look that immediately commands respect. For the thinking behind a wider digital presence, read how an agency supports business growth.",
+          "status": "Retained PR #4",
+          "reason": "Identity work → strategic agency relationship article"
+        },
+        {
+          "source": "branding.html",
+          "destination": "web-design.html",
+          "anchor": "website headers",
+          "line": 373,
+          "context": "You receive your main corporate logo, a horizontal version for website headers, and a simplified square watermark icon for profile avatars.",
+          "status": "Retained PR #4",
+          "reason": "Retain website application of the logo; clarify the anchor to website headers."
+        },
+        {
+          "source": "branding.html",
+          "destination": "graphics-design.html",
+          "anchor": "graphic design service",
+          "line": 380,
+          "context": "We give you a handy brand book document showing your exact color hex codes and font types, so any future painter or printer never ruins your colors. For everyday flyers and campaign materials using that identity, see our graphic design service. You can also compare the separately listed Swagger brand-identity tiers.",
+          "status": "Retained PR #4",
+          "reason": "Identity system → its application in ongoing creative work"
+        },
+        {
+          "source": "branding.html",
+          "destination": "packages.html#price-swagger",
+          "anchor": "Swagger brand-identity tiers",
+          "line": 382,
+          "context": "We give you a handy brand book document showing your exact color hex codes and font types, so any future painter or printer never ruins your colors. For everyday flyers and campaign materials using that identity, see our graphic design service. You can also compare the separately listed Swagger brand-identity tiers.",
+          "status": "Retained PR #4",
+          "reason": "Explicitly separate existing branding offer; no prices or checkout activation"
+        }
+      ],
+      "operational_links": []
+    },
+    {
+      "page": "business-audit-tool.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/business-audit-tool"
+      ],
+      "headings": [
+        "Free Business Audit Tool for Nigerian Businesses",
+        "BUSINESS AUDIT TOOL",
+        "Join successful business owners growing with Webtellisense"
+      ],
+      "links": [
+        {
+          "source": "business-audit-tool.html",
+          "destination": "business-not-showing-up-online.html",
+          "anchor": "what can hold back your online visibility",
+          "line": 203,
+          "context": "Your score is a starting point. Read what can hold back your online visibility to understand discovery gaps, or explore how to improve the path from visit to enquiry. To discuss what to tackle first, you can explore Heroes for ongoing digital execution or contact the Webtellisense team.",
+          "status": "Retained PR #4",
+          "reason": "Self-assessment → discovery diagnosis"
+        },
+        {
+          "source": "business-audit-tool.html",
+          "destination": "conversion-rate-optimization.html",
+          "anchor": "how to improve the path from visit to enquiry",
+          "line": 204,
+          "context": "Your score is a starting point. Read what can hold back your online visibility to understand discovery gaps, or explore how to improve the path from visit to enquiry. To discuss what to tackle first, you can explore Heroes for ongoing digital execution or contact the Webtellisense team.",
+          "status": "Retained PR #4",
+          "reason": "Self-assessment → conversion service"
+        },
+        {
+          "source": "business-audit-tool.html",
+          "destination": "heroes.html",
+          "anchor": "Heroes for ongoing digital execution",
+          "line": 205,
+          "context": "Your score is a starting point. Read what can hold back your online visibility to understand discovery gaps, or explore how to improve the path from visit to enquiry. To discuss what to tackle first, you can explore Heroes for ongoing digital execution or contact the Webtellisense team.",
+          "status": "Added in integration",
+          "reason": "you can explore Heroes for ongoing digital execution or"
+        },
+        {
+          "source": "business-audit-tool.html",
+          "destination": "contact.html",
+          "anchor": "contact the Webtellisense team",
+          "line": 205,
+          "context": "Your score is a starting point. Read what can hold back your online visibility to understand discovery gaps, or explore how to improve the path from visit to enquiry. To discuss what to tackle first, you can explore Heroes for ongoing digital execution or contact the Webtellisense team.",
+          "status": "Retained PR #4",
+          "reason": "Self-assessment → human discussion without implying paid activation"
+        }
+      ],
+      "operational_links": []
+    },
+    {
+      "page": "business-not-showing-up-online.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/business-not-showing-up-online"
+      ],
+      "headings": [
+        "Why Your Business Isn't Showing Up Online",
+        "Why Your Business Isn't Showing Up Online (Even Though You Have a Facebook Page)",
+        "Customers Start With Google, Not Facebook",
+        "A Facebook Page Is Not a Digital Strategy",
+        "Your Website Is Your Digital Headquarters",
+        "Google Business Profile Is One of the Most Powerful Free Tools Available",
+        "Trust Signals Matter More Than Ever",
+        "Visibility Comes Before Sales",
+        "How to Improve Your Online Visibility",
+        "Final Thoughts",
+        "Check Your Business Digital Performance",
+        "🌐 Let's start with your web presence"
+      ],
+      "links": [
+        {
+          "source": "business-not-showing-up-online.html",
+          "destination": "social-media-management.html",
+          "anchor": "ongoing social media management",
+          "line": 261,
+          "context": "It helps you engage customers, build relationships, and showcase your work. See how ongoing social media management supports that work.",
+          "status": "Retained PR #4",
+          "reason": "Explain the support role of regular social publishing"
+        },
+        {
+          "source": "business-not-showing-up-online.html",
+          "destination": "web-design.html",
+          "anchor": "A professional website helps customers",
+          "line": 294,
+          "context": "A professional website helps customers:",
+          "status": "Retained PR #4",
+          "reason": "Owned-site explanation → website service"
+        },
+        {
+          "source": "business-not-showing-up-online.html",
+          "destination": "google-business-profile.html",
+          "anchor": "Google Business Profile",
+          "line": 320,
+          "context": "One of the biggest mistakes local businesses make is ignoring their Google Business Profile.",
+          "status": "Retained PR #4",
+          "reason": "Retain profile management as a response to the local discovery gap."
+        },
+        {
+          "source": "business-not-showing-up-online.html",
+          "destination": "branding.html",
+          "anchor": "Professional branding",
+          "line": 367,
+          "context": "Professional branding",
+          "status": "Retained PR #4",
+          "reason": "Editorial trust checklist → identity design"
+        },
+        {
+          "source": "business-not-showing-up-online.html",
+          "destination": "heroes.html",
+          "anchor": "Webtellisense Heroes",
+          "line": 442,
+          "context": "With the right digital foundation, any business can become easier to find, easier to trust, and easier to choose. If you want one team to put the wider plan into practice, read about Webtellisense Heroes. For the order to tackle those foundations, follow our step-by-step online growth guide. Not sure where your gaps are? Start with the Business Audit Tool.",
+          "status": "Added in integration",
+          "reason": "If you want one team to put the wider plan into practice, read about Webtellisense Heroes."
+        },
+        {
+          "source": "business-not-showing-up-online.html",
+          "destination": "how-to-grow-your-business-online-2026.html",
+          "anchor": "step-by-step online growth guide",
+          "line": 443,
+          "context": "With the right digital foundation, any business can become easier to find, easier to trust, and easier to choose. If you want one team to put the wider plan into practice, read about Webtellisense Heroes. For the order to tackle those foundations, follow our step-by-step online growth guide. Not sure where your gaps are? Start with the Business Audit Tool.",
+          "status": "Retained PR #4",
+          "reason": "Diagnosis → ordered implementation guide"
+        },
+        {
+          "source": "business-not-showing-up-online.html",
+          "destination": "business-audit-tool.html",
+          "anchor": "Business Audit Tool",
+          "line": 445,
+          "context": "With the right digital foundation, any business can become easier to find, easier to trust, and easier to choose. If you want one team to put the wider plan into practice, read about Webtellisense Heroes. For the order to tackle those foundations, follow our step-by-step online growth guide. Not sure where your gaps are? Start with the Business Audit Tool.",
+          "status": "Retained PR #4",
+          "reason": "Reader uncertainty → existing self-assessment"
+        }
+      ],
+      "operational_links": []
+    },
+    {
+      "page": "construction-property-marketing.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/construction-property-marketing"
+      ],
+      "headings": [
+        "Show the work.Make the next step clear.",
+        "A photograph needs a useful explanation.",
+        "Build a clearer path to the right enquiry.",
+        "Organise genuine project evidence.",
+        "Explain the service and coverage.",
+        "Ask for the information needed to respond.",
+        "Agree the offer before promoting it.",
+        "A few practical questions.",
+        "One project, or a team alongside you?"
+      ],
+      "links": [
+        {
+          "source": "construction-property-marketing.html",
+          "destination": "content-marketing.html",
+          "anchor": "content marketing",
+          "line": 36,
+          "context": "Use images your business owns or has permission to publish. Explain the actual role performed, project context and relevant limitations. Do not imply you built, sold or designed something you only photographed. Our content marketing and graphic design services can help organise approved material into a clear story.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "construction-property-marketing.html",
+          "destination": "graphics-design.html",
+          "anchor": "graphic design",
+          "line": 36,
+          "context": "Use images your business owns or has permission to publish. Explain the actual role performed, project context and relevant limitations. Do not imply you built, sold or designed something you only photographed. Our content marketing and graphic design services can help organise approved material into a clear story.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "construction-property-marketing.html",
+          "destination": "web-design.html",
+          "anchor": "well-organised website",
+          "line": 36,
+          "context": "A well-organised website can separate your services, project examples and contact steps. Accurate local business information should reflect where the business is actually based and operates. Avoid invented offices and duplicated location pages.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "construction-property-marketing.html",
+          "destination": "google-business-profile.html",
+          "anchor": "local business information",
+          "line": 36,
+          "context": "A well-organised website can separate your services, project examples and contact steps. Accurate local business information should reflect where the business is actually based and operates. Avoid invented offices and duplicated location pages.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "construction-property-marketing.html",
+          "destination": "conversion-rate-optimization.html",
+          "anchor": "conversion work",
+          "line": 36,
+          "context": "Consider whether an enquiry needs a location, broad project type and preferred contact channel. Keep forms short and explain what happens next. Do not ask visitors to upload identity documents, title documents, bank details or other confidential material through a general marketing form. Our conversion work focuses on reducing unnecessary friction in that journey.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "construction-property-marketing.html",
+          "destination": "ppc.html",
+          "anchor": "search advertising",
+          "line": 36,
+          "context": "Where appropriate, search advertising can be discussed after the landing page and follow-up process are ready. Any campaign needs an agreed budget and scope. Marketing is not legal due diligence, a property valuation, engineering approval or a promise of project awards.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "construction-property-marketing.html",
+          "destination": "heroes.html",
+          "anchor": "a coordinated Heroes scope",
+          "line": 36,
+          "context": "If you need one piece of work, we can quote it separately. If your digital work needs ongoing coordination, explore a coordinated Heroes scope. The right scope starts with a conversation, not an identical package for every industry.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "construction-property-marketing.html",
+          "destination": "contact.html",
+          "anchor": "Discuss your project enquiry process",
+          "line": 36,
+          "context": "Discuss your project enquiry process, or read about our wider industry approach. We’re based in Eket, Akwa Ibom, and discuss the market you actually serve, in Nigeria or beyond.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "construction-property-marketing.html",
+          "destination": "industries.html",
+          "anchor": "read about our wider industry approach",
+          "line": 36,
+          "context": "Discuss your project enquiry process, or read about our wider industry approach. We’re based in Eket, Akwa Ibom, and discuss the market you actually serve, in Nigeria or beyond.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        }
+      ],
+      "operational_links": []
+    },
+    {
+      "page": "contact.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/contact"
+      ],
+      "headings": [
+        "Contact",
+        "Get in touch",
+        "Your competitors are already online. Your customers are already searching."
+      ],
+      "links": [],
+      "operational_links": []
+    },
+    {
+      "page": "content-marketing.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/content-marketing"
+      ],
+      "headings": [
+        "Content Marketing Services",
+        "Stop Begging for Sales. Start Answering Customer Questions.",
+        "Our Complete Writing and Strategy System",
+        "Flat-Rate Content Creation Packages"
+      ],
+      "links": [
+        {
+          "source": "content-marketing.html",
+          "destination": "blog.html",
+          "anchor": "in-depth, easy-to-read articles and guides",
+          "line": 338,
+          "context": "Our **Content Marketing** service flips that formula around. We research exactly what your target clients are searching for on Google or debating on social media. Whether you run a top medical diagnostic center in Uyo, a structural engineering company in Eket, or a legal consultancy across Nigeria, we publish in-depth, easy-to-read articles and guides that answer their exact problems. When you educate your market, you build massive trust—and when they are ready to spend money, you are the first and only phone call they make.",
+          "status": "Retained PR #4",
+          "reason": "Show the actual published educational articles behind the writing service"
+        },
+        {
+          "source": "content-marketing.html",
+          "destination": "email-marketing.html",
+          "anchor": "Email newsletters",
+          "line": 354,
+          "context": "Unlike paid ads that stop showing the moment you run out of budget, high-quality informative articles stay on Google forever. A well-written guide can continue bringing new customers to your website for years without costing an extra Kobo. Email newsletters give you another way to share useful content with existing readers.",
+          "status": "Retained PR #4",
+          "reason": "Evergreen content → distribution and repeat contact"
+        },
+        {
+          "source": "content-marketing.html",
+          "destination": "packages.html#price-deeproots",
+          "anchor": "Deeproots SEO scope",
+          "line": 383,
+          "context": "We look at raw search logs to find the exact phrasing and questions your buyers use before making a purchase choice. For website-focused SEO work beyond article writing, compare the Deeproots SEO scope.",
+          "status": "Retained PR #4",
+          "reason": "No standalone SEO page exists; point to the actual SEO package scope"
+        },
+        {
+          "source": "content-marketing.html",
+          "destination": "business-not-showing-up-online.html",
+          "anchor": "guide to business visibility",
+          "line": 394,
+          "context": "Our professional writers draft highly engaging, original articles polished with clear subheadings, ready for human readers and search engines. Our guide to business visibility shows why publishing is only one part of getting found.",
+          "status": "Retained PR #4",
+          "reason": "Search-oriented writing → educational local discovery context"
+        }
+      ],
+      "operational_links": []
+    },
+    {
+      "page": "conversion-rate-optimization.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/conversion-rate-optimization"
+      ],
+      "headings": [
+        "Conversion Rate Optimization (CRO)",
+        "Stop Buying More Website Traffic. Start Fixing the Website You Have.",
+        "Our Structural Audit & Optimization Process",
+        "Flat-Rate Optimization & Audit Packages"
+      ],
+      "links": [
+        {
+          "source": "conversion-rate-optimization.html",
+          "destination": "web-design.html",
+          "anchor": "website",
+          "line": 334,
+          "context": "It is heartbreaking to check your business analytics and see that thousands of people are visiting your website from Google or social media ads, but almost nobody is filling out your forms, booking appointments, or making purchases.",
+          "status": "Retained PR #4",
+          "reason": "Retain the owned-site reference in the traffic and conversion discussion."
+        },
+        {
+          "source": "conversion-rate-optimization.html",
+          "destination": "social-media-marketing.html",
+          "anchor": "social media ads",
+          "line": 334,
+          "context": "It is heartbreaking to check your business analytics and see that thousands of people are visiting your website from Google or social media ads, but almost nobody is filling out your forms, booking appointments, or making purchases.",
+          "status": "Retained PR #4",
+          "reason": "Traffic source → paid Facebook/Instagram service"
+        },
+        {
+          "source": "conversion-rate-optimization.html",
+          "destination": "heroes.html",
+          "anchor": "take a look at Heroes",
+          "line": 344,
+          "context": "Buying more ads will not fix a broken layout. **Conversion Rate Optimization (CRO)** is the science of finding out *why* visitors leave without spending money and fixing it. We study how local users move across your web layouts. Whether you operate a luxury rental agency in Eket, a major hospital booking platform in Uyo, or an online storefront selling products nationwide, we remove the friction points so a much higher percentage of your visitors turn into actual paying customers. For ongoing execution across the wider customer journey, take a look at Heroes.",
+          "status": "Added in integration",
+          "reason": "For ongoing execution across the wider customer journey, take a look at Heroes."
+        },
+        {
+          "source": "conversion-rate-optimization.html",
+          "destination": "how-to-grow-your-business-online-2026.html#step5",
+          "anchor": "WhatsApp conversion guide",
+          "line": 367,
+          "context": "Local buyers give up if checkout forms ask for too much personal information or if your WhatsApp call-to-action link responds slowly. We simplify your user steps down to a single clean, clear click. Our WhatsApp conversion guide gives a practical example of keeping an enquiry moving.",
+          "status": "Retained PR #4",
+          "reason": "Funnel friction → specific educational follow-up section"
+        },
+        {
+          "source": "conversion-rate-optimization.html",
+          "destination": "email-marketing.html",
+          "anchor": "email follow-up",
+          "line": 387,
+          "context": "We look at your booking sheets and contact input fields, deleting useless questions that make visitors abandon your checkout process midway. After a visitor opts in, email follow-up can continue the conversation.",
+          "status": "Retained PR #4",
+          "reason": "Lead capture → separate email relationship service without promising delivery"
+        }
+      ],
+      "operational_links": []
+    },
+    {
+      "page": "education-marketing.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/education-marketing"
+      ],
+      "headings": [
+        "Help parents seewhat makes your school right.",
+        "Answer the questions families actually have.",
+        "A school’s story needs care.",
+        "A useful admissions website.",
+        "Consistent, responsible school content.",
+        "Accurate local information.",
+        "Plan around the school calendar.",
+        "A few practical questions.",
+        "One project, or a team alongside you?"
+      ],
+      "links": [
+        {
+          "source": "education-marketing.html",
+          "destination": "top-features-for-a-school-website.html",
+          "anchor": "the practical features of a school website",
+          "line": 36,
+          "context": "We consider the school’s real admissions process and the people responsible for answering enquiries. Our experience includes school social media management; it is not a claim that every school needs the same posting schedule or paid campaign. See the practical features of a school website for information families commonly need.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "education-marketing.html",
+          "destination": "web-design.html",
+          "anchor": "website design",
+          "line": 36,
+          "context": "Organise programmes, location, contact options and the agreed admissions steps. Confirm fees and dates with the school before publishing them. Explore website design for the underlying service; this page does not promise an admissions portal or new website within a Heroes tier.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "education-marketing.html",
+          "destination": "social-media-management.html",
+          "anchor": "Social media management",
+          "line": 36,
+          "context": "Social media management can help explain school life and share useful updates. The school needs an approval process for photographs, names and stories, especially where children appear. No pupil images or personal information should be published without the appropriate permissions and review.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "education-marketing.html",
+          "destination": "google-business-profile.html",
+          "anchor": "local visibility work",
+          "line": 36,
+          "context": "Keep opening/contact information and location details consistent through local visibility work. Families looking around Eket, Uyo and other communities need accurate information, not a page pretending the school has a campus where it does not.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "education-marketing.html",
+          "destination": "heroes.html",
+          "anchor": "Heroes",
+          "line": 36,
+          "context": "We can bring those agreed activities together through Heroes, or discuss a separate project. Advertising cannot guarantee enrolment: a family’s decision also depends on the school’s offer, suitability, location, capacity and admissions experience.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "education-marketing.html",
+          "destination": "heroes.html",
+          "anchor": "ongoing support through Heroes",
+          "line": 36,
+          "context": "If you need one piece of work, we can quote it separately. If your digital work needs ongoing coordination, explore ongoing support through Heroes. The right scope starts with a conversation, not an identical package for every industry.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "education-marketing.html",
+          "destination": "contact.html",
+          "anchor": "Talk through your school’s priorities",
+          "line": 36,
+          "context": "Talk through your school’s priorities, or explore other business contexts. We’re based in Eket, Akwa Ibom, and discuss the market you actually serve, in Nigeria or beyond.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "education-marketing.html",
+          "destination": "industries.html",
+          "anchor": "explore other business contexts",
+          "line": 36,
+          "context": "Talk through your school’s priorities, or explore other business contexts. We’re based in Eket, Akwa Ibom, and discuss the market you actually serve, in Nigeria or beyond.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        }
+      ],
+      "operational_links": []
+    },
+    {
+      "page": "email-marketing.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/email-marketing"
+      ],
+      "headings": [
+        "Email Marketing Services",
+        "Social Media Followers Can Disappear. Your Email List Stays Forever.",
+        "How We Build Your Email Engine",
+        "Transparent Monthly Email Management"
+      ],
+      "links": [
+        {
+          "source": "email-marketing.html",
+          "destination": "web-design.html",
+          "anchor": "business website",
+          "line": 340,
+          "context": "**Email Marketing** protects your business from this nightmare. We help you gather the direct contact information of everyone who visits your business website or buys from you. This gives you a private, secure asset list. When you have a new product launch, a weekend discount, or a clearance sale, you can reach out directly to their private inbox without spending a single Naira on social media ad credits.",
+          "status": "Retained PR #4",
+          "reason": "Retain the website prerequisite for visitor signups; clarify the anchor."
+        },
+        {
+          "source": "email-marketing.html",
+          "destination": "content-marketing.html",
+          "anchor": "content drafting",
+          "line": 373,
+          "context": "We take care of all the tech setup, newsletter designs, and content drafting so your emails land safely in the inbox, not the spam folder:",
+          "status": "Retained PR #4",
+          "reason": "Newsletter writing → broader content creation"
+        },
+        {
+          "source": "email-marketing.html",
+          "destination": "conversion-rate-optimization.html",
+          "anchor": "clean sign-up boxes",
+          "line": 379,
+          "context": "We build clean sign-up boxes on your website that encourage buyers to drop their details in exchange for discount codes or guides. For the discovery steps that bring people to your site first, read why businesses struggle to get found online.",
+          "status": "Retained PR #4",
+          "reason": "Email acquisition → form conversion experience"
+        },
+        {
+          "source": "email-marketing.html",
+          "destination": "business-not-showing-up-online.html",
+          "anchor": "why businesses struggle to get found online",
+          "line": 381,
+          "context": "We build clean sign-up boxes on your website that encourage buyers to drop their details in exchange for discount codes or guides. For the discovery steps that bring people to your site first, read why businesses struggle to get found online.",
+          "status": "Retained PR #4",
+          "reason": "Sign-up acquisition → existing discovery article, not an email tutorial claim"
+        }
+      ],
+      "operational_links": []
+    },
+    {
+      "page": "faq.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/faq"
+      ],
+      "headings": [
+        "Frequently Asked Questions",
+        "FREQUENTLY ASKED QUESTIONS",
+        "HOW LONG DOES THE SUBSCRIPTION LAST?",
+        "WHAT HAPPENS IF I CANCEL AFTER THE 12 MONTH MINIMUM?",
+        "HOW DO YOU HANDLE LATE PAYMENTS?",
+        "HOW LONG DOES WEBSITE DEVELOPMENT TAKE?",
+        "WHAT'S INCLUDED IN A BRAND IDENTITY PACKAGE?",
+        "DO YOU PROVIDE PRINT-READY FILES?",
+        "HOW MANY POSTS DO YOU CREATE PER MONTH?",
+        "Check Your Business Digital Performance",
+        "🌐 Let's start with your web presence"
+      ],
+      "links": [],
+      "operational_links": []
+    },
+    {
+      "page": "freeguide.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/freeguide"
+      ],
+      "headings": [
+        "Transform Your Business Into an Online Powerhouse",
+        "🚀 What You'll Get Inside:",
+        "Why Nigerian Business Owners Love This Checklist",
+        "Nigeria-Specific Strategies",
+        "Proven Results",
+        "Quick Implementation",
+        "What Nigerian Business Owners Are Saying",
+        "Ready to Transform Your Business Online?",
+        "Where should we send your FREE checklist?",
+        "🎉 Success! Redirecting to WhatsApp..."
+      ],
+      "links": [],
+      "operational_links": []
+    },
+    {
+      "page": "google-business-profile.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/google-business-profile"
+      ],
+      "headings": [
+        "Google Business Profile Management",
+        "In a Market of Millions, Invisibility is a Financial Choice.",
+        "Our Core Local SEO Pillars",
+        "Engineered Growth Subscriptions"
+      ],
+      "links": [
+        {
+          "source": "google-business-profile.html",
+          "destination": "business-not-showing-up-online.html",
+          "anchor": "our visibility guide",
+          "line": 323,
+          "context": "Your Google Business Profile (GBP) isn't just an informational listing; it is the frontline vector of your customer acquisition pipeline. It controls exactly how your brand presents itself in Google Maps and localized Search infrastructures across Uyo, Eket, Lagos, and the international marketplace. If you are posting regularly but still hard to find, our visibility guide explains the gap.",
+          "status": "Retained PR #4",
+          "reason": "Local-search introduction → educational diagnosis"
+        },
+        {
+          "source": "google-business-profile.html",
+          "destination": "ppc.html",
+          "anchor": "Paid Google search campaigns",
+          "line": 352,
+          "context": "Google ranks businesses based on Proximity, Prominence, and Relevance. Our specialized framework systematically fulfills all three algorithmic pillars to lock in dominant high-visibility exposure. Paid Google search campaigns serve a different purpose from your Maps listing; compare the two before choosing where to start.",
+          "status": "Retained PR #4",
+          "reason": "Differentiate local organic visibility from paid search"
+        },
+        {
+          "source": "google-business-profile.html",
+          "destination": "web-design.html",
+          "anchor": "business website",
+          "line": 362,
+          "context": "We integrate tactical profile engineering to ensure absolute regional visibility. Your profile and your business website should tell customers the same story.",
+          "status": "Retained PR #4",
+          "reason": "Local entity consistency → owned website"
+        }
+      ],
+      "operational_links": []
+    },
+    {
+      "page": "graphics-design.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/graphics-design"
+      ],
+      "headings": [
+        "Graphic Design Services",
+        "Bad Designs Confuse Buyers. Clean Designs Make Sales.",
+        "What We Can Design for You",
+        "Flat-Rate, Affordable Design Packs"
+      ],
+      "links": [
+        {
+          "source": "graphics-design.html",
+          "destination": "branding.html",
+          "anchor": "brand identity design",
+          "line": 337,
+          "context": "At Webtellisense, our **Graphic Design** service is built to stop the scroll. We focus on clean layouts, sharp typography, and perfect color balance that guides the viewer's eye straight to what matters: your offer and your contact details. If you still need a logo and colour system, start with brand identity design. From local church banners in Uyo and retail storefront stickers in Eket, to massive corporate project presentations across Nigeria, we create visuals that turn casual viewers into paying customers.",
+          "status": "Retained PR #4",
+          "reason": "Distinguish identity foundation from one-off artwork"
+        },
+        {
+          "source": "graphics-design.html",
+          "destination": "10-essential-tips-for-businesses-2025.html",
+          "anchor": "practical tips for Eket businesses",
+          "line": 369,
+          "context": "Whatever your business needs to communicate visually, our creative team has you covered. For the wider online foundations behind those visuals, read our practical tips for Eket businesses.",
+          "status": "Retained PR #4",
+          "reason": "Design service → local business education beyond artwork"
+        },
+        {
+          "source": "graphics-design.html",
+          "destination": "social-media-management.html",
+          "anchor": "social media product cards",
+          "line": 376,
+          "context": "Beautiful promo flyers, social media product cards, restaurant menus, and seasonal discount graphics.",
+          "status": "Retained PR #4",
+          "reason": "Recurring promotional graphics → ongoing social management"
+        }
+      ],
+      "operational_links": []
+    },
+    {
+      "page": "heroes-profile-received.html",
+      "indexable_in_source": false,
+      "canonical": [
+        "https://webtellisense.com/heroes-profile-received"
+      ],
+      "headings": [
+        "Thanks forthe context.",
+        "Rather talk?Call us."
+      ],
+      "links": [],
+      "operational_links": []
+    },
+    {
+      "page": "heroes-start.html",
+      "indexable_in_source": false,
+      "canonical": [
+        "https://webtellisense.com/heroes-start"
+      ],
+      "headings": [
+        "A clear next step.No loose ends.",
+        "Your Heroes option",
+        "Rather talk?Call us."
+      ],
+      "links": [],
+      "operational_links": []
+    },
+    {
+      "page": "heroes-welcome.html",
+      "indexable_in_source": false,
+      "canonical": [
+        "https://webtellisense.com/heroes-welcome"
+      ],
+      "headings": [
+        "You're in.Let's getto work.",
+        "A personal callback,after we check your payment.",
+        "A quick check.A proper start.",
+        "A short welcome.Then a fuller picture.",
+        "A little context.Entirely optional.",
+        "Rather talk?Call us."
+      ],
+      "links": [],
+      "operational_links": []
+    },
+    {
+      "page": "heroes.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/heroes"
+      ],
+      "headings": [
+        "Your business.Our team.One direction.",
+        "Less chasing.More doing.",
+        "Not just a plan.People doingthe work.",
+        "Know the price.Choose your next move.",
+        "V1",
+        "V2",
+        "V3",
+        "A different scope?Let’s work it out.",
+        "We learn the business.Then we get moving.",
+        "Talk & choose",
+        "A personal welcome",
+        "A clear first plan",
+        "Work that keeps moving",
+        "Ideas, madevisible.",
+        "The Crayfish Plug",
+        "BGIS",
+        "Our own front door.",
+        "Make a useful point.",
+        "Your market matters.",
+        "Good questions.Clear answers.",
+        "Lead your business.Let’s handle the digital work.",
+        "Your next chapter.Let’s talk."
+      ],
+      "links": [
+        {
+          "source": "heroes.html",
+          "destination": "google-business-profile.html",
+          "anchor": "local search work",
+          "line": 90,
+          "context": "We connect the agreed website, search and local visibility work, so the information people find makes sense together. Explore our local search work for context.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "heroes.html",
+          "destination": "branding.html",
+          "anchor": "brand identity work",
+          "line": 91,
+          "context": "Brand, design and content should sound and look like the same business. See how our brand identity work supports that consistency.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "heroes.html",
+          "destination": "social-media-management.html",
+          "anchor": "Social media management",
+          "line": 92,
+          "context": "We plan and execute the agreed publishing and campaign activity, rather than leaving you with a strategy document to manage alone. Social media management and paid campaigns play different roles in that plan.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "heroes.html",
+          "destination": "conversion-rate-optimization.html",
+          "anchor": "improving the journey from visit to enquiry",
+          "line": 93,
+          "context": "The work does not stop at getting attention. We consider where people land, how they contact you and how the next step works. Read about improving the journey from visit to enquiry.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "heroes.html",
+          "destination": "heroes-welcome.html",
+          "anchor": "See your welcome and next steps",
+          "line": 154,
+          "context": "Callbacks: daily, 8 AM–7 PM Africa/Lagos. We target 1–2 hours after manual payment confirmation within that window; late-evening follow-up may continue from 8 AM next morning. See your welcome and next steps.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "heroes.html",
+          "destination": "solar-and-home-services-marketing.html",
+          "anchor": "solar and home services",
+          "line": 170,
+          "context": "Explore our approach to solar and home services, education and construction and property enquiries. Our industry overview separates broader client experience from focused delivery workflows.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "heroes.html",
+          "destination": "education-marketing.html",
+          "anchor": "education",
+          "line": 170,
+          "context": "Explore our approach to solar and home services, education and construction and property enquiries. Our industry overview separates broader client experience from focused delivery workflows.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "heroes.html",
+          "destination": "construction-property-marketing.html",
+          "anchor": "construction and property enquiries",
+          "line": 170,
+          "context": "Explore our approach to solar and home services, education and construction and property enquiries. Our industry overview separates broader client experience from focused delivery workflows.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "heroes.html",
+          "destination": "industries.html",
+          "anchor": "industry overview",
+          "line": 170,
+          "context": "Explore our approach to solar and home services, education and construction and property enquiries. Our industry overview separates broader client experience from focused delivery workflows.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        }
+      ],
+      "operational_links": []
+    },
+    {
+      "page": "how-to-grow-your-business-online-2026.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/how-to-grow-your-business-online-2026"
+      ],
+      "headings": [
+        "How to Grow Your Business Online: A Step-by-Step Guide for Uyo Business Owners",
+        "Get Found on Google Before You Do Anything Else",
+        "Build a Website That Works Like a Digital Storefront",
+        "Check Your Business's Digital Performance",
+        "Show Up Consistently on Social Media — Not Randomly",
+        "Turn On Ads Once You Have Something Worth Clicking On",
+        "Convert the Traffic — Don't Let Leads Slip Through WhatsApp",
+        "See Where Your Business Is Losing Customers Online",
+        "Bringing It All Together",
+        "Want the whole system run for you?",
+        "Frequently Asked Questions"
+      ],
+      "links": [
+        {
+          "source": "how-to-grow-your-business-online-2026.html",
+          "destination": "google-business-profile.html",
+          "anchor": "Google Business Profile",
+          "line": 267,
+          "context": "To grow your business online, work in this order: claim and optimize your Google Business Profile, build a mobile-first website, post consistently on social media, then run targeted ads, and convert that traffic with landing pages and an automated WhatsApp funnel. Doing these out of order is the main reason ads and social media \"don't work\" for local businesses.",
+          "status": "Retained PR #4",
+          "reason": "Retain the first growth step’s local-search service recommendation."
+        },
+        {
+          "source": "how-to-grow-your-business-online-2026.html",
+          "destination": "web-design.html",
+          "anchor": "simple, mobile-first website",
+          "line": 330,
+          "context": "Get a simple, mobile-first website — five pages is enough to start (Home, About, Services, Gallery, Contact). Link your WhatsApp directly on every page. Make sure it loads fast on a mid-range Android phone, because that's what most of your customers are browsing on.",
+          "status": "Retained PR #4",
+          "reason": "Website action step → mobile-first design service"
+        },
+        {
+          "source": "how-to-grow-your-business-online-2026.html",
+          "destination": "social-media-management.html",
+          "anchor": "simple content calendar",
+          "line": 382,
+          "context": "Pick two platforms your customers actually use — likely Facebook and Instagram for Uyo's market — and commit to a simple content calendar. Three posts a week, consistently, beats seven posts one week and zero the next four.",
+          "status": "Retained PR #4",
+          "reason": "Consistency action step → ongoing publishing management"
+        },
+        {
+          "source": "how-to-grow-your-business-online-2026.html",
+          "destination": "social-media-marketing.html",
+          "anchor": "Facebook ads",
+          "line": 393,
+          "context": "Once steps 1–3 are solid, targeted ads become genuinely powerful. Well-placed Facebook ads or Google search ads put your solar installation business in front of homeowners in Uyo who are actively frustrated with their electricity bill — right when they're most ready to act. For an electrician, a simple \"same-day callout\" ad targeted at your service radius can fill a slow week fast.",
+          "status": "Retained PR #4",
+          "reason": "Distinguish paid social distribution from search advertising"
+        },
+        {
+          "source": "how-to-grow-your-business-online-2026.html",
+          "destination": "ppc.html",
+          "anchor": "Google search ads",
+          "line": 393,
+          "context": "Once steps 1–3 are solid, targeted ads become genuinely powerful. Well-placed Facebook ads or Google search ads put your solar installation business in front of homeowners in Uyo who are actively frustrated with their electricity bill — right when they're most ready to act. For an electrician, a simple \"same-day callout\" ad targeted at your service radius can fill a slow week fast.",
+          "status": "Retained PR #4",
+          "reason": "Match search intent to the Google Ads service"
+        },
+        {
+          "source": "how-to-grow-your-business-online-2026.html",
+          "destination": "conversion-rate-optimization.html",
+          "anchor": "a dedicated landing page",
+          "line": 412,
+          "context": "For the solar installer, a dedicated landing page for \"Free Solar Consultation in Uyo\" will always out-convert sending traffic to a generic homepage. Specificity sells. The same goes for the electrician offering \"Emergency Callout — Uyo & Environs.\"",
+          "status": "Retained PR #4",
+          "reason": "Conversion step → landing-page optimization rather than more traffic"
+        },
+        {
+          "source": "how-to-grow-your-business-online-2026.html",
+          "destination": "heroes.html",
+          "anchor": "Heroes: one outsourced digital growth team",
+          "line": 462,
+          "context": "This is exactly why so many business owners in Uyo and across Akwa Ibom eventually stop trying to juggle five different freelancers — a \"social media guy,\" a \"website guy,\" a \"graphics girl\" — and look for one team that runs the whole system together. That’s the idea behind Heroes: one outsourced digital growth team. That's a different conversation for a different day. For now, focus on the order: Google Business Profile, website, social consistency, ads, and WhatsApp conversion. In that order, not all at once.",
+          "status": "Added in integration",
+          "reason": "That’s the idea behind Heroes: one outsourced digital growth team."
+        }
+      ],
+      "operational_links": []
+    },
+    {
+      "page": "index.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/"
+      ],
+      "headings": [
+        "Webtellisense | Web Design & Digital Marketing Agency in Eket, Akwa Ibom, Nigeria",
+        "Your Customers Are Online—But Can They Find You?",
+        "\"Our Sales Doubled in 60 Days\"",
+        "Your Competitors Are Winning Online",
+        "Check Your Business Digital Performance",
+        "🌐 Let's start with your web presence",
+        "Clients",
+        "Services",
+        "Google Business Profile Management",
+        "Web Design & Development",
+        "Pay-Per-Click (PPC) Advertising",
+        "Social Media Management",
+        "Social Media Marketing (Paid Ads)",
+        "Brand Identity Design",
+        "Graphics Design",
+        "Email Marketing",
+        "Content Marketing",
+        "Conversion Rate Optimization",
+        "We’re Not Just Developers—We’re Your Growth Partners",
+        "Here’s Why Eket Businesses Choose Us:",
+        "From Local Shops to National Brands",
+        "latest news and articles",
+        "How To Grow Your Business Online",
+        "Why Your Business Isn't Showing Up Online",
+        "10 Essential Tips for Small Business Online Success",
+        "trusted digital agency across the country",
+        "Mr. James (Eket Supermarket)",
+        "Rita Udoh",
+        "Samuel Bassey",
+        "Pastor Emmanuel I.",
+        "Chika Ogbonna",
+        "Dr. Uduak Enang (IJLIS)",
+        "Your competitors are already online. Your customers are already searching.",
+        "Different businesses. Different priorities.",
+        "The way your customers choose matters."
+      ],
+      "links": [
+        {
+          "source": "index.html",
+          "destination": "about.html",
+          "anchor": "dedicated partner",
+          "line": 912,
+          "context": "We have helped small business owners all over Nigeria get the digital presence they have been wanting for years. We are invested in our clients just as much as they are in our work. When you work with Webtellisense, you aren’t just working with an agency, you’re working with a dedicated partner. For one team coordinating the wider digital work, explore Webtellisense Heroes.",
+          "status": "Retained PR #4",
+          "reason": "Agency partnership explanation → team and company background"
+        },
+        {
+          "source": "index.html",
+          "destination": "heroes.html",
+          "anchor": "Webtellisense Heroes",
+          "line": 912,
+          "context": "We have helped small business owners all over Nigeria get the digital presence they have been wanting for years. We are invested in our clients just as much as they are in our work. When you work with Webtellisense, you aren’t just working with an agency, you’re working with a dedicated partner. For one team coordinating the wider digital work, explore Webtellisense Heroes.",
+          "status": "Added in integration",
+          "reason": "For one team coordinating the wider digital work, explore Webtellisense Heroes."
+        },
+        {
+          "source": "index.html",
+          "destination": "solar-and-home-services-marketing.html",
+          "anchor": "solar and home-service marketing",
+          "line": 1037,
+          "context": "Explore our focused approach to solar and home-service marketing, school communication and admissions enquiries, and construction and property-related enquiries.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "index.html",
+          "destination": "education-marketing.html",
+          "anchor": "school communication and admissions enquiries",
+          "line": 1037,
+          "context": "Explore our focused approach to solar and home-service marketing, school communication and admissions enquiries, and construction and property-related enquiries.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "index.html",
+          "destination": "construction-property-marketing.html",
+          "anchor": "construction and property-related enquiries",
+          "line": 1037,
+          "context": "Explore our focused approach to solar and home-service marketing, school communication and admissions enquiries, and construction and property-related enquiries.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "index.html",
+          "destination": "industries.html",
+          "anchor": "industry overview and service approach",
+          "line": 1037,
+          "context": "See our industry overview and service approach, then discuss one project or an ongoing team through Heroes, our digital growth team. Each scope is agreed for the business.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "index.html",
+          "destination": "heroes.html",
+          "anchor": "Heroes, our digital growth team",
+          "line": 1037,
+          "context": "See our industry overview and service approach, then discuss one project or an ongoing team through Heroes, our digital growth team. Each scope is agreed for the business.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        }
+      ],
+      "operational_links": []
+    },
+    {
+      "page": "indexxx.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/"
+      ],
+      "headings": [
+        "Your business, fully built for the internet.",
+        "Check Your Business Digital Performance",
+        "🌐 Let's start with your web presence",
+        "Clients",
+        "We understand how Nigerians buy.",
+        "WhatsApp closes, not contact forms",
+        "Local search is the entry point",
+        "Trust is earned before payment",
+        "Priced for the real market",
+        "Pick the door that solves your most urgent problem.",
+        "Frontline",
+        "Swagger",
+        "Vibes",
+        "Fireshot",
+        "Cashflow",
+        "Deeproots",
+        "Heroes",
+        "We're Not Just Developers — We're Your Growth Partners",
+        "Here's Why Eket Businesses Choose Us:",
+        "From Local Shops to National Brands",
+        "Start where your business hurts. Grow into the whole system.",
+        "V1 Foundation",
+        "V2 Growth",
+        "V3 Complete",
+        "How to Grow Your Business Online in 2026",
+        "Why Your Business Isn't Showing Up Online",
+        "10 Essential Tips for Small Business Online Success",
+        "Trusted digital agency across the country",
+        "Mr. James (Eket Supermarket)",
+        "Rita Udoh",
+        "Samuel Bassey",
+        "Pastor Emmanuel I.",
+        "Chika Ogbonna",
+        "Dr. Uduak Enang (IJLIS)",
+        "Questions before you reach out?",
+        "Your competitors are already online. Your customers are already searching."
+      ],
+      "links": [],
+      "operational_links": []
+    },
+    {
+      "page": "industries.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/industries"
+      ],
+      "headings": [
+        "Different businesses.Different ways to grow.",
+        "Experience is broad.Our focus is deliberate.",
+        "Start with your kind of business.",
+        "From “how much?” to a useful conversation.",
+        "Help parents get a clearer picture.",
+        "Show the work. Explain the next step.",
+        "A product post is not a site inspection.",
+        "One project, or a team alongside you?"
+      ],
+      "links": [
+        {
+          "source": "industries.html",
+          "destination": "social-media-management.html",
+          "anchor": "social media management",
+          "line": 36,
+          "context": "We agree channels, content responsibilities and frequency before work starts. See social media management, local visibility and customer enquiry journeys for the underlying capabilities. This industry overview adds context; it does not add deliverables to a Heroes tier.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "industries.html",
+          "destination": "google-business-profile.html",
+          "anchor": "local visibility",
+          "line": 36,
+          "context": "We agree channels, content responsibilities and frequency before work starts. See social media management, local visibility and customer enquiry journeys for the underlying capabilities. This industry overview adds context; it does not add deliverables to a Heroes tier.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "industries.html",
+          "destination": "conversion-rate-optimization.html",
+          "anchor": "customer enquiry journeys",
+          "line": 36,
+          "context": "We agree channels, content responsibilities and frequency before work starts. See social media management, local visibility and customer enquiry journeys for the underlying capabilities. This industry overview adds context; it does not add deliverables to a Heroes tier.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "industries.html",
+          "destination": "heroes.html",
+          "anchor": "Heroes, our outsourced digital growth team",
+          "line": 36,
+          "context": "If you need one piece of work, we can quote it separately. If your digital work needs ongoing coordination, explore Heroes, our outsourced digital growth team. The right scope starts with a conversation, not an identical package for every industry.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "industries.html",
+          "destination": "contact.html",
+          "anchor": "Tell us what you are working on",
+          "line": 36,
+          "context": "Tell us what you are working on, or review the industry approaches above. We’re based in Eket, Akwa Ibom, and discuss the market you actually serve, in Nigeria or beyond.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        }
+      ],
+      "operational_links": []
+    },
+    {
+      "page": "kids-holiday-uyo.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/kids-holiday-uyo"
+      ],
+      "headings": [
+        "Build the Tech Future.Don't Just Scroll It.",
+        "Engineered Like Google. Taught by Active Operators.",
+        "Accelerator Logistics",
+        "Incubation Tracks",
+        "Track A: The Creator",
+        "Track B: The Builder",
+        "Track C: The Guardian",
+        "Uncompromising Executive Logistics",
+        "Frequently Asked Questions",
+        "Your 3-Step Enrollment Blueprint",
+        "Secure Seat Allocation",
+        "The Diagnostic Consultation",
+        "Welcome Kit & Onboarding",
+        "Secure Allocation Seat"
+      ],
+      "links": [],
+      "operational_links": []
+    },
+    {
+      "page": "nigeria/solar.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/nigeria/solar"
+      ],
+      "headings": [
+        "Turn grid failures into consistent solar & inverter contracts across Nigeria.",
+        "Why one closed solar contract pays for months of marketing.",
+        "What you actually get when we partner up.",
+        "High-Converting Funnel Website",
+        "Precision Meta & Google Ads",
+        "Google Business Profile Domination",
+        "Automated WhatsApp CRM Routing",
+        "Professional Creative & Copywriting",
+        "Transparent Bi-Weekly Reporting",
+        "Predictable monthly packages designed for Nigerian installers.",
+        "Local Map & Social Presence",
+        "The Solar Lead Engine",
+        "Total Market Dominance",
+        "A la carte pricing for specific requirements.",
+        "Custom Solar Website & Funnel Build",
+        "Google Search Ads Management",
+        "Meta Lead Generation Ads",
+        "Organic Social Media Management",
+        "Google Business Profile Setup",
+        "What should you spend on ads?",
+        "Smart Ad Investments (Billed Directly to You)",
+        "Ready to dominate solar installations in your city?"
+      ],
+      "links": [],
+      "operational_links": []
+    },
+    {
+      "page": "packages.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/packages"
+      ],
+      "headings": [
+        "Your business, fully built for the internet.",
+        "Seven Specialised Systems. Flexible Tiers.",
+        "Brand Identity Design",
+        "PPC & Paid Social Ads",
+        "SEO & Google Authority",
+        "Social Media Management",
+        "Website Design & GBP",
+        "Landing Pages & Funnels",
+        "Complete Growth Ecosystem",
+        "Package Name",
+        "Heroes: when you are done managing five different vendors.",
+        "Built for Nigerian businesses. Not a template adapted for them.",
+        "We understand how your customers buy",
+        "One team, not five vendors",
+        "Results you can see, not just promises",
+        "Priced for the real Nigerian market",
+        "We grow with you",
+        "Local knowledge that matters",
+        "If your customers are searching in Eket, they should be finding you first.",
+        "Things business owners usually ask before getting started.",
+        "Check Your Business Digital Performance",
+        "🌐 Let's start with your web presence"
+      ],
+      "links": [],
+      "operational_links": []
+    },
+    {
+      "page": "ppc.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/ppc"
+      ],
+      "headings": [
+        "PPC Advertising in Nigeria & Google Ads Management",
+        "PPC Advertising in Nigeria: Get Instant Calls & Direct Leads",
+        "How We Run Your Ad Campaigns",
+        "Transparent PPC Management Fees",
+        "PPC Management Across Nigeria's Key Markets",
+        "Frequently Asked Questions"
+      ],
+      "links": [
+        {
+          "source": "ppc.html",
+          "destination": "social-media-marketing.html",
+          "anchor": "general social media campaigns",
+          "line": 389,
+          "context": "Unlike general social media campaigns, users typing into Google possess clear buying intent. Appearing at the top for intent-rich queries positions your business as the primary choice. What happens after the click matters too: conversion rate optimization focuses on turning those visits into enquiries.",
+          "status": "Retained PR #4",
+          "reason": "Compare Google search intent with paid social ads"
+        },
+        {
+          "source": "ppc.html",
+          "destination": "conversion-rate-optimization.html",
+          "anchor": "conversion rate optimization",
+          "line": 392,
+          "context": "Unlike general social media campaigns, users typing into Google possess clear buying intent. Appearing at the top for intent-rich queries positions your business as the primary choice. What happens after the click matters too: conversion rate optimization focuses on turning those visits into enquiries.",
+          "status": "Retained PR #4",
+          "reason": "Paid acquisition → post-click visitor experience"
+        },
+        {
+          "source": "ppc.html",
+          "destination": "how-to-grow-your-business-online-2026.html#step4",
+          "anchor": "step-by-step growth guide",
+          "line": 413,
+          "context": "We manage everything from start to finish so your budget is highly protected. Before you spend, check the foundations in our step-by-step growth guide.",
+          "status": "Retained PR #4",
+          "reason": "Campaign preparation → specific ad-readiness guidance"
+        },
+        {
+          "source": "ppc.html",
+          "destination": "google-business-profile.html",
+          "anchor": "Google Business Profile management",
+          "line": 576,
+          "context": "In Uyo, Eket, and across Akwa Ibom, search volume is lower but so is competition — meaning well-targeted campaigns can dominate local results for a fraction of the cost of a Lagos campaign. For unpaid local discovery alongside ads, explore Google Business Profile management.",
+          "status": "Retained PR #4",
+          "reason": "Local-market explanation → complementary Maps presence"
+        }
+      ],
+      "operational_links": []
+    },
+    {
+      "page": "pricing.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/pricing"
+      ],
+      "headings": [
+        "Pricing",
+        "Starter Plan",
+        "Growth Plan",
+        "Premium Plan",
+        "Check Your Business Digital Performance",
+        "🌐 Let's start with your web presence"
+      ],
+      "links": [
+        {
+          "source": "pricing.html",
+          "destination": "heroes.html#plans",
+          "anchor": "Compare Webtellisense Heroes plans",
+          "line": 164,
+          "context": "Looking for one outsourced digital growth team? Compare Webtellisense Heroes plans. The standalone offers below remain separate from Heroes.",
+          "status": "Added in integration",
+          "reason": "Separate unified flagship from the unchanged older standalone offers."
+        }
+      ],
+      "operational_links": []
+    },
+    {
+      "page": "privacy-policy.html",
+      "indexable_in_source": false,
+      "canonical": [
+        "https://webtellisense.com/privacy-policy"
+      ],
+      "headings": [
+        "Privacy policydraft for review.",
+        "Who to contact",
+        "Information you choose to share",
+        "Services involved in the current website",
+        "Analytics, advertising and choices",
+        "Purposes, lawful bases and retention",
+        "Your choices and privacy requests",
+        "Owner/legal sign-off before release"
+      ],
+      "links": [],
+      "operational_links": [
+        {
+          "source": "privacy-policy.html",
+          "destination": "service-terms.html",
+          "anchor": "draft service disclosures",
+          "line": 43,
+          "context": "Review also the draft service disclosures. This page remains noindex and is not in the sitemap while awaiting approval."
+        }
+      ]
+    },
+    {
+      "page": "reviews.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/reviews"
+      ],
+      "headings": [
+        "Reviews",
+        "Mr. James (Eket Supermarket)",
+        "Rita Udoh",
+        "Samuel Bassey",
+        "Pastor Emmanuel I.",
+        "Chika Ogbonna",
+        "Dr. Uduak Enang (IJLIS)",
+        "Check Your Business Digital Performance",
+        "🌐 Let's start with your web presence"
+      ],
+      "links": [],
+      "operational_links": []
+    },
+    {
+      "page": "roadmap.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/roadmap"
+      ],
+      "headings": [
+        "Webtellisense",
+        "12-Month Interactive Business Roadmap",
+        "Explore the Roadmap",
+        "Quarterly Review Process"
+      ],
+      "links": [],
+      "operational_links": []
+    },
+    {
+      "page": "service-terms.html",
+      "indexable_in_source": false,
+      "canonical": [
+        "https://webtellisense.com/service-terms"
+      ],
+      "headings": [
+        "Service disclosures.Clear before we start.",
+        "The agreed work comes first",
+        "Approved Heroes prices",
+        "Payment and personal onboarding",
+        "Questions before payment",
+        "Contract decisions still awaiting approval"
+      ],
+      "links": [],
+      "operational_links": [
+        {
+          "source": "service-terms.html",
+          "destination": "privacy-policy.html",
+          "anchor": "draft privacy information",
+          "line": 36,
+          "context": "These unresolved items are not replaced by invented rules in this draft. Agree final terms before accepting a new commitment. Read the draft privacy information and Heroes comparison. This review copy is noindex and excluded from the sitemap."
+        },
+        {
+          "source": "service-terms.html",
+          "destination": "heroes.html#plans",
+          "anchor": "Heroes comparison",
+          "line": 36,
+          "context": "These unresolved items are not replaced by invented rules in this draft. Agree final terms before accepting a new commitment. Read the draft privacy information and Heroes comparison. This review copy is noindex and excluded from the sitemap."
+        }
+      ]
+    },
+    {
+      "page": "social-media-management.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/social-media-management"
+      ],
+      "headings": [
+        "Social Media Management",
+        "Run Your Business. We Will Run Your Facebook and Instagram Pages.",
+        "What We Handle For You Every Month",
+        "Simple, Affordable Monthly Plans"
+      ],
+      "links": [
+        {
+          "source": "social-media-management.html",
+          "destination": "heroes.html",
+          "anchor": "the unified Heroes team",
+          "line": 338,
+          "context": "But here is the danger: when a potential customer finds your Instagram or Facebook page and sees your last post was 6 months ago, they assume you have closed down. They immediately leave and go find someone else. Webtellisense stops that from happening. We write the text, design your images, post them at the right times, and make sure your business looks modern, professional, and very much open for business. If you also need the website and wider marketing coordinated, explore the unified Heroes team.",
+          "status": "Added in integration",
+          "reason": "If you also need the website and wider marketing coordinated, explore the unified Heroes team."
+        },
+        {
+          "source": "social-media-management.html",
+          "destination": "graphics-design.html",
+          "anchor": "professional graphic design team",
+          "line": 347,
+          "context": "We don't post ugly, blurry screenshots. Our professional graphic design team makes custom, clean, branded posts with your logo so your company page looks like an elite corporation customers can trust.",
+          "status": "Retained PR #4",
+          "reason": "Branded posts → dedicated graphic design capability"
+        },
+        {
+          "source": "social-media-management.html",
+          "destination": "content-marketing.html",
+          "anchor": "a full month of content ahead of time",
+          "line": 356,
+          "context": "No more stressing about \"what should I post today?\" We plan out a full month of content ahead of time, get your approval, and set it to publish automatically while you focus entirely on your physical operations.",
+          "status": "Retained PR #4",
+          "reason": "Publishing plan → broader content strategy"
+        },
+        {
+          "source": "social-media-management.html",
+          "destination": "how-to-grow-your-business-online-2026.html#step3",
+          "anchor": "social-media step in our growth guide",
+          "line": 367,
+          "context": "We act like your full-time internal marketing department for a fraction of the cost. For a simple publishing rhythm, read the social-media step in our growth guide. If you also want to reach people beyond your followers, explore paid Facebook and Instagram campaigns.",
+          "status": "Retained PR #4",
+          "reason": "Service → practical consistency advice"
+        },
+        {
+          "source": "social-media-management.html",
+          "destination": "social-media-marketing.html",
+          "anchor": "paid Facebook and Instagram campaigns",
+          "line": 369,
+          "context": "We act like your full-time internal marketing department for a fraction of the cost. For a simple publishing rhythm, read the social-media step in our growth guide. If you also want to reach people beyond your followers, explore paid Facebook and Instagram campaigns.",
+          "status": "Retained PR #4",
+          "reason": "Distinguish organic page management from paid reach"
+        }
+      ],
+      "operational_links": []
+    },
+    {
+      "page": "social-media-marketing.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/social-media-marketing"
+      ],
+      "headings": [
+        "Paid Social Media Ads",
+        "Stop Waiting for 'Likes'. Start Getting Direct Customer Orders.",
+        "What We Do to Make Your Ads Work",
+        "Clear, Simple Ad Management Pricing"
+      ],
+      "links": [
+        {
+          "source": "social-media-marketing.html",
+          "destination": "social-media-management.html",
+          "anchor": "regular posting",
+          "line": 335,
+          "context": "Have you noticed that when you just post normally on your Instagram or Facebook page, barely anyone sees it? Social media companies do this on purpose—they want you to pay to reach your customers. If you are just relying on regular posting, your business growth will feel painfully slow.",
+          "status": "Retained PR #4",
+          "reason": "Paid reach introduction → separate organic management service"
+        },
+        {
+          "source": "social-media-marketing.html",
+          "destination": "how-to-grow-your-business-online-2026.html#step4",
+          "anchor": "when to start advertising",
+          "line": 375,
+          "context": "Running successful ads is way more than just clicking the \"Boost Post\" button. We do the real groundwork. Check when to start advertising before you spend, then look at landing-page conversion if clicks are not becoming enquiries.",
+          "status": "Retained PR #4",
+          "reason": "Campaign service → ad-readiness education"
+        },
+        {
+          "source": "social-media-marketing.html",
+          "destination": "conversion-rate-optimization.html",
+          "anchor": "landing-page conversion",
+          "line": 377,
+          "context": "Running successful ads is way more than just clicking the \"Boost Post\" button. We do the real groundwork. Check when to start advertising before you spend, then look at landing-page conversion if clicks are not becoming enquiries.",
+          "status": "Retained PR #4",
+          "reason": "Paid traffic → usable conversion destination"
+        },
+        {
+          "source": "social-media-marketing.html",
+          "destination": "graphics-design.html",
+          "anchor": "bold, thumb-stopping flyers",
+          "line": 385,
+          "context": "We design bold, thumb-stopping flyers or edit short video clips that make a user stop scrolling through their feed and look at your business.",
+          "status": "Retained PR #4",
+          "reason": "Ad creative explanation → graphic design"
+        }
+      ],
+      "operational_links": []
+    },
+    {
+      "page": "solar-and-home-services-marketing.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/solar-and-home-services-marketing"
+      ],
+      "headings": [
+        "Make the next enquirya clearer conversation.",
+        "Useful information before the first call.",
+        "A connected route from search to assessment.",
+        "Be findable where you can deliver.",
+        "Explain the offer before buying attention.",
+        "Make follow-up workable.",
+        "Our focused solar offer.",
+        "A few practical questions.",
+        "One project, or a team alongside you?"
+      ],
+      "links": [
+        {
+          "source": "solar-and-home-services-marketing.html",
+          "destination": "web-design.html",
+          "anchor": "website design",
+          "line": 36,
+          "context": "We start with your actual offer and service area. The website should explain your process without promising a price or technical outcome that needs a site assessment. Your contact options should lead to a conversation your team can follow up. Read about website design and reducing friction in the enquiry journey.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "solar-and-home-services-marketing.html",
+          "destination": "conversion-rate-optimization.html",
+          "anchor": "reducing friction in the enquiry journey",
+          "line": 36,
+          "context": "We start with your actual offer and service area. The website should explain your process without promising a price or technical outcome that needs a site assessment. Your contact options should lead to a conversation your team can follow up. Read about website design and reducing friction in the enquiry journey.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "solar-and-home-services-marketing.html",
+          "destination": "google-business-profile.html",
+          "anchor": "Google Business Profile",
+          "line": 36,
+          "context": "Accurate business information, genuine service areas and a useful Google Business Profile help people understand whether you can serve them. We do not create fake locations or promise a map ranking.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "solar-and-home-services-marketing.html",
+          "destination": "ppc.html",
+          "anchor": "Google Ads",
+          "line": 36,
+          "context": "Educational content can explain common questions, the assessment process and what information to have ready. Google Ads and Facebook and Instagram campaigns can serve different stages of that decision. Budget, targeting and landing pages should be agreed together.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "solar-and-home-services-marketing.html",
+          "destination": "social-media-marketing.html",
+          "anchor": "Facebook and Instagram campaigns",
+          "line": 36,
+          "context": "Educational content can explain common questions, the assessment process and what information to have ready. Google Ads and Facebook and Instagram campaigns can serve different stages of that decision. Budget, targeting and landing pages should be agreed together.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "solar-and-home-services-marketing.html",
+          "destination": "solar.html",
+          "anchor": "Solar Launch",
+          "line": 36,
+          "context": "Solar Launch is Webtellisense’s dedicated solar marketing offer. Review its current scope with the team before choosing between that focused offer and Heroes. Related home-service businesses need their own scope discussion; a solar workflow is not automatically a promise to deliver every trade’s technical sales process.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "solar-and-home-services-marketing.html",
+          "destination": "heroes.html",
+          "anchor": "Heroes for ongoing digital work",
+          "line": 36,
+          "context": "If you need one piece of work, we can quote it separately. If your digital work needs ongoing coordination, explore Heroes for ongoing digital work. The right scope starts with a conversation, not an identical package for every industry.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "solar-and-home-services-marketing.html",
+          "destination": "contact.html",
+          "anchor": "Discuss your service area and next steps",
+          "line": 36,
+          "context": "Discuss your service area and next steps, or compare our industry approaches. We’re based in Eket, Akwa Ibom, and discuss the market you actually serve, in Nigeria or beyond.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "solar-and-home-services-marketing.html",
+          "destination": "industries.html",
+          "anchor": "compare our industry approaches",
+          "line": 36,
+          "context": "Discuss your service area and next steps, or compare our industry approaches. We’re based in Eket, Akwa Ibom, and discuss the market you actually serve, in Nigeria or beyond.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        }
+      ],
+      "operational_links": []
+    },
+    {
+      "page": "solar.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/solar"
+      ],
+      "headings": [
+        "Stop Begging For Referrals. Lock Down Your City's Leads With The Solar Launch™ Engine.",
+        "WARNING! WE LIMIT ONBOARDING TO 5 INSTALLERS PER MONTH",
+        "\"This is not a generic template. It is a predictable pipeline built for Nigeria's solar boom.\"",
+        "WARNING! WE LIMIT ONBOARDING TO 5 INSTALLERS PER MONTH",
+        "Is Your Business Ready For The Solar Launch™ Engine?",
+        "Here Is Exactly What We Build For Your Business Inside Solar Launch™",
+        "🛡️ Our \"Stupid to Say No\" Double-Value Guarantee",
+        "WARNING! WE LIMIT ONBOARDING TO 5 INSTALLERS PER MONTH",
+        "Test Drive The Inverter Load Calculator We Install On Your Website",
+        "Why We Are So Confident This Works",
+        "How We Launch Your Growth Engine In 4 Steps",
+        "Check Your Territory's Eligibility",
+        "You Are A Great Fit For Solar Launch™"
+      ],
+      "links": [],
+      "operational_links": []
+    },
+    {
+      "page": "top-features-for-a-school-website.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/top-features-for-a-school-website"
+      ],
+      "headings": [
+        "Top Features to Have on a School Website",
+        "7 Must-Have Features for School Websites in Akwa Ibom",
+        "1. Clear Admission Information",
+        "2. Mobile-Friendly Calendar",
+        "3. Faculty Directory",
+        "4. Online Fee Payment Portal",
+        "5. News & Announcements Section",
+        "6. Search Functionality & Clear Navigation",
+        "7. Mobile-Responsive Design",
+        "Other Posts",
+        "Tags",
+        "Check Your Business Digital Performance",
+        "🌐 Let's start with your web presence"
+      ],
+      "links": [
+        {
+          "source": "top-features-for-a-school-website.html",
+          "destination": "content-marketing.html",
+          "anchor": "regularly updated news feed",
+          "line": 262,
+          "context": "A dedicated, regularly updated news feed keeps parents informed about closures, achievements, and upcoming events without relying on WhatsApp broadcasts or printed notices that get lost or missed.",
+          "status": "Retained PR #4",
+          "reason": "School communications → ongoing content creation"
+        },
+        {
+          "source": "top-features-for-a-school-website.html",
+          "destination": "conversion-rate-optimization.html",
+          "anchor": "simple, well-labelled navigation menu",
+          "line": 270,
+          "context": "Parents looking for exam results, fee structures, or contact details shouldn't have to dig through a cluttered menu. A search bar and a simple, well-labelled navigation menu make the site usable for parents of all levels of digital comfort.",
+          "status": "Retained PR #4",
+          "reason": "Usability advice → removing visitor friction"
+        },
+        {
+          "source": "top-features-for-a-school-website.html",
+          "destination": "value-of-a-digital-agency.html",
+          "anchor": "working with a digital agency",
+          "line": 285,
+          "context": "Whether you're running a nursery school in Eket or a private academy in Lagos, getting these seven features right turns your website into a genuine enrollment tool rather than a digital brochure nobody reads. If you are deciding how much to handle in-house, read about working with a digital agency. If you'd like help auditing or rebuilding your school's website, see how Webtellisense approaches school website design.",
+          "status": "Retained PR #4",
+          "reason": "School implementation decision → agency support article"
+        },
+        {
+          "source": "top-features-for-a-school-website.html",
+          "destination": "web-design.html",
+          "anchor": "see how Webtellisense approaches school website design",
+          "line": 286,
+          "context": "Whether you're running a nursery school in Eket or a private academy in Lagos, getting these seven features right turns your website into a genuine enrollment tool rather than a digital brochure nobody reads. If you are deciding how much to handle in-house, read about working with a digital agency. If you'd like help auditing or rebuilding your school's website, see how Webtellisense approaches school website design.",
+          "status": "Retained PR #4",
+          "reason": "Retain the school design next step; add underlining and focus styling."
+        }
+      ],
+      "operational_links": []
+    },
+    {
+      "page": "value-of-a-digital-agency.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/value-of-a-digital-agency"
+      ],
+      "headings": [
+        "The Value of a Trusted Digital Agency",
+        "Why Eket Businesses Thrive With a Professional Digital Partner",
+        "1. Strategic Planning",
+        "2. Time Savings",
+        "3. Ongoing Support",
+        "Other Posts",
+        "Tags"
+      ],
+      "links": [
+        {
+          "source": "value-of-a-digital-agency.html",
+          "destination": "about.html",
+          "anchor": "experienced agency",
+          "line": 192,
+          "context": "Many Eket business owners try DIY website builders or hire cheap freelancers, only to end up with ineffective online presences. Here's how partnering with an experienced agency makes the difference. If you are comparing approaches, explore our website design and development service.",
+          "status": "Retained PR #4",
+          "reason": "Reader evaluating an agency → team and agency background"
+        },
+        {
+          "source": "value-of-a-digital-agency.html",
+          "destination": "web-design.html",
+          "anchor": "website design and development service",
+          "line": 193,
+          "context": "Many Eket business owners try DIY website builders or hire cheap freelancers, only to end up with ineffective online presences. Here's how partnering with an experienced agency makes the difference. If you are comparing approaches, explore our website design and development service.",
+          "status": "Retained PR #4",
+          "reason": "DIY-versus-agency comparison → the actual professional website service"
+        },
+        {
+          "source": "value-of-a-digital-agency.html",
+          "destination": "heroes.html",
+          "anchor": "the Heroes approach",
+          "line": 220,
+          "context": "Unlike freelancers who disappear, we provide continuous maintenance and strategy adjustments as your business evolves. If you want that support across your digital presence and marketing, explore the Heroes approach. Our online growth guide shows how websites, social media and ads fit together. To discuss your own priorities, talk to the Webtellisense team.",
+          "status": "Added in integration",
+          "reason": "If you want that support across your digital presence and marketing, explore the Heroes approach."
+        },
+        {
+          "source": "value-of-a-digital-agency.html",
+          "destination": "how-to-grow-your-business-online-2026.html",
+          "anchor": "online growth guide",
+          "line": 221,
+          "context": "Unlike freelancers who disappear, we provide continuous maintenance and strategy adjustments as your business evolves. If you want that support across your digital presence and marketing, explore the Heroes approach. Our online growth guide shows how websites, social media and ads fit together. To discuss your own priorities, talk to the Webtellisense team.",
+          "status": "Retained PR #4",
+          "reason": "Ongoing strategy → practical staged growth article"
+        },
+        {
+          "source": "value-of-a-digital-agency.html",
+          "destination": "contact.html",
+          "anchor": "talk to the Webtellisense team",
+          "line": 223,
+          "context": "Unlike freelancers who disappear, we provide continuous maintenance and strategy adjustments as your business evolves. If you want that support across your digital presence and marketing, explore the Heroes approach. Our online growth guide shows how websites, social media and ads fit together. To discuss your own priorities, talk to the Webtellisense team.",
+          "status": "Retained PR #4",
+          "reason": "Agency evaluation → contact, without adding a purchase promise"
+        }
+      ],
+      "operational_links": []
+    },
+    {
+      "page": "web-design.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/web-design"
+      ],
+      "headings": [
+        "Website Development & Design",
+        "Your Website is Your 24/7 Salesperson. Let's Make It Bring You Customers.",
+        "What You Get With Every Website",
+        "Simple, Transparent Pricing Packages"
+      ],
+      "links": [
+        {
+          "source": "web-design.html",
+          "destination": "conversion-rate-optimization.html",
+          "anchor": "decide if they can trust you enough to call or buy",
+          "line": 324,
+          "context": "Think of a website like your digital shop or office. It is where customers go to see your work, learn about what you sell, and decide if they can trust you enough to call or buy from you. If you don't have one, you are missing out on thousands of customers searching online right now.",
+          "status": "Retained PR #4",
+          "reason": "Website purpose → improving conversion paths"
+        },
+        {
+          "source": "web-design.html",
+          "destination": "heroes.html",
+          "anchor": "Heroes brings the work together",
+          "line": 331,
+          "context": "At Webtellisense, we build clean, beautiful, and incredibly fast websites that help businesses in Uyo, Eket, and across Nigeria stand out. You don't need to know anything about coding or tech—we handle all the heavy lifting so you can focus on running your business. Need ongoing help with the wider digital presence too? See how Heroes brings the work together.",
+          "status": "Added in integration",
+          "reason": "Need ongoing help with the wider digital presence too? See how Heroes brings the work together."
+        },
+        {
+          "source": "web-design.html",
+          "destination": "top-features-for-a-school-website.html",
+          "anchor": "school website feature checklist",
+          "line": 366,
+          "context": "Your website will look beautiful and work perfectly on all mobile phones, tablets, and computers. For a school project, use our school website feature checklist to plan what parents need.",
+          "status": "Retained PR #4",
+          "reason": "Responsive-site explanation → practical sector-specific planning guide"
+        },
+        {
+          "source": "web-design.html",
+          "destination": "google-business-profile.html",
+          "anchor": "find your business on Google",
+          "line": 374,
+          "context": "We set up the foundations so people searching for your services in your city can easily find your business on Google.",
+          "status": "Retained PR #4",
+          "reason": "Local search foundations → Google Business Profile support"
+        },
+        {
+          "source": "web-design.html",
+          "destination": "business-audit-tool.html",
+          "anchor": "Take our 1-minute audit",
+          "line": 468,
+          "context": "Take our 1-minute audit to see what package fits your business best and how you can beat your local competitors online.",
+          "status": "Retained PR #4",
+          "reason": "Existing discovery invitation → actual audit page"
+        }
+      ],
+      "operational_links": []
+    },
+    {
+      "page": "webtellisense-solar-landing.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/webtellisense-solar-landing"
+      ],
+      "headings": [
+        "Homeowners are searching for a solar installer right now. Are they finding you, or your competitor?",
+        "Try the exact load calculator we'll put on your website",
+        "Everything below, for one price",
+        "What happens once your site is live",
+        "Everything is built",
+        "Google Ads only",
+        "A few quick questions",
+        "You're a strong fit for this offer.",
+        "From here to a live website in four steps",
+        "We're not new to this — solar is just our newest focus",
+        "Before you book",
+        "Your next customer is already searching. Let's make sure they find you."
+      ],
+      "links": [],
+      "operational_links": []
+    },
+    {
+      "page": "welcome.html",
+      "indexable_in_source": false,
+      "canonical": [
+        "https://webtellisense.com/welcome"
+      ],
+      "headings": [
+        "Let’s confirm your next steps."
+      ],
+      "links": [],
+      "operational_links": []
+    }
+  ],
+  "links": [
+    {
+      "source": "10-essential-tips-for-businesses-2025.html",
+      "destination": "google-business-profile.html",
+      "anchor": "complete, optimized profile",
+      "line": 193,
+      "context": "Over 80% of local searches start on Google. A complete, optimized profile makes you visible when customers search for services in Eket. Include photos, accurate hours, and respond to reviews.",
+      "status": "Retained PR #4",
+      "reason": "Local search tip → profile setup and management"
+    },
+    {
+      "source": "10-essential-tips-for-businesses-2025.html",
+      "destination": "web-design.html",
+      "anchor": "work perfectly on phones",
+      "line": 199,
+      "context": "With most Nigerian internet users on mobile, your site must work perfectly on phones. Ensure fast loading speeds and easy navigation - we've seen businesses increase leads by 150% after mobile optimization.",
+      "status": "Retained PR #4",
+      "reason": "Mobile-site advice → responsive website service"
+    },
+    {
+      "source": "10-essential-tips-for-businesses-2025.html",
+      "destination": "content-marketing.html",
+      "anchor": "Share valuable content",
+      "line": 213,
+      "context": "Active in communities like \"Eket Business Network\" on Facebook? Share valuable content (not just ads) to build trust. A local mechanic gained 30 new customers monthly this way.",
+      "status": "Retained PR #4",
+      "reason": "Helpful community content → content strategy and writing"
+    },
+    {
+      "source": "10-essential-tips-for-businesses-2025.html",
+      "destination": "business-not-showing-up-online.html",
+      "anchor": "why a Facebook page alone is not enough",
+      "line": 224,
+      "context": "Nigerian consumers trust online reviews as much as personal recommendations. Politely ask satisfied customers to leave feedback on Google or Facebook. If you're active online but still hard to find, read why a Facebook page alone is not enough.",
+      "status": "Retained PR #4",
+      "reason": "Reviews and discovery → deeper visibility diagnosis"
+    },
+    {
+      "source": "about.html",
+      "destination": "web-design.html",
+      "anchor": "Websites that showcase your business",
+      "line": 177,
+      "context": "Be Unmissable: Websites that showcase your business 24/7 to ready-to-buy customers",
+      "status": "Retained PR #4",
+      "reason": "Agency strengths → website capability"
+    },
+    {
+      "source": "about.html",
+      "destination": "google-business-profile.html",
+      "anchor": "SEO strategies",
+      "line": 179,
+      "context": "Get Discovered: SEO strategies tailored for how Eket residents search locally",
+      "status": "Retained PR #4",
+      "reason": "Eket local-search positioning → local SEO service"
+    },
+    {
+      "source": "about.html",
+      "destination": "branding.html",
+      "anchor": "Professional branding",
+      "line": 181,
+      "context": "Build Trust: Professional branding that makes your quality impossible to ignore",
+      "status": "Retained PR #4",
+      "reason": "Agency strengths → identity capability"
+    },
+    {
+      "source": "about.html",
+      "destination": "heroes.html",
+      "anchor": "meet Heroes",
+      "line": 186,
+      "context": "We've helped 50+ Eket businesses like yours overcome digital barriers. From bakeries doubling online orders to law firms dominating local searches, our framework delivers real results. For a unified, ongoing team relationship, meet Heroes. Read client feedback or learn what to consider when working with a digital partner.",
+      "status": "Added in integration",
+      "reason": "For a unified, ongoing team relationship, meet Heroes."
+    },
+    {
+      "source": "about.html",
+      "destination": "reviews.html",
+      "anchor": "client feedback",
+      "line": 187,
+      "context": "We've helped 50+ Eket businesses like yours overcome digital barriers. From bakeries doubling online orders to law firms dominating local searches, our framework delivers real results. For a unified, ongoing team relationship, meet Heroes. Read client feedback or learn what to consider when working with a digital partner.",
+      "status": "Retained PR #4",
+      "reason": "Agency evaluation → existing client reviews, no quote changes"
+    },
+    {
+      "source": "about.html",
+      "destination": "value-of-a-digital-agency.html",
+      "anchor": "working with a digital partner",
+      "line": 188,
+      "context": "We've helped 50+ Eket businesses like yours overcome digital barriers. From bakeries doubling online orders to law firms dominating local searches, our framework delivers real results. For a unified, ongoing team relationship, meet Heroes. Read client feedback or learn what to consider when working with a digital partner.",
+      "status": "Retained PR #4",
+      "reason": "Agency evaluation → existing support and strategy article"
+    },
+    {
+      "source": "branding.html",
+      "destination": "value-of-a-digital-agency.html",
+      "anchor": "how an agency supports business growth",
+      "line": 338,
+      "context": "**Brand Identity Design** is how we change that story. We don't just sketch a random icon. We build an entire corporate layout—combining luxury typography, matching official color schemes, premium letterheads, corporate receipts, and clean signage designs. Whether you are building an elite hospital in Uyo, a major real estate brand in Eket, or a product line selling nationwide, we build a physical look that immediately commands respect. For the thinking behind a wider digital presence, read how an agency supports business growth.",
+      "status": "Retained PR #4",
+      "reason": "Identity work → strategic agency relationship article"
+    },
+    {
+      "source": "branding.html",
+      "destination": "web-design.html",
+      "anchor": "website headers",
+      "line": 373,
+      "context": "You receive your main corporate logo, a horizontal version for website headers, and a simplified square watermark icon for profile avatars.",
+      "status": "Retained PR #4",
+      "reason": "Retain website application of the logo; clarify the anchor to website headers."
+    },
+    {
+      "source": "branding.html",
+      "destination": "graphics-design.html",
+      "anchor": "graphic design service",
+      "line": 380,
+      "context": "We give you a handy brand book document showing your exact color hex codes and font types, so any future painter or printer never ruins your colors. For everyday flyers and campaign materials using that identity, see our graphic design service. You can also compare the separately listed Swagger brand-identity tiers.",
+      "status": "Retained PR #4",
+      "reason": "Identity system → its application in ongoing creative work"
+    },
+    {
+      "source": "branding.html",
+      "destination": "packages.html#price-swagger",
+      "anchor": "Swagger brand-identity tiers",
+      "line": 382,
+      "context": "We give you a handy brand book document showing your exact color hex codes and font types, so any future painter or printer never ruins your colors. For everyday flyers and campaign materials using that identity, see our graphic design service. You can also compare the separately listed Swagger brand-identity tiers.",
+      "status": "Retained PR #4",
+      "reason": "Explicitly separate existing branding offer; no prices or checkout activation"
+    },
+    {
+      "source": "business-audit-tool.html",
+      "destination": "business-not-showing-up-online.html",
+      "anchor": "what can hold back your online visibility",
+      "line": 203,
+      "context": "Your score is a starting point. Read what can hold back your online visibility to understand discovery gaps, or explore how to improve the path from visit to enquiry. To discuss what to tackle first, you can explore Heroes for ongoing digital execution or contact the Webtellisense team.",
+      "status": "Retained PR #4",
+      "reason": "Self-assessment → discovery diagnosis"
+    },
+    {
+      "source": "business-audit-tool.html",
+      "destination": "conversion-rate-optimization.html",
+      "anchor": "how to improve the path from visit to enquiry",
+      "line": 204,
+      "context": "Your score is a starting point. Read what can hold back your online visibility to understand discovery gaps, or explore how to improve the path from visit to enquiry. To discuss what to tackle first, you can explore Heroes for ongoing digital execution or contact the Webtellisense team.",
+      "status": "Retained PR #4",
+      "reason": "Self-assessment → conversion service"
+    },
+    {
+      "source": "business-audit-tool.html",
+      "destination": "heroes.html",
+      "anchor": "Heroes for ongoing digital execution",
+      "line": 205,
+      "context": "Your score is a starting point. Read what can hold back your online visibility to understand discovery gaps, or explore how to improve the path from visit to enquiry. To discuss what to tackle first, you can explore Heroes for ongoing digital execution or contact the Webtellisense team.",
+      "status": "Added in integration",
+      "reason": "you can explore Heroes for ongoing digital execution or"
+    },
+    {
+      "source": "business-audit-tool.html",
+      "destination": "contact.html",
+      "anchor": "contact the Webtellisense team",
+      "line": 205,
+      "context": "Your score is a starting point. Read what can hold back your online visibility to understand discovery gaps, or explore how to improve the path from visit to enquiry. To discuss what to tackle first, you can explore Heroes for ongoing digital execution or contact the Webtellisense team.",
+      "status": "Retained PR #4",
+      "reason": "Self-assessment → human discussion without implying paid activation"
+    },
+    {
+      "source": "business-not-showing-up-online.html",
+      "destination": "social-media-management.html",
+      "anchor": "ongoing social media management",
+      "line": 261,
+      "context": "It helps you engage customers, build relationships, and showcase your work. See how ongoing social media management supports that work.",
+      "status": "Retained PR #4",
+      "reason": "Explain the support role of regular social publishing"
+    },
+    {
+      "source": "business-not-showing-up-online.html",
+      "destination": "web-design.html",
+      "anchor": "A professional website helps customers",
+      "line": 294,
+      "context": "A professional website helps customers:",
+      "status": "Retained PR #4",
+      "reason": "Owned-site explanation → website service"
+    },
+    {
+      "source": "business-not-showing-up-online.html",
+      "destination": "google-business-profile.html",
+      "anchor": "Google Business Profile",
+      "line": 320,
+      "context": "One of the biggest mistakes local businesses make is ignoring their Google Business Profile.",
+      "status": "Retained PR #4",
+      "reason": "Retain profile management as a response to the local discovery gap."
+    },
+    {
+      "source": "business-not-showing-up-online.html",
+      "destination": "branding.html",
+      "anchor": "Professional branding",
+      "line": 367,
+      "context": "Professional branding",
+      "status": "Retained PR #4",
+      "reason": "Editorial trust checklist → identity design"
+    },
+    {
+      "source": "business-not-showing-up-online.html",
+      "destination": "heroes.html",
+      "anchor": "Webtellisense Heroes",
+      "line": 442,
+      "context": "With the right digital foundation, any business can become easier to find, easier to trust, and easier to choose. If you want one team to put the wider plan into practice, read about Webtellisense Heroes. For the order to tackle those foundations, follow our step-by-step online growth guide. Not sure where your gaps are? Start with the Business Audit Tool.",
+      "status": "Added in integration",
+      "reason": "If you want one team to put the wider plan into practice, read about Webtellisense Heroes."
+    },
+    {
+      "source": "business-not-showing-up-online.html",
+      "destination": "how-to-grow-your-business-online-2026.html",
+      "anchor": "step-by-step online growth guide",
+      "line": 443,
+      "context": "With the right digital foundation, any business can become easier to find, easier to trust, and easier to choose. If you want one team to put the wider plan into practice, read about Webtellisense Heroes. For the order to tackle those foundations, follow our step-by-step online growth guide. Not sure where your gaps are? Start with the Business Audit Tool.",
+      "status": "Retained PR #4",
+      "reason": "Diagnosis → ordered implementation guide"
+    },
+    {
+      "source": "business-not-showing-up-online.html",
+      "destination": "business-audit-tool.html",
+      "anchor": "Business Audit Tool",
+      "line": 445,
+      "context": "With the right digital foundation, any business can become easier to find, easier to trust, and easier to choose. If you want one team to put the wider plan into practice, read about Webtellisense Heroes. For the order to tackle those foundations, follow our step-by-step online growth guide. Not sure where your gaps are? Start with the Business Audit Tool.",
+      "status": "Retained PR #4",
+      "reason": "Reader uncertainty → existing self-assessment"
+    },
+    {
+      "source": "construction-property-marketing.html",
+      "destination": "content-marketing.html",
+      "anchor": "content marketing",
+      "line": 36,
+      "context": "Use images your business owns or has permission to publish. Explain the actual role performed, project context and relevant limitations. Do not imply you built, sold or designed something you only photographed. Our content marketing and graphic design services can help organise approved material into a clear story.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "construction-property-marketing.html",
+      "destination": "graphics-design.html",
+      "anchor": "graphic design",
+      "line": 36,
+      "context": "Use images your business owns or has permission to publish. Explain the actual role performed, project context and relevant limitations. Do not imply you built, sold or designed something you only photographed. Our content marketing and graphic design services can help organise approved material into a clear story.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "construction-property-marketing.html",
+      "destination": "web-design.html",
+      "anchor": "well-organised website",
+      "line": 36,
+      "context": "A well-organised website can separate your services, project examples and contact steps. Accurate local business information should reflect where the business is actually based and operates. Avoid invented offices and duplicated location pages.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "construction-property-marketing.html",
+      "destination": "google-business-profile.html",
+      "anchor": "local business information",
+      "line": 36,
+      "context": "A well-organised website can separate your services, project examples and contact steps. Accurate local business information should reflect where the business is actually based and operates. Avoid invented offices and duplicated location pages.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "construction-property-marketing.html",
+      "destination": "conversion-rate-optimization.html",
+      "anchor": "conversion work",
+      "line": 36,
+      "context": "Consider whether an enquiry needs a location, broad project type and preferred contact channel. Keep forms short and explain what happens next. Do not ask visitors to upload identity documents, title documents, bank details or other confidential material through a general marketing form. Our conversion work focuses on reducing unnecessary friction in that journey.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "construction-property-marketing.html",
+      "destination": "ppc.html",
+      "anchor": "search advertising",
+      "line": 36,
+      "context": "Where appropriate, search advertising can be discussed after the landing page and follow-up process are ready. Any campaign needs an agreed budget and scope. Marketing is not legal due diligence, a property valuation, engineering approval or a promise of project awards.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "construction-property-marketing.html",
+      "destination": "heroes.html",
+      "anchor": "a coordinated Heroes scope",
+      "line": 36,
+      "context": "If you need one piece of work, we can quote it separately. If your digital work needs ongoing coordination, explore a coordinated Heroes scope. The right scope starts with a conversation, not an identical package for every industry.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "construction-property-marketing.html",
+      "destination": "contact.html",
+      "anchor": "Discuss your project enquiry process",
+      "line": 36,
+      "context": "Discuss your project enquiry process, or read about our wider industry approach. We’re based in Eket, Akwa Ibom, and discuss the market you actually serve, in Nigeria or beyond.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "construction-property-marketing.html",
+      "destination": "industries.html",
+      "anchor": "read about our wider industry approach",
+      "line": 36,
+      "context": "Discuss your project enquiry process, or read about our wider industry approach. We’re based in Eket, Akwa Ibom, and discuss the market you actually serve, in Nigeria or beyond.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "content-marketing.html",
+      "destination": "blog.html",
+      "anchor": "in-depth, easy-to-read articles and guides",
+      "line": 338,
+      "context": "Our **Content Marketing** service flips that formula around. We research exactly what your target clients are searching for on Google or debating on social media. Whether you run a top medical diagnostic center in Uyo, a structural engineering company in Eket, or a legal consultancy across Nigeria, we publish in-depth, easy-to-read articles and guides that answer their exact problems. When you educate your market, you build massive trust—and when they are ready to spend money, you are the first and only phone call they make.",
+      "status": "Retained PR #4",
+      "reason": "Show the actual published educational articles behind the writing service"
+    },
+    {
+      "source": "content-marketing.html",
+      "destination": "email-marketing.html",
+      "anchor": "Email newsletters",
+      "line": 354,
+      "context": "Unlike paid ads that stop showing the moment you run out of budget, high-quality informative articles stay on Google forever. A well-written guide can continue bringing new customers to your website for years without costing an extra Kobo. Email newsletters give you another way to share useful content with existing readers.",
+      "status": "Retained PR #4",
+      "reason": "Evergreen content → distribution and repeat contact"
+    },
+    {
+      "source": "content-marketing.html",
+      "destination": "packages.html#price-deeproots",
+      "anchor": "Deeproots SEO scope",
+      "line": 383,
+      "context": "We look at raw search logs to find the exact phrasing and questions your buyers use before making a purchase choice. For website-focused SEO work beyond article writing, compare the Deeproots SEO scope.",
+      "status": "Retained PR #4",
+      "reason": "No standalone SEO page exists; point to the actual SEO package scope"
+    },
+    {
+      "source": "content-marketing.html",
+      "destination": "business-not-showing-up-online.html",
+      "anchor": "guide to business visibility",
+      "line": 394,
+      "context": "Our professional writers draft highly engaging, original articles polished with clear subheadings, ready for human readers and search engines. Our guide to business visibility shows why publishing is only one part of getting found.",
+      "status": "Retained PR #4",
+      "reason": "Search-oriented writing → educational local discovery context"
+    },
+    {
+      "source": "conversion-rate-optimization.html",
+      "destination": "web-design.html",
+      "anchor": "website",
+      "line": 334,
+      "context": "It is heartbreaking to check your business analytics and see that thousands of people are visiting your website from Google or social media ads, but almost nobody is filling out your forms, booking appointments, or making purchases.",
+      "status": "Retained PR #4",
+      "reason": "Retain the owned-site reference in the traffic and conversion discussion."
+    },
+    {
+      "source": "conversion-rate-optimization.html",
+      "destination": "social-media-marketing.html",
+      "anchor": "social media ads",
+      "line": 334,
+      "context": "It is heartbreaking to check your business analytics and see that thousands of people are visiting your website from Google or social media ads, but almost nobody is filling out your forms, booking appointments, or making purchases.",
+      "status": "Retained PR #4",
+      "reason": "Traffic source → paid Facebook/Instagram service"
+    },
+    {
+      "source": "conversion-rate-optimization.html",
+      "destination": "heroes.html",
+      "anchor": "take a look at Heroes",
+      "line": 344,
+      "context": "Buying more ads will not fix a broken layout. **Conversion Rate Optimization (CRO)** is the science of finding out *why* visitors leave without spending money and fixing it. We study how local users move across your web layouts. Whether you operate a luxury rental agency in Eket, a major hospital booking platform in Uyo, or an online storefront selling products nationwide, we remove the friction points so a much higher percentage of your visitors turn into actual paying customers. For ongoing execution across the wider customer journey, take a look at Heroes.",
+      "status": "Added in integration",
+      "reason": "For ongoing execution across the wider customer journey, take a look at Heroes."
+    },
+    {
+      "source": "conversion-rate-optimization.html",
+      "destination": "how-to-grow-your-business-online-2026.html#step5",
+      "anchor": "WhatsApp conversion guide",
+      "line": 367,
+      "context": "Local buyers give up if checkout forms ask for too much personal information or if your WhatsApp call-to-action link responds slowly. We simplify your user steps down to a single clean, clear click. Our WhatsApp conversion guide gives a practical example of keeping an enquiry moving.",
+      "status": "Retained PR #4",
+      "reason": "Funnel friction → specific educational follow-up section"
+    },
+    {
+      "source": "conversion-rate-optimization.html",
+      "destination": "email-marketing.html",
+      "anchor": "email follow-up",
+      "line": 387,
+      "context": "We look at your booking sheets and contact input fields, deleting useless questions that make visitors abandon your checkout process midway. After a visitor opts in, email follow-up can continue the conversation.",
+      "status": "Retained PR #4",
+      "reason": "Lead capture → separate email relationship service without promising delivery"
+    },
+    {
+      "source": "education-marketing.html",
+      "destination": "top-features-for-a-school-website.html",
+      "anchor": "the practical features of a school website",
+      "line": 36,
+      "context": "We consider the school’s real admissions process and the people responsible for answering enquiries. Our experience includes school social media management; it is not a claim that every school needs the same posting schedule or paid campaign. See the practical features of a school website for information families commonly need.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "education-marketing.html",
+      "destination": "web-design.html",
+      "anchor": "website design",
+      "line": 36,
+      "context": "Organise programmes, location, contact options and the agreed admissions steps. Confirm fees and dates with the school before publishing them. Explore website design for the underlying service; this page does not promise an admissions portal or new website within a Heroes tier.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "education-marketing.html",
+      "destination": "social-media-management.html",
+      "anchor": "Social media management",
+      "line": 36,
+      "context": "Social media management can help explain school life and share useful updates. The school needs an approval process for photographs, names and stories, especially where children appear. No pupil images or personal information should be published without the appropriate permissions and review.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "education-marketing.html",
+      "destination": "google-business-profile.html",
+      "anchor": "local visibility work",
+      "line": 36,
+      "context": "Keep opening/contact information and location details consistent through local visibility work. Families looking around Eket, Uyo and other communities need accurate information, not a page pretending the school has a campus where it does not.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "education-marketing.html",
+      "destination": "heroes.html",
+      "anchor": "Heroes",
+      "line": 36,
+      "context": "We can bring those agreed activities together through Heroes, or discuss a separate project. Advertising cannot guarantee enrolment: a family’s decision also depends on the school’s offer, suitability, location, capacity and admissions experience.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "education-marketing.html",
+      "destination": "heroes.html",
+      "anchor": "ongoing support through Heroes",
+      "line": 36,
+      "context": "If you need one piece of work, we can quote it separately. If your digital work needs ongoing coordination, explore ongoing support through Heroes. The right scope starts with a conversation, not an identical package for every industry.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "education-marketing.html",
+      "destination": "contact.html",
+      "anchor": "Talk through your school’s priorities",
+      "line": 36,
+      "context": "Talk through your school’s priorities, or explore other business contexts. We’re based in Eket, Akwa Ibom, and discuss the market you actually serve, in Nigeria or beyond.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "education-marketing.html",
+      "destination": "industries.html",
+      "anchor": "explore other business contexts",
+      "line": 36,
+      "context": "Talk through your school’s priorities, or explore other business contexts. We’re based in Eket, Akwa Ibom, and discuss the market you actually serve, in Nigeria or beyond.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "email-marketing.html",
+      "destination": "web-design.html",
+      "anchor": "business website",
+      "line": 340,
+      "context": "**Email Marketing** protects your business from this nightmare. We help you gather the direct contact information of everyone who visits your business website or buys from you. This gives you a private, secure asset list. When you have a new product launch, a weekend discount, or a clearance sale, you can reach out directly to their private inbox without spending a single Naira on social media ad credits.",
+      "status": "Retained PR #4",
+      "reason": "Retain the website prerequisite for visitor signups; clarify the anchor."
+    },
+    {
+      "source": "email-marketing.html",
+      "destination": "content-marketing.html",
+      "anchor": "content drafting",
+      "line": 373,
+      "context": "We take care of all the tech setup, newsletter designs, and content drafting so your emails land safely in the inbox, not the spam folder:",
+      "status": "Retained PR #4",
+      "reason": "Newsletter writing → broader content creation"
+    },
+    {
+      "source": "email-marketing.html",
+      "destination": "conversion-rate-optimization.html",
+      "anchor": "clean sign-up boxes",
+      "line": 379,
+      "context": "We build clean sign-up boxes on your website that encourage buyers to drop their details in exchange for discount codes or guides. For the discovery steps that bring people to your site first, read why businesses struggle to get found online.",
+      "status": "Retained PR #4",
+      "reason": "Email acquisition → form conversion experience"
+    },
+    {
+      "source": "email-marketing.html",
+      "destination": "business-not-showing-up-online.html",
+      "anchor": "why businesses struggle to get found online",
+      "line": 381,
+      "context": "We build clean sign-up boxes on your website that encourage buyers to drop their details in exchange for discount codes or guides. For the discovery steps that bring people to your site first, read why businesses struggle to get found online.",
+      "status": "Retained PR #4",
+      "reason": "Sign-up acquisition → existing discovery article, not an email tutorial claim"
+    },
+    {
+      "source": "google-business-profile.html",
+      "destination": "business-not-showing-up-online.html",
+      "anchor": "our visibility guide",
+      "line": 323,
+      "context": "Your Google Business Profile (GBP) isn't just an informational listing; it is the frontline vector of your customer acquisition pipeline. It controls exactly how your brand presents itself in Google Maps and localized Search infrastructures across Uyo, Eket, Lagos, and the international marketplace. If you are posting regularly but still hard to find, our visibility guide explains the gap.",
+      "status": "Retained PR #4",
+      "reason": "Local-search introduction → educational diagnosis"
+    },
+    {
+      "source": "google-business-profile.html",
+      "destination": "ppc.html",
+      "anchor": "Paid Google search campaigns",
+      "line": 352,
+      "context": "Google ranks businesses based on Proximity, Prominence, and Relevance. Our specialized framework systematically fulfills all three algorithmic pillars to lock in dominant high-visibility exposure. Paid Google search campaigns serve a different purpose from your Maps listing; compare the two before choosing where to start.",
+      "status": "Retained PR #4",
+      "reason": "Differentiate local organic visibility from paid search"
+    },
+    {
+      "source": "google-business-profile.html",
+      "destination": "web-design.html",
+      "anchor": "business website",
+      "line": 362,
+      "context": "We integrate tactical profile engineering to ensure absolute regional visibility. Your profile and your business website should tell customers the same story.",
+      "status": "Retained PR #4",
+      "reason": "Local entity consistency → owned website"
+    },
+    {
+      "source": "graphics-design.html",
+      "destination": "branding.html",
+      "anchor": "brand identity design",
+      "line": 337,
+      "context": "At Webtellisense, our **Graphic Design** service is built to stop the scroll. We focus on clean layouts, sharp typography, and perfect color balance that guides the viewer's eye straight to what matters: your offer and your contact details. If you still need a logo and colour system, start with brand identity design. From local church banners in Uyo and retail storefront stickers in Eket, to massive corporate project presentations across Nigeria, we create visuals that turn casual viewers into paying customers.",
+      "status": "Retained PR #4",
+      "reason": "Distinguish identity foundation from one-off artwork"
+    },
+    {
+      "source": "graphics-design.html",
+      "destination": "10-essential-tips-for-businesses-2025.html",
+      "anchor": "practical tips for Eket businesses",
+      "line": 369,
+      "context": "Whatever your business needs to communicate visually, our creative team has you covered. For the wider online foundations behind those visuals, read our practical tips for Eket businesses.",
+      "status": "Retained PR #4",
+      "reason": "Design service → local business education beyond artwork"
+    },
+    {
+      "source": "graphics-design.html",
+      "destination": "social-media-management.html",
+      "anchor": "social media product cards",
+      "line": 376,
+      "context": "Beautiful promo flyers, social media product cards, restaurant menus, and seasonal discount graphics.",
+      "status": "Retained PR #4",
+      "reason": "Recurring promotional graphics → ongoing social management"
+    },
+    {
+      "source": "heroes.html",
+      "destination": "google-business-profile.html",
+      "anchor": "local search work",
+      "line": 90,
+      "context": "We connect the agreed website, search and local visibility work, so the information people find makes sense together. Explore our local search work for context.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "heroes.html",
+      "destination": "branding.html",
+      "anchor": "brand identity work",
+      "line": 91,
+      "context": "Brand, design and content should sound and look like the same business. See how our brand identity work supports that consistency.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "heroes.html",
+      "destination": "social-media-management.html",
+      "anchor": "Social media management",
+      "line": 92,
+      "context": "We plan and execute the agreed publishing and campaign activity, rather than leaving you with a strategy document to manage alone. Social media management and paid campaigns play different roles in that plan.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "heroes.html",
+      "destination": "conversion-rate-optimization.html",
+      "anchor": "improving the journey from visit to enquiry",
+      "line": 93,
+      "context": "The work does not stop at getting attention. We consider where people land, how they contact you and how the next step works. Read about improving the journey from visit to enquiry.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "heroes.html",
+      "destination": "heroes-welcome.html",
+      "anchor": "See your welcome and next steps",
+      "line": 154,
+      "context": "Callbacks: daily, 8 AM–7 PM Africa/Lagos. We target 1–2 hours after manual payment confirmation within that window; late-evening follow-up may continue from 8 AM next morning. See your welcome and next steps.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "heroes.html",
+      "destination": "solar-and-home-services-marketing.html",
+      "anchor": "solar and home services",
+      "line": 170,
+      "context": "Explore our approach to solar and home services, education and construction and property enquiries. Our industry overview separates broader client experience from focused delivery workflows.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "heroes.html",
+      "destination": "education-marketing.html",
+      "anchor": "education",
+      "line": 170,
+      "context": "Explore our approach to solar and home services, education and construction and property enquiries. Our industry overview separates broader client experience from focused delivery workflows.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "heroes.html",
+      "destination": "construction-property-marketing.html",
+      "anchor": "construction and property enquiries",
+      "line": 170,
+      "context": "Explore our approach to solar and home services, education and construction and property enquiries. Our industry overview separates broader client experience from focused delivery workflows.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "heroes.html",
+      "destination": "industries.html",
+      "anchor": "industry overview",
+      "line": 170,
+      "context": "Explore our approach to solar and home services, education and construction and property enquiries. Our industry overview separates broader client experience from focused delivery workflows.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "how-to-grow-your-business-online-2026.html",
+      "destination": "google-business-profile.html",
+      "anchor": "Google Business Profile",
+      "line": 267,
+      "context": "To grow your business online, work in this order: claim and optimize your Google Business Profile, build a mobile-first website, post consistently on social media, then run targeted ads, and convert that traffic with landing pages and an automated WhatsApp funnel. Doing these out of order is the main reason ads and social media \"don't work\" for local businesses.",
+      "status": "Retained PR #4",
+      "reason": "Retain the first growth step’s local-search service recommendation."
+    },
+    {
+      "source": "how-to-grow-your-business-online-2026.html",
+      "destination": "web-design.html",
+      "anchor": "simple, mobile-first website",
+      "line": 330,
+      "context": "Get a simple, mobile-first website — five pages is enough to start (Home, About, Services, Gallery, Contact). Link your WhatsApp directly on every page. Make sure it loads fast on a mid-range Android phone, because that's what most of your customers are browsing on.",
+      "status": "Retained PR #4",
+      "reason": "Website action step → mobile-first design service"
+    },
+    {
+      "source": "how-to-grow-your-business-online-2026.html",
+      "destination": "social-media-management.html",
+      "anchor": "simple content calendar",
+      "line": 382,
+      "context": "Pick two platforms your customers actually use — likely Facebook and Instagram for Uyo's market — and commit to a simple content calendar. Three posts a week, consistently, beats seven posts one week and zero the next four.",
+      "status": "Retained PR #4",
+      "reason": "Consistency action step → ongoing publishing management"
+    },
+    {
+      "source": "how-to-grow-your-business-online-2026.html",
+      "destination": "social-media-marketing.html",
+      "anchor": "Facebook ads",
+      "line": 393,
+      "context": "Once steps 1–3 are solid, targeted ads become genuinely powerful. Well-placed Facebook ads or Google search ads put your solar installation business in front of homeowners in Uyo who are actively frustrated with their electricity bill — right when they're most ready to act. For an electrician, a simple \"same-day callout\" ad targeted at your service radius can fill a slow week fast.",
+      "status": "Retained PR #4",
+      "reason": "Distinguish paid social distribution from search advertising"
+    },
+    {
+      "source": "how-to-grow-your-business-online-2026.html",
+      "destination": "ppc.html",
+      "anchor": "Google search ads",
+      "line": 393,
+      "context": "Once steps 1–3 are solid, targeted ads become genuinely powerful. Well-placed Facebook ads or Google search ads put your solar installation business in front of homeowners in Uyo who are actively frustrated with their electricity bill — right when they're most ready to act. For an electrician, a simple \"same-day callout\" ad targeted at your service radius can fill a slow week fast.",
+      "status": "Retained PR #4",
+      "reason": "Match search intent to the Google Ads service"
+    },
+    {
+      "source": "how-to-grow-your-business-online-2026.html",
+      "destination": "conversion-rate-optimization.html",
+      "anchor": "a dedicated landing page",
+      "line": 412,
+      "context": "For the solar installer, a dedicated landing page for \"Free Solar Consultation in Uyo\" will always out-convert sending traffic to a generic homepage. Specificity sells. The same goes for the electrician offering \"Emergency Callout — Uyo & Environs.\"",
+      "status": "Retained PR #4",
+      "reason": "Conversion step → landing-page optimization rather than more traffic"
+    },
+    {
+      "source": "how-to-grow-your-business-online-2026.html",
+      "destination": "heroes.html",
+      "anchor": "Heroes: one outsourced digital growth team",
+      "line": 462,
+      "context": "This is exactly why so many business owners in Uyo and across Akwa Ibom eventually stop trying to juggle five different freelancers — a \"social media guy,\" a \"website guy,\" a \"graphics girl\" — and look for one team that runs the whole system together. That’s the idea behind Heroes: one outsourced digital growth team. That's a different conversation for a different day. For now, focus on the order: Google Business Profile, website, social consistency, ads, and WhatsApp conversion. In that order, not all at once.",
+      "status": "Added in integration",
+      "reason": "That’s the idea behind Heroes: one outsourced digital growth team."
+    },
+    {
+      "source": "index.html",
+      "destination": "about.html",
+      "anchor": "dedicated partner",
+      "line": 912,
+      "context": "We have helped small business owners all over Nigeria get the digital presence they have been wanting for years. We are invested in our clients just as much as they are in our work. When you work with Webtellisense, you aren’t just working with an agency, you’re working with a dedicated partner. For one team coordinating the wider digital work, explore Webtellisense Heroes.",
+      "status": "Retained PR #4",
+      "reason": "Agency partnership explanation → team and company background"
+    },
+    {
+      "source": "index.html",
+      "destination": "heroes.html",
+      "anchor": "Webtellisense Heroes",
+      "line": 912,
+      "context": "We have helped small business owners all over Nigeria get the digital presence they have been wanting for years. We are invested in our clients just as much as they are in our work. When you work with Webtellisense, you aren’t just working with an agency, you’re working with a dedicated partner. For one team coordinating the wider digital work, explore Webtellisense Heroes.",
+      "status": "Added in integration",
+      "reason": "For one team coordinating the wider digital work, explore Webtellisense Heroes."
+    },
+    {
+      "source": "index.html",
+      "destination": "solar-and-home-services-marketing.html",
+      "anchor": "solar and home-service marketing",
+      "line": 1037,
+      "context": "Explore our focused approach to solar and home-service marketing, school communication and admissions enquiries, and construction and property-related enquiries.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "index.html",
+      "destination": "education-marketing.html",
+      "anchor": "school communication and admissions enquiries",
+      "line": 1037,
+      "context": "Explore our focused approach to solar and home-service marketing, school communication and admissions enquiries, and construction and property-related enquiries.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "index.html",
+      "destination": "construction-property-marketing.html",
+      "anchor": "construction and property-related enquiries",
+      "line": 1037,
+      "context": "Explore our focused approach to solar and home-service marketing, school communication and admissions enquiries, and construction and property-related enquiries.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "index.html",
+      "destination": "industries.html",
+      "anchor": "industry overview and service approach",
+      "line": 1037,
+      "context": "See our industry overview and service approach, then discuss one project or an ongoing team through Heroes, our digital growth team. Each scope is agreed for the business.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "index.html",
+      "destination": "heroes.html",
+      "anchor": "Heroes, our digital growth team",
+      "line": 1037,
+      "context": "See our industry overview and service approach, then discuss one project or an ongoing team through Heroes, our digital growth team. Each scope is agreed for the business.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "industries.html",
+      "destination": "social-media-management.html",
+      "anchor": "social media management",
+      "line": 36,
+      "context": "We agree channels, content responsibilities and frequency before work starts. See social media management, local visibility and customer enquiry journeys for the underlying capabilities. This industry overview adds context; it does not add deliverables to a Heroes tier.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "industries.html",
+      "destination": "google-business-profile.html",
+      "anchor": "local visibility",
+      "line": 36,
+      "context": "We agree channels, content responsibilities and frequency before work starts. See social media management, local visibility and customer enquiry journeys for the underlying capabilities. This industry overview adds context; it does not add deliverables to a Heroes tier.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "industries.html",
+      "destination": "conversion-rate-optimization.html",
+      "anchor": "customer enquiry journeys",
+      "line": 36,
+      "context": "We agree channels, content responsibilities and frequency before work starts. See social media management, local visibility and customer enquiry journeys for the underlying capabilities. This industry overview adds context; it does not add deliverables to a Heroes tier.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "industries.html",
+      "destination": "heroes.html",
+      "anchor": "Heroes, our outsourced digital growth team",
+      "line": 36,
+      "context": "If you need one piece of work, we can quote it separately. If your digital work needs ongoing coordination, explore Heroes, our outsourced digital growth team. The right scope starts with a conversation, not an identical package for every industry.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "industries.html",
+      "destination": "contact.html",
+      "anchor": "Tell us what you are working on",
+      "line": 36,
+      "context": "Tell us what you are working on, or review the industry approaches above. We’re based in Eket, Akwa Ibom, and discuss the market you actually serve, in Nigeria or beyond.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "ppc.html",
+      "destination": "social-media-marketing.html",
+      "anchor": "general social media campaigns",
+      "line": 389,
+      "context": "Unlike general social media campaigns, users typing into Google possess clear buying intent. Appearing at the top for intent-rich queries positions your business as the primary choice. What happens after the click matters too: conversion rate optimization focuses on turning those visits into enquiries.",
+      "status": "Retained PR #4",
+      "reason": "Compare Google search intent with paid social ads"
+    },
+    {
+      "source": "ppc.html",
+      "destination": "conversion-rate-optimization.html",
+      "anchor": "conversion rate optimization",
+      "line": 392,
+      "context": "Unlike general social media campaigns, users typing into Google possess clear buying intent. Appearing at the top for intent-rich queries positions your business as the primary choice. What happens after the click matters too: conversion rate optimization focuses on turning those visits into enquiries.",
+      "status": "Retained PR #4",
+      "reason": "Paid acquisition → post-click visitor experience"
+    },
+    {
+      "source": "ppc.html",
+      "destination": "how-to-grow-your-business-online-2026.html#step4",
+      "anchor": "step-by-step growth guide",
+      "line": 413,
+      "context": "We manage everything from start to finish so your budget is highly protected. Before you spend, check the foundations in our step-by-step growth guide.",
+      "status": "Retained PR #4",
+      "reason": "Campaign preparation → specific ad-readiness guidance"
+    },
+    {
+      "source": "ppc.html",
+      "destination": "google-business-profile.html",
+      "anchor": "Google Business Profile management",
+      "line": 576,
+      "context": "In Uyo, Eket, and across Akwa Ibom, search volume is lower but so is competition — meaning well-targeted campaigns can dominate local results for a fraction of the cost of a Lagos campaign. For unpaid local discovery alongside ads, explore Google Business Profile management.",
+      "status": "Retained PR #4",
+      "reason": "Local-market explanation → complementary Maps presence"
+    },
+    {
+      "source": "pricing.html",
+      "destination": "heroes.html#plans",
+      "anchor": "Compare Webtellisense Heroes plans",
+      "line": 164,
+      "context": "Looking for one outsourced digital growth team? Compare Webtellisense Heroes plans. The standalone offers below remain separate from Heroes.",
+      "status": "Added in integration",
+      "reason": "Separate unified flagship from the unchanged older standalone offers."
+    },
+    {
+      "source": "social-media-management.html",
+      "destination": "heroes.html",
+      "anchor": "the unified Heroes team",
+      "line": 338,
+      "context": "But here is the danger: when a potential customer finds your Instagram or Facebook page and sees your last post was 6 months ago, they assume you have closed down. They immediately leave and go find someone else. Webtellisense stops that from happening. We write the text, design your images, post them at the right times, and make sure your business looks modern, professional, and very much open for business. If you also need the website and wider marketing coordinated, explore the unified Heroes team.",
+      "status": "Added in integration",
+      "reason": "If you also need the website and wider marketing coordinated, explore the unified Heroes team."
+    },
+    {
+      "source": "social-media-management.html",
+      "destination": "graphics-design.html",
+      "anchor": "professional graphic design team",
+      "line": 347,
+      "context": "We don't post ugly, blurry screenshots. Our professional graphic design team makes custom, clean, branded posts with your logo so your company page looks like an elite corporation customers can trust.",
+      "status": "Retained PR #4",
+      "reason": "Branded posts → dedicated graphic design capability"
+    },
+    {
+      "source": "social-media-management.html",
+      "destination": "content-marketing.html",
+      "anchor": "a full month of content ahead of time",
+      "line": 356,
+      "context": "No more stressing about \"what should I post today?\" We plan out a full month of content ahead of time, get your approval, and set it to publish automatically while you focus entirely on your physical operations.",
+      "status": "Retained PR #4",
+      "reason": "Publishing plan → broader content strategy"
+    },
+    {
+      "source": "social-media-management.html",
+      "destination": "how-to-grow-your-business-online-2026.html#step3",
+      "anchor": "social-media step in our growth guide",
+      "line": 367,
+      "context": "We act like your full-time internal marketing department for a fraction of the cost. For a simple publishing rhythm, read the social-media step in our growth guide. If you also want to reach people beyond your followers, explore paid Facebook and Instagram campaigns.",
+      "status": "Retained PR #4",
+      "reason": "Service → practical consistency advice"
+    },
+    {
+      "source": "social-media-management.html",
+      "destination": "social-media-marketing.html",
+      "anchor": "paid Facebook and Instagram campaigns",
+      "line": 369,
+      "context": "We act like your full-time internal marketing department for a fraction of the cost. For a simple publishing rhythm, read the social-media step in our growth guide. If you also want to reach people beyond your followers, explore paid Facebook and Instagram campaigns.",
+      "status": "Retained PR #4",
+      "reason": "Distinguish organic page management from paid reach"
+    },
+    {
+      "source": "social-media-marketing.html",
+      "destination": "social-media-management.html",
+      "anchor": "regular posting",
+      "line": 335,
+      "context": "Have you noticed that when you just post normally on your Instagram or Facebook page, barely anyone sees it? Social media companies do this on purpose—they want you to pay to reach your customers. If you are just relying on regular posting, your business growth will feel painfully slow.",
+      "status": "Retained PR #4",
+      "reason": "Paid reach introduction → separate organic management service"
+    },
+    {
+      "source": "social-media-marketing.html",
+      "destination": "how-to-grow-your-business-online-2026.html#step4",
+      "anchor": "when to start advertising",
+      "line": 375,
+      "context": "Running successful ads is way more than just clicking the \"Boost Post\" button. We do the real groundwork. Check when to start advertising before you spend, then look at landing-page conversion if clicks are not becoming enquiries.",
+      "status": "Retained PR #4",
+      "reason": "Campaign service → ad-readiness education"
+    },
+    {
+      "source": "social-media-marketing.html",
+      "destination": "conversion-rate-optimization.html",
+      "anchor": "landing-page conversion",
+      "line": 377,
+      "context": "Running successful ads is way more than just clicking the \"Boost Post\" button. We do the real groundwork. Check when to start advertising before you spend, then look at landing-page conversion if clicks are not becoming enquiries.",
+      "status": "Retained PR #4",
+      "reason": "Paid traffic → usable conversion destination"
+    },
+    {
+      "source": "social-media-marketing.html",
+      "destination": "graphics-design.html",
+      "anchor": "bold, thumb-stopping flyers",
+      "line": 385,
+      "context": "We design bold, thumb-stopping flyers or edit short video clips that make a user stop scrolling through their feed and look at your business.",
+      "status": "Retained PR #4",
+      "reason": "Ad creative explanation → graphic design"
+    },
+    {
+      "source": "solar-and-home-services-marketing.html",
+      "destination": "web-design.html",
+      "anchor": "website design",
+      "line": 36,
+      "context": "We start with your actual offer and service area. The website should explain your process without promising a price or technical outcome that needs a site assessment. Your contact options should lead to a conversation your team can follow up. Read about website design and reducing friction in the enquiry journey.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "solar-and-home-services-marketing.html",
+      "destination": "conversion-rate-optimization.html",
+      "anchor": "reducing friction in the enquiry journey",
+      "line": 36,
+      "context": "We start with your actual offer and service area. The website should explain your process without promising a price or technical outcome that needs a site assessment. Your contact options should lead to a conversation your team can follow up. Read about website design and reducing friction in the enquiry journey.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "solar-and-home-services-marketing.html",
+      "destination": "google-business-profile.html",
+      "anchor": "Google Business Profile",
+      "line": 36,
+      "context": "Accurate business information, genuine service areas and a useful Google Business Profile help people understand whether you can serve them. We do not create fake locations or promise a map ranking.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "solar-and-home-services-marketing.html",
+      "destination": "ppc.html",
+      "anchor": "Google Ads",
+      "line": 36,
+      "context": "Educational content can explain common questions, the assessment process and what information to have ready. Google Ads and Facebook and Instagram campaigns can serve different stages of that decision. Budget, targeting and landing pages should be agreed together.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "solar-and-home-services-marketing.html",
+      "destination": "social-media-marketing.html",
+      "anchor": "Facebook and Instagram campaigns",
+      "line": 36,
+      "context": "Educational content can explain common questions, the assessment process and what information to have ready. Google Ads and Facebook and Instagram campaigns can serve different stages of that decision. Budget, targeting and landing pages should be agreed together.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "solar-and-home-services-marketing.html",
+      "destination": "solar.html",
+      "anchor": "Solar Launch",
+      "line": 36,
+      "context": "Solar Launch is Webtellisense’s dedicated solar marketing offer. Review its current scope with the team before choosing between that focused offer and Heroes. Related home-service businesses need their own scope discussion; a solar workflow is not automatically a promise to deliver every trade’s technical sales process.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "solar-and-home-services-marketing.html",
+      "destination": "heroes.html",
+      "anchor": "Heroes for ongoing digital work",
+      "line": 36,
+      "context": "If you need one piece of work, we can quote it separately. If your digital work needs ongoing coordination, explore Heroes for ongoing digital work. The right scope starts with a conversation, not an identical package for every industry.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "solar-and-home-services-marketing.html",
+      "destination": "contact.html",
+      "anchor": "Discuss your service area and next steps",
+      "line": 36,
+      "context": "Discuss your service area and next steps, or compare our industry approaches. We’re based in Eket, Akwa Ibom, and discuss the market you actually serve, in Nigeria or beyond.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "solar-and-home-services-marketing.html",
+      "destination": "industries.html",
+      "anchor": "compare our industry approaches",
+      "line": 36,
+      "context": "Discuss your service area and next steps, or compare our industry approaches. We’re based in Eket, Akwa Ibom, and discuss the market you actually serve, in Nigeria or beyond.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "top-features-for-a-school-website.html",
+      "destination": "content-marketing.html",
+      "anchor": "regularly updated news feed",
+      "line": 262,
+      "context": "A dedicated, regularly updated news feed keeps parents informed about closures, achievements, and upcoming events without relying on WhatsApp broadcasts or printed notices that get lost or missed.",
+      "status": "Retained PR #4",
+      "reason": "School communications → ongoing content creation"
+    },
+    {
+      "source": "top-features-for-a-school-website.html",
+      "destination": "conversion-rate-optimization.html",
+      "anchor": "simple, well-labelled navigation menu",
+      "line": 270,
+      "context": "Parents looking for exam results, fee structures, or contact details shouldn't have to dig through a cluttered menu. A search bar and a simple, well-labelled navigation menu make the site usable for parents of all levels of digital comfort.",
+      "status": "Retained PR #4",
+      "reason": "Usability advice → removing visitor friction"
+    },
+    {
+      "source": "top-features-for-a-school-website.html",
+      "destination": "value-of-a-digital-agency.html",
+      "anchor": "working with a digital agency",
+      "line": 285,
+      "context": "Whether you're running a nursery school in Eket or a private academy in Lagos, getting these seven features right turns your website into a genuine enrollment tool rather than a digital brochure nobody reads. If you are deciding how much to handle in-house, read about working with a digital agency. If you'd like help auditing or rebuilding your school's website, see how Webtellisense approaches school website design.",
+      "status": "Retained PR #4",
+      "reason": "School implementation decision → agency support article"
+    },
+    {
+      "source": "top-features-for-a-school-website.html",
+      "destination": "web-design.html",
+      "anchor": "see how Webtellisense approaches school website design",
+      "line": 286,
+      "context": "Whether you're running a nursery school in Eket or a private academy in Lagos, getting these seven features right turns your website into a genuine enrollment tool rather than a digital brochure nobody reads. If you are deciding how much to handle in-house, read about working with a digital agency. If you'd like help auditing or rebuilding your school's website, see how Webtellisense approaches school website design.",
+      "status": "Retained PR #4",
+      "reason": "Retain the school design next step; add underlining and focus styling."
+    },
+    {
+      "source": "value-of-a-digital-agency.html",
+      "destination": "about.html",
+      "anchor": "experienced agency",
+      "line": 192,
+      "context": "Many Eket business owners try DIY website builders or hire cheap freelancers, only to end up with ineffective online presences. Here's how partnering with an experienced agency makes the difference. If you are comparing approaches, explore our website design and development service.",
+      "status": "Retained PR #4",
+      "reason": "Reader evaluating an agency → team and agency background"
+    },
+    {
+      "source": "value-of-a-digital-agency.html",
+      "destination": "web-design.html",
+      "anchor": "website design and development service",
+      "line": 193,
+      "context": "Many Eket business owners try DIY website builders or hire cheap freelancers, only to end up with ineffective online presences. Here's how partnering with an experienced agency makes the difference. If you are comparing approaches, explore our website design and development service.",
+      "status": "Retained PR #4",
+      "reason": "DIY-versus-agency comparison → the actual professional website service"
+    },
+    {
+      "source": "value-of-a-digital-agency.html",
+      "destination": "heroes.html",
+      "anchor": "the Heroes approach",
+      "line": 220,
+      "context": "Unlike freelancers who disappear, we provide continuous maintenance and strategy adjustments as your business evolves. If you want that support across your digital presence and marketing, explore the Heroes approach. Our online growth guide shows how websites, social media and ads fit together. To discuss your own priorities, talk to the Webtellisense team.",
+      "status": "Added in integration",
+      "reason": "If you want that support across your digital presence and marketing, explore the Heroes approach."
+    },
+    {
+      "source": "value-of-a-digital-agency.html",
+      "destination": "how-to-grow-your-business-online-2026.html",
+      "anchor": "online growth guide",
+      "line": 221,
+      "context": "Unlike freelancers who disappear, we provide continuous maintenance and strategy adjustments as your business evolves. If you want that support across your digital presence and marketing, explore the Heroes approach. Our online growth guide shows how websites, social media and ads fit together. To discuss your own priorities, talk to the Webtellisense team.",
+      "status": "Retained PR #4",
+      "reason": "Ongoing strategy → practical staged growth article"
+    },
+    {
+      "source": "value-of-a-digital-agency.html",
+      "destination": "contact.html",
+      "anchor": "talk to the Webtellisense team",
+      "line": 223,
+      "context": "Unlike freelancers who disappear, we provide continuous maintenance and strategy adjustments as your business evolves. If you want that support across your digital presence and marketing, explore the Heroes approach. Our online growth guide shows how websites, social media and ads fit together. To discuss your own priorities, talk to the Webtellisense team.",
+      "status": "Retained PR #4",
+      "reason": "Agency evaluation → contact, without adding a purchase promise"
+    },
+    {
+      "source": "web-design.html",
+      "destination": "conversion-rate-optimization.html",
+      "anchor": "decide if they can trust you enough to call or buy",
+      "line": 324,
+      "context": "Think of a website like your digital shop or office. It is where customers go to see your work, learn about what you sell, and decide if they can trust you enough to call or buy from you. If you don't have one, you are missing out on thousands of customers searching online right now.",
+      "status": "Retained PR #4",
+      "reason": "Website purpose → improving conversion paths"
+    },
+    {
+      "source": "web-design.html",
+      "destination": "heroes.html",
+      "anchor": "Heroes brings the work together",
+      "line": 331,
+      "context": "At Webtellisense, we build clean, beautiful, and incredibly fast websites that help businesses in Uyo, Eket, and across Nigeria stand out. You don't need to know anything about coding or tech—we handle all the heavy lifting so you can focus on running your business. Need ongoing help with the wider digital presence too? See how Heroes brings the work together.",
+      "status": "Added in integration",
+      "reason": "Need ongoing help with the wider digital presence too? See how Heroes brings the work together."
+    },
+    {
+      "source": "web-design.html",
+      "destination": "top-features-for-a-school-website.html",
+      "anchor": "school website feature checklist",
+      "line": 366,
+      "context": "Your website will look beautiful and work perfectly on all mobile phones, tablets, and computers. For a school project, use our school website feature checklist to plan what parents need.",
+      "status": "Retained PR #4",
+      "reason": "Responsive-site explanation → practical sector-specific planning guide"
+    },
+    {
+      "source": "web-design.html",
+      "destination": "google-business-profile.html",
+      "anchor": "find your business on Google",
+      "line": 374,
+      "context": "We set up the foundations so people searching for your services in your city can easily find your business on Google.",
+      "status": "Retained PR #4",
+      "reason": "Local search foundations → Google Business Profile support"
+    },
+    {
+      "source": "web-design.html",
+      "destination": "business-audit-tool.html",
+      "anchor": "Take our 1-minute audit",
+      "line": 468,
+      "context": "Take our 1-minute audit to see what package fits your business best and how you can beat your local competitors online.",
+      "status": "Retained PR #4",
+      "reason": "Existing discovery invitation → actual audit page"
+    }
+  ]
+}

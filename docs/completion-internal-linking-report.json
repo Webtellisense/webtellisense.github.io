@@ -1,0 +1,40 @@
+{
+  "before_contextual_links": 86,
+  "after_all_prose_links": 126,
+  "new_prose_links": 40,
+  "preserved_pr4_links": 71,
+  "indexable_source_prose_links": 126,
+  "indexable_sources": 24,
+  "all_sources": 24,
+  "new_links_by_destination": {
+    "content-marketing.html": 1,
+    "graphics-design.html": 1,
+    "web-design.html": 3,
+    "google-business-profile.html": 4,
+    "conversion-rate-optimization.html": 3,
+    "ppc.html": 2,
+    "heroes.html": 6,
+    "contact.html": 4,
+    "industries.html": 5,
+    "top-features-for-a-school-website.html": 1,
+    "social-media-management.html": 2,
+    "solar-and-home-services-marketing.html": 2,
+    "education-marketing.html": 2,
+    "construction-property-marketing.html": 2,
+    "social-media-marketing.html": 1,
+    "solar.html": 1
+  },
+  "repeated_new_anchors": {
+    "website design": 2,
+    "social media management": 2
+  },
+  "source_pages_improved": [
+    "construction-property-marketing.html",
+    "education-marketing.html",
+    "heroes.html",
+    "index.html",
+    "industries.html",
+    "solar-and-home-services-marketing.html"
+  ],
+  "method": "Indexable cross-document prose/list links; exclude navigation, footer, forms, cards, CTAs, canonicals, social/email, noindex sources and operational privacy/review links."
+}

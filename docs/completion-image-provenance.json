@@ -1,0 +1,109 @@
+{
+  "new_external_images_used": 0,
+  "method": "Existing source files unchanged. New derivatives resized/re-encoded WebP with Pillow, no generative imagery. No downloaded Unsplash image was used.",
+  "assets": [
+    {
+      "asset": "assets/img/heroes/business-owner.webp",
+      "source": "assets/img/join-us-1.jpg",
+      "dimensions": [
+        612,
+        323
+      ],
+      "bytes": 32144,
+      "sha256": "b157dd9976cccdbc706fd9ffe534687c5a6026e710816acc577912f0a00b6b36",
+      "rights_status": "Existing repository image, optimized locally; original license/model-release provenance not present. Owner must confirm before production reuse.",
+      "usage": "Illustrative business/collaboration context; never represented as a client, completed project or staff portrait"
+    },
+    {
+      "asset": "assets/img/heroes/shop-owner.webp",
+      "source": "assets/img/join-us-2.jpg",
+      "dimensions": [
+        612,
+        408
+      ],
+      "bytes": 19302,
+      "sha256": "233b85313e2658a2c0dc19a2df30b4ff6aad9a927a05f8dbc3fa69aa9c4c4829",
+      "rights_status": "Existing repository image, optimized locally; original license/model-release provenance not present. Owner must confirm before production reuse.",
+      "usage": "Illustrative business/collaboration context; never represented as a client, completed project or staff portrait"
+    },
+    {
+      "asset": "assets/img/heroes/collaboration.webp",
+      "source": "assets/img/audit-banner.jpg",
+      "dimensions": [
+        1500,
+        527
+      ],
+      "bytes": 48664,
+      "sha256": "dc074c736f36183e81307c845d7ac1a56e134aa9c1a1f593af182b6302b925d6",
+      "rights_status": "Existing repository image, optimized locally; original license/model-release provenance not present. Owner must confirm before production reuse.",
+      "usage": "Illustrative business/collaboration context; never represented as a client, completed project or staff portrait"
+    },
+    {
+      "asset": "assets/img/heroes/planning.webp",
+      "source": "assets/img/hero-carousel/hero-carousel-03.jpg",
+      "dimensions": [
+        1500,
+        994
+      ],
+      "bytes": 151260,
+      "sha256": "9d10e2f53ede36a42f296558134ad833893c98b2622fec2ec916bc3f4800804b",
+      "rights_status": "Existing repository image, optimized locally; original license/model-release provenance not present. Owner must confirm before production reuse.",
+      "usage": "Illustrative business/collaboration context; never represented as a client, completed project or staff portrait"
+    },
+    {
+      "asset": "assets/img/heroes/solar-work.webp",
+      "source": "assets/img/join-us-11.jpg",
+      "dimensions": [
+        612,
+        407
+      ],
+      "bytes": 52758,
+      "sha256": "794a8fe6fce7f5e918f80ae8fd4a3b3a3760e7009a4034a44c7bb696f676e4e3",
+      "rights_status": "Existing repository image, optimized locally; original license/model-release provenance not present. Owner must confirm before production reuse.",
+      "usage": "Illustrative business/collaboration context; never represented as a client, completed project or staff portrait"
+    },
+    {
+      "asset": "assets/img/heroes/property-work.webp",
+      "source": "assets/img/blog/HTGYBO2026.jpg",
+      "dimensions": [
+        1400,
+        935
+      ],
+      "bytes": 76226,
+      "sha256": "3c468b8845f7f2e6d150cf0d55faf4a9b13daf64c4c40ff5c12fd018e7038cae",
+      "rights_status": "Existing repository image, optimized locally; original license/model-release provenance not present. Owner must confirm before production reuse.",
+      "usage": "Illustrative business/collaboration context; never represented as a client, completed project or staff portrait"
+    },
+    {
+      "asset": "assets/img/heroes/our-website.webp",
+      "source": "assets/img/portfolio/website-1.png",
+      "dimensions": [
+        1200,
+        549
+      ],
+      "bytes": 55138,
+      "sha256": "e40834535aec6c05ba1337805a98116fa96797b8630fe2502be00f29569020d0",
+      "rights_status": "Webtellisense own portfolio material; task authorizes reuse",
+      "usage": "Actual Webtellisense agency work; no invented performance outcome"
+    },
+    {
+      "asset": "assets/img/heroes/our-content.webp",
+      "source": "assets/img/portfolio/desgins-3.jpg",
+      "dimensions": [
+        1000,
+        1000
+      ],
+      "bytes": 50248,
+      "sha256": "85cf239ce9883704f6c9462b526a626ad2c5ca8c268e6a2c8e1cc2948e93a7b6",
+      "rights_status": "Webtellisense own portfolio material; task authorizes reuse",
+      "usage": "Actual Webtellisense agency work; no invented performance outcome"
+    }
+  ],
+  "external_candidate": {
+    "photographer": "Ali Mkumbwa",
+    "page": "https://unsplash.com/photos/a-woman-sitting-at-a-counter-in-a-store-EOkN2pRjFsg",
+    "license": "https://unsplash.com/license",
+    "license_observation": "Individual page explicitly says free under Unsplash License; commercial use allowed by license page. Does not independently establish model/property releases.",
+    "download_status": "Managed environment proxy CONNECT 403 for unsplash.com; image not downloaded, not bundled or displayed."
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "10-essential-tips-for-businesses-2025.html": {
+    "kind": "article",
+    "topics": "Eket small-business visibility; GBP; mobile websites; social groups; reviews",
+    "search_intent": "Find practical first steps for local online visibility",
+    "scope": "core",
+    "editorial_note": "Short article: title promises ten tips but body has four; preserved, not padded or renamed in this linking pass."
+  },
+  "about.html": {
+    "kind": "agency",
+    "topics": "Team; local agency strengths; websites; local SEO; branding",
+    "search_intent": "Evaluate the team and agency fit",
+    "scope": "core",
+    "editorial_note": "Connect capability statements and existing client feedback without changing any claim."
+  },
+  "audit.html": {
+    "kind": "tool",
+    "topics": "Embedded digital presence assessment",
+    "search_intent": "Complete a self-assessment",
+    "scope": "isolated",
+    "editorial_note": "Indexable in source, but embedded tool, not an editorial destination; use business-audit-tool.html for referrals."
+  },
+  "bahamas/solar.html": {
+    "kind": "campaign",
+    "topics": "Bahamas solar marketing briefing",
+    "search_intent": "Country-specific solar briefing",
+    "scope": "isolated",
+    "editorial_note": "International campaign intent does not match Eket/Uyo evergreen advice."
+  },
+  "blog-details.html": {
+    "kind": "template",
+    "topics": "Unfinished template article",
+    "search_intent": "No supported public search intent",
+    "scope": "excluded",
+    "editorial_note": "Explicit noindex; not an editorial recommendation."
+  },
+  "blog.html": {
+    "kind": "hub",
+    "topics": "Five business education articles",
+    "search_intent": "Browse practical business marketing advice",
+    "scope": "core",
+    "editorial_note": "Article cards and sidebar navigation are not counted as contextual links; Content Marketing now links here as published writing examples."
+  },
+  "branding.html": {
+    "kind": "service",
+    "topics": "Logo; typography; colours; brand guidelines and identity",
+    "search_intent": "Define a coherent identity and compare design scope",
+    "scope": "core",
+    "editorial_note": ""
+  },
+  "business-audit-tool.html": {
+    "kind": "conversion",
+    "topics": "Digital-presence self-assessment wrapper",
+    "search_intent": "Identify gaps and choose a next step",
+    "scope": "core",
+    "editorial_note": "A short post-tool paragraph connects diagnosis, conversion support and contact; audit logic unchanged."
+  },
+  "business-not-showing-up-online.html": {
+    "kind": "article",
+    "topics": "Local discoverability; social versus owned websites; trust; GBP",
+    "search_intent": "Diagnose why customers cannot find a business despite social activity",
+    "scope": "core",
+    "editorial_note": "Long-form diagnosis; next reading should provide an implementation sequence."
+  },
+  "contact.html": {
+    "kind": "conversion",
+    "topics": "Telephone; email; WhatsApp; enquiry form",
+    "search_intent": "Contact the agency about a project",
+    "scope": "core",
+    "editorial_note": "Preserve existing delivery fallbacks and form behavior; no new lead-delivery claim."
+  },
+  "content-marketing.html": {
+    "kind": "service",
+    "topics": "Editorial strategy; educational articles; search-led content",
+    "search_intent": "Evaluate writing and content publication support",
+    "scope": "core",
+    "editorial_note": ""
+  },
+  "conversion-rate-optimization.html": {
+    "kind": "service",
+    "topics": "Landing pages; forms; mobile usability; conversion paths",
+    "search_intent": "Improve enquiries from existing traffic instead of only buying more",
+    "scope": "core",
+    "editorial_note": ""
+  },
+  "email-marketing.html": {
+    "kind": "service",
+    "topics": "Newsletters; signup forms; email nurture and follow-up",
+    "search_intent": "Evaluate email audience building and ongoing customer contact",
+    "scope": "core",
+    "editorial_note": ""
+  },
+  "faq.html": {
+    "kind": "agency",
+    "topics": "Legacy pricing/payment policies; service deliverables",
+    "search_intent": "Understand established process and terms",
+    "scope": "core",
+    "editorial_note": "Terms/offer inconsistencies remain approval work; do not create new endorsements or rewrite answers here."
+  },
+  "freeguide.html": {
+    "kind": "conversion",
+    "topics": "Online presence checklist lead magnet",
+    "search_intent": "Request a checklist",
+    "scope": "core",
+    "editorial_note": "Keep its focused Netlify/WhatsApp signup journey; delivery promises remain provider/business verification work."
+  },
+  "google-business-profile.html": {
+    "kind": "service",
+    "topics": "Google Business Profile; Maps; local SEO; reviews and citations",
+    "search_intent": "Get found by local customers in Eket, Uyo and Nigeria",
+    "scope": "core",
+    "editorial_note": ""
+  },
+  "graphics-design.html": {
+    "kind": "service",
+    "topics": "Flyers; campaign graphics; print and digital artwork",
+    "search_intent": "Commission specific creative work or recurring promotional assets",
+    "scope": "core",
+    "editorial_note": ""
+  },
+  "heroes.html": {
+    "kind": "archive",
+    "topics": "2025 Business Heroes contest",
+    "search_intent": "Historic contest information",
+    "scope": "isolated",
+    "editorial_note": "Not the new flagship. Never relabel or route current product interest here."
+  },
+  "how-to-grow-your-business-online-2026.html": {
+    "kind": "article",
+    "topics": "Uyo/Akwa Ibom growth sequence; GBP; website; social; ads; WhatsApp",
+    "search_intent": "Apply an ordered plan for a local service business",
+    "scope": "core",
+    "editorial_note": "Six contextual links across the five-step guide; paid social and search are separate destinations."
+  },
+  "index.html": {
+    "kind": "agency",
+    "topics": "Webtellisense agency; services; portfolio; Eket/Nigeria",
+    "search_intent": "Find the agency and explore capabilities",
+    "scope": "core",
+    "editorial_note": "Existing service/portfolio/article cards remain useful navigation but are excluded from contextual counts."
+  },
+  "indexxx.html": {
+    "kind": "alternate",
+    "topics": "Alternate agency homepage",
+    "search_intent": "Explore alternate site presentation",
+    "scope": "isolated",
+    "editorial_note": "Homepage canonical; avoid duplicate-content promotion or changes to the alternate design."
+  },
+  "kids-holiday-uyo.html": {
+    "kind": "archive",
+    "topics": "Expired Uyo coding bootcamp",
+    "search_intent": "Historic bootcamp information",
+    "scope": "isolated",
+    "editorial_note": "Expired offer with simulated payment and unresolved policies; no new marketing referrals."
+  },
+  "nigeria/solar.html": {
+    "kind": "campaign",
+    "topics": "Nigeria solar marketing briefing",
+    "search_intent": "Country-specific solar briefing",
+    "scope": "isolated",
+    "editorial_note": "Preserve isolated campaign and commercial claims."
+  },
+  "packages.html": {
+    "kind": "conversion",
+    "topics": "Legacy brand, ad, SEO, social, website and funnel packages",
+    "search_intent": "Compare existing package scope",
+    "scope": "core",
+    "editorial_note": "Source unchanged in this pass. New links only target Swagger and Deeproots information anchors, not Heroes or an automatic checkout."
+  },
+  "ppc.html": {
+    "kind": "service",
+    "topics": "Google Ads; PPC; search intent; location targeting",
+    "search_intent": "Evaluate managed search advertising versus other channels",
+    "scope": "core",
+    "editorial_note": ""
+  },
+  "pricing.html": {
+    "kind": "conversion",
+    "topics": "Older website subscription offers",
+    "search_intent": "Compare older advertised offers",
+    "scope": "core",
+    "editorial_note": "Existing terms differ across pages; do not add recommendations implying equivalence with service or flagship pricing."
+  },
+  "reviews.html": {
+    "kind": "agency",
+    "topics": "Existing client testimonials",
+    "search_intent": "Evaluate customer experience and trust",
+    "scope": "core",
+    "editorial_note": "Do not add links inside customer quotations; new inbound context comes from About."
+  },
+  "roadmap.html": {
+    "kind": "campaign",
+    "topics": "12-month interactive service roadmap",
+    "search_intent": "Explore a standalone plan",
+    "scope": "isolated",
+    "editorial_note": "Isolated document with no confirmed editorial purpose; keep its isolation."
+  },
+  "social-media-management.html": {
+    "kind": "service",
+    "topics": "Organic Facebook/Instagram publishing; content calendars; community",
+    "search_intent": "Delegate consistent social publishing and day-to-day page care",
+    "scope": "core",
+    "editorial_note": ""
+  },
+  "social-media-marketing.html": {
+    "kind": "service",
+    "topics": "Paid Facebook and Instagram campaigns; creative; WhatsApp leads",
+    "search_intent": "Evaluate paid social reach and ad-management support",
+    "scope": "core",
+    "editorial_note": ""
+  },
+  "solar.html": {
+    "kind": "campaign",
+    "topics": "Nigerian solar acquisition funnel",
+    "search_intent": "Solar-industry campaign enquiry",
+    "scope": "isolated",
+    "editorial_note": "Intentional funnel; do not mix offer promises into evergreen advice."
+  },
+  "top-features-for-a-school-website.html": {
+    "kind": "article",
+    "topics": "School websites; admissions; news; mobile navigation; trust",
+    "search_intent": "Plan a school website for parents in Akwa Ibom and Nigeria",
+    "scope": "core",
+    "editorial_note": "Keep existing examples/testimonials unchanged; avoid linking a school fee-portal discussion to Webtellisense checkout."
+  },
+  "value-of-a-digital-agency.html": {
+    "kind": "article",
+    "topics": "Agency strategy; time savings; ongoing support; Eket businesses",
+    "search_intent": "Decide whether to work with an agency",
+    "scope": "core",
+    "editorial_note": "Short article; preserve its existing claims and customer quotation."
+  },
+  "web-design.html": {
+    "kind": "service",
+    "topics": "Website design; responsive/mobile sites; technical and on-page SEO",
+    "search_intent": "Compare website design support and plan a site",
+    "scope": "core",
+    "editorial_note": ""
+  },
+  "webtellisense-solar-landing.html": {
+    "kind": "campaign",
+    "topics": "Solar installation leads campaign",
+    "search_intent": "Solar-industry enquiry",
+    "scope": "isolated",
+    "editorial_note": "Separate campaign positioning preserved."
+  },
+  "welcome.html": {
+    "kind": "operational",
+    "topics": "Legacy client welcome/Tally flow",
+    "search_intent": "Post-checkout next steps",
+    "scope": "excluded",
+    "editorial_note": "Explicit noindex; payment/URL gate unchanged."
+  }
+}

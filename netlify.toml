@@ -1,0 +1,22 @@
+[build]
+  base = "."
+  command = "npm run build"
+  publish = "public"
+  # Skip branch deploys; allow the requested isolated PR Deploy Preview.
+  ignore = 'test "$BRANCH" = "feat/heroes-final-integration" && test "$CONTEXT" != "deploy-preview"'
+[build.environment]
+  NODE_VERSION = "22"
+[[headers]]
+  for = "/heroes-welcome*"
+  [headers.values]
+    Cache-Control = "no-store"
+    Referrer-Policy = "no-referrer"
+[[headers]]
+  for = "/heroes-start*"
+  [headers.values]
+    Referrer-Policy = "no-referrer"
+[[headers]]
+  for = "/welcome*"
+  [headers.values]
+    Cache-Control = "no-store"
+    Referrer-Policy = "no-referrer"
