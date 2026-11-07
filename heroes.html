@@ -12,10 +12,8 @@
     <link rel="manifest" href="/site.webmanifest">
 
     <!-- Canonical URL (Avoid Duplicate Content Issues) -->
-    <link rel="canonical" href="https://webtellisense.com">
 
     <!-- Preload Critical Resources (Faster Loading) -->
-    <link rel="preload" href="./assets/style/style.css" as="style">
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" as="style">
 
     <!-- Vendor CSS Files -->
@@ -430,6 +428,8 @@
             max-width: none !important;
         }
     </style>
+  <link rel="canonical" href="https://webtellisense.com/heroes">
+  <meta name="description" content="The 2025 Webtellisense Business Heroes Challenge: competition rules, tasks and prizes for participating business owners in Nigeria.">
 </head>
 
 <header id="header" class="header d-flex align-items-center sticky-top">
@@ -455,7 +455,7 @@
                     <ul class="sub-menu">
                         <li><a href="web-design.html">web design</a></li>
                         <li><a href="graphics-design.html">graphics design</a></li>
-                        <li><a href="brand-identity.html">brand identity</a></li>
+                        <li><a href="/branding.html">brand identity</a></li>
                         <li><a href="social-media-management.html">social media management</a></li>
                     </ul>
                 </li>
@@ -467,11 +467,11 @@
         </nav>
 
         <div class="header-social-links">
-            <a href="https://www.facebook.com/profile.php?id=61569413316306" class="facebook"><i
+            <a href="https://www.facebook.com/profile.php?id=61569413316306" class="facebook" aria-label="Facebook"><i
                     class="bi bi-facebook"></i></a>
-            <a href="https://www.instagram.com/webtellisense?igsh=Y21jZHpxcWlqNWZm" class="instagram"><i
+            <a href="https://www.instagram.com/webtellisense?igsh=Y21jZHpxcWlqNWZm" class="instagram" aria-label="Instagram"><i
                     class="bi bi-instagram"></i></a>
-            <a href="https://maps.app.goo.gl/Hx2cDWJcLzEJef4Z6" class="google"><i class="bi bi-google"></i></a>
+            <a href="https://maps.app.goo.gl/Hx2cDWJcLzEJef4Z6" class="google" aria-label="Find Webtellisense on Google"><i class="bi bi-google"></i></a>
         </div>
 
     </div>
@@ -495,7 +495,7 @@
                 style="position: relative; padding-bottom: 50.77%; height: 0; overflow: hidden; border-radius: 16px; max-width: 380px; margin: 0 auto;">
                 <iframe src="https://www.youtube.com/embed/aD9BXbDdhEQ"
                     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0"
-                    allowfullscreen>
+                    allowfullscreen title="Embedded content">
                 </iframe>
             </div>
             <a href="#join" class="cta-button" style="margin-top: 30px; display: inline-block;">JOIN THE CHALLENGE</a>
@@ -811,11 +811,11 @@
                     <p><strong>Email:</strong> <span>webtellisense@gmail.com</span></p>
                 </div>
                 <div class="social-links d-flex mt-4">
-                    <a href="https://www.facebook.com/profile.php?id=61569413316306" class="facebook"><i
+                    <a href="https://www.facebook.com/profile.php?id=61569413316306" class="facebook" aria-label="Facebook"><i
                             class="bi bi-facebook"></i></a>
-                    <a href="https://www.instagram.com/webtellisense?igsh=Y21jZHpxcWlqNWZm" class="instagram"><i
+                    <a href="https://www.instagram.com/webtellisense?igsh=Y21jZHpxcWlqNWZm" class="instagram" aria-label="Instagram"><i
                             class="bi bi-instagram"></i></a>
-                    <a href="https://maps.app.goo.gl/Hx2cDWJcLzEJef4Z6" class="google"><i class="bi bi-google"></i></a>
+                    <a href="https://maps.app.goo.gl/Hx2cDWJcLzEJef4Z6" class="google" aria-label="Find Webtellisense on Google"><i class="bi bi-google"></i></a>
                 </div>
             </div>
 
@@ -824,7 +824,7 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About us</a></li>
-                    <li><a href="services.html">Services</a></li>
+                    <li><a href="/index.html#services">Services</a></li>
                     <li><a href="#">Terms of service</a></li>
                     <li><a href="#">Privacy policy</a></li>
                 </ul>
@@ -834,9 +834,9 @@
                 <h4>Our Services</h4>
                 <ul>
                     <li><a href="web-design.html">Web Design</a></li>
-                    <li><a href="brand-identity">Brand Identity</a></li>
+                    <li><a href="/branding.html">Brand Identity</a></li>
                     <li><a href="graphics-design.html">Graphic Design</a></li>
-                    <li><a href="social-media-management">Social Media Management</a></li>
+                    <li><a href="/social-media-management.html">Social Media Management</a></li>
                 </ul>
             </div>
 
@@ -844,7 +844,7 @@
                 <h4>Our Newsletter</h4>
                 <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
                 <form name="contact" method="POST" netlify>
-                    <div class="newsletter-form"><input type="email" name="email"><input type="submit"
+                    <div class="newsletter-form"><input type="email" name="email" aria-label="Email address for newsletter"><input type="submit"
                             value="Subscribe"></div>
                 </form>
             </div>
@@ -863,7 +863,7 @@
 </footer>
 
 <!-- Scroll Top -->
-<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center" aria-label="Scroll to top"><i
         class="bi bi-arrow-up-short"></i></a>
 
 

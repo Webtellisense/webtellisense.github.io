@@ -1,0 +1,3 @@
+[build]
+  # Skip automatic builds for this review branch only; main is unaffected.
+  ignore = 'test "$BRANCH" = "fix/sitewide-technical-audit"'

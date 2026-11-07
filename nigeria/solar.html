@@ -18,7 +18,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <script>
-        tailwind.config = {
+        if (window.tailwind) tailwind.config = {
             theme: {
                 extend: {
                     colors: {
@@ -140,6 +140,7 @@
             }
         }
     </style>
+  <link rel="canonical" href="https://webtellisense.com/nigeria/solar">
 </head>
 
 <body class="font-sans antialiased">
@@ -721,7 +722,7 @@
             data-lucide="message-circle" class="size-6"></i><span class="sr-only">Message us on WhatsApp</span></a>
 
     <script>
-        lucide.createIcons();
+        if (window.lucide) lucide.createIcons();
         const toggle = document.getElementById("menu-toggle");
         const menu = document.getElementById("mobile-menu");
         toggle.addEventListener("click", () => {
@@ -730,14 +731,14 @@
             toggle.setAttribute("aria-label", open ? "Open navigation" : "Close navigation");
             menu.classList.toggle("hidden", open);
             toggle.innerHTML = open ? '<i data-lucide="menu" class="size-5"></i>' : '<i data-lucide="x" class="size-5"></i>';
-            lucide.createIcons();
+            if (window.lucide) lucide.createIcons();
         });
         document.querySelectorAll(".mobile-link").forEach((link) => link.addEventListener("click", () => {
             menu.classList.add("hidden");
             toggle.setAttribute("aria-expanded", "false");
             toggle.setAttribute("aria-label", "Open navigation");
             toggle.innerHTML = '<i data-lucide="menu" class="size-5"></i>';
-            lucide.createIcons();
+            if (window.lucide) lucide.createIcons();
         }));
     </script>
 </body>

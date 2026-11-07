@@ -84,6 +84,8 @@
     src="https://www.facebook.com/tr?id=806267492040936&ev=PageView&noscript=1"
     /></noscript>
     <!-- End Meta Pixel Code -->
+  <link rel="canonical" href="https://webtellisense.com/roadmap">
+  <meta name="description" content="Explore the Webtellisense interactive 12-month roadmap for building and improving a business digital presence.">
 </head>
 
 <body class="bg-amber-50 text-stone-800">
@@ -350,6 +352,7 @@
             }
 
             function createChartForPhase(phaseNumber) {
+                if (typeof Chart === "undefined") return;
                 const ctx = document.getElementById(`chart-phase-${phaseNumber}`).getContext('2d');
                 const kpiData = roadmapData[phaseNumber].kpis;
                 const chartOptions = {

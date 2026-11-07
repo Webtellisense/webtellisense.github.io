@@ -1,0 +1,37 @@
+[
+  {
+    "page": "branding.html",
+    "phrase": "website",
+    "target": "web-design.html"
+  },
+  {
+    "page": "email-marketing.html",
+    "phrase": "website",
+    "target": "web-design.html"
+  },
+  {
+    "page": "conversion-rate-optimization.html",
+    "phrase": "website",
+    "target": "web-design.html"
+  },
+  {
+    "page": "10-essential-tips-for-businesses-2025.html",
+    "phrase": "website",
+    "target": "web-design.html"
+  },
+  {
+    "page": "business-not-showing-up-online.html",
+    "phrase": "Google Business Profile",
+    "target": "google-business-profile.html"
+  },
+  {
+    "page": "how-to-grow-your-business-online-2026.html",
+    "phrase": "Google Business Profile",
+    "target": "google-business-profile.html"
+  },
+  {
+    "page": "top-features-for-a-school-website.html",
+    "phrase": "website",
+    "target": "web-design.html"
+  }
+]

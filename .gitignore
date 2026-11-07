@@ -1,1 +1,8 @@
 .vscode
+node_modules/
+public/
+.netlify/
+.env
+.env.*
+__pycache__/
+*.pyc
