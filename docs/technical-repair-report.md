@@ -1,5 +1,7 @@
 # Website-wide technical repairs — implementation and acceptance
 
+> Historical source-PR report. The approved final integration supersedes route, deployment-guard, welcome-gate and current-count statements here. See [final integration results and setup](final-integration.md).
+
 7 November 2026 · branch `fix/sitewide-technical-audit` · source baseline `main` at `b639eeb` · **draft PR only; no merge, deployment or production settings changed**.
 
 ## Provenance and boundaries

@@ -7,6 +7,7 @@
     document.body.classList.contains("receipt-page")
   )
     history.replaceState(null, "", location.pathname);
+  if (!config || !api) return;
   const reduced = matchMedia("(prefers-reduced-motion: reduce)");
   if (!reduced.matches && "IntersectionObserver" in window) {
     document.body.classList.add("has-motion");
@@ -92,6 +93,61 @@
     period.addEventListener("change", render);
     render();
   }
+  // Progressive plan comparison: all nine prices and selection links remain in HTML.
+  const billingSwitch = document.getElementById("billing-switch");
+  if (billingSwitch) {
+    billingSwitch.hidden = false;
+    const tierSwitch = document.getElementById("mobile-tier-switch");
+    tierSwitch.hidden = false;
+    const narrow = matchMedia("(max-width: 760px)");
+    let activeTier = "v1";
+    function renderComparison() {
+      const selected = billingSwitch.querySelector("input:checked").value;
+      for (const [id, plan] of Object.entries(config.tiers)) {
+        document.querySelector(`[data-choice-price="${id}"]`).textContent = `₦${api.money(plan.prices[selected])}`;
+        document.querySelector(`[data-choice-period="${id}"]`).textContent = selected === "monthly" ? "per month" : `one payment · ${selected === "three" ? "3" : "6"} months`;
+        document.querySelector(`[data-choice-link="${id}"]`).href = `/heroes-start.html?tier=${id}&period=${selected}`;
+        document.querySelector(`[data-choice-tier="${id}"]`).hidden = narrow.matches && id !== activeTier;
+      }
+      document.getElementById("billing-explanation").textContent = config.periods[selected].renewal + " Advertising allocation included. Confirm your delivery scope with Sales before paying.";
+      tierSwitch.querySelectorAll("button").forEach(button => button.setAttribute("aria-pressed", String(button.dataset.viewTier === activeTier)));
+    }
+    billingSwitch.addEventListener("change", renderComparison);
+    tierSwitch.addEventListener("click", event => {
+      const button = event.target.closest("[data-view-tier]");
+      if (!button) return;
+      activeTier = button.dataset.viewTier;
+      renderComparison();
+    });
+    narrow.addEventListener("change", renderComparison);
+    renderComparison();
+  }
+  // One user-controlled portfolio carousel. Native scrolling works without this enhancement.
+  document.querySelectorAll("[data-carousel]").forEach(carousel => {
+    const track = carousel.querySelector("[data-carousel-track]");
+    const slides = [...track.children];
+    const controls = carousel.querySelector(".carousel-controls");
+    const previous = carousel.querySelector("[data-carousel-prev]");
+    const next = carousel.querySelector("[data-carousel-next]");
+    controls.hidden = false;
+    let index = 0;
+    const sync = () => {
+      index = slides.reduce((best, slide, i) => Math.abs(slide.offsetLeft - slides[0].offsetLeft - track.scrollLeft) < Math.abs(slides[best].offsetLeft - slides[0].offsetLeft - track.scrollLeft) ? i : best, 0);
+      carousel.querySelector("[data-carousel-status]").textContent = `${index + 1} / ${slides.length}`;
+      previous.disabled = index === 0;
+      next.disabled = index === slides.length - 1;
+    };
+    const go = delta => track.scrollTo({left: slides[Math.max(0, Math.min(slides.length - 1, index + delta))].offsetLeft - slides[0].offsetLeft, behavior: reduced.matches ? "auto" : "smooth"});
+    previous.addEventListener("click", () => go(-1));
+    next.addEventListener("click", () => go(1));
+    track.addEventListener("keydown", event => {
+      if (event.target !== track || !["ArrowLeft", "ArrowRight"].includes(event.key)) return;
+      event.preventDefault(); go(event.key === "ArrowRight" ? 1 : -1);
+    });
+    track.addEventListener("scroll", sync, {passive:true});
+    window.addEventListener("resize", sync);
+    sync();
+  });
   const form = document.getElementById("heroes-profile");
   if (form)
     form.addEventListener("submit", async (event) => {

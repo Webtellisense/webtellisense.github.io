@@ -1,4 +1,5 @@
 [build]
+  base = "."
   command = "npm run build"
   publish = "public"
   # Skip branch deploys; allow the requested isolated PR Deploy Preview.

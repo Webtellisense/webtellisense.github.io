@@ -12,17 +12,14 @@
     tiers: {
       v1: {
         name: "Heroes V1",
-        label: "Foundation System",
         prices: { monthly: 350000, three: 1012500, six: 1950000 },
       },
       v2: {
         name: "Heroes V2",
-        label: "Growth System",
         prices: { monthly: 600000, three: 1755000, six: 3420000 },
       },
       v3: {
         name: "Heroes V3",
-        label: "Complete System",
         prices: { monthly: 1000000, three: 2932500, six: 5730000 },
       },
     },

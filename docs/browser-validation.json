@@ -1536,62 +1536,19 @@
     "errors": [],
     "styles": {
       "body": {
-        "color": "rgb(45, 55, 72)",
-        "background": "rgba(0, 0, 0, 0)",
-        "font": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, sans-serif",
+        "color": "rgb(19, 23, 45)",
+        "background": "rgb(247, 247, 242)",
+        "font": "Montserrat, Campton, sans-serif",
         "fontSize": "16px"
       },
-      "header": {
-        "color": "rgb(45, 55, 72)",
-        "background": "rgb(255, 255, 255)",
-        "font": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, sans-serif",
-        "fontSize": "16px"
-      },
-      "nav": {
-        "color": "rgb(0, 51, 255)",
-        "background": "rgb(255, 255, 255)",
-        "font": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, sans-serif",
-        "fontSize": "13px"
-      },
+      "header": null,
+      "nav": null,
       "overflow": false
     },
     "mobile": {
       "overflow": false
     },
-    "axe": [
-      {
-        "id": "color-contrast",
-        "impact": "serious",
-        "count": 13,
-        "examples": [
-          [
-            ".hero > .cta-button[href$=\"#join\"]"
-          ],
-          [
-            ".section:nth-child(2) > .cta-button[href$=\"#join\"]"
-          ],
-          [
-            ".timeline-item:nth-child(1) > .timeline-date"
-          ]
-        ]
-      },
-      {
-        "id": "link-in-text-block",
-        "impact": "serious",
-        "count": 4,
-        "examples": [
-          [
-            ".step:nth-child(1) > .step-content > p > a:nth-child(1)"
-          ],
-          [
-            ".step:nth-child(1) > .step-content > p > a:nth-child(2)"
-          ],
-          [
-            ".step:nth-child(3) > .step-content > p > a:nth-child(1)"
-          ]
-        ]
-      }
-    ]
+    "axe": []
   },
   {
     "phase": "after",
@@ -1970,6 +1927,46 @@
   },
   {
     "phase": "after",
+    "page": "heroes-welcome.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(19, 23, 45)",
+        "background": "rgb(247, 247, 242)",
+        "font": "Montserrat, Campton, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": null,
+      "nav": null,
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "after",
+    "page": "heroes-profile-received.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(19, 23, 45)",
+        "background": "rgb(247, 247, 242)",
+        "font": "Montserrat, Campton, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": null,
+      "nav": null,
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "after",
     "page": "business-audit-tool.html",
     "errors": [],
     "styles": {
@@ -2021,6 +2018,26 @@
         "font": "Montserrat, sans-serif",
         "fontSize": "13px"
       },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "after",
+    "page": "heroes-start.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(19, 23, 45)",
+        "background": "rgb(247, 247, 242)",
+        "font": "Montserrat, Campton, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": null,
+      "nav": null,
       "overflow": false
     },
     "mobile": {

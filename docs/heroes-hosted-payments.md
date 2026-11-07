@@ -1,5 +1,7 @@
 # Webtellisense Heroes: hosted payments and a personal welcome
 
+> Historical source-PR report. The approved final integration supersedes route, deployment-guard, welcome-gate and current-count statements here. See [final integration results and setup](final-integration.md).
+
 Implemented on `feat/heroes-hosted-payments`, in an isolated worktree created directly from main `b639eeb`. PR [#1](https://github.com/Webtellisense/webtellisense.github.io/pull/1) and [#2](https://github.com/Webtellisense/webtellisense.github.io/pull/2) were references, not branch dependencies. Neither was merged or copied wholesale. This branch supersedes their custom payment/onboarding design for the **new Heroes journey only**.
 
 No deployment, merge, production configuration, provider transaction or real form submission was performed. `netlify.toml` retains a review-only `ignore = "exit 0"` guard so automatic branch builds/deploys are skipped. Removing that guard belongs to a separately approved release, not this task.

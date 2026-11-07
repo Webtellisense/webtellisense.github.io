@@ -9,6 +9,7 @@ for (const file of fs.readdirSync(".")) {
       "nigeria",
       "bahamas",
       "robots.txt",
+      "_redirects",
       "sitemap.xml",
       "site.webmanifest",
     ].includes(file)

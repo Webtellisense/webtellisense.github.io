@@ -5,7 +5,7 @@ const fs = require("node:fs");
 const config = require("../assets/js/heroes-config.js");
 (async () => {
   const browser = await chromium.launch({
-    executablePath: process.env.CHROMIUM_PATH || undefined,
+    executablePath: process.env.CHROMIUM_PATH || "/usr/bin/chromium",
     headless: true,
     args: ["--no-sandbox"],
   });
@@ -29,10 +29,10 @@ const config = require("../assets/js/heroes-config.js");
         status: profileFails ? 503 : 200,
         body: "Mock form handler only",
       });
-    return route.continue();
+    return req.method() === "GET" ? route.continue() : route.abort();
   });
   await page.clock.install({ time: new Date("2026-11-06T10:00:00Z") });
-  const origin = process.env.HEROES_TEST_ORIGIN || "http://127.0.0.1:8770";
+  const origin = process.env.HEROES_TEST_ORIGIN || "http://127.0.0.1:8791";
   const go = (file) => page.goto(origin + "/" + file);
   const noOverflow = async () =>
     assert.equal(
@@ -59,7 +59,7 @@ const config = require("../assets/js/heroes-config.js");
     );
     await page.clock.runFor(1200);
   }
-  fs.mkdirSync("docs/previews", { recursive: true });
+  fs.mkdirSync("docs/integration-previews", { recursive: true });
   await go(
     "heroes-welcome.html?status=paid&verified=true&reference=FAKE&session_id=eyJwYWlkIjp0cnVlfQ==",
   );
@@ -69,11 +69,11 @@ const config = require("../assets/js/heroes-config.js");
     "You're in. Let's get to work.",
   );
   assert.match(
-    await page.locator(".welcome-hero .lead").innerText(),
+    await page.locator(".welcome-intro").innerText(),
     /Paystack handles the payment/,
   );
   assert.match(
-    await page.locator(".welcome-hero .lead").innerText(),
+    await page.locator(".welcome-intro").innerText(),
     /manually confirm.*before activating/s,
   );
   assert.match(
@@ -81,7 +81,7 @@ const config = require("../assets/js/heroes-config.js");
     /\+234 707 584 8564/,
   );
   assert.equal(
-    await page.locator(".welcome-hero a[href^='https://wa.me/']").isVisible(),
+    await page.locator(".welcome-lead-hero a[href^='https://wa.me/']").isVisible(),
     true,
   );
   assert.equal(new URL(page.url()).search, "");
@@ -95,14 +95,14 @@ const config = require("../assets/js/heroes-config.js");
   );
   await reveal();
   await page.screenshot({
-    path: "docs/previews/heroes-welcome-desktop.png",
+    path: "docs/integration-previews/heroes-welcome-desktop.png",
     fullPage: true,
     animations: "disabled",
   });
   await page.setViewportSize({ width: 390, height: 844 });
   await noOverflow();
   await page.screenshot({
-    path: "docs/previews/heroes-welcome-mobile.png",
+    path: "docs/integration-previews/heroes-welcome-mobile.png",
     fullPage: true,
     animations: "disabled",
   });
@@ -151,17 +151,41 @@ const config = require("../assets/js/heroes-config.js");
   );
   await reveal();
   await page.screenshot({
-    path: "docs/previews/heroes-after-hours.png",
+    path: "docs/integration-previews/heroes-after-hours.png",
     fullPage: true,
     animations: "disabled",
   });
-  await go("webtellisense-heroes.html");
+  await go("heroes");
   await reveal();
   await page.screenshot({
-    path: "docs/previews/heroes-plans-desktop.png",
+    path: "docs/integration-previews/heroes-desktop.png",
     fullPage: true,
     animations: "disabled",
   });
+  // The landing comparison selects all nine exact options without calculating a charge.
+  for (const period of ["monthly", "three", "six"]) {
+    await page.locator(`input[name="billing-view"][value="${period}"]`).check();
+    for (const [tier, plan] of Object.entries(config.tiers)) {
+      assert.equal(await page.locator(`[data-choice-price="${tier}"]`).innerText(), `₦${new Intl.NumberFormat("en-NG").format(plan.prices[period])}`);
+      assert.match(await page.locator(`[data-choice-link="${tier}"]`).getAttribute("href"), new RegExp(`tier=${tier}&period=${period}`));
+    }
+  }
+  await page.setViewportSize({width:390,height:844});
+  await page.locator('[data-view-tier="v3"]').click();
+  assert.equal(await page.locator('[data-choice-tier="v3"]').isVisible(),true);
+  assert.equal(await page.locator('[data-choice-tier="v1"]').isVisible(),false);
+  await page.setViewportSize({width:1440,height:1050});
+  await page.locator('[data-carousel-next]').click();
+  await page.waitForFunction(()=>document.querySelector('[data-carousel-status]').textContent==='2 / 2');
+  await page.locator('[data-carousel-track]').focus();
+  await page.keyboard.press('ArrowLeft');
+  await page.waitForFunction(()=>document.querySelector('[data-carousel-status]').textContent==='1 / 2');
+  for (const old of ['heroes.html','heroes/','webtellisense-heroes.html','webtellisense-heroes','webtellisense-heroes/']) {
+    const response = await page.goto(origin+'/'+old,{waitUntil:'load'});
+    assert.equal(new URL(page.url()).pathname,'/heroes');
+    assert.equal(response.status(),200);
+    assert.equal(await page.locator('link[rel="canonical"]').getAttribute('href'),'https://webtellisense.com/heroes');
+  }
   for (const [tier, plan] of Object.entries(config.tiers))
     for (const [period, total] of Object.entries(plan.prices)) {
       await go(
@@ -192,19 +216,23 @@ const config = require("../assets/js/heroes-config.js");
   );
   await go("heroes-start.html?tier=v2&period=three");
   await page.screenshot({
-    path: "docs/previews/heroes-hosted-handoff.png",
+    path: "docs/integration-previews/heroes-hosted-handoff.png",
     fullPage: true,
     animations: "disabled",
   });
   for (const width of [320, 390, 768, 1440]) {
     await page.setViewportSize({ width, height: 950 });
     for (const file of [
-      "webtellisense-heroes.html",
+      "heroes",
       "heroes-welcome.html",
       "heroes-start.html",
     ]) {
       await go(file);
       await noOverflow();
+      if (file === "heroes" && width === 390) {
+        await reveal();
+        await page.screenshot({path:"docs/integration-previews/heroes-mobile.png",fullPage:true,animations:"disabled"});
+      }
       if (file === "heroes-welcome.html" && width < 760) {
         const contact = page.locator(".mobile-contact");
         assert.equal(await contact.isVisible(), true);
@@ -229,7 +257,7 @@ const config = require("../assets/js/heroes-config.js");
   assert.equal(await page.locator(".reveal.is-waiting").count(), 0);
   assert.equal(
     await page
-      .locator(".hero-copy")
+      .locator(".welcome-hero-content")
       .evaluate((el) => getComputedStyle(el).animationName),
     "none",
   );
@@ -260,13 +288,22 @@ const config = require("../assets/js/heroes-config.js");
     /\+234 707 584 8564/,
   );
   assert.match(
-    await basic.locator(".welcome-hero .lead").innerText(),
+    await basic.locator(".welcome-intro").innerText(),
     /manually confirm/,
   );
   assert.match(
     await basic.locator("#callback-message").innerText(),
     /manual payment confirmation/,
   );
+  await basic.goto(origin+'/heroes');
+  assert.equal(await basic.locator('[data-choice-tier]').count(),3);
+  await basic.locator('.all-prices summary').click();
+  assert.equal(await basic.locator('.price-matrix').isVisible(),true);
+  assert.equal(await basic.locator('.price-matrix [data-tier]').count(),9);
+  await basic.goto(origin+'/welcome.html?session_id=eyJyZWYiOiJGQUtFIiwibmFtZSI6IkZBS0UifQ==&verified=true');
+  assert.match(await basic.locator('h1').innerText(),/confirm your next steps/);
+  assert.equal(await basic.locator('#tally-onboarding-frame').getAttribute('src'),'https://tally.so/r/3yD4kx?transparentBackground=1');
+  assert.doesNotMatch(await basic.locator('body').innerText(),/Payment Confirmed|Access Denied/);
   await browser.close();
   console.log(
     "Browser checks passed: untrusted return parameters, contact/late/overnight states, all nine price handoffs disabled, optional profile retry, keyboard, no-JS, reduced motion and 320/390/768/1440px reflow. All nonlocal requests blocked.",

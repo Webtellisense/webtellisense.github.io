@@ -2,9 +2,9 @@
 const { chromium } = require('playwright');
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
-const matrix = JSON.parse(fs.readFileSync('docs/contextual-links.json', 'utf8'));
+const matrix = JSON.parse(fs.readFileSync('docs/integration-linking-inventory.json', 'utf8')).links;
 const sources = [...new Set(matrix.map(link => link.source))];
-const origin = 'http://127.0.0.1:8781/';
+const origin = 'http://127.0.0.1:8791/';
 
 (async () => {
   const browser = await chromium.launch({
@@ -35,13 +35,14 @@ const origin = 'http://127.0.0.1:8781/';
     await page.setViewportSize({ width: 390, height: 844 });
     await page.goto(origin + source, { waitUntil: 'load' });
     const expected = matrix.filter(link => link.source === source);
-    const anchors = page.locator('main a.site-context-link');
+    const anchors = page.locator('main p a.site-context-link, main li a.site-context-link');
     assert.equal(await anchors.count(), expected.length, source + ' durable contextual count');
     let minimumContrast = Infinity;
     await page.keyboard.press('Tab');
     for (const record of expected) {
       const link = anchors.filter({ hasText: new RegExp('^' + record.anchor.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/\s+/g, '\\s+') + '$') });
       assert.equal(await link.count(), 1, source + ' ' + record.anchor);
+      await link.locator('xpath=ancestor::details').evaluateAll(nodes => nodes.forEach(node => { node.open = true; }));
       await link.scrollIntoViewIfNeeded();
       await link.hover();
       await link.focus();
@@ -85,7 +86,7 @@ const origin = 'http://127.0.0.1:8781/';
   const staticPage = await noJS.newPage();
   for (const source of sources) {
     await staticPage.goto(origin + source, { waitUntil: 'load' });
-    const count = await staticPage.locator('main a.site-context-link').count();
+    const count = await staticPage.locator('main p a.site-context-link, main li a.site-context-link').count();
     assert.equal(count, matrix.filter(link => link.source === source).length);
     evidence.noJavaScript.push({ source, anchorsPresentInHTML: count });
   }

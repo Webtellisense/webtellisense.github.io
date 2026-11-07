@@ -111,6 +111,7 @@
                             <li><a href="/conversion-rate-optimization.html">Conversion Rate Optimization</a></li>
                         </ul>
                     </li>
+                    <li><a href="/heroes">Heroes</a></li>
                     <li><a href="packages.html" class="active">Packages</a></li>
                     <li><a href="pricing.html">Pricing</a></li>
                     <li><a href="blog.html">Blog</a></li>
@@ -1425,17 +1426,9 @@
                     ]
                 },
                 callback: function (response) {
-                    // Payment Successful! Pass details to protected gate page
-                    const sessionToken = btoa(JSON.stringify({
-                        ref: response.reference,
-                        email: clientEmail,
-                        name: clientName,
-                        phone: clientPhone,
-                        pkg: currentCart.packageName,
-                        tier: currentCart.tier
-                    }));
-
-                    window.location.href = `/welcome.html?session_id=${sessionToken}`;
+                    // A browser callback is not authoritative payment verification.
+                    // Personal activation requires a staff check in Paystack.
+                    window.location.href = '/welcome.html';
                 },
                 onClose: function () {
                     alert('Transaction was cancelled.');

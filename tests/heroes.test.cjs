@@ -6,7 +6,7 @@ const { execFileSync } = require("node:child_process");
 const config = require("../assets/js/heroes-config.js");
 const api = require("../assets/js/heroes-shared.js");
 const pages = [
-  "webtellisense-heroes.html",
+  "heroes.html",
   "heroes-start.html",
   "heroes-welcome.html",
   "heroes-profile-received.html",
@@ -92,7 +92,7 @@ test("new flow has no legacy checkout links, verification backend, keys, databas
     const html = readHtml(file);
     assert.doesNotMatch(
       html,
-      /(?:href|action)=["'][^"']*(?:packages\.html|\/welcome\.html|["']heroes\.html)/,
+      /(?:href|action)=["'][^"']*(?:packages\.html|\/welcome\.html)/,
     );
     assert.doesNotMatch(
       html,
@@ -117,22 +117,13 @@ test("new flow has no legacy checkout links, verification backend, keys, databas
     /Manual verification required/,
   );
 });
-test("legacy packages, contest, welcome and all unrelated pages remain byte-for-byte main", () => {
-  const mainFiles = execFileSync(
-    "git",
-    ["ls-tree", "-r", "--name-only", "origin/main"],
-    { encoding: "utf8" },
-  )
-    .trim()
-    .split("\n");
-  const allowed = new Set(["index.html", "sitemap.xml", ".gitignore"]);
-  for (const file of mainFiles) {
-    if (allowed.has(file)) continue;
-    const before = execFileSync("git", ["show", `origin/main:${file}`], {
-      maxBuffer: 20 * 1024 * 1024,
-    });
-    assert.deepEqual(fs.readFileSync(file), before, file);
+test("integrated shared fixes and original photographic assets remain intact", () => {
+  for (const file of ["assets/js/main.js","assets/css/main.css","assets/js/theme-toggle.js","assets/vendor/php-email-form/validate.js","audit.html"]) {
+    const before = execFileSync("git",["show",`1dab681:${file}`]);
+    assert.deepEqual(fs.readFileSync(file),before,file);
   }
+  const images = execFileSync("git",["ls-tree","-r","--name-only","1dab681","assets/img"],{encoding:"utf8"}).trim().split("\n");
+  for (const file of images) assert.deepEqual(fs.readFileSync(file),execFileSync("git",["show",`1dab681:${file}`],{maxBuffer:20*1024*1024}),file);
 });
 test("all local assets and direct internal links in new pages resolve", () => {
   for (const file of pages) {
@@ -140,7 +131,8 @@ test("all local assets and direct internal links in new pages resolve", () => {
     for (const match of html.matchAll(/(?:src|href)="([^"]+)"/g)) {
       const url = match[1];
       if (/^(https?:|tel:|mailto:|#)/.test(url)) continue;
-      const target = url.split(/[?#]/)[0];
+      let target = url.split(/[?#]/)[0].replace(/^\//, "");
+      if (!path.extname(target)) target += ".html";
       assert.ok(fs.existsSync(target), `${file}: ${url}`);
     }
   }
@@ -167,6 +159,7 @@ test("build excludes test/configuration tooling; static form survives", () => {
   execFileSync(process.execPath, ["scripts/build-static.cjs"]);
   for (const file of pages) assert.ok(fs.existsSync(path.join("public", file)));
   for (const file of [
+    "webtellisense-heroes.html",
     "tests",
     "scripts",
     "node_modules",

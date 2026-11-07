@@ -4,7 +4,7 @@ const {chromium}=require('playwright');const assert=require('node:assert/strict'
  const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',headless:true,args:['--no-sandbox']});
  const page=await browser.newPage({viewport:{width:390,height:844},reducedMotion:'reduce'});const errors=[];page.on('pageerror',e=>errors.push(e.message));
  await page.route('**/*',r=>{const u=new URL(r.request().url());if(u.hostname!=='127.0.0.1')return r.abort();if(u.pathname==='/forms/contact.php')return r.fulfill({status:200,body:'<img src=x onerror="window.mailInjected=1">'});return r.request().method()==='GET'?r.continue():r.abort();});
- const go=name=>page.goto('http://127.0.0.1:8781/'+name,{waitUntil:'load'});
+ const go=name=>page.goto('http://127.0.0.1:8791/'+name,{waitUntil:'load'});
  await go('about.html');const nav=page.locator('.mobile-nav-toggle');await nav.focus();await page.keyboard.press('Enter');assert.equal(await nav.getAttribute('aria-expanded'),'true');await page.keyboard.press('Escape');assert.equal(await nav.getAttribute('aria-expanded'),'false');
  assert.equal(await page.locator('[role="progressbar"][aria-label]').count(),6);
  await go('faq.html');const question=page.locator('.faq-question').first();await question.focus();const old=await question.getAttribute('aria-expanded');await page.keyboard.press('Space');assert.notEqual(await question.getAttribute('aria-expanded'),old);

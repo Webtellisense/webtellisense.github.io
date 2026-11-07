@@ -14,7 +14,7 @@
     },
     {
       "source": "about.html",
-      "contextualLinks": 5,
+      "contextualLinks": 6,
       "widths": [
         320,
         390,
@@ -38,7 +38,7 @@
     },
     {
       "source": "business-audit-tool.html",
-      "contextualLinks": 3,
+      "contextualLinks": 4,
       "widths": [
         320,
         390,
@@ -50,7 +50,7 @@
     },
     {
       "source": "business-not-showing-up-online.html",
-      "contextualLinks": 6,
+      "contextualLinks": 7,
       "widths": [
         320,
         390,
@@ -74,7 +74,7 @@
     },
     {
       "source": "conversion-rate-optimization.html",
-      "contextualLinks": 4,
+      "contextualLinks": 5,
       "widths": [
         320,
         390,
@@ -121,8 +121,20 @@
       "underlineAndKeyboardFocus": true
     },
     {
+      "source": "heroes.html",
+      "contextualLinks": 5,
+      "widths": [
+        320,
+        390,
+        768,
+        1280
+      ],
+      "minimumHoverContrast": 14.14,
+      "underlineAndKeyboardFocus": true
+    },
+    {
       "source": "how-to-grow-your-business-online-2026.html",
-      "contextualLinks": 6,
+      "contextualLinks": 7,
       "widths": [
         320,
         390,
@@ -134,7 +146,7 @@
     },
     {
       "source": "index.html",
-      "contextualLinks": 1,
+      "contextualLinks": 2,
       "widths": [
         320,
         390,
@@ -157,8 +169,20 @@
       "underlineAndKeyboardFocus": true
     },
     {
+      "source": "pricing.html",
+      "contextualLinks": 1,
+      "widths": [
+        320,
+        390,
+        768,
+        1280
+      ],
+      "minimumHoverContrast": 10.14,
+      "underlineAndKeyboardFocus": true
+    },
+    {
       "source": "social-media-management.html",
-      "contextualLinks": 4,
+      "contextualLinks": 5,
       "widths": [
         320,
         390,
@@ -194,7 +218,7 @@
     },
     {
       "source": "value-of-a-digital-agency.html",
-      "contextualLinks": 4,
+      "contextualLinks": 5,
       "widths": [
         320,
         390,
@@ -206,7 +230,7 @@
     },
     {
       "source": "web-design.html",
-      "contextualLinks": 4,
+      "contextualLinks": 5,
       "widths": [
         320,
         390,
@@ -223,6 +247,7 @@
     "content-marketing.html",
     "business-not-showing-up-online.html",
     "branding.html",
+    "heroes.html",
     "reviews.html",
     "value-of-a-digital-agency.html",
     "graphics-design.html",
@@ -239,8 +264,10 @@
     "how-to-grow-your-business-online-2026.html#step5",
     "ppc.html",
     "10-essential-tips-for-businesses-2025.html",
+    "heroes-welcome.html",
     "about.html",
     "how-to-grow-your-business-online-2026.html#step4",
+    "heroes.html#plans",
     "how-to-grow-your-business-online-2026.html#step3",
     "top-features-for-a-school-website.html"
   ],
@@ -251,7 +278,7 @@
     },
     {
       "source": "about.html",
-      "anchorsPresentInHTML": 5
+      "anchorsPresentInHTML": 6
     },
     {
       "source": "branding.html",
@@ -259,11 +286,11 @@
     },
     {
       "source": "business-audit-tool.html",
-      "anchorsPresentInHTML": 3
+      "anchorsPresentInHTML": 4
     },
     {
       "source": "business-not-showing-up-online.html",
-      "anchorsPresentInHTML": 6
+      "anchorsPresentInHTML": 7
     },
     {
       "source": "content-marketing.html",
@@ -271,7 +298,7 @@
     },
     {
       "source": "conversion-rate-optimization.html",
-      "anchorsPresentInHTML": 4
+      "anchorsPresentInHTML": 5
     },
     {
       "source": "email-marketing.html",
@@ -286,20 +313,28 @@
       "anchorsPresentInHTML": 3
     },
     {
+      "source": "heroes.html",
+      "anchorsPresentInHTML": 5
+    },
+    {
       "source": "how-to-grow-your-business-online-2026.html",
-      "anchorsPresentInHTML": 6
+      "anchorsPresentInHTML": 7
     },
     {
       "source": "index.html",
-      "anchorsPresentInHTML": 1
+      "anchorsPresentInHTML": 2
     },
     {
       "source": "ppc.html",
       "anchorsPresentInHTML": 4
     },
     {
+      "source": "pricing.html",
+      "anchorsPresentInHTML": 1
+    },
+    {
       "source": "social-media-management.html",
-      "anchorsPresentInHTML": 4
+      "anchorsPresentInHTML": 5
     },
     {
       "source": "social-media-marketing.html",
@@ -311,11 +346,11 @@
     },
     {
       "source": "value-of-a-digital-agency.html",
-      "anchorsPresentInHTML": 4
+      "anchorsPresentInHTML": 5
     },
     {
       "source": "web-design.html",
-      "anchorsPresentInHTML": 4
+      "anchorsPresentInHTML": 5
     }
   ],
   "externalRequests": "blocked",

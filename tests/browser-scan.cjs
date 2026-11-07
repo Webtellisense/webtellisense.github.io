@@ -7,9 +7,9 @@ const pages=JSON.parse(fs.readFileSync('docs/technical-before.json')).pages.map(
  for(const phase of ['before','after']){
   const ctx=await browser.newContext({reducedMotion:'reduce'});
   await ctx.route('**/*',r=>{const u=new URL(r.request().url());return u.hostname==='127.0.0.1' && r.request().method()==='GET'?r.continue():r.abort();});
-  for(const name of pages){
+  for(const name of phase==='before'?pages:JSON.parse(fs.readFileSync('docs/integration-static-validation.json')).pages.map(p=>p.page)){
    const page=await ctx.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
-   await page.goto(`http://127.0.0.1:${phase==='before'?8782:8781}/${name}`,{waitUntil:'load'});await page.waitForTimeout(150);
+   await page.goto(`http://127.0.0.1:${phase==='before'?8782:8791}/${name}`,{waitUntil:'load'});await page.waitForTimeout(150);
    const styles=await page.evaluate(()=>{const style=el=>{if(!el)return null;const c=getComputedStyle(el);return {color:c.color,background:c.backgroundColor,font:c.fontFamily,fontSize:c.fontSize};};return {body:style(document.body),header:style(document.querySelector('#header')),nav:style(document.querySelector('#navmenu a')),overflow:document.documentElement.scrollWidth>innerWidth};});
    let mobile;await page.setViewportSize({width:390,height:844});mobile=await page.evaluate(()=>({overflow:document.documentElement.scrollWidth>innerWidth}));
    let axe=[];

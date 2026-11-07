@@ -1,5 +1,7 @@
 # Editorial internal-linking follow-up — PR #4
 
+> Historical source-PR report. The approved final integration supersedes route, deployment-guard, welcome-gate and current-count statements here. See [final integration results and setup](final-integration.md).
+
 7 November 2026 · branch `fix/sitewide-technical-audit` · before baseline `7306504` (the first PR #4 implementation), **not** the original main audit. This pass changes editorial HTML and contextual-link focus/hover styling only. No payment logic, service/package prices, legal terms, tracking scripts, provider configuration or PR #3 files changed. No merge or deployment.
 
 ## Result and counting rules
