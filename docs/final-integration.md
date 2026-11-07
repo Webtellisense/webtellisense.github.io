@@ -2,7 +2,7 @@
 
 7 November 2026 · branch `feat/heroes-final-integration` · based on main `b639eeb`.
 
-This branch combines PR #3 at `eab6a23` and PR #4 at `1dab681`. The original PRs and main are unchanged. Local integration commits preserve both histories; no GitHub PR has been merged. No production deployment, production settings change, live payment or real customer-form submission was performed.
+This branch combines PR #3 at `eab6a23` and PR #4 at `1dab681`. The original PRs and main are unchanged. Draft integration PR: [#5](https://github.com/Webtellisense/webtellisense.github.io/pull/5). Local integration commits preserve both histories; no GitHub PR has been merged. No production deployment, production settings change, live payment or real customer-form submission was performed.
 
 ## Finished customer experience
 
@@ -83,7 +83,9 @@ The [personalized 30-day activation-plan template](heroes-activation-plan-templa
 
 Verified locally: repository-root static build, **`npm run build` → `public`**, Node 22 configured in `netlify.toml`. The output includes all intended HTML/assets, country campaigns, robots, sitemap, manifest and `_redirects`. Docs, tests, scripts, npm/Git metadata and development dependencies are excluded. No Functions are built. `scripts/serve-preview.cjs` is a local-only static route emulator; POST returns 405 unless a test explicitly mocks it. It is not a Netlify runtime or delivery backend.
 
-The integration branch's ignore command skips branch/production-context builds for this review branch and **allows `deploy-preview`**. Main and production settings have not been changed. Deploy Preview support/configuration is prepared in source, but this environment has **no Netlify connector, CLI login, site link or configured credential**. Actual preview creation/status must be established by the repository's Netlify integration after the draft PR opens, or by the owner using the dashboard. A local route emulator is not evidence of a Netlify-hosted redirect or stored submission. No guessed preview URL is supplied.
+The integration branch's ignore command skips branch/production-context builds for this review branch and **allows `deploy-preview`**. Main and production settings have not been changed. Deploy Preview support/configuration is prepared in source, but this environment has **no Netlify connector, CLI login, site link or configured credential**. After draft PR #5 opened, the repository's Netlify integration reported **success** for `netlify/webtellisense/deploy-preview`, with the actual target [https://deploy-preview-5--webtellisense.netlify.app](https://deploy-preview-5--webtellisense.netlify.app). No dashboard setting was changed by this agent. The [official Heroes preview](https://deploy-preview-5--webtellisense.netlify.app/heroes) is available for owner review.
+
+A read-only HEAD request from this execution environment was blocked **before reaching Netlify** by the environment proxy (`CONNECT 403`), so actual preview HTTP headers/redirect responses, rendered pages, form registration/storage and provider delivery are **not independently verified here**. This is not a reported 403 from the deployed website. Local route/browser tests and Netlify's successful build status are distinct evidence; neither is claimed as a real form or payment test.
 
 Netlify's documented PR workflow and build settings were checked: [Deploy Previews](https://docs.netlify.com/deploy/deploy-types/deploy-previews/), [build configuration](https://docs.netlify.com/build/configure-builds/overview/), [redirect status/force options](https://docs.netlify.com/manage/routing/redirects/redirect-options/).
 
@@ -103,7 +105,7 @@ These actions follow the current [Paystack Payment Pages guide](https://support.
 
 ### Netlify — preview only
 
-1. Check that this repository is connected to the correct existing project and that the draft integration PR has a Deploy Preview. If disabled, the documented control is **Project configuration → Developer settings → Continuous deployment → Branches and deploy contexts → Configure**. Enable/review PR previews or use an isolated test project; do not change the production branch or activate a production/branch deploy.
+1. The repository integration has already created PR #5’s successful Deploy Preview; no connection/enablement change is currently needed. Open that preview from the PR check in the correct Netlify project. Do not change the production branch or activate a production/branch deploy. If preview configuration is later needed, its documented location is **Project configuration → Developer settings → Continuous deployment → Branches and deploy contexts → Configure**.
 2. In the **preview build log**, confirm the repository configuration resolved to `npm run build`, root base and `public` publish output. The committed configuration supplies these; no global production build-setting change is requested. If hidden project overrides prevent this, resolve them in an isolated preview context.
 3. Enable/check **Forms detection** in the test/preview context. After the approved preview exists, verify `heroes-business-profile` and all its static fields are registered. Submit synthetic test details and confirm actual stored submission, success/failure behavior and native POST fallback. Configure restricted internal form notifications and review access/retention/privacy handling. Profile notifications must never be treated as paid-purchase alerts.
 4. On that preview, verify `/heroes`, HTML/slash/old-name redirects, noindex/no-referrer/no-store headers, profile routing and existing forms/WhatsApp links. Use Paystack **test** pages/credentials only for provider validation; no real transactions.
