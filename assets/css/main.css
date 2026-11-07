@@ -5678,5 +5678,7 @@ hr.div {
 .site-filter-button { all: unset; cursor: pointer; }
 .site-filter-button:focus-visible { outline: 2px solid var(--color-primary-3); outline-offset: 4px; }
 .site-context-link { text-decoration: underline; text-underline-offset: 3px; }
+.site-context-link:hover { color: var(--accent-color); text-decoration: underline; }
+.site-context-link:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; border-radius: 2px; }
 .footer .footer-newsletter .newsletter-form input[type="submit"],
 .contact .php-email-form button[type="submit"] { color: var(--contrast-color, var(--color-white)); }

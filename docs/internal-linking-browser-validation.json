@@ -1,0 +1,323 @@
+{
+  "pages": [
+    {
+      "source": "10-essential-tips-for-businesses-2025.html",
+      "contextualLinks": 4,
+      "widths": [
+        320,
+        390,
+        768,
+        1280
+      ],
+      "minimumHoverContrast": 10.14,
+      "underlineAndKeyboardFocus": true
+    },
+    {
+      "source": "about.html",
+      "contextualLinks": 5,
+      "widths": [
+        320,
+        390,
+        768,
+        1280
+      ],
+      "minimumHoverContrast": 10.14,
+      "underlineAndKeyboardFocus": true
+    },
+    {
+      "source": "branding.html",
+      "contextualLinks": 4,
+      "widths": [
+        320,
+        390,
+        768,
+        1280
+      ],
+      "minimumHoverContrast": 10.14,
+      "underlineAndKeyboardFocus": true
+    },
+    {
+      "source": "business-audit-tool.html",
+      "contextualLinks": 3,
+      "widths": [
+        320,
+        390,
+        768,
+        1280
+      ],
+      "minimumHoverContrast": 10.14,
+      "underlineAndKeyboardFocus": true
+    },
+    {
+      "source": "business-not-showing-up-online.html",
+      "contextualLinks": 6,
+      "widths": [
+        320,
+        390,
+        768,
+        1280
+      ],
+      "minimumHoverContrast": 10.14,
+      "underlineAndKeyboardFocus": true
+    },
+    {
+      "source": "content-marketing.html",
+      "contextualLinks": 4,
+      "widths": [
+        320,
+        390,
+        768,
+        1280
+      ],
+      "minimumHoverContrast": 10.14,
+      "underlineAndKeyboardFocus": true
+    },
+    {
+      "source": "conversion-rate-optimization.html",
+      "contextualLinks": 4,
+      "widths": [
+        320,
+        390,
+        768,
+        1280
+      ],
+      "minimumHoverContrast": 10.14,
+      "underlineAndKeyboardFocus": true
+    },
+    {
+      "source": "email-marketing.html",
+      "contextualLinks": 4,
+      "widths": [
+        320,
+        390,
+        768,
+        1280
+      ],
+      "minimumHoverContrast": 10.14,
+      "underlineAndKeyboardFocus": true
+    },
+    {
+      "source": "google-business-profile.html",
+      "contextualLinks": 3,
+      "widths": [
+        320,
+        390,
+        768,
+        1280
+      ],
+      "minimumHoverContrast": 10.14,
+      "underlineAndKeyboardFocus": true
+    },
+    {
+      "source": "graphics-design.html",
+      "contextualLinks": 3,
+      "widths": [
+        320,
+        390,
+        768,
+        1280
+      ],
+      "minimumHoverContrast": 10.14,
+      "underlineAndKeyboardFocus": true
+    },
+    {
+      "source": "how-to-grow-your-business-online-2026.html",
+      "contextualLinks": 6,
+      "widths": [
+        320,
+        390,
+        768,
+        1280
+      ],
+      "minimumHoverContrast": 9.22,
+      "underlineAndKeyboardFocus": true
+    },
+    {
+      "source": "index.html",
+      "contextualLinks": 1,
+      "widths": [
+        320,
+        390,
+        768,
+        1280
+      ],
+      "minimumHoverContrast": 10.14,
+      "underlineAndKeyboardFocus": true
+    },
+    {
+      "source": "ppc.html",
+      "contextualLinks": 4,
+      "widths": [
+        320,
+        390,
+        768,
+        1280
+      ],
+      "minimumHoverContrast": 10.14,
+      "underlineAndKeyboardFocus": true
+    },
+    {
+      "source": "social-media-management.html",
+      "contextualLinks": 4,
+      "widths": [
+        320,
+        390,
+        768,
+        1280
+      ],
+      "minimumHoverContrast": 10.14,
+      "underlineAndKeyboardFocus": true
+    },
+    {
+      "source": "social-media-marketing.html",
+      "contextualLinks": 4,
+      "widths": [
+        320,
+        390,
+        768,
+        1280
+      ],
+      "minimumHoverContrast": 10.14,
+      "underlineAndKeyboardFocus": true
+    },
+    {
+      "source": "top-features-for-a-school-website.html",
+      "contextualLinks": 4,
+      "widths": [
+        320,
+        390,
+        768,
+        1280
+      ],
+      "minimumHoverContrast": 10.14,
+      "underlineAndKeyboardFocus": true
+    },
+    {
+      "source": "value-of-a-digital-agency.html",
+      "contextualLinks": 4,
+      "widths": [
+        320,
+        390,
+        768,
+        1280
+      ],
+      "minimumHoverContrast": 10.14,
+      "underlineAndKeyboardFocus": true
+    },
+    {
+      "source": "web-design.html",
+      "contextualLinks": 4,
+      "widths": [
+        320,
+        390,
+        768,
+        1280
+      ],
+      "minimumHoverContrast": 8.43,
+      "underlineAndKeyboardFocus": true
+    }
+  ],
+  "targets": [
+    "google-business-profile.html",
+    "web-design.html",
+    "content-marketing.html",
+    "business-not-showing-up-online.html",
+    "branding.html",
+    "reviews.html",
+    "value-of-a-digital-agency.html",
+    "graphics-design.html",
+    "packages.html#price-swagger",
+    "conversion-rate-optimization.html",
+    "contact.html",
+    "social-media-management.html",
+    "how-to-grow-your-business-online-2026.html",
+    "business-audit-tool.html",
+    "blog.html",
+    "email-marketing.html",
+    "packages.html#price-deeproots",
+    "social-media-marketing.html",
+    "how-to-grow-your-business-online-2026.html#step5",
+    "ppc.html",
+    "10-essential-tips-for-businesses-2025.html",
+    "about.html",
+    "how-to-grow-your-business-online-2026.html#step4",
+    "how-to-grow-your-business-online-2026.html#step3",
+    "top-features-for-a-school-website.html"
+  ],
+  "noJavaScript": [
+    {
+      "source": "10-essential-tips-for-businesses-2025.html",
+      "anchorsPresentInHTML": 4
+    },
+    {
+      "source": "about.html",
+      "anchorsPresentInHTML": 5
+    },
+    {
+      "source": "branding.html",
+      "anchorsPresentInHTML": 4
+    },
+    {
+      "source": "business-audit-tool.html",
+      "anchorsPresentInHTML": 3
+    },
+    {
+      "source": "business-not-showing-up-online.html",
+      "anchorsPresentInHTML": 6
+    },
+    {
+      "source": "content-marketing.html",
+      "anchorsPresentInHTML": 4
+    },
+    {
+      "source": "conversion-rate-optimization.html",
+      "anchorsPresentInHTML": 4
+    },
+    {
+      "source": "email-marketing.html",
+      "anchorsPresentInHTML": 4
+    },
+    {
+      "source": "google-business-profile.html",
+      "anchorsPresentInHTML": 3
+    },
+    {
+      "source": "graphics-design.html",
+      "anchorsPresentInHTML": 3
+    },
+    {
+      "source": "how-to-grow-your-business-online-2026.html",
+      "anchorsPresentInHTML": 6
+    },
+    {
+      "source": "index.html",
+      "anchorsPresentInHTML": 1
+    },
+    {
+      "source": "ppc.html",
+      "anchorsPresentInHTML": 4
+    },
+    {
+      "source": "social-media-management.html",
+      "anchorsPresentInHTML": 4
+    },
+    {
+      "source": "social-media-marketing.html",
+      "anchorsPresentInHTML": 4
+    },
+    {
+      "source": "top-features-for-a-school-website.html",
+      "anchorsPresentInHTML": 4
+    },
+    {
+      "source": "value-of-a-digital-agency.html",
+      "anchorsPresentInHTML": 4
+    },
+    {
+      "source": "web-design.html",
+      "anchorsPresentInHTML": 4
+    }
+  ],
+  "externalRequests": "blocked",
+  "writes": "blocked"
+}

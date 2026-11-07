@@ -2026,18 +2026,7 @@
     "mobile": {
       "overflow": false
     },
-    "axe": [
-      {
-        "id": "link-in-text-block",
-        "impact": "serious",
-        "count": 1,
-        "examples": [
-          [
-            "p:nth-child(18) > a[href$=\"web-design.html\"]"
-          ]
-        ]
-      }
-    ]
+    "axe": []
   },
   {
     "phase": "after",

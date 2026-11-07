@@ -108,7 +108,11 @@ Install development dependencies with `npm ci`; Chromium must be installed (`/us
 
 ### Remaining accessibility findings (not a WCAG pass)
 
-Axe in the controlled final 34-page run still reports **88 color-contrast node findings and 5 link-in-text-block findings** across existing package/campaign/article treatments. The repaired structural rules (labels, iframe names, skill names, filter list semantics and scrollable-region keyboard access) no longer fail in that run. Remaining contrast/link findings are enumerated with selectors in `docs/browser-validation.json`, not suppressed. They should be remediated in a focused per-component visual pass; the current task does not repaint entire campaign/package palettes or claim conformance. Counts can differ with provider fonts, dynamic state and real user content.
+Axe in the controlled final 34-page run still reports **88 color-contrast node findings and 4 link-in-text-block findings** across existing package/campaign/article treatments. The repaired structural rules (labels, iframe names, skill names, filter list semantics and scrollable-region keyboard access) no longer fail in that run. Remaining contrast/link findings are enumerated with selectors in `docs/browser-validation.json`, not suppressed. They should be remediated in a focused per-component visual pass; the current task does not repaint entire campaign/package palettes or claim conformance. Counts can differ with provider fonts, dynamic state and real user content.
+
+## Editorial linking follow-up
+
+The original minimal contextual-link attempt is superseded by the [complete editorial linking report](internal-linking-report.md): 65 new links across five articles, ten services and three agency/tool pages, with 71 durable contextual links in total. Its 36-page topic inventory, relationship map, destination distribution and existing/new matrix exclude navigation and footer counts. One overwritten audit-prompt link and one redundant school-article link were removed. Contextual links retain underlining on hover and visible keyboard focus; the existing school-design recommendation now shares that styling. The latest all-page axe run reduces link-in-text-block findings from five to four; unrelated contrast findings remain. Payment/pricing/legal flows and PR #3 remain untouched in this follow-up.
 
 ## Before release
 
