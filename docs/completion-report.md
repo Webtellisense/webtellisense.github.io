@@ -107,3 +107,7 @@ Only the owner/account holder can complete:
 4. **GA4/GTM/Meta accounts:** complete the precise ownership, automatic-event and consent checks in [measurement notes](completion-measurement.md). No account setting was changed.
 
 Separate approval/evidence work (not dashboard setup): finalize legal drafts, confirm original photo rights, approve named showcases/supply missing assets, substantiate legacy campaign claims and resolve the previously documented old-package duration terms. These are not reasons to alter the final Heroes prices.
+
+## Recorded preview status
+
+GitHub reported `netlify/webtellisense/deploy-preview: success` for implementation commit `c3c8cca7d6fe96c2566fc0179776dd91c3b9b8cd`, targeting https://deploy-preview-5--webtellisense.netlify.app . This is a provider-reported preview build result, not an independent hosted route/header/form-storage test. No production deployment was requested. Subsequent review-document/screenshot changes do not change the built website source.
