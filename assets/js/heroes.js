@@ -122,15 +122,28 @@
     narrow.addEventListener("change", renderComparison);
     renderComparison();
   }
-  // One user-controlled portfolio carousel. Native scrolling works without this enhancement.
+  // Native scrolling first. Optional nine-second slideshow starts only on an explicit request.
   document.querySelectorAll("[data-carousel]").forEach(carousel => {
     const track = carousel.querySelector("[data-carousel-track]");
     const slides = [...track.children];
     const controls = carousel.querySelector(".carousel-controls");
     const previous = carousel.querySelector("[data-carousel-prev]");
     const next = carousel.querySelector("[data-carousel-next]");
+    const play = carousel.querySelector("[data-carousel-play]");
     controls.hidden = false;
     let index = 0;
+    let playing = false, timer, onScreen = true;
+    const pauseTimer = () => { clearTimeout(timer); };
+    const stop = () => {
+      playing = false; pauseTimer();
+      if (play) { play.textContent = "Play slideshow"; play.setAttribute("aria-pressed","false"); }
+      carousel.querySelector("[data-carousel-status]").setAttribute("aria-live","polite");
+    };
+    const schedule = () => {
+      pauseTimer();
+      if (!playing || reduced.matches || document.hidden || !onScreen || carousel.matches(":hover") || carousel.contains(document.activeElement)) return;
+      timer = setTimeout(() => { go(index === slides.length - 1 ? -index : 1); schedule(); },9000);
+    };
     const sync = () => {
       index = slides.reduce((best, slide, i) => Math.abs(slide.offsetLeft - slides[0].offsetLeft - track.scrollLeft) < Math.abs(slides[best].offsetLeft - slides[0].offsetLeft - track.scrollLeft) ? i : best, 0);
       carousel.querySelector("[data-carousel-status]").textContent = `${index + 1} / ${slides.length}`;
@@ -138,11 +151,28 @@
       next.disabled = index === slides.length - 1;
     };
     const go = delta => track.scrollTo({left: slides[Math.max(0, Math.min(slides.length - 1, index + delta))].offsetLeft - slides[0].offsetLeft, behavior: reduced.matches ? "auto" : "smooth"});
-    previous.addEventListener("click", () => go(-1));
-    next.addEventListener("click", () => go(1));
+    previous.addEventListener("click", () => { stop(); go(-1); });
+    next.addEventListener("click", () => { stop(); go(1); });
+    if (play) {
+      play.hidden = reduced.matches;
+      play.addEventListener("click", () => {
+        if (playing) return stop();
+        playing = true; play.textContent="Pause slideshow"; play.setAttribute("aria-pressed","true");
+        carousel.querySelector("[data-carousel-status]").setAttribute("aria-live","off");
+        schedule();
+      });
+    }
+    carousel.addEventListener("mouseenter",pauseTimer);
+    carousel.addEventListener("mouseleave",schedule);
+    carousel.addEventListener("focusin",pauseTimer);
+    carousel.addEventListener("focusout",()=>requestAnimationFrame(schedule));
+    track.addEventListener("touchstart",stop,{passive:true});
+    document.addEventListener("visibilitychange",schedule);
+    reduced.addEventListener("change",()=>{stop();if(play)play.hidden=reduced.matches;});
+    if ("IntersectionObserver" in window) new IntersectionObserver(entries=>{onScreen=entries[0].isIntersecting;schedule();}).observe(carousel);
     track.addEventListener("keydown", event => {
       if (event.target !== track || !["ArrowLeft", "ArrowRight"].includes(event.key)) return;
-      event.preventDefault(); go(event.key === "ArrowRight" ? 1 : -1);
+      event.preventDefault(); stop(); go(event.key === "ArrowRight" ? 1 : -1);
     });
     track.addEventListener("scroll", sync, {passive:true});
     window.addEventListener("resize", sync);

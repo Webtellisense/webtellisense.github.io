@@ -176,10 +176,10 @@ const config = require("../assets/js/heroes-config.js");
   assert.equal(await page.locator('[data-choice-tier="v1"]').isVisible(),false);
   await page.setViewportSize({width:1440,height:1050});
   await page.locator('[data-carousel-next]').click();
-  await page.waitForFunction(()=>document.querySelector('[data-carousel-status]').textContent==='2 / 2');
+  await page.waitForFunction(()=>document.querySelector('[data-carousel-status]').textContent==='2 / 4');
   await page.locator('[data-carousel-track]').focus();
   await page.keyboard.press('ArrowLeft');
-  await page.waitForFunction(()=>document.querySelector('[data-carousel-status]').textContent==='1 / 2');
+  await page.waitForFunction(()=>document.querySelector('[data-carousel-status]').textContent==='1 / 4');
   for (const old of ['heroes.html','heroes/','webtellisense-heroes.html','webtellisense-heroes','webtellisense-heroes/']) {
     const response = await page.goto(origin+'/'+old,{waitUntil:'load'});
     assert.equal(new URL(page.url()).pathname,'/heroes');

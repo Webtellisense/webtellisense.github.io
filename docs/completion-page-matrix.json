@@ -1,0 +1,4966 @@
+{
+  "method": "Source analysis of every publishable HTML file. Core metadata/links resolve statically; no claim of provider delivery, legal approval, owned tracker access or actual Netlify routing. Browser evidence is separate.",
+  "summary": {
+    "html_pages": 45,
+    "share_complete_pages": 45,
+    "existing_pages_with_missing_share_fields_before": 38,
+    "pages_with_privacy_information": 45,
+    "legal_review_pages": 2,
+    "direct_ga4_gtm_overlap_pages": 2,
+    "sitemap_urls": 30,
+    "heroes_sitemap_entries": 1,
+    "new_measurement_release_approved": false
+  },
+  "pages": [
+    {
+      "page": "construction-property-marketing.html",
+      "title": "Marketing for Construction &amp; Property Businesses | Webtellisense",
+      "description": "Discuss clear project content, websites, local visibility and enquiry journeys for construction and property-related businesses. No invented case studies or sales guarantees.",
+      "canonical": "https://webtellisense.com/construction-property-marketing",
+      "indexable": true,
+      "sitemap": true,
+      "share": {
+        "og:title": "Marketing for Construction & Property Businesses | Webtellisense",
+        "og:description": "Discuss clear project content, websites, local visibility and enquiry journeys for construction and property-related businesses. No invented case studies or sales guarantees.",
+        "og:url": "https://webtellisense.com/construction-property-marketing",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/heroes/property-work.webp",
+        "og:image:alt": "Marketing for Construction & Property Businesses",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Marketing for Construction & Property Businesses | Webtellisense",
+        "twitter:description": "Discuss clear project content, websites, local visibility and enquiry journeys for construction and property-related businesses. No invented case studies or sales guarantees.",
+        "twitter:image": "https://webtellisense.com/assets/img/heroes/property-work.webp",
+        "twitter:image:alt": "Marketing for Construction & Property Businesses",
+        "og:image:width": "1400",
+        "og:image:height": "935"
+      },
+      "share_before_missing": [],
+      "tracking": {
+        "page": "construction-property-marketing.html",
+        "pixel_ids": [],
+        "pageviews_per_destination": {},
+        "ga_ids": [],
+        "gtm_ids": []
+      },
+      "measurement_module": true,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [],
+      "contextual_links": 9,
+      "operational_information_links": 0,
+      "incoming_prose_links": 2,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "construction-property-marketing.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 662588,
+          "localResourceBytes": 334254,
+          "brokenImages": [],
+          "forms": []
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "New consent module staged OFF for owner/privacy sign-off"
+      ]
+    },
+    {
+      "page": "freeguide.html",
+      "title": "Free Online Presence Checklist - Transform Your Business Online | Webtellisense | Eket, Akwa Ibom, Nigeria's\n        Top Web Design &\n        Digital Marketing Agency",
+      "description": "Request an online presence checklist for Nigerian business owners, covering websites, Google Business Profile, branding, social media and advertising.",
+      "canonical": "https://webtellisense.com/freeguide",
+      "indexable": true,
+      "sitemap": true,
+      "share": {
+        "og:title": "Free Online Presence Checklist - Transform Your Business Online | Webtellisense | Eket, Akwa Ibom, Nigeria's\n        Top Web Design &\n        Digital Marketing Agency",
+        "og:description": "Request an online presence checklist for Nigerian business owners, covering websites, Google Business Profile, branding, social media and advertising.",
+        "og:url": "https://webtellisense.com/freeguide",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
+        "og:image:alt": "Free Online Presence Checklist - Transform Your Business Online",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Online Presence Checklist - Transform Your Business Online | Webtellisense | Eket, Akwa Ibom, Nigeria's\n        Top Web Design &\n        Digital Marketing Agency",
+        "twitter:description": "Request an online presence checklist for Nigerian business owners, covering websites, Google Business Profile, branding, social media and advertising.",
+        "twitter:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
+        "twitter:image:alt": "Free Online Presence Checklist - Transform Your Business Online",
+        "og:image:width": "6016",
+        "og:image:height": "4016"
+      },
+      "share_before_missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:image",
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ],
+      "tracking": {
+        "page": "freeguide.html",
+        "pixel_ids": [
+          "806267492040936"
+        ],
+        "pageviews_per_destination": {
+          "806267492040936": 1
+        },
+        "ga_ids": [
+          "G-PS5FNQCJRN"
+        ],
+        "gtm_ids": []
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [
+        {
+          "name": "lead-magnet",
+          "action": "current URL",
+          "status": "Netlify static definition; registration/storage/notification unverified"
+        }
+      ],
+      "contextual_links": 0,
+      "operational_information_links": 0,
+      "incoming_prose_links": 0,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "freeguide.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 672182,
+          "localResourceBytes": 7854,
+          "brokenImages": [],
+          "forms": [
+            {
+              "name": "lead-magnet",
+              "action": null,
+              "hasPrivacyLink": true
+            }
+          ]
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "Legacy pixel ownership/consent account review",
+        "No prose contextual links; assess intentional campaign isolation before adding"
+      ]
+    },
+    {
+      "page": "welcome.html",
+      "title": "Welcome to Webtellisense | Next steps",
+      "description": "Webtellisense client onboarding information and next steps.",
+      "canonical": "https://webtellisense.com/welcome",
+      "indexable": false,
+      "sitemap": false,
+      "share": {
+        "og:title": "Welcome to Webtellisense | Next steps",
+        "og:description": "Webtellisense client onboarding information and next steps.",
+        "og:url": "https://webtellisense.com/welcome",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
+        "og:image:alt": "Welcome to Webtellisense",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Welcome to Webtellisense | Next steps",
+        "twitter:description": "Webtellisense client onboarding information and next steps.",
+        "twitter:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
+        "twitter:image:alt": "Welcome to Webtellisense",
+        "og:image:width": "6016",
+        "og:image:height": "4016"
+      },
+      "share_before_missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:image",
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ],
+      "tracking": {
+        "page": "welcome.html",
+        "pixel_ids": [],
+        "pageviews_per_destination": {},
+        "ga_ids": [],
+        "gtm_ids": []
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [],
+      "contextual_links": 0,
+      "operational_information_links": 0,
+      "incoming_prose_links": 0,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "welcome.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 656290,
+          "localResourceBytes": 110161,
+          "brokenImages": [],
+          "forms": []
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "No active GA4/GTM",
+        "External Tally fields/permissions/delivery require account review"
+      ]
+    },
+    {
+      "page": "business-not-showing-up-online.html",
+      "title": "Why Your Business Isn't Showing Up Online (Even Though You Have a Facebook Page) | Webtellisense",
+      "description": "Discover the real reasons your business isn't showing up online and learn practical steps to improve your visibility on Google and attract more customers.",
+      "canonical": "https://webtellisense.com/business-not-showing-up-online",
+      "indexable": true,
+      "sitemap": true,
+      "share": {
+        "og:title": "Why Your Business Isn't Showing Up Online (Even Though You Have a Facebook Page) | Webtellisense",
+        "og:description": "Discover the real reasons your business isn't showing up online and learn practical steps to improve your visibility on Google and attract more customers.",
+        "og:url": "https://webtellisense.com/business-not-showing-up-online",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
+        "og:image:alt": "Why Your Business Isn't Showing Up Online (Even Though You Have a Facebook Page)",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Why Your Business Isn't Showing Up Online (Even Though You Have a Facebook Page) | Webtellisense",
+        "twitter:description": "Discover the real reasons your business isn't showing up online and learn practical steps to improve your visibility on Google and attract more customers.",
+        "twitter:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
+        "twitter:image:alt": "Why Your Business Isn't Showing Up Online (Even Though You Have a Facebook Page)",
+        "og:image:width": "6016",
+        "og:image:height": "4016"
+      },
+      "share_before_missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:image",
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ],
+      "tracking": {
+        "page": "business-not-showing-up-online.html",
+        "pixel_ids": [
+          "806267492040936"
+        ],
+        "pageviews_per_destination": {
+          "806267492040936": 1
+        },
+        "ga_ids": [
+          "G-PS5FNQCJRN"
+        ],
+        "gtm_ids": []
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [
+        {
+          "name": "contact",
+          "action": "current URL",
+          "status": "Netlify static definition; registration/storage/notification unverified"
+        }
+      ],
+      "contextual_links": 7,
+      "operational_information_links": 0,
+      "incoming_prose_links": 5,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "business-not-showing-up-online.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 680211,
+          "localResourceBytes": 1263670,
+          "brokenImages": [],
+          "forms": [
+            {
+              "name": "contact",
+              "action": null,
+              "hasPrivacyLink": true
+            }
+          ]
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "Legacy pixel ownership/consent account review"
+      ]
+    },
+    {
+      "page": "value-of-a-digital-agency.html",
+      "title": "The Value of a Trusted Digital Agency | Webtellisense Nigeria",
+      "description": "Explore how a digital agency can support business websites, branding and online marketing, with guidance from Webtellisense in Nigeria.",
+      "canonical": "https://webtellisense.com/value-of-a-digital-agency",
+      "indexable": true,
+      "sitemap": true,
+      "share": {
+        "og:title": "The Value of a Trusted Digital Agency | Webtellisense Nigeria",
+        "og:description": "Explore how a digital agency can support business websites, branding and online marketing, with guidance from Webtellisense in Nigeria.",
+        "og:url": "https://webtellisense.com/value-of-a-digital-agency",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
+        "og:image:alt": "The Value of a Trusted Digital Agency",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "The Value of a Trusted Digital Agency | Webtellisense Nigeria",
+        "twitter:description": "Explore how a digital agency can support business websites, branding and online marketing, with guidance from Webtellisense in Nigeria.",
+        "twitter:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
+        "twitter:image:alt": "The Value of a Trusted Digital Agency",
+        "og:image:width": "6016",
+        "og:image:height": "4016"
+      },
+      "share_before_missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:image",
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ],
+      "tracking": {
+        "page": "value-of-a-digital-agency.html",
+        "pixel_ids": [
+          "806267492040936"
+        ],
+        "pageviews_per_destination": {
+          "806267492040936": 1
+        },
+        "ga_ids": [
+          "G-PS5FNQCJRN"
+        ],
+        "gtm_ids": []
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [
+        {
+          "name": "contact",
+          "action": "current URL",
+          "status": "Netlify static definition; registration/storage/notification unverified"
+        }
+      ],
+      "contextual_links": 5,
+      "operational_information_links": 0,
+      "incoming_prose_links": 3,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "value-of-a-digital-agency.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 671833,
+          "localResourceBytes": 1596775,
+          "brokenImages": [],
+          "forms": [
+            {
+              "name": "contact",
+              "action": null,
+              "hasPrivacyLink": true
+            }
+          ]
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "Legacy pixel ownership/consent account review"
+      ]
+    },
+    {
+      "page": "education-marketing.html",
+      "title": "Digital Marketing for Private Schools | Webtellisense",
+      "description": "Clearer websites, responsible social content and local visibility for private schools in Eket, Uyo and Nigeria. Discuss an education marketing scope with Webtellisense.",
+      "canonical": "https://webtellisense.com/education-marketing",
+      "indexable": true,
+      "sitemap": true,
+      "share": {
+        "og:title": "Digital Marketing for Private Schools | Webtellisense",
+        "og:description": "Clearer websites, responsible social content and local visibility for private schools in Eket, Uyo and Nigeria. Discuss an education marketing scope with Webtellisense.",
+        "og:url": "https://webtellisense.com/education-marketing",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/heroes/planning.webp",
+        "og:image:alt": "Digital Marketing for Private Schools",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Digital Marketing for Private Schools | Webtellisense",
+        "twitter:description": "Clearer websites, responsible social content and local visibility for private schools in Eket, Uyo and Nigeria. Discuss an education marketing scope with Webtellisense.",
+        "twitter:image": "https://webtellisense.com/assets/img/heroes/planning.webp",
+        "twitter:image:alt": "Digital Marketing for Private Schools",
+        "og:image:width": "1500",
+        "og:image:height": "994"
+      },
+      "share_before_missing": [],
+      "tracking": {
+        "page": "education-marketing.html",
+        "pixel_ids": [],
+        "pageviews_per_destination": {},
+        "ga_ids": [],
+        "gtm_ids": []
+      },
+      "measurement_module": true,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [],
+      "contextual_links": 8,
+      "operational_information_links": 0,
+      "incoming_prose_links": 2,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "education-marketing.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 662209,
+          "localResourceBytes": 409288,
+          "brokenImages": [],
+          "forms": []
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "New consent module staged OFF for owner/privacy sign-off"
+      ]
+    },
+    {
+      "page": "roadmap.html",
+      "title": "Webtellisense | 12-Month Interactive Roadmap",
+      "description": "Explore the Webtellisense interactive 12-month roadmap for building and improving a business digital presence.",
+      "canonical": "https://webtellisense.com/roadmap",
+      "indexable": true,
+      "sitemap": false,
+      "share": {
+        "og:title": "Webtellisense | 12-Month Interactive Roadmap",
+        "og:description": "Explore the Webtellisense interactive 12-month roadmap for building and improving a business digital presence.",
+        "og:url": "https://webtellisense.com/roadmap",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
+        "og:image:alt": "Webtellisense",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Webtellisense | 12-Month Interactive Roadmap",
+        "twitter:description": "Explore the Webtellisense interactive 12-month roadmap for building and improving a business digital presence.",
+        "twitter:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
+        "twitter:image:alt": "Webtellisense",
+        "og:image:width": "6016",
+        "og:image:height": "4016"
+      },
+      "share_before_missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:image",
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ],
+      "tracking": {
+        "page": "roadmap.html",
+        "pixel_ids": [
+          "806267492040936"
+        ],
+        "pageviews_per_destination": {
+          "806267492040936": 1
+        },
+        "ga_ids": [
+          "G-PS5FNQCJRN"
+        ],
+        "gtm_ids": []
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [],
+      "contextual_links": 0,
+      "operational_information_links": 0,
+      "incoming_prose_links": 0,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "roadmap.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 694228,
+          "localResourceBytes": 0,
+          "brokenImages": [],
+          "forms": []
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "Legacy pixel ownership/consent account review",
+        "No prose contextual links; assess intentional campaign isolation before adding"
+      ]
+    },
+    {
+      "page": "ppc.html",
+      "title": "Google Ads & Pay-Per-Click (PPC) Advertising Nigeria - Webtellisense",
+      "description": "Get immediate customer phone calls and sales with expert Google Ads management. Perfect for businesses in Lagos, Uyo, Eket, and all over Nigeria.",
+      "canonical": "https://webtellisense.com/ppc",
+      "indexable": true,
+      "sitemap": true,
+      "share": {
+        "og:title": "Google Ads & Pay-Per-Click (PPC) Advertising Nigeria - Webtellisense",
+        "og:description": "Get immediate customer phone calls and sales with expert Google Ads management. Perfect for businesses in Lagos, Uyo, Eket, and all over Nigeria.",
+        "og:url": "https://webtellisense.com/ppc",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
+        "og:image:alt": "Google Ads & Pay-Per-Click (PPC) Advertising Nigeria - Webtellisense",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Google Ads & Pay-Per-Click (PPC) Advertising Nigeria - Webtellisense",
+        "twitter:description": "Get immediate customer phone calls and sales with expert Google Ads management. Perfect for businesses in Lagos, Uyo, Eket, and all over Nigeria.",
+        "twitter:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
+        "twitter:image:alt": "Google Ads & Pay-Per-Click (PPC) Advertising Nigeria - Webtellisense",
+        "og:image:width": "6016",
+        "og:image:height": "4016"
+      },
+      "share_before_missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:image",
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ],
+      "tracking": {
+        "page": "ppc.html",
+        "pixel_ids": [
+          "806267492040936"
+        ],
+        "pageviews_per_destination": {
+          "806267492040936": 1
+        },
+        "ga_ids": [
+          "G-PS5FNQCJRN"
+        ],
+        "gtm_ids": []
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [
+        {
+          "name": "contact",
+          "action": "current URL",
+          "status": "Netlify static definition; registration/storage/notification unverified"
+        }
+      ],
+      "contextual_links": 4,
+      "operational_information_links": 0,
+      "incoming_prose_links": 4,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "ppc.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "nodes": [
+              {
+                "target": [
+                  ".col-md-4:nth-child(1) > .pricing-card > div > .feature-list-items > li:nth-child(8) > i:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.53 (foreground color: #10b981, background color: #ffffff, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  ".featured > div > .feature-list-items > li:nth-child(8) > i:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.53 (foreground color: #10b981, background color: #ffffff, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  ".col-md-4:nth-child(3) > .pricing-card > div > .feature-list-items > li:nth-child(8) > i:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.53 (foreground color: #10b981, background color: #ffffff, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ]
+          }
+        ],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 696562,
+          "localResourceBytes": 1073494,
+          "brokenImages": [],
+          "forms": [
+            {
+              "name": "contact",
+              "action": null,
+              "hasPrivacyLink": true
+            }
+          ]
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "Legacy pixel ownership/consent account review"
+      ]
+    },
+    {
+      "page": "packages.html",
+      "title": "Digital Marketing Packages for Nigerian SMEs | Webtellisense",
+      "description": "Compare website, SEO, ads, and full-service growth packages. Pick the plan that fits your business and start getting found online.",
+      "canonical": "https://webtellisense.com/packages",
+      "indexable": true,
+      "sitemap": true,
+      "share": {
+        "og:title": "Digital Marketing Packages for Nigerian SMEs | Webtellisense",
+        "og:description": "Compare website, SEO, ads, and full-service growth packages. Pick the plan that fits your business and start getting found online.",
+        "og:url": "https://webtellisense.com/packages",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/logo.png",
+        "og:image:alt": "Digital Marketing Packages for Nigerian SMEs",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Digital Marketing Packages for Nigerian SMEs | Webtellisense",
+        "twitter:description": "Compare website, SEO, ads, and full-service growth packages. Pick the plan that fits your business and start getting found online.",
+        "twitter:image": "https://webtellisense.com/assets/img/logo.png",
+        "twitter:image:alt": "Digital Marketing Packages for Nigerian SMEs",
+        "og:image:width": "847",
+        "og:image:height": "846"
+      },
+      "share_before_missing": [
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ],
+      "tracking": {
+        "page": "packages.html",
+        "pixel_ids": [
+          "623478247158411"
+        ],
+        "pageviews_per_destination": {
+          "623478247158411": 1
+        },
+        "ga_ids": [
+          "G-PS5FNQCJRN"
+        ],
+        "gtm_ids": []
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [
+        {
+          "name": "wt-checkout-form",
+          "action": "current URL",
+          "status": "External/browser flow; provider delivery unverified"
+        },
+        {
+          "name": "contact",
+          "action": "current URL",
+          "status": "Netlify static definition; registration/storage/notification unverified"
+        }
+      ],
+      "contextual_links": 0,
+      "operational_information_links": 0,
+      "incoming_prose_links": 2,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "packages.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "nodes": [
+              {
+                "target": [
+                  ".one-time"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.53 (foreground color: #ffffff, background color: #10b981, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "article[data-category=\"ads\"]:nth-child(2) > .wt-pkg-thumb > .retainer.wt-pkg-badge-model"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.67 (foreground color: #ffffff, background color: #3b82f6, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "article[data-category=\"web-seo\"]:nth-child(3) > .wt-pkg-thumb > .retainer.wt-pkg-badge-model"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.67 (foreground color: #ffffff, background color: #3b82f6, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "article[data-category=\"social\"] > .wt-pkg-thumb > .retainer.wt-pkg-badge-model"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.67 (foreground color: #ffffff, background color: #3b82f6, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "article[data-category=\"web-seo\"]:nth-child(5) > .wt-pkg-thumb > .hybrid.wt-pkg-badge-model"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #ffffff, background color: #8b5cf6, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "article[data-category=\"ads\"]:nth-child(6) > .wt-pkg-thumb > .hybrid.wt-pkg-badge-model"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #ffffff, background color: #8b5cf6, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "#price-cashflow"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.53 (foreground color: #10b981, background color: #ffffff, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "article[data-category=\"ads\"]:nth-child(6) > .wt-pkg-footer > .wt-pkg-btn-buy"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.53 (foreground color: #ffffff, background color: #10b981, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "#heroes-full > .wt-pkg-thumb > .retainer.wt-pkg-badge-model"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.67 (foreground color: #ffffff, background color: #3b82f6, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "#price-heroes"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.18 (foreground color: #d97706, background color: #ffffff, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "#price-heroes > small"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.18 (foreground color: #d97706, background color: #ffffff, font size: 11.5pt (15.4px), font weight: bold). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "#heroes-full > .wt-pkg-footer > .wt-pkg-btn-buy"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.18 (foreground color: #ffffff, background color: #d97706, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "#heroes > .container > .section-header > .eyebrow"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.69 (foreground color: #0033ff, background color: #01033e, font size: 8.6pt (11.52px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  ".tier-card:nth-child(1) > .tier-badge"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.53 (foreground color: #555555, background color: #111111, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  ".tier-card:nth-child(1) > .tier-subtitle"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.28 (foreground color: #666666, background color: #111111, font size: 9.8pt (13.12px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "ul[aria-label=\"Heroes V1 includes\"] > li:nth-child(1)"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.21 (foreground color: #777777, background color: #111111, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "ul[aria-label=\"Heroes V1 includes\"] > li:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.21 (foreground color: #777777, background color: #111111, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "ul[aria-label=\"Heroes V1 includes\"] > li:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.21 (foreground color: #777777, background color: #111111, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "ul[aria-label=\"Heroes V1 includes\"] > li:nth-child(4)"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.21 (foreground color: #777777, background color: #111111, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "ul[aria-label=\"Heroes V1 includes\"] > li:nth-child(5)"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.21 (foreground color: #777777, background color: #111111, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  ".featured > .tier-badge"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.13 (foreground color: #b3c2ff, background color: #0033ff, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  ".tier-card:nth-child(3) > .tier-badge"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.53 (foreground color: #555555, background color: #111111, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  ".tier-card:nth-child(3) > .tier-subtitle"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.28 (foreground color: #666666, background color: #111111, font size: 9.8pt (13.12px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "ul[aria-label=\"Heroes V3 includes\"] > li:nth-child(1)"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.21 (foreground color: #777777, background color: #111111, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "ul[aria-label=\"Heroes V3 includes\"] > li:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.21 (foreground color: #777777, background color: #111111, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "ul[aria-label=\"Heroes V3 includes\"] > li:nth-child(3)"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.21 (foreground color: #777777, background color: #111111, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "ul[aria-label=\"Heroes V3 includes\"] > li:nth-child(4)"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.21 (foreground color: #777777, background color: #111111, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "ul[aria-label=\"Heroes V3 includes\"] > li:nth-child(5)"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.21 (foreground color: #777777, background color: #111111, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ]
+          }
+        ],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 731149,
+          "localResourceBytes": 1286383,
+          "brokenImages": [],
+          "forms": [
+            {
+              "name": "",
+              "action": null,
+              "hasPrivacyLink": true
+            },
+            {
+              "name": "contact",
+              "action": null,
+              "hasPrivacyLink": true
+            }
+          ]
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "Legacy pixel ownership/consent account review",
+        "Legacy duration/discount commercial inconsistencies remain; original charge logic/prices intentionally preserved.",
+        "No prose contextual links; assess intentional campaign isolation before adding"
+      ]
+    },
+    {
+      "page": "blog-details.html",
+      "title": "Blog Article Template | Webtellisense",
+      "description": "An unfinished article template in the Webtellisense website archive.",
+      "canonical": "https://webtellisense.com/blog-details",
+      "indexable": false,
+      "sitemap": false,
+      "share": {
+        "og:title": "Blog Article Template | Webtellisense",
+        "og:description": "An unfinished article template in the Webtellisense website archive.",
+        "og:url": "https://webtellisense.com/blog-details",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
+        "og:image:alt": "Blog Article Template",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Blog Article Template | Webtellisense",
+        "twitter:description": "An unfinished article template in the Webtellisense website archive.",
+        "twitter:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
+        "twitter:image:alt": "Blog Article Template",
+        "og:image:width": "6016",
+        "og:image:height": "4016"
+      },
+      "share_before_missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:image",
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ],
+      "tracking": {
+        "page": "blog-details.html",
+        "pixel_ids": [
+          "806267492040936"
+        ],
+        "pageviews_per_destination": {
+          "806267492040936": 1
+        },
+        "ga_ids": [
+          "G-PS5FNQCJRN"
+        ],
+        "gtm_ids": []
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [
+        {
+          "name": "unnamed",
+          "action": "forms/newsletter.php",
+          "status": "Missing backend; frontend recovery only"
+        }
+      ],
+      "contextual_links": 0,
+      "operational_information_links": 0,
+      "incoming_prose_links": 0,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "blog-details.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 671707,
+          "localResourceBytes": 1020869,
+          "brokenImages": [],
+          "forms": [
+            {
+              "name": "",
+              "action": "forms/newsletter.php",
+              "hasPrivacyLink": true
+            }
+          ]
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "Legacy pixel ownership/consent account review"
+      ]
+    },
+    {
+      "page": "about.html",
+      "title": "About Webtellisense | Eket’s Trusted Web Design Team",
+      "description": "Meet the passionate team behind Webtellisense. We’re Eket’s top-rated web agency, specializing in custom websites, SEO, and digital growth strategies since 2024.",
+      "canonical": "https://webtellisense.com/about",
+      "indexable": true,
+      "sitemap": true,
+      "share": {
+        "og:title": "About Webtellisense | Eket’s Trusted Web Design Team",
+        "og:description": "Meet the passionate team behind Webtellisense. We’re Eket’s top-rated web agency, specializing in custom websites, SEO, and digital growth strategies since 2024.",
+        "og:url": "https://webtellisense.com/about",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/heroes/ephraim.webp",
+        "og:image:alt": "About Webtellisense",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "About Webtellisense | Eket’s Trusted Web Design Team",
+        "twitter:description": "Meet the passionate team behind Webtellisense. We’re Eket’s top-rated web agency, specializing in custom websites, SEO, and digital growth strategies since 2024.",
+        "twitter:image": "https://webtellisense.com/assets/img/heroes/ephraim.webp",
+        "twitter:image:alt": "About Webtellisense",
+        "og:image:width": "720",
+        "og:image:height": "960"
+      },
+      "share_before_missing": [
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ],
+      "tracking": {
+        "page": "about.html",
+        "pixel_ids": [
+          "806267492040936"
+        ],
+        "pageviews_per_destination": {
+          "806267492040936": 1
+        },
+        "ga_ids": [
+          "G-PS5FNQCJRN"
+        ],
+        "gtm_ids": []
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [
+        {
+          "name": "contact",
+          "action": "current URL",
+          "status": "Netlify static definition; registration/storage/notification unverified"
+        }
+      ],
+      "contextual_links": 6,
+      "operational_information_links": 0,
+      "incoming_prose_links": 2,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "about.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 679508,
+          "localResourceBytes": 3977083,
+          "brokenImages": [],
+          "forms": [
+            {
+              "name": "contact",
+              "action": null,
+              "hasPrivacyLink": true
+            }
+          ]
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "Legacy pixel ownership/consent account review"
+      ]
+    },
+    {
+      "page": "content-marketing.html",
+      "title": "Professional Content Marketing Services Nigeria - Webtellisense",
+      "description": "Stop chasing customers with annoying sales pitches. Publish expert guides, blogs, and articles that answer client questions and bring ready-to-buy leads to your business.",
+      "canonical": "https://webtellisense.com/content-marketing",
+      "indexable": true,
+      "sitemap": true,
+      "share": {
+        "og:title": "Professional Content Marketing Services Nigeria - Webtellisense",
+        "og:description": "Stop chasing customers with annoying sales pitches. Publish expert guides, blogs, and articles that answer client questions and bring ready-to-buy leads to your business.",
+        "og:url": "https://webtellisense.com/content-marketing",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
+        "og:image:alt": "Professional Content Marketing Services Nigeria - Webtellisense",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Professional Content Marketing Services Nigeria - Webtellisense",
+        "twitter:description": "Stop chasing customers with annoying sales pitches. Publish expert guides, blogs, and articles that answer client questions and bring ready-to-buy leads to your business.",
+        "twitter:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
+        "twitter:image:alt": "Professional Content Marketing Services Nigeria - Webtellisense",
+        "og:image:width": "6016",
+        "og:image:height": "4016"
+      },
+      "share_before_missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:image",
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ],
+      "tracking": {
+        "page": "content-marketing.html",
+        "pixel_ids": [
+          "806267492040936"
+        ],
+        "pageviews_per_destination": {
+          "806267492040936": 1
+        },
+        "ga_ids": [
+          "G-PS5FNQCJRN"
+        ],
+        "gtm_ids": []
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [
+        {
+          "name": "contact",
+          "action": "current URL",
+          "status": "Netlify static definition; registration/storage/notification unverified"
+        }
+      ],
+      "contextual_links": 4,
+      "operational_information_links": 0,
+      "incoming_prose_links": 5,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "content-marketing.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 689578,
+          "localResourceBytes": 1073494,
+          "brokenImages": [],
+          "forms": [
+            {
+              "name": "contact",
+              "action": null,
+              "hasPrivacyLink": true
+            }
+          ]
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "Legacy pixel ownership/consent account review"
+      ]
+    },
+    {
+      "page": "index.html",
+      "title": "Webtellisense | Eket’s Top Web Design & Digital Marketing Agency",
+      "description": "Webtellisense: Eket, Akwa Ibom, Nigeria's leading digital agency for fast, affordable & high-converting websites. Web design, SEO & branding that grows your business.",
+      "canonical": "https://webtellisense.com/",
+      "indexable": true,
+      "sitemap": true,
+      "share": {
+        "og:title": "Webtellisense | Eket’s Top Web Design & Digital Marketing Agency",
+        "og:description": "Webtellisense: Eket, Akwa Ibom, Nigeria's leading digital agency for fast, affordable & high-converting websites. Web design, SEO & branding that grows your business.",
+        "og:url": "https://webtellisense.com/",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/logo.png",
+        "og:image:alt": "Webtellisense",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Webtellisense | Eket’s Top Web Design & Digital Marketing Agency",
+        "twitter:description": "Webtellisense: Eket, Akwa Ibom, Nigeria's leading digital agency for fast, affordable & high-converting websites. Web design, SEO & branding that grows your business.",
+        "twitter:image": "https://webtellisense.com/assets/img/logo.png",
+        "twitter:image:alt": "Webtellisense",
+        "og:image:width": "847",
+        "og:image:height": "846"
+      },
+      "share_before_missing": [
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ],
+      "tracking": {
+        "page": "index.html",
+        "pixel_ids": [
+          "806267492040936"
+        ],
+        "pageviews_per_destination": {
+          "806267492040936": 1
+        },
+        "ga_ids": [
+          "G-PS5FNQCJRN"
+        ],
+        "gtm_ids": [
+          "GTM-NJ6L82XR"
+        ]
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [
+        {
+          "name": "contact",
+          "action": "current URL",
+          "status": "Netlify static definition; registration/storage/notification unverified"
+        }
+      ],
+      "contextual_links": 7,
+      "operational_information_links": 0,
+      "incoming_prose_links": 0,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "index.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 718695,
+          "localResourceBytes": 6676100,
+          "brokenImages": [],
+          "forms": [
+            {
+              "name": "contact",
+              "action": null,
+              "hasPrivacyLink": true
+            }
+          ]
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "Direct GA4 + GTM: container inspection required",
+        "Legacy pixel ownership/consent account review"
+      ]
+    },
+    {
+      "page": "social-media-management.html",
+      "title": "Social Media Management Services Nigeria - Webtellisense",
+      "description": "Keep your Facebook and Instagram pages active, beautiful, and growing while you focus on running your business. Packages for small businesses in Uyo, Eket, and nationwide.",
+      "canonical": "https://webtellisense.com/social-media-management",
+      "indexable": true,
+      "sitemap": true,
+      "share": {
+        "og:title": "Social Media Management Services Nigeria - Webtellisense",
+        "og:description": "Keep your Facebook and Instagram pages active, beautiful, and growing while you focus on running your business. Packages for small businesses in Uyo, Eket, and nationwide.",
+        "og:url": "https://webtellisense.com/social-media-management",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
+        "og:image:alt": "Social Media Management Services Nigeria - Webtellisense",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Social Media Management Services Nigeria - Webtellisense",
+        "twitter:description": "Keep your Facebook and Instagram pages active, beautiful, and growing while you focus on running your business. Packages for small businesses in Uyo, Eket, and nationwide.",
+        "twitter:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
+        "twitter:image:alt": "Social Media Management Services Nigeria - Webtellisense",
+        "og:image:width": "6016",
+        "og:image:height": "4016"
+      },
+      "share_before_missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:image",
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ],
+      "tracking": {
+        "page": "social-media-management.html",
+        "pixel_ids": [
+          "806267492040936"
+        ],
+        "pageviews_per_destination": {
+          "806267492040936": 1
+        },
+        "ga_ids": [
+          "G-PS5FNQCJRN"
+        ],
+        "gtm_ids": []
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [
+        {
+          "name": "contact",
+          "action": "current URL",
+          "status": "Netlify static definition; registration/storage/notification unverified"
+        }
+      ],
+      "contextual_links": 5,
+      "operational_information_links": 0,
+      "incoming_prose_links": 7,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "social-media-management.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 681972,
+          "localResourceBytes": 1073494,
+          "brokenImages": [],
+          "forms": [
+            {
+              "name": "contact",
+              "action": null,
+              "hasPrivacyLink": true
+            }
+          ]
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "Legacy pixel ownership/consent account review"
+      ]
+    },
+    {
+      "page": "indexxx.html",
+      "title": "Webtellisense | Eket's Digital Growth Partner for Nigerian SMEs",
+      "description": "Webtellisense builds websites, brands, and marketing systems for Nigerian SMEs — with a specialist track for solar installers. Based in Eket, Akwa Ibom.",
+      "canonical": "https://webtellisense.com/",
+      "indexable": true,
+      "sitemap": true,
+      "share": {
+        "og:title": "Webtellisense | Eket's Digital Growth Partner for Nigerian SMEs",
+        "og:description": "Webtellisense builds websites, brands, and marketing systems for Nigerian SMEs — with a specialist track for solar installers. Based in Eket, Akwa Ibom.",
+        "og:url": "https://webtellisense.com/",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/logo.png",
+        "og:image:alt": "Webtellisense",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Webtellisense | Eket's Digital Growth Partner for Nigerian SMEs",
+        "twitter:description": "Webtellisense builds websites, brands, and marketing systems for Nigerian SMEs — with a specialist track for solar installers. Based in Eket, Akwa Ibom.",
+        "twitter:image": "https://webtellisense.com/assets/img/logo.png",
+        "twitter:image:alt": "Webtellisense",
+        "og:image:width": "847",
+        "og:image:height": "846"
+      },
+      "share_before_missing": [
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ],
+      "tracking": {
+        "page": "indexxx.html",
+        "pixel_ids": [
+          "623478247158411",
+          "806267492040936"
+        ],
+        "pageviews_per_destination": {
+          "623478247158411": 1,
+          "806267492040936": 1
+        },
+        "ga_ids": [
+          "G-PS5FNQCJRN"
+        ],
+        "gtm_ids": [
+          "GTM-NJ6L82XR"
+        ]
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [],
+      "contextual_links": 0,
+      "operational_information_links": 0,
+      "incoming_prose_links": 0,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "indexxx.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 702096,
+          "localResourceBytes": 5429571,
+          "brokenImages": [],
+          "forms": []
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "Direct GA4 + GTM: container inspection required",
+        "Legacy pixel ownership/consent account review",
+        "No prose contextual links; assess intentional campaign isolation before adding"
+      ]
+    },
+    {
+      "page": "google-business-profile.html",
+      "title": "Google Business Profile & Local SEO in Nigeria | Webtellisense",
+      "description": "Rank higher on Google Maps in Uyo, Eket, and across Nigeria. We optimize your Google Business Profile to turn local searches into real customers.",
+      "canonical": "https://webtellisense.com/google-business-profile",
+      "indexable": true,
+      "sitemap": true,
+      "share": {
+        "og:title": "Google Business Profile & Local SEO in Nigeria | Webtellisense",
+        "og:description": "Rank higher on Google Maps in Uyo, Eket, and across Nigeria. We optimize your Google Business Profile to turn local searches into real customers.",
+        "og:url": "https://webtellisense.com/google-business-profile",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
+        "og:image:alt": "Google Business Profile & Local SEO in Nigeria",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Google Business Profile & Local SEO in Nigeria | Webtellisense",
+        "twitter:description": "Rank higher on Google Maps in Uyo, Eket, and across Nigeria. We optimize your Google Business Profile to turn local searches into real customers.",
+        "twitter:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
+        "twitter:image:alt": "Google Business Profile & Local SEO in Nigeria",
+        "og:image:width": "6016",
+        "og:image:height": "4016"
+      },
+      "share_before_missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:image",
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ],
+      "tracking": {
+        "page": "google-business-profile.html",
+        "pixel_ids": [
+          "806267492040936"
+        ],
+        "pageviews_per_destination": {
+          "806267492040936": 1
+        },
+        "ga_ids": [
+          "G-PS5FNQCJRN"
+        ],
+        "gtm_ids": []
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [
+        {
+          "name": "contact",
+          "action": "current URL",
+          "status": "Netlify static definition; registration/storage/notification unverified"
+        }
+      ],
+      "contextual_links": 3,
+      "operational_information_links": 0,
+      "incoming_prose_links": 11,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "google-business-profile.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 680830,
+          "localResourceBytes": 1073494,
+          "brokenImages": [],
+          "forms": [
+            {
+              "name": "contact",
+              "action": null,
+              "hasPrivacyLink": true
+            }
+          ]
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "Legacy pixel ownership/consent account review"
+      ]
+    },
+    {
+      "page": "blog.html",
+      "title": "Blog | Webtellisense - Eket’s Top Web Design & Digital Marketing Agency",
+      "description": "Read Webtellisense articles on websites, branding, local search and digital marketing for businesses in Eket, Uyo, Akwa Ibom and Nigeria.",
+      "canonical": "https://webtellisense.com/blog",
+      "indexable": true,
+      "sitemap": true,
+      "share": {
+        "og:title": "Blog | Webtellisense - Eket’s Top Web Design & Digital Marketing Agency",
+        "og:description": "Read Webtellisense articles on websites, branding, local search and digital marketing for businesses in Eket, Uyo, Akwa Ibom and Nigeria.",
+        "og:url": "https://webtellisense.com/blog",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/logo.png",
+        "og:image:alt": "Blog",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Blog | Webtellisense - Eket’s Top Web Design & Digital Marketing Agency",
+        "twitter:description": "Read Webtellisense articles on websites, branding, local search and digital marketing for businesses in Eket, Uyo, Akwa Ibom and Nigeria.",
+        "twitter:image": "https://webtellisense.com/assets/img/logo.png",
+        "twitter:image:alt": "Blog",
+        "og:image:width": "847",
+        "og:image:height": "846"
+      },
+      "share_before_missing": [
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ],
+      "tracking": {
+        "page": "blog.html",
+        "pixel_ids": [
+          "806267492040936"
+        ],
+        "pageviews_per_destination": {
+          "806267492040936": 1
+        },
+        "ga_ids": [
+          "G-PS5FNQCJRN"
+        ],
+        "gtm_ids": []
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [
+        {
+          "name": "contact",
+          "action": "current URL",
+          "status": "Netlify static definition; registration/storage/notification unverified"
+        }
+      ],
+      "contextual_links": 0,
+      "operational_information_links": 0,
+      "incoming_prose_links": 1,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "blog.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 675600,
+          "localResourceBytes": 2375296,
+          "brokenImages": [],
+          "forms": [
+            {
+              "name": "contact",
+              "action": null,
+              "hasPrivacyLink": true
+            }
+          ]
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "Legacy pixel ownership/consent account review",
+        "No prose contextual links; assess intentional campaign isolation before adding"
+      ]
+    },
+    {
+      "page": "web-design.html",
+      "title": "Website Design & Development Services Nigeria - Webtellisense",
+      "description": "Get a professional, fast-loading website that brings in daily customers. Perfect for businesses and artisans in Uyo, Eket, and all over Nigeria.",
+      "canonical": "https://webtellisense.com/web-design",
+      "indexable": true,
+      "sitemap": true,
+      "share": {
+        "og:title": "Website Design & Development Services Nigeria - Webtellisense",
+        "og:description": "Get a professional, fast-loading website that brings in daily customers. Perfect for businesses and artisans in Uyo, Eket, and all over Nigeria.",
+        "og:url": "https://webtellisense.com/web-design",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
+        "og:image:alt": "Website Design & Development Services Nigeria - Webtellisense",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Website Design & Development Services Nigeria - Webtellisense",
+        "twitter:description": "Get a professional, fast-loading website that brings in daily customers. Perfect for businesses and artisans in Uyo, Eket, and all over Nigeria.",
+        "twitter:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
+        "twitter:image:alt": "Website Design & Development Services Nigeria - Webtellisense",
+        "og:image:width": "6016",
+        "og:image:height": "4016"
+      },
+      "share_before_missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:image",
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ],
+      "tracking": {
+        "page": "web-design.html",
+        "pixel_ids": [
+          "806267492040936"
+        ],
+        "pageviews_per_destination": {
+          "806267492040936": 1
+        },
+        "ga_ids": [
+          "G-PS5FNQCJRN"
+        ],
+        "gtm_ids": []
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [
+        {
+          "name": "contact",
+          "action": "current URL",
+          "status": "Netlify static definition; registration/storage/notification unverified"
+        }
+      ],
+      "contextual_links": 5,
+      "operational_information_links": 0,
+      "incoming_prose_links": 13,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "web-design.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 681165,
+          "localResourceBytes": 1073494,
+          "brokenImages": [],
+          "forms": [
+            {
+              "name": "contact",
+              "action": null,
+              "hasPrivacyLink": true
+            }
+          ]
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "Legacy pixel ownership/consent account review"
+      ]
+    },
+    {
+      "page": "solar-and-home-services-marketing.html",
+      "title": "Marketing for Solar Installers &amp; Home Services | Webtellisense",
+      "description": "A practical digital marketing approach for solar installers and home-service businesses in Nigeria: local visibility, clear offers, campaigns and enquiry follow-up.",
+      "canonical": "https://webtellisense.com/solar-and-home-services-marketing",
+      "indexable": true,
+      "sitemap": true,
+      "share": {
+        "og:title": "Marketing for Solar Installers & Home Services | Webtellisense",
+        "og:description": "A practical digital marketing approach for solar installers and home-service businesses in Nigeria: local visibility, clear offers, campaigns and enquiry follow-up.",
+        "og:url": "https://webtellisense.com/solar-and-home-services-marketing",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/heroes/solar-work.webp",
+        "og:image:alt": "Marketing for Solar Installers & Home Services",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Marketing for Solar Installers & Home Services | Webtellisense",
+        "twitter:description": "A practical digital marketing approach for solar installers and home-service businesses in Nigeria: local visibility, clear offers, campaigns and enquiry follow-up.",
+        "twitter:image": "https://webtellisense.com/assets/img/heroes/solar-work.webp",
+        "twitter:image:alt": "Marketing for Solar Installers & Home Services",
+        "og:image:width": "612",
+        "og:image:height": "407"
+      },
+      "share_before_missing": [],
+      "tracking": {
+        "page": "solar-and-home-services-marketing.html",
+        "pixel_ids": [],
+        "pageviews_per_destination": {},
+        "ga_ids": [],
+        "gtm_ids": []
+      },
+      "measurement_module": true,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [],
+      "contextual_links": 9,
+      "operational_information_links": 0,
+      "incoming_prose_links": 2,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "solar-and-home-services-marketing.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 662411,
+          "localResourceBytes": 310786,
+          "brokenImages": [],
+          "forms": []
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "New consent module staged OFF for owner/privacy sign-off"
+      ]
+    },
+    {
+      "page": "heroes.html",
+      "title": "Webtellisense Heroes | Your Outsourced Digital Growth Team",
+      "description": "One Webtellisense team for your digital presence and marketing execution. Compare Heroes V1, V2 and V3 from ₦350,000/month, advertising allocation included.",
+      "canonical": "https://webtellisense.com/heroes",
+      "indexable": true,
+      "sitemap": true,
+      "share": {
+        "og:title": "Webtellisense Heroes | Your Outsourced Digital Growth Team",
+        "og:description": "One Webtellisense team for your digital presence and marketing execution. Compare Heroes V1, V2 and V3 from ₦350,000/month, advertising allocation included.",
+        "og:url": "https://webtellisense.com/heroes",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/heroes/business-owner.webp",
+        "og:image:alt": "Webtellisense Heroes",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Webtellisense Heroes | Your Outsourced Digital Growth Team",
+        "twitter:description": "One Webtellisense team for your digital presence and marketing execution. Compare Heroes V1, V2 and V3 from ₦350,000/month, advertising allocation included.",
+        "twitter:image": "https://webtellisense.com/assets/img/heroes/business-owner.webp",
+        "twitter:image:alt": "Webtellisense Heroes",
+        "og:image:width": "612",
+        "og:image:height": "323"
+      },
+      "share_before_missing": [
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ],
+      "tracking": {
+        "page": "heroes.html",
+        "pixel_ids": [],
+        "pageviews_per_destination": {},
+        "ga_ids": [],
+        "gtm_ids": []
+      },
+      "measurement_module": true,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [],
+      "contextual_links": 9,
+      "operational_information_links": 0,
+      "incoming_prose_links": 16,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "heroes.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 684697,
+          "localResourceBytes": 467492,
+          "brokenImages": [],
+          "forms": []
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "New consent module staged OFF for owner/privacy sign-off"
+      ]
+    },
+    {
+      "page": "audit.html",
+      "title": "Digital Presence Audit | Webtellisense",
+      "description": "Explore a guided business self-assessment covering your website, local search, branding, social media, advertising and conversion paths.",
+      "canonical": "https://webtellisense.com/audit",
+      "indexable": true,
+      "sitemap": false,
+      "share": {
+        "og:title": "Digital Presence Audit | Webtellisense",
+        "og:description": "Explore a guided business self-assessment covering your website, local search, branding, social media, advertising and conversion paths.",
+        "og:url": "https://webtellisense.com/audit",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
+        "og:image:alt": "Digital Presence Audit",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Digital Presence Audit | Webtellisense",
+        "twitter:description": "Explore a guided business self-assessment covering your website, local search, branding, social media, advertising and conversion paths.",
+        "twitter:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
+        "twitter:image:alt": "Digital Presence Audit",
+        "og:image:width": "6016",
+        "og:image:height": "4016"
+      },
+      "share_before_missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:image",
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ],
+      "tracking": {
+        "page": "audit.html",
+        "pixel_ids": [],
+        "pageviews_per_destination": {},
+        "ga_ids": [],
+        "gtm_ids": []
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [],
+      "contextual_links": 0,
+      "operational_information_links": 1,
+      "incoming_prose_links": 0,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "audit.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "nodes": [
+              {
+                "target": [
+                  ".hero-eyebrow"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.22 (foreground color: #00c9a7, background color: #095349, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  ".hero > p"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.16 (foreground color: #79a1a1, background color: #095349, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  ".stat:nth-child(1) > .stat-label"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.16 (foreground color: #79a1a1, background color: #095349, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  ".stat:nth-child(2) > .stat-label"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.16 (foreground color: #79a1a1, background color: #095349, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  ".stat:nth-child(3) > .stat-label"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.16 (foreground color: #79a1a1, background color: #095349, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "#step-0 > .step-header > .step-category"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.31 (foreground color: #00c3a2, background color: #086054, font size: 8.3pt (11px), font weight: bold). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "#step-0 > .step-header > .step-desc"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.99 (foreground color: #729d9c, background color: #095349, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  ".field-grid:nth-child(2) > .field:nth-child(1) > label"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.99 (foreground color: #729d9c, background color: #095349, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  ".field-grid:nth-child(2) > .field:nth-child(2) > label"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.99 (foreground color: #729d9c, background color: #095349, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  ".field-grid:nth-child(3) > .field:nth-child(1) > label"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.99 (foreground color: #729d9c, background color: #095349, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  ".field-grid:nth-child(3) > .field:nth-child(2) > label"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.99 (foreground color: #729d9c, background color: #095349, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  ".field-full > label"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.99 (foreground color: #729d9c, background color: #095349, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "div[data-val=\"Food & Drinks\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.85 (foreground color: #769f9e, background color: #10584e, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "div[data-val=\"Retail / Shop\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.85 (foreground color: #769f9e, background color: #10584e, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "div[data-val=\"Fashion & Beauty\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.85 (foreground color: #769f9e, background color: #10584e, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "div[data-val=\"Healthcare\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.85 (foreground color: #769f9e, background color: #10584e, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "div[data-val=\"Education / Training\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.85 (foreground color: #769f9e, background color: #10584e, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "div[data-val=\"Logistics & Delivery\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.85 (foreground color: #769f9e, background color: #10584e, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "div[data-val=\"Events & Hospitality\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.85 (foreground color: #769f9e, background color: #10584e, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "div[data-val=\"Professional Services\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.85 (foreground color: #769f9e, background color: #10584e, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "div[data-val=\"Construction / Real Estate\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.85 (foreground color: #769f9e, background color: #10584e, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "div[data-val=\"Church / Ministry\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.85 (foreground color: #769f9e, background color: #10584e, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "div[data-val=\"Other\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.85 (foreground color: #769f9e, background color: #10584e, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "button[onclick=\"startAudit()\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.62 (foreground color: #09594e, background color: #01c2a2, font size: 11.3pt (15px), font weight: bold). Expected contrast ratio of 4.5:1"
+              }
+            ]
+          }
+        ],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 731880,
+          "localResourceBytes": 0,
+          "brokenImages": [],
+          "forms": []
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "No active GA4/GTM",
+        "Optional website check discloses public URL to AllOrigins; no storage destination configured",
+        "No prose contextual links; assess intentional campaign isolation before adding"
+      ]
+    },
+    {
+      "page": "graphics-design.html",
+      "title": "Professional Graphic Design Services Nigeria - Webtellisense",
+      "description": "Get stunning flyers, social media graphics, event banners, and business prints designed by experts. Fast delivery for businesses in Uyo, Eket, and all over Nigeria.",
+      "canonical": "https://webtellisense.com/graphics-design",
+      "indexable": true,
+      "sitemap": true,
+      "share": {
+        "og:title": "Professional Graphic Design Services Nigeria - Webtellisense",
+        "og:description": "Get stunning flyers, social media graphics, event banners, and business prints designed by experts. Fast delivery for businesses in Uyo, Eket, and all over Nigeria.",
+        "og:url": "https://webtellisense.com/graphics-design",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
+        "og:image:alt": "Professional Graphic Design Services Nigeria - Webtellisense",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Professional Graphic Design Services Nigeria - Webtellisense",
+        "twitter:description": "Get stunning flyers, social media graphics, event banners, and business prints designed by experts. Fast delivery for businesses in Uyo, Eket, and all over Nigeria.",
+        "twitter:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
+        "twitter:image:alt": "Professional Graphic Design Services Nigeria - Webtellisense",
+        "og:image:width": "6016",
+        "og:image:height": "4016"
+      },
+      "share_before_missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:image",
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ],
+      "tracking": {
+        "page": "graphics-design.html",
+        "pixel_ids": [
+          "806267492040936"
+        ],
+        "pageviews_per_destination": {
+          "806267492040936": 1
+        },
+        "ga_ids": [
+          "G-PS5FNQCJRN"
+        ],
+        "gtm_ids": []
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [
+        {
+          "name": "contact",
+          "action": "current URL",
+          "status": "Netlify static definition; registration/storage/notification unverified"
+        }
+      ],
+      "contextual_links": 3,
+      "operational_information_links": 0,
+      "incoming_prose_links": 4,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "graphics-design.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 681501,
+          "localResourceBytes": 1073494,
+          "brokenImages": [],
+          "forms": [
+            {
+              "name": "contact",
+              "action": null,
+              "hasPrivacyLink": true
+            }
+          ]
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "Legacy pixel ownership/consent account review"
+      ]
+    },
+    {
+      "page": "webtellisense-solar-landing.html",
+      "title": "Get More Solar Installation Jobs — Webtellisense",
+      "description": "Learn about Webtellisense marketing for solar installers and discuss your website, advertising and lead-generation requirements on WhatsApp.",
+      "canonical": "https://webtellisense.com/webtellisense-solar-landing",
+      "indexable": true,
+      "sitemap": false,
+      "share": {
+        "og:title": "Get More Solar Installation Jobs — Webtellisense",
+        "og:description": "Learn about Webtellisense marketing for solar installers and discuss your website, advertising and lead-generation requirements on WhatsApp.",
+        "og:url": "https://webtellisense.com/webtellisense-solar-landing",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/heroes/solar-work.webp",
+        "og:image:alt": "Get More Solar Installation Jobs — Webtellisense",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Get More Solar Installation Jobs — Webtellisense",
+        "twitter:description": "Learn about Webtellisense marketing for solar installers and discuss your website, advertising and lead-generation requirements on WhatsApp.",
+        "twitter:image": "https://webtellisense.com/assets/img/heroes/solar-work.webp",
+        "twitter:image:alt": "Get More Solar Installation Jobs — Webtellisense",
+        "og:image:width": "612",
+        "og:image:height": "407"
+      },
+      "share_before_missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:image",
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ],
+      "tracking": {
+        "page": "webtellisense-solar-landing.html",
+        "pixel_ids": [],
+        "pageviews_per_destination": {},
+        "ga_ids": [],
+        "gtm_ids": []
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [],
+      "contextual_links": 0,
+      "operational_information_links": 0,
+      "incoming_prose_links": 0,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "webtellisense-solar-landing.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 695168,
+          "localResourceBytes": 0,
+          "brokenImages": [],
+          "forms": []
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "No active GA4/GTM",
+        "No prose contextual links; assess intentional campaign isolation before adding"
+      ]
+    },
+    {
+      "page": "privacy-policy.html",
+      "title": "Privacy Policy — Review Draft | Webtellisense",
+      "description": "Review draft describing source-visible website data collection, Netlify Forms, Paystack, WhatsApp, analytics and unresolved privacy decisions.",
+      "canonical": "https://webtellisense.com/privacy-policy",
+      "indexable": false,
+      "sitemap": false,
+      "share": {
+        "og:title": "Privacy Policy — Review Draft | Webtellisense",
+        "og:description": "Review draft describing source-visible website data collection, Netlify Forms, Paystack, WhatsApp, analytics and unresolved privacy decisions.",
+        "og:url": "https://webtellisense.com/privacy-policy",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/heroes/business-owner.webp",
+        "og:image:alt": "Privacy Policy — Review Draft",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Privacy Policy — Review Draft | Webtellisense",
+        "twitter:description": "Review draft describing source-visible website data collection, Netlify Forms, Paystack, WhatsApp, analytics and unresolved privacy decisions.",
+        "twitter:image": "https://webtellisense.com/assets/img/heroes/business-owner.webp",
+        "twitter:image:alt": "Privacy Policy — Review Draft",
+        "og:image:width": "612",
+        "og:image:height": "323"
+      },
+      "share_before_missing": [],
+      "tracking": {
+        "page": "privacy-policy.html",
+        "pixel_ids": [],
+        "pageviews_per_destination": {},
+        "ga_ids": [],
+        "gtm_ids": []
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [],
+      "contextual_links": 0,
+      "operational_information_links": 1,
+      "incoming_prose_links": 0,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "privacy-policy.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 665471,
+          "localResourceBytes": 230236,
+          "brokenImages": [],
+          "forms": []
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "No active GA4/GTM",
+        "Noindex REVIEW DRAFT; owner/legal sign-off required",
+        "External Tally fields/permissions/delivery require account review"
+      ]
+    },
+    {
+      "page": "faq.html",
+      "title": "FAQs: Pricing, Process & Timelines | Webtellisense Eket",
+      "description": "Straight answers on cost, turnaround time, and how we work — no agency jargon. Everything you need to know before hiring Webtellisense.",
+      "canonical": "https://webtellisense.com/faq",
+      "indexable": true,
+      "sitemap": true,
+      "share": {
+        "og:title": "FAQs: Pricing, Process & Timelines | Webtellisense Eket",
+        "og:description": "Straight answers on cost, turnaround time, and how we work — no agency jargon. Everything you need to know before hiring Webtellisense.",
+        "og:url": "https://webtellisense.com/faq",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/logo.png",
+        "og:image:alt": "FAQs: Pricing, Process & Timelines",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "FAQs: Pricing, Process & Timelines | Webtellisense Eket",
+        "twitter:description": "Straight answers on cost, turnaround time, and how we work — no agency jargon. Everything you need to know before hiring Webtellisense.",
+        "twitter:image": "https://webtellisense.com/assets/img/logo.png",
+        "twitter:image:alt": "FAQs: Pricing, Process & Timelines",
+        "og:image:width": "847",
+        "og:image:height": "846"
+      },
+      "share_before_missing": [
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ],
+      "tracking": {
+        "page": "faq.html",
+        "pixel_ids": [
+          "806267492040936"
+        ],
+        "pageviews_per_destination": {
+          "806267492040936": 1
+        },
+        "ga_ids": [],
+        "gtm_ids": []
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [
+        {
+          "name": "contact",
+          "action": "current URL",
+          "status": "Netlify static definition; registration/storage/notification unverified"
+        }
+      ],
+      "contextual_links": 0,
+      "operational_information_links": 0,
+      "incoming_prose_links": 0,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "faq.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 674101,
+          "localResourceBytes": 1073494,
+          "brokenImages": [],
+          "forms": [
+            {
+              "name": "contact",
+              "action": null,
+              "hasPrivacyLink": true
+            }
+          ]
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "No active GA4/GTM",
+        "Legacy pixel ownership/consent account review",
+        "No prose contextual links; assess intentional campaign isolation before adding"
+      ]
+    },
+    {
+      "page": "contact.html",
+      "title": "Contact | Eket’s Top Web Design & Digital Marketing Agency",
+      "description": "Contact Webtellisense in Eket, Akwa Ibom about web design, branding and digital marketing. Find our phone number, email and WhatsApp contact options.",
+      "canonical": "https://webtellisense.com/contact",
+      "indexable": true,
+      "sitemap": true,
+      "share": {
+        "og:title": "Contact | Eket’s Top Web Design & Digital Marketing Agency",
+        "og:description": "Contact Webtellisense in Eket, Akwa Ibom about web design, branding and digital marketing. Find our phone number, email and WhatsApp contact options.",
+        "og:url": "https://webtellisense.com/contact",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/logo.png",
+        "og:image:alt": "Contact",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Contact | Eket’s Top Web Design & Digital Marketing Agency",
+        "twitter:description": "Contact Webtellisense in Eket, Akwa Ibom about web design, branding and digital marketing. Find our phone number, email and WhatsApp contact options.",
+        "twitter:image": "https://webtellisense.com/assets/img/logo.png",
+        "twitter:image:alt": "Contact",
+        "og:image:width": "847",
+        "og:image:height": "846"
+      },
+      "share_before_missing": [
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ],
+      "tracking": {
+        "page": "contact.html",
+        "pixel_ids": [
+          "806267492040936"
+        ],
+        "pageviews_per_destination": {
+          "806267492040936": 1
+        },
+        "ga_ids": [
+          "G-PS5FNQCJRN"
+        ],
+        "gtm_ids": []
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [
+        {
+          "name": "unnamed",
+          "action": "forms/contact.php",
+          "status": "Missing backend; frontend recovery only"
+        },
+        {
+          "name": "contact",
+          "action": "current URL",
+          "status": "Netlify static definition; registration/storage/notification unverified"
+        }
+      ],
+      "contextual_links": 0,
+      "operational_information_links": 0,
+      "incoming_prose_links": 6,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "contact.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 669774,
+          "localResourceBytes": 1130298,
+          "brokenImages": [],
+          "forms": [
+            {
+              "name": "ref: <Node>",
+              "action": "forms/contact.php",
+              "hasPrivacyLink": true
+            },
+            {
+              "name": "contact",
+              "action": null,
+              "hasPrivacyLink": true
+            }
+          ]
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "Legacy pixel ownership/consent account review",
+        "No prose contextual links; assess intentional campaign isolation before adding"
+      ]
+    },
+    {
+      "page": "email-marketing.html",
+      "title": "Professional Email Marketing Services Nigeria - Webtellisense",
+      "description": "Stop losing your customers to algorithm changes. Build an email newsletter list that you own forever and turn past buyers into repeat clients. Services in Uyo, Eket, and nationwide.",
+      "canonical": "https://webtellisense.com/email-marketing",
+      "indexable": true,
+      "sitemap": true,
+      "share": {
+        "og:title": "Professional Email Marketing Services Nigeria - Webtellisense",
+        "og:description": "Stop losing your customers to algorithm changes. Build an email newsletter list that you own forever and turn past buyers into repeat clients. Services in Uyo, Eket, and nationwide.",
+        "og:url": "https://webtellisense.com/email-marketing",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
+        "og:image:alt": "Professional Email Marketing Services Nigeria - Webtellisense",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Professional Email Marketing Services Nigeria - Webtellisense",
+        "twitter:description": "Stop losing your customers to algorithm changes. Build an email newsletter list that you own forever and turn past buyers into repeat clients. Services in Uyo, Eket, and nationwide.",
+        "twitter:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
+        "twitter:image:alt": "Professional Email Marketing Services Nigeria - Webtellisense",
+        "og:image:width": "6016",
+        "og:image:height": "4016"
+      },
+      "share_before_missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:image",
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ],
+      "tracking": {
+        "page": "email-marketing.html",
+        "pixel_ids": [
+          "806267492040936"
+        ],
+        "pageviews_per_destination": {
+          "806267492040936": 1
+        },
+        "ga_ids": [
+          "G-PS5FNQCJRN"
+        ],
+        "gtm_ids": []
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [
+        {
+          "name": "contact",
+          "action": "current URL",
+          "status": "Netlify static definition; registration/storage/notification unverified"
+        }
+      ],
+      "contextual_links": 4,
+      "operational_information_links": 0,
+      "incoming_prose_links": 2,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "email-marketing.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 688443,
+          "localResourceBytes": 1073494,
+          "brokenImages": [],
+          "forms": [
+            {
+              "name": "contact",
+              "action": null,
+              "hasPrivacyLink": true
+            }
+          ]
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "Legacy pixel ownership/consent account review"
+      ]
+    },
+    {
+      "page": "10-essential-tips-for-businesses-2025.html",
+      "title": "10 Essential Tips for Small Business Online Success in Eket | Webtellisense, Nigeria",
+      "description": "Ten practical online presence tips for small businesses in Eket, Akwa Ibom and Nigeria, from websites and branding to search and social media.",
+      "canonical": "https://webtellisense.com/10-essential-tips-for-businesses-2025",
+      "indexable": true,
+      "sitemap": true,
+      "share": {
+        "og:title": "10 Essential Tips for Small Business Online Success in Eket | Webtellisense, Nigeria",
+        "og:description": "Ten practical online presence tips for small businesses in Eket, Akwa Ibom and Nigeria, from websites and branding to search and social media.",
+        "og:url": "https://webtellisense.com/10-essential-tips-for-businesses-2025",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
+        "og:image:alt": "10 Essential Tips for Small Business Online Success in Eket",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "10 Essential Tips for Small Business Online Success in Eket | Webtellisense, Nigeria",
+        "twitter:description": "Ten practical online presence tips for small businesses in Eket, Akwa Ibom and Nigeria, from websites and branding to search and social media.",
+        "twitter:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
+        "twitter:image:alt": "10 Essential Tips for Small Business Online Success in Eket",
+        "og:image:width": "6016",
+        "og:image:height": "4016"
+      },
+      "share_before_missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:image",
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ],
+      "tracking": {
+        "page": "10-essential-tips-for-businesses-2025.html",
+        "pixel_ids": [
+          "806267492040936"
+        ],
+        "pageviews_per_destination": {
+          "806267492040936": 1
+        },
+        "ga_ids": [
+          "G-PS5FNQCJRN"
+        ],
+        "gtm_ids": []
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [
+        {
+          "name": "contact",
+          "action": "current URL",
+          "status": "Netlify static definition; registration/storage/notification unverified"
+        }
+      ],
+      "contextual_links": 4,
+      "operational_information_links": 0,
+      "incoming_prose_links": 1,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "10-essential-tips-for-businesses-2025.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 673954,
+          "localResourceBytes": 1800418,
+          "brokenImages": [],
+          "forms": [
+            {
+              "name": "contact",
+              "action": null,
+              "hasPrivacyLink": true
+            }
+          ]
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "Legacy pixel ownership/consent account review"
+      ]
+    },
+    {
+      "page": "how-to-grow-your-business-online-2026.html",
+      "title": "How to Grow Your Business Online: A Step-by-Step Guide for Uyo Business Owners | Webtellisense",
+      "description": "How to grow your business online, step by step: Google Business Profile, website, social media, ads, and WhatsApp conversion — with electrician and solar installer examples from Uyo, Nigeria.",
+      "canonical": "https://webtellisense.com/how-to-grow-your-business-online-2026",
+      "indexable": true,
+      "sitemap": true,
+      "share": {
+        "og:title": "How to Grow Your Business Online: A Step-by-Step Guide for Uyo Business Owners | Webtellisense",
+        "og:description": "How to grow your business online, step by step: Google Business Profile, website, social media, ads, and WhatsApp conversion — with electrician and solar installer examples from Uyo, Nigeria.",
+        "og:url": "https://webtellisense.com/how-to-grow-your-business-online-2026",
+        "og:type": "article",
+        "og:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
+        "og:image:alt": "How to Grow Your Business Online: A Step-by-Step Guide for Uyo Business Owners",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "How to Grow Your Business Online: A Step-by-Step Guide for Uyo Business Owners | Webtellisense",
+        "twitter:description": "How to grow your business online, step by step: Google Business Profile, website, social media, ads, and WhatsApp conversion — with electrician and solar installer examples from Uyo, Nigeria.",
+        "twitter:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
+        "twitter:image:alt": "How to Grow Your Business Online: A Step-by-Step Guide for Uyo Business Owners",
+        "og:image:width": "6016",
+        "og:image:height": "4016"
+      },
+      "share_before_missing": [
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ],
+      "tracking": {
+        "page": "how-to-grow-your-business-online-2026.html",
+        "pixel_ids": [
+          "623478247158411",
+          "806267492040936"
+        ],
+        "pageviews_per_destination": {
+          "623478247158411": 1,
+          "806267492040936": 1
+        },
+        "ga_ids": [
+          "G-PS5FNQCJRN"
+        ],
+        "gtm_ids": []
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [
+        {
+          "name": "contact",
+          "action": "current URL",
+          "status": "Netlify static definition; registration/storage/notification unverified"
+        }
+      ],
+      "contextual_links": 7,
+      "operational_information_links": 0,
+      "incoming_prose_links": 6,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "how-to-grow-your-business-online-2026.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "nodes": [
+              {
+                "target": [
+                  ".cta-block > .btn"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.69 (foreground color: #01033e, background color: #0033ff, font size: 10.9pt (14.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  ".av"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.69 (foreground color: #01033e, background color: #0033ff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+              }
+            ]
+          }
+        ],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 688326,
+          "localResourceBytes": 1130298,
+          "brokenImages": [],
+          "forms": [
+            {
+              "name": "contact",
+              "action": null,
+              "hasPrivacyLink": true
+            }
+          ]
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "Legacy pixel ownership/consent account review"
+      ]
+    },
+    {
+      "page": "branding.html",
+      "title": "Professional Brand Identity & Logo Design Nigeria - Webtellisense",
+      "description": "Stop looking like a small business. Get a professional logo, official brand colors, business cards, and letterheads that make you look elite. Services in Uyo, Eket, and nationwide.",
+      "canonical": "https://webtellisense.com/branding",
+      "indexable": true,
+      "sitemap": true,
+      "share": {
+        "og:title": "Professional Brand Identity & Logo Design Nigeria - Webtellisense",
+        "og:description": "Stop looking like a small business. Get a professional logo, official brand colors, business cards, and letterheads that make you look elite. Services in Uyo, Eket, and nationwide.",
+        "og:url": "https://webtellisense.com/branding",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
+        "og:image:alt": "Professional Brand Identity & Logo Design Nigeria - Webtellisense",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Professional Brand Identity & Logo Design Nigeria - Webtellisense",
+        "twitter:description": "Stop looking like a small business. Get a professional logo, official brand colors, business cards, and letterheads that make you look elite. Services in Uyo, Eket, and nationwide.",
+        "twitter:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
+        "twitter:image:alt": "Professional Brand Identity & Logo Design Nigeria - Webtellisense",
+        "og:image:width": "6016",
+        "og:image:height": "4016"
+      },
+      "share_before_missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:image",
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ],
+      "tracking": {
+        "page": "branding.html",
+        "pixel_ids": [
+          "806267492040936"
+        ],
+        "pageviews_per_destination": {
+          "806267492040936": 1
+        },
+        "ga_ids": [
+          "G-PS5FNQCJRN"
+        ],
+        "gtm_ids": []
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [
+        {
+          "name": "contact",
+          "action": "current URL",
+          "status": "Netlify static definition; registration/storage/notification unverified"
+        }
+      ],
+      "contextual_links": 4,
+      "operational_information_links": 0,
+      "incoming_prose_links": 4,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "branding.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 682406,
+          "localResourceBytes": 1073494,
+          "brokenImages": [],
+          "forms": [
+            {
+              "name": "contact",
+              "action": null,
+              "hasPrivacyLink": true
+            }
+          ]
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "Legacy pixel ownership/consent account review"
+      ]
+    },
+    {
+      "page": "social-media-marketing.html",
+      "title": "Paid Facebook & Instagram Ads Services Nigeria - Webtellisense",
+      "description": "Stop waiting for organic reach. Run highly profitable Facebook and Instagram ads that bring direct orders to your WhatsApp. Services in Uyo, Eket, and nationwide.",
+      "canonical": "https://webtellisense.com/social-media-marketing",
+      "indexable": true,
+      "sitemap": true,
+      "share": {
+        "og:title": "Paid Facebook & Instagram Ads Services Nigeria - Webtellisense",
+        "og:description": "Stop waiting for organic reach. Run highly profitable Facebook and Instagram ads that bring direct orders to your WhatsApp. Services in Uyo, Eket, and nationwide.",
+        "og:url": "https://webtellisense.com/social-media-marketing",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
+        "og:image:alt": "Paid Facebook & Instagram Ads Services Nigeria - Webtellisense",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Paid Facebook & Instagram Ads Services Nigeria - Webtellisense",
+        "twitter:description": "Stop waiting for organic reach. Run highly profitable Facebook and Instagram ads that bring direct orders to your WhatsApp. Services in Uyo, Eket, and nationwide.",
+        "twitter:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
+        "twitter:image:alt": "Paid Facebook & Instagram Ads Services Nigeria - Webtellisense",
+        "og:image:width": "6016",
+        "og:image:height": "4016"
+      },
+      "share_before_missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:image",
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ],
+      "tracking": {
+        "page": "social-media-marketing.html",
+        "pixel_ids": [
+          "806267492040936"
+        ],
+        "pageviews_per_destination": {
+          "806267492040936": 1
+        },
+        "ga_ids": [
+          "G-PS5FNQCJRN"
+        ],
+        "gtm_ids": []
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [
+        {
+          "name": "contact",
+          "action": "current URL",
+          "status": "Netlify static definition; registration/storage/notification unverified"
+        }
+      ],
+      "contextual_links": 4,
+      "operational_information_links": 0,
+      "incoming_prose_links": 5,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "social-media-marketing.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "nodes": [
+              {
+                "target": [
+                  ".col-md-4:nth-child(1) > .pricing-card > div > .feature-list-items > li:nth-child(8) > i:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.53 (foreground color: #10b981, background color: #ffffff, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  ".featured > div > .feature-list-items > li:nth-child(8) > i:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.53 (foreground color: #10b981, background color: #ffffff, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  ".col-md-4:nth-child(3) > .pricing-card > div > .feature-list-items > li:nth-child(8) > i:nth-child(2)"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.53 (foreground color: #10b981, background color: #ffffff, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ]
+          }
+        ],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 688785,
+          "localResourceBytes": 1073494,
+          "brokenImages": [],
+          "forms": [
+            {
+              "name": "contact",
+              "action": null,
+              "hasPrivacyLink": true
+            }
+          ]
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "Legacy pixel ownership/consent account review"
+      ]
+    },
+    {
+      "page": "kids-holiday-uyo.html",
+      "title": "Tech Bootcamp | Powered by Webtellisense Uyo",
+      "description": "An elite 4-week tech accelerator for teenagers aged 12-17 in Uyo. Hosted at the ARISE ICT Hub. Open engineering training powered by Webtellisense.",
+      "canonical": "https://webtellisense.com/kids-holiday-uyo",
+      "indexable": true,
+      "sitemap": false,
+      "share": {
+        "og:title": "Tech Bootcamp | Powered by Webtellisense Uyo",
+        "og:description": "An elite 4-week tech accelerator for teenagers aged 12-17 in Uyo. Hosted at the ARISE ICT Hub. Open engineering training powered by Webtellisense.",
+        "og:url": "https://webtellisense.com/kids-holiday-uyo",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/bootcamp-img.jpg",
+        "og:image:alt": "Tech Bootcamp",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Tech Bootcamp | Powered by Webtellisense Uyo",
+        "twitter:description": "An elite 4-week tech accelerator for teenagers aged 12-17 in Uyo. Hosted at the ARISE ICT Hub. Open engineering training powered by Webtellisense.",
+        "twitter:image": "https://webtellisense.com/assets/img/bootcamp-img.jpg",
+        "twitter:image:alt": "Tech Bootcamp",
+        "og:image:width": "3840",
+        "og:image:height": "2160"
+      },
+      "share_before_missing": [
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ],
+      "tracking": {
+        "page": "kids-holiday-uyo.html",
+        "pixel_ids": [
+          "623478247158411",
+          "806267492040936"
+        ],
+        "pageviews_per_destination": {
+          "623478247158411": 1,
+          "806267492040936": 1
+        },
+        "ga_ids": [
+          "G-PS5FNQCJRN"
+        ],
+        "gtm_ids": []
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [
+        {
+          "name": "paymentForm",
+          "action": "current URL",
+          "status": "External/browser flow; provider delivery unverified"
+        },
+        {
+          "name": "contact",
+          "action": "current URL",
+          "status": "Netlify static definition; registration/storage/notification unverified"
+        }
+      ],
+      "contextual_links": 0,
+      "operational_information_links": 0,
+      "incoming_prose_links": 0,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "kids-holiday-uyo.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "nodes": [
+              {
+                "target": [
+                  ".kh-cta-btn"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.72 (foreground color: #ffffff, background color: #fe7400, font size: 12.6pt (16.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  ".metric-card:nth-child(1) > .metric-label"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.77 (foreground color: #bac8ff, background color: #1a47ff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  ".metric-card:nth-child(2) > .metric-label"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.77 (foreground color: #bac8ff, background color: #1a47ff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  ".metric-card:nth-child(3) > .metric-label"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.77 (foreground color: #bac8ff, background color: #1a47ff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  ".metric-card:nth-child(4) > .metric-label"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.77 (foreground color: #bac8ff, background color: #1a47ff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  ".details-bottom-panel > .metric-label"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.77 (foreground color: #bac8ff, background color: #1a47ff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  ".banner-register-btn"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.72 (foreground color: #ffffff, background color: #fe7400, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  "button"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.72 (foreground color: #ffffff, background color: #fe7400, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+              }
+            ]
+          }
+        ],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 686262,
+          "localResourceBytes": 1887621,
+          "brokenImages": [],
+          "forms": [
+            {
+              "name": "",
+              "action": null,
+              "hasPrivacyLink": true
+            },
+            {
+              "name": "contact",
+              "action": null,
+              "hasPrivacyLink": true
+            }
+          ]
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "Legacy pixel ownership/consent account review",
+        "Expired August 2026 campaign; checkout is an alert simulation, not a Paystack payment. Retained isolated/out of sitemap; owner must retire or separately authorize replacement.",
+        "No prose contextual links; assess intentional campaign isolation before adding"
+      ]
+    },
+    {
+      "page": "industries.html",
+      "title": "Industries We Serve | Webtellisense, Eket &amp; Nigeria",
+      "description": "Explore Webtellisense’s industry approach for solar and home services, education, construction and property, with wider cross-industry client experience.",
+      "canonical": "https://webtellisense.com/industries",
+      "indexable": true,
+      "sitemap": true,
+      "share": {
+        "og:title": "Industries We Serve | Webtellisense, Eket & Nigeria",
+        "og:description": "Explore Webtellisense’s industry approach for solar and home services, education, construction and property, with wider cross-industry client experience.",
+        "og:url": "https://webtellisense.com/industries",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/heroes/business-owner.webp",
+        "og:image:alt": "Industries We Serve",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Industries We Serve | Webtellisense, Eket & Nigeria",
+        "twitter:description": "Explore Webtellisense’s industry approach for solar and home services, education, construction and property, with wider cross-industry client experience.",
+        "twitter:image": "https://webtellisense.com/assets/img/heroes/business-owner.webp",
+        "twitter:image:alt": "Industries We Serve",
+        "og:image:width": "612",
+        "og:image:height": "323"
+      },
+      "share_before_missing": [],
+      "tracking": {
+        "page": "industries.html",
+        "pixel_ids": [],
+        "pageviews_per_destination": {},
+        "ga_ids": [],
+        "gtm_ids": []
+      },
+      "measurement_module": true,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [],
+      "contextual_links": 5,
+      "operational_information_links": 0,
+      "incoming_prose_links": 5,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "industries.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 660715,
+          "localResourceBytes": 290172,
+          "brokenImages": [],
+          "forms": []
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "New consent module staged OFF for owner/privacy sign-off"
+      ]
+    },
+    {
+      "page": "heroes-welcome.html",
+      "title": "Your Heroes welcome and next steps | Webtellisense",
+      "description": "Talk with Webtellisense about your Heroes onboarding. Personal payment checks, callback hours and an optional business profile; this page is not a receipt.",
+      "canonical": "https://webtellisense.com/heroes-welcome",
+      "indexable": false,
+      "sitemap": false,
+      "share": {
+        "og:title": "Your Heroes welcome and next steps | Webtellisense",
+        "og:description": "Talk with Webtellisense about your Heroes onboarding. Personal payment checks, callback hours and an optional business profile; this page is not a receipt.",
+        "og:url": "https://webtellisense.com/heroes-welcome",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/heroes/ephraim.webp",
+        "og:image:alt": "Your Heroes welcome and next steps",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Your Heroes welcome and next steps | Webtellisense",
+        "twitter:description": "Talk with Webtellisense about your Heroes onboarding. Personal payment checks, callback hours and an optional business profile; this page is not a receipt.",
+        "twitter:image": "https://webtellisense.com/assets/img/heroes/ephraim.webp",
+        "twitter:image:alt": "Your Heroes welcome and next steps",
+        "og:image:width": "720",
+        "og:image:height": "960"
+      },
+      "share_before_missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:image",
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ],
+      "tracking": {
+        "page": "heroes-welcome.html",
+        "pixel_ids": [],
+        "pageviews_per_destination": {},
+        "ga_ids": [],
+        "gtm_ids": []
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [
+        {
+          "name": "heroes-business-profile",
+          "action": "/heroes-profile-received",
+          "status": "Netlify static definition; registration/storage/notification unverified"
+        }
+      ],
+      "contextual_links": 0,
+      "operational_information_links": 0,
+      "incoming_prose_links": 1,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "heroes-welcome.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 665474,
+          "localResourceBytes": 351832,
+          "brokenImages": [],
+          "forms": [
+            {
+              "name": "heroes-business-profile",
+              "action": "/heroes-profile-received",
+              "hasPrivacyLink": true
+            }
+          ]
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "No active GA4/GTM"
+      ]
+    },
+    {
+      "page": "heroes-profile-received.html",
+      "title": "Your business profile | Webtellisense",
+      "description": "Next steps after sharing your optional Heroes business profile. Contact Webtellisense; payment and activation are confirmed separately.",
+      "canonical": "https://webtellisense.com/heroes-profile-received",
+      "indexable": false,
+      "sitemap": false,
+      "share": {
+        "og:title": "Your business profile | Webtellisense",
+        "og:description": "Next steps after sharing your optional Heroes business profile. Contact Webtellisense; payment and activation are confirmed separately.",
+        "og:url": "https://webtellisense.com/heroes-profile-received",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/heroes/ephraim.webp",
+        "og:image:alt": "Your business profile",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Your business profile | Webtellisense",
+        "twitter:description": "Next steps after sharing your optional Heroes business profile. Contact Webtellisense; payment and activation are confirmed separately.",
+        "twitter:image": "https://webtellisense.com/assets/img/heroes/ephraim.webp",
+        "twitter:image:alt": "Your business profile",
+        "og:image:width": "720",
+        "og:image:height": "960"
+      },
+      "share_before_missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:image",
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ],
+      "tracking": {
+        "page": "heroes-profile-received.html",
+        "pixel_ids": [],
+        "pageviews_per_destination": {},
+        "ga_ids": [],
+        "gtm_ids": []
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [],
+      "contextual_links": 0,
+      "operational_information_links": 0,
+      "incoming_prose_links": 0,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "heroes-profile-received.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 657242,
+          "localResourceBytes": 243422,
+          "brokenImages": [],
+          "forms": []
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "No active GA4/GTM"
+      ]
+    },
+    {
+      "page": "business-audit-tool.html",
+      "title": "Free Business Audit Tool for Nigerian Businesses | Webtellisense",
+      "description": "Find out how visible your business is online with Webtellisense’s free Business Audit Tool. Get a digital health score, honest feedback, and clear action steps for your website, SEO, social media, branding, and conversions. Built for Nigerian businesses ready to grow online.",
+      "canonical": "https://webtellisense.com/business-audit-tool",
+      "indexable": true,
+      "sitemap": true,
+      "share": {
+        "og:title": "Free Business Audit Tool for Nigerian Businesses | Webtellisense",
+        "og:description": "Find out how visible your business is online with Webtellisense’s free Business Audit Tool. Get a digital health score, honest feedback, and clear action steps for your website, SEO, social media, branding, and conversions. Built for Nigerian businesses ready to grow online.",
+        "og:url": "https://webtellisense.com/business-audit-tool",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/audit-banner.jpg",
+        "og:image:alt": "Free Business Audit Tool for Nigerian Businesses",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Business Audit Tool for Nigerian Businesses | Webtellisense",
+        "twitter:description": "Find out how visible your business is online with Webtellisense’s free Business Audit Tool. Get a digital health score, honest feedback, and clear action steps for your website, SEO, social media, branding, and conversions. Built for Nigerian businesses ready to grow online.",
+        "twitter:image": "https://webtellisense.com/assets/img/audit-banner.jpg",
+        "twitter:image:alt": "Free Business Audit Tool for Nigerian Businesses",
+        "og:image:width": "2560",
+        "og:image:height": "900"
+      },
+      "share_before_missing": [],
+      "tracking": {
+        "page": "business-audit-tool.html",
+        "pixel_ids": [
+          "623478247158411",
+          "806267492040936"
+        ],
+        "pageviews_per_destination": {
+          "623478247158411": 1,
+          "806267492040936": 1
+        },
+        "ga_ids": [
+          "G-PS5FNQCJRN"
+        ],
+        "gtm_ids": []
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [
+        {
+          "name": "contact",
+          "action": "current URL",
+          "status": "Netlify static definition; registration/storage/notification unverified"
+        }
+      ],
+      "contextual_links": 4,
+      "operational_information_links": 0,
+      "incoming_prose_links": 2,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "business-audit-tool.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 670923,
+          "localResourceBytes": 1477885,
+          "brokenImages": [],
+          "forms": [
+            {
+              "name": "contact",
+              "action": null,
+              "hasPrivacyLink": true
+            }
+          ]
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "Legacy pixel ownership/consent account review"
+      ]
+    },
+    {
+      "page": "top-features-for-a-school-website.html",
+      "title": "Top Features to Have on a School Website | Webtellisense Nigeria",
+      "description": "Discover the 7 must-have features every school website needs to attract parents, share updates, and build trust — with tips for schools in Akwa Ibom, Lagos, and across Nigeria.",
+      "canonical": "https://webtellisense.com/top-features-for-a-school-website",
+      "indexable": true,
+      "sitemap": true,
+      "share": {
+        "og:title": "Top Features to Have on a School Website | Webtellisense Nigeria",
+        "og:description": "Discover the 7 must-have features every school website needs to attract parents, share updates, and build trust — with tips for schools in Akwa Ibom, Lagos, and across Nigeria.",
+        "og:url": "https://webtellisense.com/top-features-for-a-school-website",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/blog/blog-01.jpg",
+        "og:image:alt": "Top Features to Have on a School Website",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Top Features to Have on a School Website | Webtellisense Nigeria",
+        "twitter:description": "Discover the 7 must-have features every school website needs to attract parents, share updates, and build trust — with tips for schools in Akwa Ibom, Lagos, and across Nigeria.",
+        "twitter:image": "https://webtellisense.com/assets/img/blog/blog-01.jpg",
+        "twitter:image:alt": "Top Features to Have on a School Website",
+        "og:image:width": "4608",
+        "og:image:height": "3072"
+      },
+      "share_before_missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:image",
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ],
+      "tracking": {
+        "page": "top-features-for-a-school-website.html",
+        "pixel_ids": [
+          "806267492040936"
+        ],
+        "pageviews_per_destination": {
+          "806267492040936": 1
+        },
+        "ga_ids": [
+          "G-PS5FNQCJRN"
+        ],
+        "gtm_ids": []
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [
+        {
+          "name": "contact",
+          "action": "current URL",
+          "status": "Netlify static definition; registration/storage/notification unverified"
+        }
+      ],
+      "contextual_links": 4,
+      "operational_information_links": 0,
+      "incoming_prose_links": 2,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "top-features-for-a-school-website.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 677045,
+          "localResourceBytes": 1375082,
+          "brokenImages": [],
+          "forms": [
+            {
+              "name": "contact",
+              "action": null,
+              "hasPrivacyLink": true
+            }
+          ]
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "Legacy pixel ownership/consent account review"
+      ]
+    },
+    {
+      "page": "heroes-start.html",
+      "title": "Choose your Heroes payment option | Webtellisense",
+      "description": "Choose a Heroes tier and billing period. Use an owner-configured Paystack hosted page or contact Webtellisense; no payment is verified by this page.",
+      "canonical": "https://webtellisense.com/heroes-start",
+      "indexable": false,
+      "sitemap": false,
+      "share": {
+        "og:title": "Choose your Heroes payment option | Webtellisense",
+        "og:description": "Choose a Heroes tier and billing period. Use an owner-configured Paystack hosted page or contact Webtellisense; no payment is verified by this page.",
+        "og:url": "https://webtellisense.com/heroes-start",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/heroes/ephraim.webp",
+        "og:image:alt": "Choose your Heroes payment option",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Choose your Heroes payment option | Webtellisense",
+        "twitter:description": "Choose a Heroes tier and billing period. Use an owner-configured Paystack hosted page or contact Webtellisense; no payment is verified by this page.",
+        "twitter:image": "https://webtellisense.com/assets/img/heroes/ephraim.webp",
+        "twitter:image:alt": "Choose your Heroes payment option",
+        "og:image:width": "720",
+        "og:image:height": "960"
+      },
+      "share_before_missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:image",
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ],
+      "tracking": {
+        "page": "heroes-start.html",
+        "pixel_ids": [],
+        "pageviews_per_destination": {},
+        "ga_ids": [],
+        "gtm_ids": []
+      },
+      "measurement_module": true,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [],
+      "contextual_links": 0,
+      "operational_information_links": 0,
+      "incoming_prose_links": 0,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "heroes-start.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 660699,
+          "localResourceBytes": 286606,
+          "brokenImages": [],
+          "forms": []
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "New consent module staged OFF for owner/privacy sign-off",
+        "All nine Paystack links intentionally disabled"
+      ]
+    },
+    {
+      "page": "conversion-rate-optimization.html",
+      "title": "Conversion Rate Optimization (CRO) Nigeria - Webtellisense",
+      "description": "Stop wasting money on website traffic that doesn't buy. We fix your confusing checkout forms, slow buttons, and hidden contact links so you double your sales.",
+      "canonical": "https://webtellisense.com/conversion-rate-optimization",
+      "indexable": true,
+      "sitemap": true,
+      "share": {
+        "og:title": "Conversion Rate Optimization (CRO) Nigeria - Webtellisense",
+        "og:description": "Stop wasting money on website traffic that doesn't buy. We fix your confusing checkout forms, slow buttons, and hidden contact links so you double your sales.",
+        "og:url": "https://webtellisense.com/conversion-rate-optimization",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
+        "og:image:alt": "Conversion Rate Optimization (CRO) Nigeria - Webtellisense",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Conversion Rate Optimization (CRO) Nigeria - Webtellisense",
+        "twitter:description": "Stop wasting money on website traffic that doesn't buy. We fix your confusing checkout forms, slow buttons, and hidden contact links so you double your sales.",
+        "twitter:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
+        "twitter:image:alt": "Conversion Rate Optimization (CRO) Nigeria - Webtellisense",
+        "og:image:width": "6016",
+        "og:image:height": "4016"
+      },
+      "share_before_missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:image",
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ],
+      "tracking": {
+        "page": "conversion-rate-optimization.html",
+        "pixel_ids": [
+          "806267492040936"
+        ],
+        "pageviews_per_destination": {
+          "806267492040936": 1
+        },
+        "ga_ids": [
+          "G-PS5FNQCJRN"
+        ],
+        "gtm_ids": []
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [
+        {
+          "name": "contact",
+          "action": "current URL",
+          "status": "Netlify static definition; registration/storage/notification unverified"
+        }
+      ],
+      "contextual_links": 5,
+      "operational_information_links": 0,
+      "incoming_prose_links": 11,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "conversion-rate-optimization.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 688401,
+          "localResourceBytes": 1073494,
+          "brokenImages": [],
+          "forms": [
+            {
+              "name": "contact",
+              "action": null,
+              "hasPrivacyLink": true
+            }
+          ]
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "Legacy pixel ownership/consent account review"
+      ]
+    },
+    {
+      "page": "solar.html",
+      "title": "Solar Launch™ — No-Brainer Client Acquisition Engine for Nigerian Solar Installers",
+      "description": "Explore Webtellisense Solar Launch marketing for Nigerian solar installers, including qualification questions, offer details and contact options.",
+      "canonical": "https://webtellisense.com/solar",
+      "indexable": true,
+      "sitemap": false,
+      "share": {
+        "og:title": "Solar Launch™ — No-Brainer Client Acquisition Engine for Nigerian Solar Installers",
+        "og:description": "Explore Webtellisense Solar Launch marketing for Nigerian solar installers, including qualification questions, offer details and contact options.",
+        "og:url": "https://webtellisense.com/solar",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/heroes/solar-work.webp",
+        "og:image:alt": "Solar Launch™ — No-Brainer Client Acquisition Engine for Nigerian Solar Installers",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Solar Launch™ — No-Brainer Client Acquisition Engine for Nigerian Solar Installers",
+        "twitter:description": "Explore Webtellisense Solar Launch marketing for Nigerian solar installers, including qualification questions, offer details and contact options.",
+        "twitter:image": "https://webtellisense.com/assets/img/heroes/solar-work.webp",
+        "twitter:image:alt": "Solar Launch™ — No-Brainer Client Acquisition Engine for Nigerian Solar Installers",
+        "og:image:width": "612",
+        "og:image:height": "407"
+      },
+      "share_before_missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:image",
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ],
+      "tracking": {
+        "page": "solar.html",
+        "pixel_ids": [
+          "1710018810217099"
+        ],
+        "pageviews_per_destination": {
+          "1710018810217099": 1
+        },
+        "ga_ids": [],
+        "gtm_ids": [
+          "GTM-NJ6L82XR"
+        ]
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [
+        {
+          "name": "leadForm",
+          "action": "current URL",
+          "status": "External/browser flow; provider delivery unverified"
+        }
+      ],
+      "contextual_links": 0,
+      "operational_information_links": 0,
+      "incoming_prose_links": 1,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "solar.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "nodes": [
+              {
+                "target": [
+                  "#gaugeValue"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.32 (foreground color: #0033ff, background color: #0a1060, font size: 27.0pt (36px), font weight: bold). Expected contrast ratio of 3:1"
+              },
+              {
+                "target": [
+                  ".p-card:nth-child(1) > .p-step"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.51 (foreground color: #0033ff, background color: #070a4d, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  ".p-card:nth-child(2) > .p-step"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.51 (foreground color: #0033ff, background color: #070a4d, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  ".p-card:nth-child(3) > .p-step"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.51 (foreground color: #0033ff, background color: #070a4d, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  ".p-card:nth-child(4) > .p-step"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.51 (foreground color: #0033ff, background color: #070a4d, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1"
+              }
+            ]
+          }
+        ],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 717170,
+          "localResourceBytes": 1101620,
+          "brokenImages": [],
+          "forms": [
+            {
+              "name": "",
+              "action": null,
+              "hasPrivacyLink": true
+            }
+          ]
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "Legacy pixel ownership/consent account review",
+        "Apps Script no-cors cannot acknowledge receipt",
+        "Legacy testimonials/offers require owner evidence; simulated activity removed",
+        "No prose contextual links; assess intentional campaign isolation before adding"
+      ]
+    },
+    {
+      "page": "pricing.html",
+      "title": "Website & Digital Marketing Pricing | Webtellisense",
+      "description": "See real pricing for websites, SEO, and ads campaigns in Nigeria. Transparent packages, no hidden fees, built for Eket and Akwa Ibom SMEs.",
+      "canonical": "https://webtellisense.com/pricing",
+      "indexable": true,
+      "sitemap": true,
+      "share": {
+        "og:title": "Website & Digital Marketing Pricing | Webtellisense",
+        "og:description": "See real pricing for websites, SEO, and ads campaigns in Nigeria. Transparent packages, no hidden fees, built for Eket and Akwa Ibom SMEs.",
+        "og:url": "https://webtellisense.com/pricing",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/logo.png",
+        "og:image:alt": "Website & Digital Marketing Pricing",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Website & Digital Marketing Pricing | Webtellisense",
+        "twitter:description": "See real pricing for websites, SEO, and ads campaigns in Nigeria. Transparent packages, no hidden fees, built for Eket and Akwa Ibom SMEs.",
+        "twitter:image": "https://webtellisense.com/assets/img/logo.png",
+        "twitter:image:alt": "Website & Digital Marketing Pricing",
+        "og:image:width": "847",
+        "og:image:height": "846"
+      },
+      "share_before_missing": [
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ],
+      "tracking": {
+        "page": "pricing.html",
+        "pixel_ids": [
+          "806267492040936"
+        ],
+        "pageviews_per_destination": {
+          "806267492040936": 1
+        },
+        "ga_ids": [
+          "G-PS5FNQCJRN"
+        ],
+        "gtm_ids": []
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [
+        {
+          "name": "contact",
+          "action": "current URL",
+          "status": "Netlify static definition; registration/storage/notification unverified"
+        }
+      ],
+      "contextual_links": 1,
+      "operational_information_links": 0,
+      "incoming_prose_links": 0,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "pricing.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "nodes": [
+              {
+                "target": [
+                  ".popular"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.07 (foreground color: #000000, background color: #0331b0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              },
+              {
+                "target": [
+                  ".featured > .cta-btn[href$=\"contact.html\"]"
+                ],
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.07 (foreground color: #000000, background color: #0331b0, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ]
+          }
+        ],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 671266,
+          "localResourceBytes": 1073494,
+          "brokenImages": [],
+          "forms": [
+            {
+              "name": "contact",
+              "action": null,
+              "hasPrivacyLink": true
+            }
+          ]
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "Legacy pixel ownership/consent account review"
+      ]
+    },
+    {
+      "page": "reviews.html",
+      "title": "Reviews | Webtellisense | Eket’s Top Web Design & Digital Marketing Agency",
+      "description": "Read customer feedback on Webtellisense website, branding and digital services, with experiences shared by businesses and organisations in Nigeria.",
+      "canonical": "https://webtellisense.com/reviews",
+      "indexable": true,
+      "sitemap": true,
+      "share": {
+        "og:title": "Reviews | Webtellisense | Eket’s Top Web Design & Digital Marketing Agency",
+        "og:description": "Read customer feedback on Webtellisense website, branding and digital services, with experiences shared by businesses and organisations in Nigeria.",
+        "og:url": "https://webtellisense.com/reviews",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/logo.png",
+        "og:image:alt": "Reviews",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Reviews | Webtellisense | Eket’s Top Web Design & Digital Marketing Agency",
+        "twitter:description": "Read customer feedback on Webtellisense website, branding and digital services, with experiences shared by businesses and organisations in Nigeria.",
+        "twitter:image": "https://webtellisense.com/assets/img/logo.png",
+        "twitter:image:alt": "Reviews",
+        "og:image:width": "847",
+        "og:image:height": "846"
+      },
+      "share_before_missing": [
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ],
+      "tracking": {
+        "page": "reviews.html",
+        "pixel_ids": [
+          "806267492040936"
+        ],
+        "pageviews_per_destination": {
+          "806267492040936": 1
+        },
+        "ga_ids": [
+          "G-PS5FNQCJRN"
+        ],
+        "gtm_ids": []
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [
+        {
+          "name": "contact",
+          "action": "current URL",
+          "status": "Netlify static definition; registration/storage/notification unverified"
+        }
+      ],
+      "contextual_links": 0,
+      "operational_information_links": 0,
+      "incoming_prose_links": 1,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "reviews.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 672529,
+          "localResourceBytes": 1073494,
+          "brokenImages": [],
+          "forms": [
+            {
+              "name": "contact",
+              "action": null,
+              "hasPrivacyLink": true
+            }
+          ]
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "Legacy pixel ownership/consent account review",
+        "No prose contextual links; assess intentional campaign isolation before adding"
+      ]
+    },
+    {
+      "page": "service-terms.html",
+      "title": "Service &amp; Billing Disclosures — Review Draft | Webtellisense",
+      "description": "Review draft of approved Heroes prices, hosted payment, manual verification and personal onboarding; unresolved contract and refund decisions remain for approval.",
+      "canonical": "https://webtellisense.com/service-terms",
+      "indexable": false,
+      "sitemap": false,
+      "share": {
+        "og:title": "Service & Billing Disclosures — Review Draft | Webtellisense",
+        "og:description": "Review draft of approved Heroes prices, hosted payment, manual verification and personal onboarding; unresolved contract and refund decisions remain for approval.",
+        "og:url": "https://webtellisense.com/service-terms",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/heroes/business-owner.webp",
+        "og:image:alt": "Service & Billing Disclosures — Review Draft",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Service & Billing Disclosures — Review Draft | Webtellisense",
+        "twitter:description": "Review draft of approved Heroes prices, hosted payment, manual verification and personal onboarding; unresolved contract and refund decisions remain for approval.",
+        "twitter:image": "https://webtellisense.com/assets/img/heroes/business-owner.webp",
+        "twitter:image:alt": "Service & Billing Disclosures — Review Draft",
+        "og:image:width": "612",
+        "og:image:height": "323"
+      },
+      "share_before_missing": [],
+      "tracking": {
+        "page": "service-terms.html",
+        "pixel_ids": [],
+        "pageviews_per_destination": {},
+        "ga_ids": [],
+        "gtm_ids": []
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": false,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [],
+      "contextual_links": 0,
+      "operational_information_links": 2,
+      "incoming_prose_links": 0,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "service-terms.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 659896,
+          "localResourceBytes": 230236,
+          "brokenImages": [],
+          "forms": []
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "No active GA4/GTM",
+        "Noindex REVIEW DRAFT; owner/legal sign-off required"
+      ]
+    },
+    {
+      "page": "nigeria/solar.html",
+      "title": "Nigeria Solar Marketing Briefing | Webtellisense",
+      "description": "High-performance solar marketing and lead generation growth briefing for solar installers and inverter companies in Nigeria.",
+      "canonical": "https://webtellisense.com/nigeria/solar",
+      "indexable": true,
+      "sitemap": false,
+      "share": {
+        "og:title": "Nigeria Solar Marketing Briefing | Webtellisense",
+        "og:description": "High-performance solar marketing and lead generation growth briefing for solar installers and inverter companies in Nigeria.",
+        "og:url": "https://webtellisense.com/nigeria/solar",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/heroes/solar-work.webp",
+        "og:image:alt": "Nigeria Solar Marketing Briefing",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Nigeria Solar Marketing Briefing | Webtellisense",
+        "twitter:description": "High-performance solar marketing and lead generation growth briefing for solar installers and inverter companies in Nigeria.",
+        "twitter:image": "https://webtellisense.com/assets/img/heroes/solar-work.webp",
+        "twitter:image:alt": "Nigeria Solar Marketing Briefing",
+        "og:image:width": "612",
+        "og:image:height": "407"
+      },
+      "share_before_missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:image",
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ],
+      "tracking": {
+        "page": "nigeria/solar.html",
+        "pixel_ids": [],
+        "pageviews_per_destination": {},
+        "ga_ids": [],
+        "gtm_ids": []
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [],
+      "contextual_links": 0,
+      "operational_information_links": 0,
+      "incoming_prose_links": 0,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "nigeria/solar.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": true
+          },
+          {
+            "width": 390,
+            "overflow": true
+          },
+          {
+            "width": 768,
+            "overflow": true
+          },
+          {
+            "width": 1440,
+            "overflow": true
+          }
+        ],
+        "axe": [],
+        "cssBlocked": true,
+        "metrics": {
+          "htmlBytes": 48717,
+          "localResourceBytes": 2482238,
+          "brokenImages": [],
+          "forms": []
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "No active GA4/GTM",
+        "CDN Tailwind runtime blocked in controlled offline browser; hosted mobile check required",
+        "No prose contextual links; assess intentional campaign isolation before adding"
+      ]
+    },
+    {
+      "page": "bahamas/solar.html",
+      "title": "Bahamas Solar Marketing Briefing | Webtellisense",
+      "description": "A transparent solar marketing pricing and growth briefing for installers in Nassau, Freeport, Abaco, Exuma, and across The Bahamas.",
+      "canonical": "https://webtellisense.com/bahamas/solar",
+      "indexable": true,
+      "sitemap": false,
+      "share": {
+        "og:title": "Bahamas Solar Marketing Briefing | Webtellisense",
+        "og:description": "A transparent solar marketing pricing and growth briefing for installers in Nassau, Freeport, Abaco, Exuma, and across The Bahamas.",
+        "og:url": "https://webtellisense.com/bahamas/solar",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/heroes/solar-work.webp",
+        "og:image:alt": "Bahamas Solar Marketing Briefing",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Bahamas Solar Marketing Briefing | Webtellisense",
+        "twitter:description": "A transparent solar marketing pricing and growth briefing for installers in Nassau, Freeport, Abaco, Exuma, and across The Bahamas.",
+        "twitter:image": "https://webtellisense.com/assets/img/heroes/solar-work.webp",
+        "twitter:image:alt": "Bahamas Solar Marketing Briefing",
+        "og:image:width": "612",
+        "og:image:height": "407"
+      },
+      "share_before_missing": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:image",
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ],
+      "tracking": {
+        "page": "bahamas/solar.html",
+        "pixel_ids": [],
+        "pageviews_per_destination": {},
+        "ga_ids": [],
+        "gtm_ids": []
+      },
+      "measurement_module": false,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [],
+      "contextual_links": 0,
+      "operational_information_links": 0,
+      "incoming_prose_links": 0,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "bahamas/solar.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": true
+          },
+          {
+            "width": 390,
+            "overflow": true
+          },
+          {
+            "width": 768,
+            "overflow": true
+          },
+          {
+            "width": 1440,
+            "overflow": true
+          }
+        ],
+        "axe": [],
+        "cssBlocked": true,
+        "metrics": {
+          "htmlBytes": 39435,
+          "localResourceBytes": 2482238,
+          "brokenImages": [],
+          "forms": []
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "No active GA4/GTM",
+        "CDN Tailwind runtime blocked in controlled offline browser; hosted mobile check required",
+        "No prose contextual links; assess intentional campaign isolation before adding"
+      ]
+    }
+  ]
+}

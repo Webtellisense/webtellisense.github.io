@@ -914,6 +914,21 @@
   </style>
   <link rel="canonical" href="https://webtellisense.com/audit">
   <meta name="description" content="Explore a guided business self-assessment covering your website, local search, branding, social media, advertising and conversion paths.">
+<meta property="og:title" content="Digital Presence Audit | Webtellisense">
+<meta property="og:description" content="Explore a guided business self-assessment covering your website, local search, branding, social media, advertising and conversion paths.">
+<meta property="og:url" content="https://webtellisense.com/audit">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg">
+<meta property="og:image:alt" content="Digital Presence Audit">
+<meta property="og:site_name" content="Webtellisense">
+<meta property="og:locale" content="en_NG">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Digital Presence Audit | Webtellisense">
+<meta name="twitter:description" content="Explore a guided business self-assessment covering your website, local search, branding, social media, advertising and conversion paths.">
+<meta name="twitter:image" content="https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg">
+<meta name="twitter:image:alt" content="Digital Presence Audit">
+<meta property="og:image:width" content="6016">
+<meta property="og:image:height" content="4016">
 </head>
 
 <body>
@@ -964,7 +979,7 @@
         <div class="step-header">
           <div class="step-category" style="background:var(--teal-dim);color:var(--teal)">📋 Your Details</div>
           <h2 class="step-title">Let's start with your business</h2>
-          <p class="step-desc">We need a few basics so we can personalise your results.</p>
+          <p class="step-desc">We need a few basics so we can personalise your results.</p><p style="font-size:.8rem;color:#d7fff7">Read our <a href="/privacy-policy" style="color:inherit;text-decoration:underline">privacy information (draft)</a> before sharing details. Don’t include passwords or sensitive account information.</p>
         </div>
 
         <div class="field-grid">
@@ -1034,7 +1049,7 @@
 
         <div class="q-card" id="url-card" style="display:none">
           <div class="q-text">Enter your website URL so we can check if it's live</div>
-          <div class="q-sub">We'll ping it — only takes a second</div>
+          <div class="q-sub" style="color:#d7fff7">Optional: this sends your public website address to AllOrigins. Use a public homepage without private details, query parameters or access tokens.</div>
           <div class="url-row">
             <input class="q-input" id="f-url" type="text" placeholder="www.yourbusiness.com" style="flex:1" aria-label="Website URL" />
             <button class="ping-btn" onclick="pingWebsite()">Check it →</button>
@@ -1508,8 +1523,16 @@
     async function pingWebsite() {
       let url = document.getElementById('f-url').value.trim();
       if (!url) return;
-      if (!url.startsWith('http')) url = 'https://' + url;
       const el = document.getElementById('ping-result');
+      try {
+        const parsed = new URL(/^[a-z][a-z0-9+.-]*:/i.test(url) ? url : 'https://' + url);
+        if (!['http:', 'https:'].includes(parsed.protocol) || parsed.username || parsed.password || parsed.search || parsed.hash || !parsed.hostname.includes('.') || /(?:^|\.)(?:localhost|local|internal)$/.test(parsed.hostname)) throw new Error('Not a public homepage');
+        url = parsed.href;
+      } catch {
+        el.className = 'ping-result ping-error';
+        el.textContent = 'Use a public website address without passwords, query parameters or access tokens. No check was sent.';
+        return;
+      }
       el.className = 'ping-result ping-checking';
       el.textContent = 'Checking...';
       try {
@@ -1906,6 +1929,6 @@
       location.reload();
     }
   </script>
-</body>
+<nav aria-label="Privacy and service information" style="font-size:.8rem;line-height:1.7;padding:20px;display:flex;gap:20px;flex-wrap:wrap"><a href="/privacy-policy" style="text-decoration:underline;color:#d7fff7">Privacy information (draft)</a><a href="/service-terms" style="text-decoration:underline;color:#d7fff7">Service disclosures (draft)</a></nav></body>
 
 </html>

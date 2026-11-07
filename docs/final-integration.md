@@ -1,5 +1,7 @@
 # Final website integration and Heroes flagship
 
+> Historical integration checkpoint at `1a3941a`. The current PR #5 completion results, 45-page matrix, legal drafts, staged measurement and updated screenshots are in [completion-report.md](completion-report.md). Counts and unresolved placeholders below describe that earlier checkpoint.
+
 7 November 2026 · branch `feat/heroes-final-integration` · based on main `b639eeb`.
 
 This branch combines PR #3 at `eab6a23` and PR #4 at `1dab681`. The original PRs and main are unchanged. Draft integration PR: [#5](https://github.com/Webtellisense/webtellisense.github.io/pull/5). Local integration commits preserve both histories; no GitHub PR has been merged. No production deployment, production settings change, live payment or real customer-form submission was performed.

@@ -1,0 +1,285 @@
+{
+  "method": "Aspect-ratio-preserving WebP; no crop, no original mutation, existing full-size lightbox targets retained. Byte figures are file sizes, not a claim about LCP or cold-cache network metrics.",
+  "images": [
+    {
+      "source": "assets/img/team/team-0.jpg",
+      "derivative": "assets/img/optimized/team-team-0.webp",
+      "original_bytes": 5744984,
+      "derivative_bytes": 89590,
+      "original_dimensions": [
+        3024,
+        4032
+      ],
+      "derivative_dimensions": [
+        1200,
+        1600
+      ],
+      "references_updated": [
+        {
+          "page": "value-of-a-digital-agency.html",
+          "image_references": 1
+        },
+        {
+          "page": "about.html",
+          "image_references": 1
+        },
+        {
+          "page": "10-essential-tips-for-businesses-2025.html",
+          "image_references": 1
+        }
+      ],
+      "rights": "Same pre-existing use; no new client identity or license asserted. Original file unchanged."
+    },
+    {
+      "source": "assets/img/about.jpg",
+      "derivative": "assets/img/optimized/img-about.webp",
+      "original_bytes": 1823610,
+      "derivative_bytes": 136746,
+      "original_dimensions": [
+        7952,
+        5304
+      ],
+      "derivative_dimensions": [
+        1600,
+        1067
+      ],
+      "references_updated": [
+        {
+          "page": "about.html",
+          "image_references": 1
+        },
+        {
+          "page": "index.html",
+          "image_references": 1
+        },
+        {
+          "page": "indexxx.html",
+          "image_references": 1
+        }
+      ],
+      "rights": "Same pre-existing use; no new client identity or license asserted. Original file unchanged."
+    },
+    {
+      "source": "assets/img/hero-carousel/hero-carousel-01.jpg",
+      "derivative": "assets/img/optimized/hero-carousel-hero-carousel-01.webp",
+      "original_bytes": 1581593,
+      "derivative_bytes": 139754,
+      "original_dimensions": [
+        6016,
+        4016
+      ],
+      "derivative_dimensions": [
+        1600,
+        1068
+      ],
+      "references_updated": [
+        {
+          "page": "index.html",
+          "image_references": 1
+        },
+        {
+          "page": "indexxx.html",
+          "image_references": 1
+        }
+      ],
+      "rights": "Same pre-existing use; no new client identity or license asserted. Original file unchanged."
+    },
+    {
+      "source": "assets/img/hero-carousel/hero-carousel-02.jpg",
+      "derivative": "assets/img/optimized/hero-carousel-hero-carousel-02.webp",
+      "original_bytes": 2118320,
+      "derivative_bytes": 95952,
+      "original_dimensions": [
+        3840,
+        5760
+      ],
+      "derivative_dimensions": [
+        1067,
+        1600
+      ],
+      "references_updated": [
+        {
+          "page": "index.html",
+          "image_references": 1
+        }
+      ],
+      "rights": "Same pre-existing use; no new client identity or license asserted. Original file unchanged."
+    },
+    {
+      "source": "assets/img/hero-carousel/hero-carousel-03.jpg",
+      "derivative": "assets/img/optimized/hero-carousel-hero-carousel-03.webp",
+      "original_bytes": 1411855,
+      "derivative_bytes": 243630,
+      "original_dimensions": [
+        4928,
+        3264
+      ],
+      "derivative_dimensions": [
+        1600,
+        1060
+      ],
+      "references_updated": [
+        {
+          "page": "index.html",
+          "image_references": 1
+        }
+      ],
+      "rights": "Same pre-existing use; no new client identity or license asserted. Original file unchanged."
+    },
+    {
+      "source": "assets/img/blog/HTGYBO2026.jpg",
+      "derivative": "assets/img/optimized/blog-HTGYBO2026.webp",
+      "original_bytes": 1581041,
+      "derivative_bytes": 136924,
+      "original_dimensions": [
+        4000,
+        2670
+      ],
+      "derivative_dimensions": [
+        1600,
+        1068
+      ],
+      "references_updated": [
+        {
+          "page": "index.html",
+          "image_references": 1
+        },
+        {
+          "page": "indexxx.html",
+          "image_references": 1
+        },
+        {
+          "page": "blog.html",
+          "image_references": 1
+        }
+      ],
+      "rights": "Same pre-existing use; no new client identity or license asserted. Original file unchanged."
+    },
+    {
+      "source": "assets/img/blog/blog-02.jpg",
+      "derivative": "assets/img/optimized/blog-blog-02.webp",
+      "original_bytes": 1258327,
+      "derivative_bytes": 194162,
+      "original_dimensions": [
+        6000,
+        4000
+      ],
+      "derivative_dimensions": [
+        1600,
+        1067
+      ],
+      "references_updated": [
+        {
+          "page": "blog.html",
+          "image_references": 1
+        }
+      ],
+      "rights": "Same pre-existing use; no new client identity or license asserted. Original file unchanged."
+    },
+    {
+      "source": "assets/img/blog/blog-44.jpg",
+      "derivative": "assets/img/optimized/blog-blog-44.webp",
+      "original_bytes": 1224662,
+      "derivative_bytes": 121098,
+      "original_dimensions": [
+        3930,
+        5755
+      ],
+      "derivative_dimensions": [
+        1093,
+        1600
+      ],
+      "references_updated": [
+        {
+          "page": "top-features-for-a-school-website.html",
+          "image_references": 1
+        }
+      ],
+      "rights": "Same pre-existing use; no new client identity or license asserted. Original file unchanged."
+    },
+    {
+      "source": "assets/img/bootcamp-img-1.jpg",
+      "derivative": "assets/img/optimized/img-bootcamp-img-1.webp",
+      "original_bytes": 3792429,
+      "derivative_bytes": 146406,
+      "original_dimensions": [
+        6000,
+        3376
+      ],
+      "derivative_dimensions": [
+        1600,
+        900
+      ],
+      "references_updated": [
+        {
+          "page": "kids-holiday-uyo.html",
+          "image_references": 1
+        }
+      ],
+      "rights": "Same pre-existing use; no new client identity or license asserted. Original file unchanged."
+    },
+    {
+      "source": "assets/img/lp-img-hero.png",
+      "derivative": "assets/img/optimized/img-lp-img-hero.webp",
+      "original_bytes": 1588205,
+      "derivative_bytes": 101878,
+      "original_dimensions": [
+        1408,
+        768
+      ],
+      "derivative_dimensions": [
+        1408,
+        768
+      ],
+      "references_updated": [
+        {
+          "page": "solar.html",
+          "image_references": 1
+        }
+      ],
+      "rights": "Same pre-existing use; no new client identity or license asserted. Original file unchanged."
+    },
+    {
+      "source": "assets/img/lp-why-img.png",
+      "derivative": "assets/img/optimized/img-lp-why-img.webp",
+      "original_bytes": 1479024,
+      "derivative_bytes": 99174,
+      "original_dimensions": [
+        1408,
+        768
+      ],
+      "derivative_dimensions": [
+        1408,
+        768
+      ],
+      "references_updated": [
+        {
+          "page": "solar.html",
+          "image_references": 1
+        }
+      ],
+      "rights": "Same pre-existing use; no new client identity or license asserted. Original file unchanged."
+    },
+    {
+      "source": "assets/img/portfolio/desgins-4.png",
+      "derivative": "assets/img/optimized/portfolio-desgins-4.webp",
+      "original_bytes": 1646291,
+      "derivative_bytes": 333338,
+      "original_dimensions": [
+        2206,
+        2294
+      ],
+      "derivative_dimensions": [
+        1539,
+        1600
+      ],
+      "references_updated": [
+        {
+          "page": "index.html",
+          "image_references": 1
+        }
+      ],
+      "rights": "Same pre-existing use; no new client identity or license asserted. Original file unchanged."
+    }
+  ]
+}

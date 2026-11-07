@@ -118,10 +118,13 @@ test("new flow has no legacy checkout links, verification backend, keys, databas
   );
 });
 test("integrated shared fixes and original photographic assets remain intact", () => {
-  for (const file of ["assets/js/main.js","assets/css/main.css","assets/js/theme-toggle.js","assets/vendor/php-email-form/validate.js","audit.html"]) {
+  for (const file of ["assets/js/main.js","assets/css/main.css","assets/js/theme-toggle.js","assets/vendor/php-email-form/validate.js"]) {
     const before = execFileSync("git",["show",`1dab681:${file}`]);
     assert.deepEqual(fs.readFileSync(file),before,file);
   }
+  const scripts = html => [...html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/gi)].filter(m=>!m[1].includes("application/ld")).map(m=>m[2]);
+  const withoutPing = blocks => blocks.map(s=>s.replace(/async function pingWebsite\(\) \{[\s\S]*?\n    \}/,"async function pingWebsite() { reviewedPublicURLGuard(); }"));
+  assert.deepEqual(withoutPing(scripts(fs.readFileSync("audit.html","utf8"))),withoutPing(scripts(execFileSync("git",["show","1dab681:audit.html"],{encoding:"utf8"}))),"Audit scoring/rendering remains intact; optional URL proxy now rejects credential-bearing URLs");
   const images = execFileSync("git",["ls-tree","-r","--name-only","1dab681","assets/img"],{encoding:"utf8"}).trim().split("\n");
   for (const file of images) assert.deepEqual(fs.readFileSync(file),execFileSync("git",["show",`1dab681:${file}`],{maxBuffer:20*1024*1024}),file);
 });

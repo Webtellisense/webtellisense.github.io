@@ -1,0 +1,2103 @@
+{
+  "method": "Local Chromium; providers/writes blocked. Layout at 320/390/768/1440; WCAG axe run with disclosures open. Not Lighthouse, legal certification or provider delivery validation.",
+  "totals": {
+    "pages": 45,
+    "pageErrors": 0,
+    "localBrokenImages": 0,
+    "axeNodes": 75,
+    "externalBlocked": 212,
+    "providerSubmissions": 0
+  },
+  "pages": [
+    {
+      "page": "construction-property-marketing.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 662588,
+        "localResourceBytes": 334254,
+        "brokenImages": [],
+        "forms": []
+      }
+    },
+    {
+      "page": "freeguide.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 672182,
+        "localResourceBytes": 7854,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "lead-magnet",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "welcome.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 656290,
+        "localResourceBytes": 110161,
+        "brokenImages": [],
+        "forms": []
+      }
+    },
+    {
+      "page": "business-not-showing-up-online.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 680211,
+        "localResourceBytes": 1263670,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "value-of-a-digital-agency.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 671833,
+        "localResourceBytes": 1596775,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "education-marketing.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 662209,
+        "localResourceBytes": 409288,
+        "brokenImages": [],
+        "forms": []
+      }
+    },
+    {
+      "page": "roadmap.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 694228,
+        "localResourceBytes": 0,
+        "brokenImages": [],
+        "forms": []
+      }
+    },
+    {
+      "page": "ppc.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".col-md-4:nth-child(1) > .pricing-card > div > .feature-list-items > li:nth-child(8) > i:nth-child(2)"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.53 (foreground color: #10b981, background color: #ffffff, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".featured > div > .feature-list-items > li:nth-child(8) > i:nth-child(2)"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.53 (foreground color: #10b981, background color: #ffffff, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".col-md-4:nth-child(3) > .pricing-card > div > .feature-list-items > li:nth-child(8) > i:nth-child(2)"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.53 (foreground color: #10b981, background color: #ffffff, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 696562,
+        "localResourceBytes": 1073494,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "packages.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".one-time"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.53 (foreground color: #ffffff, background color: #10b981, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "article[data-category=\"ads\"]:nth-child(2) > .wt-pkg-thumb > .retainer.wt-pkg-badge-model"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.67 (foreground color: #ffffff, background color: #3b82f6, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "article[data-category=\"web-seo\"]:nth-child(3) > .wt-pkg-thumb > .retainer.wt-pkg-badge-model"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.67 (foreground color: #ffffff, background color: #3b82f6, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "article[data-category=\"social\"] > .wt-pkg-thumb > .retainer.wt-pkg-badge-model"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.67 (foreground color: #ffffff, background color: #3b82f6, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "article[data-category=\"web-seo\"]:nth-child(5) > .wt-pkg-thumb > .hybrid.wt-pkg-badge-model"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #ffffff, background color: #8b5cf6, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "article[data-category=\"ads\"]:nth-child(6) > .wt-pkg-thumb > .hybrid.wt-pkg-badge-model"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #ffffff, background color: #8b5cf6, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "#price-cashflow"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.53 (foreground color: #10b981, background color: #ffffff, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "article[data-category=\"ads\"]:nth-child(6) > .wt-pkg-footer > .wt-pkg-btn-buy"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.53 (foreground color: #ffffff, background color: #10b981, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "#heroes-full > .wt-pkg-thumb > .retainer.wt-pkg-badge-model"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.67 (foreground color: #ffffff, background color: #3b82f6, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "#price-heroes"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.18 (foreground color: #d97706, background color: #ffffff, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "#price-heroes > small"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.18 (foreground color: #d97706, background color: #ffffff, font size: 11.5pt (15.4px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "#heroes-full > .wt-pkg-footer > .wt-pkg-btn-buy"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.18 (foreground color: #ffffff, background color: #d97706, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "#heroes > .container > .section-header > .eyebrow"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.69 (foreground color: #0033ff, background color: #01033e, font size: 8.6pt (11.52px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".tier-card:nth-child(1) > .tier-badge"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.53 (foreground color: #555555, background color: #111111, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".tier-card:nth-child(1) > .tier-subtitle"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.28 (foreground color: #666666, background color: #111111, font size: 9.8pt (13.12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "ul[aria-label=\"Heroes V1 includes\"] > li:nth-child(1)"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.21 (foreground color: #777777, background color: #111111, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "ul[aria-label=\"Heroes V1 includes\"] > li:nth-child(2)"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.21 (foreground color: #777777, background color: #111111, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "ul[aria-label=\"Heroes V1 includes\"] > li:nth-child(3)"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.21 (foreground color: #777777, background color: #111111, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "ul[aria-label=\"Heroes V1 includes\"] > li:nth-child(4)"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.21 (foreground color: #777777, background color: #111111, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "ul[aria-label=\"Heroes V1 includes\"] > li:nth-child(5)"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.21 (foreground color: #777777, background color: #111111, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".featured > .tier-badge"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.13 (foreground color: #b3c2ff, background color: #0033ff, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".tier-card:nth-child(3) > .tier-badge"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.53 (foreground color: #555555, background color: #111111, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".tier-card:nth-child(3) > .tier-subtitle"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.28 (foreground color: #666666, background color: #111111, font size: 9.8pt (13.12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "ul[aria-label=\"Heroes V3 includes\"] > li:nth-child(1)"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.21 (foreground color: #777777, background color: #111111, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "ul[aria-label=\"Heroes V3 includes\"] > li:nth-child(2)"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.21 (foreground color: #777777, background color: #111111, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "ul[aria-label=\"Heroes V3 includes\"] > li:nth-child(3)"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.21 (foreground color: #777777, background color: #111111, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "ul[aria-label=\"Heroes V3 includes\"] > li:nth-child(4)"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.21 (foreground color: #777777, background color: #111111, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "ul[aria-label=\"Heroes V3 includes\"] > li:nth-child(5)"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.21 (foreground color: #777777, background color: #111111, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 731149,
+        "localResourceBytes": 1286383,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "",
+            "action": null,
+            "hasPrivacyLink": true
+          },
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "blog-details.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 671707,
+        "localResourceBytes": 1020869,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "",
+            "action": "forms/newsletter.php",
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "about.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 679508,
+        "localResourceBytes": 3977083,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "content-marketing.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 689578,
+        "localResourceBytes": 1073494,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "index.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 718695,
+        "localResourceBytes": 6676100,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "social-media-management.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 681972,
+        "localResourceBytes": 1073494,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "indexxx.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 702096,
+        "localResourceBytes": 5429571,
+        "brokenImages": [],
+        "forms": []
+      }
+    },
+    {
+      "page": "google-business-profile.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 680830,
+        "localResourceBytes": 1073494,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "blog.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 675600,
+        "localResourceBytes": 2375296,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "web-design.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 681165,
+        "localResourceBytes": 1073494,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "solar-and-home-services-marketing.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 662411,
+        "localResourceBytes": 310786,
+        "brokenImages": [],
+        "forms": []
+      }
+    },
+    {
+      "page": "heroes.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 684697,
+        "localResourceBytes": 467492,
+        "brokenImages": [],
+        "forms": []
+      }
+    },
+    {
+      "page": "audit.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".hero-eyebrow"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.22 (foreground color: #00c9a7, background color: #095349, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".hero > p"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.16 (foreground color: #79a1a1, background color: #095349, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".stat:nth-child(1) > .stat-label"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.16 (foreground color: #79a1a1, background color: #095349, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".stat:nth-child(2) > .stat-label"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.16 (foreground color: #79a1a1, background color: #095349, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".stat:nth-child(3) > .stat-label"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.16 (foreground color: #79a1a1, background color: #095349, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "#step-0 > .step-header > .step-category"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.31 (foreground color: #00c3a2, background color: #086054, font size: 8.3pt (11px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "#step-0 > .step-header > .step-desc"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.99 (foreground color: #729d9c, background color: #095349, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".field-grid:nth-child(2) > .field:nth-child(1) > label"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.99 (foreground color: #729d9c, background color: #095349, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".field-grid:nth-child(2) > .field:nth-child(2) > label"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.99 (foreground color: #729d9c, background color: #095349, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".field-grid:nth-child(3) > .field:nth-child(1) > label"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.99 (foreground color: #729d9c, background color: #095349, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".field-grid:nth-child(3) > .field:nth-child(2) > label"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.99 (foreground color: #729d9c, background color: #095349, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".field-full > label"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.99 (foreground color: #729d9c, background color: #095349, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "div[data-val=\"Food & Drinks\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.85 (foreground color: #769f9e, background color: #10584e, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "div[data-val=\"Retail / Shop\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.85 (foreground color: #769f9e, background color: #10584e, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "div[data-val=\"Fashion & Beauty\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.85 (foreground color: #769f9e, background color: #10584e, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "div[data-val=\"Healthcare\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.85 (foreground color: #769f9e, background color: #10584e, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "div[data-val=\"Education / Training\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.85 (foreground color: #769f9e, background color: #10584e, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "div[data-val=\"Logistics & Delivery\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.85 (foreground color: #769f9e, background color: #10584e, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "div[data-val=\"Events & Hospitality\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.85 (foreground color: #769f9e, background color: #10584e, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "div[data-val=\"Professional Services\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.85 (foreground color: #769f9e, background color: #10584e, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "div[data-val=\"Construction / Real Estate\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.85 (foreground color: #769f9e, background color: #10584e, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "div[data-val=\"Church / Ministry\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.85 (foreground color: #769f9e, background color: #10584e, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "div[data-val=\"Other\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.85 (foreground color: #769f9e, background color: #10584e, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "button[onclick=\"startAudit()\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.62 (foreground color: #09594e, background color: #01c2a2, font size: 11.3pt (15px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 731880,
+        "localResourceBytes": 0,
+        "brokenImages": [],
+        "forms": []
+      }
+    },
+    {
+      "page": "graphics-design.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 681501,
+        "localResourceBytes": 1073494,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "webtellisense-solar-landing.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 695168,
+        "localResourceBytes": 0,
+        "brokenImages": [],
+        "forms": []
+      }
+    },
+    {
+      "page": "privacy-policy.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 665471,
+        "localResourceBytes": 230236,
+        "brokenImages": [],
+        "forms": []
+      }
+    },
+    {
+      "page": "faq.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 674101,
+        "localResourceBytes": 1073494,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "contact.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 669774,
+        "localResourceBytes": 1130298,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "ref: <Node>",
+            "action": "forms/contact.php",
+            "hasPrivacyLink": true
+          },
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "email-marketing.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 688443,
+        "localResourceBytes": 1073494,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "10-essential-tips-for-businesses-2025.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 673954,
+        "localResourceBytes": 1800418,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "how-to-grow-your-business-online-2026.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".cta-block > .btn"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.69 (foreground color: #01033e, background color: #0033ff, font size: 10.9pt (14.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".av"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.69 (foreground color: #01033e, background color: #0033ff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 688326,
+        "localResourceBytes": 1130298,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "branding.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 682406,
+        "localResourceBytes": 1073494,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "social-media-marketing.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".col-md-4:nth-child(1) > .pricing-card > div > .feature-list-items > li:nth-child(8) > i:nth-child(2)"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.53 (foreground color: #10b981, background color: #ffffff, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".featured > div > .feature-list-items > li:nth-child(8) > i:nth-child(2)"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.53 (foreground color: #10b981, background color: #ffffff, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".col-md-4:nth-child(3) > .pricing-card > div > .feature-list-items > li:nth-child(8) > i:nth-child(2)"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.53 (foreground color: #10b981, background color: #ffffff, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 688785,
+        "localResourceBytes": 1073494,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "kids-holiday-uyo.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".kh-cta-btn"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.72 (foreground color: #ffffff, background color: #fe7400, font size: 12.6pt (16.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".metric-card:nth-child(1) > .metric-label"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.77 (foreground color: #bac8ff, background color: #1a47ff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".metric-card:nth-child(2) > .metric-label"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.77 (foreground color: #bac8ff, background color: #1a47ff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".metric-card:nth-child(3) > .metric-label"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.77 (foreground color: #bac8ff, background color: #1a47ff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".metric-card:nth-child(4) > .metric-label"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.77 (foreground color: #bac8ff, background color: #1a47ff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".details-bottom-panel > .metric-label"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.77 (foreground color: #bac8ff, background color: #1a47ff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".banner-register-btn"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.72 (foreground color: #ffffff, background color: #fe7400, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "button"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.72 (foreground color: #ffffff, background color: #fe7400, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 686262,
+        "localResourceBytes": 1887621,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "",
+            "action": null,
+            "hasPrivacyLink": true
+          },
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "industries.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 660715,
+        "localResourceBytes": 290172,
+        "brokenImages": [],
+        "forms": []
+      }
+    },
+    {
+      "page": "heroes-welcome.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 665474,
+        "localResourceBytes": 351832,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "heroes-business-profile",
+            "action": "/heroes-profile-received",
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "heroes-profile-received.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 657242,
+        "localResourceBytes": 243422,
+        "brokenImages": [],
+        "forms": []
+      }
+    },
+    {
+      "page": "business-audit-tool.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 670923,
+        "localResourceBytes": 1477885,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "top-features-for-a-school-website.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 677045,
+        "localResourceBytes": 1375082,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "heroes-start.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 660699,
+        "localResourceBytes": 286606,
+        "brokenImages": [],
+        "forms": []
+      }
+    },
+    {
+      "page": "conversion-rate-optimization.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 688401,
+        "localResourceBytes": 1073494,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "solar.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                "#gaugeValue"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.32 (foreground color: #0033ff, background color: #0a1060, font size: 27.0pt (36px), font weight: bold). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": [
+                ".p-card:nth-child(1) > .p-step"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.51 (foreground color: #0033ff, background color: #070a4d, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".p-card:nth-child(2) > .p-step"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.51 (foreground color: #0033ff, background color: #070a4d, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".p-card:nth-child(3) > .p-step"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.51 (foreground color: #0033ff, background color: #070a4d, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".p-card:nth-child(4) > .p-step"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.51 (foreground color: #0033ff, background color: #070a4d, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 717170,
+        "localResourceBytes": 1101620,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "pricing.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".popular"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.07 (foreground color: #000000, background color: #0331b0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".featured > .cta-btn[href$=\"contact.html\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.07 (foreground color: #000000, background color: #0331b0, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 671266,
+        "localResourceBytes": 1073494,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "reviews.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 672529,
+        "localResourceBytes": 1073494,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "service-terms.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 659896,
+        "localResourceBytes": 230236,
+        "brokenImages": [],
+        "forms": []
+      }
+    },
+    {
+      "page": "nigeria/solar.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": true
+        },
+        {
+          "width": 390,
+          "overflow": true
+        },
+        {
+          "width": 768,
+          "overflow": true
+        },
+        {
+          "width": 1440,
+          "overflow": true
+        }
+      ],
+      "axe": [],
+      "cssBlocked": true,
+      "metrics": {
+        "htmlBytes": 48717,
+        "localResourceBytes": 2482238,
+        "brokenImages": [],
+        "forms": []
+      }
+    },
+    {
+      "page": "bahamas/solar.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": true
+        },
+        {
+          "width": 390,
+          "overflow": true
+        },
+        {
+          "width": 768,
+          "overflow": true
+        },
+        {
+          "width": 1440,
+          "overflow": true
+        }
+      ],
+      "axe": [],
+      "cssBlocked": true,
+      "metrics": {
+        "htmlBytes": 39435,
+        "localResourceBytes": 2482238,
+        "brokenImages": [],
+        "forms": []
+      }
+    }
+  ]
+}

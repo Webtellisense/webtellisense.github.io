@@ -6,7 +6,9 @@
     "test": "node --test tests/*.test.cjs",
     "test:browser": "node tests/site.browser.cjs",
     "test:heroes": "node tests/heroes.browser.cjs",
-    "test:links": "node tests/contextual-links.browser.cjs"
+    "test:links": "node tests/contextual-links.browser.cjs",
+    "test:completion": "node tests/completion.browser.cjs",
+    "test:measurement": "node tests/measurement.browser.cjs"
   },
   "engines": {
     "node": ">=22"
