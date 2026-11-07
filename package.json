@@ -1,0 +1,15 @@
+{
+  "name": "webtellisense-heroes-static",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build-static.cjs",
+    "test": "node --test tests/*.test.cjs",
+    "test:browser": "node tests/heroes.browser.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "playwright": "^1.65.0"
+  }
+}
