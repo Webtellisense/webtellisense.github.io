@@ -912,6 +912,8 @@
       }
     }
   </style>
+  <link rel="canonical" href="https://webtellisense.com/audit">
+  <meta name="description" content="Explore a guided business self-assessment covering your website, local search, branding, social media, advertising and conversion paths.">
 </head>
 
 <body>
@@ -968,22 +970,22 @@
         <div class="field-grid">
           <div class="field">
             <label class="field-label">Business Name<span class="field-req">*</span></label>
-            <input class="q-input" id="f-name" type="text" placeholder="e.g. Mama Cee's Kitchen" />
+            <input class="q-input" id="f-name" type="text" placeholder="e.g. Mama Cee's Kitchen" aria-label="Business name" />
           </div>
           <div class="field">
             <label class="field-label">City / Location<span class="field-req">*</span></label>
-            <input class="q-input" id="f-city" type="text" placeholder="e.g. Eket, Akwa Ibom" />
+            <input class="q-input" id="f-city" type="text" placeholder="e.g. Eket, Akwa Ibom" aria-label="City" />
           </div>
         </div>
 
         <div class="field-grid">
           <div class="field">
             <label class="field-label">Your Name<span class="field-req">*</span></label>
-            <input class="q-input" id="f-contact" type="text" placeholder="First name is fine" />
+            <input class="q-input" id="f-contact" type="text" placeholder="First name is fine" aria-label="Contact name" />
           </div>
           <div class="field">
             <label class="field-label">Email Address<span class="field-req">*</span></label>
-            <input class="q-input" id="f-email" type="email" placeholder="you@yourbusiness.com" />
+            <input class="q-input" id="f-email" type="email" placeholder="you@yourbusiness.com" aria-label="Email address" />
           </div>
         </div>
 
@@ -1034,7 +1036,7 @@
           <div class="q-text">Enter your website URL so we can check if it's live</div>
           <div class="q-sub">We'll ping it — only takes a second</div>
           <div class="url-row">
-            <input class="q-input" id="f-url" type="text" placeholder="www.yourbusiness.com" style="flex:1" />
+            <input class="q-input" id="f-url" type="text" placeholder="www.yourbusiness.com" style="flex:1" aria-label="Website URL" />
             <button class="ping-btn" onclick="pingWebsite()">Check it →</button>
           </div>
           <div class="ping-result" id="ping-result"></div>
@@ -1491,6 +1493,17 @@
       });
     });
 
+    document.querySelectorAll('.opt').forEach(option => {
+      option.setAttribute('role', 'button');
+      option.setAttribute('tabindex', '0');
+      const sync = () => option.setAttribute('aria-pressed', String(option.classList.contains('selected')));
+      sync();
+      option.addEventListener('keydown', event => {
+        if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); option.click(); }
+      });
+      option.addEventListener('click', () => queueMicrotask(() => document.querySelectorAll('.opt').forEach(el => el.setAttribute('aria-pressed', String(el.classList.contains('selected'))))));
+    });
+
     // ── WEBSITE PING ─────────────────────────────────────────────
     async function pingWebsite() {
       let url = document.getElementById('f-url').value.trim();
@@ -1753,7 +1766,7 @@
         </div>
         <div class="score-info">
           <div class="tier-pill" style="background:${tier.bg};color:${tier.color}">${tier.label}</div>
-          <div class="result-name">${name}</div>
+          <div class="result-name"><span data-audit-name></span></div>
           <div class="tier-message">${tier.message}</div>
         </div>
       </div>
@@ -1771,7 +1784,7 @@
 
       <div class="summary-box">
         <p>
-          ${name} in ${city} — here's the honest picture. ${scored.filter(c => c.score / c.max < 0.4).length > 0
+          <span data-audit-name></span> in <span data-audit-city></span> — here's the honest picture. ${scored.filter(c => c.score / c.max < 0.4).length > 0
           ? `There are ${scored.filter(c => c.score / c.max < 0.4).length} areas scoring below 40% — these are the ones costing you customers right now.`
           : `Your foundation is solid across most areas.`}
           The priorities above are ranked by impact. Start with number one, get it right, then move to the next.
@@ -1785,17 +1798,22 @@
           Book a Free 15-Min Consultation →
         </a>
         <div class="cta-row2">
-          <button class="btn-share" onclick="copyShare('${shareText.replace(/'/g, "\\'")}')">Share My Score</button>
+          <button class="btn-share" id="audit-share-button" type="button">Share My Score</button>
           <button class="btn-restart" onclick="restartAudit()">Audit Another Business</button>
         </div>
       </div>
 
       <div class="submit-notice">
-        <strong>Your results have been saved.</strong><br/>
-        A summary has been sent to <strong>${businessData.email}</strong> — we may reach out with personalised recommendations within 24–48 hours.
+        <strong>Your results are ready to review here.</strong><br/>
+        Use Share My Score to keep a copy, or start a conversation with us on WhatsApp.
       </div>
 
     </div>`;
+
+      const results = document.getElementById('step-results');
+      results.querySelectorAll('[data-audit-name]').forEach(el => { el.textContent = name; });
+      results.querySelectorAll('[data-audit-city]').forEach(el => { el.textContent = city; });
+      results.querySelector('#audit-share-button').addEventListener('click', () => copyShare(shareText));
 
       // Animate score ring and counter
       setTimeout(() => {
@@ -1873,7 +1891,8 @@
 
     // ── SHARE & RESTART ───────────────────────────────────────────
     function copyShare(text) {
-      navigator.clipboard.writeText(text).then(() => showToast('✓ Copied! Paste it into WhatsApp.'));
+      if (!navigator.clipboard) { showToast('Copy is unavailable here. You can select and copy your score.'); return; }
+      navigator.clipboard.writeText(text).then(() => showToast('✓ Copied! Paste it into WhatsApp.')).catch(() => showToast('Could not copy. You can select and copy your score.'));
     }
 
     function showToast(msg) {

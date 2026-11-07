@@ -1,0 +1,78 @@
+--- a/packages.html
++++ b/packages.html
+@@ -1425,17 +1425,9 @@
+                     ]
+                 },
+                 callback: function (response) {
+-                    // Payment Successful! Pass details to protected gate page
+-                    const sessionToken = btoa(JSON.stringify({
+-                        ref: response.reference,
+-                        email: clientEmail,
+-                        name: clientName,
+-                        phone: clientPhone,
+-                        pkg: currentCart.packageName,
+-                        tier: currentCart.tier
+-                    }));
+-
+-                    window.location.href = `/welcome.html?session_id=${sessionToken}`;
++                    // A browser callback is not authoritative payment verification.
++                    // Personal activation requires a staff check in Paystack.
++                    window.location.href = '/welcome.html';
+                 },
+                 onClose: function () {
+                     alert('Transaction was cancelled.');
+--- a/welcome.html
++++ b/welcome.html
+@@ -25,11 +25,11 @@
+     </div>
+ 
+     <!-- Verified Client View -->
+-    <div id="client-onboarding-view" style="display:none;">
++    <div id="client-onboarding-view">
+       <div class="welcome-header">
+-        <span class="welcome-badge">✓ Payment Confirmed</span>
+-        <h1 class="mt-3">Welcome Aboard, <span id="client-first-name">Partner</span>! 🎉</h1>
+-        <p>Let's kick off your project immediately. Please complete the quick onboarding form below so our technical team can start work.</p>
++        <span class="welcome-badge">Payment check pending</span>
++        <h1 class="mt-3">Let’s confirm your next steps.</h1>
++        <p>Paystack handles the payment. Our team will check the transaction directly in Paystack before confirming service activation. You may share your onboarding details below; a form submission does not verify payment. For help, call +234 707 584 8564 or email webtellisense@gmail.com.</p>
+       </div>
+ 
+       <!-- Embedded Interactive Questionnaire (Tally / Typeform) -->
+@@ -37,34 +37,6 @@
+     </div>
+   </div>
+ 
+-  <script>
+-    // URL Session Validation Security Script
+-    window.addEventListener('DOMContentLoaded', () => {
+-      const urlParams = new URLSearchParams(window.location.search);
+-      const sessionId = urlParams.get('session_id');
+-
+-      if (!sessionId) {
+-        document.getElementById('unauthorized-msg').style.display = 'block';
+-        return;
+-      }
+-
+-      try {
+-        const decodedData = JSON.parse(atob(sessionId));
+-        
+-        if (decodedData.ref && decodedData.name) {
+-          document.getElementById('client-onboarding-view').style.display = 'block';
+-          document.getElementById('client-first-name').innerText = decodedData.name.split(' ')[0];
+-          
+-          // Optionally pass parameters to embedded questionnaire URL
+-          const frame = document.getElementById('tally-onboarding-frame');
+-          frame.src = `https://tally.so/r/3yD4kx?name=${encodeURIComponent(decodedData.name)}&email=${encodeURIComponent(decodedData.email)}&pkg=${encodeURIComponent(decodedData.pkg)}`;
+-        } else {
+-          document.getElementById('unauthorized-msg').style.display = 'block';
+-        }
+-      } catch (e) {
+-        document.getElementById('unauthorized-msg').style.display = 'block';
+-      }
+-    });
+-  </script>
++  <!-- No URL token or browser callback is treated as paid status. -->
+ </body>
+ </html>
+\ No newline at end of file

@@ -1,0 +1,1989 @@
+{
+  "method": "Static checks with Netlify Pretty URL alias resolution; no live provider validation. Unlabelled fields are candidates, not a WCAG verdict.",
+  "counts": {
+    "canonical_defective_pages": 33,
+    "description_defective_pages": 10,
+    "h1_defective_pages": 2,
+    "duplicate_pixel_destination_pageviews": 4,
+    "untitled_iframes": 7,
+    "unresolved_legal_links": 33,
+    "unlabelled_field_candidates": 47,
+    "invalid_jsonld_blocks": 1,
+    "title_defective_pages": 1,
+    "missing_form_backend_references": 2,
+    "ga_gtm_overlap_pages": 2,
+    "schema_mime_errors": 1,
+    "duplicate_description_pages": 3,
+    "html_pages": 36,
+    "broken_file_references": 93,
+    "broken_fragment_references": 28,
+    "sitemap_duplicate_urls": 1,
+    "sitemap_missing_routes": 1
+  },
+  "pages": [
+    {
+      "page": "freeguide.html",
+      "indexable": true,
+      "canonical": [],
+      "descriptions": [
+        "Get your free 42-point online presence checklist designed specifically for Nigerian business owners. Transform your business visibility and attract more customers online.",
+        "Webtellisense: Eket, Akwa Ibom, Nigeria's leading digital agency for fast, affordable & high-converting websites. Web design, SEO & branding that grows your business."
+      ],
+      "titles": [
+        "Free Online Presence Checklist - Transform Your Business Online | Webtellisense | Eket, Akwa Ibom, Nigeria's\n        Top Web Design &\n        Digital Marketing Agency"
+      ],
+      "h1_count": 1
+    },
+    {
+      "page": "welcome.html",
+      "indexable": false,
+      "canonical": [],
+      "descriptions": [],
+      "titles": [
+        "Welcome to Webtellisense | Immediate Onboarding"
+      ],
+      "h1_count": 1
+    },
+    {
+      "page": "business-not-showing-up-online.html",
+      "indexable": true,
+      "canonical": [],
+      "descriptions": [
+        "Discover the real reasons your business isn't showing up online and learn practical steps to improve your visibility on Google and attract more customers."
+      ],
+      "titles": [
+        "Why Your Business Isn't Showing Up Online (Even Though You Have a Facebook Page) | Webtellisense"
+      ],
+      "h1_count": 1
+    },
+    {
+      "page": "value-of-a-digital-agency.html",
+      "indexable": true,
+      "canonical": [
+        "https://webtellisense.com"
+      ],
+      "descriptions": [
+        ""
+      ],
+      "titles": [
+        "The Value of a Trusted Digital Agency | Webtellisense Nigeria"
+      ],
+      "h1_count": 1
+    },
+    {
+      "page": "roadmap.html",
+      "indexable": true,
+      "canonical": [],
+      "descriptions": [],
+      "titles": [
+        "Webtellisense | 12-Month Interactive Roadmap"
+      ],
+      "h1_count": 1
+    },
+    {
+      "page": "ppc.html",
+      "indexable": true,
+      "canonical": [
+        "https://webtellisense.com/ppc.html"
+      ],
+      "descriptions": [
+        "Get immediate customer phone calls and sales with expert Google Ads management. Perfect for businesses in Lagos, Uyo, Eket, and all over Nigeria."
+      ],
+      "titles": [
+        "Google Ads & Pay-Per-Click (PPC) Advertising Nigeria - Webtellisense"
+      ],
+      "h1_count": 1
+    },
+    {
+      "page": "packages.html",
+      "indexable": true,
+      "canonical": [
+        "https://webtellisense.com"
+      ],
+      "descriptions": [
+        "Compare website, SEO, ads, and full-service growth packages. Pick the plan that fits your business and start getting found online."
+      ],
+      "titles": [
+        "Digital Marketing Packages for Nigerian SMEs | Webtellisense"
+      ],
+      "h1_count": 1
+    },
+    {
+      "page": "blog-details.html",
+      "indexable": true,
+      "canonical": [],
+      "descriptions": [
+        ""
+      ],
+      "titles": [
+        "Blog Details - Company Bootstrap Template"
+      ],
+      "h1_count": 2
+    },
+    {
+      "page": "about.html",
+      "indexable": true,
+      "canonical": [
+        "https://webtellisense.com/about"
+      ],
+      "descriptions": [
+        "Meet the passionate team behind Webtellisense. We’re Eket’s top-rated web agency, specializing in custom websites, SEO, and digital growth strategies since 2024."
+      ],
+      "titles": [
+        "About Webtellisense | Eket’s Trusted Web Design Team"
+      ],
+      "h1_count": 1
+    },
+    {
+      "page": "content-marketing.html",
+      "indexable": true,
+      "canonical": [],
+      "descriptions": [
+        "Stop chasing customers with annoying sales pitches. Publish expert guides, blogs, and articles that answer client questions and bring ready-to-buy leads to your business."
+      ],
+      "titles": [
+        "Professional Content Marketing Services Nigeria - Webtellisense"
+      ],
+      "h1_count": 1
+    },
+    {
+      "page": "index.html",
+      "indexable": true,
+      "canonical": [
+        "https://webtellisense.com"
+      ],
+      "descriptions": [
+        "Webtellisense: Eket, Akwa Ibom, Nigeria's leading digital agency for fast, affordable & high-converting websites. Web design, SEO & branding that grows your business."
+      ],
+      "titles": [
+        "Webtellisense | Eket’s Top Web Design & Digital Marketing Agency"
+      ],
+      "h1_count": 1
+    },
+    {
+      "page": "social-media-management.html",
+      "indexable": true,
+      "canonical": [
+        "https://webtellisense.com"
+      ],
+      "descriptions": [
+        "Keep your Facebook and Instagram pages active, beautiful, and growing while you focus on running your business. Packages for small businesses in Uyo, Eket, and nationwide."
+      ],
+      "titles": [
+        "Social Media Management Services Nigeria - Webtellisense"
+      ],
+      "h1_count": 1
+    },
+    {
+      "page": "indexxx.html",
+      "indexable": true,
+      "canonical": [
+        "https://webtellisense.com"
+      ],
+      "descriptions": [
+        "Webtellisense builds websites, brands, and marketing systems for Nigerian SMEs — with a specialist track for solar installers. Based in Eket, Akwa Ibom."
+      ],
+      "titles": [
+        "Webtellisense | Eket's Digital Growth Partner for Nigerian SMEs"
+      ],
+      "h1_count": 1
+    },
+    {
+      "page": "google-business-profile.html",
+      "indexable": true,
+      "canonical": [],
+      "descriptions": [
+        "Rank higher on Google Maps in Uyo, Eket, and across Nigeria. We optimize your Google Business Profile to turn local searches into real customers."
+      ],
+      "titles": [
+        "Google Business Profile & Local SEO in Nigeria | Webtellisense"
+      ],
+      "h1_count": 1
+    },
+    {
+      "page": "blog.html",
+      "indexable": true,
+      "canonical": [
+        "https://webtellisense.com"
+      ],
+      "descriptions": [
+        "Webtellisense: Eket’s leading digital agency for fast, affordable & high-converting websites. Web design, SEO & branding that grows your business."
+      ],
+      "titles": [
+        "Blog | Webtellisense - Eket’s Top Web Design & Digital Marketing Agency"
+      ],
+      "h1_count": 1
+    },
+    {
+      "page": "web-design.html",
+      "indexable": true,
+      "canonical": [],
+      "descriptions": [
+        "Get a professional, fast-loading website that brings in daily customers. Perfect for businesses and artisans in Uyo, Eket, and all over Nigeria."
+      ],
+      "titles": [
+        "Website Design & Development Services Nigeria - Webtellisense"
+      ],
+      "h1_count": 1
+    },
+    {
+      "page": "heroes.html",
+      "indexable": true,
+      "canonical": [
+        "https://webtellisense.com"
+      ],
+      "descriptions": [],
+      "titles": [
+        "₦200,000 Webtellisense Business Heroes Challenge"
+      ],
+      "h1_count": 1
+    },
+    {
+      "page": "audit.html",
+      "indexable": true,
+      "canonical": [],
+      "descriptions": [],
+      "titles": [
+        "Digital Presence Audit | Webtellisense"
+      ],
+      "h1_count": 1
+    },
+    {
+      "page": "graphics-design.html",
+      "indexable": true,
+      "canonical": [
+        "https://webtellisense.com"
+      ],
+      "descriptions": [
+        "Get stunning flyers, social media graphics, event banners, and business prints designed by experts. Fast delivery for businesses in Uyo, Eket, and all over Nigeria."
+      ],
+      "titles": [
+        "Professional Graphic Design Services Nigeria - Webtellisense"
+      ],
+      "h1_count": 1
+    },
+    {
+      "page": "webtellisense-solar-landing.html",
+      "indexable": true,
+      "canonical": [],
+      "descriptions": [],
+      "titles": [
+        "Get More Solar Installation Jobs — Webtellisense"
+      ],
+      "h1_count": 1
+    },
+    {
+      "page": "faq.html",
+      "indexable": true,
+      "canonical": [
+        "https://webtellisense.com"
+      ],
+      "descriptions": [
+        "Straight answers on cost, turnaround time, and how we work — no agency jargon. Everything you need to know before hiring Webtellisense."
+      ],
+      "titles": [
+        "FAQs: Pricing, Process & Timelines | Webtellisense Eket"
+      ],
+      "h1_count": 1
+    },
+    {
+      "page": "contact.html",
+      "indexable": true,
+      "canonical": [
+        "https://webtellisense.com"
+      ],
+      "descriptions": [
+        "Webtellisense: Eket’s leading digital agency for fast, affordable & high-converting websites. Web design, SEO & branding that grows your business."
+      ],
+      "titles": [
+        "Contact | Eket’s Top Web Design & Digital Marketing Agency"
+      ],
+      "h1_count": 1
+    },
+    {
+      "page": "email-marketing.html",
+      "indexable": true,
+      "canonical": [
+        "https://webtellisense.com"
+      ],
+      "descriptions": [
+        "Stop losing your customers to algorithm changes. Build an email newsletter list that you own forever and turn past buyers into repeat clients. Services in Uyo, Eket, and nationwide."
+      ],
+      "titles": [
+        "Professional Email Marketing Services Nigeria - Webtellisense"
+      ],
+      "h1_count": 1
+    },
+    {
+      "page": "10-essential-tips-for-businesses-2025.html",
+      "indexable": true,
+      "canonical": [
+        "https://webtellisense.com"
+      ],
+      "descriptions": [
+        ""
+      ],
+      "titles": [
+        "10 Essential Tips for Small Business Online Success in Eket | Webtellisense, Nigeria"
+      ],
+      "h1_count": 1
+    },
+    {
+      "page": "how-to-grow-your-business-online-2026.html",
+      "indexable": true,
+      "canonical": [
+        "https://webtellisense.com/how-to-grow-your-business-online-2026"
+      ],
+      "descriptions": [
+        "How to grow your business online, step by step: Google Business Profile, website, social media, ads, and WhatsApp conversion — with electrician and solar installer examples from Uyo, Nigeria."
+      ],
+      "titles": [
+        "How to Grow Your Business Online: A Step-by-Step Guide for Uyo Business Owners | Webtellisense"
+      ],
+      "h1_count": 1
+    },
+    {
+      "page": "branding.html",
+      "indexable": true,
+      "canonical": [
+        "https://webtellisense.com"
+      ],
+      "descriptions": [
+        "Stop looking like a small business. Get a professional logo, official brand colors, business cards, and letterheads that make you look elite. Services in Uyo, Eket, and nationwide."
+      ],
+      "titles": [
+        "Professional Brand Identity & Logo Design Nigeria - Webtellisense"
+      ],
+      "h1_count": 1
+    },
+    {
+      "page": "social-media-marketing.html",
+      "indexable": true,
+      "canonical": [
+        "https://webtellisense.com"
+      ],
+      "descriptions": [
+        "Stop waiting for organic reach. Run highly profitable Facebook and Instagram ads that bring direct orders to your WhatsApp. Services in Uyo, Eket, and nationwide."
+      ],
+      "titles": [
+        "Paid Facebook & Instagram Ads Services Nigeria - Webtellisense"
+      ],
+      "h1_count": 1
+    },
+    {
+      "page": "kids-holiday-uyo.html",
+      "indexable": true,
+      "canonical": [
+        "https://webtellisense.com/kids-holiday-uyo",
+        "https://webtellisense.com"
+      ],
+      "descriptions": [
+        "An elite 4-week tech accelerator for teenagers aged 12-17 in Uyo. Hosted at the ARISE ICT Hub. Open engineering training powered by Webtellisense."
+      ],
+      "titles": [
+        "Tech Bootcamp | Powered by Webtellisense Uyo"
+      ],
+      "h1_count": 1
+    },
+    {
+      "page": "business-audit-tool.html",
+      "indexable": true,
+      "canonical": [
+        "https://webtellisense.com/business-audit-tool.html",
+        "https://webtellisense.com"
+      ],
+      "descriptions": [
+        "Find out how visible your business is online with Webtellisense’s free Business Audit Tool. Get a digital health score, honest feedback, and clear action steps for your website, SEO, social media, branding, and conversions. Built for Nigerian businesses ready to grow online."
+      ],
+      "titles": [
+        "Free Business Audit Tool for Nigerian Businesses | Webtellisense"
+      ],
+      "h1_count": 0
+    },
+    {
+      "page": "top-features-for-a-school-website.html",
+      "indexable": true,
+      "canonical": [
+        "https://webtellisense.com/top-features-for-a-school-website.html"
+      ],
+      "descriptions": [
+        "Discover the 7 must-have features every school website needs to attract parents, share updates, and build trust — with tips for schools in Akwa Ibom, Lagos, and across Nigeria."
+      ],
+      "titles": [
+        "Top Features to Have on a School Website | Webtellisense Nigeria"
+      ],
+      "h1_count": 1
+    },
+    {
+      "page": "conversion-rate-optimization.html",
+      "indexable": true,
+      "canonical": [
+        "https://webtellisense.com"
+      ],
+      "descriptions": [
+        "Stop wasting money on website traffic that doesn't buy. We fix your confusing checkout forms, slow buttons, and hidden contact links so you double your sales."
+      ],
+      "titles": [
+        "Conversion Rate Optimization (CRO) Nigeria - Webtellisense"
+      ],
+      "h1_count": 1
+    },
+    {
+      "page": "solar.html",
+      "indexable": true,
+      "canonical": [],
+      "descriptions": [],
+      "titles": [
+        "Solar Launch™ — No-Brainer Client Acquisition Engine for Nigerian Solar Installers"
+      ],
+      "h1_count": 1
+    },
+    {
+      "page": "pricing.html",
+      "indexable": true,
+      "canonical": [
+        "https://webtellisense.com"
+      ],
+      "descriptions": [
+        "See real pricing for websites, SEO, and ads campaigns in Nigeria. Transparent packages, no hidden fees, built for Eket and Akwa Ibom SMEs."
+      ],
+      "titles": [
+        "Website & Digital Marketing Pricing | Webtellisense"
+      ],
+      "h1_count": 1
+    },
+    {
+      "page": "reviews.html",
+      "indexable": true,
+      "canonical": [
+        "https://webtellisense.com"
+      ],
+      "descriptions": [
+        "Webtellisense: Eket’s leading digital agency for fast, affordable & high-converting websites. Web design, SEO & branding that grows your business."
+      ],
+      "titles": [
+        "Reviews | Webtellisense | Eket’s Top Web Design & Digital Marketing Agency"
+      ],
+      "h1_count": 1
+    },
+    {
+      "page": "nigeria/solar.html",
+      "indexable": true,
+      "canonical": [],
+      "descriptions": [
+        "High-performance solar marketing and lead generation growth briefing for solar installers and inverter companies in Nigeria."
+      ],
+      "titles": [
+        "Nigeria Solar Marketing Briefing | Webtellisense"
+      ],
+      "h1_count": 1
+    },
+    {
+      "page": "bahamas/solar.html",
+      "indexable": true,
+      "canonical": [],
+      "descriptions": [
+        "A transparent solar marketing pricing and growth briefing for installers in Nassau, Freeport, Abaco, Exuma, and across The Bahamas."
+      ],
+      "titles": [
+        "Bahamas Solar Marketing Briefing | Webtellisense"
+      ],
+      "h1_count": 1
+    }
+  ],
+  "broken_files": [
+    {
+      "page": "business-not-showing-up-online.html",
+      "line": 553,
+      "kind": "link",
+      "target": "services.html"
+    },
+    {
+      "page": "business-not-showing-up-online.html",
+      "line": 563,
+      "kind": "link",
+      "target": "brand-identity"
+    },
+    {
+      "page": "value-of-a-digital-agency.html",
+      "line": 21,
+      "kind": "asset_or_head",
+      "target": "./assets/style/style.css"
+    },
+    {
+      "page": "value-of-a-digital-agency.html",
+      "line": 198,
+      "kind": "asset_or_head",
+      "target": "assets/img/blog/blog-66.jpg"
+    },
+    {
+      "page": "value-of-a-digital-agency.html",
+      "line": 326,
+      "kind": "link",
+      "target": "services.html"
+    },
+    {
+      "page": "value-of-a-digital-agency.html",
+      "line": 336,
+      "kind": "link",
+      "target": "brand-identity"
+    },
+    {
+      "page": "ppc.html",
+      "line": 139,
+      "kind": "asset_or_head",
+      "target": "./assets/style/style.css"
+    },
+    {
+      "page": "ppc.html",
+      "line": 749,
+      "kind": "link",
+      "target": "services.html"
+    },
+    {
+      "page": "ppc.html",
+      "line": 759,
+      "kind": "link",
+      "target": "brand-identity"
+    },
+    {
+      "page": "packages.html",
+      "line": 264,
+      "kind": "asset_or_head",
+      "target": "assets/img/badges/deeproots_badge_t1.png"
+    },
+    {
+      "page": "packages.html",
+      "line": 843,
+      "kind": "link",
+      "target": "services.html"
+    },
+    {
+      "page": "packages.html",
+      "line": 853,
+      "kind": "link",
+      "target": "brand-identity"
+    },
+    {
+      "page": "blog-details.html",
+      "line": 12,
+      "kind": "asset_or_head",
+      "target": "assets/img/favicon.png"
+    },
+    {
+      "page": "blog-details.html",
+      "line": 13,
+      "kind": "asset_or_head",
+      "target": "assets/img/apple-touch-icon.png"
+    },
+    {
+      "page": "blog-details.html",
+      "line": 75,
+      "kind": "link",
+      "target": "team.html"
+    },
+    {
+      "page": "blog-details.html",
+      "line": 88,
+      "kind": "link",
+      "target": "services.html"
+    },
+    {
+      "page": "blog-details.html",
+      "line": 89,
+      "kind": "link",
+      "target": "portfolio.html"
+    },
+    {
+      "page": "blog-details.html",
+      "line": 134,
+      "kind": "asset_or_head",
+      "target": "assets/img/blog/blog-1.jpg"
+    },
+    {
+      "page": "blog-details.html",
+      "line": 175,
+      "kind": "asset_or_head",
+      "target": "assets/img/blog/blog-inside-post.jpg"
+    },
+    {
+      "page": "blog-details.html",
+      "line": 217,
+      "kind": "asset_or_head",
+      "target": "assets/img/blog/blog-author.jpg"
+    },
+    {
+      "page": "about.html",
+      "line": 227,
+      "kind": "asset_or_head",
+      "target": "assets/img/team/team-2.jpg"
+    },
+    {
+      "page": "about.html",
+      "line": 246,
+      "kind": "asset_or_head",
+      "target": "assets/img/team/team-3.jpg"
+    },
+    {
+      "page": "about.html",
+      "line": 265,
+      "kind": "asset_or_head",
+      "target": "assets/img/team/team-4.jpg"
+    },
+    {
+      "page": "about.html",
+      "line": 284,
+      "kind": "asset_or_head",
+      "target": "assets/img/team/team-4.jpg"
+    },
+    {
+      "page": "about.html",
+      "line": 494,
+      "kind": "link",
+      "target": "services.html"
+    },
+    {
+      "page": "about.html",
+      "line": 504,
+      "kind": "link",
+      "target": "brand-identity"
+    },
+    {
+      "page": "content-marketing.html",
+      "line": 550,
+      "kind": "link",
+      "target": "services.html"
+    },
+    {
+      "page": "content-marketing.html",
+      "line": 560,
+      "kind": "link",
+      "target": "brand-identity"
+    },
+    {
+      "page": "index.html",
+      "line": 78,
+      "kind": "asset_or_head",
+      "target": "./assets/style/style.css"
+    },
+    {
+      "page": "index.html",
+      "line": 226,
+      "kind": "link",
+      "target": "portfolio.html"
+    },
+    {
+      "page": "index.html",
+      "line": 1058,
+      "kind": "link",
+      "target": "services.html"
+    },
+    {
+      "page": "index.html",
+      "line": 1068,
+      "kind": "link",
+      "target": "brand-identity"
+    },
+    {
+      "page": "social-media-management.html",
+      "line": 23,
+      "kind": "asset_or_head",
+      "target": "./assets/style/style.css"
+    },
+    {
+      "page": "social-media-management.html",
+      "line": 514,
+      "kind": "link",
+      "target": "services.html"
+    },
+    {
+      "page": "social-media-management.html",
+      "line": 524,
+      "kind": "link",
+      "target": "brand-identity"
+    },
+    {
+      "page": "indexxx.html",
+      "line": 45,
+      "kind": "asset_or_head",
+      "target": "./assets/style/style.css"
+    },
+    {
+      "page": "indexxx.html",
+      "line": 142,
+      "kind": "link",
+      "target": "portfolio.html"
+    },
+    {
+      "page": "indexxx.html",
+      "line": 585,
+      "kind": "asset_or_head",
+      "target": "assets/img/blog/how-to-grow-your-business-online-2026.jpeg"
+    },
+    {
+      "page": "indexxx.html",
+      "line": 853,
+      "kind": "link",
+      "target": "portfolio.html"
+    },
+    {
+      "page": "google-business-profile.html",
+      "line": 494,
+      "kind": "link",
+      "target": "services.html"
+    },
+    {
+      "page": "google-business-profile.html",
+      "line": 504,
+      "kind": "link",
+      "target": "brand-identity"
+    },
+    {
+      "page": "blog.html",
+      "line": 34,
+      "kind": "asset_or_head",
+      "target": "./assets/style/style.css"
+    },
+    {
+      "page": "blog.html",
+      "line": 451,
+      "kind": "link",
+      "target": "services.html"
+    },
+    {
+      "page": "blog.html",
+      "line": 461,
+      "kind": "link",
+      "target": "brand-identity"
+    },
+    {
+      "page": "web-design.html",
+      "line": 499,
+      "kind": "link",
+      "target": "services.html"
+    },
+    {
+      "page": "web-design.html",
+      "line": 509,
+      "kind": "link",
+      "target": "brand-identity"
+    },
+    {
+      "page": "heroes.html",
+      "line": 18,
+      "kind": "asset_or_head",
+      "target": "./assets/style/style.css"
+    },
+    {
+      "page": "heroes.html",
+      "line": 458,
+      "kind": "link",
+      "target": "brand-identity.html"
+    },
+    {
+      "page": "heroes.html",
+      "line": 827,
+      "kind": "link",
+      "target": "services.html"
+    },
+    {
+      "page": "heroes.html",
+      "line": 837,
+      "kind": "link",
+      "target": "brand-identity"
+    },
+    {
+      "page": "graphics-design.html",
+      "line": 23,
+      "kind": "asset_or_head",
+      "target": "./assets/style/style.css"
+    },
+    {
+      "page": "graphics-design.html",
+      "line": 511,
+      "kind": "link",
+      "target": "services.html"
+    },
+    {
+      "page": "graphics-design.html",
+      "line": 521,
+      "kind": "link",
+      "target": "brand-identity"
+    },
+    {
+      "page": "faq.html",
+      "line": 34,
+      "kind": "asset_or_head",
+      "target": "./assets/style/style.css"
+    },
+    {
+      "page": "faq.html",
+      "line": 314,
+      "kind": "link",
+      "target": "services.html"
+    },
+    {
+      "page": "faq.html",
+      "line": 324,
+      "kind": "link",
+      "target": "brand-identity"
+    },
+    {
+      "page": "contact.html",
+      "line": 34,
+      "kind": "asset_or_head",
+      "target": "./assets/style/style.css"
+    },
+    {
+      "page": "contact.html",
+      "line": 273,
+      "kind": "link",
+      "target": "services.html"
+    },
+    {
+      "page": "contact.html",
+      "line": 283,
+      "kind": "link",
+      "target": "brand-identity"
+    },
+    {
+      "page": "email-marketing.html",
+      "line": 23,
+      "kind": "asset_or_head",
+      "target": "./assets/style/style.css"
+    },
+    {
+      "page": "email-marketing.html",
+      "line": 551,
+      "kind": "link",
+      "target": "services.html"
+    },
+    {
+      "page": "email-marketing.html",
+      "line": 561,
+      "kind": "link",
+      "target": "brand-identity"
+    },
+    {
+      "page": "10-essential-tips-for-businesses-2025.html",
+      "line": 21,
+      "kind": "asset_or_head",
+      "target": "./assets/style/style.css"
+    },
+    {
+      "page": "10-essential-tips-for-businesses-2025.html",
+      "line": 374,
+      "kind": "link",
+      "target": "services.html"
+    },
+    {
+      "page": "10-essential-tips-for-businesses-2025.html",
+      "line": 384,
+      "kind": "link",
+      "target": "brand-identity"
+    },
+    {
+      "page": "how-to-grow-your-business-online-2026.html",
+      "line": 30,
+      "kind": "asset_or_head",
+      "target": "./assets/style/style.css"
+    },
+    {
+      "page": "how-to-grow-your-business-online-2026.html",
+      "line": 568,
+      "kind": "link",
+      "target": "services.html"
+    },
+    {
+      "page": "how-to-grow-your-business-online-2026.html",
+      "line": 578,
+      "kind": "link",
+      "target": "brand-identity"
+    },
+    {
+      "page": "branding.html",
+      "line": 23,
+      "kind": "asset_or_head",
+      "target": "./assets/style/style.css"
+    },
+    {
+      "page": "branding.html",
+      "line": 513,
+      "kind": "link",
+      "target": "services.html"
+    },
+    {
+      "page": "branding.html",
+      "line": 523,
+      "kind": "link",
+      "target": "brand-identity"
+    },
+    {
+      "page": "social-media-marketing.html",
+      "line": 23,
+      "kind": "asset_or_head",
+      "target": "./assets/style/style.css"
+    },
+    {
+      "page": "social-media-marketing.html",
+      "line": 554,
+      "kind": "link",
+      "target": "services.html"
+    },
+    {
+      "page": "social-media-marketing.html",
+      "line": 564,
+      "kind": "link",
+      "target": "brand-identity"
+    },
+    {
+      "page": "kids-holiday-uyo.html",
+      "line": 76,
+      "kind": "asset_or_head",
+      "target": "./assets/style/style.css"
+    },
+    {
+      "page": "kids-holiday-uyo.html",
+      "line": 527,
+      "kind": "link",
+      "target": "services.html"
+    },
+    {
+      "page": "kids-holiday-uyo.html",
+      "line": 537,
+      "kind": "link",
+      "target": "brand-identity"
+    },
+    {
+      "page": "business-audit-tool.html",
+      "line": 52,
+      "kind": "asset_or_head",
+      "target": "./assets/style/style.css"
+    },
+    {
+      "page": "business-audit-tool.html",
+      "line": 153,
+      "kind": "link",
+      "target": "brand-identity.html"
+    },
+    {
+      "page": "business-audit-tool.html",
+      "line": 282,
+      "kind": "link",
+      "target": "services.html"
+    },
+    {
+      "page": "business-audit-tool.html",
+      "line": 292,
+      "kind": "link",
+      "target": "brand-identity"
+    },
+    {
+      "page": "top-features-for-a-school-website.html",
+      "line": 52,
+      "kind": "asset_or_head",
+      "target": "./assets/style/style.css"
+    },
+    {
+      "page": "top-features-for-a-school-website.html",
+      "line": 432,
+      "kind": "link",
+      "target": "services.html"
+    },
+    {
+      "page": "top-features-for-a-school-website.html",
+      "line": 442,
+      "kind": "link",
+      "target": "brand-identity"
+    },
+    {
+      "page": "conversion-rate-optimization.html",
+      "line": 23,
+      "kind": "asset_or_head",
+      "target": "./assets/style/style.css"
+    },
+    {
+      "page": "conversion-rate-optimization.html",
+      "line": 547,
+      "kind": "link",
+      "target": "services.html"
+    },
+    {
+      "page": "conversion-rate-optimization.html",
+      "line": 557,
+      "kind": "link",
+      "target": "brand-identity"
+    },
+    {
+      "page": "pricing.html",
+      "line": 34,
+      "kind": "asset_or_head",
+      "target": "./assets/style/style.css"
+    },
+    {
+      "page": "pricing.html",
+      "line": 295,
+      "kind": "link",
+      "target": "services.html"
+    },
+    {
+      "page": "pricing.html",
+      "line": 305,
+      "kind": "link",
+      "target": "brand-identity"
+    },
+    {
+      "page": "reviews.html",
+      "line": 34,
+      "kind": "asset_or_head",
+      "target": "./assets/style/style.css"
+    },
+    {
+      "page": "reviews.html",
+      "line": 338,
+      "kind": "link",
+      "target": "services.html"
+    },
+    {
+      "page": "reviews.html",
+      "line": 348,
+      "kind": "link",
+      "target": "brand-identity"
+    }
+  ],
+  "broken_fragments": [
+    {
+      "page": "business-not-showing-up-online.html",
+      "line": 564,
+      "target": "packages.html#vibes"
+    },
+    {
+      "page": "value-of-a-digital-agency.html",
+      "line": 337,
+      "target": "packages.html#vibes"
+    },
+    {
+      "page": "ppc.html",
+      "line": 760,
+      "target": "packages.html#vibes"
+    },
+    {
+      "page": "packages.html",
+      "line": 145,
+      "target": "#services"
+    },
+    {
+      "page": "packages.html",
+      "line": 854,
+      "target": "packages.html#vibes"
+    },
+    {
+      "page": "blog-details.html",
+      "line": 72,
+      "target": "#hero"
+    },
+    {
+      "page": "about.html",
+      "line": 505,
+      "target": "packages.html#vibes"
+    },
+    {
+      "page": "content-marketing.html",
+      "line": 561,
+      "target": "packages.html#vibes"
+    },
+    {
+      "page": "index.html",
+      "line": 1069,
+      "target": "packages.html#vibes"
+    },
+    {
+      "page": "social-media-management.html",
+      "line": 525,
+      "target": "packages.html#vibes"
+    },
+    {
+      "page": "google-business-profile.html",
+      "line": 505,
+      "target": "packages.html#vibes"
+    },
+    {
+      "page": "blog.html",
+      "line": 462,
+      "target": "packages.html#vibes"
+    },
+    {
+      "page": "web-design.html",
+      "line": 510,
+      "target": "packages.html#vibes"
+    },
+    {
+      "page": "heroes.html",
+      "line": 790,
+      "target": "#terms"
+    },
+    {
+      "page": "heroes.html",
+      "line": 790,
+      "target": "#privacy"
+    },
+    {
+      "page": "graphics-design.html",
+      "line": 522,
+      "target": "packages.html#vibes"
+    },
+    {
+      "page": "faq.html",
+      "line": 325,
+      "target": "packages.html#vibes"
+    },
+    {
+      "page": "contact.html",
+      "line": 284,
+      "target": "packages.html#vibes"
+    },
+    {
+      "page": "email-marketing.html",
+      "line": 562,
+      "target": "packages.html#vibes"
+    },
+    {
+      "page": "10-essential-tips-for-businesses-2025.html",
+      "line": 385,
+      "target": "packages.html#vibes"
+    },
+    {
+      "page": "how-to-grow-your-business-online-2026.html",
+      "line": 579,
+      "target": "packages.html#vibes"
+    },
+    {
+      "page": "branding.html",
+      "line": 524,
+      "target": "packages.html#vibes"
+    },
+    {
+      "page": "social-media-marketing.html",
+      "line": 565,
+      "target": "packages.html#vibes"
+    },
+    {
+      "page": "kids-holiday-uyo.html",
+      "line": 538,
+      "target": "packages.html#vibes"
+    },
+    {
+      "page": "top-features-for-a-school-website.html",
+      "line": 443,
+      "target": "packages.html#vibes"
+    },
+    {
+      "page": "conversion-rate-optimization.html",
+      "line": 558,
+      "target": "packages.html#vibes"
+    },
+    {
+      "page": "pricing.html",
+      "line": 306,
+      "target": "packages.html#vibes"
+    },
+    {
+      "page": "reviews.html",
+      "line": 349,
+      "target": "packages.html#vibes"
+    }
+  ],
+  "metadata": [
+    {
+      "page": "freeguide.html",
+      "field": "canonical",
+      "actual": [],
+      "expected": "https://webtellisense.com/freeguide"
+    },
+    {
+      "page": "freeguide.html",
+      "field": "description",
+      "actual": [
+        "Get your free 42-point online presence checklist designed specifically for Nigerian business owners. Transform your business visibility and attract more customers online.",
+        "Webtellisense: Eket, Akwa Ibom, Nigeria's leading digital agency for fast, affordable & high-converting websites. Web design, SEO & branding that grows your business."
+      ]
+    },
+    {
+      "page": "welcome.html",
+      "field": "description",
+      "actual": []
+    },
+    {
+      "page": "business-not-showing-up-online.html",
+      "field": "canonical",
+      "actual": [],
+      "expected": "https://webtellisense.com/business-not-showing-up-online"
+    },
+    {
+      "page": "value-of-a-digital-agency.html",
+      "field": "canonical",
+      "actual": [
+        "https://webtellisense.com"
+      ],
+      "expected": "https://webtellisense.com/value-of-a-digital-agency"
+    },
+    {
+      "page": "value-of-a-digital-agency.html",
+      "field": "description",
+      "actual": [
+        ""
+      ]
+    },
+    {
+      "page": "roadmap.html",
+      "field": "canonical",
+      "actual": [],
+      "expected": "https://webtellisense.com/roadmap"
+    },
+    {
+      "page": "roadmap.html",
+      "field": "description",
+      "actual": []
+    },
+    {
+      "page": "ppc.html",
+      "field": "canonical",
+      "actual": [
+        "https://webtellisense.com/ppc.html"
+      ],
+      "expected": "https://webtellisense.com/ppc"
+    },
+    {
+      "page": "packages.html",
+      "field": "canonical",
+      "actual": [
+        "https://webtellisense.com"
+      ],
+      "expected": "https://webtellisense.com/packages"
+    },
+    {
+      "page": "blog-details.html",
+      "field": "canonical",
+      "actual": [],
+      "expected": "https://webtellisense.com/blog-details"
+    },
+    {
+      "page": "blog-details.html",
+      "field": "description",
+      "actual": [
+        ""
+      ]
+    },
+    {
+      "page": "content-marketing.html",
+      "field": "canonical",
+      "actual": [],
+      "expected": "https://webtellisense.com/content-marketing"
+    },
+    {
+      "page": "index.html",
+      "field": "canonical",
+      "actual": [
+        "https://webtellisense.com"
+      ],
+      "expected": "https://webtellisense.com/"
+    },
+    {
+      "page": "social-media-management.html",
+      "field": "canonical",
+      "actual": [
+        "https://webtellisense.com"
+      ],
+      "expected": "https://webtellisense.com/social-media-management"
+    },
+    {
+      "page": "indexxx.html",
+      "field": "canonical",
+      "actual": [
+        "https://webtellisense.com"
+      ],
+      "expected": "https://webtellisense.com/"
+    },
+    {
+      "page": "google-business-profile.html",
+      "field": "canonical",
+      "actual": [],
+      "expected": "https://webtellisense.com/google-business-profile"
+    },
+    {
+      "page": "blog.html",
+      "field": "canonical",
+      "actual": [
+        "https://webtellisense.com"
+      ],
+      "expected": "https://webtellisense.com/blog"
+    },
+    {
+      "page": "web-design.html",
+      "field": "canonical",
+      "actual": [],
+      "expected": "https://webtellisense.com/web-design"
+    },
+    {
+      "page": "heroes.html",
+      "field": "canonical",
+      "actual": [
+        "https://webtellisense.com"
+      ],
+      "expected": "https://webtellisense.com/heroes"
+    },
+    {
+      "page": "heroes.html",
+      "field": "description",
+      "actual": []
+    },
+    {
+      "page": "audit.html",
+      "field": "canonical",
+      "actual": [],
+      "expected": "https://webtellisense.com/audit"
+    },
+    {
+      "page": "audit.html",
+      "field": "description",
+      "actual": []
+    },
+    {
+      "page": "graphics-design.html",
+      "field": "canonical",
+      "actual": [
+        "https://webtellisense.com"
+      ],
+      "expected": "https://webtellisense.com/graphics-design"
+    },
+    {
+      "page": "webtellisense-solar-landing.html",
+      "field": "canonical",
+      "actual": [],
+      "expected": "https://webtellisense.com/webtellisense-solar-landing"
+    },
+    {
+      "page": "webtellisense-solar-landing.html",
+      "field": "description",
+      "actual": []
+    },
+    {
+      "page": "faq.html",
+      "field": "canonical",
+      "actual": [
+        "https://webtellisense.com"
+      ],
+      "expected": "https://webtellisense.com/faq"
+    },
+    {
+      "page": "contact.html",
+      "field": "canonical",
+      "actual": [
+        "https://webtellisense.com"
+      ],
+      "expected": "https://webtellisense.com/contact"
+    },
+    {
+      "page": "email-marketing.html",
+      "field": "canonical",
+      "actual": [
+        "https://webtellisense.com"
+      ],
+      "expected": "https://webtellisense.com/email-marketing"
+    },
+    {
+      "page": "10-essential-tips-for-businesses-2025.html",
+      "field": "canonical",
+      "actual": [
+        "https://webtellisense.com"
+      ],
+      "expected": "https://webtellisense.com/10-essential-tips-for-businesses-2025"
+    },
+    {
+      "page": "10-essential-tips-for-businesses-2025.html",
+      "field": "description",
+      "actual": [
+        ""
+      ]
+    },
+    {
+      "page": "branding.html",
+      "field": "canonical",
+      "actual": [
+        "https://webtellisense.com"
+      ],
+      "expected": "https://webtellisense.com/branding"
+    },
+    {
+      "page": "social-media-marketing.html",
+      "field": "canonical",
+      "actual": [
+        "https://webtellisense.com"
+      ],
+      "expected": "https://webtellisense.com/social-media-marketing"
+    },
+    {
+      "page": "kids-holiday-uyo.html",
+      "field": "canonical",
+      "actual": [
+        "https://webtellisense.com/kids-holiday-uyo",
+        "https://webtellisense.com"
+      ],
+      "expected": "https://webtellisense.com/kids-holiday-uyo"
+    },
+    {
+      "page": "business-audit-tool.html",
+      "field": "canonical",
+      "actual": [
+        "https://webtellisense.com/business-audit-tool.html",
+        "https://webtellisense.com"
+      ],
+      "expected": "https://webtellisense.com/business-audit-tool"
+    },
+    {
+      "page": "top-features-for-a-school-website.html",
+      "field": "canonical",
+      "actual": [
+        "https://webtellisense.com/top-features-for-a-school-website.html"
+      ],
+      "expected": "https://webtellisense.com/top-features-for-a-school-website"
+    },
+    {
+      "page": "conversion-rate-optimization.html",
+      "field": "canonical",
+      "actual": [
+        "https://webtellisense.com"
+      ],
+      "expected": "https://webtellisense.com/conversion-rate-optimization"
+    },
+    {
+      "page": "solar.html",
+      "field": "canonical",
+      "actual": [],
+      "expected": "https://webtellisense.com/solar"
+    },
+    {
+      "page": "solar.html",
+      "field": "description",
+      "actual": []
+    },
+    {
+      "page": "pricing.html",
+      "field": "canonical",
+      "actual": [
+        "https://webtellisense.com"
+      ],
+      "expected": "https://webtellisense.com/pricing"
+    },
+    {
+      "page": "reviews.html",
+      "field": "canonical",
+      "actual": [
+        "https://webtellisense.com"
+      ],
+      "expected": "https://webtellisense.com/reviews"
+    },
+    {
+      "page": "nigeria/solar.html",
+      "field": "canonical",
+      "actual": [],
+      "expected": "https://webtellisense.com/nigeria/solar"
+    },
+    {
+      "page": "bahamas/solar.html",
+      "field": "canonical",
+      "actual": [],
+      "expected": "https://webtellisense.com/bahamas/solar"
+    }
+  ],
+  "schema_errors": [
+    {
+      "page": "ppc.html",
+      "error": "Expecting property name enclosed in double quotes: line 6 column 10 (char 104)"
+    }
+  ],
+  "missing_form_backends": [
+    {
+      "page": "blog-details.html",
+      "line": 339,
+      "action": "forms/newsletter.php"
+    },
+    {
+      "page": "contact.html",
+      "line": 200,
+      "action": "forms/contact.php"
+    }
+  ],
+  "tracking": [
+    {
+      "page": "freeguide.html",
+      "pixel_ids": [
+        "806267492040936"
+      ],
+      "pageviews_per_destination": {
+        "806267492040936": 1
+      },
+      "ga_ids": [
+        "G-PS5FNQCJRN"
+      ],
+      "gtm_ids": []
+    },
+    {
+      "page": "welcome.html",
+      "pixel_ids": [],
+      "pageviews_per_destination": {},
+      "ga_ids": [],
+      "gtm_ids": []
+    },
+    {
+      "page": "business-not-showing-up-online.html",
+      "pixel_ids": [
+        "806267492040936"
+      ],
+      "pageviews_per_destination": {
+        "806267492040936": 1
+      },
+      "ga_ids": [
+        "G-PS5FNQCJRN"
+      ],
+      "gtm_ids": []
+    },
+    {
+      "page": "value-of-a-digital-agency.html",
+      "pixel_ids": [
+        "806267492040936"
+      ],
+      "pageviews_per_destination": {
+        "806267492040936": 1
+      },
+      "ga_ids": [
+        "G-PS5FNQCJRN"
+      ],
+      "gtm_ids": []
+    },
+    {
+      "page": "roadmap.html",
+      "pixel_ids": [
+        "806267492040936"
+      ],
+      "pageviews_per_destination": {
+        "806267492040936": 1
+      },
+      "ga_ids": [
+        "G-PS5FNQCJRN"
+      ],
+      "gtm_ids": []
+    },
+    {
+      "page": "ppc.html",
+      "pixel_ids": [
+        "806267492040936"
+      ],
+      "pageviews_per_destination": {
+        "806267492040936": 1
+      },
+      "ga_ids": [
+        "G-PS5FNQCJRN"
+      ],
+      "gtm_ids": []
+    },
+    {
+      "page": "packages.html",
+      "pixel_ids": [
+        "623478247158411"
+      ],
+      "pageviews_per_destination": {
+        "623478247158411": 1
+      },
+      "ga_ids": [
+        "G-PS5FNQCJRN"
+      ],
+      "gtm_ids": []
+    },
+    {
+      "page": "blog-details.html",
+      "pixel_ids": [
+        "806267492040936"
+      ],
+      "pageviews_per_destination": {
+        "806267492040936": 1
+      },
+      "ga_ids": [
+        "G-PS5FNQCJRN"
+      ],
+      "gtm_ids": []
+    },
+    {
+      "page": "about.html",
+      "pixel_ids": [
+        "806267492040936"
+      ],
+      "pageviews_per_destination": {
+        "806267492040936": 1
+      },
+      "ga_ids": [
+        "G-PS5FNQCJRN"
+      ],
+      "gtm_ids": []
+    },
+    {
+      "page": "content-marketing.html",
+      "pixel_ids": [
+        "806267492040936"
+      ],
+      "pageviews_per_destination": {
+        "806267492040936": 1
+      },
+      "ga_ids": [
+        "G-PS5FNQCJRN"
+      ],
+      "gtm_ids": []
+    },
+    {
+      "page": "index.html",
+      "pixel_ids": [
+        "806267492040936"
+      ],
+      "pageviews_per_destination": {
+        "806267492040936": 1
+      },
+      "ga_ids": [
+        "G-PS5FNQCJRN"
+      ],
+      "gtm_ids": [
+        "GTM-NJ6L82XR"
+      ]
+    },
+    {
+      "page": "social-media-management.html",
+      "pixel_ids": [
+        "806267492040936"
+      ],
+      "pageviews_per_destination": {
+        "806267492040936": 1
+      },
+      "ga_ids": [
+        "G-PS5FNQCJRN"
+      ],
+      "gtm_ids": []
+    },
+    {
+      "page": "indexxx.html",
+      "pixel_ids": [
+        "623478247158411",
+        "806267492040936"
+      ],
+      "pageviews_per_destination": {
+        "623478247158411": 2,
+        "806267492040936": 1
+      },
+      "ga_ids": [
+        "G-PS5FNQCJRN"
+      ],
+      "gtm_ids": [
+        "GTM-NJ6L82XR"
+      ]
+    },
+    {
+      "page": "google-business-profile.html",
+      "pixel_ids": [
+        "806267492040936"
+      ],
+      "pageviews_per_destination": {
+        "806267492040936": 1
+      },
+      "ga_ids": [
+        "G-PS5FNQCJRN"
+      ],
+      "gtm_ids": []
+    },
+    {
+      "page": "blog.html",
+      "pixel_ids": [
+        "806267492040936"
+      ],
+      "pageviews_per_destination": {
+        "806267492040936": 1
+      },
+      "ga_ids": [
+        "G-PS5FNQCJRN"
+      ],
+      "gtm_ids": []
+    },
+    {
+      "page": "web-design.html",
+      "pixel_ids": [
+        "806267492040936"
+      ],
+      "pageviews_per_destination": {
+        "806267492040936": 1
+      },
+      "ga_ids": [
+        "G-PS5FNQCJRN"
+      ],
+      "gtm_ids": []
+    },
+    {
+      "page": "heroes.html",
+      "pixel_ids": [],
+      "pageviews_per_destination": {},
+      "ga_ids": [],
+      "gtm_ids": []
+    },
+    {
+      "page": "audit.html",
+      "pixel_ids": [],
+      "pageviews_per_destination": {},
+      "ga_ids": [],
+      "gtm_ids": []
+    },
+    {
+      "page": "graphics-design.html",
+      "pixel_ids": [
+        "806267492040936"
+      ],
+      "pageviews_per_destination": {
+        "806267492040936": 1
+      },
+      "ga_ids": [
+        "G-PS5FNQCJRN"
+      ],
+      "gtm_ids": []
+    },
+    {
+      "page": "webtellisense-solar-landing.html",
+      "pixel_ids": [],
+      "pageviews_per_destination": {},
+      "ga_ids": [],
+      "gtm_ids": []
+    },
+    {
+      "page": "faq.html",
+      "pixel_ids": [
+        "806267492040936"
+      ],
+      "pageviews_per_destination": {
+        "806267492040936": 1
+      },
+      "ga_ids": [],
+      "gtm_ids": []
+    },
+    {
+      "page": "contact.html",
+      "pixel_ids": [
+        "806267492040936"
+      ],
+      "pageviews_per_destination": {
+        "806267492040936": 1
+      },
+      "ga_ids": [
+        "G-PS5FNQCJRN"
+      ],
+      "gtm_ids": []
+    },
+    {
+      "page": "email-marketing.html",
+      "pixel_ids": [
+        "806267492040936"
+      ],
+      "pageviews_per_destination": {
+        "806267492040936": 1
+      },
+      "ga_ids": [
+        "G-PS5FNQCJRN"
+      ],
+      "gtm_ids": []
+    },
+    {
+      "page": "10-essential-tips-for-businesses-2025.html",
+      "pixel_ids": [
+        "806267492040936"
+      ],
+      "pageviews_per_destination": {
+        "806267492040936": 1
+      },
+      "ga_ids": [
+        "G-PS5FNQCJRN"
+      ],
+      "gtm_ids": []
+    },
+    {
+      "page": "how-to-grow-your-business-online-2026.html",
+      "pixel_ids": [
+        "623478247158411",
+        "806267492040936"
+      ],
+      "pageviews_per_destination": {
+        "623478247158411": 2,
+        "806267492040936": 1
+      },
+      "ga_ids": [
+        "G-PS5FNQCJRN"
+      ],
+      "gtm_ids": []
+    },
+    {
+      "page": "branding.html",
+      "pixel_ids": [
+        "806267492040936"
+      ],
+      "pageviews_per_destination": {
+        "806267492040936": 1
+      },
+      "ga_ids": [
+        "G-PS5FNQCJRN"
+      ],
+      "gtm_ids": []
+    },
+    {
+      "page": "social-media-marketing.html",
+      "pixel_ids": [
+        "806267492040936"
+      ],
+      "pageviews_per_destination": {
+        "806267492040936": 1
+      },
+      "ga_ids": [
+        "G-PS5FNQCJRN"
+      ],
+      "gtm_ids": []
+    },
+    {
+      "page": "kids-holiday-uyo.html",
+      "pixel_ids": [
+        "623478247158411",
+        "806267492040936"
+      ],
+      "pageviews_per_destination": {
+        "623478247158411": 2,
+        "806267492040936": 1
+      },
+      "ga_ids": [
+        "G-PS5FNQCJRN"
+      ],
+      "gtm_ids": []
+    },
+    {
+      "page": "business-audit-tool.html",
+      "pixel_ids": [
+        "623478247158411",
+        "806267492040936"
+      ],
+      "pageviews_per_destination": {
+        "623478247158411": 2,
+        "806267492040936": 1
+      },
+      "ga_ids": [
+        "G-PS5FNQCJRN"
+      ],
+      "gtm_ids": []
+    },
+    {
+      "page": "top-features-for-a-school-website.html",
+      "pixel_ids": [
+        "806267492040936"
+      ],
+      "pageviews_per_destination": {
+        "806267492040936": 1
+      },
+      "ga_ids": [
+        "G-PS5FNQCJRN"
+      ],
+      "gtm_ids": []
+    },
+    {
+      "page": "conversion-rate-optimization.html",
+      "pixel_ids": [
+        "806267492040936"
+      ],
+      "pageviews_per_destination": {
+        "806267492040936": 1
+      },
+      "ga_ids": [
+        "G-PS5FNQCJRN"
+      ],
+      "gtm_ids": []
+    },
+    {
+      "page": "solar.html",
+      "pixel_ids": [
+        "1710018810217099"
+      ],
+      "pageviews_per_destination": {
+        "1710018810217099": 1
+      },
+      "ga_ids": [],
+      "gtm_ids": [
+        "GTM-NJ6L82XR"
+      ]
+    },
+    {
+      "page": "pricing.html",
+      "pixel_ids": [
+        "806267492040936"
+      ],
+      "pageviews_per_destination": {
+        "806267492040936": 1
+      },
+      "ga_ids": [
+        "G-PS5FNQCJRN"
+      ],
+      "gtm_ids": []
+    },
+    {
+      "page": "reviews.html",
+      "pixel_ids": [
+        "806267492040936"
+      ],
+      "pageviews_per_destination": {
+        "806267492040936": 1
+      },
+      "ga_ids": [
+        "G-PS5FNQCJRN"
+      ],
+      "gtm_ids": []
+    },
+    {
+      "page": "nigeria/solar.html",
+      "pixel_ids": [],
+      "pageviews_per_destination": {},
+      "ga_ids": [],
+      "gtm_ids": []
+    },
+    {
+      "page": "bahamas/solar.html",
+      "pixel_ids": [],
+      "pageviews_per_destination": {},
+      "ga_ids": [],
+      "gtm_ids": []
+    }
+  ],
+  "sitemap": [
+    "https://webtellisense.com/",
+    "https://webtellisense.com/about.html",
+    "https://webtellisense.com/packages.html",
+    "https://webtellisense.com/pricing.html",
+    "https://webtellisense.com/contact.html",
+    "https://webtellisense.com/blog.html",
+    "https://webtellisense.com/10-essential-tips-for-businesses-2025.html",
+    "https://webtellisense.com/audit.html",
+    "https://webtellisense.com/branding.html",
+    "https://webtellisense.com/business-audit-tool.html",
+    "https://webtellisense.com/business-not-showing-up-online.html",
+    "https://webtellisense.com/content-marketing.html",
+    "https://webtellisense.com/blog.html",
+    "https://webtellisense.com/conversion-rate-optimization.html",
+    "https://webtellisense.com/email-marketing.html",
+    "https://webtellisense.com/faq.html",
+    "https://webtellisense.com/freeguide.html",
+    "https://webtellisense.com/google-business-profile.html",
+    "https://webtellisense.com/graphics-design.html",
+    "https://webtellisense.com/heroes.html",
+    "https://webtellisense.com/how-to-grow-your-business-online-2026.html",
+    "https://webtellisense.com/index.html",
+    "https://webtellisense.com/kids-holiday.html"
+  ],
+  "missing_sitemap_routes": [
+    "https://webtellisense.com/kids-holiday.html"
+  ]
+}

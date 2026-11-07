@@ -15,6 +15,7 @@
   function toggleScrolled() {
     const selectBody = document.querySelector("body");
     const selectHeader = document.querySelector("#header");
+    if (!selectBody || !selectHeader) return;
     if (
       !selectHeader.classList.contains("scroll-up-sticky") &&
       !selectHeader.classList.contains("sticky-top") &&
@@ -35,11 +36,35 @@
   const mobileNavToggleBtn = document.querySelector(".mobile-nav-toggle");
 
   function mobileNavToogle() {
+    if (!mobileNavToggleBtn) return;
     document.querySelector("body").classList.toggle("mobile-nav-active");
     mobileNavToggleBtn.classList.toggle("bi-list");
     mobileNavToggleBtn.classList.toggle("bi-x");
+    mobileNavToggleBtn.setAttribute("aria-expanded", String(document.body.classList.contains("mobile-nav-active")));
   }
-  mobileNavToggleBtn.addEventListener("click", mobileNavToogle);
+  function keyboardClick(element) {
+    element.addEventListener("keydown", event => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        element.click();
+      }
+    });
+  }
+  if (mobileNavToggleBtn) {
+    mobileNavToggleBtn.setAttribute("role", "button");
+    mobileNavToggleBtn.setAttribute("tabindex", "0");
+    mobileNavToggleBtn.setAttribute("aria-label", "Toggle navigation");
+    mobileNavToggleBtn.setAttribute("aria-controls", "navmenu");
+    mobileNavToggleBtn.setAttribute("aria-expanded", "false");
+    mobileNavToggleBtn.addEventListener("click", mobileNavToogle);
+    keyboardClick(mobileNavToggleBtn);
+    document.addEventListener("keydown", event => {
+      if (event.key === "Escape" && document.body.classList.contains("mobile-nav-active")) {
+        mobileNavToogle();
+        mobileNavToggleBtn.focus();
+      }
+    });
+  }
 
   /**
    * Hide mobile nav on same-page/hash links
@@ -56,11 +81,29 @@
    * Toggle mobile nav dropdowns
    */
   document.querySelectorAll(".navmenu .toggle-dropdown").forEach((navmenu) => {
+    const parent = navmenu.parentElement;
+    const submenu = parent?.nextElementSibling;
+    if (!parent || !submenu) return;
+    parent.setAttribute("aria-haspopup", "true");
+    parent.setAttribute("aria-expanded", "false");
     navmenu.addEventListener("click", function (e) {
       e.preventDefault();
-      this.parentNode.classList.toggle("active");
-      this.parentNode.nextElementSibling.classList.toggle("dropdown-active");
+      parent.classList.toggle("active");
+      submenu.classList.toggle("dropdown-active");
+      parent.setAttribute("aria-expanded", String(submenu.classList.contains("dropdown-active")));
       e.stopImmediatePropagation();
+    });
+    parent.addEventListener("keydown", event => {
+      if (event.key === "ArrowDown") {
+        event.preventDefault(); event.stopPropagation();
+        parent.classList.add("active"); submenu.classList.add("dropdown-active");
+        parent.setAttribute("aria-expanded", "true");
+        submenu.querySelector("a")?.focus();
+      }
+      if (event.key === "Escape") {
+        parent.classList.remove("active"); submenu.classList.remove("dropdown-active");
+        parent.setAttribute("aria-expanded", "false"); parent.focus();
+      }
     });
   });
 
@@ -104,8 +147,9 @@
    * Animation on scroll function and init
    */
   function aosInit() {
+    if (typeof AOS === "undefined") return;
     AOS.init({
-      duration: 600,
+      duration: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? 0 : 600,
       easing: "ease-in-out",
       once: true,
       mirror: false,
@@ -137,6 +181,10 @@
 
   // Hook Rotators
   document.addEventListener("DOMContentLoaded", () => {
+    const title = document.getElementById("hook-title");
+    const question = document.getElementById("hook-question");
+    const container = document.getElementById("hook-options-container");
+    if (!title || !question || !container) return;
     // 1. Define your copy variations and their respective target URL parameters
     const hooks = [
       {
@@ -212,11 +260,10 @@
     const randomHook = hooks[Math.floor(Math.random() * hooks.length)];
 
     // 3. Update the text copy inside the card
-    document.getElementById("hook-title").textContent = randomHook.title;
-    document.getElementById("hook-question").textContent = randomHook.question;
+    title.textContent = randomHook.title;
+    question.textContent = randomHook.question;
 
     // 4. Build and inject the new option buttons
-    const container = document.getElementById("hook-options-container");
     container.innerHTML = ""; // Clear out placeholders
 
     randomHook.options.forEach((opt) => {
@@ -236,14 +283,13 @@
   /**
    * Initiate glightbox
    */
-  const glightbox = GLightbox({
-    selector: ".glightbox",
-  });
+  if (typeof GLightbox !== "undefined") GLightbox({ selector: ".glightbox" });
 
   /**
    * Init isotope layout and filters
    */
   document.querySelectorAll(".isotope-layout").forEach(function (isotopeItem) {
+    if (typeof imagesLoaded === "undefined" || typeof Isotope === "undefined" || !isotopeItem.querySelector(".isotope-container")) return;
     let layout = isotopeItem.getAttribute("data-layout") ?? "masonry";
     let filter = isotopeItem.getAttribute("data-default-filter") ?? "*";
     let sort = isotopeItem.getAttribute("data-sort") ?? "original-order";
@@ -267,9 +313,8 @@
         filters.addEventListener(
           "click",
           function () {
-            isotopeItem
-              .querySelector(".isotope-filters .filter-active")
-              .classList.remove("filter-active");
+            if (!initIsotope) return;
+            isotopeItem.querySelector(".isotope-filters .filter-active")?.classList.remove("filter-active");
             this.classList.add("filter-active");
             initIsotope.arrange({
               filter: this.getAttribute("data-filter"),
@@ -281,6 +326,19 @@
           false,
         );
       });
+  });
+
+  document.querySelectorAll(".isotope-filters li, .faq-filter li").forEach(item => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "site-filter-button";
+    while (item.firstChild) button.appendChild(item.firstChild);
+    item.appendChild(button);
+  });
+
+  document.querySelectorAll('.progress [role="progressbar"]').forEach(bar => {
+    const label = bar.closest('.progress')?.querySelector('.skill > span')?.textContent;
+    if (label) bar.setAttribute('aria-label', label.trim());
   });
 
   // animate skillbar
@@ -322,9 +380,16 @@
 
   // Accordion Functionality
   document.querySelectorAll(".faq-item h3").forEach((question) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "faq-question";
+    while (question.firstChild) button.appendChild(question.firstChild);
+    question.appendChild(button);
+    button.setAttribute("aria-expanded", String(question.parentElement.classList.contains("active")));
     question.addEventListener("click", function () {
       const parent = this.parentElement;
       parent.classList.toggle("active");
+      button.setAttribute("aria-expanded", String(parent.classList.contains("active")));
     });
   });
 
@@ -333,6 +398,7 @@
    */
   let skillsAnimation = document.querySelectorAll(".skills-animation");
   skillsAnimation.forEach((item) => {
+    if (typeof Waypoint === "undefined") return;
     new Waypoint({
       element: item,
       offset: "80%",
@@ -349,12 +415,14 @@
    * Init swiper sliders
    */
   function initSwiper() {
+    if (typeof Swiper === "undefined") return;
     document.querySelectorAll(".init-swiper").forEach(function (swiperElement) {
-      let config = JSON.parse(
-        swiperElement.querySelector(".swiper-config").innerHTML.trim(),
-      );
+      const configElement = swiperElement.querySelector(".swiper-config");
+      if (!configElement) return;
+      let config;
+      try { config = JSON.parse(configElement.textContent.trim()); } catch { return; }
 
-      if (swiperElement.classList.contains("swiper-tab")) {
+      if (swiperElement.classList.contains("swiper-tab") && typeof initSwiperWithCustomPagination === "function") {
         initSwiperWithCustomPagination(swiperElement, config);
       } else {
         new Swiper(swiperElement, config);
@@ -370,6 +438,7 @@
   const cards = document.querySelectorAll(".wt-card");
 
   cards.forEach((card, index) => {
+    if (!card.animate || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
     card.animate(
       [
         { transform: "translateY(0px)" },

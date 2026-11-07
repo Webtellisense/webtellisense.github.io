@@ -1,0 +1,2212 @@
+[
+  {
+    "phase": "before",
+    "page": "freeguide.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(51, 51, 51)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Segoe UI\", Tahoma, Geneva, Verdana, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": null,
+      "nav": null,
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "before",
+    "page": "welcome.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(248, 250, 252)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": null,
+      "nav": null,
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "before",
+    "page": "business-not-showing-up-online.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "before",
+    "page": "value-of-a-digital-agency.html",
+    "errors": [
+      "Cannot set properties of null (setting 'textContent')"
+    ],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(0, 51, 255)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "before",
+    "page": "roadmap.html",
+    "errors": [
+      "Chart is not defined"
+    ],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": null,
+      "nav": null,
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "before",
+    "page": "ppc.html",
+    "errors": [
+      "Cannot set properties of null (setting 'textContent')"
+    ],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "before",
+    "page": "packages.html",
+    "errors": [
+      "GLightbox is not defined",
+      "AOS is not defined"
+    ],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "before",
+    "page": "blog-details.html",
+    "errors": [
+      "Cannot set properties of null (setting 'textContent')"
+    ],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "before",
+    "page": "about.html",
+    "errors": [
+      "Cannot set properties of null (setting 'textContent')"
+    ],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "before",
+    "page": "content-marketing.html",
+    "errors": [
+      "Cannot set properties of null (setting 'textContent')"
+    ],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "before",
+    "page": "index.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(0, 51, 255)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "before",
+    "page": "social-media-management.html",
+    "errors": [
+      "Cannot set properties of null (setting 'textContent')"
+    ],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "before",
+    "page": "indexxx.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(0, 51, 255)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "before",
+    "page": "google-business-profile.html",
+    "errors": [
+      "Cannot set properties of null (setting 'textContent')"
+    ],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "before",
+    "page": "blog.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "before",
+    "page": "web-design.html",
+    "errors": [
+      "Cannot set properties of null (setting 'textContent')"
+    ],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "before",
+    "page": "heroes.html",
+    "errors": [
+      "Cannot set properties of null (setting 'textContent')"
+    ],
+    "styles": {
+      "body": {
+        "color": "rgb(45, 55, 72)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(45, 55, 72)",
+        "background": "rgb(255, 255, 255)",
+        "font": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(0, 51, 255)",
+        "background": "rgb(255, 255, 255)",
+        "font": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "before",
+    "page": "audit.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(232, 239, 248)",
+        "background": "rgb(9, 83, 73)",
+        "font": "\"DM Sans\", sans-serif",
+        "fontSize": "16px"
+      },
+      "header": null,
+      "nav": null,
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "before",
+    "page": "graphics-design.html",
+    "errors": [
+      "Cannot set properties of null (setting 'textContent')"
+    ],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "before",
+    "page": "webtellisense-solar-landing.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(244, 241, 232)",
+        "background": "rgb(10, 15, 28)",
+        "font": "Inter, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": null,
+      "nav": null,
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "before",
+    "page": "faq.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "before",
+    "page": "contact.html",
+    "errors": [
+      "Cannot set properties of null (setting 'textContent')"
+    ],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "before",
+    "page": "email-marketing.html",
+    "errors": [
+      "Cannot set properties of null (setting 'textContent')"
+    ],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "before",
+    "page": "10-essential-tips-for-businesses-2025.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "before",
+    "page": "how-to-grow-your-business-online-2026.html",
+    "errors": [
+      "Cannot set properties of null (setting 'textContent')"
+    ],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(0, 51, 255)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "before",
+    "page": "branding.html",
+    "errors": [
+      "Cannot set properties of null (setting 'textContent')"
+    ],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "before",
+    "page": "social-media-marketing.html",
+    "errors": [
+      "Cannot set properties of null (setting 'textContent')"
+    ],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "before",
+    "page": "kids-holiday-uyo.html",
+    "errors": [
+      "Cannot set properties of null (setting 'textContent')"
+    ],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(0, 51, 255)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "before",
+    "page": "business-audit-tool.html",
+    "errors": [
+      "Cannot set properties of null (setting 'textContent')"
+    ],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(0, 51, 255)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "before",
+    "page": "top-features-for-a-school-website.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "before",
+    "page": "conversion-rate-optimization.html",
+    "errors": [
+      "Cannot set properties of null (setting 'textContent')"
+    ],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "before",
+    "page": "solar.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(245, 246, 250)",
+        "background": "rgb(1, 3, 62)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": null,
+      "nav": null,
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "before",
+    "page": "pricing.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "before",
+    "page": "reviews.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "before",
+    "page": "nigeria/solar.html",
+    "errors": [
+      "tailwind is not defined",
+      "lucide is not defined"
+    ],
+    "styles": {
+      "body": {
+        "color": "rgb(232, 239, 248)",
+        "background": "rgb(11, 17, 32)",
+        "font": "\"Times New Roman\"",
+        "fontSize": "16px"
+      },
+      "header": null,
+      "nav": null,
+      "overflow": true
+    },
+    "mobile": {
+      "overflow": true
+    },
+    "axe": []
+  },
+  {
+    "phase": "before",
+    "page": "bahamas/solar.html",
+    "errors": [
+      "tailwind is not defined",
+      "lucide is not defined"
+    ],
+    "styles": {
+      "body": {
+        "color": "rgb(232, 239, 248)",
+        "background": "rgb(11, 17, 32)",
+        "font": "\"Times New Roman\"",
+        "fontSize": "16px"
+      },
+      "header": null,
+      "nav": null,
+      "overflow": true
+    },
+    "mobile": {
+      "overflow": true
+    },
+    "axe": []
+  },
+  {
+    "phase": "after",
+    "page": "freeguide.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(51, 51, 51)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "\"Segoe UI\", Tahoma, Geneva, Verdana, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": null,
+      "nav": null,
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "after",
+    "page": "welcome.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(248, 250, 252)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": null,
+      "nav": null,
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "after",
+    "page": "business-not-showing-up-online.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "after",
+    "page": "value-of-a-digital-agency.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(0, 51, 255)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "after",
+    "page": "roadmap.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Inter, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": null,
+      "nav": null,
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "after",
+    "page": "ppc.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "count": 3,
+        "examples": [
+          [
+            ".col-md-4:nth-child(1) > .pricing-card > div > .feature-list-items > li:nth-child(8) > i:nth-child(2)"
+          ],
+          [
+            ".featured > div > .feature-list-items > li:nth-child(8) > i:nth-child(2)"
+          ],
+          [
+            ".col-md-4:nth-child(3) > .pricing-card > div > .feature-list-items > li:nth-child(8) > i:nth-child(2)"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "after",
+    "page": "packages.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "count": 28,
+        "examples": [
+          [
+            ".one-time"
+          ],
+          [
+            "article[data-category=\"ads\"]:nth-child(2) > .wt-pkg-thumb > .retainer.wt-pkg-badge-model"
+          ],
+          [
+            "article[data-category=\"web-seo\"]:nth-child(3) > .wt-pkg-thumb > .retainer.wt-pkg-badge-model"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "after",
+    "page": "blog-details.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "after",
+    "page": "about.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "after",
+    "page": "content-marketing.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "after",
+    "page": "index.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(0, 51, 255)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "after",
+    "page": "social-media-management.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "after",
+    "page": "indexxx.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(0, 51, 255)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "after",
+    "page": "google-business-profile.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "after",
+    "page": "blog.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "after",
+    "page": "web-design.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "after",
+    "page": "heroes.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(45, 55, 72)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(45, 55, 72)",
+        "background": "rgb(255, 255, 255)",
+        "font": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(0, 51, 255)",
+        "background": "rgb(255, 255, 255)",
+        "font": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "count": 13,
+        "examples": [
+          [
+            ".hero > .cta-button[href$=\"#join\"]"
+          ],
+          [
+            ".section:nth-child(2) > .cta-button[href$=\"#join\"]"
+          ],
+          [
+            ".timeline-item:nth-child(1) > .timeline-date"
+          ]
+        ]
+      },
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "count": 4,
+        "examples": [
+          [
+            ".step:nth-child(1) > .step-content > p > a:nth-child(1)"
+          ],
+          [
+            ".step:nth-child(1) > .step-content > p > a:nth-child(2)"
+          ],
+          [
+            ".step:nth-child(3) > .step-content > p > a:nth-child(1)"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "after",
+    "page": "audit.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(232, 239, 248)",
+        "background": "rgb(9, 83, 73)",
+        "font": "\"DM Sans\", sans-serif",
+        "fontSize": "16px"
+      },
+      "header": null,
+      "nav": null,
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "count": 24,
+        "examples": [
+          [
+            ".hero-eyebrow"
+          ],
+          [
+            ".hero > p"
+          ],
+          [
+            ".stat:nth-child(1) > .stat-label"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "after",
+    "page": "graphics-design.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "after",
+    "page": "webtellisense-solar-landing.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(244, 241, 232)",
+        "background": "rgb(10, 15, 28)",
+        "font": "Inter, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": null,
+      "nav": null,
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "after",
+    "page": "faq.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "after",
+    "page": "contact.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "after",
+    "page": "email-marketing.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "after",
+    "page": "10-essential-tips-for-businesses-2025.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "after",
+    "page": "how-to-grow-your-business-online-2026.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(0, 51, 255)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "count": 2,
+        "examples": [
+          [
+            ".cta-block > .btn"
+          ],
+          [
+            ".av"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "after",
+    "page": "branding.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "after",
+    "page": "social-media-marketing.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "count": 3,
+        "examples": [
+          [
+            ".col-md-4:nth-child(1) > .pricing-card > div > .feature-list-items > li:nth-child(8) > i:nth-child(2)"
+          ],
+          [
+            ".featured > div > .feature-list-items > li:nth-child(8) > i:nth-child(2)"
+          ],
+          [
+            ".col-md-4:nth-child(3) > .pricing-card > div > .feature-list-items > li:nth-child(8) > i:nth-child(2)"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "after",
+    "page": "kids-holiday-uyo.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(0, 51, 255)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "count": 8,
+        "examples": [
+          [
+            ".kh-cta-btn"
+          ],
+          [
+            ".metric-card:nth-child(1) > .metric-label"
+          ],
+          [
+            ".metric-card:nth-child(2) > .metric-label"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "after",
+    "page": "business-audit-tool.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(0, 51, 255)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "after",
+    "page": "top-features-for-a-school-website.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "after",
+    "page": "conversion-rate-optimization.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "after",
+    "page": "solar.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(245, 246, 250)",
+        "background": "rgb(1, 3, 62)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": null,
+      "nav": null,
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "count": 5,
+        "examples": [
+          [
+            "#gaugeValue"
+          ],
+          [
+            ".p-card:nth-child(1) > .p-step"
+          ],
+          [
+            ".p-card:nth-child(2) > .p-step"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "after",
+    "page": "pricing.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "count": 2,
+        "examples": [
+          [
+            ".popular"
+          ],
+          [
+            ".featured > .cta-btn[href$=\"contact.html\"]"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "phase": "after",
+    "page": "reviews.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "header": {
+        "color": "rgb(0, 0, 0)",
+        "background": "rgb(255, 255, 255)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "16px"
+      },
+      "nav": {
+        "color": "rgb(1, 3, 62)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "Montserrat, sans-serif",
+        "fontSize": "13px"
+      },
+      "overflow": false
+    },
+    "mobile": {
+      "overflow": false
+    },
+    "axe": []
+  },
+  {
+    "phase": "after",
+    "page": "nigeria/solar.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(232, 239, 248)",
+        "background": "rgb(11, 17, 32)",
+        "font": "\"Times New Roman\"",
+        "fontSize": "16px"
+      },
+      "header": null,
+      "nav": null,
+      "overflow": true
+    },
+    "mobile": {
+      "overflow": true
+    },
+    "axe": []
+  },
+  {
+    "phase": "after",
+    "page": "bahamas/solar.html",
+    "errors": [],
+    "styles": {
+      "body": {
+        "color": "rgb(232, 239, 248)",
+        "background": "rgb(11, 17, 32)",
+        "font": "\"Times New Roman\"",
+        "fontSize": "16px"
+      },
+      "header": null,
+      "nav": null,
+      "overflow": true
+    },
+    "mobile": {
+      "overflow": true
+    },
+    "axe": []
+  }
+]
