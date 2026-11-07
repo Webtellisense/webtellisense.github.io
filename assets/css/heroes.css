@@ -1295,3 +1295,42 @@
     margin-top: 25px !important;
   }
 }
+
+/* Welcome contact refinement: keep the number next to its action at every width. */
+.welcome-page .welcome-call .call-copy {
+  line-height: 1.4;
+  text-align: left;
+}
+.welcome-page .welcome-call .call-copy strong {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.welcome-page .mobile-contact small {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+@media (max-width: 760px) {
+  .welcome-page .welcome-hero .action-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .welcome-page .welcome-hero .action-row .button {
+    justify-content: center;
+    min-width: 0;
+    padding: 12px 10px;
+    gap: 6px;
+    min-height: 64px;
+    font-size: 0.7rem;
+  }
+  .welcome-page .welcome-call .call-copy strong {
+    font-size: 0.7rem;
+  }
+  .welcome-page .welcome-call > span[aria-hidden] {
+    display: none;
+  }
+}

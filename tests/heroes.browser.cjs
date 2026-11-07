@@ -32,7 +32,8 @@ const config = require("../assets/js/heroes-config.js");
     return route.continue();
   });
   await page.clock.install({ time: new Date("2026-11-06T10:00:00Z") });
-  const go = (file) => page.goto("http://127.0.0.1:8770/" + file);
+  const origin = process.env.HEROES_TEST_ORIGIN || "http://127.0.0.1:8770";
+  const go = (file) => page.goto(origin + "/" + file);
   const noOverflow = async () =>
     assert.equal(
       await page.evaluate(
@@ -63,6 +64,26 @@ const config = require("../assets/js/heroes-config.js");
     "heroes-welcome.html?status=paid&verified=true&reference=FAKE&session_id=eyJwYWlkIjp0cnVlfQ==",
   );
   await noOverflow();
+  assert.equal(
+    (await page.locator("h1").innerText()).replace(/\s+/g, " "),
+    "You're in. Let's get to work.",
+  );
+  assert.match(
+    await page.locator(".welcome-hero .lead").innerText(),
+    /Paystack handles the payment/,
+  );
+  assert.match(
+    await page.locator(".welcome-hero .lead").innerText(),
+    /manually confirm.*before activating/s,
+  );
+  assert.match(
+    await page.locator(".welcome-call").innerText(),
+    /\+234 707 584 8564/,
+  );
+  assert.equal(
+    await page.locator(".welcome-hero a[href^='https://wa.me/']").isVisible(),
+    true,
+  );
   assert.equal(new URL(page.url()).search, "");
   assert.equal(
     await page.locator(".payment-state").innerText(),
@@ -184,6 +205,17 @@ const config = require("../assets/js/heroes-config.js");
     ]) {
       await go(file);
       await noOverflow();
+      if (file === "heroes-welcome.html" && width < 760) {
+        const contact = page.locator(".mobile-contact");
+        assert.equal(await contact.isVisible(), true);
+        assert.match(await contact.innerText(), /\+234 707 584 8564/);
+        assert.equal(
+          await contact.locator("a[href^='https://wa.me/']").isVisible(),
+          true,
+        );
+        const box = await contact.boundingBox();
+        assert.ok(box.y >= 0 && box.y + box.height <= 951);
+      }
     }
   }
   await page.emulateMedia({ reducedMotion: "reduce" });
@@ -195,6 +227,12 @@ const config = require("../assets/js/heroes-config.js");
     false,
   );
   assert.equal(await page.locator(".reveal.is-waiting").count(), 0);
+  assert.equal(
+    await page
+      .locator(".hero-copy")
+      .evaluate((el) => getComputedStyle(el).animationName),
+    "none",
+  );
   assert.deepEqual(errors, []);
   const nojs = await browser.newContext({
     javaScriptEnabled: false,
@@ -206,9 +244,25 @@ const config = require("../assets/js/heroes-config.js");
       : r.abort(),
   );
   const basic = await nojs.newPage();
-  await basic.goto("http://127.0.0.1:8770/heroes-welcome.html");
+  await basic.goto(origin + "/heroes-welcome.html");
   await basic.locator(".profile-details summary").click();
   assert.equal(await basic.locator("#heroes-profile").isVisible(), true);
+  assert.equal(
+    (await basic.locator("h1").innerText()).replace(/\s+/g, " "),
+    "You're in. Let's get to work.",
+  );
+  assert.match(
+    await basic.locator(".welcome-call").innerText(),
+    /\+234 707 584 8564/,
+  );
+  assert.match(
+    await basic.locator(".mobile-contact").innerText(),
+    /\+234 707 584 8564/,
+  );
+  assert.match(
+    await basic.locator(".welcome-hero .lead").innerText(),
+    /manually confirm/,
+  );
   assert.match(
     await basic.locator("#callback-message").innerText(),
     /manual payment confirmation/,
