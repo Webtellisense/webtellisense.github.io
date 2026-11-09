@@ -5,10 +5,10 @@ const {chromium}=require('playwright');const assert=require('node:assert/strict'
  const page=await browser.newPage({viewport:{width:390,height:844},reducedMotion:'reduce'});const errors=[];page.on('pageerror',e=>errors.push(e.message));
  await page.route('**/*',r=>{const u=new URL(r.request().url());if(u.hostname!=='127.0.0.1')return r.abort();if(u.pathname==='/forms/contact.php')return r.fulfill({status:200,body:'<img src=x onerror="window.mailInjected=1">'});return r.request().method()==='GET'?r.continue():r.abort();});
  const go=name=>page.goto('http://127.0.0.1:8791/'+name,{waitUntil:'load'});
- await go('about.html');const nav=page.locator('.mobile-nav-toggle');await nav.focus();await page.keyboard.press('Enter');assert.equal(await nav.getAttribute('aria-expanded'),'true');await page.keyboard.press('Escape');assert.equal(await nav.getAttribute('aria-expanded'),'false');
+ await go('about.html');const nav=page.locator('.chrome-menu');await nav.focus();await page.keyboard.press('Enter');assert.equal(await nav.getAttribute('aria-expanded'),'true');await page.keyboard.press('Escape');assert.equal(await nav.getAttribute('aria-expanded'),'false');
  assert.equal(await page.locator('[role="progressbar"][aria-label]').count(),6);
  await go('faq.html');const question=page.locator('.faq-question').first();await question.focus();const old=await question.getAttribute('aria-expanded');await page.keyboard.press('Space');assert.notEqual(await question.getAttribute('aria-expanded'),old);
- await go('index.html');await page.locator('.isotope-filters [data-filter=".filter-app"] button').focus();await page.keyboard.press('Enter');assert.match(await page.locator('.isotope-filters [data-filter=".filter-app"]').getAttribute('class'),/filter-active/);
+ await go('index.html');await page.locator('[data-project-filter="websites"]').focus();await page.keyboard.press('Enter');assert.equal(await page.locator('[data-project-filter="websites"]').getAttribute('aria-pressed'),'true');
  await go('audit.html');await page.evaluate(()=>{
   businessData.name='<img src=x onerror="window.auditInjected=1">';businessData.city='\"<svg onload="window.auditInjected=1">';businessData.email='malicious@example.invalid';
   renderResults([],45,getTier(45),[]);

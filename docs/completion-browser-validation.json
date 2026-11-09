@@ -34,10 +34,16 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 666366,
-        "localResourceBytes": 363462,
+        "htmlBytes": 672497,
+        "localResourceBytes": 389319,
         "brokenImages": [],
-        "forms": []
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
       }
     },
     {
@@ -65,7 +71,7 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 672182,
+        "htmlBytes": 672144,
         "localResourceBytes": 7854,
         "brokenImages": [],
         "forms": [
@@ -102,7 +108,7 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 656290,
+        "htmlBytes": 656263,
         "localResourceBytes": 110161,
         "brokenImages": [],
         "forms": []
@@ -133,8 +139,8 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 680211,
-        "localResourceBytes": 1263670,
+        "htmlBytes": 682664,
+        "localResourceBytes": 1406516,
         "brokenImages": [],
         "forms": [
           {
@@ -170,10 +176,16 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 665825,
-        "localResourceBytes": 319380,
+        "htmlBytes": 671956,
+        "localResourceBytes": 345237,
         "brokenImages": [],
-        "forms": []
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
       }
     },
     {
@@ -201,8 +213,8 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 671833,
-        "localResourceBytes": 1596775,
+        "htmlBytes": 674314,
+        "localResourceBytes": 1739621,
         "brokenImages": [],
         "forms": [
           {
@@ -238,10 +250,16 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 670518,
-        "localResourceBytes": 345458,
+        "htmlBytes": 676661,
+        "localResourceBytes": 371315,
         "brokenImages": [],
-        "forms": []
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
       }
     },
     {
@@ -269,10 +287,16 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 694228,
-        "localResourceBytes": 0,
+        "htmlBytes": 703024,
+        "localResourceBytes": 195696,
         "brokenImages": [],
-        "forms": []
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
       }
     },
     {
@@ -300,8 +324,8 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 696651,
-        "localResourceBytes": 1076471,
+        "htmlBytes": 696803,
+        "localResourceBytes": 1219317,
         "brokenImages": [],
         "forms": [
           {
@@ -337,8 +361,8 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 731259,
-        "localResourceBytes": 1289360,
+        "htmlBytes": 732871,
+        "localResourceBytes": 1375402,
         "brokenImages": [],
         "forms": [
           {
@@ -379,13 +403,13 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 671707,
-        "localResourceBytes": 1020869,
+        "htmlBytes": 675085,
+        "localResourceBytes": 1216945,
         "brokenImages": [],
         "forms": [
           {
-            "name": "",
-            "action": "forms/newsletter.php",
+            "name": "contact",
+            "action": null,
             "hasPrivacyLink": true
           }
         ]
@@ -416,8 +440,8 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 679508,
-        "localResourceBytes": 3977083,
+        "htmlBytes": 682009,
+        "localResourceBytes": 4119929,
         "brokenImages": [],
         "forms": [
           {
@@ -453,8 +477,8 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 689578,
-        "localResourceBytes": 1073494,
+        "htmlBytes": 689197,
+        "localResourceBytes": 1216340,
         "brokenImages": [],
         "forms": [
           {
@@ -490,8 +514,8 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 720001,
-        "localResourceBytes": 6764075,
+        "htmlBytes": 715926,
+        "localResourceBytes": 4825584,
         "brokenImages": [],
         "forms": [
           {
@@ -527,8 +551,8 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 681972,
-        "localResourceBytes": 1073494,
+        "htmlBytes": 683837,
+        "localResourceBytes": 1216340,
         "brokenImages": [],
         "forms": [
           {
@@ -564,7 +588,7 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 702096,
+        "htmlBytes": 701347,
         "localResourceBytes": 5429571,
         "brokenImages": [],
         "forms": []
@@ -595,8 +619,8 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 680830,
-        "localResourceBytes": 1073494,
+        "htmlBytes": 682598,
+        "localResourceBytes": 1216340,
         "brokenImages": [],
         "forms": [
           {
@@ -632,8 +656,8 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 675648,
-        "localResourceBytes": 2375296,
+        "htmlBytes": 678081,
+        "localResourceBytes": 2461338,
         "brokenImages": [],
         "forms": [
           {
@@ -669,8 +693,8 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 681165,
-        "localResourceBytes": 1073494,
+        "htmlBytes": 683182,
+        "localResourceBytes": 1216340,
         "brokenImages": [],
         "forms": [
           {
@@ -706,10 +730,16 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 666796,
-        "localResourceBytes": 339994,
+        "htmlBytes": 672927,
+        "localResourceBytes": 365851,
         "brokenImages": [],
-        "forms": []
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
       }
     },
     {
@@ -737,8 +767,8 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 687373,
-        "localResourceBytes": 510366,
+        "htmlBytes": 687343,
+        "localResourceBytes": 510429,
         "brokenImages": [],
         "forms": []
       }
@@ -768,7 +798,7 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 731971,
+        "htmlBytes": 731931,
         "localResourceBytes": 2977,
         "brokenImages": [],
         "forms": []
@@ -799,8 +829,8 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 681501,
-        "localResourceBytes": 1073494,
+        "htmlBytes": 683249,
+        "localResourceBytes": 1216340,
         "brokenImages": [],
         "forms": [
           {
@@ -836,7 +866,7 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 695168,
+        "htmlBytes": 695141,
         "localResourceBytes": 0,
         "brokenImages": [],
         "forms": []
@@ -867,10 +897,16 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 665471,
-        "localResourceBytes": 231717,
+        "htmlBytes": 672794,
+        "localResourceBytes": 257511,
         "brokenImages": [],
-        "forms": []
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
       }
     },
     {
@@ -898,8 +934,8 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 674101,
-        "localResourceBytes": 1073494,
+        "htmlBytes": 675692,
+        "localResourceBytes": 1216340,
         "brokenImages": [],
         "forms": [
           {
@@ -935,8 +971,8 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 669774,
-        "localResourceBytes": 1130298,
+        "htmlBytes": 672328,
+        "localResourceBytes": 1216340,
         "brokenImages": [],
         "forms": [
           {
@@ -977,8 +1013,8 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 688443,
-        "localResourceBytes": 1073494,
+        "htmlBytes": 689016,
+        "localResourceBytes": 1216340,
         "brokenImages": [],
         "forms": [
           {
@@ -1014,8 +1050,8 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 673926,
-        "localResourceBytes": 1800418,
+        "htmlBytes": 676375,
+        "localResourceBytes": 1943264,
         "brokenImages": [],
         "forms": [
           {
@@ -1051,8 +1087,8 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 688449,
-        "localResourceBytes": 1133275,
+        "htmlBytes": 690785,
+        "localResourceBytes": 1219317,
         "brokenImages": [],
         "forms": [
           {
@@ -1088,10 +1124,16 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 666236,
-        "localResourceBytes": 433642,
+        "htmlBytes": 672367,
+        "localResourceBytes": 459499,
         "brokenImages": [],
-        "forms": []
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
       }
     },
     {
@@ -1119,8 +1161,8 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 682406,
-        "localResourceBytes": 1073494,
+        "htmlBytes": 684007,
+        "localResourceBytes": 1216340,
         "brokenImages": [],
         "forms": [
           {
@@ -1156,8 +1198,8 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 688893,
-        "localResourceBytes": 1076471,
+        "htmlBytes": 689398,
+        "localResourceBytes": 1219317,
         "brokenImages": [],
         "forms": [
           {
@@ -1193,7 +1235,7 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 686364,
+        "htmlBytes": 686232,
         "localResourceBytes": 1890598,
         "brokenImages": [],
         "forms": [
@@ -1235,10 +1277,16 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 669760,
-        "localResourceBytes": 507486,
+        "htmlBytes": 675825,
+        "localResourceBytes": 533343,
         "brokenImages": [],
-        "forms": []
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
       }
     },
     {
@@ -1266,7 +1314,7 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 665473,
+        "htmlBytes": 665423,
         "localResourceBytes": 352459,
         "brokenImages": [],
         "forms": [
@@ -1303,7 +1351,7 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 657242,
+        "htmlBytes": 657215,
         "localResourceBytes": 244049,
         "brokenImages": [],
         "forms": []
@@ -1334,8 +1382,8 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 670923,
-        "localResourceBytes": 1477976,
+        "htmlBytes": 674286,
+        "localResourceBytes": 1620782,
         "brokenImages": [],
         "forms": [
           {
@@ -1371,8 +1419,8 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 677017,
-        "localResourceBytes": 1375082,
+        "htmlBytes": 679526,
+        "localResourceBytes": 1517928,
         "brokenImages": [],
         "forms": [
           {
@@ -1408,7 +1456,7 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 660699,
+        "htmlBytes": 660672,
         "localResourceBytes": 287233,
         "brokenImages": [],
         "forms": []
@@ -1439,8 +1487,8 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 688401,
-        "localResourceBytes": 1073494,
+        "htmlBytes": 688726,
+        "localResourceBytes": 1216340,
         "brokenImages": [],
         "forms": [
           {
@@ -1476,7 +1524,7 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 717261,
+        "htmlBytes": 717221,
         "localResourceBytes": 1104597,
         "brokenImages": [],
         "forms": [
@@ -1513,8 +1561,8 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 671387,
-        "localResourceBytes": 1076471,
+        "htmlBytes": 673856,
+        "localResourceBytes": 1219317,
         "brokenImages": [],
         "forms": [
           {
@@ -1550,10 +1598,16 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 665917,
-        "localResourceBytes": 363462,
+        "htmlBytes": 672048,
+        "localResourceBytes": 389319,
         "brokenImages": [],
-        "forms": []
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
       }
     },
     {
@@ -1581,8 +1635,8 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 672469,
-        "localResourceBytes": 1073494,
+        "htmlBytes": 674982,
+        "localResourceBytes": 1216340,
         "brokenImages": [],
         "forms": [
           {
@@ -1618,10 +1672,16 @@
       "axe": [],
       "cssBlocked": false,
       "metrics": {
-        "htmlBytes": 659896,
-        "localResourceBytes": 231717,
+        "htmlBytes": 669651,
+        "localResourceBytes": 257511,
         "brokenImages": [],
-        "forms": []
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
       }
     },
     {
@@ -1649,7 +1709,7 @@
       "axe": [],
       "cssBlocked": true,
       "metrics": {
-        "htmlBytes": 48717,
+        "htmlBytes": 48690,
         "localResourceBytes": 2482238,
         "brokenImages": [],
         "forms": []
@@ -1680,7 +1740,7 @@
       "axe": [],
       "cssBlocked": true,
       "metrics": {
-        "htmlBytes": 39435,
+        "htmlBytes": 39408,
         "localResourceBytes": 2482238,
         "brokenImages": [],
         "forms": []

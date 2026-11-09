@@ -12,7 +12,7 @@ class Page(HTMLParser):
   super().__init__(convert_charrefs=True);self.tags=[];self.feed(text)
  def handle_starttag(self,t,a):self.tags.append((t,dict(a),self.getpos()[0]))
 def scan(root=ROOT):
- files={p.relative_to(root).as_posix():p for p in root.rglob('*.html') if not any(x in p.parts for x in ['node_modules','public','.git'])};ps={k:Page(p.read_text()) for k,p in files.items()}
+ files={p.relative_to(root).as_posix():p for p in root.rglob('*.html') if not any(x in p.parts for x in ['node_modules','public','.git','partials'])};ps={k:Page(p.read_text()) for k,p in files.items()}
  counts=Counter();pages=[];broken=[];fragments=[];bad_schema=[];meta=[];forms=[];tracking=[]
  for name,p in files.items():
   s=p.read_text();tags=ps[name].tags;indexable=not any(t=='meta' and a.get('name')=='robots' and 'noindex'in a.get('content','') for t,a,l in tags)

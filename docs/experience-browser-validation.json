@@ -1,0 +1,74 @@
+{
+  "method": "Local Chromium; all providers and writes blocked. Actual opposing scroll measured; source originals only exposed to screen readers. No provider/form storage or payment testing.",
+  "standardPages": [
+    "index.html",
+    "about.html",
+    "contact.html",
+    "blog.html",
+    "reviews.html",
+    "faq.html",
+    "packages.html",
+    "pricing.html",
+    "web-design.html",
+    "google-business-profile.html",
+    "ppc.html",
+    "social-media-management.html",
+    "social-media-marketing.html",
+    "branding.html",
+    "graphics-design.html",
+    "content-marketing.html",
+    "email-marketing.html",
+    "conversion-rate-optimization.html",
+    "business-audit-tool.html",
+    "roadmap.html",
+    "10-essential-tips-for-businesses-2025.html",
+    "business-not-showing-up-online.html",
+    "how-to-grow-your-business-online-2026.html",
+    "top-features-for-a-school-website.html",
+    "value-of-a-digital-agency.html",
+    "blog-details.html",
+    "industries.html",
+    "education-marketing.html",
+    "solar-and-home-services-marketing.html",
+    "home-technical-services-marketing.html",
+    "retail-specialty-store-marketing.html",
+    "food-supplier-marketing.html",
+    "construction-property-marketing.html",
+    "privacy-policy.html",
+    "service-terms.html"
+  ],
+  "widths": [
+    360,
+    390,
+    768,
+    1440
+  ],
+  "navigationKeyboard": true,
+  "footerFormDefinition": true,
+  "gallery": {
+    "projects": 12,
+    "categories": {
+      "websites": 3,
+      "branding": 4,
+      "graphics": 5
+    },
+    "lightbox": true
+  },
+  "reviews": {
+    "originals": 6,
+    "start": [
+      10,
+      1196
+    ],
+    "end": [
+      43,
+      1163
+    ],
+    "hoverPause": true,
+    "manualPause": true,
+    "reducedMotion": true,
+    "inertClones": true
+  },
+  "noJavaScript": true,
+  "errors": []
+}

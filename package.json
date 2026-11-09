@@ -10,7 +10,10 @@
     "test:completion": "node tests/completion.browser.cjs",
     "test:measurement": "node tests/measurement.browser.cjs",
     "test:design": "node tests/design-refinement.browser.cjs",
-    "capture:design": "node scripts/capture-design-refinement.cjs"
+    "capture:design": "node scripts/capture-design-refinement.cjs",
+    "chrome:sync": "node scripts/sync-site-chrome.cjs",
+    "test:experience": "node tests/site-experience.browser.cjs",
+    "capture:experience": "node scripts/capture-experience.cjs"
   },
   "engines": {
     "node": ">=22"

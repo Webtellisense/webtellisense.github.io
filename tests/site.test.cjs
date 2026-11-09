@@ -29,15 +29,15 @@ test('GA4/GTM and all intended Meta IDs are retained, duplicate PageViews scoped
  assert.doesNotMatch(current('packages.html'),/class="wt-btn-submit-pay" onclick=/);
 });
 test('JS syntax: first-party shared code and every executable inline block',()=>{
- for(const file of ['assets/js/main.js','assets/js/theme-toggle.js','assets/js/heroes.js','assets/js/heroes-config.js','assets/js/heroes-shared.js','assets/js/measurement.js','assets/js/measurement-config.js','assets/js/design-refinement.js','assets/vendor/php-email-form/validate.js'])execFileSync(process.execPath,['--check',file]);
+ for(const file of ['assets/js/main.js','assets/js/theme-toggle.js','assets/js/heroes.js','assets/js/heroes-config.js','assets/js/heroes-shared.js','assets/js/measurement.js','assets/js/measurement-config.js','assets/js/design-refinement.js','assets/js/site-experience.js','scripts/site-chrome.cjs','scripts/sync-site-chrome.cjs','assets/vendor/php-email-form/validate.js'])execFileSync(process.execPath,['--check',file]);
  for(const r of after.pages){const text=current(r.page);for(const m of text.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/gi)){
   if(/\bsrc\s*=|type=["'](?:application\/|text\/template)/i.test(m[1]))continue;
   execFileSync(process.execPath,['--check'],{input:m[2],stdio:['pipe','pipe','pipe']});
  }}
 });
 test('no missing backend or policy is disguised as a new integration; audit does not promise storage/email',()=>{
- assert.equal(after.counts.missing_form_backend_references,2);assert.equal(after.counts.unresolved_legal_links || 0,0);
- assert.match(current('privacy-policy.html'),/Not a final policy/);assert.match(current('service-terms.html'),/NOT FINAL CONTRACT TERMS/);
+ assert.equal(after.counts.missing_form_backend_references,1);assert.equal(after.counts.unresolved_legal_links || 0,0);
+ assert.equal(JSON.parse(current('config/legal-release.json')).copyApprovedForProduction,false);assert.match(current('scripts/build-static.cjs'),/Production release blocked/);
  assert.doesNotMatch(current('audit.html'),/Your results have been saved|A summary has been sent|onclick="copyShare/);
  assert.match(current('audit.html'),/el.textContent = name/);assert.match(current('audit.html'),/addEventListener\('click', \(\) => copyShare\(shareText\)\)/);
  assert.match(current('assets/vendor/php-email-form/validate.js'),/querySelector\('\.error-message'\).textContent = error/);

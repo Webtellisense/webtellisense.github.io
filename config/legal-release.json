@@ -1,0 +1,4 @@
+{
+  "copyApprovedForProduction": false,
+  "note": "Owner authorized building customer-facing pages on draft PR #5. Approval of the completed policy/terms and actual operational facts is still required before a production release. See docs/experience-legal-review.md."
+}

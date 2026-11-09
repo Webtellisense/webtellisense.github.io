@@ -1,0 +1,126 @@
+{
+  "baseline": "118ece7986c552f5e2b0f3e7885ca1801ce70a2e",
+  "method": "Actual Chromium local renders, 1440/390 width, fonts/images decoded and full pages scrolled. Providers and non-GET requests blocked. Reduced motion for stable captures; animation tested separately. Detail viewport height expands to fit the complete section. No hosted/provider test inferred.",
+  "captures": [
+    {
+      "phase": "before",
+      "route": "index",
+      "width": 1440,
+      "file": "docs/experience-previews/before/index-1440.jpg"
+    },
+    {
+      "phase": "before",
+      "route": "index",
+      "width": 390,
+      "file": "docs/experience-previews/before/index-390.jpg"
+    },
+    {
+      "phase": "before",
+      "route": "web-design",
+      "width": 1440,
+      "file": "docs/experience-previews/before/web-design-1440.jpg"
+    },
+    {
+      "phase": "before",
+      "route": "web-design",
+      "width": 390,
+      "file": "docs/experience-previews/before/web-design-390.jpg"
+    },
+    {
+      "phase": "before",
+      "route": "education-marketing",
+      "width": 1440,
+      "file": "docs/experience-previews/before/education-marketing-1440.jpg"
+    },
+    {
+      "phase": "before",
+      "route": "education-marketing",
+      "width": 390,
+      "file": "docs/experience-previews/before/education-marketing-390.jpg"
+    },
+    {
+      "phase": "before",
+      "route": "about",
+      "width": 1440,
+      "file": "docs/experience-previews/before/about-1440.jpg"
+    },
+    {
+      "phase": "before",
+      "route": "about",
+      "width": 390,
+      "file": "docs/experience-previews/before/about-390.jpg"
+    },
+    {
+      "phase": "before",
+      "route": "contact",
+      "width": 1440,
+      "file": "docs/experience-previews/before/contact-1440.jpg"
+    },
+    {
+      "phase": "before",
+      "route": "contact",
+      "width": 390,
+      "file": "docs/experience-previews/before/contact-390.jpg"
+    },
+    {
+      "phase": "after",
+      "route": "index",
+      "width": 1440,
+      "file": "docs/experience-previews/after/index-1440.jpg"
+    },
+    {
+      "phase": "after",
+      "route": "index",
+      "width": 390,
+      "file": "docs/experience-previews/after/index-390.jpg"
+    },
+    {
+      "phase": "after",
+      "route": "web-design",
+      "width": 1440,
+      "file": "docs/experience-previews/after/web-design-1440.jpg"
+    },
+    {
+      "phase": "after",
+      "route": "web-design",
+      "width": 390,
+      "file": "docs/experience-previews/after/web-design-390.jpg"
+    },
+    {
+      "phase": "after",
+      "route": "education-marketing",
+      "width": 1440,
+      "file": "docs/experience-previews/after/education-marketing-1440.jpg"
+    },
+    {
+      "phase": "after",
+      "route": "education-marketing",
+      "width": 390,
+      "file": "docs/experience-previews/after/education-marketing-390.jpg"
+    },
+    {
+      "phase": "after",
+      "route": "about",
+      "width": 1440,
+      "file": "docs/experience-previews/after/about-1440.jpg"
+    },
+    {
+      "phase": "after",
+      "route": "about",
+      "width": 390,
+      "file": "docs/experience-previews/after/about-390.jpg"
+    },
+    {
+      "phase": "after",
+      "route": "contact",
+      "width": 1440,
+      "file": "docs/experience-previews/after/contact-1440.jpg"
+    },
+    {
+      "phase": "after",
+      "route": "contact",
+      "width": 390,
+      "file": "docs/experience-previews/after/contact-390.jpg"
+    }
+  ]
+}

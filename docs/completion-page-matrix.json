@@ -48,9 +48,15 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
-      "forms": [],
+      "forms": [
+        {
+          "name": "contact",
+          "action": "current URL",
+          "status": "Netlify static definition; registration/storage/notification unverified"
+        }
+      ],
       "contextual_links": 9,
       "operational_information_links": 0,
       "incoming_prose_links": 2,
@@ -80,10 +86,16 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 666366,
-          "localResourceBytes": 363462,
+          "htmlBytes": 672497,
+          "localResourceBytes": 389319,
           "brokenImages": [],
-          "forms": []
+          "forms": [
+            {
+              "name": "contact",
+              "action": null,
+              "hasPrivacyLink": true
+            }
+          ]
         }
       },
       "runtime_status": "Local Chromium only; provider writes blocked/mocked",
@@ -142,7 +154,7 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
       "forms": [
         {
@@ -180,7 +192,7 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 672182,
+          "htmlBytes": 672144,
           "localResourceBytes": 7854,
           "brokenImages": [],
           "forms": [
@@ -243,7 +255,7 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
       "forms": [],
       "contextual_links": 0,
@@ -275,7 +287,7 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 656290,
+          "htmlBytes": 656263,
           "localResourceBytes": 110161,
           "brokenImages": [],
           "forms": []
@@ -338,7 +350,7 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
       "forms": [
         {
@@ -376,8 +388,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 680211,
-          "localResourceBytes": 1263670,
+          "htmlBytes": 682664,
+          "localResourceBytes": 1406516,
           "brokenImages": [],
           "forms": [
             {
@@ -429,9 +441,15 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
-      "forms": [],
+      "forms": [
+        {
+          "name": "contact",
+          "action": "current URL",
+          "status": "Netlify static definition; registration/storage/notification unverified"
+        }
+      ],
       "contextual_links": 8,
       "operational_information_links": 0,
       "incoming_prose_links": 0,
@@ -461,10 +479,16 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 665825,
-          "localResourceBytes": 319380,
+          "htmlBytes": 671956,
+          "localResourceBytes": 345237,
           "brokenImages": [],
-          "forms": []
+          "forms": [
+            {
+              "name": "contact",
+              "action": null,
+              "hasPrivacyLink": true
+            }
+          ]
         }
       },
       "runtime_status": "Local Chromium only; provider writes blocked/mocked",
@@ -523,7 +547,7 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
       "forms": [
         {
@@ -561,8 +585,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 671833,
-          "localResourceBytes": 1596775,
+          "htmlBytes": 674314,
+          "localResourceBytes": 1739621,
           "brokenImages": [],
           "forms": [
             {
@@ -614,9 +638,15 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
-      "forms": [],
+      "forms": [
+        {
+          "name": "contact",
+          "action": "current URL",
+          "status": "Netlify static definition; registration/storage/notification unverified"
+        }
+      ],
       "contextual_links": 13,
       "operational_information_links": 0,
       "incoming_prose_links": 1,
@@ -646,10 +676,16 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 670518,
-          "localResourceBytes": 345458,
+          "htmlBytes": 676661,
+          "localResourceBytes": 371315,
           "brokenImages": [],
-          "forms": []
+          "forms": [
+            {
+              "name": "contact",
+              "action": null,
+              "hasPrivacyLink": true
+            }
+          ]
         }
       },
       "runtime_status": "Local Chromium only; provider writes blocked/mocked",
@@ -708,9 +744,15 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
-      "forms": [],
+      "forms": [
+        {
+          "name": "contact",
+          "action": "current URL",
+          "status": "Netlify static definition; registration/storage/notification unverified"
+        }
+      ],
       "contextual_links": 0,
       "operational_information_links": 0,
       "incoming_prose_links": 0,
@@ -740,10 +782,16 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 694228,
-          "localResourceBytes": 0,
+          "htmlBytes": 703024,
+          "localResourceBytes": 195696,
           "brokenImages": [],
-          "forms": []
+          "forms": [
+            {
+              "name": "contact",
+              "action": null,
+              "hasPrivacyLink": true
+            }
+          ]
         }
       },
       "runtime_status": "Local Chromium only; provider writes blocked/mocked",
@@ -755,13 +803,13 @@
     {
       "page": "ppc.html",
       "title": "Google Ads & Pay-Per-Click (PPC) Advertising Nigeria - Webtellisense",
-      "description": "Get immediate customer phone calls and sales with expert Google Ads management. Perfect for businesses in Lagos, Uyo, Eket, and all over Nigeria.",
+      "description": "Google Ads and PPC management for businesses in Nigeria. Plan relevant campaigns, budgets and landing-page journeys for customers in Eket, Uyo and your actual service area.",
       "canonical": "https://webtellisense.com/ppc",
       "indexable": true,
       "sitemap": true,
       "share": {
         "og:title": "Google Ads & Pay-Per-Click (PPC) Advertising Nigeria - Webtellisense",
-        "og:description": "Get immediate customer phone calls and sales with expert Google Ads management. Perfect for businesses in Lagos, Uyo, Eket, and all over Nigeria.",
+        "og:description": "Google Ads and PPC management for businesses in Nigeria. Plan relevant campaigns, budgets and landing-page journeys for customers in Eket, Uyo and your actual service area.",
         "og:url": "https://webtellisense.com/ppc",
         "og:type": "website",
         "og:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
@@ -770,7 +818,7 @@
         "og:locale": "en_NG",
         "twitter:card": "summary_large_image",
         "twitter:title": "Google Ads & Pay-Per-Click (PPC) Advertising Nigeria - Webtellisense",
-        "twitter:description": "Get immediate customer phone calls and sales with expert Google Ads management. Perfect for businesses in Lagos, Uyo, Eket, and all over Nigeria.",
+        "twitter:description": "Google Ads and PPC management for businesses in Nigeria. Plan relevant campaigns, budgets and landing-page journeys for customers in Eket, Uyo and your actual service area.",
         "twitter:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
         "twitter:image:alt": "Google Ads & Pay-Per-Click (PPC) Advertising Nigeria - Webtellisense",
         "og:image:width": "6016",
@@ -803,7 +851,7 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
       "forms": [
         {
@@ -841,8 +889,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 696651,
-          "localResourceBytes": 1076471,
+          "htmlBytes": 696803,
+          "localResourceBytes": 1219317,
           "brokenImages": [],
           "forms": [
             {
@@ -905,7 +953,7 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
       "forms": [
         {
@@ -948,8 +996,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 731259,
-          "localResourceBytes": 1289360,
+          "htmlBytes": 732871,
+          "localResourceBytes": 1375402,
           "brokenImages": [],
           "forms": [
             {
@@ -1023,13 +1071,13 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
       "forms": [
         {
-          "name": "unnamed",
-          "action": "forms/newsletter.php",
-          "status": "Missing backend; frontend recovery only"
+          "name": "contact",
+          "action": "current URL",
+          "status": "Netlify static definition; registration/storage/notification unverified"
         }
       ],
       "contextual_links": 0,
@@ -1061,13 +1109,13 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 671707,
-          "localResourceBytes": 1020869,
+          "htmlBytes": 675085,
+          "localResourceBytes": 1216945,
           "brokenImages": [],
           "forms": [
             {
-              "name": "",
-              "action": "forms/newsletter.php",
+              "name": "contact",
+              "action": null,
               "hasPrivacyLink": true
             }
           ]
@@ -1125,7 +1173,7 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
       "forms": [
         {
@@ -1163,8 +1211,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 679508,
-          "localResourceBytes": 3977083,
+          "htmlBytes": 682009,
+          "localResourceBytes": 4119929,
           "brokenImages": [],
           "forms": [
             {
@@ -1183,13 +1231,13 @@
     {
       "page": "content-marketing.html",
       "title": "Professional Content Marketing Services Nigeria - Webtellisense",
-      "description": "Stop chasing customers with annoying sales pitches. Publish expert guides, blogs, and articles that answer client questions and bring ready-to-buy leads to your business.",
+      "description": "Content marketing that answers your customers’ questions. Useful articles, guides and website copy for businesses in Eket, Uyo and across Nigeria.",
       "canonical": "https://webtellisense.com/content-marketing",
       "indexable": true,
       "sitemap": true,
       "share": {
         "og:title": "Professional Content Marketing Services Nigeria - Webtellisense",
-        "og:description": "Stop chasing customers with annoying sales pitches. Publish expert guides, blogs, and articles that answer client questions and bring ready-to-buy leads to your business.",
+        "og:description": "Content marketing that answers your customers’ questions. Useful articles, guides and website copy for businesses in Eket, Uyo and across Nigeria.",
         "og:url": "https://webtellisense.com/content-marketing",
         "og:type": "website",
         "og:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
@@ -1198,7 +1246,7 @@
         "og:locale": "en_NG",
         "twitter:card": "summary_large_image",
         "twitter:title": "Professional Content Marketing Services Nigeria - Webtellisense",
-        "twitter:description": "Stop chasing customers with annoying sales pitches. Publish expert guides, blogs, and articles that answer client questions and bring ready-to-buy leads to your business.",
+        "twitter:description": "Content marketing that answers your customers’ questions. Useful articles, guides and website copy for businesses in Eket, Uyo and across Nigeria.",
         "twitter:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
         "twitter:image:alt": "Professional Content Marketing Services Nigeria - Webtellisense",
         "og:image:width": "6016",
@@ -1231,7 +1279,7 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
       "forms": [
         {
@@ -1269,8 +1317,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 689578,
-          "localResourceBytes": 1073494,
+          "htmlBytes": 689197,
+          "localResourceBytes": 1216340,
           "brokenImages": [],
           "forms": [
             {
@@ -1288,14 +1336,14 @@
     },
     {
       "page": "index.html",
-      "title": "Webtellisense | Eket’s Top Web Design & Digital Marketing Agency",
-      "description": "Webtellisense: Eket, Akwa Ibom, Nigeria's leading digital agency for fast, affordable & high-converting websites. Web design, SEO & branding that grows your business.",
+      "title": "Web Design &amp; Digital Marketing in Eket | Webtellisense",
+      "description": "Website design, branding and digital marketing from Eket, Akwa Ibom. Helping businesses in Uyo and across Nigeria present their work and make contact easier.",
       "canonical": "https://webtellisense.com/",
       "indexable": true,
       "sitemap": true,
       "share": {
-        "og:title": "Webtellisense | Eket’s Top Web Design & Digital Marketing Agency",
-        "og:description": "Webtellisense: Eket, Akwa Ibom, Nigeria's leading digital agency for fast, affordable & high-converting websites. Web design, SEO & branding that grows your business.",
+        "og:title": "Web Design & Digital Marketing in Eket | Webtellisense",
+        "og:description": "Website design, branding and digital marketing from Eket, Akwa Ibom. Helping businesses in Uyo and across Nigeria present their work and make contact easier.",
         "og:url": "https://webtellisense.com/",
         "og:type": "website",
         "og:image": "https://webtellisense.com/assets/img/logo.png",
@@ -1303,8 +1351,8 @@
         "og:site_name": "Webtellisense",
         "og:locale": "en_NG",
         "twitter:card": "summary_large_image",
-        "twitter:title": "Webtellisense | Eket’s Top Web Design & Digital Marketing Agency",
-        "twitter:description": "Webtellisense: Eket, Akwa Ibom, Nigeria's leading digital agency for fast, affordable & high-converting websites. Web design, SEO & branding that grows your business.",
+        "twitter:title": "Web Design & Digital Marketing in Eket | Webtellisense",
+        "twitter:description": "Website design, branding and digital marketing from Eket, Akwa Ibom. Helping businesses in Uyo and across Nigeria present their work and make contact easier.",
         "twitter:image": "https://webtellisense.com/assets/img/logo.png",
         "twitter:image:alt": "Webtellisense",
         "og:image:width": "847",
@@ -1335,7 +1383,7 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
       "forms": [
         {
@@ -1373,8 +1421,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 720001,
-          "localResourceBytes": 6764075,
+          "htmlBytes": 715926,
+          "localResourceBytes": 4825584,
           "brokenImages": [],
           "forms": [
             {
@@ -1394,13 +1442,13 @@
     {
       "page": "social-media-management.html",
       "title": "Social Media Management Services Nigeria - Webtellisense",
-      "description": "Keep your Facebook and Instagram pages active, beautiful, and growing while you focus on running your business. Packages for small businesses in Uyo, Eket, and nationwide.",
+      "description": "Social media management for businesses in Eket, Uyo and across Nigeria. Plan useful content and agreed publishing activity while you focus on running the business.",
       "canonical": "https://webtellisense.com/social-media-management",
       "indexable": true,
       "sitemap": true,
       "share": {
         "og:title": "Social Media Management Services Nigeria - Webtellisense",
-        "og:description": "Keep your Facebook and Instagram pages active, beautiful, and growing while you focus on running your business. Packages for small businesses in Uyo, Eket, and nationwide.",
+        "og:description": "Social media management for businesses in Eket, Uyo and across Nigeria. Plan useful content and agreed publishing activity while you focus on running the business.",
         "og:url": "https://webtellisense.com/social-media-management",
         "og:type": "website",
         "og:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
@@ -1409,7 +1457,7 @@
         "og:locale": "en_NG",
         "twitter:card": "summary_large_image",
         "twitter:title": "Social Media Management Services Nigeria - Webtellisense",
-        "twitter:description": "Keep your Facebook and Instagram pages active, beautiful, and growing while you focus on running your business. Packages for small businesses in Uyo, Eket, and nationwide.",
+        "twitter:description": "Social media management for businesses in Eket, Uyo and across Nigeria. Plan useful content and agreed publishing activity while you focus on running the business.",
         "twitter:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
         "twitter:image:alt": "Social Media Management Services Nigeria - Webtellisense",
         "og:image:width": "6016",
@@ -1442,7 +1490,7 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
       "forms": [
         {
@@ -1480,8 +1528,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 681972,
-          "localResourceBytes": 1073494,
+          "htmlBytes": 683837,
+          "localResourceBytes": 1216340,
           "brokenImages": [],
           "forms": [
             {
@@ -1548,7 +1596,7 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
       "forms": [],
       "contextual_links": 0,
@@ -1580,7 +1628,7 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 702096,
+          "htmlBytes": 701347,
           "localResourceBytes": 5429571,
           "brokenImages": [],
           "forms": []
@@ -1596,13 +1644,13 @@
     {
       "page": "google-business-profile.html",
       "title": "Google Business Profile & Local SEO in Nigeria | Webtellisense",
-      "description": "Rank higher on Google Maps in Uyo, Eket, and across Nigeria. We optimize your Google Business Profile to turn local searches into real customers.",
+      "description": "Google Business Profile and local SEO support for businesses in Eket, Uyo and Nigeria. Keep your location, services, photos and contact details useful and consistent.",
       "canonical": "https://webtellisense.com/google-business-profile",
       "indexable": true,
       "sitemap": true,
       "share": {
         "og:title": "Google Business Profile & Local SEO in Nigeria | Webtellisense",
-        "og:description": "Rank higher on Google Maps in Uyo, Eket, and across Nigeria. We optimize your Google Business Profile to turn local searches into real customers.",
+        "og:description": "Google Business Profile and local SEO support for businesses in Eket, Uyo and Nigeria. Keep your location, services, photos and contact details useful and consistent.",
         "og:url": "https://webtellisense.com/google-business-profile",
         "og:type": "website",
         "og:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
@@ -1611,7 +1659,7 @@
         "og:locale": "en_NG",
         "twitter:card": "summary_large_image",
         "twitter:title": "Google Business Profile & Local SEO in Nigeria | Webtellisense",
-        "twitter:description": "Rank higher on Google Maps in Uyo, Eket, and across Nigeria. We optimize your Google Business Profile to turn local searches into real customers.",
+        "twitter:description": "Google Business Profile and local SEO support for businesses in Eket, Uyo and Nigeria. Keep your location, services, photos and contact details useful and consistent.",
         "twitter:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
         "twitter:image:alt": "Google Business Profile & Local SEO in Nigeria",
         "og:image:width": "6016",
@@ -1644,7 +1692,7 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
       "forms": [
         {
@@ -1682,8 +1730,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 680830,
-          "localResourceBytes": 1073494,
+          "htmlBytes": 682598,
+          "localResourceBytes": 1216340,
           "brokenImages": [],
           "forms": [
             {
@@ -1746,7 +1794,7 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
       "forms": [
         {
@@ -1784,8 +1832,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 675648,
-          "localResourceBytes": 2375296,
+          "htmlBytes": 678081,
+          "localResourceBytes": 2461338,
           "brokenImages": [],
           "forms": [
             {
@@ -1805,13 +1853,13 @@
     {
       "page": "web-design.html",
       "title": "Website Design & Development Services Nigeria - Webtellisense",
-      "description": "Get a professional, fast-loading website that brings in daily customers. Perfect for businesses and artisans in Uyo, Eket, and all over Nigeria.",
+      "description": "Professional website design for businesses in Eket, Uyo and across Nigeria. Clear information, mobile usability and useful enquiry routes, with scope agreed for your business.",
       "canonical": "https://webtellisense.com/web-design",
       "indexable": true,
       "sitemap": true,
       "share": {
         "og:title": "Website Design & Development Services Nigeria - Webtellisense",
-        "og:description": "Get a professional, fast-loading website that brings in daily customers. Perfect for businesses and artisans in Uyo, Eket, and all over Nigeria.",
+        "og:description": "Professional website design for businesses in Eket, Uyo and across Nigeria. Clear information, mobile usability and useful enquiry routes, with scope agreed for your business.",
         "og:url": "https://webtellisense.com/web-design",
         "og:type": "website",
         "og:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
@@ -1820,7 +1868,7 @@
         "og:locale": "en_NG",
         "twitter:card": "summary_large_image",
         "twitter:title": "Website Design & Development Services Nigeria - Webtellisense",
-        "twitter:description": "Get a professional, fast-loading website that brings in daily customers. Perfect for businesses and artisans in Uyo, Eket, and all over Nigeria.",
+        "twitter:description": "Professional website design for businesses in Eket, Uyo and across Nigeria. Clear information, mobile usability and useful enquiry routes, with scope agreed for your business.",
         "twitter:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
         "twitter:image:alt": "Website Design & Development Services Nigeria - Webtellisense",
         "og:image:width": "6016",
@@ -1853,7 +1901,7 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
       "forms": [
         {
@@ -1891,8 +1939,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 681165,
-          "localResourceBytes": 1073494,
+          "htmlBytes": 683182,
+          "localResourceBytes": 1216340,
           "brokenImages": [],
           "forms": [
             {
@@ -1944,9 +1992,15 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
-      "forms": [],
+      "forms": [
+        {
+          "name": "contact",
+          "action": "current URL",
+          "status": "Netlify static definition; registration/storage/notification unverified"
+        }
+      ],
       "contextual_links": 10,
       "operational_information_links": 0,
       "incoming_prose_links": 2,
@@ -1976,10 +2030,16 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 666796,
-          "localResourceBytes": 339994,
+          "htmlBytes": 672927,
+          "localResourceBytes": 365851,
           "brokenImages": [],
-          "forms": []
+          "forms": [
+            {
+              "name": "contact",
+              "action": null,
+              "hasPrivacyLink": true
+            }
+          ]
         }
       },
       "runtime_status": "Local Chromium only; provider writes blocked/mocked",
@@ -2027,7 +2087,7 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
       "forms": [],
       "contextual_links": 10,
@@ -2059,8 +2119,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 687373,
-          "localResourceBytes": 510366,
+          "htmlBytes": 687343,
+          "localResourceBytes": 510429,
           "brokenImages": [],
           "forms": []
         }
@@ -2115,7 +2175,7 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
       "forms": [],
       "contextual_links": 0,
@@ -2147,7 +2207,7 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 731971,
+          "htmlBytes": 731931,
           "localResourceBytes": 2977,
           "brokenImages": [],
           "forms": []
@@ -2163,13 +2223,13 @@
     {
       "page": "graphics-design.html",
       "title": "Professional Graphic Design Services Nigeria - Webtellisense",
-      "description": "Get stunning flyers, social media graphics, event banners, and business prints designed by experts. Fast delivery for businesses in Uyo, Eket, and all over Nigeria.",
+      "description": "Graphic design for flyers, social posts, event banners and print materials. Clear visuals and useful formats for businesses in Eket, Uyo and across Nigeria.",
       "canonical": "https://webtellisense.com/graphics-design",
       "indexable": true,
       "sitemap": true,
       "share": {
         "og:title": "Professional Graphic Design Services Nigeria - Webtellisense",
-        "og:description": "Get stunning flyers, social media graphics, event banners, and business prints designed by experts. Fast delivery for businesses in Uyo, Eket, and all over Nigeria.",
+        "og:description": "Graphic design for flyers, social posts, event banners and print materials. Clear visuals and useful formats for businesses in Eket, Uyo and across Nigeria.",
         "og:url": "https://webtellisense.com/graphics-design",
         "og:type": "website",
         "og:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
@@ -2178,7 +2238,7 @@
         "og:locale": "en_NG",
         "twitter:card": "summary_large_image",
         "twitter:title": "Professional Graphic Design Services Nigeria - Webtellisense",
-        "twitter:description": "Get stunning flyers, social media graphics, event banners, and business prints designed by experts. Fast delivery for businesses in Uyo, Eket, and all over Nigeria.",
+        "twitter:description": "Graphic design for flyers, social posts, event banners and print materials. Clear visuals and useful formats for businesses in Eket, Uyo and across Nigeria.",
         "twitter:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
         "twitter:image:alt": "Professional Graphic Design Services Nigeria - Webtellisense",
         "og:image:width": "6016",
@@ -2211,7 +2271,7 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
       "forms": [
         {
@@ -2249,8 +2309,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 681501,
-          "localResourceBytes": 1073494,
+          "htmlBytes": 683249,
+          "localResourceBytes": 1216340,
           "brokenImages": [],
           "forms": [
             {
@@ -2311,7 +2371,7 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
       "forms": [],
       "contextual_links": 0,
@@ -2343,7 +2403,7 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 695168,
+          "htmlBytes": 695141,
           "localResourceBytes": 0,
           "brokenImages": [],
           "forms": []
@@ -2357,25 +2417,25 @@
     },
     {
       "page": "privacy-policy.html",
-      "title": "Privacy Policy — Review Draft | Webtellisense",
-      "description": "Review draft describing source-visible website data collection, Netlify Forms, Paystack, WhatsApp, analytics and unresolved privacy decisions.",
+      "title": "Privacy Policy | Webtellisense",
+      "description": "How Webtellisense handles website enquiries, forms, payments, messaging and measurement, and how to contact us about your privacy rights.",
       "canonical": "https://webtellisense.com/privacy-policy",
       "indexable": false,
       "sitemap": false,
       "share": {
-        "og:title": "Privacy Policy — Review Draft | Webtellisense",
-        "og:description": "Review draft describing source-visible website data collection, Netlify Forms, Paystack, WhatsApp, analytics and unresolved privacy decisions.",
+        "og:title": "Privacy Policy | Webtellisense",
+        "og:description": "How Webtellisense handles website enquiries, forms, payments, messaging and measurement, and how to contact us about your privacy rights.",
         "og:url": "https://webtellisense.com/privacy-policy",
         "og:type": "website",
         "og:image": "https://webtellisense.com/assets/img/heroes/business-owner.webp",
-        "og:image:alt": "Privacy Policy — Review Draft",
+        "og:image:alt": "Privacy Policy",
         "og:site_name": "Webtellisense",
         "og:locale": "en_NG",
         "twitter:card": "summary_large_image",
-        "twitter:title": "Privacy Policy — Review Draft | Webtellisense",
-        "twitter:description": "Review draft describing source-visible website data collection, Netlify Forms, Paystack, WhatsApp, analytics and unresolved privacy decisions.",
+        "twitter:title": "Privacy Policy | Webtellisense",
+        "twitter:description": "How Webtellisense handles website enquiries, forms, payments, messaging and measurement, and how to contact us about your privacy rights.",
         "twitter:image": "https://webtellisense.com/assets/img/heroes/business-owner.webp",
-        "twitter:image:alt": "Privacy Policy — Review Draft",
+        "twitter:image:alt": "Privacy Policy",
         "og:image:width": "612",
         "og:image:height": "323"
       },
@@ -2391,9 +2451,15 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
-      "forms": [],
+      "forms": [
+        {
+          "name": "contact",
+          "action": "current URL",
+          "status": "Netlify static definition; registration/storage/notification unverified"
+        }
+      ],
       "contextual_links": 0,
       "operational_information_links": 1,
       "incoming_prose_links": 0,
@@ -2423,10 +2489,16 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 665471,
-          "localResourceBytes": 231717,
+          "htmlBytes": 672794,
+          "localResourceBytes": 257511,
           "brokenImages": [],
-          "forms": []
+          "forms": [
+            {
+              "name": "contact",
+              "action": null,
+              "hasPrivacyLink": true
+            }
+          ]
         }
       },
       "runtime_status": "Local Chromium only; provider writes blocked/mocked",
@@ -2481,7 +2553,7 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
       "forms": [
         {
@@ -2519,8 +2591,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 674101,
-          "localResourceBytes": 1073494,
+          "htmlBytes": 675692,
+          "localResourceBytes": 1216340,
           "brokenImages": [],
           "forms": [
             {
@@ -2585,7 +2657,7 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
       "forms": [
         {
@@ -2628,8 +2700,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 669774,
-          "localResourceBytes": 1130298,
+          "htmlBytes": 672328,
+          "localResourceBytes": 1216340,
           "brokenImages": [],
           "forms": [
             {
@@ -2654,13 +2726,13 @@
     {
       "page": "email-marketing.html",
       "title": "Professional Email Marketing Services Nigeria - Webtellisense",
-      "description": "Stop losing your customers to algorithm changes. Build an email newsletter list that you own forever and turn past buyers into repeat clients. Services in Uyo, Eket, and nationwide.",
+      "description": "Email marketing for businesses in Eket, Uyo and Nigeria. Plan permission-based signups, useful newsletters and agreed follow-up messages for people who want to hear from you.",
       "canonical": "https://webtellisense.com/email-marketing",
       "indexable": true,
       "sitemap": true,
       "share": {
         "og:title": "Professional Email Marketing Services Nigeria - Webtellisense",
-        "og:description": "Stop losing your customers to algorithm changes. Build an email newsletter list that you own forever and turn past buyers into repeat clients. Services in Uyo, Eket, and nationwide.",
+        "og:description": "Email marketing for businesses in Eket, Uyo and Nigeria. Plan permission-based signups, useful newsletters and agreed follow-up messages for people who want to hear from you.",
         "og:url": "https://webtellisense.com/email-marketing",
         "og:type": "website",
         "og:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
@@ -2669,7 +2741,7 @@
         "og:locale": "en_NG",
         "twitter:card": "summary_large_image",
         "twitter:title": "Professional Email Marketing Services Nigeria - Webtellisense",
-        "twitter:description": "Stop losing your customers to algorithm changes. Build an email newsletter list that you own forever and turn past buyers into repeat clients. Services in Uyo, Eket, and nationwide.",
+        "twitter:description": "Email marketing for businesses in Eket, Uyo and Nigeria. Plan permission-based signups, useful newsletters and agreed follow-up messages for people who want to hear from you.",
         "twitter:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
         "twitter:image:alt": "Professional Email Marketing Services Nigeria - Webtellisense",
         "og:image:width": "6016",
@@ -2702,7 +2774,7 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
       "forms": [
         {
@@ -2740,8 +2812,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 688443,
-          "localResourceBytes": 1073494,
+          "htmlBytes": 689016,
+          "localResourceBytes": 1216340,
           "brokenImages": [],
           "forms": [
             {
@@ -2808,7 +2880,7 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
       "forms": [
         {
@@ -2846,8 +2918,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 673926,
-          "localResourceBytes": 1800418,
+          "htmlBytes": 676375,
+          "localResourceBytes": 1943264,
           "brokenImages": [],
           "forms": [
             {
@@ -2911,7 +2983,7 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
       "forms": [
         {
@@ -2949,8 +3021,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 688449,
-          "localResourceBytes": 1133275,
+          "htmlBytes": 690785,
+          "localResourceBytes": 1219317,
           "brokenImages": [],
           "forms": [
             {
@@ -3002,9 +3074,15 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
-      "forms": [],
+      "forms": [
+        {
+          "name": "contact",
+          "action": "current URL",
+          "status": "Netlify static definition; registration/storage/notification unverified"
+        }
+      ],
       "contextual_links": 9,
       "operational_information_links": 0,
       "incoming_prose_links": 0,
@@ -3034,10 +3112,16 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 666236,
-          "localResourceBytes": 433642,
+          "htmlBytes": 672367,
+          "localResourceBytes": 459499,
           "brokenImages": [],
-          "forms": []
+          "forms": [
+            {
+              "name": "contact",
+              "action": null,
+              "hasPrivacyLink": true
+            }
+          ]
         }
       },
       "runtime_status": "Local Chromium only; provider writes blocked/mocked",
@@ -3048,13 +3132,13 @@
     {
       "page": "branding.html",
       "title": "Professional Brand Identity & Logo Design Nigeria - Webtellisense",
-      "description": "Stop looking like a small business. Get a professional logo, official brand colors, business cards, and letterheads that make you look elite. Services in Uyo, Eket, and nationwide.",
+      "description": "Brand identity design for businesses in Eket, Uyo and Nigeria. A recognisable logo, colours and practical materials shaped around your audience and agreed brief.",
       "canonical": "https://webtellisense.com/branding",
       "indexable": true,
       "sitemap": true,
       "share": {
         "og:title": "Professional Brand Identity & Logo Design Nigeria - Webtellisense",
-        "og:description": "Stop looking like a small business. Get a professional logo, official brand colors, business cards, and letterheads that make you look elite. Services in Uyo, Eket, and nationwide.",
+        "og:description": "Brand identity design for businesses in Eket, Uyo and Nigeria. A recognisable logo, colours and practical materials shaped around your audience and agreed brief.",
         "og:url": "https://webtellisense.com/branding",
         "og:type": "website",
         "og:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
@@ -3063,7 +3147,7 @@
         "og:locale": "en_NG",
         "twitter:card": "summary_large_image",
         "twitter:title": "Professional Brand Identity & Logo Design Nigeria - Webtellisense",
-        "twitter:description": "Stop looking like a small business. Get a professional logo, official brand colors, business cards, and letterheads that make you look elite. Services in Uyo, Eket, and nationwide.",
+        "twitter:description": "Brand identity design for businesses in Eket, Uyo and Nigeria. A recognisable logo, colours and practical materials shaped around your audience and agreed brief.",
         "twitter:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
         "twitter:image:alt": "Professional Brand Identity & Logo Design Nigeria - Webtellisense",
         "og:image:width": "6016",
@@ -3096,7 +3180,7 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
       "forms": [
         {
@@ -3134,8 +3218,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 682406,
-          "localResourceBytes": 1073494,
+          "htmlBytes": 684007,
+          "localResourceBytes": 1216340,
           "brokenImages": [],
           "forms": [
             {
@@ -3154,13 +3238,13 @@
     {
       "page": "social-media-marketing.html",
       "title": "Paid Facebook & Instagram Ads Services Nigeria - Webtellisense",
-      "description": "Stop waiting for organic reach. Run highly profitable Facebook and Instagram ads that bring direct orders to your WhatsApp. Services in Uyo, Eket, and nationwide.",
+      "description": "Facebook and Instagram advertising for businesses in Eket, Uyo and across Nigeria. Connect an agreed offer, audience and budget to a useful customer enquiry route.",
       "canonical": "https://webtellisense.com/social-media-marketing",
       "indexable": true,
       "sitemap": true,
       "share": {
         "og:title": "Paid Facebook & Instagram Ads Services Nigeria - Webtellisense",
-        "og:description": "Stop waiting for organic reach. Run highly profitable Facebook and Instagram ads that bring direct orders to your WhatsApp. Services in Uyo, Eket, and nationwide.",
+        "og:description": "Facebook and Instagram advertising for businesses in Eket, Uyo and across Nigeria. Connect an agreed offer, audience and budget to a useful customer enquiry route.",
         "og:url": "https://webtellisense.com/social-media-marketing",
         "og:type": "website",
         "og:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
@@ -3169,7 +3253,7 @@
         "og:locale": "en_NG",
         "twitter:card": "summary_large_image",
         "twitter:title": "Paid Facebook & Instagram Ads Services Nigeria - Webtellisense",
-        "twitter:description": "Stop waiting for organic reach. Run highly profitable Facebook and Instagram ads that bring direct orders to your WhatsApp. Services in Uyo, Eket, and nationwide.",
+        "twitter:description": "Facebook and Instagram advertising for businesses in Eket, Uyo and across Nigeria. Connect an agreed offer, audience and budget to a useful customer enquiry route.",
         "twitter:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
         "twitter:image:alt": "Paid Facebook & Instagram Ads Services Nigeria - Webtellisense",
         "og:image:width": "6016",
@@ -3202,7 +3286,7 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
       "forms": [
         {
@@ -3240,8 +3324,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 688893,
-          "localResourceBytes": 1076471,
+          "htmlBytes": 689398,
+          "localResourceBytes": 1219317,
           "brokenImages": [],
           "forms": [
             {
@@ -3306,7 +3390,7 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
       "forms": [
         {
@@ -3349,7 +3433,7 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 686364,
+          "htmlBytes": 686232,
           "localResourceBytes": 1890598,
           "brokenImages": [],
           "forms": [
@@ -3409,9 +3493,15 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
-      "forms": [],
+      "forms": [
+        {
+          "name": "contact",
+          "action": "current URL",
+          "status": "Netlify static definition; registration/storage/notification unverified"
+        }
+      ],
       "contextual_links": 6,
       "operational_information_links": 0,
       "incoming_prose_links": 7,
@@ -3441,10 +3531,16 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 669760,
-          "localResourceBytes": 507486,
+          "htmlBytes": 675825,
+          "localResourceBytes": 533343,
           "brokenImages": [],
-          "forms": []
+          "forms": [
+            {
+              "name": "contact",
+              "action": null,
+              "hasPrivacyLink": true
+            }
+          ]
         }
       },
       "runtime_status": "Local Chromium only; provider writes blocked/mocked",
@@ -3497,7 +3593,7 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
       "forms": [
         {
@@ -3535,7 +3631,7 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 665473,
+          "htmlBytes": 665423,
           "localResourceBytes": 352459,
           "brokenImages": [],
           "forms": [
@@ -3597,7 +3693,7 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
       "forms": [],
       "contextual_links": 0,
@@ -3629,7 +3725,7 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 657242,
+          "htmlBytes": 657215,
           "localResourceBytes": 244049,
           "brokenImages": [],
           "forms": []
@@ -3684,7 +3780,7 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
       "forms": [
         {
@@ -3722,8 +3818,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 670923,
-          "localResourceBytes": 1477976,
+          "htmlBytes": 674286,
+          "localResourceBytes": 1620782,
           "brokenImages": [],
           "forms": [
             {
@@ -3790,7 +3886,7 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
       "forms": [
         {
@@ -3828,8 +3924,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 677017,
-          "localResourceBytes": 1375082,
+          "htmlBytes": 679526,
+          "localResourceBytes": 1517928,
           "brokenImages": [],
           "forms": [
             {
@@ -3890,7 +3986,7 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
       "forms": [],
       "contextual_links": 0,
@@ -3922,7 +4018,7 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 660699,
+          "htmlBytes": 660672,
           "localResourceBytes": 287233,
           "brokenImages": [],
           "forms": []
@@ -3937,13 +4033,13 @@
     {
       "page": "conversion-rate-optimization.html",
       "title": "Conversion Rate Optimization (CRO) Nigeria - Webtellisense",
-      "description": "Stop wasting money on website traffic that doesn't buy. We fix your confusing checkout forms, slow buttons, and hidden contact links so you double your sales.",
+      "description": "Make your website and enquiry journey easier to use. Conversion improvements for clearer offers, forms and contact routes for businesses in Eket, Uyo and Nigeria.",
       "canonical": "https://webtellisense.com/conversion-rate-optimization",
       "indexable": true,
       "sitemap": true,
       "share": {
         "og:title": "Conversion Rate Optimization (CRO) Nigeria - Webtellisense",
-        "og:description": "Stop wasting money on website traffic that doesn't buy. We fix your confusing checkout forms, slow buttons, and hidden contact links so you double your sales.",
+        "og:description": "Make your website and enquiry journey easier to use. Conversion improvements for clearer offers, forms and contact routes for businesses in Eket, Uyo and Nigeria.",
         "og:url": "https://webtellisense.com/conversion-rate-optimization",
         "og:type": "website",
         "og:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
@@ -3952,7 +4048,7 @@
         "og:locale": "en_NG",
         "twitter:card": "summary_large_image",
         "twitter:title": "Conversion Rate Optimization (CRO) Nigeria - Webtellisense",
-        "twitter:description": "Stop wasting money on website traffic that doesn't buy. We fix your confusing checkout forms, slow buttons, and hidden contact links so you double your sales.",
+        "twitter:description": "Make your website and enquiry journey easier to use. Conversion improvements for clearer offers, forms and contact routes for businesses in Eket, Uyo and Nigeria.",
         "twitter:image": "https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg",
         "twitter:image:alt": "Conversion Rate Optimization (CRO) Nigeria - Webtellisense",
         "og:image:width": "6016",
@@ -3985,7 +4081,7 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
       "forms": [
         {
@@ -4023,8 +4119,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 688401,
-          "localResourceBytes": 1073494,
+          "htmlBytes": 688726,
+          "localResourceBytes": 1216340,
           "brokenImages": [],
           "forms": [
             {
@@ -4091,7 +4187,7 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
       "forms": [
         {
@@ -4129,7 +4225,7 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 717261,
+          "htmlBytes": 717221,
           "localResourceBytes": 1104597,
           "brokenImages": [],
           "forms": [
@@ -4196,7 +4292,7 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
       "forms": [
         {
@@ -4234,8 +4330,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 671387,
-          "localResourceBytes": 1076471,
+          "htmlBytes": 673856,
+          "localResourceBytes": 1219317,
           "brokenImages": [],
           "forms": [
             {
@@ -4287,9 +4383,15 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
-      "forms": [],
+      "forms": [
+        {
+          "name": "contact",
+          "action": "current URL",
+          "status": "Netlify static definition; registration/storage/notification unverified"
+        }
+      ],
       "contextual_links": 9,
       "operational_information_links": 0,
       "incoming_prose_links": 2,
@@ -4319,10 +4421,16 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 665917,
-          "localResourceBytes": 363462,
+          "htmlBytes": 672048,
+          "localResourceBytes": 389319,
           "brokenImages": [],
-          "forms": []
+          "forms": [
+            {
+              "name": "contact",
+              "action": null,
+              "hasPrivacyLink": true
+            }
+          ]
         }
       },
       "runtime_status": "Local Chromium only; provider writes blocked/mocked",
@@ -4377,7 +4485,7 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
       "forms": [
         {
@@ -4415,8 +4523,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 672469,
-          "localResourceBytes": 1073494,
+          "htmlBytes": 674982,
+          "localResourceBytes": 1216340,
           "brokenImages": [],
           "forms": [
             {
@@ -4435,25 +4543,25 @@
     },
     {
       "page": "service-terms.html",
-      "title": "Service &amp; Billing Disclosures — Review Draft | Webtellisense",
-      "description": "Review draft of approved Heroes prices, hosted payment, manual verification and personal onboarding; unresolved contract and refund decisions remain for approval.",
+      "title": "Service Terms | Webtellisense",
+      "description": "Scope, approved Heroes billing, Paystack payment, manual confirmation and personal onboarding information for working with Webtellisense.",
       "canonical": "https://webtellisense.com/service-terms",
       "indexable": false,
       "sitemap": false,
       "share": {
-        "og:title": "Service & Billing Disclosures — Review Draft | Webtellisense",
-        "og:description": "Review draft of approved Heroes prices, hosted payment, manual verification and personal onboarding; unresolved contract and refund decisions remain for approval.",
+        "og:title": "Service Terms | Webtellisense",
+        "og:description": "Scope, approved Heroes billing, Paystack payment, manual confirmation and personal onboarding information for working with Webtellisense.",
         "og:url": "https://webtellisense.com/service-terms",
         "og:type": "website",
         "og:image": "https://webtellisense.com/assets/img/heroes/business-owner.webp",
-        "og:image:alt": "Service & Billing Disclosures — Review Draft",
+        "og:image:alt": "Service Terms",
         "og:site_name": "Webtellisense",
         "og:locale": "en_NG",
         "twitter:card": "summary_large_image",
-        "twitter:title": "Service & Billing Disclosures — Review Draft | Webtellisense",
-        "twitter:description": "Review draft of approved Heroes prices, hosted payment, manual verification and personal onboarding; unresolved contract and refund decisions remain for approval.",
+        "twitter:title": "Service Terms | Webtellisense",
+        "twitter:description": "Scope, approved Heroes billing, Paystack payment, manual confirmation and personal onboarding information for working with Webtellisense.",
         "twitter:image": "https://webtellisense.com/assets/img/heroes/business-owner.webp",
-        "twitter:image:alt": "Service & Billing Disclosures — Review Draft",
+        "twitter:image:alt": "Service Terms",
         "og:image:width": "612",
         "og:image:height": "323"
       },
@@ -4468,10 +4576,16 @@
       "measurement_module": false,
       "legal": {
         "privacy_link": true,
-        "service_link": false,
-        "status": "Draft information, not approved final terms"
+        "service_link": true,
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
-      "forms": [],
+      "forms": [
+        {
+          "name": "contact",
+          "action": "current URL",
+          "status": "Netlify static definition; registration/storage/notification unverified"
+        }
+      ],
       "contextual_links": 0,
       "operational_information_links": 2,
       "incoming_prose_links": 0,
@@ -4501,10 +4615,16 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 659896,
-          "localResourceBytes": 231717,
+          "htmlBytes": 669651,
+          "localResourceBytes": 257511,
           "brokenImages": [],
-          "forms": []
+          "forms": [
+            {
+              "name": "contact",
+              "action": null,
+              "hasPrivacyLink": true
+            }
+          ]
         }
       },
       "runtime_status": "Local Chromium only; provider writes blocked/mocked",
@@ -4558,7 +4678,7 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
       "forms": [],
       "contextual_links": 0,
@@ -4590,7 +4710,7 @@
         "axe": [],
         "cssBlocked": true,
         "metrics": {
-          "htmlBytes": 48717,
+          "htmlBytes": 48690,
           "localResourceBytes": 2482238,
           "brokenImages": [],
           "forms": []
@@ -4648,7 +4768,7 @@
       "legal": {
         "privacy_link": true,
         "service_link": true,
-        "status": "Draft information, not approved final terms"
+        "status": "Customer-facing legal copy; production release awaits completed-copy and operational sign-off"
       },
       "forms": [],
       "contextual_links": 0,
@@ -4680,7 +4800,7 @@
         "axe": [],
         "cssBlocked": true,
         "metrics": {
-          "htmlBytes": 39435,
+          "htmlBytes": 39408,
           "localResourceBytes": 2482238,
           "brokenImages": [],
           "forms": []

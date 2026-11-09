@@ -3,8 +3,8 @@
   "counts": {
     "h1_defective_pages": 0,
     "duplicate_pixel_destination_pageviews": 0,
-    "missing_form_backend_references": 2,
     "ga_gtm_overlap_pages": 2,
+    "missing_form_backend_references": 1,
     "duplicate_description_pages": 0,
     "html_pages": 48,
     "broken_file_references": 0,
@@ -139,7 +139,7 @@
         "https://webtellisense.com/ppc"
       ],
       "descriptions": [
-        "Get immediate customer phone calls and sales with expert Google Ads management. Perfect for businesses in Lagos, Uyo, Eket, and all over Nigeria."
+        "Google Ads and PPC management for businesses in Nigeria. Plan relevant campaigns, budgets and landing-page journeys for customers in Eket, Uyo and your actual service area."
       ],
       "titles": [
         "Google Ads & Pay-Per-Click (PPC) Advertising Nigeria - Webtellisense"
@@ -195,7 +195,7 @@
         "https://webtellisense.com/content-marketing"
       ],
       "descriptions": [
-        "Stop chasing customers with annoying sales pitches. Publish expert guides, blogs, and articles that answer client questions and bring ready-to-buy leads to your business."
+        "Content marketing that answers your customers’ questions. Useful articles, guides and website copy for businesses in Eket, Uyo and across Nigeria."
       ],
       "titles": [
         "Professional Content Marketing Services Nigeria - Webtellisense"
@@ -209,10 +209,10 @@
         "https://webtellisense.com/"
       ],
       "descriptions": [
-        "Webtellisense: Eket, Akwa Ibom, Nigeria's leading digital agency for fast, affordable & high-converting websites. Web design, SEO & branding that grows your business."
+        "Website design, branding and digital marketing from Eket, Akwa Ibom. Helping businesses in Uyo and across Nigeria present their work and make contact easier."
       ],
       "titles": [
-        "Webtellisense | Eket’s Top Web Design & Digital Marketing Agency"
+        "Web Design &amp; Digital Marketing in Eket | Webtellisense"
       ],
       "h1_count": 1
     },
@@ -223,7 +223,7 @@
         "https://webtellisense.com/social-media-management"
       ],
       "descriptions": [
-        "Keep your Facebook and Instagram pages active, beautiful, and growing while you focus on running your business. Packages for small businesses in Uyo, Eket, and nationwide."
+        "Social media management for businesses in Eket, Uyo and across Nigeria. Plan useful content and agreed publishing activity while you focus on running the business."
       ],
       "titles": [
         "Social Media Management Services Nigeria - Webtellisense"
@@ -251,7 +251,7 @@
         "https://webtellisense.com/google-business-profile"
       ],
       "descriptions": [
-        "Rank higher on Google Maps in Uyo, Eket, and across Nigeria. We optimize your Google Business Profile to turn local searches into real customers."
+        "Google Business Profile and local SEO support for businesses in Eket, Uyo and Nigeria. Keep your location, services, photos and contact details useful and consistent."
       ],
       "titles": [
         "Google Business Profile & Local SEO in Nigeria | Webtellisense"
@@ -279,7 +279,7 @@
         "https://webtellisense.com/web-design"
       ],
       "descriptions": [
-        "Get a professional, fast-loading website that brings in daily customers. Perfect for businesses and artisans in Uyo, Eket, and all over Nigeria."
+        "Professional website design for businesses in Eket, Uyo and across Nigeria. Clear information, mobile usability and useful enquiry routes, with scope agreed for your business."
       ],
       "titles": [
         "Website Design & Development Services Nigeria - Webtellisense"
@@ -335,7 +335,7 @@
         "https://webtellisense.com/graphics-design"
       ],
       "descriptions": [
-        "Get stunning flyers, social media graphics, event banners, and business prints designed by experts. Fast delivery for businesses in Uyo, Eket, and all over Nigeria."
+        "Graphic design for flyers, social posts, event banners and print materials. Clear visuals and useful formats for businesses in Eket, Uyo and across Nigeria."
       ],
       "titles": [
         "Professional Graphic Design Services Nigeria - Webtellisense"
@@ -363,10 +363,10 @@
         "https://webtellisense.com/privacy-policy"
       ],
       "descriptions": [
-        "Review draft describing source-visible website data collection, Netlify Forms, Paystack, WhatsApp, analytics and unresolved privacy decisions."
+        "How Webtellisense handles website enquiries, forms, payments, messaging and measurement, and how to contact us about your privacy rights."
       ],
       "titles": [
-        "Privacy Policy — Review Draft | Webtellisense"
+        "Privacy Policy | Webtellisense"
       ],
       "h1_count": 1
     },
@@ -405,7 +405,7 @@
         "https://webtellisense.com/email-marketing"
       ],
       "descriptions": [
-        "Stop losing your customers to algorithm changes. Build an email newsletter list that you own forever and turn past buyers into repeat clients. Services in Uyo, Eket, and nationwide."
+        "Email marketing for businesses in Eket, Uyo and Nigeria. Plan permission-based signups, useful newsletters and agreed follow-up messages for people who want to hear from you."
       ],
       "titles": [
         "Professional Email Marketing Services Nigeria - Webtellisense"
@@ -461,7 +461,7 @@
         "https://webtellisense.com/branding"
       ],
       "descriptions": [
-        "Stop looking like a small business. Get a professional logo, official brand colors, business cards, and letterheads that make you look elite. Services in Uyo, Eket, and nationwide."
+        "Brand identity design for businesses in Eket, Uyo and Nigeria. A recognisable logo, colours and practical materials shaped around your audience and agreed brief."
       ],
       "titles": [
         "Professional Brand Identity & Logo Design Nigeria - Webtellisense"
@@ -475,7 +475,7 @@
         "https://webtellisense.com/social-media-marketing"
       ],
       "descriptions": [
-        "Stop waiting for organic reach. Run highly profitable Facebook and Instagram ads that bring direct orders to your WhatsApp. Services in Uyo, Eket, and nationwide."
+        "Facebook and Instagram advertising for businesses in Eket, Uyo and across Nigeria. Connect an agreed offer, audience and budget to a useful customer enquiry route."
       ],
       "titles": [
         "Paid Facebook & Instagram Ads Services Nigeria - Webtellisense"
@@ -587,7 +587,7 @@
         "https://webtellisense.com/conversion-rate-optimization"
       ],
       "descriptions": [
-        "Stop wasting money on website traffic that doesn't buy. We fix your confusing checkout forms, slow buttons, and hidden contact links so you double your sales."
+        "Make your website and enquiry journey easier to use. Conversion improvements for clearer offers, forms and contact routes for businesses in Eket, Uyo and Nigeria."
       ],
       "titles": [
         "Conversion Rate Optimization (CRO) Nigeria - Webtellisense"
@@ -657,10 +657,10 @@
         "https://webtellisense.com/service-terms"
       ],
       "descriptions": [
-        "Review draft of approved Heroes prices, hosted payment, manual verification and personal onboarding; unresolved contract and refund decisions remain for approval."
+        "Scope, approved Heroes billing, Paystack payment, manual confirmation and personal onboarding information for working with Webtellisense."
       ],
       "titles": [
-        "Service &amp; Billing Disclosures — Review Draft | Webtellisense"
+        "Service Terms | Webtellisense"
       ],
       "h1_count": 1
     },
@@ -699,13 +699,8 @@
   "schema_errors": [],
   "missing_form_backends": [
     {
-      "page": "blog-details.html",
-      "line": 356,
-      "action": "forms/newsletter.php"
-    },
-    {
       "page": "contact.html",
-      "line": 208,
+      "line": 192,
       "action": "forms/contact.php"
     }
   ],

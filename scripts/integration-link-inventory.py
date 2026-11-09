@@ -13,7 +13,7 @@ assert len(before) == 71
 reasons = {(a['source'], destination(a['source'], '/'+a['destination']), a['anchor']):a['reason'] for a in json.loads((ROOT/'docs/integration-link-additions.json').read_text())}
 pages, matrix = [], []
 for file in sorted(ROOT.rglob('*.html')):
-    if any(p in file.parts for p in ('public','node_modules','.git')): continue
+    if any(p in file.parts for p in ('public','node_modules','.git','partials')): continue
     name = file.relative_to(ROOT).as_posix()
     page = inspect(name,file.read_text())
     # Operational privacy notices/review drafts are audited separately, not inflated

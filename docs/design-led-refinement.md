@@ -1,5 +1,6 @@
 # Design-led refinement — PR #5
 
+Subsequent website-wide chrome/homepage/copy/legal work is recorded in [the website experience pass](website-experience-refinement.md); this document remains the earlier design checkpoint.
 Continue `feat/heroes-final-integration`; this is the same draft [PR #5](https://github.com/Webtellisense/webtellisense.github.io/pull/5), targeting `main`. No merge, production deployment, payment activation or provider-setting change. The visual baseline is commit `7e33d13a98695dade64b361a64b60f1cf3317ee2` and its completion/refinement screenshots. Earlier reports remain historical checkpoints; this document and the new gallery describe the current design.
 
 ## What changed

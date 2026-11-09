@@ -26,10 +26,10 @@ const origin=process.env.HEROES_TEST_ORIGIN||'http://127.0.0.1:8791';
  assert.equal(await page.locator('[data-school-journey] input,[data-school-journey] form').count(),0,'Concepts collect no data');
  for(const width of [1440,390]){
   await page.setViewportSize({width,height:1000});await page.reload();
-  const toggle=page.locator('.design-menu-toggle');if(width===390){await toggle.click();assert.equal(await toggle.getAttribute('aria-expanded'),'true');}
-  await page.locator('.nav-disclosure summary').first().focus();await page.keyboard.press('Enter');assert.equal(await page.locator('.nav-disclosure').first().getAttribute('open'),'');
-  assert.equal(await page.locator('.nav-disclosure a[href="/packages"]').isVisible(),true);
-  await page.keyboard.press('Escape');assert.equal(await page.locator('.nav-disclosure[open]').count(),0);
+  const toggle=page.locator('.chrome-menu');if(width===390){await toggle.click();assert.equal(await toggle.getAttribute('aria-expanded'),'true');}
+  await page.locator('[data-mega] summary').first().focus();await page.keyboard.press('Enter');assert.equal(await page.locator('[data-mega]').first().getAttribute('open'),'');
+  assert.equal(await page.locator('.primary-navigation>a[href="/packages"]').isVisible(),true);
+  await page.keyboard.press('Escape');assert.equal(await page.locator('[data-mega][open]').count(),0);
   if(width===390){assert.equal(await toggle.getAttribute('aria-expanded'),'false');assert.equal(await toggle.evaluate(e=>e===document.activeElement),true);}
  }
  await context.close();
@@ -44,7 +44,7 @@ const origin=process.env.HEROES_TEST_ORIGIN||'http://127.0.0.1:8791';
  await reduced.close();
  const plain=await browser.newContext({javaScriptEnabled:false,viewport:{width:390,height:1000}});await plain.route('**/*',r=>new URL(r.request().url()).origin===origin&&r.request().method()==='GET'?r.continue():r.abort());const nojs=await plain.newPage();
  await nojs.goto(origin+'/heroes');assert.equal(await nojs.locator('[data-activity-message]:not([hidden])').count(),1);assert.equal(await nojs.locator('.activity-toolbar').isVisible(),false);assert.equal(await nojs.locator('.stage-gallery li').count(),4);
- await nojs.goto(origin+'/education-marketing');assert.equal(await nojs.locator('[data-school-panel]:visible').count(),5);assert.equal(await nojs.locator('.design-header nav').isVisible(),true);await nojs.locator('.nav-disclosure summary').first().click();assert.equal(await nojs.locator('.nav-disclosure a[href="/packages"]').isVisible(),true);
+ await nojs.goto(origin+'/education-marketing');assert.equal(await nojs.locator('[data-school-panel]:visible').count(),5);assert.equal(await nojs.locator('[data-site-header] nav').isVisible(),true);await nojs.locator('[data-mega] summary').first().click();assert.equal(await nojs.locator('.primary-navigation>a[href="/packages"]').isVisible(),true);
  for(const route of layouts){await nojs.goto(origin+'/'+(route==='index'?'':route));assert.equal(await nojs.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,'No-JS '+route);assert.equal(await nojs.locator('h1').isVisible(),true,route);}
  await nojs.goto(origin+'/');assert.equal(await nojs.locator('[data-aos]').first().evaluate(e=>getComputedStyle(e).opacity),'1','Homepage content readable without AOS/JavaScript');
  assert.deepEqual(errors,[]);await browser.close();
