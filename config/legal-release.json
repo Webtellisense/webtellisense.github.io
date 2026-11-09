@@ -1,4 +1,4 @@
 {
-  "copyApprovedForProduction": false,
-  "note": "Owner authorized building customer-facing pages on draft PR #5. Approval of the completed policy/terms and actual operational facts is still required before a production release. See docs/experience-legal-review.md."
+  "copyApprovedForProduction": true,
+  "note": "Owner authorized provisional publication of the current Privacy Policy and Service Terms on 9 November 2026, with operational-fact checklist and external legal review to follow. This is editorial release approval, not legal certification. See docs/experience-legal-review.md."
 }
