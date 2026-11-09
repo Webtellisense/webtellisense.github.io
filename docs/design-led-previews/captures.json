@@ -1,0 +1,330 @@
+{
+  "baselineCommit": "7e33d13a98695dade64b361a64b60f1cf3317ee2",
+  "method": "Chromium at 1440/390; reduced motion; fonts and image decoding awaited; actual scroll through every page; external providers and non-GET requests blocked. Before server is a git archive of the named commit; after is the current static build. Local captures, not hosted Netlify/provider tests.",
+  "captures": [
+    {
+      "phase": "before",
+      "route": "heroes",
+      "width": 1440,
+      "height": 1000,
+      "file": "docs/design-led-previews/before/heroes-1440.jpg",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "phase": "before",
+      "route": "heroes",
+      "width": 390,
+      "height": 1000,
+      "file": "docs/design-led-previews/before/heroes-390.jpg",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "phase": "before",
+      "route": "industries",
+      "width": 1440,
+      "height": 1000,
+      "file": "docs/design-led-previews/before/industries-1440.jpg",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "phase": "before",
+      "route": "industries",
+      "width": 390,
+      "height": 1000,
+      "file": "docs/design-led-previews/before/industries-390.jpg",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "phase": "before",
+      "route": "education-marketing",
+      "width": 1440,
+      "height": 1000,
+      "file": "docs/design-led-previews/before/education-marketing-1440.jpg",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "phase": "before",
+      "route": "education-marketing",
+      "width": 390,
+      "height": 1000,
+      "file": "docs/design-led-previews/before/education-marketing-390.jpg",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "phase": "before",
+      "route": "solar-and-home-services-marketing",
+      "width": 1440,
+      "height": 1000,
+      "file": "docs/design-led-previews/before/solar-and-home-services-marketing-1440.jpg",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "phase": "before",
+      "route": "solar-and-home-services-marketing",
+      "width": 390,
+      "height": 1000,
+      "file": "docs/design-led-previews/before/solar-and-home-services-marketing-390.jpg",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "phase": "before",
+      "route": "home-technical-services-marketing",
+      "width": 1440,
+      "height": 1000,
+      "file": "docs/design-led-previews/before/home-technical-services-marketing-1440.jpg",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "phase": "before",
+      "route": "home-technical-services-marketing",
+      "width": 390,
+      "height": 1000,
+      "file": "docs/design-led-previews/before/home-technical-services-marketing-390.jpg",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "phase": "before",
+      "route": "retail-specialty-store-marketing",
+      "width": 1440,
+      "height": 1000,
+      "file": "docs/design-led-previews/before/retail-specialty-store-marketing-1440.jpg",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "phase": "before",
+      "route": "retail-specialty-store-marketing",
+      "width": 390,
+      "height": 1000,
+      "file": "docs/design-led-previews/before/retail-specialty-store-marketing-390.jpg",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "phase": "before",
+      "route": "food-supplier-marketing",
+      "width": 1440,
+      "height": 1000,
+      "file": "docs/design-led-previews/before/food-supplier-marketing-1440.jpg",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "phase": "before",
+      "route": "food-supplier-marketing",
+      "width": 390,
+      "height": 1000,
+      "file": "docs/design-led-previews/before/food-supplier-marketing-390.jpg",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "phase": "before",
+      "route": "construction-property-marketing",
+      "width": 1440,
+      "height": 1000,
+      "file": "docs/design-led-previews/before/construction-property-marketing-1440.jpg",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "phase": "before",
+      "route": "construction-property-marketing",
+      "width": 390,
+      "height": 1000,
+      "file": "docs/design-led-previews/before/construction-property-marketing-390.jpg",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "phase": "before",
+      "route": "index",
+      "width": 1440,
+      "height": 1000,
+      "file": "docs/design-led-previews/before/index-1440.jpg",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "phase": "before",
+      "route": "index",
+      "width": 390,
+      "height": 1000,
+      "file": "docs/design-led-previews/before/index-390.jpg",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "phase": "after",
+      "route": "industries",
+      "width": 1440,
+      "height": 1000,
+      "file": "docs/design-led-previews/after/industries-1440.jpg",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "phase": "after",
+      "route": "industries",
+      "width": 390,
+      "height": 1000,
+      "file": "docs/design-led-previews/after/industries-390.jpg",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "phase": "after",
+      "route": "education-marketing",
+      "width": 1440,
+      "height": 1000,
+      "file": "docs/design-led-previews/after/education-marketing-1440.jpg",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "phase": "after",
+      "route": "education-marketing",
+      "width": 390,
+      "height": 1000,
+      "file": "docs/design-led-previews/after/education-marketing-390.jpg",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "phase": "after",
+      "route": "solar-and-home-services-marketing",
+      "width": 1440,
+      "height": 1000,
+      "file": "docs/design-led-previews/after/solar-and-home-services-marketing-1440.jpg",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "phase": "after",
+      "route": "solar-and-home-services-marketing",
+      "width": 390,
+      "height": 1000,
+      "file": "docs/design-led-previews/after/solar-and-home-services-marketing-390.jpg",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "phase": "after",
+      "route": "home-technical-services-marketing",
+      "width": 1440,
+      "height": 1000,
+      "file": "docs/design-led-previews/after/home-technical-services-marketing-1440.jpg",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "phase": "after",
+      "route": "home-technical-services-marketing",
+      "width": 390,
+      "height": 1000,
+      "file": "docs/design-led-previews/after/home-technical-services-marketing-390.jpg",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "phase": "after",
+      "route": "retail-specialty-store-marketing",
+      "width": 1440,
+      "height": 1000,
+      "file": "docs/design-led-previews/after/retail-specialty-store-marketing-1440.jpg",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "phase": "after",
+      "route": "retail-specialty-store-marketing",
+      "width": 390,
+      "height": 1000,
+      "file": "docs/design-led-previews/after/retail-specialty-store-marketing-390.jpg",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "phase": "after",
+      "route": "food-supplier-marketing",
+      "width": 1440,
+      "height": 1000,
+      "file": "docs/design-led-previews/after/food-supplier-marketing-1440.jpg",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "phase": "after",
+      "route": "food-supplier-marketing",
+      "width": 390,
+      "height": 1000,
+      "file": "docs/design-led-previews/after/food-supplier-marketing-390.jpg",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "phase": "after",
+      "route": "construction-property-marketing",
+      "width": 1440,
+      "height": 1000,
+      "file": "docs/design-led-previews/after/construction-property-marketing-1440.jpg",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "phase": "after",
+      "route": "construction-property-marketing",
+      "width": 390,
+      "height": 1000,
+      "file": "docs/design-led-previews/after/construction-property-marketing-390.jpg",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "phase": "after",
+      "route": "index",
+      "width": 1440,
+      "height": 1000,
+      "file": "docs/design-led-previews/after/index-1440.jpg",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "phase": "after",
+      "route": "index",
+      "width": 390,
+      "height": 1000,
+      "file": "docs/design-led-previews/after/index-390.jpg",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "phase": "after",
+      "route": "heroes",
+      "width": 1440,
+      "height": 1000,
+      "file": "docs/design-led-previews/after/heroes-1440.jpg",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "phase": "after",
+      "route": "heroes",
+      "width": 390,
+      "height": 1000,
+      "file": "docs/design-led-previews/after/heroes-390.jpg",
+      "status": 200,
+      "overflow": false
+    }
+  ]
+}

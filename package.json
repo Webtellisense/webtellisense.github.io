@@ -1,0 +1,25 @@
+{
+  "name": "webtellisense-static",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build-static.cjs",
+    "test": "node --test tests/*.test.cjs",
+    "test:browser": "node tests/site.browser.cjs",
+    "test:heroes": "node tests/heroes.browser.cjs",
+    "test:links": "node tests/contextual-links.browser.cjs",
+    "test:completion": "node tests/completion.browser.cjs",
+    "test:measurement": "node tests/measurement.browser.cjs",
+    "test:design": "node tests/design-refinement.browser.cjs",
+    "capture:design": "node scripts/capture-design-refinement.cjs",
+    "chrome:sync": "node scripts/sync-site-chrome.cjs",
+    "test:experience": "node tests/site-experience.browser.cjs",
+    "capture:experience": "node scripts/capture-experience.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "playwright": "^1.65.0",
+    "axe-core": "^4.11.0"
+  }
+}

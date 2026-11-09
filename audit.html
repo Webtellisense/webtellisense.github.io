@@ -912,9 +912,27 @@
       }
     }
   </style>
+  <link rel="canonical" href="https://webtellisense.com/audit">
+  <meta name="description" content="Explore a guided business self-assessment covering your website, local search, branding, social media, advertising and conversion paths.">
+<meta property="og:title" content="Digital Presence Audit | Webtellisense">
+<meta property="og:description" content="Explore a guided business self-assessment covering your website, local search, branding, social media, advertising and conversion paths.">
+<meta property="og:url" content="https://webtellisense.com/audit">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg">
+<meta property="og:image:alt" content="Digital Presence Audit">
+<meta property="og:site_name" content="Webtellisense">
+<meta property="og:locale" content="en_NG">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Digital Presence Audit | Webtellisense">
+<meta name="twitter:description" content="Explore a guided business self-assessment covering your website, local search, branding, social media, advertising and conversion paths.">
+<meta name="twitter:image" content="https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg">
+<meta name="twitter:image:alt" content="Digital Presence Audit">
+<meta property="og:image:width" content="6016">
+<meta property="og:image:height" content="4016">
+<link rel="stylesheet" href="/assets/css/contrast-repairs.css">
 </head>
 
-<body>
+<body data-contrast-page="audit">
 
   <!-- HERO (shown only on step 0) -->
   <div id="hero-section">
@@ -962,28 +980,28 @@
         <div class="step-header">
           <div class="step-category" style="background:var(--teal-dim);color:var(--teal)">📋 Your Details</div>
           <h2 class="step-title">Let's start with your business</h2>
-          <p class="step-desc">We need a few basics so we can personalise your results.</p>
+          <p class="step-desc">We need a few basics so we can personalise your results.</p><p style="font-size:.8rem;color:#d7fff7">Read our <a href="/privacy-policy" style="color:inherit;text-decoration:underline">Privacy Policy</a> before sharing details. Don’t include passwords or sensitive account information.</p>
         </div>
 
         <div class="field-grid">
           <div class="field">
             <label class="field-label">Business Name<span class="field-req">*</span></label>
-            <input class="q-input" id="f-name" type="text" placeholder="e.g. Mama Cee's Kitchen" />
+            <input class="q-input" id="f-name" type="text" placeholder="e.g. Mama Cee's Kitchen" aria-label="Business name" />
           </div>
           <div class="field">
             <label class="field-label">City / Location<span class="field-req">*</span></label>
-            <input class="q-input" id="f-city" type="text" placeholder="e.g. Eket, Akwa Ibom" />
+            <input class="q-input" id="f-city" type="text" placeholder="e.g. Eket, Akwa Ibom" aria-label="City" />
           </div>
         </div>
 
         <div class="field-grid">
           <div class="field">
             <label class="field-label">Your Name<span class="field-req">*</span></label>
-            <input class="q-input" id="f-contact" type="text" placeholder="First name is fine" />
+            <input class="q-input" id="f-contact" type="text" placeholder="First name is fine" aria-label="Contact name" />
           </div>
           <div class="field">
             <label class="field-label">Email Address<span class="field-req">*</span></label>
-            <input class="q-input" id="f-email" type="email" placeholder="you@yourbusiness.com" />
+            <input class="q-input" id="f-email" type="email" placeholder="you@yourbusiness.com" aria-label="Email address" />
           </div>
         </div>
 
@@ -1032,9 +1050,9 @@
 
         <div class="q-card" id="url-card" style="display:none">
           <div class="q-text">Enter your website URL so we can check if it's live</div>
-          <div class="q-sub">We'll ping it — only takes a second</div>
+          <div class="q-sub" style="color:#d7fff7">Optional: this sends your public website address to AllOrigins. Use a public homepage without private details, query parameters or access tokens.</div>
           <div class="url-row">
-            <input class="q-input" id="f-url" type="text" placeholder="www.yourbusiness.com" style="flex:1" />
+            <input class="q-input" id="f-url" type="text" placeholder="www.yourbusiness.com" style="flex:1" aria-label="Website URL" />
             <button class="ping-btn" onclick="pingWebsite()">Check it →</button>
           </div>
           <div class="ping-result" id="ping-result"></div>
@@ -1491,12 +1509,31 @@
       });
     });
 
+    document.querySelectorAll('.opt').forEach(option => {
+      option.setAttribute('role', 'button');
+      option.setAttribute('tabindex', '0');
+      const sync = () => option.setAttribute('aria-pressed', String(option.classList.contains('selected')));
+      sync();
+      option.addEventListener('keydown', event => {
+        if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); option.click(); }
+      });
+      option.addEventListener('click', () => queueMicrotask(() => document.querySelectorAll('.opt').forEach(el => el.setAttribute('aria-pressed', String(el.classList.contains('selected'))))));
+    });
+
     // ── WEBSITE PING ─────────────────────────────────────────────
     async function pingWebsite() {
       let url = document.getElementById('f-url').value.trim();
       if (!url) return;
-      if (!url.startsWith('http')) url = 'https://' + url;
       const el = document.getElementById('ping-result');
+      try {
+        const parsed = new URL(/^[a-z][a-z0-9+.-]*:/i.test(url) ? url : 'https://' + url);
+        if (!['http:', 'https:'].includes(parsed.protocol) || parsed.username || parsed.password || parsed.search || parsed.hash || !parsed.hostname.includes('.') || /(?:^|\.)(?:localhost|local|internal)$/.test(parsed.hostname)) throw new Error('Not a public homepage');
+        url = parsed.href;
+      } catch {
+        el.className = 'ping-result ping-error';
+        el.textContent = 'Use a public website address without passwords, query parameters or access tokens. No check was sent.';
+        return;
+      }
       el.className = 'ping-result ping-checking';
       el.textContent = 'Checking...';
       try {
@@ -1753,7 +1790,7 @@
         </div>
         <div class="score-info">
           <div class="tier-pill" style="background:${tier.bg};color:${tier.color}">${tier.label}</div>
-          <div class="result-name">${name}</div>
+          <div class="result-name"><span data-audit-name></span></div>
           <div class="tier-message">${tier.message}</div>
         </div>
       </div>
@@ -1771,7 +1808,7 @@
 
       <div class="summary-box">
         <p>
-          ${name} in ${city} — here's the honest picture. ${scored.filter(c => c.score / c.max < 0.4).length > 0
+          <span data-audit-name></span> in <span data-audit-city></span> — here's the honest picture. ${scored.filter(c => c.score / c.max < 0.4).length > 0
           ? `There are ${scored.filter(c => c.score / c.max < 0.4).length} areas scoring below 40% — these are the ones costing you customers right now.`
           : `Your foundation is solid across most areas.`}
           The priorities above are ranked by impact. Start with number one, get it right, then move to the next.
@@ -1785,17 +1822,22 @@
           Book a Free 15-Min Consultation →
         </a>
         <div class="cta-row2">
-          <button class="btn-share" onclick="copyShare('${shareText.replace(/'/g, "\\'")}')">Share My Score</button>
+          <button class="btn-share" id="audit-share-button" type="button">Share My Score</button>
           <button class="btn-restart" onclick="restartAudit()">Audit Another Business</button>
         </div>
       </div>
 
       <div class="submit-notice">
-        <strong>Your results have been saved.</strong><br/>
-        A summary has been sent to <strong>${businessData.email}</strong> — we may reach out with personalised recommendations within 24–48 hours.
+        <strong>Your results are ready to review here.</strong><br/>
+        Use Share My Score to keep a copy, or start a conversation with us on WhatsApp.
       </div>
 
     </div>`;
+
+      const results = document.getElementById('step-results');
+      results.querySelectorAll('[data-audit-name]').forEach(el => { el.textContent = name; });
+      results.querySelectorAll('[data-audit-city]').forEach(el => { el.textContent = city; });
+      results.querySelector('#audit-share-button').addEventListener('click', () => copyShare(shareText));
 
       // Animate score ring and counter
       setTimeout(() => {
@@ -1873,7 +1915,8 @@
 
     // ── SHARE & RESTART ───────────────────────────────────────────
     function copyShare(text) {
-      navigator.clipboard.writeText(text).then(() => showToast('✓ Copied! Paste it into WhatsApp.'));
+      if (!navigator.clipboard) { showToast('Copy is unavailable here. You can select and copy your score.'); return; }
+      navigator.clipboard.writeText(text).then(() => showToast('✓ Copied! Paste it into WhatsApp.')).catch(() => showToast('Could not copy. You can select and copy your score.'));
     }
 
     function showToast(msg) {
@@ -1887,6 +1930,6 @@
       location.reload();
     }
   </script>
-</body>
+<nav aria-label="Privacy and service information" style="font-size:.8rem;line-height:1.7;padding:20px;display:flex;gap:20px;flex-wrap:wrap"><a href="/privacy-policy" style="text-decoration:underline;color:#d7fff7">Privacy Policy</a><a href="/service-terms" style="text-decoration:underline;color:#d7fff7">Service Terms</a></nav></body>
 
 </html>

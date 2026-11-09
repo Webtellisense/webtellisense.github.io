@@ -1,0 +1,91 @@
+{
+  "source_commit": "118ece7986c552f5e2b0f3e7885ca1801ce70a2e",
+  "method": "Same twelve existing homepage entries, modest captions and original lightbox assets. No new project, case-study page, numerical result or client identity. Owner authorizes existing homepage gallery refinement; Heroes portfolio is unchanged.",
+  "projects": [
+    {
+      "name": "Webtellisense",
+      "category": "websites",
+      "caption": "Our own agency website.",
+      "preview": "assets/img/portfolio/website-1.png",
+      "original": "assets/img/portfolio/website-1-full.png"
+    },
+    {
+      "name": "Beautiful Gates International School",
+      "category": "websites",
+      "caption": "A website for the school.",
+      "preview": "assets/img/portfolio/website-2.png",
+      "original": "assets/img/portfolio/website-2.png"
+    },
+    {
+      "name": "The Crayfish Plug",
+      "category": "branding",
+      "caption": "Brand identity for a food business.",
+      "preview": "assets/img/portfolio/branding-33.jpg",
+      "original": "assets/img/portfolio/branding-33.jpg"
+    },
+    {
+      "name": "Aunty Chinny’s International School",
+      "category": "graphics",
+      "caption": "School communication graphics.",
+      "preview": "assets/img/portfolio/designs-1.jpg",
+      "original": "assets/img/portfolio/designs-1.jpg"
+    },
+    {
+      "name": "Maniecu Stationery",
+      "category": "websites",
+      "caption": "Website presentation for a stationery business.",
+      "preview": "assets/img/portfolio/website-3.png",
+      "original": "assets/img/portfolio/website-3.png"
+    },
+    {
+      "name": "Protea Hotel",
+      "category": "graphics",
+      "caption": "Event flyer design for the hotel.",
+      "preview": "/assets/img/optimized/portfolio-desgins-4.webp",
+      "original": "assets/img/portfolio/desgins-4.png"
+    },
+    {
+      "name": "Cosag Water",
+      "category": "branding",
+      "caption": "Brand identity presentation.",
+      "preview": "assets/img/portfolio/branding-11.jpg",
+      "original": "assets/img/portfolio/branding-11.jpg"
+    },
+    {
+      "name": "Eka",
+      "category": "branding",
+      "caption": "Brand identity for a restaurant.",
+      "preview": "assets/img/portfolio/branding-22.png",
+      "original": "assets/img/portfolio/branding-22.png"
+    },
+    {
+      "name": "Webtellisense",
+      "category": "graphics",
+      "caption": "An educational graphic for our own brand.",
+      "preview": "assets/img/portfolio/desgins-3.jpg",
+      "original": "assets/img/portfolio/desgins-3.jpg"
+    },
+    {
+      "name": "Aunty Chinny’s International School",
+      "category": "graphics",
+      "caption": "A school promotional flyer.",
+      "preview": "assets/img/portfolio/designs-2.jpg",
+      "original": "assets/img/portfolio/designs-2.jpg"
+    },
+    {
+      "name": "Tasty Tops",
+      "category": "branding",
+      "caption": "Brand identity presentation.",
+      "preview": "assets/img/portfolio/branding-44.jpeg",
+      "original": "assets/img/portfolio/branding-44.jpeg"
+    },
+    {
+      "name": "Policy Plus",
+      "category": "graphics",
+      "caption": "Press-release graphic.",
+      "preview": "assets/img/portfolio/branding-55.jpg",
+      "original": "assets/img/portfolio/branding-55.jpg",
+      "note": "Actual existing artwork is a press-release graphic; do not infer an entire identity commission from the old broad filter category."
+    }
+  ]
+}

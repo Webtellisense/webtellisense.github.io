@@ -1,0 +1,38 @@
+{
+  "source_commit": "118ece7986c552f5e2b0f3e7885ca1801ce70a2e",
+  "source": "index.html existing testimonials; same quotations also appear on reviews.html",
+  "owner_confirmation": "9 November 2026: Use the existing reviews/testimonials. All numbers on the website can be backed.",
+  "provider": "Existing Webtellisense website; no Google affiliation or independent Google review retrieval claimed.",
+  "testimonials": [
+    {
+      "author": "Mr. James (Eket Supermarket)",
+      "headline": "“Before Webtellisense, my POS was my only ‘website’”",
+      "quote": "I paid ₦150K upfront for a website that never got updated. With Webtellisense’s monthly plan, my site stays fresh, and customers now order groceries online. Worth every kobo!"
+    },
+    {
+      "author": "Rita Udoh",
+      "headline": "“They didn’t just design a logo — they brought our entire brand to life.”",
+      "quote": "Webtellisense created something that feels truly *me*. Our customers now instantly recognize us online — we finally look as good as our product is."
+    },
+    {
+      "author": "Samuel Bassey",
+      "headline": "“We’ve seen a 70% increase in enquiries since the site went live.”",
+      "quote": "The Webtellisense team was proactive and professional. They handled everything from copy to launch — and we’ve been getting serious client leads ever since."
+    },
+    {
+      "author": "Pastor Emmanuel I.",
+      "headline": "“They served the vision with heart.”",
+      "quote": "Our church media presence went from struggling to impactful. The livestream templates, page layout, and updates were handled so well, even our overseas members noticed the change."
+    },
+    {
+      "author": "Chika Ogbonna",
+      "headline": "“It felt like a collaboration, not a transaction.”",
+      "quote": "We needed to get our message out clearly and fast. Webtellisense delivered beautifully — with patience, expertise, and care. We’re beyond grateful."
+    },
+    {
+      "author": "Dr. Uduak Enang (IJLIS)",
+      "headline": "“Webtellisense helped digitize our academic journal.”",
+      "quote": "I've known Ephraim for a long time, so i knew he would come through. Our journal is now online, indexable, and user-friendly. Their understanding of academic platforms and publishing tools made this transition seamless."
+    }
+  ]
+}

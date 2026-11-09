@@ -1,0 +1,66 @@
+[
+  {
+    "priority": 1,
+    "id": "solar-renewable-energy",
+    "name": "Solar and Renewable Energy",
+    "audience": "Installers, inverter suppliers, battery and solar-equipment businesses.",
+    "positioning": "Explain the system or product, distinguish supply from installation and help people understand what must be checked before a quote. Solar Launch is our focused solar offer; campaigns and enquiry workflows still need an agreed scope.",
+    "destination": "solar-and-home-services-marketing"
+  },
+  {
+    "priority": 2,
+    "id": "home-technical-services",
+    "name": "Home and Technical Services",
+    "audience": "Electricians, plumbers, HVAC, CCTV installers and appliance repair.",
+    "positioning": "Local coverage, actual service availability and a clear route to diagnosis or an assessment matter. We shape the brief around the trade and the team\u2019s capacity; we do not advertise emergency or same-day attendance without confirmation.",
+    "destination": "home-technical-services-marketing"
+  },
+  {
+    "priority": 3,
+    "id": "education",
+    "name": "Private Schools and Education",
+    "audience": "Schools, computer training hubs and professional learning centres.",
+    "positioning": "Parents and learners need useful information about programmes, location, schedules and the next conversation. Our experience includes school social management and training-hub marketing. Schools also need careful content approval and permissions where children appear.",
+    "destination": "education-marketing"
+  },
+  {
+    "priority": 4,
+    "id": "retail-specialty",
+    "name": "Retail and Specialty Stores",
+    "audience": "Stationery, perfumery, beauty, gifts and related local retail.",
+    "positioning": "Local visibility, product presentation and current stock/price information play different roles. Our experience includes stationery local-visibility work and perfume social content. Frequent product updates require a different publishing rhythm from assessment-led services.",
+    "destination": "retail-specialty-store-marketing"
+  },
+  {
+    "priority": 5,
+    "id": "food-suppliers",
+    "name": "Food Suppliers and Specialty Food Businesses",
+    "audience": "African food sourcing/export, packaged food, catering and grocery delivery.",
+    "positioning": "A catering enquiry, a local delivery order and a cross-border sourcing discussion are different journeys. Our experience includes catering social management and food/export visibility/social work. Product, fulfilment and shipping claims must be confirmed by the business.",
+    "destination": "food-supplier-marketing"
+  },
+  {
+    "priority": 6,
+    "id": "hospitality",
+    "name": "Hotels and Hospitality",
+    "audience": "Hotels, guesthouses and accommodation operators.",
+    "positioning": "Our known hospitality experience is graphic design for a Lagos hotel. A broader brief would begin with the actual offer, approved accommodation imagery, current information and the enquiry or booking route. Ongoing hotel marketing or booking outcomes are not claimed from that design engagement.",
+    "destination": "graphics-design"
+  },
+  {
+    "priority": 7,
+    "id": "fitness-wellness",
+    "name": "Fitness and Wellness Professionals",
+    "audience": "Personal trainers, calisthenics professionals and fitness studios.",
+    "positioning": "We have worked with a bodyweight fitness instructor; the exact deliverables need confirmation. A new brief would focus on the service, suitable audience, session enquiries and approved material. We would agree scope before publishing progress photos, health claims or a training schedule.",
+    "destination": "contact"
+  },
+  {
+    "priority": 8,
+    "id": "ngos-community",
+    "name": "NGOs and Community Organizations",
+    "audience": "Women\u2019s empowerment and related community programmes.",
+    "positioning": "We have worked with a women\u2019s empowerment NGO; exact deliverables need verification. Programme communication needs clear information, responsible participant imagery and an appropriate enquiry route. We do not infer fundraising outcomes or specialist nonprofit systems from that relationship.",
+    "destination": "contact"
+  }
+]

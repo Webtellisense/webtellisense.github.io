@@ -1,0 +1,1750 @@
+{
+  "method": "Local Chromium; providers/writes blocked. Layout at 320/390/768/1440; WCAG axe run with disclosures open. Not Lighthouse, legal certification or provider delivery validation.",
+  "totals": {
+    "pages": 48,
+    "pageErrors": 0,
+    "localBrokenImages": 0,
+    "axeNodes": 0,
+    "externalBlocked": 212,
+    "providerSubmissions": 0
+  },
+  "pages": [
+    {
+      "page": "construction-property-marketing.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 672497,
+        "localResourceBytes": 389319,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "freeguide.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 672144,
+        "localResourceBytes": 7854,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "lead-magnet",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "welcome.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 656263,
+        "localResourceBytes": 110161,
+        "brokenImages": [],
+        "forms": []
+      }
+    },
+    {
+      "page": "business-not-showing-up-online.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 682664,
+        "localResourceBytes": 1406516,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "retail-specialty-store-marketing.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 671956,
+        "localResourceBytes": 345237,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "value-of-a-digital-agency.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 674314,
+        "localResourceBytes": 1739621,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "education-marketing.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 676661,
+        "localResourceBytes": 371315,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "roadmap.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 703024,
+        "localResourceBytes": 195696,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "ppc.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 696803,
+        "localResourceBytes": 1219317,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "packages.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 732871,
+        "localResourceBytes": 1375402,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "",
+            "action": null,
+            "hasPrivacyLink": true
+          },
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "blog-details.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 675085,
+        "localResourceBytes": 1216945,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "about.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 682009,
+        "localResourceBytes": 4119929,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "content-marketing.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 689197,
+        "localResourceBytes": 1216340,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "index.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 715926,
+        "localResourceBytes": 4825584,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "social-media-management.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 683837,
+        "localResourceBytes": 1216340,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "indexxx.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 701347,
+        "localResourceBytes": 5429571,
+        "brokenImages": [],
+        "forms": []
+      }
+    },
+    {
+      "page": "google-business-profile.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 682598,
+        "localResourceBytes": 1216340,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "blog.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 678081,
+        "localResourceBytes": 2461338,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "web-design.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 683182,
+        "localResourceBytes": 1216340,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "solar-and-home-services-marketing.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 672927,
+        "localResourceBytes": 365851,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "heroes.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 687343,
+        "localResourceBytes": 510429,
+        "brokenImages": [],
+        "forms": []
+      }
+    },
+    {
+      "page": "audit.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 731931,
+        "localResourceBytes": 2977,
+        "brokenImages": [],
+        "forms": []
+      }
+    },
+    {
+      "page": "graphics-design.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 683249,
+        "localResourceBytes": 1216340,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "webtellisense-solar-landing.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 695141,
+        "localResourceBytes": 0,
+        "brokenImages": [],
+        "forms": []
+      }
+    },
+    {
+      "page": "privacy-policy.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 672794,
+        "localResourceBytes": 257511,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "faq.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 675692,
+        "localResourceBytes": 1216340,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "contact.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 672328,
+        "localResourceBytes": 1216340,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "ref: <Node>",
+            "action": "forms/contact.php",
+            "hasPrivacyLink": true
+          },
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "email-marketing.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 689016,
+        "localResourceBytes": 1216340,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "10-essential-tips-for-businesses-2025.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 676375,
+        "localResourceBytes": 1943264,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "how-to-grow-your-business-online-2026.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 690785,
+        "localResourceBytes": 1219317,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "food-supplier-marketing.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 672367,
+        "localResourceBytes": 459499,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "branding.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 684007,
+        "localResourceBytes": 1216340,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "social-media-marketing.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 689398,
+        "localResourceBytes": 1219317,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "kids-holiday-uyo.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 686232,
+        "localResourceBytes": 1890598,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "",
+            "action": null,
+            "hasPrivacyLink": true
+          },
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "industries.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 675825,
+        "localResourceBytes": 533343,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "heroes-welcome.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 665423,
+        "localResourceBytes": 352459,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "heroes-business-profile",
+            "action": "/heroes-profile-received",
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "heroes-profile-received.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 657215,
+        "localResourceBytes": 244049,
+        "brokenImages": [],
+        "forms": []
+      }
+    },
+    {
+      "page": "business-audit-tool.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 674286,
+        "localResourceBytes": 1620782,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "top-features-for-a-school-website.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 679526,
+        "localResourceBytes": 1517928,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "heroes-start.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 660672,
+        "localResourceBytes": 287233,
+        "brokenImages": [],
+        "forms": []
+      }
+    },
+    {
+      "page": "conversion-rate-optimization.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 688726,
+        "localResourceBytes": 1216340,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "solar.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 717221,
+        "localResourceBytes": 1104597,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "pricing.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 673856,
+        "localResourceBytes": 1219317,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "home-technical-services-marketing.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 672048,
+        "localResourceBytes": 389319,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "reviews.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 674982,
+        "localResourceBytes": 1216340,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "service-terms.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "overflow": false
+        }
+      ],
+      "axe": [],
+      "cssBlocked": false,
+      "metrics": {
+        "htmlBytes": 669651,
+        "localResourceBytes": 257511,
+        "brokenImages": [],
+        "forms": [
+          {
+            "name": "contact",
+            "action": null,
+            "hasPrivacyLink": true
+          }
+        ]
+      }
+    },
+    {
+      "page": "nigeria/solar.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": true
+        },
+        {
+          "width": 390,
+          "overflow": true
+        },
+        {
+          "width": 768,
+          "overflow": true
+        },
+        {
+          "width": 1440,
+          "overflow": true
+        }
+      ],
+      "axe": [],
+      "cssBlocked": true,
+      "metrics": {
+        "htmlBytes": 48690,
+        "localResourceBytes": 2482238,
+        "brokenImages": [],
+        "forms": []
+      }
+    },
+    {
+      "page": "bahamas/solar.html",
+      "status": 200,
+      "errors": [],
+      "views": [
+        {
+          "width": 320,
+          "overflow": true
+        },
+        {
+          "width": 390,
+          "overflow": true
+        },
+        {
+          "width": 768,
+          "overflow": true
+        },
+        {
+          "width": 1440,
+          "overflow": true
+        }
+      ],
+      "axe": [],
+      "cssBlocked": true,
+      "metrics": {
+        "htmlBytes": 39408,
+        "localResourceBytes": 2482238,
+        "brokenImages": [],
+        "forms": []
+      }
+    }
+  ]
+}

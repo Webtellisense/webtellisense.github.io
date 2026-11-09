@@ -1,0 +1,2 @@
+# An unapplied unified diff retains whitespace from its source/context lines.
+docs/payment-confirmation-proposal.patch whitespace=-blank-at-eol

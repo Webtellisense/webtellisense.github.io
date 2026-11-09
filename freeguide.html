@@ -9,10 +9,6 @@
     <title>Free Online Presence Checklist - Transform Your Business Online | Webtellisense | Eket, Akwa Ibom, Nigeria's
         Top Web Design &
         Digital Marketing Agency</title>
-    <meta name="description"
-        content="Get your free 42-point online presence checklist designed specifically for Nigerian business owners. Transform your business visibility and attract more customers online.">
-    <meta name="description"
-        content="Webtellisense: Eket, Akwa Ibom, Nigeria's leading digital agency for fast, affordable & high-converting websites. Web design, SEO & branding that grows your business.">
     <meta name="keywords"
         content="web design Eket, digital agency Nigeria, affordable SEO, website development, branding">
 
@@ -48,6 +44,27 @@
 
         gtag('config', 'G-PS5FNQCJRN');
     </script>
+  <link rel="canonical" href="https://webtellisense.com/freeguide">
+  <meta name="description" content="Request an online presence checklist for Nigerian business owners, covering websites, Google Business Profile, branding, social media and advertising.">
+<meta property="og:title" content="Free Online Presence Checklist - Transform Your Business Online | Webtellisense | Eket, Akwa Ibom, Nigeria&#x27;s
+        Top Web Design &amp;
+        Digital Marketing Agency">
+<meta property="og:description" content="Request an online presence checklist for Nigerian business owners, covering websites, Google Business Profile, branding, social media and advertising.">
+<meta property="og:url" content="https://webtellisense.com/freeguide">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg">
+<meta property="og:image:alt" content="Free Online Presence Checklist - Transform Your Business Online">
+<meta property="og:site_name" content="Webtellisense">
+<meta property="og:locale" content="en_NG">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Free Online Presence Checklist - Transform Your Business Online | Webtellisense | Eket, Akwa Ibom, Nigeria&#x27;s
+        Top Web Design &amp;
+        Digital Marketing Agency">
+<meta name="twitter:description" content="Request an online presence checklist for Nigerian business owners, covering websites, Google Business Profile, branding, social media and advertising.">
+<meta name="twitter:image" content="https://webtellisense.com/assets/img/hero-carousel/hero-carousel-01.jpg">
+<meta name="twitter:image:alt" content="Free Online Presence Checklist - Transform Your Business Online">
+<meta property="og:image:width" content="6016">
+<meta property="og:image:height" content="4016">
 </head>
 
 <body>
@@ -197,6 +214,7 @@
                 <div class="success-message">
                     <h3>🎉 Success! Redirecting to WhatsApp...</h3>
                     <p>Your form has been submitted successfully. You'll be redirected to WhatsApp in a moment.</p>
+                    <a id="guide-whatsapp-fallback" hidden target="_blank" rel="noopener">Continue on WhatsApp</a>
                 </div>
 
                 <div class="trust-indicators">
@@ -213,7 +231,8 @@
                         <span>Instant delivery</span>
                     </div>
                 </div>
-            </form>
+            <p class="form-privacy-note" style="font-size:.8rem;line-height:1.6;margin-top:12px">Before sharing details, read our <a href="/privacy-policy" style="text-decoration:underline">Privacy Policy</a> <a href="/service-terms" style="text-decoration:underline">Service Terms</a>. Please do not send passwords or sensitive account credentials.</p>
+</form>
         </div>
     </div>
 
@@ -306,6 +325,9 @@
                     // Create WhatsApp URL
                     const whatsappUrl = `https://wa.me/${businessWhatsApp}?text=${whatsappMessage}`;
 
+                    const fallback = document.getElementById('guide-whatsapp-fallback');
+                    fallback.href = whatsappUrl;
+                    fallback.hidden = false;
                     // Reset form
                     form.reset();
 
@@ -360,7 +382,8 @@
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
+                const href = this.getAttribute('href');
+                const target = href && href !== '#' ? document.querySelector(href) : null;
                 if (target) {
                     target.scrollIntoView({
                         behavior: 'smooth',
@@ -372,25 +395,29 @@
 
         // Track scroll depth
         let maxScroll = 0;
+        const trackedScrollMilestones = new Set();
         window.addEventListener('scroll', function () {
             const scrollPercent = Math.round((window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100);
             if (scrollPercent > maxScroll) {
                 maxScroll = scrollPercent;
 
                 // Track milestone scrolls
-                if (maxScroll >= 25 && typeof gtag !== 'undefined') {
+                if (maxScroll >= 25 && !trackedScrollMilestones.has(25) && typeof gtag !== 'undefined') {
+                    trackedScrollMilestones.add(25);
                     gtag('event', 'scroll_25', {
                         'event_category': 'engagement',
                         'event_label': 'scroll_depth'
                     });
                 }
-                if (maxScroll >= 50 && typeof gtag !== 'undefined') {
+                if (maxScroll >= 50 && !trackedScrollMilestones.has(50) && typeof gtag !== 'undefined') {
+                    trackedScrollMilestones.add(50);
                     gtag('event', 'scroll_50', {
                         'event_category': 'engagement',
                         'event_label': 'scroll_depth'
                     });
                 }
-                if (maxScroll >= 75 && typeof gtag !== 'undefined') {
+                if (maxScroll >= 75 && !trackedScrollMilestones.has(75) && typeof gtag !== 'undefined') {
+                    trackedScrollMilestones.add(75);
                     gtag('event', 'scroll_75', {
                         'event_category': 'engagement',
                         'event_label': 'scroll_depth'

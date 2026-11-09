@@ -1,0 +1,286 @@
+{
+  "method": "Synthetic SDKs/collectors, not provider validation. Configured production release remains OFF. Tests do not establish account ownership, actual provider event processing or legal approval.",
+  "scenarios": [
+    "Release gate",
+    "No requests before opt-in",
+    "GPC",
+    "Preview suppression",
+    "Consent and sanitized events",
+    "One pageview per enabled destination/page",
+    "Withdrawal",
+    "Onboarding excluded"
+  ],
+  "evidence": [
+    {
+      "scenario": "Consent, custom events, URL/PII minimization, pageview dedupe, withdrawal",
+      "calls": [
+        {
+          "provider": "ga-sdk",
+          "url": "https://www.googletagmanager.com/gtag/js"
+        },
+        {
+          "provider": "meta-sdk",
+          "url": "https://connect.facebook.net/en_US/fbevents.js"
+        },
+        {
+          "provider": "www.google-analytics.com",
+          "event": "page_view",
+          "payload": {
+            "page_location": "https://webtellisense.com/heroes",
+            "page_referrer": "",
+            "page_path": "/heroes"
+          }
+        },
+        {
+          "provider": "www.facebook.com",
+          "event": "PageView",
+          "payload": {}
+        },
+        {
+          "provider": "www.google-analytics.com",
+          "event": "heroes_period_select",
+          "payload": {
+            "page_path": "/heroes",
+            "period": "three",
+            "page_location": "https://webtellisense.com/heroes",
+            "page_referrer": ""
+          }
+        },
+        {
+          "provider": "www.facebook.com",
+          "event": "heroes_period_select",
+          "payload": {
+            "page_path": "/heroes",
+            "period": "three"
+          }
+        },
+        {
+          "provider": "www.google-analytics.com",
+          "event": "heroes_whatsapp_click",
+          "payload": {
+            "page_path": "/heroes",
+            "channel": "whatsapp",
+            "page_location": "https://webtellisense.com/heroes",
+            "page_referrer": ""
+          }
+        },
+        {
+          "provider": "www.facebook.com",
+          "event": "heroes_whatsapp_click",
+          "payload": {
+            "page_path": "/heroes",
+            "channel": "whatsapp"
+          }
+        },
+        {
+          "provider": "www.google-analytics.com",
+          "event": "heroes_talk_to_sales",
+          "payload": {
+            "page_path": "/heroes",
+            "channel": "whatsapp",
+            "page_location": "https://webtellisense.com/heroes",
+            "page_referrer": ""
+          }
+        },
+        {
+          "provider": "www.facebook.com",
+          "event": "heroes_talk_to_sales",
+          "payload": {
+            "page_path": "/heroes",
+            "channel": "whatsapp"
+          }
+        },
+        {
+          "provider": "www.google-analytics.com",
+          "event": "heroes_tier_select",
+          "payload": {
+            "page_path": "/heroes",
+            "tier": "v2",
+            "period": "three",
+            "page_location": "https://webtellisense.com/heroes",
+            "page_referrer": ""
+          }
+        },
+        {
+          "provider": "www.facebook.com",
+          "event": "heroes_tier_select",
+          "payload": {
+            "page_path": "/heroes",
+            "tier": "v2",
+            "period": "three"
+          }
+        },
+        {
+          "provider": "ga-sdk",
+          "url": "https://www.googletagmanager.com/gtag/js"
+        },
+        {
+          "provider": "meta-sdk",
+          "url": "https://connect.facebook.net/en_US/fbevents.js"
+        },
+        {
+          "provider": "www.google-analytics.com",
+          "event": "page_view",
+          "payload": {
+            "page_location": "https://webtellisense.com/heroes-start",
+            "page_referrer": "",
+            "page_path": "/heroes-start"
+          }
+        },
+        {
+          "provider": "www.facebook.com",
+          "event": "PageView",
+          "payload": {}
+        },
+        {
+          "provider": "www.google-analytics.com",
+          "event": "heroes_tier_select",
+          "payload": {
+            "page_path": "/heroes-start",
+            "tier": "v3",
+            "page_location": "https://webtellisense.com/heroes-start",
+            "page_referrer": ""
+          }
+        },
+        {
+          "provider": "www.facebook.com",
+          "event": "heroes_tier_select",
+          "payload": {
+            "page_path": "/heroes-start",
+            "tier": "v3"
+          }
+        },
+        {
+          "provider": "www.google-analytics.com",
+          "event": "heroes_period_select",
+          "payload": {
+            "page_path": "/heroes-start",
+            "period": "six",
+            "page_location": "https://webtellisense.com/heroes-start",
+            "page_referrer": ""
+          }
+        },
+        {
+          "provider": "www.facebook.com",
+          "event": "heroes_period_select",
+          "payload": {
+            "page_path": "/heroes-start",
+            "period": "six"
+          }
+        },
+        {
+          "provider": "www.google-analytics.com",
+          "event": "heroes_call_click",
+          "payload": {
+            "page_path": "/heroes-start",
+            "channel": "call",
+            "page_location": "https://webtellisense.com/heroes-start",
+            "page_referrer": ""
+          }
+        },
+        {
+          "provider": "www.facebook.com",
+          "event": "heroes_call_click",
+          "payload": {
+            "page_path": "/heroes-start",
+            "channel": "call"
+          }
+        },
+        {
+          "provider": "www.google-analytics.com",
+          "event": "heroes_whatsapp_click",
+          "payload": {
+            "page_path": "/heroes-start",
+            "channel": "whatsapp",
+            "page_location": "https://webtellisense.com/heroes-start",
+            "page_referrer": ""
+          }
+        },
+        {
+          "provider": "www.facebook.com",
+          "event": "heroes_whatsapp_click",
+          "payload": {
+            "page_path": "/heroes-start",
+            "channel": "whatsapp"
+          }
+        },
+        {
+          "provider": "www.google-analytics.com",
+          "event": "heroes_tier_select",
+          "payload": {
+            "page_path": "/heroes-start",
+            "tier": "v1",
+            "period": "six",
+            "page_location": "https://webtellisense.com/heroes-start",
+            "page_referrer": ""
+          }
+        },
+        {
+          "provider": "www.facebook.com",
+          "event": "heroes_tier_select",
+          "payload": {
+            "page_path": "/heroes-start",
+            "tier": "v1",
+            "period": "six"
+          }
+        },
+        {
+          "provider": "www.google-analytics.com",
+          "event": "heroes_tier_select",
+          "payload": {
+            "page_path": "/heroes-start",
+            "tier": "v1",
+            "page_location": "https://webtellisense.com/heroes-start",
+            "page_referrer": ""
+          }
+        },
+        {
+          "provider": "www.facebook.com",
+          "event": "heroes_tier_select",
+          "payload": {
+            "page_path": "/heroes-start",
+            "tier": "v1"
+          }
+        },
+        {
+          "provider": "www.google-analytics.com",
+          "event": "heroes_period_select",
+          "payload": {
+            "page_path": "/heroes-start",
+            "period": "monthly",
+            "page_location": "https://webtellisense.com/heroes-start",
+            "page_referrer": ""
+          }
+        },
+        {
+          "provider": "www.facebook.com",
+          "event": "heroes_period_select",
+          "payload": {
+            "page_path": "/heroes-start",
+            "period": "monthly"
+          }
+        },
+        {
+          "provider": "www.google-analytics.com",
+          "event": "heroes_paystack_handoff",
+          "payload": {
+            "page_path": "/heroes-start",
+            "tier": "v1",
+            "period": "monthly",
+            "page_location": "https://webtellisense.com/heroes-start",
+            "page_referrer": ""
+          }
+        },
+        {
+          "provider": "www.facebook.com",
+          "event": "heroes_paystack_handoff",
+          "payload": {
+            "page_path": "/heroes-start",
+            "tier": "v1",
+            "period": "monthly"
+          }
+        }
+      ]
+    }
+  ]
+}

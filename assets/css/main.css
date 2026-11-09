@@ -223,7 +223,8 @@ h6 {
   /* margin-right: 8px; */
 }
 
-.header .logo h1 {
+.header .logo h1,
+.header .logo .site-title {
   font-size: 26px;
   margin: 0;
   font-weight: 700;
@@ -267,7 +268,8 @@ h6 {
     order: 1;
   }
 
-  .header .logo h1 {
+  .header .logo h1,
+.header .logo .site-title {
     font-size: 24px;
   }
 
@@ -307,7 +309,7 @@ h6 {
     color: var(--nav-color);
     padding: 18px 15px;
     font-size: 13px;
-    font-family: var(--nav-font);
+    font-family: var(--nav-font, inherit);
     text-transform: uppercase;
     font-weight: 500;
     display: flex;
@@ -5657,3 +5659,26 @@ hr.div {
 .wt-btn-submit-pay {
   width: 100%; background: #0033ff; color: #fff; padding: 14px; border: none; border-radius: 30px; font-size: 1rem; font-weight: 700; cursor: pointer;
 }
+/* Technical accessibility repairs: preserve the existing brand and dimensions. */
+
+.faq-question { all: unset; display: block; width: 100%; cursor: pointer; }
+.faq-question:focus-visible, .mobile-nav-toggle[role="button"]:focus-visible,
+.faq-filter li:focus-visible, .isotope-filters li:focus-visible {
+  outline: 2px solid var(--color-primary-3); outline-offset: 4px;
+}
+@media (min-width: 1200px) {
+  .navmenu .dropdown:focus-within > ul { opacity: 1; top: 100%; visibility: visible; }
+  .navmenu .dropdown .dropdown:focus-within > ul { top: 0; left: -100%; }
+}
+@media (prefers-reduced-motion: reduce) {
+  :root { scroll-behavior: auto; }
+  .carousel-item, [data-aos], .wt-card { animation: none !important; transition: none !important; }
+}
+
+.site-filter-button { all: unset; cursor: pointer; }
+.site-filter-button:focus-visible { outline: 2px solid var(--color-primary-3); outline-offset: 4px; }
+.site-context-link { text-decoration: underline; text-underline-offset: 3px; }
+.site-context-link:hover { color: var(--accent-color); text-decoration: underline; }
+.site-context-link:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; border-radius: 2px; }
+.footer .footer-newsletter .newsletter-form input[type="submit"],
+.contact .php-email-form button[type="submit"] { color: var(--contrast-color, var(--color-white)); }

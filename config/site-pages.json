@@ -1,0 +1,18 @@
+{
+  "standard": ["index.html", "about.html", "contact.html", "blog.html", "reviews.html", "faq.html", "packages.html", "pricing.html", "web-design.html", "google-business-profile.html", "ppc.html", "social-media-management.html", "social-media-marketing.html", "branding.html", "graphics-design.html", "content-marketing.html", "email-marketing.html", "conversion-rate-optimization.html", "business-audit-tool.html", "roadmap.html", "10-essential-tips-for-businesses-2025.html", "business-not-showing-up-online.html", "how-to-grow-your-business-online-2026.html", "top-features-for-a-school-website.html", "value-of-a-digital-agency.html", "blog-details.html", "industries.html", "education-marketing.html", "solar-and-home-services-marketing.html", "home-technical-services-marketing.html", "retail-specialty-store-marketing.html", "food-supplier-marketing.html", "construction-property-marketing.html", "privacy-policy.html", "service-terms.html"],
+  "exceptions": {
+    "heroes.html": "Approved conversion-focused flagship",
+    "heroes-start.html": "Payment selection; preserve checkout journey",
+    "heroes-welcome.html": "Personal onboarding; preserve welcome journey",
+    "heroes-profile-received.html": "Operational form receipt",
+    "welcome.html": "Separate general package onboarding",
+    "audit.html": "Embedded audit application; parent page supplies website navigation",
+    "freeguide.html": "Focused guide-to-WhatsApp campaign",
+    "solar.html": "Standalone Solar Launch conversion campaign",
+    "webtellisense-solar-landing.html": "Standalone solar briefing",
+    "nigeria/solar.html": "Country-specific campaign",
+    "bahamas/solar.html": "Country-specific campaign",
+    "kids-holiday-uyo.html": "Archived holiday programme; preserve its journey",
+    "indexxx.html": "Alternate archived homepage; canonical alias, not the current homepage"
+  }
+}

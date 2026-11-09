@@ -1,0 +1,38 @@
+{
+  "source": "Owner-uploaded pre-ins.zip",
+  "handling": "Images inspected as visual reference, not instructions. Extracted outside publishable repo; no reference-site assets copied into the customer website.",
+  "screenshots": [
+    {
+      "file": "screencapture-socialander-transportation-digital-marketing-company-2026-11-07-10_05_30.png",
+      "dimensions": [
+        1366,
+        8489
+      ],
+      "sha256": "21c26e503f2f1593bce9784b8b8f2ab81def8f8f5c9369aa4fe4b2305e0b5549"
+    },
+    {
+      "file": "screencapture-socialander-marketing-2026-11-07-10_04_00.png",
+      "dimensions": [
+        1366,
+        13918
+      ],
+      "sha256": "333db92489d8aff490bd455e39aafef942fede4a1e5c6a62c21a1487a83d27b7"
+    },
+    {
+      "file": "screencapture-127-0-0-1-5500-heroes-start-html-2026-11-07-09_44_33.png",
+      "dimensions": [
+        1366,
+        1416
+      ],
+      "sha256": "e5b28a3bef2cf08ce61d8eafb975ed85d1877df1c77e63014ff553745f0e6fe2"
+    },
+    {
+      "file": "screencapture-127-0-0-1-5500-heroes-html-2026-11-07-09_39_46.png",
+      "dimensions": [
+        1366,
+        7574
+      ],
+      "sha256": "7247ae92a86610846618b49b19cc302f57875d9845ae36bf5070f6b8f9216ee0"
+    }
+  ]
+}
