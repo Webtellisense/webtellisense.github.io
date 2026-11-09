@@ -1,7 +1,7 @@
-# One public flagship route. No duplicate HTML is published at the old name.
+# Redirect obsolete Heroes marketing URLs to the flagship.
+# Netlify Pretty URLs serves /heroes from heroes.html automatically.
+# Do not redirect /heroes.html back to /heroes while rewriting /heroes to the file:
+# that creates a redirect loop.
 /webtellisense-heroes.html /heroes 301!
 /webtellisense-heroes /heroes 301!
 /webtellisense-heroes/ /heroes 301!
-/heroes.html /heroes 301!
-/heroes/ /heroes 301!
-/heroes /heroes.html 200!
