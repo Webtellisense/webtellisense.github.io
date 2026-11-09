@@ -1,0 +1,24 @@
+{
+  "before_links": 126,
+  "after_links": 156,
+  "before_sources": 24,
+  "after_sources": 27,
+  "preserved_pr4_links": 71,
+  "preserved_initial_integration_links": 86,
+  "added_edges": 32,
+  "revised_edges": [
+    {
+      "source": "heroes.html",
+      "destination": "solar-and-home-services-marketing.html",
+      "old_anchor": "solar and home services",
+      "reason": "Anchor now distinguishes solar/renewable energy from separate home/technical services."
+    },
+    {
+      "source": "index.html",
+      "destination": "solar-and-home-services-marketing.html",
+      "old_anchor": "solar and home-service marketing",
+      "reason": "Anchor now distinguishes solar/renewable energy from separate home/technical services."
+    }
+  ],
+  "method": "Contextual marketing prose only; do not count hub directory CTAs, footer/navigation, policies, forms or noindex pages."
+}

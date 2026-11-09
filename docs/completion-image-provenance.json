@@ -105,5 +105,11 @@
     "license": "https://unsplash.com/license",
     "license_observation": "Individual page explicitly says free under Unsplash License; commercial use allowed by license page. Does not independently establish model/property releases.",
     "download_status": "Managed environment proxy CONNECT 403 for unsplash.com; image not downloaded, not bundled or displayed."
+  },
+  "usage_updates_2026_11_09": {
+    "hero": "Existing property-work.webp provides the larger work photograph; existing business-owner.webp is now contained rather than stretched across the desktop hero. Same repository sources, no new third-party download.",
+    "home_technical_services": "Existing property-work.webp; illustrative technical work, not client evidence.",
+    "retail": "Existing business-owner.webp; illustrative store context, not a client endorsement.",
+    "food": "Existing optimized/img-bootcamp-img-1.webp from bootcamp-img-1.jpg; illustrative packaged-food presentation. Original license provenance is still an owner check."
   }
 }

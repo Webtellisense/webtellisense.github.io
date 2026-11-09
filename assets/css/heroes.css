@@ -1702,3 +1702,10 @@
 }
 .hero-work-notes .note-label { display:inline-block; background:#01033ecc; padding:4px 8px; border-radius:8px; }
 .hero-work-notes > small { background:#01033ecc; padding:4px 8px; border-radius:8px; margin-left:auto; width:fit-content; }
+
+/* Screenshot-led refinement: a wider work photograph and a contained retail portrait. */
+.hero-field-photo { position:absolute; right:5%; top:50px; width:min(29%,390px); height:270px !important; object-fit:cover; object-position:center; border-radius:60px 18px 70px 18px; box-shadow:0 20px 60px #01033e3d; transform:rotate(3deg); }
+.flagship-page .hero-work-notes { bottom:105px; }
+@media(max-width:1100px) { .hero-field-photo { display:none !important; } }
+@media(max-width:760px) { .flagship-page .hero-work-notes { bottom:auto; } }
+@media(max-width:760px) { .flagship-page .hero-backdrop { object-position:18% center; } }

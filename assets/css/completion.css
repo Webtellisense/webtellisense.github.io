@@ -45,3 +45,12 @@
  .review-notice { padding:20px; }
  .policy-document { font-size:.9rem; }
 }
+
+.industry-directory { padding-block:45px 80px; }
+.sector-index { display:grid; grid-template-columns:1fr 1fr; gap:12px 35px; padding:28px 28px 28px 48px; margin-block:30px 70px; border-radius:24px 70px 24px 24px; background:#e9edff; }
+.sector-index a { text-decoration:underline; text-underline-offset:4px; font-size:.84rem; }
+.sector-row { display:grid; grid-template-columns:1fr 1.25fr; gap:85px; padding-block:40px; border-top:1px solid #c6cee4; scroll-margin-top:110px; }
+.sector-row h3 { font-size:clamp(1.8rem,3vw,2.6rem); margin:12px 0 20px; }
+.sector-row p { font-size:.9rem; }
+.sector-row .sector-audience { color:#51576b; font-size:.8rem; max-width:350px; }
+@media(max-width:760px) { .sector-index { grid-template-columns:1fr; margin-bottom:40px; padding-right:20px; } .sector-row { grid-template-columns:1fr; gap:8px; padding-block:30px; } }

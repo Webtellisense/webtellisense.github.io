@@ -121,6 +121,18 @@
       "underlineAndKeyboardFocus": true
     },
     {
+      "source": "food-supplier-marketing.html",
+      "contextualLinks": 9,
+      "widths": [
+        320,
+        390,
+        768,
+        1280
+      ],
+      "minimumHoverContrast": 16.45,
+      "underlineAndKeyboardFocus": true
+    },
+    {
       "source": "google-business-profile.html",
       "contextualLinks": 3,
       "widths": [
@@ -146,7 +158,7 @@
     },
     {
       "source": "heroes.html",
-      "contextualLinks": 9,
+      "contextualLinks": 10,
       "widths": [
         320,
         390,
@@ -154,6 +166,18 @@
         1280
       ],
       "minimumHoverContrast": 14.14,
+      "underlineAndKeyboardFocus": true
+    },
+    {
+      "source": "home-technical-services-marketing.html",
+      "contextualLinks": 9,
+      "widths": [
+        320,
+        390,
+        768,
+        1280
+      ],
+      "minimumHoverContrast": 16.45,
       "underlineAndKeyboardFocus": true
     },
     {
@@ -170,7 +194,7 @@
     },
     {
       "source": "index.html",
-      "contextualLinks": 7,
+      "contextualLinks": 8,
       "widths": [
         320,
         390,
@@ -182,7 +206,7 @@
     },
     {
       "source": "industries.html",
-      "contextualLinks": 5,
+      "contextualLinks": 6,
       "widths": [
         320,
         390,
@@ -217,6 +241,18 @@
       "underlineAndKeyboardFocus": true
     },
     {
+      "source": "retail-specialty-store-marketing.html",
+      "contextualLinks": 8,
+      "widths": [
+        320,
+        390,
+        768,
+        1280
+      ],
+      "minimumHoverContrast": 16.45,
+      "underlineAndKeyboardFocus": true
+    },
+    {
       "source": "social-media-management.html",
       "contextualLinks": 5,
       "widths": [
@@ -242,7 +278,7 @@
     },
     {
       "source": "solar-and-home-services-marketing.html",
-      "contextualLinks": 9,
+      "contextualLinks": 10,
       "widths": [
         320,
         390,
@@ -317,6 +353,7 @@
     "heroes-welcome.html",
     "solar-and-home-services-marketing.html",
     "education-marketing.html",
+    "home-technical-services-marketing.html",
     "construction-property-marketing.html",
     "about.html",
     "how-to-grow-your-business-online-2026.html#step4",
@@ -366,6 +403,10 @@
       "anchorsPresentInHTML": 4
     },
     {
+      "source": "food-supplier-marketing.html",
+      "anchorsPresentInHTML": 9
+    },
+    {
       "source": "google-business-profile.html",
       "anchorsPresentInHTML": 3
     },
@@ -375,6 +416,10 @@
     },
     {
       "source": "heroes.html",
+      "anchorsPresentInHTML": 10
+    },
+    {
+      "source": "home-technical-services-marketing.html",
       "anchorsPresentInHTML": 9
     },
     {
@@ -383,11 +428,11 @@
     },
     {
       "source": "index.html",
-      "anchorsPresentInHTML": 7
+      "anchorsPresentInHTML": 8
     },
     {
       "source": "industries.html",
-      "anchorsPresentInHTML": 5
+      "anchorsPresentInHTML": 6
     },
     {
       "source": "ppc.html",
@@ -396,6 +441,10 @@
     {
       "source": "pricing.html",
       "anchorsPresentInHTML": 1
+    },
+    {
+      "source": "retail-specialty-store-marketing.html",
+      "anchorsPresentInHTML": 8
     },
     {
       "source": "social-media-management.html",
@@ -407,7 +456,7 @@
     },
     {
       "source": "solar-and-home-services-marketing.html",
-      "anchorsPresentInHTML": 9
+      "anchorsPresentInHTML": 10
     },
     {
       "source": "top-features-for-a-school-website.html",

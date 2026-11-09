@@ -36,7 +36,7 @@ const base=process.env.HEROES_TEST_ORIGIN||'http://127.0.0.1:8791';
  await page.locator('[data-carousel-next]').focus();await page.clock.runFor(18000);assert.equal(await page.locator('[data-carousel-status]').innerText(),'2 / 4','Focus pauses slideshow');
  await page.locator('[data-carousel-next]').click();assert.equal(await page.locator('[data-carousel-play]').getAttribute('aria-pressed'),'false','Manual action stops slideshow');
  await page.emulateMedia({reducedMotion:'reduce'});
- const screenshots=['heroes','heroes-start.html','industries','education-marketing','privacy-policy'];
+ const screenshots=['heroes','heroes-start.html','industries','education-marketing','home-technical-services-marketing','retail-specialty-store-marketing','food-supplier-marketing','privacy-policy'];
  fs.mkdirSync('docs/completion-previews',{recursive:true});
  for(const route of screenshots){await page.goto(base+'/'+route);await page.evaluate(()=>document.querySelectorAll('.is-waiting').forEach(e=>e.classList.remove('is-waiting')));for(const width of [1440,390]){await page.setViewportSize({width,height:1000});await page.screenshot({path:`docs/completion-previews/${route.replace('.html','')}-${width}.png`,fullPage:true,animations:'disabled'});if(route==='heroes')await page.screenshot({path:`docs/completion-previews/heroes-fold-${width}.png`,animations:'disabled'});}}
  const basic=await browser.newContext({javaScriptEnabled:false,viewport:{width:390,height:844}});await basic.route('**/*',r=>new URL(r.request().url()).origin===base?r.continue():r.abort());const plain=await basic.newPage();
@@ -47,6 +47,6 @@ const base=process.env.HEROES_TEST_ORIGIN||'http://127.0.0.1:8791';
  console.log(JSON.stringify(totals));console.log(JSON.stringify(results.filter(r=>r.errors.length||r.views.some(v=>v.overflow)||r.axe.length).map(r=>({page:r.page,errors:r.errors,overflow:r.views.filter(v=>v.overflow),axe:r.axe.map(v=>({id:v.id,count:v.nodes.length}))})),null,2));
  assert.equal(totals.pageErrors,0);assert.equal(totals.localBrokenImages,0);
  for(const r of results.filter(r=>!r.cssBlocked))assert.ok(r.views.every(v=>!v.overflow),'Overflow '+r.page);
- for(const r of results.filter(r=>/^(heroes|industries|education-marketing|solar-and-home-services-marketing|construction-property-marketing|privacy-policy|service-terms)/.test(r.page)))assert.deepEqual(r.axe,[],r.page);
+ for(const r of results.filter(r=>/^(heroes|industries|education-marketing|solar-and-home-services-marketing|construction-property-marketing|home-technical-services-marketing|retail-specialty-store-marketing|food-supplier-marketing|privacy-policy|service-terms)/.test(r.page)))assert.deepEqual(r.axe,[],r.page);
  await browser.close();
 })().catch(e=>{console.error(e);process.exit(1)});

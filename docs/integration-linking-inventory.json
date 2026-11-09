@@ -1,8 +1,8 @@
 {
   "baseline": "1dab681492ea2f2cab18fde9d942acffce6211d5",
   "preserved_pr4_links": 71,
-  "total_current_contextual_links": 126,
-  "new_heroes_inbound_links": 16,
+  "total_current_contextual_links": 156,
+  "new_heroes_inbound_links": 19,
   "new_heroes_sources": [
     "about.html",
     "business-audit-tool.html",
@@ -10,10 +10,13 @@
     "construction-property-marketing.html",
     "conversion-rate-optimization.html",
     "education-marketing.html",
+    "food-supplier-marketing.html",
+    "home-technical-services-marketing.html",
     "how-to-grow-your-business-online-2026.html",
     "index.html",
     "industries.html",
     "pricing.html",
+    "retail-specialty-store-marketing.html",
     "social-media-management.html",
     "solar-and-home-services-marketing.html",
     "value-of-a-digital-agency.html",
@@ -23,31 +26,32 @@
     "10-essential-tips-for-businesses-2025.html": 1,
     "about.html": 2,
     "blog.html": 1,
-    "branding.html": 4,
+    "branding.html": 5,
     "business-audit-tool.html": 2,
-    "business-not-showing-up-online.html": 5,
-    "construction-property-marketing.html": 2,
-    "contact.html": 6,
-    "content-marketing.html": 5,
-    "conversion-rate-optimization.html": 11,
+    "business-not-showing-up-online.html": 6,
+    "construction-property-marketing.html": 3,
+    "contact.html": 9,
+    "content-marketing.html": 6,
+    "conversion-rate-optimization.html": 12,
     "education-marketing.html": 2,
     "email-marketing.html": 2,
-    "google-business-profile.html": 11,
-    "graphics-design.html": 4,
+    "google-business-profile.html": 14,
+    "graphics-design.html": 6,
     "heroes-welcome.html": 1,
-    "heroes.html": 16,
+    "heroes.html": 19,
+    "home-technical-services-marketing.html": 3,
     "how-to-grow-your-business-online-2026.html": 6,
-    "industries.html": 5,
+    "industries.html": 8,
     "packages.html": 2,
-    "ppc.html": 4,
+    "ppc.html": 5,
     "reviews.html": 1,
-    "social-media-management.html": 7,
-    "social-media-marketing.html": 5,
-    "solar-and-home-services-marketing.html": 2,
+    "social-media-management.html": 9,
+    "social-media-marketing.html": 6,
+    "solar-and-home-services-marketing.html": 3,
     "solar.html": 1,
     "top-features-for-a-school-website.html": 2,
     "value-of-a-digital-agency.html": 3,
-    "web-design.html": 13
+    "web-design.html": 16
   },
   "pages": [
     {
@@ -204,7 +208,7 @@
           "source": "audit.html",
           "destination": "privacy-policy.html",
           "anchor": "privacy information (draft)",
-          "line": 982,
+          "line": 983,
           "context": "Read our privacy information (draft) before sharing details. Don’t include passwords or sensitive account information."
         }
       ]
@@ -859,6 +863,108 @@
       "operational_links": []
     },
     {
+      "page": "food-supplier-marketing.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/food-supplier-marketing"
+      ],
+      "headings": [
+        "Help the right customerunderstand your food business.",
+        "A local order and an export enquiry are different.",
+        "Useful details help people decide.",
+        "Clarify the product and audience.",
+        "Make the presentation recognisable.",
+        "Keep the next step practical.",
+        "Content should fit the way you sell.",
+        "Before we start.",
+        "Bring the story and the enquiry together."
+      ],
+      "links": [
+        {
+          "source": "food-supplier-marketing.html",
+          "destination": "content-marketing.html",
+          "anchor": "Content marketing",
+          "line": 39,
+          "context": "Explain what the business offers, who it serves and how enquiries are handled. Confirm product descriptions, packaging information, availability and order requirements with the business. Content marketing can help turn those answers into useful public information.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "food-supplier-marketing.html",
+          "destination": "branding.html",
+          "anchor": "brand identity",
+          "line": 39,
+          "context": "Product photographs, menus, packaging and social posts should feel like the same business. Our brand identity and graphic design services can support that presentation where agreed. Only use photographs and customer material the business has permission to publish.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "food-supplier-marketing.html",
+          "destination": "graphics-design.html",
+          "anchor": "graphic design services",
+          "line": 39,
+          "context": "Product photographs, menus, packaging and social posts should feel like the same business. Our brand identity and graphic design services can support that presentation where agreed. Only use photographs and customer material the business has permission to publish.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "food-supplier-marketing.html",
+          "destination": "web-design.html",
+          "anchor": "clear food-business website",
+          "line": 39,
+          "context": "A clear food-business website or public information page can explain how to request current availability or a quote. For local businesses, accurate local search information may also matter. Do not publish delivery areas, lead times, certifications or export claims until the responsible business has confirmed them.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "food-supplier-marketing.html",
+          "destination": "google-business-profile.html",
+          "anchor": "accurate local search information",
+          "line": 39,
+          "context": "A clear food-business website or public information page can explain how to request current availability or a quote. For local businesses, accurate local search information may also matter. Do not publish delivery areas, lead times, certifications or export claims until the responsible business has confirmed them.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "food-supplier-marketing.html",
+          "destination": "social-media-management.html",
+          "anchor": "Social media planning and management",
+          "line": 40,
+          "context": "A catering business may plan around events and bookings; grocery or packaged-food retail may need regular product updates; a sourcing/export business may need more explanation before an order conversation. Social media planning and management should reflect those differences, available source material and approval responsibilities.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "food-supplier-marketing.html",
+          "destination": "heroes.html",
+          "anchor": "a coordinated Heroes plan for your food business",
+          "line": 42,
+          "context": "Discuss a coordinated Heroes plan for your food business or a separate food-marketing project. Compare our wider sector experience to see why the channel and publishing plan must fit the business.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "food-supplier-marketing.html",
+          "destination": "contact.html",
+          "anchor": "a separate food-marketing project",
+          "line": 42,
+          "context": "Discuss a coordinated Heroes plan for your food business or a separate food-marketing project. Compare our wider sector experience to see why the channel and publishing plan must fit the business.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "food-supplier-marketing.html",
+          "destination": "industries.html",
+          "anchor": "wider sector experience",
+          "line": 42,
+          "context": "Discuss a coordinated Heroes plan for your food business or a separate food-marketing project. Compare our wider sector experience to see why the channel and publishing plan must fit the business.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        }
+      ],
+      "operational_links": []
+    },
+    {
       "page": "freeguide.html",
       "indexable_in_source": true,
       "canonical": [
@@ -1088,9 +1194,18 @@
         {
           "source": "heroes.html",
           "destination": "solar-and-home-services-marketing.html",
-          "anchor": "solar and home services",
+          "anchor": "solar and renewable energy",
           "line": 170,
-          "context": "Explore our approach to solar and home services, education and construction and property enquiries. Our industry overview separates broader client experience from focused delivery workflows.",
+          "context": "Explore our approach to solar and renewable energy, home and technical services and education. For a property-related brief, see our construction and property enquiries approach. Our industry overview covers all eight priorities, including retail, food, hospitality, fitness and NGOs, and separates experience from focused delivery workflows.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "heroes.html",
+          "destination": "home-technical-services-marketing.html",
+          "anchor": "home and technical services",
+          "line": 170,
+          "context": "Explore our approach to solar and renewable energy, home and technical services and education. For a property-related brief, see our construction and property enquiries approach. Our industry overview covers all eight priorities, including retail, food, hospitality, fitness and NGOs, and separates experience from focused delivery workflows.",
           "status": "Added in integration",
           "reason": "Flagship explanation, service context or next step."
         },
@@ -1099,7 +1214,7 @@
           "destination": "education-marketing.html",
           "anchor": "education",
           "line": 170,
-          "context": "Explore our approach to solar and home services, education and construction and property enquiries. Our industry overview separates broader client experience from focused delivery workflows.",
+          "context": "Explore our approach to solar and renewable energy, home and technical services and education. For a property-related brief, see our construction and property enquiries approach. Our industry overview covers all eight priorities, including retail, food, hospitality, fitness and NGOs, and separates experience from focused delivery workflows.",
           "status": "Added in integration",
           "reason": "Flagship explanation, service context or next step."
         },
@@ -1108,7 +1223,7 @@
           "destination": "construction-property-marketing.html",
           "anchor": "construction and property enquiries",
           "line": 170,
-          "context": "Explore our approach to solar and home services, education and construction and property enquiries. Our industry overview separates broader client experience from focused delivery workflows.",
+          "context": "Explore our approach to solar and renewable energy, home and technical services and education. For a property-related brief, see our construction and property enquiries approach. Our industry overview covers all eight priorities, including retail, food, hospitality, fitness and NGOs, and separates experience from focused delivery workflows.",
           "status": "Added in integration",
           "reason": "Flagship explanation, service context or next step."
         },
@@ -1117,7 +1232,109 @@
           "destination": "industries.html",
           "anchor": "industry overview",
           "line": 170,
-          "context": "Explore our approach to solar and home services, education and construction and property enquiries. Our industry overview separates broader client experience from focused delivery workflows.",
+          "context": "Explore our approach to solar and renewable energy, home and technical services and education. For a property-related brief, see our construction and property enquiries approach. Our industry overview covers all eight priorities, including retail, food, hospitality, fitness and NGOs, and separates experience from focused delivery workflows.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        }
+      ],
+      "operational_links": []
+    },
+    {
+      "page": "home-technical-services-marketing.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/home-technical-services-marketing"
+      ],
+      "headings": [
+        "Be there whensomeone needs the work done.",
+        "A local search comes with a real question.",
+        "Explain the job.Make contact easier.",
+        "Show the services you really provide.",
+        "Use genuine evidence of the work.",
+        "Give enquiries a workable next step.",
+        "Promotion follows readiness.",
+        "Before we start.",
+        "Put the digital pieces in one place."
+      ],
+      "links": [
+        {
+          "source": "home-technical-services-marketing.html",
+          "destination": "google-business-profile.html",
+          "anchor": "Local search and Google Business Profile work",
+          "line": 38,
+          "context": "We begin with the work you actually take on, your coverage and your capacity to respond. An electrician, an HVAC company and a CCTV installer should not all sound like the same business. Local search and Google Business Profile work can help keep location, service and contact information consistent.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "home-technical-services-marketing.html",
+          "destination": "web-design.html",
+          "anchor": "website design service",
+          "line": 39,
+          "context": "Organise electrical work, plumbing, cooling, security installations or repairs in language a customer can recognise. Explain what happens before a quote or visit, which areas you cover and any information your team needs. Our website design service can turn that information into a useful starting point.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "home-technical-services-marketing.html",
+          "destination": "conversion-rate-optimization.html",
+          "anchor": "Improving the enquiry journey",
+          "line": 39,
+          "context": "A short description of the job, broad location and preferred contact channel may be enough for an initial conversation. Agree who answers calls and messages and how missed enquiries are followed up. Improving the enquiry journey starts with removing confusion, not adding a long form.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "home-technical-services-marketing.html",
+          "destination": "ppc.html",
+          "anchor": "Google search advertising",
+          "line": 40,
+          "context": "Before paying for attention, check that the offer, contact details and response process are ready. Google search advertising may be useful for people already looking for a service. Facebook and Instagram campaigns can introduce an offer or explain a problem. We discuss channel choice, budget and landing pages together.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "home-technical-services-marketing.html",
+          "destination": "social-media-marketing.html",
+          "anchor": "Facebook and Instagram campaigns",
+          "line": 40,
+          "context": "Before paying for attention, check that the offer, contact details and response process are ready. Google search advertising may be useful for people already looking for a service. Facebook and Instagram campaigns can introduce an offer or explain a problem. We discuss channel choice, budget and landing pages together.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "home-technical-services-marketing.html",
+          "destination": "solar-and-home-services-marketing.html",
+          "anchor": "solar and renewable-energy approach",
+          "line": 40,
+          "context": "Technical advice, safety assessments, callout availability, diagnosis and repairs remain the service provider’s responsibility. We do not invent emergency availability, same-day attendance or fixed prices for work that needs an assessment. Solar businesses can also explore our solar and renewable-energy approach and the separate Solar Launch offer.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "home-technical-services-marketing.html",
+          "destination": "heroes.html",
+          "anchor": "Heroes as your outsourced digital team",
+          "line": 42,
+          "context": "If the work needs ongoing coordination, discuss Heroes as your outsourced digital team. A one-off website or project can be quoted separately. Tell us about your service business or compare the other industry approaches before choosing a scope.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "home-technical-services-marketing.html",
+          "destination": "contact.html",
+          "anchor": "Tell us about your service business",
+          "line": 42,
+          "context": "If the work needs ongoing coordination, discuss Heroes as your outsourced digital team. A one-off website or project can be quoted separately. Tell us about your service business or compare the other industry approaches before choosing a scope.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "home-technical-services-marketing.html",
+          "destination": "industries.html",
+          "anchor": "other industry approaches",
+          "line": 42,
+          "context": "If the work needs ongoing coordination, discuss Heroes as your outsourced digital team. A one-off website or project can be quoted separately. Tell us about your service business or compare the other industry approaches before choosing a scope.",
           "status": "Added in integration",
           "reason": "Flagship explanation, service context or next step."
         }
@@ -1148,7 +1365,7 @@
           "source": "how-to-grow-your-business-online-2026.html",
           "destination": "google-business-profile.html",
           "anchor": "Google Business Profile",
-          "line": 267,
+          "line": 268,
           "context": "To grow your business online, work in this order: claim and optimize your Google Business Profile, build a mobile-first website, post consistently on social media, then run targeted ads, and convert that traffic with landing pages and an automated WhatsApp funnel. Doing these out of order is the main reason ads and social media \"don't work\" for local businesses.",
           "status": "Retained PR #4",
           "reason": "Retain the first growth step’s local-search service recommendation."
@@ -1157,7 +1374,7 @@
           "source": "how-to-grow-your-business-online-2026.html",
           "destination": "web-design.html",
           "anchor": "simple, mobile-first website",
-          "line": 330,
+          "line": 331,
           "context": "Get a simple, mobile-first website — five pages is enough to start (Home, About, Services, Gallery, Contact). Link your WhatsApp directly on every page. Make sure it loads fast on a mid-range Android phone, because that's what most of your customers are browsing on.",
           "status": "Retained PR #4",
           "reason": "Website action step → mobile-first design service"
@@ -1166,7 +1383,7 @@
           "source": "how-to-grow-your-business-online-2026.html",
           "destination": "social-media-management.html",
           "anchor": "simple content calendar",
-          "line": 382,
+          "line": 383,
           "context": "Pick two platforms your customers actually use — likely Facebook and Instagram for Uyo's market — and commit to a simple content calendar. Three posts a week, consistently, beats seven posts one week and zero the next four.",
           "status": "Retained PR #4",
           "reason": "Consistency action step → ongoing publishing management"
@@ -1175,7 +1392,7 @@
           "source": "how-to-grow-your-business-online-2026.html",
           "destination": "social-media-marketing.html",
           "anchor": "Facebook ads",
-          "line": 393,
+          "line": 394,
           "context": "Once steps 1–3 are solid, targeted ads become genuinely powerful. Well-placed Facebook ads or Google search ads put your solar installation business in front of homeowners in Uyo who are actively frustrated with their electricity bill — right when they're most ready to act. For an electrician, a simple \"same-day callout\" ad targeted at your service radius can fill a slow week fast.",
           "status": "Retained PR #4",
           "reason": "Distinguish paid social distribution from search advertising"
@@ -1184,7 +1401,7 @@
           "source": "how-to-grow-your-business-online-2026.html",
           "destination": "ppc.html",
           "anchor": "Google search ads",
-          "line": 393,
+          "line": 394,
           "context": "Once steps 1–3 are solid, targeted ads become genuinely powerful. Well-placed Facebook ads or Google search ads put your solar installation business in front of homeowners in Uyo who are actively frustrated with their electricity bill — right when they're most ready to act. For an electrician, a simple \"same-day callout\" ad targeted at your service radius can fill a slow week fast.",
           "status": "Retained PR #4",
           "reason": "Match search intent to the Google Ads service"
@@ -1193,7 +1410,7 @@
           "source": "how-to-grow-your-business-online-2026.html",
           "destination": "conversion-rate-optimization.html",
           "anchor": "a dedicated landing page",
-          "line": 412,
+          "line": 413,
           "context": "For the solar installer, a dedicated landing page for \"Free Solar Consultation in Uyo\" will always out-convert sending traffic to a generic homepage. Specificity sells. The same goes for the electrician offering \"Emergency Callout — Uyo & Environs.\"",
           "status": "Retained PR #4",
           "reason": "Conversion step → landing-page optimization rather than more traffic"
@@ -1202,7 +1419,7 @@
           "source": "how-to-grow-your-business-online-2026.html",
           "destination": "heroes.html",
           "anchor": "Heroes: one outsourced digital growth team",
-          "line": 462,
+          "line": 463,
           "context": "This is exactly why so many business owners in Uyo and across Akwa Ibom eventually stop trying to juggle five different freelancers — a \"social media guy,\" a \"website guy,\" a \"graphics girl\" — and look for one team that runs the whole system together. That’s the idea behind Heroes: one outsourced digital growth team. That's a different conversation for a different day. For now, focus on the order: Google Business Profile, website, social consistency, ads, and WhatsApp conversion. In that order, not all at once.",
           "status": "Added in integration",
           "reason": "That’s the idea behind Heroes: one outsourced digital growth team."
@@ -1275,9 +1492,18 @@
         {
           "source": "index.html",
           "destination": "solar-and-home-services-marketing.html",
-          "anchor": "solar and home-service marketing",
+          "anchor": "solar and renewable-energy marketing",
           "line": 1037,
-          "context": "Explore our focused approach to solar and home-service marketing, school communication and admissions enquiries, and construction and property-related enquiries.",
+          "context": "Explore our focused approach to solar and renewable-energy marketing, home and technical services and school communication and admissions enquiries. Our approach to construction and property-related enquiries is also available for a separate project brief.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "index.html",
+          "destination": "home-technical-services-marketing.html",
+          "anchor": "home and technical services",
+          "line": 1037,
+          "context": "Explore our focused approach to solar and renewable-energy marketing, home and technical services and school communication and admissions enquiries. Our approach to construction and property-related enquiries is also available for a separate project brief.",
           "status": "Added in integration",
           "reason": "Flagship explanation, service context or next step."
         },
@@ -1286,7 +1512,7 @@
           "destination": "education-marketing.html",
           "anchor": "school communication and admissions enquiries",
           "line": 1037,
-          "context": "Explore our focused approach to solar and home-service marketing, school communication and admissions enquiries, and construction and property-related enquiries.",
+          "context": "Explore our focused approach to solar and renewable-energy marketing, home and technical services and school communication and admissions enquiries. Our approach to construction and property-related enquiries is also available for a separate project brief.",
           "status": "Added in integration",
           "reason": "Flagship explanation, service context or next step."
         },
@@ -1295,7 +1521,7 @@
           "destination": "construction-property-marketing.html",
           "anchor": "construction and property-related enquiries",
           "line": 1037,
-          "context": "Explore our focused approach to solar and home-service marketing, school communication and admissions enquiries, and construction and property-related enquiries.",
+          "context": "Explore our focused approach to solar and renewable-energy marketing, home and technical services and school communication and admissions enquiries. Our approach to construction and property-related enquiries is also available for a separate project brief.",
           "status": "Added in integration",
           "reason": "Flagship explanation, service context or next step."
         },
@@ -1376,14 +1602,29 @@
       "headings": [
         "Different businesses.Different ways to grow.",
         "Experience is broad.Our focus is deliberate.",
-        "Start with your kind of business.",
-        "From “how much?” to a useful conversation.",
-        "Help parents get a clearer picture.",
-        "Show the work. Explain the next step.",
+        "Find your business.",
+        "Solar and Renewable Energy",
+        "Home and Technical Services",
+        "Private Schools and Education",
+        "Retail and Specialty Stores",
+        "Food Suppliers and Specialty Food Businesses",
+        "Hotels and Hospitality",
+        "Fitness and Wellness Professionals",
+        "NGOs and Community Organizations",
+        "Other project contexts.",
         "A product post is not a site inspection.",
         "One project, or a team alongside you?"
       ],
       "links": [
+        {
+          "source": "industries.html",
+          "destination": "construction-property-marketing.html",
+          "anchor": "construction and property approach",
+          "line": 36,
+          "context": "For an existing property-related brief, our construction and property approach remains available. It sits outside the eight current priorities and describes relevant capabilities without presenting an unverified case study.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
         {
           "source": "industries.html",
           "destination": "social-media-management.html",
@@ -1542,7 +1783,7 @@
           "source": "ppc.html",
           "destination": "social-media-marketing.html",
           "anchor": "general social media campaigns",
-          "line": 389,
+          "line": 390,
           "context": "Unlike general social media campaigns, users typing into Google possess clear buying intent. Appearing at the top for intent-rich queries positions your business as the primary choice. What happens after the click matters too: conversion rate optimization focuses on turning those visits into enquiries.",
           "status": "Retained PR #4",
           "reason": "Compare Google search intent with paid social ads"
@@ -1551,7 +1792,7 @@
           "source": "ppc.html",
           "destination": "conversion-rate-optimization.html",
           "anchor": "conversion rate optimization",
-          "line": 392,
+          "line": 393,
           "context": "Unlike general social media campaigns, users typing into Google possess clear buying intent. Appearing at the top for intent-rich queries positions your business as the primary choice. What happens after the click matters too: conversion rate optimization focuses on turning those visits into enquiries.",
           "status": "Retained PR #4",
           "reason": "Paid acquisition → post-click visitor experience"
@@ -1560,7 +1801,7 @@
           "source": "ppc.html",
           "destination": "how-to-grow-your-business-online-2026.html#step4",
           "anchor": "step-by-step growth guide",
-          "line": 413,
+          "line": 414,
           "context": "We manage everything from start to finish so your budget is highly protected. Before you spend, check the foundations in our step-by-step growth guide.",
           "status": "Retained PR #4",
           "reason": "Campaign preparation → specific ad-readiness guidance"
@@ -1569,7 +1810,7 @@
           "source": "ppc.html",
           "destination": "google-business-profile.html",
           "anchor": "Google Business Profile management",
-          "line": 576,
+          "line": 577,
           "context": "In Uyo, Eket, and across Akwa Ibom, search volume is lower but so is competition — meaning well-targeted campaigns can dominate local results for a fraction of the cost of a Lagos campaign. For unpaid local discovery alongside ads, explore Google Business Profile management.",
           "status": "Retained PR #4",
           "reason": "Local-market explanation → complementary Maps presence"
@@ -1596,7 +1837,7 @@
           "source": "pricing.html",
           "destination": "heroes.html#plans",
           "anchor": "Compare Webtellisense Heroes plans",
-          "line": 164,
+          "line": 165,
           "context": "Looking for one outsourced digital growth team? Compare Webtellisense Heroes plans. The standalone offers below remain separate from Heroes.",
           "status": "Added in integration",
           "reason": "Separate unified flagship from the unchanged older standalone offers."
@@ -1630,6 +1871,99 @@
           "context": "Review also the draft service disclosures. This page remains noindex and is not in the sitemap while awaiting approval."
         }
       ]
+    },
+    {
+      "page": "retail-specialty-store-marketing.html",
+      "indexable_in_source": true,
+      "canonical": [
+        "https://webtellisense.com/retail-specialty-store-marketing"
+      ],
+      "headings": [
+        "Give people a reasonto choose your store.",
+        "Fresh information earns its place.",
+        "From product interestto a useful next step.",
+        "Be easy to find locally.",
+        "Show the product clearly.",
+        "Make the purchase conversation straightforward.",
+        "Agree the content rhythm with the store.",
+        "Before we start.",
+        "Choose the support your store needs."
+      ],
+      "links": [
+        {
+          "source": "retail-specialty-store-marketing.html",
+          "destination": "google-business-profile.html",
+          "anchor": "Google Business Profile management",
+          "line": 39,
+          "context": "Keep the business name, address, opening information and contact options accurate. Google Business Profile management supports that local information. Read why a social page alone may not make a business easy to find for the wider discovery problem.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "retail-specialty-store-marketing.html",
+          "destination": "business-not-showing-up-online.html",
+          "anchor": "why a social page alone may not make a business easy to find",
+          "line": 39,
+          "context": "Keep the business name, address, opening information and contact options accurate. Google Business Profile management supports that local information. Read why a social page alone may not make a business easy to find for the wider discovery problem.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "retail-specialty-store-marketing.html",
+          "destination": "social-media-management.html",
+          "anchor": "social media management",
+          "line": 39,
+          "context": "Product images, prices where confirmed, carousels and short video can answer different questions. A perfume audience may need product explanations and frequent new content; a stationery customer may be looking for specific supplies or a convenient location. Our social media management and graphic design work can support an agreed publishing plan.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "retail-specialty-store-marketing.html",
+          "destination": "graphics-design.html",
+          "anchor": "graphic design",
+          "line": 39,
+          "context": "Product images, prices where confirmed, carousels and short video can answer different questions. A perfume audience may need product explanations and frequent new content; a stationery customer may be looking for specific supplies or a convenient location. Our social media management and graphic design work can support an agreed publishing plan.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "retail-specialty-store-marketing.html",
+          "destination": "web-design.html",
+          "anchor": "retail website information",
+          "line": 39,
+          "context": "Explain whether someone should visit, call or message about stock and delivery. Keep availability and fulfilment details with the people who manage the business. The right retail website information can give posts and profiles a dependable place to send customers.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "retail-specialty-store-marketing.html",
+          "destination": "heroes.html",
+          "anchor": "Heroes for ongoing retail marketing support",
+          "line": 42,
+          "context": "Explore Heroes for ongoing retail marketing support or talk through a focused retail project. Our industry overview explains how local retail differs from technical services and other sectors.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "retail-specialty-store-marketing.html",
+          "destination": "contact.html",
+          "anchor": "talk through a focused retail project",
+          "line": 42,
+          "context": "Explore Heroes for ongoing retail marketing support or talk through a focused retail project. Our industry overview explains how local retail differs from technical services and other sectors.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "retail-specialty-store-marketing.html",
+          "destination": "industries.html",
+          "anchor": "industry overview",
+          "line": 42,
+          "context": "Explore Heroes for ongoing retail marketing support or talk through a focused retail project. Our industry overview explains how local retail differs from technical services and other sectors.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        }
+      ],
+      "operational_links": []
     },
     {
       "page": "reviews.html",
@@ -1776,7 +2110,7 @@
           "source": "social-media-marketing.html",
           "destination": "social-media-management.html",
           "anchor": "regular posting",
-          "line": 335,
+          "line": 336,
           "context": "Have you noticed that when you just post normally on your Instagram or Facebook page, barely anyone sees it? Social media companies do this on purpose—they want you to pay to reach your customers. If you are just relying on regular posting, your business growth will feel painfully slow.",
           "status": "Retained PR #4",
           "reason": "Paid reach introduction → separate organic management service"
@@ -1785,7 +2119,7 @@
           "source": "social-media-marketing.html",
           "destination": "how-to-grow-your-business-online-2026.html#step4",
           "anchor": "when to start advertising",
-          "line": 375,
+          "line": 376,
           "context": "Running successful ads is way more than just clicking the \"Boost Post\" button. We do the real groundwork. Check when to start advertising before you spend, then look at landing-page conversion if clicks are not becoming enquiries.",
           "status": "Retained PR #4",
           "reason": "Campaign service → ad-readiness education"
@@ -1794,7 +2128,7 @@
           "source": "social-media-marketing.html",
           "destination": "conversion-rate-optimization.html",
           "anchor": "landing-page conversion",
-          "line": 377,
+          "line": 378,
           "context": "Running successful ads is way more than just clicking the \"Boost Post\" button. We do the real groundwork. Check when to start advertising before you spend, then look at landing-page conversion if clicks are not becoming enquiries.",
           "status": "Retained PR #4",
           "reason": "Paid traffic → usable conversion destination"
@@ -1803,7 +2137,7 @@
           "source": "social-media-marketing.html",
           "destination": "graphics-design.html",
           "anchor": "bold, thumb-stopping flyers",
-          "line": 385,
+          "line": 386,
           "context": "We design bold, thumb-stopping flyers or edit short video clips that make a user stop scrolling through their feed and look at your business.",
           "status": "Retained PR #4",
           "reason": "Ad creative explanation → graphic design"
@@ -1824,6 +2158,7 @@
         "Be findable where you can deliver.",
         "Explain the offer before buying attention.",
         "Make follow-up workable.",
+        "Supplying equipment or installing a system?",
         "Our focused solar offer.",
         "A few practical questions.",
         "One project, or a team alongside you?"
@@ -1876,9 +2211,18 @@
         },
         {
           "source": "solar-and-home-services-marketing.html",
+          "destination": "home-technical-services-marketing.html",
+          "anchor": "Home and technical services",
+          "line": 36,
+          "context": "We first clarify whether your business supplies inverters, batteries or other equipment, installs systems, or offers both. Product availability, specifications and after-sales information need a different brief from a site-assessment campaign. Home and technical services now has its own approach page, covering other trades and repair businesses.",
+          "status": "Added in integration",
+          "reason": "Flagship explanation, service context or next step."
+        },
+        {
+          "source": "solar-and-home-services-marketing.html",
           "destination": "solar.html",
           "anchor": "Solar Launch",
-          "line": 36,
+          "line": 37,
           "context": "Solar Launch is Webtellisense’s dedicated solar marketing offer. Review its current scope with the team before choosing between that focused offer and Heroes. Related home-service businesses need their own scope discussion; a solar workflow is not automatically a promise to deliver every trade’s technical sales process.",
           "status": "Added in integration",
           "reason": "Flagship explanation, service context or next step."
@@ -1887,7 +2231,7 @@
           "source": "solar-and-home-services-marketing.html",
           "destination": "heroes.html",
           "anchor": "Heroes for ongoing digital work",
-          "line": 36,
+          "line": 37,
           "context": "If you need one piece of work, we can quote it separately. If your digital work needs ongoing coordination, explore Heroes for ongoing digital work. The right scope starts with a conversation, not an identical package for every industry.",
           "status": "Added in integration",
           "reason": "Flagship explanation, service context or next step."
@@ -1896,7 +2240,7 @@
           "source": "solar-and-home-services-marketing.html",
           "destination": "contact.html",
           "anchor": "Discuss your service area and next steps",
-          "line": 36,
+          "line": 37,
           "context": "Discuss your service area and next steps, or compare our industry approaches. We’re based in Eket, Akwa Ibom, and discuss the market you actually serve, in Nigeria or beyond.",
           "status": "Added in integration",
           "reason": "Flagship explanation, service context or next step."
@@ -1905,7 +2249,7 @@
           "source": "solar-and-home-services-marketing.html",
           "destination": "industries.html",
           "anchor": "compare our industry approaches",
-          "line": 36,
+          "line": 37,
           "context": "Discuss your service area and next steps, or compare our industry approaches. We’re based in Eket, Akwa Ibom, and discuss the market you actually serve, in Nigeria or beyond.",
           "status": "Added in integration",
           "reason": "Flagship explanation, service context or next step."
@@ -2656,6 +3000,87 @@
       "reason": "Sign-up acquisition → existing discovery article, not an email tutorial claim"
     },
     {
+      "source": "food-supplier-marketing.html",
+      "destination": "content-marketing.html",
+      "anchor": "Content marketing",
+      "line": 39,
+      "context": "Explain what the business offers, who it serves and how enquiries are handled. Confirm product descriptions, packaging information, availability and order requirements with the business. Content marketing can help turn those answers into useful public information.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "food-supplier-marketing.html",
+      "destination": "branding.html",
+      "anchor": "brand identity",
+      "line": 39,
+      "context": "Product photographs, menus, packaging and social posts should feel like the same business. Our brand identity and graphic design services can support that presentation where agreed. Only use photographs and customer material the business has permission to publish.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "food-supplier-marketing.html",
+      "destination": "graphics-design.html",
+      "anchor": "graphic design services",
+      "line": 39,
+      "context": "Product photographs, menus, packaging and social posts should feel like the same business. Our brand identity and graphic design services can support that presentation where agreed. Only use photographs and customer material the business has permission to publish.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "food-supplier-marketing.html",
+      "destination": "web-design.html",
+      "anchor": "clear food-business website",
+      "line": 39,
+      "context": "A clear food-business website or public information page can explain how to request current availability or a quote. For local businesses, accurate local search information may also matter. Do not publish delivery areas, lead times, certifications or export claims until the responsible business has confirmed them.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "food-supplier-marketing.html",
+      "destination": "google-business-profile.html",
+      "anchor": "accurate local search information",
+      "line": 39,
+      "context": "A clear food-business website or public information page can explain how to request current availability or a quote. For local businesses, accurate local search information may also matter. Do not publish delivery areas, lead times, certifications or export claims until the responsible business has confirmed them.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "food-supplier-marketing.html",
+      "destination": "social-media-management.html",
+      "anchor": "Social media planning and management",
+      "line": 40,
+      "context": "A catering business may plan around events and bookings; grocery or packaged-food retail may need regular product updates; a sourcing/export business may need more explanation before an order conversation. Social media planning and management should reflect those differences, available source material and approval responsibilities.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "food-supplier-marketing.html",
+      "destination": "heroes.html",
+      "anchor": "a coordinated Heroes plan for your food business",
+      "line": 42,
+      "context": "Discuss a coordinated Heroes plan for your food business or a separate food-marketing project. Compare our wider sector experience to see why the channel and publishing plan must fit the business.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "food-supplier-marketing.html",
+      "destination": "contact.html",
+      "anchor": "a separate food-marketing project",
+      "line": 42,
+      "context": "Discuss a coordinated Heroes plan for your food business or a separate food-marketing project. Compare our wider sector experience to see why the channel and publishing plan must fit the business.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "food-supplier-marketing.html",
+      "destination": "industries.html",
+      "anchor": "wider sector experience",
+      "line": 42,
+      "context": "Discuss a coordinated Heroes plan for your food business or a separate food-marketing project. Compare our wider sector experience to see why the channel and publishing plan must fit the business.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
       "source": "google-business-profile.html",
       "destination": "business-not-showing-up-online.html",
       "anchor": "our visibility guide",
@@ -2757,9 +3182,18 @@
     {
       "source": "heroes.html",
       "destination": "solar-and-home-services-marketing.html",
-      "anchor": "solar and home services",
+      "anchor": "solar and renewable energy",
       "line": 170,
-      "context": "Explore our approach to solar and home services, education and construction and property enquiries. Our industry overview separates broader client experience from focused delivery workflows.",
+      "context": "Explore our approach to solar and renewable energy, home and technical services and education. For a property-related brief, see our construction and property enquiries approach. Our industry overview covers all eight priorities, including retail, food, hospitality, fitness and NGOs, and separates experience from focused delivery workflows.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "heroes.html",
+      "destination": "home-technical-services-marketing.html",
+      "anchor": "home and technical services",
+      "line": 170,
+      "context": "Explore our approach to solar and renewable energy, home and technical services and education. For a property-related brief, see our construction and property enquiries approach. Our industry overview covers all eight priorities, including retail, food, hospitality, fitness and NGOs, and separates experience from focused delivery workflows.",
       "status": "Added in integration",
       "reason": "Flagship explanation, service context or next step."
     },
@@ -2768,7 +3202,7 @@
       "destination": "education-marketing.html",
       "anchor": "education",
       "line": 170,
-      "context": "Explore our approach to solar and home services, education and construction and property enquiries. Our industry overview separates broader client experience from focused delivery workflows.",
+      "context": "Explore our approach to solar and renewable energy, home and technical services and education. For a property-related brief, see our construction and property enquiries approach. Our industry overview covers all eight priorities, including retail, food, hospitality, fitness and NGOs, and separates experience from focused delivery workflows.",
       "status": "Added in integration",
       "reason": "Flagship explanation, service context or next step."
     },
@@ -2777,7 +3211,7 @@
       "destination": "construction-property-marketing.html",
       "anchor": "construction and property enquiries",
       "line": 170,
-      "context": "Explore our approach to solar and home services, education and construction and property enquiries. Our industry overview separates broader client experience from focused delivery workflows.",
+      "context": "Explore our approach to solar and renewable energy, home and technical services and education. For a property-related brief, see our construction and property enquiries approach. Our industry overview covers all eight priorities, including retail, food, hospitality, fitness and NGOs, and separates experience from focused delivery workflows.",
       "status": "Added in integration",
       "reason": "Flagship explanation, service context or next step."
     },
@@ -2786,7 +3220,88 @@
       "destination": "industries.html",
       "anchor": "industry overview",
       "line": 170,
-      "context": "Explore our approach to solar and home services, education and construction and property enquiries. Our industry overview separates broader client experience from focused delivery workflows.",
+      "context": "Explore our approach to solar and renewable energy, home and technical services and education. For a property-related brief, see our construction and property enquiries approach. Our industry overview covers all eight priorities, including retail, food, hospitality, fitness and NGOs, and separates experience from focused delivery workflows.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "home-technical-services-marketing.html",
+      "destination": "google-business-profile.html",
+      "anchor": "Local search and Google Business Profile work",
+      "line": 38,
+      "context": "We begin with the work you actually take on, your coverage and your capacity to respond. An electrician, an HVAC company and a CCTV installer should not all sound like the same business. Local search and Google Business Profile work can help keep location, service and contact information consistent.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "home-technical-services-marketing.html",
+      "destination": "web-design.html",
+      "anchor": "website design service",
+      "line": 39,
+      "context": "Organise electrical work, plumbing, cooling, security installations or repairs in language a customer can recognise. Explain what happens before a quote or visit, which areas you cover and any information your team needs. Our website design service can turn that information into a useful starting point.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "home-technical-services-marketing.html",
+      "destination": "conversion-rate-optimization.html",
+      "anchor": "Improving the enquiry journey",
+      "line": 39,
+      "context": "A short description of the job, broad location and preferred contact channel may be enough for an initial conversation. Agree who answers calls and messages and how missed enquiries are followed up. Improving the enquiry journey starts with removing confusion, not adding a long form.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "home-technical-services-marketing.html",
+      "destination": "ppc.html",
+      "anchor": "Google search advertising",
+      "line": 40,
+      "context": "Before paying for attention, check that the offer, contact details and response process are ready. Google search advertising may be useful for people already looking for a service. Facebook and Instagram campaigns can introduce an offer or explain a problem. We discuss channel choice, budget and landing pages together.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "home-technical-services-marketing.html",
+      "destination": "social-media-marketing.html",
+      "anchor": "Facebook and Instagram campaigns",
+      "line": 40,
+      "context": "Before paying for attention, check that the offer, contact details and response process are ready. Google search advertising may be useful for people already looking for a service. Facebook and Instagram campaigns can introduce an offer or explain a problem. We discuss channel choice, budget and landing pages together.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "home-technical-services-marketing.html",
+      "destination": "solar-and-home-services-marketing.html",
+      "anchor": "solar and renewable-energy approach",
+      "line": 40,
+      "context": "Technical advice, safety assessments, callout availability, diagnosis and repairs remain the service provider’s responsibility. We do not invent emergency availability, same-day attendance or fixed prices for work that needs an assessment. Solar businesses can also explore our solar and renewable-energy approach and the separate Solar Launch offer.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "home-technical-services-marketing.html",
+      "destination": "heroes.html",
+      "anchor": "Heroes as your outsourced digital team",
+      "line": 42,
+      "context": "If the work needs ongoing coordination, discuss Heroes as your outsourced digital team. A one-off website or project can be quoted separately. Tell us about your service business or compare the other industry approaches before choosing a scope.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "home-technical-services-marketing.html",
+      "destination": "contact.html",
+      "anchor": "Tell us about your service business",
+      "line": 42,
+      "context": "If the work needs ongoing coordination, discuss Heroes as your outsourced digital team. A one-off website or project can be quoted separately. Tell us about your service business or compare the other industry approaches before choosing a scope.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "home-technical-services-marketing.html",
+      "destination": "industries.html",
+      "anchor": "other industry approaches",
+      "line": 42,
+      "context": "If the work needs ongoing coordination, discuss Heroes as your outsourced digital team. A one-off website or project can be quoted separately. Tell us about your service business or compare the other industry approaches before choosing a scope.",
       "status": "Added in integration",
       "reason": "Flagship explanation, service context or next step."
     },
@@ -2794,7 +3309,7 @@
       "source": "how-to-grow-your-business-online-2026.html",
       "destination": "google-business-profile.html",
       "anchor": "Google Business Profile",
-      "line": 267,
+      "line": 268,
       "context": "To grow your business online, work in this order: claim and optimize your Google Business Profile, build a mobile-first website, post consistently on social media, then run targeted ads, and convert that traffic with landing pages and an automated WhatsApp funnel. Doing these out of order is the main reason ads and social media \"don't work\" for local businesses.",
       "status": "Retained PR #4",
       "reason": "Retain the first growth step’s local-search service recommendation."
@@ -2803,7 +3318,7 @@
       "source": "how-to-grow-your-business-online-2026.html",
       "destination": "web-design.html",
       "anchor": "simple, mobile-first website",
-      "line": 330,
+      "line": 331,
       "context": "Get a simple, mobile-first website — five pages is enough to start (Home, About, Services, Gallery, Contact). Link your WhatsApp directly on every page. Make sure it loads fast on a mid-range Android phone, because that's what most of your customers are browsing on.",
       "status": "Retained PR #4",
       "reason": "Website action step → mobile-first design service"
@@ -2812,7 +3327,7 @@
       "source": "how-to-grow-your-business-online-2026.html",
       "destination": "social-media-management.html",
       "anchor": "simple content calendar",
-      "line": 382,
+      "line": 383,
       "context": "Pick two platforms your customers actually use — likely Facebook and Instagram for Uyo's market — and commit to a simple content calendar. Three posts a week, consistently, beats seven posts one week and zero the next four.",
       "status": "Retained PR #4",
       "reason": "Consistency action step → ongoing publishing management"
@@ -2821,7 +3336,7 @@
       "source": "how-to-grow-your-business-online-2026.html",
       "destination": "social-media-marketing.html",
       "anchor": "Facebook ads",
-      "line": 393,
+      "line": 394,
       "context": "Once steps 1–3 are solid, targeted ads become genuinely powerful. Well-placed Facebook ads or Google search ads put your solar installation business in front of homeowners in Uyo who are actively frustrated with their electricity bill — right when they're most ready to act. For an electrician, a simple \"same-day callout\" ad targeted at your service radius can fill a slow week fast.",
       "status": "Retained PR #4",
       "reason": "Distinguish paid social distribution from search advertising"
@@ -2830,7 +3345,7 @@
       "source": "how-to-grow-your-business-online-2026.html",
       "destination": "ppc.html",
       "anchor": "Google search ads",
-      "line": 393,
+      "line": 394,
       "context": "Once steps 1–3 are solid, targeted ads become genuinely powerful. Well-placed Facebook ads or Google search ads put your solar installation business in front of homeowners in Uyo who are actively frustrated with their electricity bill — right when they're most ready to act. For an electrician, a simple \"same-day callout\" ad targeted at your service radius can fill a slow week fast.",
       "status": "Retained PR #4",
       "reason": "Match search intent to the Google Ads service"
@@ -2839,7 +3354,7 @@
       "source": "how-to-grow-your-business-online-2026.html",
       "destination": "conversion-rate-optimization.html",
       "anchor": "a dedicated landing page",
-      "line": 412,
+      "line": 413,
       "context": "For the solar installer, a dedicated landing page for \"Free Solar Consultation in Uyo\" will always out-convert sending traffic to a generic homepage. Specificity sells. The same goes for the electrician offering \"Emergency Callout — Uyo & Environs.\"",
       "status": "Retained PR #4",
       "reason": "Conversion step → landing-page optimization rather than more traffic"
@@ -2848,7 +3363,7 @@
       "source": "how-to-grow-your-business-online-2026.html",
       "destination": "heroes.html",
       "anchor": "Heroes: one outsourced digital growth team",
-      "line": 462,
+      "line": 463,
       "context": "This is exactly why so many business owners in Uyo and across Akwa Ibom eventually stop trying to juggle five different freelancers — a \"social media guy,\" a \"website guy,\" a \"graphics girl\" — and look for one team that runs the whole system together. That’s the idea behind Heroes: one outsourced digital growth team. That's a different conversation for a different day. For now, focus on the order: Google Business Profile, website, social consistency, ads, and WhatsApp conversion. In that order, not all at once.",
       "status": "Added in integration",
       "reason": "That’s the idea behind Heroes: one outsourced digital growth team."
@@ -2874,9 +3389,18 @@
     {
       "source": "index.html",
       "destination": "solar-and-home-services-marketing.html",
-      "anchor": "solar and home-service marketing",
+      "anchor": "solar and renewable-energy marketing",
       "line": 1037,
-      "context": "Explore our focused approach to solar and home-service marketing, school communication and admissions enquiries, and construction and property-related enquiries.",
+      "context": "Explore our focused approach to solar and renewable-energy marketing, home and technical services and school communication and admissions enquiries. Our approach to construction and property-related enquiries is also available for a separate project brief.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "index.html",
+      "destination": "home-technical-services-marketing.html",
+      "anchor": "home and technical services",
+      "line": 1037,
+      "context": "Explore our focused approach to solar and renewable-energy marketing, home and technical services and school communication and admissions enquiries. Our approach to construction and property-related enquiries is also available for a separate project brief.",
       "status": "Added in integration",
       "reason": "Flagship explanation, service context or next step."
     },
@@ -2885,7 +3409,7 @@
       "destination": "education-marketing.html",
       "anchor": "school communication and admissions enquiries",
       "line": 1037,
-      "context": "Explore our focused approach to solar and home-service marketing, school communication and admissions enquiries, and construction and property-related enquiries.",
+      "context": "Explore our focused approach to solar and renewable-energy marketing, home and technical services and school communication and admissions enquiries. Our approach to construction and property-related enquiries is also available for a separate project brief.",
       "status": "Added in integration",
       "reason": "Flagship explanation, service context or next step."
     },
@@ -2894,7 +3418,7 @@
       "destination": "construction-property-marketing.html",
       "anchor": "construction and property-related enquiries",
       "line": 1037,
-      "context": "Explore our focused approach to solar and home-service marketing, school communication and admissions enquiries, and construction and property-related enquiries.",
+      "context": "Explore our focused approach to solar and renewable-energy marketing, home and technical services and school communication and admissions enquiries. Our approach to construction and property-related enquiries is also available for a separate project brief.",
       "status": "Added in integration",
       "reason": "Flagship explanation, service context or next step."
     },
@@ -2913,6 +3437,15 @@
       "anchor": "Heroes, our digital growth team",
       "line": 1037,
       "context": "See our industry overview and service approach, then discuss one project or an ongoing team through Heroes, our digital growth team. Each scope is agreed for the business.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "industries.html",
+      "destination": "construction-property-marketing.html",
+      "anchor": "construction and property approach",
+      "line": 36,
+      "context": "For an existing property-related brief, our construction and property approach remains available. It sits outside the eight current priorities and describes relevant capabilities without presenting an unverified case study.",
       "status": "Added in integration",
       "reason": "Flagship explanation, service context or next step."
     },
@@ -2965,7 +3498,7 @@
       "source": "ppc.html",
       "destination": "social-media-marketing.html",
       "anchor": "general social media campaigns",
-      "line": 389,
+      "line": 390,
       "context": "Unlike general social media campaigns, users typing into Google possess clear buying intent. Appearing at the top for intent-rich queries positions your business as the primary choice. What happens after the click matters too: conversion rate optimization focuses on turning those visits into enquiries.",
       "status": "Retained PR #4",
       "reason": "Compare Google search intent with paid social ads"
@@ -2974,7 +3507,7 @@
       "source": "ppc.html",
       "destination": "conversion-rate-optimization.html",
       "anchor": "conversion rate optimization",
-      "line": 392,
+      "line": 393,
       "context": "Unlike general social media campaigns, users typing into Google possess clear buying intent. Appearing at the top for intent-rich queries positions your business as the primary choice. What happens after the click matters too: conversion rate optimization focuses on turning those visits into enquiries.",
       "status": "Retained PR #4",
       "reason": "Paid acquisition → post-click visitor experience"
@@ -2983,7 +3516,7 @@
       "source": "ppc.html",
       "destination": "how-to-grow-your-business-online-2026.html#step4",
       "anchor": "step-by-step growth guide",
-      "line": 413,
+      "line": 414,
       "context": "We manage everything from start to finish so your budget is highly protected. Before you spend, check the foundations in our step-by-step growth guide.",
       "status": "Retained PR #4",
       "reason": "Campaign preparation → specific ad-readiness guidance"
@@ -2992,7 +3525,7 @@
       "source": "ppc.html",
       "destination": "google-business-profile.html",
       "anchor": "Google Business Profile management",
-      "line": 576,
+      "line": 577,
       "context": "In Uyo, Eket, and across Akwa Ibom, search volume is lower but so is competition — meaning well-targeted campaigns can dominate local results for a fraction of the cost of a Lagos campaign. For unpaid local discovery alongside ads, explore Google Business Profile management.",
       "status": "Retained PR #4",
       "reason": "Local-market explanation → complementary Maps presence"
@@ -3001,10 +3534,82 @@
       "source": "pricing.html",
       "destination": "heroes.html#plans",
       "anchor": "Compare Webtellisense Heroes plans",
-      "line": 164,
+      "line": 165,
       "context": "Looking for one outsourced digital growth team? Compare Webtellisense Heroes plans. The standalone offers below remain separate from Heroes.",
       "status": "Added in integration",
       "reason": "Separate unified flagship from the unchanged older standalone offers."
+    },
+    {
+      "source": "retail-specialty-store-marketing.html",
+      "destination": "google-business-profile.html",
+      "anchor": "Google Business Profile management",
+      "line": 39,
+      "context": "Keep the business name, address, opening information and contact options accurate. Google Business Profile management supports that local information. Read why a social page alone may not make a business easy to find for the wider discovery problem.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "retail-specialty-store-marketing.html",
+      "destination": "business-not-showing-up-online.html",
+      "anchor": "why a social page alone may not make a business easy to find",
+      "line": 39,
+      "context": "Keep the business name, address, opening information and contact options accurate. Google Business Profile management supports that local information. Read why a social page alone may not make a business easy to find for the wider discovery problem.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "retail-specialty-store-marketing.html",
+      "destination": "social-media-management.html",
+      "anchor": "social media management",
+      "line": 39,
+      "context": "Product images, prices where confirmed, carousels and short video can answer different questions. A perfume audience may need product explanations and frequent new content; a stationery customer may be looking for specific supplies or a convenient location. Our social media management and graphic design work can support an agreed publishing plan.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "retail-specialty-store-marketing.html",
+      "destination": "graphics-design.html",
+      "anchor": "graphic design",
+      "line": 39,
+      "context": "Product images, prices where confirmed, carousels and short video can answer different questions. A perfume audience may need product explanations and frequent new content; a stationery customer may be looking for specific supplies or a convenient location. Our social media management and graphic design work can support an agreed publishing plan.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "retail-specialty-store-marketing.html",
+      "destination": "web-design.html",
+      "anchor": "retail website information",
+      "line": 39,
+      "context": "Explain whether someone should visit, call or message about stock and delivery. Keep availability and fulfilment details with the people who manage the business. The right retail website information can give posts and profiles a dependable place to send customers.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "retail-specialty-store-marketing.html",
+      "destination": "heroes.html",
+      "anchor": "Heroes for ongoing retail marketing support",
+      "line": 42,
+      "context": "Explore Heroes for ongoing retail marketing support or talk through a focused retail project. Our industry overview explains how local retail differs from technical services and other sectors.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "retail-specialty-store-marketing.html",
+      "destination": "contact.html",
+      "anchor": "talk through a focused retail project",
+      "line": 42,
+      "context": "Explore Heroes for ongoing retail marketing support or talk through a focused retail project. Our industry overview explains how local retail differs from technical services and other sectors.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "retail-specialty-store-marketing.html",
+      "destination": "industries.html",
+      "anchor": "industry overview",
+      "line": 42,
+      "context": "Explore Heroes for ongoing retail marketing support or talk through a focused retail project. Our industry overview explains how local retail differs from technical services and other sectors.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
     },
     {
       "source": "social-media-management.html",
@@ -3055,7 +3660,7 @@
       "source": "social-media-marketing.html",
       "destination": "social-media-management.html",
       "anchor": "regular posting",
-      "line": 335,
+      "line": 336,
       "context": "Have you noticed that when you just post normally on your Instagram or Facebook page, barely anyone sees it? Social media companies do this on purpose—they want you to pay to reach your customers. If you are just relying on regular posting, your business growth will feel painfully slow.",
       "status": "Retained PR #4",
       "reason": "Paid reach introduction → separate organic management service"
@@ -3064,7 +3669,7 @@
       "source": "social-media-marketing.html",
       "destination": "how-to-grow-your-business-online-2026.html#step4",
       "anchor": "when to start advertising",
-      "line": 375,
+      "line": 376,
       "context": "Running successful ads is way more than just clicking the \"Boost Post\" button. We do the real groundwork. Check when to start advertising before you spend, then look at landing-page conversion if clicks are not becoming enquiries.",
       "status": "Retained PR #4",
       "reason": "Campaign service → ad-readiness education"
@@ -3073,7 +3678,7 @@
       "source": "social-media-marketing.html",
       "destination": "conversion-rate-optimization.html",
       "anchor": "landing-page conversion",
-      "line": 377,
+      "line": 378,
       "context": "Running successful ads is way more than just clicking the \"Boost Post\" button. We do the real groundwork. Check when to start advertising before you spend, then look at landing-page conversion if clicks are not becoming enquiries.",
       "status": "Retained PR #4",
       "reason": "Paid traffic → usable conversion destination"
@@ -3082,7 +3687,7 @@
       "source": "social-media-marketing.html",
       "destination": "graphics-design.html",
       "anchor": "bold, thumb-stopping flyers",
-      "line": 385,
+      "line": 386,
       "context": "We design bold, thumb-stopping flyers or edit short video clips that make a user stop scrolling through their feed and look at your business.",
       "status": "Retained PR #4",
       "reason": "Ad creative explanation → graphic design"
@@ -3134,9 +3739,18 @@
     },
     {
       "source": "solar-and-home-services-marketing.html",
+      "destination": "home-technical-services-marketing.html",
+      "anchor": "Home and technical services",
+      "line": 36,
+      "context": "We first clarify whether your business supplies inverters, batteries or other equipment, installs systems, or offers both. Product availability, specifications and after-sales information need a different brief from a site-assessment campaign. Home and technical services now has its own approach page, covering other trades and repair businesses.",
+      "status": "Added in integration",
+      "reason": "Flagship explanation, service context or next step."
+    },
+    {
+      "source": "solar-and-home-services-marketing.html",
       "destination": "solar.html",
       "anchor": "Solar Launch",
-      "line": 36,
+      "line": 37,
       "context": "Solar Launch is Webtellisense’s dedicated solar marketing offer. Review its current scope with the team before choosing between that focused offer and Heroes. Related home-service businesses need their own scope discussion; a solar workflow is not automatically a promise to deliver every trade’s technical sales process.",
       "status": "Added in integration",
       "reason": "Flagship explanation, service context or next step."
@@ -3145,7 +3759,7 @@
       "source": "solar-and-home-services-marketing.html",
       "destination": "heroes.html",
       "anchor": "Heroes for ongoing digital work",
-      "line": 36,
+      "line": 37,
       "context": "If you need one piece of work, we can quote it separately. If your digital work needs ongoing coordination, explore Heroes for ongoing digital work. The right scope starts with a conversation, not an identical package for every industry.",
       "status": "Added in integration",
       "reason": "Flagship explanation, service context or next step."
@@ -3154,7 +3768,7 @@
       "source": "solar-and-home-services-marketing.html",
       "destination": "contact.html",
       "anchor": "Discuss your service area and next steps",
-      "line": 36,
+      "line": 37,
       "context": "Discuss your service area and next steps, or compare our industry approaches. We’re based in Eket, Akwa Ibom, and discuss the market you actually serve, in Nigeria or beyond.",
       "status": "Added in integration",
       "reason": "Flagship explanation, service context or next step."
@@ -3163,7 +3777,7 @@
       "source": "solar-and-home-services-marketing.html",
       "destination": "industries.html",
       "anchor": "compare our industry approaches",
-      "line": 36,
+      "line": 37,
       "context": "Discuss your service area and next steps, or compare our industry approaches. We’re based in Eket, Akwa Ibom, and discuss the market you actually serve, in Nigeria or beyond.",
       "status": "Added in integration",
       "reason": "Flagship explanation, service context or next step."

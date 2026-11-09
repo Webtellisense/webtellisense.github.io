@@ -1,8 +1,8 @@
 const {test}=require('node:test');const assert=require('node:assert/strict');const fs=require('node:fs');const {execFileSync}=require('node:child_process');
 const current=f=>fs.readFileSync(f,'utf8');const original=f=>execFileSync('git',['show','b639eebe83a9603f95f301b7e93fd47b095766b6:'+f],{encoding:'utf8',maxBuffer:10*1024*1024});
 const before=JSON.parse(current('docs/technical-before.json')),after=JSON.parse(current('docs/completion-static-validation.json'));
-test('all 45 completion pages reviewed; source SEO/JSON-LD/file targets repaired under documented Pretty URL policy',()=>{
- assert.equal(after.counts.html_pages,45);
+test('all 48 completion pages reviewed; source SEO/JSON-LD/file targets repaired under documented Pretty URL policy',()=>{
+ assert.equal(after.counts.html_pages,48);
  for(const k of ['canonical_defective_pages','description_defective_pages','title_defective_pages','h1_defective_pages','invalid_jsonld_blocks','schema_mime_errors','broken_file_references','sitemap_duplicate_urls','sitemap_missing_routes','duplicate_description_pages'])assert.equal(after.counts[k],0,k);
  assert.equal(after.counts.broken_fragment_references,0);assert.deepEqual(after.broken_fragments,[]);
  assert.ok(after.sitemap.every(u=>!u.endsWith('.html') && !/\/index$/.test(u)));

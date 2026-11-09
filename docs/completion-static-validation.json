@@ -6,7 +6,7 @@
     "missing_form_backend_references": 2,
     "ga_gtm_overlap_pages": 2,
     "duplicate_description_pages": 0,
-    "html_pages": 45,
+    "html_pages": 48,
     "broken_file_references": 0,
     "broken_fragment_references": 0,
     "sitemap_duplicate_urls": 0,
@@ -73,6 +73,20 @@
       ],
       "titles": [
         "Why Your Business Isn't Showing Up Online (Even Though You Have a Facebook Page) | Webtellisense"
+      ],
+      "h1_count": 1
+    },
+    {
+      "page": "retail-specialty-store-marketing.html",
+      "indexable": true,
+      "canonical": [
+        "https://webtellisense.com/retail-specialty-store-marketing"
+      ],
+      "descriptions": [
+        "Practical local visibility, product content and enquiry journeys for stationery, perfume, beauty, gift and specialty stores in Nigeria. Discuss a scope for your store."
+      ],
+      "titles": [
+        "Marketing for Retail &amp; Specialty Stores | Webtellisense"
       ],
       "h1_count": 1
     },
@@ -279,10 +293,10 @@
         "https://webtellisense.com/solar-and-home-services-marketing"
       ],
       "descriptions": [
-        "A practical digital marketing approach for solar installers and home-service businesses in Nigeria: local visibility, clear offers, campaigns and enquiry follow-up."
+        "Digital marketing for solar installers, inverter suppliers and battery/equipment businesses in Nigeria: clear product information, local visibility and enquiry paths."
       ],
       "titles": [
-        "Marketing for Solar Installers &amp; Home Services | Webtellisense"
+        "Marketing for Solar &amp; Renewable Energy Businesses | Webtellisense"
       ],
       "h1_count": 1
     },
@@ -427,6 +441,20 @@
       "h1_count": 1
     },
     {
+      "page": "food-supplier-marketing.html",
+      "indexable": true,
+      "canonical": [
+        "https://webtellisense.com/food-supplier-marketing"
+      ],
+      "descriptions": [
+        "Digital visibility, product content and enquiry journeys for African food suppliers, exporters, packaged food, catering and grocery businesses. No invented sales results."
+      ],
+      "titles": [
+        "Marketing for Food Suppliers &amp; Specialty Food Businesses | Webtellisense"
+      ],
+      "h1_count": 1
+    },
+    {
       "page": "branding.html",
       "indexable": true,
       "canonical": [
@@ -475,7 +503,7 @@
         "https://webtellisense.com/industries"
       ],
       "descriptions": [
-        "Explore Webtellisense’s industry approach for solar and home services, education, construction and property, with wider cross-industry client experience."
+        "Explore eight industry priorities, from solar and technical services to education, retail, food, hospitality, fitness and NGOs. Different businesses need different briefs."
       ],
       "titles": [
         "Industries We Serve | Webtellisense, Eket &amp; Nigeria"
@@ -595,6 +623,20 @@
       "h1_count": 1
     },
     {
+      "page": "home-technical-services-marketing.html",
+      "indexable": true,
+      "canonical": [
+        "https://webtellisense.com/home-technical-services-marketing"
+      ],
+      "descriptions": [
+        "Digital marketing for electricians, plumbers, HVAC, CCTV and repair businesses in Nigeria: local visibility, clear service information and practical enquiry journeys."
+      ],
+      "titles": [
+        "Marketing for Home &amp; Technical Services | Webtellisense"
+      ],
+      "h1_count": 1
+    },
+    {
       "page": "reviews.html",
       "indexable": true,
       "canonical": [
@@ -706,6 +748,13 @@
       "ga_ids": [
         "G-PS5FNQCJRN"
       ],
+      "gtm_ids": []
+    },
+    {
+      "page": "retail-specialty-store-marketing.html",
+      "pixel_ids": [],
+      "pageviews_per_destination": {},
+      "ga_ids": [],
       "gtm_ids": []
     },
     {
@@ -1004,6 +1053,13 @@
       "gtm_ids": []
     },
     {
+      "page": "food-supplier-marketing.html",
+      "pixel_ids": [],
+      "pageviews_per_destination": {},
+      "ga_ids": [],
+      "gtm_ids": []
+    },
+    {
       "page": "branding.html",
       "pixel_ids": [
         "806267492040936"
@@ -1140,6 +1196,13 @@
       "gtm_ids": []
     },
     {
+      "page": "home-technical-services-marketing.html",
+      "pixel_ids": [],
+      "pageviews_per_destination": {},
+      "ga_ids": [],
+      "gtm_ids": []
+    },
+    {
       "page": "reviews.html",
       "pixel_ids": [
         "806267492040936"
@@ -1204,7 +1267,10 @@
     "https://webtellisense.com/industries",
     "https://webtellisense.com/solar-and-home-services-marketing",
     "https://webtellisense.com/education-marketing",
-    "https://webtellisense.com/construction-property-marketing"
+    "https://webtellisense.com/construction-property-marketing",
+    "https://webtellisense.com/home-technical-services-marketing",
+    "https://webtellisense.com/retail-specialty-store-marketing",
+    "https://webtellisense.com/food-supplier-marketing"
   ],
   "missing_sitemap_routes": []
 }

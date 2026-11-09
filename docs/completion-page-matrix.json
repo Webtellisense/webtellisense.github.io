@@ -1,13 +1,13 @@
 {
   "method": "Source analysis of every publishable HTML file. Core metadata/links resolve statically; no claim of provider delivery, legal approval, owned tracker access or actual Netlify routing. Browser evidence is separate.",
   "summary": {
-    "html_pages": 45,
-    "share_complete_pages": 45,
+    "html_pages": 48,
+    "share_complete_pages": 48,
     "existing_pages_with_missing_share_fields_before": 38,
-    "pages_with_privacy_information": 45,
+    "pages_with_privacy_information": 48,
     "legal_review_pages": 2,
     "direct_ga4_gtm_overlap_pages": 2,
-    "sitemap_urls": 30,
+    "sitemap_urls": 33,
     "heroes_sitemap_entries": 1,
     "new_measurement_release_approved": false
   },
@@ -53,7 +53,7 @@
       "forms": [],
       "contextual_links": 9,
       "operational_information_links": 0,
-      "incoming_prose_links": 2,
+      "incoming_prose_links": 3,
       "broken_local_targets": [],
       "runtime": {
         "page": "construction-property-marketing.html",
@@ -80,8 +80,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 662588,
-          "localResourceBytes": 334254,
+          "htmlBytes": 662530,
+          "localResourceBytes": 335645,
           "brokenImages": [],
           "forms": []
         }
@@ -349,7 +349,7 @@
       ],
       "contextual_links": 7,
       "operational_information_links": 0,
-      "incoming_prose_links": 5,
+      "incoming_prose_links": 6,
       "broken_local_targets": [],
       "runtime": {
         "page": "business-not-showing-up-online.html",
@@ -376,7 +376,7 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 680211,
+          "htmlBytes": 680183,
           "localResourceBytes": 1263670,
           "brokenImages": [],
           "forms": [
@@ -391,6 +391,85 @@
       "runtime_status": "Local Chromium only; provider writes blocked/mocked",
       "exceptions": [
         "Legacy pixel ownership/consent account review"
+      ]
+    },
+    {
+      "page": "retail-specialty-store-marketing.html",
+      "title": "Marketing for Retail &amp; Specialty Stores | Webtellisense",
+      "description": "Practical local visibility, product content and enquiry journeys for stationery, perfume, beauty, gift and specialty stores in Nigeria. Discuss a scope for your store.",
+      "canonical": "https://webtellisense.com/retail-specialty-store-marketing",
+      "indexable": true,
+      "sitemap": true,
+      "share": {
+        "og:title": "Marketing for Retail & Specialty Stores | Webtellisense",
+        "og:description": "Practical local visibility, product content and enquiry journeys for stationery, perfume, beauty, gift and specialty stores in Nigeria. Discuss a scope for your store.",
+        "og:url": "https://webtellisense.com/retail-specialty-store-marketing",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/heroes/business-owner.webp",
+        "og:image:alt": "Marketing for Retail & Specialty Stores",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Marketing for Retail & Specialty Stores | Webtellisense",
+        "twitter:description": "Practical local visibility, product content and enquiry journeys for stationery, perfume, beauty, gift and specialty stores in Nigeria. Discuss a scope for your store.",
+        "twitter:image": "https://webtellisense.com/assets/img/heroes/business-owner.webp",
+        "twitter:image:alt": "Marketing for Retail & Specialty Stores",
+        "og:image:width": "612",
+        "og:image:height": "323"
+      },
+      "share_before_missing": [],
+      "tracking": {
+        "page": "retail-specialty-store-marketing.html",
+        "pixel_ids": [],
+        "pageviews_per_destination": {},
+        "ga_ids": [],
+        "gtm_ids": []
+      },
+      "measurement_module": true,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [],
+      "contextual_links": 8,
+      "operational_information_links": 0,
+      "incoming_prose_links": 0,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "retail-specialty-store-marketing.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 662102,
+          "localResourceBytes": 291563,
+          "brokenImages": [],
+          "forms": []
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "New consent module staged OFF for owner/privacy sign-off"
       ]
     },
     {
@@ -568,7 +647,7 @@
         "cssBlocked": false,
         "metrics": {
           "htmlBytes": 662209,
-          "localResourceBytes": 409288,
+          "localResourceBytes": 410679,
           "brokenImages": [],
           "forms": []
         }
@@ -735,7 +814,7 @@
       ],
       "contextual_links": 4,
       "operational_information_links": 0,
-      "incoming_prose_links": 4,
+      "incoming_prose_links": 5,
       "broken_local_targets": [],
       "runtime": {
         "page": "ppc.html",
@@ -759,36 +838,11 @@
             "overflow": false
           }
         ],
-        "axe": [
-          {
-            "id": "color-contrast",
-            "impact": "serious",
-            "nodes": [
-              {
-                "target": [
-                  ".col-md-4:nth-child(1) > .pricing-card > div > .feature-list-items > li:nth-child(8) > i:nth-child(2)"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.53 (foreground color: #10b981, background color: #ffffff, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  ".featured > div > .feature-list-items > li:nth-child(8) > i:nth-child(2)"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.53 (foreground color: #10b981, background color: #ffffff, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  ".col-md-4:nth-child(3) > .pricing-card > div > .feature-list-items > li:nth-child(8) > i:nth-child(2)"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.53 (foreground color: #10b981, background color: #ffffff, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
-              }
-            ]
-          }
-        ],
+        "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 696562,
-          "localResourceBytes": 1073494,
+          "htmlBytes": 696651,
+          "localResourceBytes": 1076471,
           "brokenImages": [],
           "forms": [
             {
@@ -891,186 +945,11 @@
             "overflow": false
           }
         ],
-        "axe": [
-          {
-            "id": "color-contrast",
-            "impact": "serious",
-            "nodes": [
-              {
-                "target": [
-                  ".one-time"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.53 (foreground color: #ffffff, background color: #10b981, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  "article[data-category=\"ads\"]:nth-child(2) > .wt-pkg-thumb > .retainer.wt-pkg-badge-model"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.67 (foreground color: #ffffff, background color: #3b82f6, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  "article[data-category=\"web-seo\"]:nth-child(3) > .wt-pkg-thumb > .retainer.wt-pkg-badge-model"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.67 (foreground color: #ffffff, background color: #3b82f6, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  "article[data-category=\"social\"] > .wt-pkg-thumb > .retainer.wt-pkg-badge-model"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.67 (foreground color: #ffffff, background color: #3b82f6, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  "article[data-category=\"web-seo\"]:nth-child(5) > .wt-pkg-thumb > .hybrid.wt-pkg-badge-model"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #ffffff, background color: #8b5cf6, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  "article[data-category=\"ads\"]:nth-child(6) > .wt-pkg-thumb > .hybrid.wt-pkg-badge-model"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #ffffff, background color: #8b5cf6, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  "#price-cashflow"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.53 (foreground color: #10b981, background color: #ffffff, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  "article[data-category=\"ads\"]:nth-child(6) > .wt-pkg-footer > .wt-pkg-btn-buy"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.53 (foreground color: #ffffff, background color: #10b981, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  "#heroes-full > .wt-pkg-thumb > .retainer.wt-pkg-badge-model"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.67 (foreground color: #ffffff, background color: #3b82f6, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  "#price-heroes"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.18 (foreground color: #d97706, background color: #ffffff, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  "#price-heroes > small"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.18 (foreground color: #d97706, background color: #ffffff, font size: 11.5pt (15.4px), font weight: bold). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  "#heroes-full > .wt-pkg-footer > .wt-pkg-btn-buy"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.18 (foreground color: #ffffff, background color: #d97706, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  "#heroes > .container > .section-header > .eyebrow"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.69 (foreground color: #0033ff, background color: #01033e, font size: 8.6pt (11.52px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  ".tier-card:nth-child(1) > .tier-badge"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.53 (foreground color: #555555, background color: #111111, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  ".tier-card:nth-child(1) > .tier-subtitle"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.28 (foreground color: #666666, background color: #111111, font size: 9.8pt (13.12px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  "ul[aria-label=\"Heroes V1 includes\"] > li:nth-child(1)"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.21 (foreground color: #777777, background color: #111111, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  "ul[aria-label=\"Heroes V1 includes\"] > li:nth-child(2)"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.21 (foreground color: #777777, background color: #111111, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  "ul[aria-label=\"Heroes V1 includes\"] > li:nth-child(3)"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.21 (foreground color: #777777, background color: #111111, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  "ul[aria-label=\"Heroes V1 includes\"] > li:nth-child(4)"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.21 (foreground color: #777777, background color: #111111, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  "ul[aria-label=\"Heroes V1 includes\"] > li:nth-child(5)"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.21 (foreground color: #777777, background color: #111111, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  ".featured > .tier-badge"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.13 (foreground color: #b3c2ff, background color: #0033ff, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  ".tier-card:nth-child(3) > .tier-badge"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.53 (foreground color: #555555, background color: #111111, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  ".tier-card:nth-child(3) > .tier-subtitle"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.28 (foreground color: #666666, background color: #111111, font size: 9.8pt (13.12px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  "ul[aria-label=\"Heroes V3 includes\"] > li:nth-child(1)"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.21 (foreground color: #777777, background color: #111111, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  "ul[aria-label=\"Heroes V3 includes\"] > li:nth-child(2)"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.21 (foreground color: #777777, background color: #111111, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  "ul[aria-label=\"Heroes V3 includes\"] > li:nth-child(3)"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.21 (foreground color: #777777, background color: #111111, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  "ul[aria-label=\"Heroes V3 includes\"] > li:nth-child(4)"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.21 (foreground color: #777777, background color: #111111, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  "ul[aria-label=\"Heroes V3 includes\"] > li:nth-child(5)"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.21 (foreground color: #777777, background color: #111111, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
-              }
-            ]
-          }
-        ],
+        "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 731149,
-          "localResourceBytes": 1286383,
+          "htmlBytes": 731243,
+          "localResourceBytes": 1289360,
           "brokenImages": [],
           "forms": [
             {
@@ -1363,7 +1242,7 @@
       ],
       "contextual_links": 4,
       "operational_information_links": 0,
-      "incoming_prose_links": 5,
+      "incoming_prose_links": 6,
       "broken_local_targets": [],
       "runtime": {
         "page": "content-marketing.html",
@@ -1465,7 +1344,7 @@
           "status": "Netlify static definition; registration/storage/notification unverified"
         }
       ],
-      "contextual_links": 7,
+      "contextual_links": 8,
       "operational_information_links": 0,
       "incoming_prose_links": 0,
       "broken_local_targets": [],
@@ -1494,7 +1373,7 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 718695,
+          "htmlBytes": 721106,
           "localResourceBytes": 6676100,
           "brokenImages": [],
           "forms": [
@@ -1574,7 +1453,7 @@
       ],
       "contextual_links": 5,
       "operational_information_links": 0,
-      "incoming_prose_links": 7,
+      "incoming_prose_links": 9,
       "broken_local_targets": [],
       "runtime": {
         "page": "social-media-management.html",
@@ -1701,7 +1580,7 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 702096,
+          "htmlBytes": 702048,
           "localResourceBytes": 5429571,
           "brokenImages": [],
           "forms": []
@@ -1776,7 +1655,7 @@
       ],
       "contextual_links": 3,
       "operational_information_links": 0,
-      "incoming_prose_links": 11,
+      "incoming_prose_links": 14,
       "broken_local_targets": [],
       "runtime": {
         "page": "google-business-profile.html",
@@ -1985,7 +1864,7 @@
       ],
       "contextual_links": 5,
       "operational_information_links": 0,
-      "incoming_prose_links": 13,
+      "incoming_prose_links": 16,
       "broken_local_targets": [],
       "runtime": {
         "page": "web-design.html",
@@ -2031,25 +1910,25 @@
     },
     {
       "page": "solar-and-home-services-marketing.html",
-      "title": "Marketing for Solar Installers &amp; Home Services | Webtellisense",
-      "description": "A practical digital marketing approach for solar installers and home-service businesses in Nigeria: local visibility, clear offers, campaigns and enquiry follow-up.",
+      "title": "Marketing for Solar &amp; Renewable Energy Businesses | Webtellisense",
+      "description": "Digital marketing for solar installers, inverter suppliers and battery/equipment businesses in Nigeria: clear product information, local visibility and enquiry paths.",
       "canonical": "https://webtellisense.com/solar-and-home-services-marketing",
       "indexable": true,
       "sitemap": true,
       "share": {
-        "og:title": "Marketing for Solar Installers & Home Services | Webtellisense",
-        "og:description": "A practical digital marketing approach for solar installers and home-service businesses in Nigeria: local visibility, clear offers, campaigns and enquiry follow-up.",
+        "og:title": "Marketing for Solar & Renewable Energy Businesses | Webtellisense",
+        "og:description": "Digital marketing for solar installers, inverter suppliers and battery/equipment businesses in Nigeria: clear product information, local visibility and enquiry paths.",
         "og:url": "https://webtellisense.com/solar-and-home-services-marketing",
         "og:type": "website",
         "og:image": "https://webtellisense.com/assets/img/heroes/solar-work.webp",
-        "og:image:alt": "Marketing for Solar Installers & Home Services",
+        "og:image:alt": "Marketing for Solar & Renewable Energy Businesses",
         "og:site_name": "Webtellisense",
         "og:locale": "en_NG",
         "twitter:card": "summary_large_image",
-        "twitter:title": "Marketing for Solar Installers & Home Services | Webtellisense",
-        "twitter:description": "A practical digital marketing approach for solar installers and home-service businesses in Nigeria: local visibility, clear offers, campaigns and enquiry follow-up.",
+        "twitter:title": "Marketing for Solar & Renewable Energy Businesses | Webtellisense",
+        "twitter:description": "Digital marketing for solar installers, inverter suppliers and battery/equipment businesses in Nigeria: clear product information, local visibility and enquiry paths.",
         "twitter:image": "https://webtellisense.com/assets/img/heroes/solar-work.webp",
-        "twitter:image:alt": "Marketing for Solar Installers & Home Services",
+        "twitter:image:alt": "Marketing for Solar & Renewable Energy Businesses",
         "og:image:width": "612",
         "og:image:height": "407"
       },
@@ -2068,9 +1947,9 @@
         "status": "Draft information, not approved final terms"
       },
       "forms": [],
-      "contextual_links": 9,
+      "contextual_links": 10,
       "operational_information_links": 0,
-      "incoming_prose_links": 2,
+      "incoming_prose_links": 3,
       "broken_local_targets": [],
       "runtime": {
         "page": "solar-and-home-services-marketing.html",
@@ -2097,8 +1976,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 662411,
-          "localResourceBytes": 310786,
+          "htmlBytes": 662988,
+          "localResourceBytes": 312177,
           "brokenImages": [],
           "forms": []
         }
@@ -2151,9 +2030,9 @@
         "status": "Draft information, not approved final terms"
       },
       "forms": [],
-      "contextual_links": 9,
+      "contextual_links": 10,
       "operational_information_links": 0,
-      "incoming_prose_links": 16,
+      "incoming_prose_links": 19,
       "broken_local_targets": [],
       "runtime": {
         "page": "heroes.html",
@@ -2180,8 +2059,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 684697,
-          "localResourceBytes": 467492,
+          "htmlBytes": 685058,
+          "localResourceBytes": 544555,
           "brokenImages": [],
           "forms": []
         }
@@ -2265,162 +2144,11 @@
             "overflow": false
           }
         ],
-        "axe": [
-          {
-            "id": "color-contrast",
-            "impact": "serious",
-            "nodes": [
-              {
-                "target": [
-                  ".hero-eyebrow"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.22 (foreground color: #00c9a7, background color: #095349, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  ".hero > p"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.16 (foreground color: #79a1a1, background color: #095349, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  ".stat:nth-child(1) > .stat-label"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.16 (foreground color: #79a1a1, background color: #095349, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  ".stat:nth-child(2) > .stat-label"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.16 (foreground color: #79a1a1, background color: #095349, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  ".stat:nth-child(3) > .stat-label"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.16 (foreground color: #79a1a1, background color: #095349, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  "#step-0 > .step-header > .step-category"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.31 (foreground color: #00c3a2, background color: #086054, font size: 8.3pt (11px), font weight: bold). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  "#step-0 > .step-header > .step-desc"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.99 (foreground color: #729d9c, background color: #095349, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  ".field-grid:nth-child(2) > .field:nth-child(1) > label"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.99 (foreground color: #729d9c, background color: #095349, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  ".field-grid:nth-child(2) > .field:nth-child(2) > label"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.99 (foreground color: #729d9c, background color: #095349, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  ".field-grid:nth-child(3) > .field:nth-child(1) > label"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.99 (foreground color: #729d9c, background color: #095349, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  ".field-grid:nth-child(3) > .field:nth-child(2) > label"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.99 (foreground color: #729d9c, background color: #095349, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  ".field-full > label"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.99 (foreground color: #729d9c, background color: #095349, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  "div[data-val=\"Food & Drinks\"]"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.85 (foreground color: #769f9e, background color: #10584e, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  "div[data-val=\"Retail / Shop\"]"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.85 (foreground color: #769f9e, background color: #10584e, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  "div[data-val=\"Fashion & Beauty\"]"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.85 (foreground color: #769f9e, background color: #10584e, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  "div[data-val=\"Healthcare\"]"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.85 (foreground color: #769f9e, background color: #10584e, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  "div[data-val=\"Education / Training\"]"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.85 (foreground color: #769f9e, background color: #10584e, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  "div[data-val=\"Logistics & Delivery\"]"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.85 (foreground color: #769f9e, background color: #10584e, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  "div[data-val=\"Events & Hospitality\"]"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.85 (foreground color: #769f9e, background color: #10584e, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  "div[data-val=\"Professional Services\"]"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.85 (foreground color: #769f9e, background color: #10584e, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  "div[data-val=\"Construction / Real Estate\"]"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.85 (foreground color: #769f9e, background color: #10584e, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  "div[data-val=\"Church / Ministry\"]"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.85 (foreground color: #769f9e, background color: #10584e, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  "div[data-val=\"Other\"]"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.85 (foreground color: #769f9e, background color: #10584e, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  "button[onclick=\"startAudit()\"]"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.62 (foreground color: #09594e, background color: #01c2a2, font size: 11.3pt (15px), font weight: bold). Expected contrast ratio of 4.5:1"
-              }
-            ]
-          }
-        ],
+        "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 731880,
-          "localResourceBytes": 0,
+          "htmlBytes": 731971,
+          "localResourceBytes": 2977,
           "brokenImages": [],
           "forms": []
         }
@@ -2494,7 +2222,7 @@
       ],
       "contextual_links": 3,
       "operational_information_links": 0,
-      "incoming_prose_links": 4,
+      "incoming_prose_links": 6,
       "broken_local_targets": [],
       "runtime": {
         "page": "graphics-design.html",
@@ -2696,7 +2424,7 @@
         "cssBlocked": false,
         "metrics": {
           "htmlBytes": 665471,
-          "localResourceBytes": 230236,
+          "localResourceBytes": 231627,
           "brokenImages": [],
           "forms": []
         }
@@ -2791,7 +2519,7 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 674101,
+          "htmlBytes": 674133,
           "localResourceBytes": 1073494,
           "brokenImages": [],
           "forms": [
@@ -2873,7 +2601,7 @@
       ],
       "contextual_links": 0,
       "operational_information_links": 0,
-      "incoming_prose_links": 6,
+      "incoming_prose_links": 9,
       "broken_local_targets": [],
       "runtime": {
         "page": "contact.html",
@@ -3118,7 +2846,7 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 673954,
+          "htmlBytes": 673942,
           "localResourceBytes": 1800418,
           "brokenImages": [],
           "forms": [
@@ -3218,30 +2946,11 @@
             "overflow": false
           }
         ],
-        "axe": [
-          {
-            "id": "color-contrast",
-            "impact": "serious",
-            "nodes": [
-              {
-                "target": [
-                  ".cta-block > .btn"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.69 (foreground color: #01033e, background color: #0033ff, font size: 10.9pt (14.5px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  ".av"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.69 (foreground color: #01033e, background color: #0033ff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
-              }
-            ]
-          }
-        ],
+        "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 688326,
-          "localResourceBytes": 1130298,
+          "htmlBytes": 688449,
+          "localResourceBytes": 1133275,
           "brokenImages": [],
           "forms": [
             {
@@ -3255,6 +2964,85 @@
       "runtime_status": "Local Chromium only; provider writes blocked/mocked",
       "exceptions": [
         "Legacy pixel ownership/consent account review"
+      ]
+    },
+    {
+      "page": "food-supplier-marketing.html",
+      "title": "Marketing for Food Suppliers &amp; Specialty Food Businesses | Webtellisense",
+      "description": "Digital visibility, product content and enquiry journeys for African food suppliers, exporters, packaged food, catering and grocery businesses. No invented sales results.",
+      "canonical": "https://webtellisense.com/food-supplier-marketing",
+      "indexable": true,
+      "sitemap": true,
+      "share": {
+        "og:title": "Marketing for Food Suppliers & Specialty Food Businesses | Webtellisense",
+        "og:description": "Digital visibility, product content and enquiry journeys for African food suppliers, exporters, packaged food, catering and grocery businesses. No invented sales results.",
+        "og:url": "https://webtellisense.com/food-supplier-marketing",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/optimized/img-bootcamp-img-1.webp",
+        "og:image:alt": "Marketing for Food Suppliers & Specialty Food Businesses",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Marketing for Food Suppliers & Specialty Food Businesses | Webtellisense",
+        "twitter:description": "Digital visibility, product content and enquiry journeys for African food suppliers, exporters, packaged food, catering and grocery businesses. No invented sales results.",
+        "twitter:image": "https://webtellisense.com/assets/img/optimized/img-bootcamp-img-1.webp",
+        "twitter:image:alt": "Marketing for Food Suppliers & Specialty Food Businesses",
+        "og:image:width": "1600",
+        "og:image:height": "900"
+      },
+      "share_before_missing": [],
+      "tracking": {
+        "page": "food-supplier-marketing.html",
+        "pixel_ids": [],
+        "pageviews_per_destination": {},
+        "ga_ids": [],
+        "gtm_ids": []
+      },
+      "measurement_module": true,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [],
+      "contextual_links": 9,
+      "operational_information_links": 0,
+      "incoming_prose_links": 0,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "food-supplier-marketing.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 662399,
+          "localResourceBytes": 405825,
+          "brokenImages": [],
+          "forms": []
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "New consent module staged OFF for owner/privacy sign-off"
       ]
     },
     {
@@ -3319,7 +3107,7 @@
       ],
       "contextual_links": 4,
       "operational_information_links": 0,
-      "incoming_prose_links": 4,
+      "incoming_prose_links": 5,
       "broken_local_targets": [],
       "runtime": {
         "page": "branding.html",
@@ -3425,7 +3213,7 @@
       ],
       "contextual_links": 4,
       "operational_information_links": 0,
-      "incoming_prose_links": 5,
+      "incoming_prose_links": 6,
       "broken_local_targets": [],
       "runtime": {
         "page": "social-media-marketing.html",
@@ -3449,36 +3237,11 @@
             "overflow": false
           }
         ],
-        "axe": [
-          {
-            "id": "color-contrast",
-            "impact": "serious",
-            "nodes": [
-              {
-                "target": [
-                  ".col-md-4:nth-child(1) > .pricing-card > div > .feature-list-items > li:nth-child(8) > i:nth-child(2)"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.53 (foreground color: #10b981, background color: #ffffff, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  ".featured > div > .feature-list-items > li:nth-child(8) > i:nth-child(2)"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.53 (foreground color: #10b981, background color: #ffffff, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  ".col-md-4:nth-child(3) > .pricing-card > div > .feature-list-items > li:nth-child(8) > i:nth-child(2)"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.53 (foreground color: #10b981, background color: #ffffff, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
-              }
-            ]
-          }
-        ],
+        "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 688785,
-          "localResourceBytes": 1073494,
+          "htmlBytes": 688893,
+          "localResourceBytes": 1076471,
           "brokenImages": [],
           "forms": [
             {
@@ -3583,66 +3346,11 @@
             "overflow": false
           }
         ],
-        "axe": [
-          {
-            "id": "color-contrast",
-            "impact": "serious",
-            "nodes": [
-              {
-                "target": [
-                  ".kh-cta-btn"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.72 (foreground color: #ffffff, background color: #fe7400, font size: 12.6pt (16.8px), font weight: bold). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  ".metric-card:nth-child(1) > .metric-label"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.77 (foreground color: #bac8ff, background color: #1a47ff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  ".metric-card:nth-child(2) > .metric-label"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.77 (foreground color: #bac8ff, background color: #1a47ff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  ".metric-card:nth-child(3) > .metric-label"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.77 (foreground color: #bac8ff, background color: #1a47ff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  ".metric-card:nth-child(4) > .metric-label"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.77 (foreground color: #bac8ff, background color: #1a47ff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  ".details-bottom-panel > .metric-label"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.77 (foreground color: #bac8ff, background color: #1a47ff, font size: 9.6pt (12.8px), font weight: bold). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  ".banner-register-btn"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.72 (foreground color: #ffffff, background color: #fe7400, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  "button"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.72 (foreground color: #ffffff, background color: #fe7400, font size: 13.2pt (17.6px), font weight: bold). Expected contrast ratio of 4.5:1"
-              }
-            ]
-          }
-        ],
+        "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 686262,
-          "localResourceBytes": 1887621,
+          "htmlBytes": 686364,
+          "localResourceBytes": 1890598,
           "brokenImages": [],
           "forms": [
             {
@@ -3668,13 +3376,13 @@
     {
       "page": "industries.html",
       "title": "Industries We Serve | Webtellisense, Eket &amp; Nigeria",
-      "description": "Explore Webtellisense’s industry approach for solar and home services, education, construction and property, with wider cross-industry client experience.",
+      "description": "Explore eight industry priorities, from solar and technical services to education, retail, food, hospitality, fitness and NGOs. Different businesses need different briefs.",
       "canonical": "https://webtellisense.com/industries",
       "indexable": true,
       "sitemap": true,
       "share": {
         "og:title": "Industries We Serve | Webtellisense, Eket & Nigeria",
-        "og:description": "Explore Webtellisense’s industry approach for solar and home services, education, construction and property, with wider cross-industry client experience.",
+        "og:description": "Explore eight industry priorities, from solar and technical services to education, retail, food, hospitality, fitness and NGOs. Different businesses need different briefs.",
         "og:url": "https://webtellisense.com/industries",
         "og:type": "website",
         "og:image": "https://webtellisense.com/assets/img/heroes/business-owner.webp",
@@ -3683,7 +3391,7 @@
         "og:locale": "en_NG",
         "twitter:card": "summary_large_image",
         "twitter:title": "Industries We Serve | Webtellisense, Eket & Nigeria",
-        "twitter:description": "Explore Webtellisense’s industry approach for solar and home services, education, construction and property, with wider cross-industry client experience.",
+        "twitter:description": "Explore eight industry priorities, from solar and technical services to education, retail, food, hospitality, fitness and NGOs. Different businesses need different briefs.",
         "twitter:image": "https://webtellisense.com/assets/img/heroes/business-owner.webp",
         "twitter:image:alt": "Industries We Serve",
         "og:image:width": "612",
@@ -3704,9 +3412,9 @@
         "status": "Draft information, not approved final terms"
       },
       "forms": [],
-      "contextual_links": 5,
+      "contextual_links": 6,
       "operational_information_links": 0,
-      "incoming_prose_links": 5,
+      "incoming_prose_links": 8,
       "broken_local_targets": [],
       "runtime": {
         "page": "industries.html",
@@ -3733,8 +3441,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 660715,
-          "localResourceBytes": 290172,
+          "htmlBytes": 667089,
+          "localResourceBytes": 291563,
           "brokenImages": [],
           "forms": []
         }
@@ -3827,8 +3535,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 665474,
-          "localResourceBytes": 351832,
+          "htmlBytes": 665473,
+          "localResourceBytes": 352369,
           "brokenImages": [],
           "forms": [
             {
@@ -3922,7 +3630,7 @@
         "cssBlocked": false,
         "metrics": {
           "htmlBytes": 657242,
-          "localResourceBytes": 243422,
+          "localResourceBytes": 243959,
           "brokenImages": [],
           "forms": []
         }
@@ -4015,7 +3723,7 @@
         "cssBlocked": false,
         "metrics": {
           "htmlBytes": 670923,
-          "localResourceBytes": 1477885,
+          "localResourceBytes": 1477976,
           "brokenImages": [],
           "forms": [
             {
@@ -4120,7 +3828,7 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 677045,
+          "htmlBytes": 677033,
           "localResourceBytes": 1375082,
           "brokenImages": [],
           "forms": [
@@ -4215,7 +3923,7 @@
         "cssBlocked": false,
         "metrics": {
           "htmlBytes": 660699,
-          "localResourceBytes": 286606,
+          "localResourceBytes": 287143,
           "brokenImages": [],
           "forms": []
         }
@@ -4288,7 +3996,7 @@
       ],
       "contextual_links": 5,
       "operational_information_links": 0,
-      "incoming_prose_links": 11,
+      "incoming_prose_links": 12,
       "broken_local_targets": [],
       "runtime": {
         "page": "conversion-rate-optimization.html",
@@ -4418,48 +4126,11 @@
             "overflow": false
           }
         ],
-        "axe": [
-          {
-            "id": "color-contrast",
-            "impact": "serious",
-            "nodes": [
-              {
-                "target": [
-                  "#gaugeValue"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.32 (foreground color: #0033ff, background color: #0a1060, font size: 27.0pt (36px), font weight: bold). Expected contrast ratio of 3:1"
-              },
-              {
-                "target": [
-                  ".p-card:nth-child(1) > .p-step"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.51 (foreground color: #0033ff, background color: #070a4d, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  ".p-card:nth-child(2) > .p-step"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.51 (foreground color: #0033ff, background color: #070a4d, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  ".p-card:nth-child(3) > .p-step"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.51 (foreground color: #0033ff, background color: #070a4d, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  ".p-card:nth-child(4) > .p-step"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.51 (foreground color: #0033ff, background color: #070a4d, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1"
-              }
-            ]
-          }
-        ],
+        "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 717170,
-          "localResourceBytes": 1101620,
+          "htmlBytes": 717261,
+          "localResourceBytes": 1104597,
           "brokenImages": [],
           "forms": [
             {
@@ -4560,30 +4231,11 @@
             "overflow": false
           }
         ],
-        "axe": [
-          {
-            "id": "color-contrast",
-            "impact": "serious",
-            "nodes": [
-              {
-                "target": [
-                  ".popular"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.07 (foreground color: #000000, background color: #0331b0, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
-              },
-              {
-                "target": [
-                  ".featured > .cta-btn[href$=\"contact.html\"]"
-                ],
-                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.07 (foreground color: #000000, background color: #0331b0, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
-              }
-            ]
-          }
-        ],
+        "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 671266,
-          "localResourceBytes": 1073494,
+          "htmlBytes": 671375,
+          "localResourceBytes": 1076471,
           "brokenImages": [],
           "forms": [
             {
@@ -4597,6 +4249,85 @@
       "runtime_status": "Local Chromium only; provider writes blocked/mocked",
       "exceptions": [
         "Legacy pixel ownership/consent account review"
+      ]
+    },
+    {
+      "page": "home-technical-services-marketing.html",
+      "title": "Marketing for Home &amp; Technical Services | Webtellisense",
+      "description": "Digital marketing for electricians, plumbers, HVAC, CCTV and repair businesses in Nigeria: local visibility, clear service information and practical enquiry journeys.",
+      "canonical": "https://webtellisense.com/home-technical-services-marketing",
+      "indexable": true,
+      "sitemap": true,
+      "share": {
+        "og:title": "Marketing for Home & Technical Services | Webtellisense",
+        "og:description": "Digital marketing for electricians, plumbers, HVAC, CCTV and repair businesses in Nigeria: local visibility, clear service information and practical enquiry journeys.",
+        "og:url": "https://webtellisense.com/home-technical-services-marketing",
+        "og:type": "website",
+        "og:image": "https://webtellisense.com/assets/img/heroes/property-work.webp",
+        "og:image:alt": "Marketing for Home & Technical Services",
+        "og:site_name": "Webtellisense",
+        "og:locale": "en_NG",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Marketing for Home & Technical Services | Webtellisense",
+        "twitter:description": "Digital marketing for electricians, plumbers, HVAC, CCTV and repair businesses in Nigeria: local visibility, clear service information and practical enquiry journeys.",
+        "twitter:image": "https://webtellisense.com/assets/img/heroes/property-work.webp",
+        "twitter:image:alt": "Marketing for Home & Technical Services",
+        "og:image:width": "1400",
+        "og:image:height": "935"
+      },
+      "share_before_missing": [],
+      "tracking": {
+        "page": "home-technical-services-marketing.html",
+        "pixel_ids": [],
+        "pageviews_per_destination": {},
+        "ga_ids": [],
+        "gtm_ids": []
+      },
+      "measurement_module": true,
+      "legal": {
+        "privacy_link": true,
+        "service_link": true,
+        "status": "Draft information, not approved final terms"
+      },
+      "forms": [],
+      "contextual_links": 9,
+      "operational_information_links": 0,
+      "incoming_prose_links": 3,
+      "broken_local_targets": [],
+      "runtime": {
+        "page": "home-technical-services-marketing.html",
+        "status": 200,
+        "errors": [],
+        "views": [
+          {
+            "width": 320,
+            "overflow": false
+          },
+          {
+            "width": 390,
+            "overflow": false
+          },
+          {
+            "width": 768,
+            "overflow": false
+          },
+          {
+            "width": 1440,
+            "overflow": false
+          }
+        ],
+        "axe": [],
+        "cssBlocked": false,
+        "metrics": {
+          "htmlBytes": 662306,
+          "localResourceBytes": 335645,
+          "brokenImages": [],
+          "forms": []
+        }
+      },
+      "runtime_status": "Local Chromium only; provider writes blocked/mocked",
+      "exceptions": [
+        "New consent module staged OFF for owner/privacy sign-off"
       ]
     },
     {
@@ -4684,7 +4415,7 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 672529,
+          "htmlBytes": 672501,
           "localResourceBytes": 1073494,
           "brokenImages": [],
           "forms": [
@@ -4771,7 +4502,7 @@
         "cssBlocked": false,
         "metrics": {
           "htmlBytes": 659896,
-          "localResourceBytes": 230236,
+          "localResourceBytes": 231627,
           "brokenImages": [],
           "forms": []
         }

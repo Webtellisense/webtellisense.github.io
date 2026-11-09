@@ -1,0 +1,33 @@
+/* Measured legacy contrast repairs. Preserve layouts, copy, prices and brand hues. */
+body[data-contrast-page="ppc"] .feature-list-items li > i:not(.bi),
+body[data-contrast-page="social-media-marketing"] .feature-list-items li > i:not(.bi) { color:#047857 !important; }
+body[data-contrast-page="packages"] .wt-pkg-badge-model.one-time { background:#047857 !important; }
+body[data-contrast-page="packages"] .wt-pkg-badge-model.retainer { background:#1d4ed8 !important; }
+body[data-contrast-page="packages"] .wt-pkg-badge-model.hybrid { background:#7c3aed !important; }
+body[data-contrast-page="packages"] #price-cashflow { color:#047857 !important; }
+body[data-contrast-page="packages"] article[data-category="ads"]:nth-child(6) .wt-pkg-btn-buy { background:#047857 !important; }
+body[data-contrast-page="packages"] #price-heroes { color:#92400e !important; }
+body[data-contrast-page="packages"] #heroes-full .wt-pkg-btn-buy { background:#92400e !important; }
+body[data-contrast-page="packages"] #heroes .section-header .eyebrow { color:#b7c9ff !important; }
+body[data-contrast-page="packages"] .tier-card:not(.featured) .tier-badge { color:#d7e0ff !important; }
+body[data-contrast-page="packages"] .tier-card:not(.featured) .tier-subtitle { color:#b7bed2 !important; }
+body[data-contrast-page="packages"] .tier-card:not(.featured) .tier-includes li { color:#c2cadf !important; }
+body[data-contrast-page="packages"] .tier-card.featured .tier-badge { color:#fff !important; }
+body[data-contrast-page="audit"] .hero-eyebrow,
+body[data-contrast-page="audit"] .step-category { color:#89ffe8 !important; }
+body[data-contrast-page="audit"] .hero > p,
+body[data-contrast-page="audit"] .stat-label,
+body[data-contrast-page="audit"] .step-desc,
+body[data-contrast-page="audit"] .field-label,
+body[data-contrast-page="audit"] .opt { color:#d7fff7 !important; }
+body[data-contrast-page="audit"] .btn-next { color:#011c21 !important; }
+body[data-contrast-page="how-to-grow-your-business-online-2026"] .cta-block > .btn,
+body[data-contrast-page="how-to-grow-your-business-online-2026"] .av { color:#fff !important; }
+body[data-contrast-page="kids-holiday-uyo"] .kh-cta-btn,
+body[data-contrast-page="kids-holiday-uyo"] .banner-register-btn,
+body[data-contrast-page="kids-holiday-uyo"] .checkout-cta-btn { background:#a84400 !important; color:#fff !important; }
+body[data-contrast-page="kids-holiday-uyo"] .metric-label { color:#fff !important; }
+body[data-contrast-page="solar"] #gaugeValue,
+body[data-contrast-page="solar"] .p-step { color:#b9ccff !important; }
+body[data-contrast-page="pricing"] .popular,
+body[data-contrast-page="pricing"] .featured > .cta-btn { color:#fff !important; }
