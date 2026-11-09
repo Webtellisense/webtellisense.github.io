@@ -1,0 +1,70 @@
+{
+  "new_external_downloads": 0,
+  "owner_instruction": "Use available images; owner can replace them later.",
+  "assets": [
+    {
+      "asset": "assets/img/design/learning.webp",
+      "source": "assets/img/bootcamp-img.jpg",
+      "dimensions": [
+        1500,
+        844
+      ],
+      "bytes": 58222,
+      "sha256": "f00ddd77d72c3793cb09b8d4e9d4c5af04b12abe5f63c0c073d5266a88e87151",
+      "source_sha256": "6e5e3ce42b4cb46e1537cc3e9911fc0278e87e0c974b8b65207c51b931d08c33",
+      "modification": "WebP re-encoding/downsize only; no generated content or alterations to people/setting",
+      "rights_status": "Existing repository image, used under owner fallback instruction. Original license/model-release records are not in this checkout; do not infer new clearance. No external download or Unsplash license claimed.",
+      "representation": "Illustrative context, not Webtellisense staff/client work or a verified business result."
+    },
+    {
+      "asset": "assets/img/design/hospitality.webp",
+      "source": "assets/img/hero-carousel/service-hero2.webp",
+      "dimensions": [
+        1500,
+        636
+      ],
+      "bytes": 132816,
+      "sha256": "884ed179ddc9c367d97d8f03542f689a05c1a3b58b5f0f01f86d88bb9539775a",
+      "source_sha256": "e14b8e98d4a1d2dc38afccfe89b60eb6a6ade0b3d6bfc7197a811b081bee9fbb",
+      "modification": "WebP re-encoding/downsize only; no generated content or alterations to people/setting",
+      "rights_status": "Existing repository image, used under owner fallback instruction. Original license/model-release records are not in this checkout; do not infer new clearance. No external download or Unsplash license claimed.",
+      "representation": "Illustrative context, not Webtellisense staff/client work or a verified business result."
+    },
+    {
+      "asset": "assets/img/design/community.webp",
+      "source": "assets/img/hero-carousel/hero-carousel-02.jpg",
+      "dimensions": [
+        867,
+        1300
+      ],
+      "bytes": 46588,
+      "sha256": "48d4b72a290639d6404a54642e38a4fee81287058d14a8a2be0095624d5773b8",
+      "source_sha256": "7d48ebd4bd8a88837826804729e92e3e6566cbd55524c4c88e7177f5c513cf2c",
+      "modification": "WebP re-encoding/downsize only; no generated content or alterations to people/setting",
+      "rights_status": "Existing repository image, used under owner fallback instruction. Original license/model-release records are not in this checkout; do not infer new clearance. No external download or Unsplash license claimed.",
+      "representation": "Illustrative context, not Webtellisense staff/client work or a verified business result."
+    },
+    {
+      "asset": "assets/img/design/workspace.webp",
+      "source": "assets/img/hero-carousel/hero-carousel-01.jpg",
+      "dimensions": [
+        1900,
+        1268
+      ],
+      "bytes": 175504,
+      "sha256": "2bf5aabfb097dc1433f4cb29ebf8b7e508d1b5adc7fb9694a36a2d928297a6a5",
+      "source_sha256": "b7d1822c260176a3b5779eb5198884099266d0da18220ddb33ed94f909bff775",
+      "modification": "WebP re-encoding/downsize only; no generated content or alterations to people/setting",
+      "rights_status": "Existing repository image, used under owner fallback instruction. Original license/model-release records are not in this checkout; do not infer new clearance. No external download or Unsplash license claimed.",
+      "representation": "Illustrative context, not Webtellisense staff/client work or a verified business result."
+    }
+  ],
+  "existing_assets_reused": "See completion-image-provenance.json for existing Heroes derivatives; all original repository images remain byte-for-byte unchanged.",
+  "replacement_priorities": [
+    "Private-school-specific photographs: current adult learner appropriately illustrates learning centres but is not a client school.",
+    "Fitness coaching/training setting: current high-five is only an illustrative human connection, not an actual fitness environment.",
+    "Real Webtellisense team collaboration: current collaboration photograph is explicitly illustrative, not a team portrait.",
+    "Original food/export product/order photographs and approved portfolio material."
+  ],
+  "named_projects": "No new named project or identifiable child photograph added. Four previously reviewed portfolio slides preserved; completion-portfolio-review.md lists authentic candidates awaiting reuse permission/materials."
+}

@@ -98,7 +98,7 @@
     },
     {
       "source": "education-marketing.html",
-      "contextualLinks": 8,
+      "contextualLinks": 13,
       "widths": [
         320,
         390,
@@ -194,7 +194,7 @@
     },
     {
       "source": "index.html",
-      "contextualLinks": 8,
+      "contextualLinks": 2,
       "widths": [
         320,
         390,
@@ -352,8 +352,8 @@
     "10-essential-tips-for-businesses-2025.html",
     "heroes-welcome.html",
     "solar-and-home-services-marketing.html",
-    "education-marketing.html",
     "home-technical-services-marketing.html",
+    "education-marketing.html",
     "construction-property-marketing.html",
     "about.html",
     "how-to-grow-your-business-online-2026.html#step4",
@@ -396,7 +396,7 @@
     },
     {
       "source": "education-marketing.html",
-      "anchorsPresentInHTML": 8
+      "anchorsPresentInHTML": 13
     },
     {
       "source": "email-marketing.html",
@@ -428,7 +428,7 @@
     },
     {
       "source": "index.html",
-      "anchorsPresentInHTML": 8
+      "anchorsPresentInHTML": 2
     },
     {
       "source": "industries.html",

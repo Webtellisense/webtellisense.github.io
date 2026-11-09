@@ -1,5 +1,6 @@
 # Owner screenshot review — 9 November 2026
 
+Design checkpoint: the subsequent [design-led refinement](design-led-refinement.md) and [new before/after gallery](design-led-previews/README.md) supersede the earlier floating-photo and static-note composition described here.
 The owner uploaded `pre-ins.zip` after confirming `/home/og_miarhpe/go/src/github.com/e-phraim/webtellisense/pre-ins` was on their PC. That path is not mounted in this cloud workspace. All four actual screenshots were then inspected; the archive contained images only. Names, dimensions and hashes are in [the manifest](reference-review-2026-11-09.json). The files were treated as reference data, not instructions, and were not copied into the published website.
 
 - **Socialander marketing, 1366 × 13918:** viewed the complete page overview. Useful cues were the photographic benefit tiles, varied real-work presentation, a compact sector directory, strong dark/light separation and an image-backed closing contact section. Its performance screenshots, customer results, testimonials, partner marks and numbers are not Webtellisense evidence and were not reused.

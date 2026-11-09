@@ -53,7 +53,7 @@
       "forms": [],
       "contextual_links": 9,
       "operational_information_links": 0,
-      "incoming_prose_links": 3,
+      "incoming_prose_links": 2,
       "broken_local_targets": [],
       "runtime": {
         "page": "construction-property-marketing.html",
@@ -80,8 +80,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 662530,
-          "localResourceBytes": 335645,
+          "htmlBytes": 666366,
+          "localResourceBytes": 363462,
           "brokenImages": [],
           "forms": []
         }
@@ -376,7 +376,7 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 680183,
+          "htmlBytes": 680211,
           "localResourceBytes": 1263670,
           "brokenImages": [],
           "forms": [
@@ -461,8 +461,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 662102,
-          "localResourceBytes": 291563,
+          "htmlBytes": 665825,
+          "localResourceBytes": 319380,
           "brokenImages": [],
           "forms": []
         }
@@ -580,27 +580,27 @@
     },
     {
       "page": "education-marketing.html",
-      "title": "Digital Marketing for Private Schools | Webtellisense",
-      "description": "Clearer websites, responsible social content and local visibility for private schools in Eket, Uyo and Nigeria. Discuss an education marketing scope with Webtellisense.",
+      "title": "School Website Design &amp; Marketing in Eket &amp; Uyo | Webtellisense",
+      "description": "School websites, digital marketing and separately scoped admissions portals for schools and learning centres in Eket, Uyo, Akwa Ibom and across Nigeria.",
       "canonical": "https://webtellisense.com/education-marketing",
       "indexable": true,
       "sitemap": true,
       "share": {
-        "og:title": "Digital Marketing for Private Schools | Webtellisense",
-        "og:description": "Clearer websites, responsible social content and local visibility for private schools in Eket, Uyo and Nigeria. Discuss an education marketing scope with Webtellisense.",
+        "og:title": "School Website Design & Marketing in Eket & Uyo | Webtellisense",
+        "og:description": "School websites, digital marketing and separately scoped admissions portals for schools and learning centres in Eket, Uyo, Akwa Ibom and across Nigeria.",
         "og:url": "https://webtellisense.com/education-marketing",
         "og:type": "website",
-        "og:image": "https://webtellisense.com/assets/img/heroes/planning.webp",
-        "og:image:alt": "Digital Marketing for Private Schools",
+        "og:image": "https://webtellisense.com/assets/img/design/learning.webp",
+        "og:image:alt": "Illustrative adult learner in a learning-centre setting",
         "og:site_name": "Webtellisense",
         "og:locale": "en_NG",
         "twitter:card": "summary_large_image",
-        "twitter:title": "Digital Marketing for Private Schools | Webtellisense",
-        "twitter:description": "Clearer websites, responsible social content and local visibility for private schools in Eket, Uyo and Nigeria. Discuss an education marketing scope with Webtellisense.",
-        "twitter:image": "https://webtellisense.com/assets/img/heroes/planning.webp",
-        "twitter:image:alt": "Digital Marketing for Private Schools",
+        "twitter:title": "School Website Design & Marketing in Eket & Uyo | Webtellisense",
+        "twitter:description": "School websites, digital marketing and separately scoped admissions portals for schools and learning centres in Eket, Uyo, Akwa Ibom and across Nigeria.",
+        "twitter:image": "https://webtellisense.com/assets/img/design/learning.webp",
+        "twitter:image:alt": "Illustrative adult learner in a learning-centre setting",
         "og:image:width": "1500",
-        "og:image:height": "994"
+        "og:image:height": "844"
       },
       "share_before_missing": [],
       "tracking": {
@@ -617,9 +617,9 @@
         "status": "Draft information, not approved final terms"
       },
       "forms": [],
-      "contextual_links": 8,
+      "contextual_links": 13,
       "operational_information_links": 0,
-      "incoming_prose_links": 2,
+      "incoming_prose_links": 1,
       "broken_local_targets": [],
       "runtime": {
         "page": "education-marketing.html",
@@ -646,8 +646,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 662209,
-          "localResourceBytes": 410679,
+          "htmlBytes": 670518,
+          "localResourceBytes": 345458,
           "brokenImages": [],
           "forms": []
         }
@@ -814,7 +814,7 @@
       ],
       "contextual_links": 4,
       "operational_information_links": 0,
-      "incoming_prose_links": 5,
+      "incoming_prose_links": 6,
       "broken_local_targets": [],
       "runtime": {
         "page": "ppc.html",
@@ -948,7 +948,7 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 731243,
+          "htmlBytes": 731259,
           "localResourceBytes": 1289360,
           "brokenImages": [],
           "forms": [
@@ -1242,7 +1242,7 @@
       ],
       "contextual_links": 4,
       "operational_information_links": 0,
-      "incoming_prose_links": 6,
+      "incoming_prose_links": 7,
       "broken_local_targets": [],
       "runtime": {
         "page": "content-marketing.html",
@@ -1344,7 +1344,7 @@
           "status": "Netlify static definition; registration/storage/notification unverified"
         }
       ],
-      "contextual_links": 8,
+      "contextual_links": 2,
       "operational_information_links": 0,
       "incoming_prose_links": 0,
       "broken_local_targets": [],
@@ -1373,8 +1373,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 721106,
-          "localResourceBytes": 6676100,
+          "htmlBytes": 720001,
+          "localResourceBytes": 6764075,
           "brokenImages": [],
           "forms": [
             {
@@ -1580,7 +1580,7 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 702048,
+          "htmlBytes": 702096,
           "localResourceBytes": 5429571,
           "brokenImages": [],
           "forms": []
@@ -1784,7 +1784,7 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 675600,
+          "htmlBytes": 675648,
           "localResourceBytes": 2375296,
           "brokenImages": [],
           "forms": [
@@ -1949,7 +1949,7 @@
       "forms": [],
       "contextual_links": 10,
       "operational_information_links": 0,
-      "incoming_prose_links": 3,
+      "incoming_prose_links": 2,
       "broken_local_targets": [],
       "runtime": {
         "page": "solar-and-home-services-marketing.html",
@@ -1976,8 +1976,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 662988,
-          "localResourceBytes": 312177,
+          "htmlBytes": 666796,
+          "localResourceBytes": 339994,
           "brokenImages": [],
           "forms": []
         }
@@ -2032,7 +2032,7 @@
       "forms": [],
       "contextual_links": 10,
       "operational_information_links": 0,
-      "incoming_prose_links": 19,
+      "incoming_prose_links": 17,
       "broken_local_targets": [],
       "runtime": {
         "page": "heroes.html",
@@ -2059,8 +2059,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 685058,
-          "localResourceBytes": 544555,
+          "htmlBytes": 687373,
+          "localResourceBytes": 510366,
           "brokenImages": [],
           "forms": []
         }
@@ -2222,7 +2222,7 @@
       ],
       "contextual_links": 3,
       "operational_information_links": 0,
-      "incoming_prose_links": 6,
+      "incoming_prose_links": 7,
       "broken_local_targets": [],
       "runtime": {
         "page": "graphics-design.html",
@@ -2424,7 +2424,7 @@
         "cssBlocked": false,
         "metrics": {
           "htmlBytes": 665471,
-          "localResourceBytes": 231627,
+          "localResourceBytes": 231717,
           "brokenImages": [],
           "forms": []
         }
@@ -2519,7 +2519,7 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 674133,
+          "htmlBytes": 674101,
           "localResourceBytes": 1073494,
           "brokenImages": [],
           "forms": [
@@ -2713,7 +2713,7 @@
       ],
       "contextual_links": 4,
       "operational_information_links": 0,
-      "incoming_prose_links": 2,
+      "incoming_prose_links": 3,
       "broken_local_targets": [],
       "runtime": {
         "page": "email-marketing.html",
@@ -2846,7 +2846,7 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 673942,
+          "htmlBytes": 673926,
           "localResourceBytes": 1800418,
           "brokenImages": [],
           "forms": [
@@ -3034,8 +3034,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 662399,
-          "localResourceBytes": 405825,
+          "htmlBytes": 666236,
+          "localResourceBytes": 433642,
           "brokenImages": [],
           "forms": []
         }
@@ -3213,7 +3213,7 @@
       ],
       "contextual_links": 4,
       "operational_information_links": 0,
-      "incoming_prose_links": 6,
+      "incoming_prose_links": 7,
       "broken_local_targets": [],
       "runtime": {
         "page": "social-media-marketing.html",
@@ -3414,7 +3414,7 @@
       "forms": [],
       "contextual_links": 6,
       "operational_information_links": 0,
-      "incoming_prose_links": 8,
+      "incoming_prose_links": 7,
       "broken_local_targets": [],
       "runtime": {
         "page": "industries.html",
@@ -3441,8 +3441,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 667089,
-          "localResourceBytes": 291563,
+          "htmlBytes": 669760,
+          "localResourceBytes": 507486,
           "brokenImages": [],
           "forms": []
         }
@@ -3536,7 +3536,7 @@
         "cssBlocked": false,
         "metrics": {
           "htmlBytes": 665473,
-          "localResourceBytes": 352369,
+          "localResourceBytes": 352459,
           "brokenImages": [],
           "forms": [
             {
@@ -3630,7 +3630,7 @@
         "cssBlocked": false,
         "metrics": {
           "htmlBytes": 657242,
-          "localResourceBytes": 243959,
+          "localResourceBytes": 244049,
           "brokenImages": [],
           "forms": []
         }
@@ -3828,7 +3828,7 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 677033,
+          "htmlBytes": 677017,
           "localResourceBytes": 1375082,
           "brokenImages": [],
           "forms": [
@@ -3923,7 +3923,7 @@
         "cssBlocked": false,
         "metrics": {
           "htmlBytes": 660699,
-          "localResourceBytes": 287143,
+          "localResourceBytes": 287233,
           "brokenImages": [],
           "forms": []
         }
@@ -3996,7 +3996,7 @@
       ],
       "contextual_links": 5,
       "operational_information_links": 0,
-      "incoming_prose_links": 12,
+      "incoming_prose_links": 13,
       "broken_local_targets": [],
       "runtime": {
         "page": "conversion-rate-optimization.html",
@@ -4234,7 +4234,7 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 671375,
+          "htmlBytes": 671387,
           "localResourceBytes": 1076471,
           "brokenImages": [],
           "forms": [
@@ -4292,7 +4292,7 @@
       "forms": [],
       "contextual_links": 9,
       "operational_information_links": 0,
-      "incoming_prose_links": 3,
+      "incoming_prose_links": 2,
       "broken_local_targets": [],
       "runtime": {
         "page": "home-technical-services-marketing.html",
@@ -4319,8 +4319,8 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 662306,
-          "localResourceBytes": 335645,
+          "htmlBytes": 665917,
+          "localResourceBytes": 363462,
           "brokenImages": [],
           "forms": []
         }
@@ -4415,7 +4415,7 @@
         "axe": [],
         "cssBlocked": false,
         "metrics": {
-          "htmlBytes": 672501,
+          "htmlBytes": 672469,
           "localResourceBytes": 1073494,
           "brokenImages": [],
           "forms": [
@@ -4502,7 +4502,7 @@
         "cssBlocked": false,
         "metrics": {
           "htmlBytes": 659896,
-          "localResourceBytes": 231627,
+          "localResourceBytes": 231717,
           "brokenImages": [],
           "forms": []
         }

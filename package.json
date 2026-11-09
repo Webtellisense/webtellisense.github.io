@@ -8,7 +8,9 @@
     "test:heroes": "node tests/heroes.browser.cjs",
     "test:links": "node tests/contextual-links.browser.cjs",
     "test:completion": "node tests/completion.browser.cjs",
-    "test:measurement": "node tests/measurement.browser.cjs"
+    "test:measurement": "node tests/measurement.browser.cjs",
+    "test:design": "node tests/design-refinement.browser.cjs",
+    "capture:design": "node scripts/capture-design-refinement.cjs"
   },
   "engines": {
     "node": ">=22"

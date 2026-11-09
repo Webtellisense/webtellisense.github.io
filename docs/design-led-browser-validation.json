@@ -1,0 +1,44 @@
+{
+  "method": "Local Chromium, providers/writes blocked; functional, responsive and no-JavaScript presentation checks. No provider verification.",
+  "activity": {
+    "types": [
+      "New customer enquiry",
+      "Consultation request",
+      "Quote request",
+      "Callback request",
+      "Order enquiry",
+      "New customer enquiry"
+    ],
+    "oneAtATime": true,
+    "hoverAndFocusPause": true,
+    "manualPause": true,
+    "reducedMotion": true
+  },
+  "school": {
+    "fiveSteps": true,
+    "noDataCollection": true,
+    "noJavaScriptAllPanels": true
+  },
+  "navigation": {
+    "desktopAndMobileKeyboard": true,
+    "noJavaScriptNativeDisclosures": true
+  },
+  "layouts": [
+    "heroes",
+    "industries",
+    "education-marketing",
+    "solar-and-home-services-marketing",
+    "home-technical-services-marketing",
+    "retail-specialty-store-marketing",
+    "food-supplier-marketing",
+    "construction-property-marketing",
+    "index"
+  ],
+  "widths": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "errors": []
+}

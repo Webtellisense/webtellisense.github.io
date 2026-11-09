@@ -26,7 +26,7 @@ const base=process.env.HEROES_TEST_ORIGIN||'http://127.0.0.1:8791';
  await page.locator('[data-carousel-track]').focus();await page.keyboard.press('ArrowRight');
  await page.waitForFunction(()=>document.querySelector('[data-carousel-status]').textContent==='2 / 4');
  assert.equal(await page.locator('[data-carousel-play]').isVisible(),false,'Reduced motion hides optional slideshow');
- assert.equal(await page.locator('.hero-work-notes').evaluate(el=>getComputedStyle(el).animationName),'none');
+ assert.equal(await page.locator('[data-activity-message]:not([hidden])').evaluate(el=>getComputedStyle(el).animationName),'none');
  await page.emulateMedia({reducedMotion:'no-preference'});await page.reload();
  await page.locator('[data-carousel-play]').scrollIntoViewIfNeeded();
  await page.clock.install();await page.locator('[data-carousel-play]').click();

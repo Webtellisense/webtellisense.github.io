@@ -1,5 +1,6 @@
 # PR #5 continuation — 9 November 2026
 
+Design checkpoint: the subsequent [design-led refinement](design-led-refinement.md) and [new before/after gallery](design-led-previews/README.md) supersede the earlier floating-photo and static-note composition described here.
 Continue the existing `feat/heroes-final-integration` branch and [draft PR #5](https://github.com/Webtellisense/webtellisense.github.io/pull/5). No new PR, merge, payment activation, account-setting change or production deployment.
 
 ## Supplied references and actual visual work
