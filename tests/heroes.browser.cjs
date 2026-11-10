@@ -180,9 +180,13 @@ const config = require("../assets/js/heroes-config.js");
   await page.locator('[data-carousel-track]').focus();
   await page.keyboard.press('ArrowLeft');
   await page.waitForFunction(()=>document.querySelector('[data-carousel-status]').textContent==='1 / 4');
-  for (const old of ['heroes.html','heroes/','webtellisense-heroes.html','webtellisense-heroes','webtellisense-heroes/']) {
+  // Main now delegates .html/trailing-slash normalization to Netlify Pretty URLs.
+  // This filesystem server does not implement that provider behavior. Check the
+  // local HTML alias/canonical and explicit obsolete-path redirects separately.
+  // A real /heroes/ normalization check still requires a Netlify preview.
+  for (const old of ['heroes.html','webtellisense-heroes.html','webtellisense-heroes','webtellisense-heroes/']) {
     const response = await page.goto(origin+'/'+old,{waitUntil:'load'});
-    assert.equal(new URL(page.url()).pathname,'/heroes');
+    assert.equal(new URL(page.url()).pathname,old==='heroes.html'?'/heroes.html':'/heroes');
     assert.equal(response.status(),200);
     assert.equal(await page.locator('link[rel="canonical"]').getAttribute('href'),'https://webtellisense.com/heroes');
   }

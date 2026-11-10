@@ -1,0 +1,62 @@
+{
+  "method": "Local Chromium; external transports and writes blocked. Not Paystack, Netlify or analytics account validation.",
+  "layouts": [
+    {
+      "width": 320,
+      "overflow": false,
+      "visibleTiers": 1
+    },
+    {
+      "width": 360,
+      "overflow": false,
+      "visibleTiers": 1
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "visibleTiers": 1
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "visibleTiers": 3
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "visibleTiers": 3
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "visibleTiers": 3
+    }
+  ],
+  "keyboard": {
+    "nativeTierSelection": true,
+    "disclosures": true,
+    "visibleFocus": true
+  },
+  "responsiveChoicePreserved": true,
+  "billingControlsIndependent": true,
+  "noJavaScript": {
+    "allThreeTiers": true,
+    "eightResponsibilities": true,
+    "nativeDisclosures": true,
+    "scopeNoteVisible": true
+  },
+  "reducedMotion": true,
+  "accessibility": [
+    {
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "width": 390,
+      "violations": []
+    }
+  ],
+  "errors": [],
+  "missing": [],
+  "blockedRequests": 3
+}
