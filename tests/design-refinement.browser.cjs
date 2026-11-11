@@ -15,7 +15,7 @@ const origin=process.env.HEROES_TEST_ORIGIN||'http://127.0.0.1:8791';
  assert.deepEqual(types,['New customer enquiry','Consultation request','Quote request','Callback request','Order enquiry','New customer enquiry']);
  await page.locator('[data-activity-demo]').hover();const held=await type();await page.clock.runFor(15000);assert.equal(await type(),held,'Hover pauses');
  await page.mouse.move(0,0);await page.locator('[data-activity-next]').focus();await page.clock.runFor(15000);assert.equal(await type(),held,'Keyboard focus pauses');
- await page.locator('[data-activity-next]').click();assert.notEqual(await type(),held);assert.equal(await page.locator('[data-activity-pause]').innerText(),'Play demo');
+ await page.locator('[data-activity-next]').click();assert.notEqual(await type(),held);assert.equal(await page.locator('[data-activity-pause]').innerText(),'Play messages');
  await page.locator('[data-activity-next]').blur();await page.mouse.move(0,0);const manual=await type();await page.clock.runFor(15000);assert.equal(await type(),manual,'Manual control pauses');
  await page.emulateMedia({reducedMotion:'reduce'});await page.clock.runFor(15000);assert.equal(await type(),manual);assert.equal(await page.locator('[data-activity-pause]').isDisabled(),true);
  assert.equal(await visible.evaluate(el=>getComputedStyle(el).animationName),'none');

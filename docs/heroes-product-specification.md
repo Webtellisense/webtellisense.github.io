@@ -1,5 +1,7 @@
 # Heroes product explanation
 
+**11 November follow-up:** the owner approved this product scope and requested copy polish plus consent-managed analytics activation. Current behavior/event details and fresh previews are in [heroes-copy-and-analytics.md](heroes-copy-and-analytics.md). The original product-specification evidence below remains the record of the 10 November implementation; its tracking-preserved/pixel-identical wording predates that follow-up.
+
 New main-based branch: `feat/heroes-product-specification`. Baseline: deployed main `ec5d24a90138a040b4d4f14b28452d20e906fa26`. This is a focused product-explanation change, not a continuation or redesign of PR #5. No merge or deployment was performed.
 
 ## Customer-facing change

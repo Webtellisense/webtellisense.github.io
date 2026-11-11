@@ -1709,3 +1709,11 @@
 @media(max-width:1100px) { .hero-field-photo { display:none !important; } }
 @media(max-width:760px) { .flagship-page .hero-work-notes { bottom:auto; } }
 @media(max-width:760px) { .flagship-page .hero-backdrop { object-position:18% center; } }
+
+/* Keep consent withdrawal reachable above the fixed mobile contact controls. */
+@media (max-width:760px) {
+  .flagship-page .review-links, .checkout-page .review-links { padding-bottom: 100px; }
+}
+/* Consent checkboxes must not inherit the full-width profile-field styling. */
+.heroes-site .measurement-choice label { display: flex; align-items: center; gap: 10px; min-height: 44px; margin: 0; padding-block: 6px; cursor: pointer; }
+.heroes-site .measurement-choice input[type="checkbox"] { flex: none; width: 20px; height: 20px; min-height: 20px; padding: 0; margin: 0; appearance: auto; }

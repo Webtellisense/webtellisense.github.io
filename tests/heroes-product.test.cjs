@@ -2,27 +2,37 @@ const {test} = require('node:test');
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const {execFileSync} = require('node:child_process');
-const baseline = 'ec5d24a90138a040b4d4f14b28452d20e906fa26';
 const read = f => fs.readFileSync(f, 'utf8');
-const before = f => execFileSync('git', ['show', `${baseline}:${f}`], {encoding:'utf8'});
 const between = (s, from, to) => {
   const a=s.indexOf(from), b=s.indexOf(to,a+from.length);
   assert.ok(a>=0 && b>a, `${from} → ${to}`);
   return s.slice(a,b);
 };
 test('product explanation preserves deployed hero, pricing, onboarding, portfolio and customer journeys', () => {
-  const now=read('heroes.html'), old=before('heroes.html');
-  for(const [from,to] of [
-    ['<body','    <section class="responsibility-section'],
-    ['    <section id="plans"','    <section class="shell heroes-faq"'],
-    ['    <section class="shell final-activation','</html>']
-  ]) {
-    const target=from==='<body'?'    <section id="team-responsibilities"':to;
-    assert.equal(between(now,from,target),between(old,from,to));
+  const now=read('heroes.html'), approved=execFileSync('git',['show','42bbcf4:heroes.html'],{encoding:'utf8'});
+  // Only copy/accessible labels and the two explicitly requested label removals
+  // may change. Preserve the approved DOM, media, classes, destinations and IDs.
+  const frame=s=>between(s,'<body','</body>')
+    .replace(/<span class="care-example">Example search preview<\/span>/,'')
+    .replace('<br>Illustrative collaboration, not a Webtellisense team portrait.','')
+    .replace(/\s(?:alt|aria-label)="[^"]*"/g,'')
+    .replace(/>[^<]*</g,'><').replace(/\s+</g,'<');
+  assert.equal(frame(now),frame(approved));
+  for(const [from,to] of [['    <section id="included"','    <section id="plans"'],['    <section id="plans"','    <section id="how-it-works"']])assert.equal(between(now,from,to),between(approved,from,to));
+  for(const file of ['assets/css/heroes.css','assets/css/heroes-product.css','assets/js/heroes-product.js','assets/css/design-refinement.css','assets/js/heroes.js','assets/js/heroes-config.js','assets/js/heroes-shared.js','assets/js/design-refinement.js','heroes-start.html','heroes-welcome.html','heroes-profile-received.html','packages.html','welcome.html','netlify.toml','_redirects','sitemap.xml','index.html']) {
+    const old=execFileSync('git',['show',`42bbcf4:${file}`],{encoding:'utf8'});
+    const privacySpacing="\n/* Keep consent withdrawal reachable above the fixed mobile contact controls. */\n@media (max-width:760px) {\n  .flagship-page .review-links, .checkout-page .review-links { padding-bottom: 100px; }\n}\n/* Consent checkboxes must not inherit the full-width profile-field styling. */\n.heroes-site .measurement-choice label { display: flex; align-items: center; gap: 10px; min-height: 44px; margin: 0; padding-block: 6px; cursor: pointer; }\n.heroes-site .measurement-choice input[type=\"checkbox\"] { flex: none; width: 20px; height: 20px; min-height: 20px; padding: 0; margin: 0; appearance: auto; }\n";
+    const current=file==='assets/css/heroes.css'?read(file).replace(privacySpacing,''):file==='assets/js/design-refinement.js'?read(file).replaceAll('Play messages','Play demo').replaceAll('Pause messages','Pause demo'):read(file);
+    assert.equal(current,old,file);
   }
-  for(const file of ['assets/css/heroes.css','assets/css/design-refinement.css','assets/js/heroes.js','assets/js/heroes-config.js','assets/js/heroes-shared.js','assets/js/design-refinement.js','assets/js/measurement.js','assets/js/measurement-config.js','heroes-start.html','heroes-welcome.html','heroes-profile-received.html','packages.html','welcome.html','netlify.toml','_redirects','sitemap.xml']) {
-    assert.equal(read(file),before(file),file);
-  }
+});
+test('marketing copy uses concrete customer journeys and descriptive neutral photography labels',()=>{
+  const page=read('heroes.html');
+  // Class names remain stable CSS hooks; review visible copy and accessible labels.
+  const customerCopy=page.replace(/<script\b[\s\S]*?<\/script>/g,'').replace(/\b(?:class|id)="[^"]*"/g,'');
+  assert.doesNotMatch(customerCopy,/illustrat|\bmock\b|\bexample(?:s)?\b|demonstration only|not live customer data/i);
+  assert.match(page,/Cleaning services in Uyo/);assert.match(page,/How customer enquiries can begin/);
+  assert.match(page,/Colleagues reviewing a brief together/);assert.doesNotMatch(page,/alt="Webtellisense (?:team|staff)/);
 });
 test('capabilities explain scope, support and client sales ownership; provisional figures stay visibly qualified', () => {
   const page=read('heroes.html');

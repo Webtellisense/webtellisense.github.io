@@ -18,12 +18,14 @@ const origin=process.env.HEROES_TEST_ORIGIN||'http://127.0.0.1:8795';
   const layouts=[];
   for(const width of [320,360,390,768,1024,1440]){
     await page.setViewportSize({width,height:1000});
+    await page.waitForFunction(width=>document.querySelectorAll('[data-scope-tier]:not([hidden])').length===(width<=760?1:3),width);
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,`Overflow ${width}`);
     assert.equal(await page.locator('[data-scope-tier]:visible').count(),width<=760?1:3);
     layouts.push({width,overflow:false,visibleTiers:width<=760?1:3});
   }
   await page.setViewportSize({width:390,height:1000});
-  const choice=page.locator('#scope-tier-choice');await choice.focus();
+  const choice=page.locator('#scope-tier-choice');await choice.waitFor({state:'visible'});await choice.focus();
+  assert.equal(await choice.evaluate(e=>e===document.activeElement),true,'Keyboard input reaches the exposed mobile selector');
   await page.keyboard.press('ArrowDown');await page.keyboard.press('Enter');
   assert.equal(await choice.inputValue(),'v2','Native selector is keyboard operable');
   assert.equal(await page.locator('[data-scope-tier]:visible h3').innerText(),'Growth');

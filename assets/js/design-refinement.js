@@ -31,7 +31,7 @@
       const swap=()=>{index=(index+1)%messages.length;show();schedule();};
       if(animated&&!reduced.matches){messages[index].classList.add('is-leaving');transitionTimer=setTimeout(swap,260);}else swap();
     };
-    const controls=()=>{pause.disabled=reduced.matches;pause.textContent=reduced.matches?'Motion off':userPaused?'Play demo':'Pause demo';pause.setAttribute('aria-pressed',String(userPaused));};
+    const controls=()=>{pause.disabled=reduced.matches;pause.textContent=reduced.matches?'Motion off':userPaused?'Play messages':'Pause messages';pause.setAttribute('aria-pressed',String(userPaused));};
     pause.addEventListener('click',()=>{userPaused=!userPaused;clear();messages[index].classList.remove('is-leaving');controls();schedule();});
     next.addEventListener('click',()=>{userPaused=true;controls();advance();});
     demo.addEventListener('mouseenter',()=>{clear();messages[index].classList.remove('is-leaving');});
