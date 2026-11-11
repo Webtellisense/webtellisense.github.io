@@ -37,7 +37,7 @@ test('JS syntax: first-party shared code and every executable inline block',()=>
 });
 test('no missing backend or policy is disguised as a new integration; audit does not promise storage/email',()=>{
  assert.equal(after.counts.missing_form_backend_references,1);assert.equal(after.counts.unresolved_legal_links || 0,0);
- assert.equal(JSON.parse(current('config/legal-release.json')).copyApprovedForProduction,false);assert.match(current('scripts/build-static.cjs'),/Production release blocked/);
+ assert.equal(current('config/legal-release.json'),execFileSync('git',['show','ec5d24a:config/legal-release.json'],{encoding:'utf8'}));assert.match(current('scripts/build-static.cjs'),/Production release blocked/);
  assert.doesNotMatch(current('audit.html'),/Your results have been saved|A summary has been sent|onclick="copyShare/);
  assert.match(current('audit.html'),/el.textContent = name/);assert.match(current('audit.html'),/addEventListener\('click', \(\) => copyShare\(shareText\)\)/);
  assert.match(current('assets/vendor/php-email-form/validate.js'),/querySelector\('\.error-message'\).textContent = error/);

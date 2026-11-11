@@ -1,0 +1,116 @@
+{
+  "baseline": "ec5d24a90138a040b4d4f14b28452d20e906fa26",
+  "method": "Genuine local Chromium captures at 1440/390. Before is an unmodified git archive of deployed main. Fonts/images decoded, full real scroll, reduced motion. Providers and writes blocked. Not hosted/provider validation.",
+  "captures": [
+    {
+      "phase": "before",
+      "width": 1440,
+      "file": "docs/heroes-product-previews/before/heroes-1440.jpg"
+    },
+    {
+      "phase": "before",
+      "width": 1440,
+      "file": "docs/heroes-product-previews/before/opening-1440.jpg"
+    },
+    {
+      "phase": "before",
+      "width": 1440,
+      "file": "docs/heroes-product-previews/before/pricing-1440.jpg"
+    },
+    {
+      "phase": "before",
+      "width": 1440,
+      "file": "docs/heroes-product-previews/before/responsibilities-1440.jpg"
+    },
+    {
+      "phase": "before",
+      "width": 390,
+      "file": "docs/heroes-product-previews/before/heroes-390.jpg"
+    },
+    {
+      "phase": "before",
+      "width": 390,
+      "file": "docs/heroes-product-previews/before/opening-390.jpg"
+    },
+    {
+      "phase": "before",
+      "width": 390,
+      "file": "docs/heroes-product-previews/before/pricing-390.jpg"
+    },
+    {
+      "phase": "before",
+      "width": 390,
+      "file": "docs/heroes-product-previews/before/responsibilities-390.jpg"
+    },
+    {
+      "phase": "after",
+      "width": 1440,
+      "file": "docs/heroes-product-previews/after/heroes-1440.jpg"
+    },
+    {
+      "phase": "after",
+      "width": 1440,
+      "file": "docs/heroes-product-previews/after/opening-1440.jpg"
+    },
+    {
+      "phase": "after",
+      "width": 1440,
+      "file": "docs/heroes-product-previews/after/pricing-1440.jpg"
+    },
+    {
+      "phase": "after",
+      "width": 1440,
+      "file": "docs/heroes-product-previews/after/responsibilities-1440.jpg"
+    },
+    {
+      "phase": "after",
+      "width": 1440,
+      "file": "docs/heroes-product-previews/after/standard-1440.jpg"
+    },
+    {
+      "phase": "after",
+      "width": 1440,
+      "file": "docs/heroes-product-previews/after/included-1440.jpg"
+    },
+    {
+      "phase": "after",
+      "width": 390,
+      "file": "docs/heroes-product-previews/after/heroes-390.jpg"
+    },
+    {
+      "phase": "after",
+      "width": 390,
+      "file": "docs/heroes-product-previews/after/opening-390.jpg"
+    },
+    {
+      "phase": "after",
+      "width": 390,
+      "file": "docs/heroes-product-previews/after/pricing-390.jpg"
+    },
+    {
+      "phase": "after",
+      "width": 390,
+      "file": "docs/heroes-product-previews/after/responsibilities-390.jpg"
+    },
+    {
+      "phase": "after",
+      "width": 390,
+      "file": "docs/heroes-product-previews/after/standard-390.jpg"
+    },
+    {
+      "phase": "after",
+      "width": 390,
+      "file": "docs/heroes-product-previews/after/included-390.jpg"
+    },
+    {
+      "phase": "after",
+      "width": 390,
+      "file": "docs/heroes-product-previews/after/included-v2-390.jpg"
+    },
+    {
+      "phase": "after",
+      "width": 390,
+      "file": "docs/heroes-product-previews/after/included-v3-390.jpg"
+    }
+  ]
+}

@@ -13,7 +13,9 @@
     "capture:design": "node scripts/capture-design-refinement.cjs",
     "chrome:sync": "node scripts/sync-site-chrome.cjs",
     "test:experience": "node tests/site-experience.browser.cjs",
-    "capture:experience": "node scripts/capture-experience.cjs"
+    "capture:experience": "node scripts/capture-experience.cjs",
+    "test:product": "node tests/heroes-product.browser.cjs",
+    "capture:product": "node scripts/capture-heroes-product.cjs"
   },
   "engines": {
     "node": ">=22"

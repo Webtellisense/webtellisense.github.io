@@ -1,0 +1,76 @@
+{
+  "baseline": "42bbcf4980bfb6084db5703e68b07869dca421f2",
+  "method": "Genuine Chromium 1440/390 screenshots. HTTPS production-origin fixture served from current local static build; provider traffic/writes blocked. Initial consent shown; full-page/content captures follow explicit reject-all. Fonts/images awaited, page actually scrolled, reduced motion. Section viewport fitted so contact controls do not obscure captured copy. Not a deployed preview.",
+  "captures": [
+    {
+      "name": "consent",
+      "width": 1440,
+      "file": "docs/heroes-polish-previews/consent-1440.jpg"
+    },
+    {
+      "name": "heroes",
+      "width": 1440,
+      "file": "docs/heroes-polish-previews/heroes-1440.jpg"
+    },
+    {
+      "name": "opening",
+      "width": 1440,
+      "file": "docs/heroes-polish-previews/opening-1440.jpg"
+    },
+    {
+      "name": "responsibilities",
+      "width": 1440,
+      "file": "docs/heroes-polish-previews/responsibilities-1440.jpg"
+    },
+    {
+      "name": "preferences",
+      "width": 1440,
+      "file": "docs/heroes-polish-previews/preferences-1440.jpg"
+    },
+    {
+      "name": "consent",
+      "width": 390,
+      "file": "docs/heroes-polish-previews/consent-390.jpg"
+    },
+    {
+      "name": "heroes",
+      "width": 390,
+      "file": "docs/heroes-polish-previews/heroes-390.jpg"
+    },
+    {
+      "name": "opening",
+      "width": 390,
+      "file": "docs/heroes-polish-previews/opening-390.jpg"
+    },
+    {
+      "name": "responsibilities",
+      "width": 390,
+      "file": "docs/heroes-polish-previews/responsibilities-390.jpg"
+    },
+    {
+      "name": "enquiry-2",
+      "width": 390,
+      "file": "docs/heroes-polish-previews/enquiry-2-390.jpg"
+    },
+    {
+      "name": "enquiry-3",
+      "width": 390,
+      "file": "docs/heroes-polish-previews/enquiry-3-390.jpg"
+    },
+    {
+      "name": "enquiry-4",
+      "width": 390,
+      "file": "docs/heroes-polish-previews/enquiry-4-390.jpg"
+    },
+    {
+      "name": "enquiry-5",
+      "width": 390,
+      "file": "docs/heroes-polish-previews/enquiry-5-390.jpg"
+    },
+    {
+      "name": "preferences",
+      "width": 390,
+      "file": "docs/heroes-polish-previews/preferences-390.jpg"
+    }
+  ]
+}

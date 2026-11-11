@@ -16,11 +16,12 @@ test('existing flagship pricing comparison remains exactly as reviewed before th
   const pricing=s=>s.slice(s.indexOf('<section id="plans"'),s.indexOf('<section id="how-it-works"'));
   assert.equal(pricing(read('heroes.html')),pricing(old));
 });
-test('new measurement is staged off, uses one GA4 destination, never a guessed Meta destination',()=>{
+test('owner-approved Heroes measurement uses one GA4 and one general Meta destination with a narrow page allowlist',()=>{
   const context={window:{}};vm.runInNewContext(read('assets/js/measurement-config.js'),context);
-  assert.equal(context.window.WTS_MEASUREMENT.releaseApproved,false);
+  assert.equal(context.window.WTS_MEASUREMENT.releaseApproved,true);
   assert.equal(context.window.WTS_MEASUREMENT.ga4,'G-PS5FNQCJRN');
-  assert.equal(context.window.WTS_MEASUREMENT.metaPixel,null);
+  assert.equal(context.window.WTS_MEASUREMENT.metaPixel,'806267492040936');
+  assert.equal(JSON.stringify(context.window.WTS_MEASUREMENT.pages),JSON.stringify({'/heroes':'marketing','/heroes-start':'interactions'}));
   for(const page of ['heroes','heroes-start','industries','education-marketing','solar-and-home-services-marketing','construction-property-marketing']){
     const s=read(page+'.html');assert.equal((s.match(/src="\/?assets\/js\/measurement.js"/g)||[]).length,1);
     assert.doesNotMatch(s,/gtag\('config'|GTM-NJ6L82XR|fbq\('init'/);

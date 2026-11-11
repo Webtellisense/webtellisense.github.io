@@ -1,0 +1,674 @@
+{
+  "method": "Actual release config, HTTPS production-origin fixture mapped to the local static build; synthetic GA/Meta SDKs and network collectors only. No real provider delivery, transaction or production deployment.",
+  "scenarios": [
+    "No providers: {\"release\":false}",
+    "No providers: {\"gpc\":true,\"saved\":{\"analytics\":true,\"marketing\":true,\"version\":\"heroes-2026-11\"}}",
+    "No providers: {\"dnt\":true,\"saved\":{\"analytics\":true,\"marketing\":true,\"version\":\"heroes-2026-11\"}}",
+    "No providers: {\"host\":\"deploy-preview-6--webtellisense.netlify.app\",\"saved\":{\"analytics\":true,\"marketing\":true,\"version\":\"heroes-2026-11\"}}",
+    "No providers: {\"host\":\"127.0.0.1\",\"saved\":{\"analytics\":true,\"marketing\":true,\"version\":\"heroes-2026-11\"}}",
+    "Reject persists; no pre-consent events replay",
+    "Analytics only; one page view, exact IDs and URL minimization",
+    "Meta only; one page view, exact IDs and URL minimization",
+    "Both destinations; one page view, exact IDs and URL minimization",
+    "Genuine controls, sanitized custom events, dedupe, withdrawal/cookie cleanup and cross-tab synchronization",
+    "Withdrawal during SDK loading, cleared queues and regrant",
+    "Separate consent and partial withdrawal",
+    "Previous review consent is not reused for newly confirmed destinations",
+    "Blocked storage fails closed; opt-in works for the current document",
+    "Pre-existing GTM blocks an additional direct installation",
+    "Sensitive incoming referrer suppresses Meta, GA referrer remains empty",
+    "Public payment selection: consented events only, no PageView, no unconfigured handoff",
+    "Synthetic configured handoff is a custom click only; no Paystack navigation",
+    "Excluded provider page: /heroes-welcome.html",
+    "Excluded provider page: /heroes-profile-received",
+    "Excluded provider page: /welcome.html",
+    "Excluded provider page: /industries",
+    "Excluded provider page: /education-marketing",
+    "Excluded provider page: /privacy-policy",
+    "Excluded provider page: /service-terms",
+    "Inactive pages do not clear unrelated legacy cookies on arrival",
+    "Preference controls: keyboard access, Escape and focus return"
+  ],
+  "accessibility": [
+    {
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "width": 390,
+      "violations": []
+    }
+  ],
+  "evidence": [
+    {
+      "scenario": "No providers: {\"release\":false}",
+      "calls": []
+    },
+    {
+      "scenario": "No providers: {\"gpc\":true,\"saved\":{\"analytics\":true,\"marketing\":true,\"version\":\"heroes-2026-11\"}}",
+      "calls": []
+    },
+    {
+      "scenario": "No providers: {\"dnt\":true,\"saved\":{\"analytics\":true,\"marketing\":true,\"version\":\"heroes-2026-11\"}}",
+      "calls": []
+    },
+    {
+      "scenario": "No providers: {\"host\":\"deploy-preview-6--webtellisense.netlify.app\",\"saved\":{\"analytics\":true,\"marketing\":true,\"version\":\"heroes-2026-11\"}}",
+      "calls": []
+    },
+    {
+      "scenario": "No providers: {\"host\":\"127.0.0.1\",\"saved\":{\"analytics\":true,\"marketing\":true,\"version\":\"heroes-2026-11\"}}",
+      "calls": []
+    },
+    {
+      "scenario": "Reject persists; no pre-consent events replay",
+      "calls": []
+    },
+    {
+      "scenario": "Analytics only; one page view, exact IDs and URL minimization",
+      "calls": [
+        {
+          "kind": "sdk",
+          "url": "https://www.googletagmanager.com/gtag/js?id=G-PS5FNQCJRN"
+        },
+        {
+          "kind": "event",
+          "provider": "www.google-analytics.com",
+          "event": "page_view",
+          "pixel": null,
+          "payload": {
+            "page_path": "/heroes",
+            "page_location": "https://webtellisense.com/heroes",
+            "page_referrer": ""
+          }
+        }
+      ]
+    },
+    {
+      "scenario": "Meta only; one page view, exact IDs and URL minimization",
+      "calls": [
+        {
+          "kind": "sdk",
+          "url": "https://connect.facebook.net/en_US/fbevents.js"
+        },
+        {
+          "kind": "provider-config",
+          "url": "https://connect.facebook.net/signals/config/806267492040936"
+        },
+        {
+          "kind": "event",
+          "provider": "www.facebook.com",
+          "event": "PageView",
+          "pixel": "806267492040936",
+          "payload": {}
+        }
+      ]
+    },
+    {
+      "scenario": "Both destinations; one page view, exact IDs and URL minimization",
+      "calls": [
+        {
+          "kind": "sdk",
+          "url": "https://www.googletagmanager.com/gtag/js?id=G-PS5FNQCJRN"
+        },
+        {
+          "kind": "sdk",
+          "url": "https://connect.facebook.net/en_US/fbevents.js"
+        },
+        {
+          "kind": "event",
+          "provider": "www.google-analytics.com",
+          "event": "page_view",
+          "pixel": null,
+          "payload": {
+            "page_path": "/heroes",
+            "page_location": "https://webtellisense.com/heroes",
+            "page_referrer": ""
+          }
+        },
+        {
+          "kind": "event",
+          "provider": "www.facebook.com",
+          "event": "PageView",
+          "pixel": "806267492040936",
+          "payload": {}
+        },
+        {
+          "kind": "provider-config",
+          "url": "https://connect.facebook.net/signals/config/806267492040936"
+        }
+      ]
+    },
+    {
+      "scenario": "Genuine controls, sanitized custom events, dedupe, withdrawal/cookie cleanup and cross-tab synchronization",
+      "calls": [
+        {
+          "kind": "sdk",
+          "url": "https://www.googletagmanager.com/gtag/js?id=G-PS5FNQCJRN"
+        },
+        {
+          "kind": "sdk",
+          "url": "https://connect.facebook.net/en_US/fbevents.js"
+        },
+        {
+          "kind": "event",
+          "provider": "www.google-analytics.com",
+          "event": "page_view",
+          "pixel": null,
+          "payload": {
+            "page_path": "/heroes",
+            "page_location": "https://webtellisense.com/heroes",
+            "page_referrer": ""
+          }
+        },
+        {
+          "kind": "event",
+          "provider": "www.facebook.com",
+          "event": "PageView",
+          "pixel": "806267492040936",
+          "payload": {}
+        },
+        {
+          "kind": "provider-config",
+          "url": "https://connect.facebook.net/signals/config/806267492040936"
+        },
+        {
+          "kind": "event",
+          "provider": "www.google-analytics.com",
+          "event": "heroes_tier_select",
+          "pixel": null,
+          "payload": {
+            "page_path": "/heroes",
+            "tier": "v2",
+            "page_location": "https://webtellisense.com/heroes",
+            "page_referrer": ""
+          }
+        },
+        {
+          "kind": "event",
+          "provider": "www.facebook.com",
+          "event": "heroes_tier_select",
+          "pixel": "806267492040936",
+          "payload": {
+            "page_path": "/heroes",
+            "tier": "v2"
+          }
+        },
+        {
+          "kind": "event",
+          "provider": "www.google-analytics.com",
+          "event": "heroes_tier_select",
+          "pixel": null,
+          "payload": {
+            "page_path": "/heroes",
+            "tier": "v3",
+            "page_location": "https://webtellisense.com/heroes",
+            "page_referrer": ""
+          }
+        },
+        {
+          "kind": "event",
+          "provider": "www.facebook.com",
+          "event": "heroes_tier_select",
+          "pixel": "806267492040936",
+          "payload": {
+            "page_path": "/heroes",
+            "tier": "v3"
+          }
+        },
+        {
+          "kind": "event",
+          "provider": "www.google-analytics.com",
+          "event": "heroes_period_select",
+          "pixel": null,
+          "payload": {
+            "page_path": "/heroes",
+            "period": "three",
+            "page_location": "https://webtellisense.com/heroes",
+            "page_referrer": ""
+          }
+        },
+        {
+          "kind": "event",
+          "provider": "www.facebook.com",
+          "event": "heroes_period_select",
+          "pixel": "806267492040936",
+          "payload": {
+            "page_path": "/heroes",
+            "period": "three"
+          }
+        },
+        {
+          "kind": "event",
+          "provider": "www.google-analytics.com",
+          "event": "heroes_whatsapp_click",
+          "pixel": null,
+          "payload": {
+            "page_path": "/heroes",
+            "channel": "whatsapp",
+            "page_location": "https://webtellisense.com/heroes",
+            "page_referrer": ""
+          }
+        },
+        {
+          "kind": "event",
+          "provider": "www.facebook.com",
+          "event": "heroes_whatsapp_click",
+          "pixel": "806267492040936",
+          "payload": {
+            "page_path": "/heroes",
+            "channel": "whatsapp"
+          }
+        },
+        {
+          "kind": "event",
+          "provider": "www.google-analytics.com",
+          "event": "heroes_talk_to_sales",
+          "pixel": null,
+          "payload": {
+            "page_path": "/heroes",
+            "channel": "whatsapp",
+            "page_location": "https://webtellisense.com/heroes",
+            "page_referrer": ""
+          }
+        },
+        {
+          "kind": "event",
+          "provider": "www.facebook.com",
+          "event": "heroes_talk_to_sales",
+          "pixel": "806267492040936",
+          "payload": {
+            "page_path": "/heroes",
+            "channel": "whatsapp"
+          }
+        },
+        {
+          "kind": "event",
+          "provider": "www.google-analytics.com",
+          "event": "heroes_call_click",
+          "pixel": null,
+          "payload": {
+            "page_path": "/heroes",
+            "channel": "call",
+            "page_location": "https://webtellisense.com/heroes",
+            "page_referrer": ""
+          }
+        },
+        {
+          "kind": "event",
+          "provider": "www.facebook.com",
+          "event": "heroes_call_click",
+          "pixel": "806267492040936",
+          "payload": {
+            "page_path": "/heroes",
+            "channel": "call"
+          }
+        },
+        {
+          "kind": "event",
+          "provider": "www.google-analytics.com",
+          "event": "heroes_talk_to_sales",
+          "pixel": null,
+          "payload": {
+            "page_path": "/heroes",
+            "channel": "email",
+            "page_location": "https://webtellisense.com/heroes",
+            "page_referrer": ""
+          }
+        },
+        {
+          "kind": "event",
+          "provider": "www.facebook.com",
+          "event": "heroes_talk_to_sales",
+          "pixel": "806267492040936",
+          "payload": {
+            "page_path": "/heroes",
+            "channel": "email"
+          }
+        },
+        {
+          "kind": "event",
+          "provider": "www.google-analytics.com",
+          "event": "heroes_tier_select",
+          "pixel": null,
+          "payload": {
+            "page_path": "/heroes",
+            "tier": "v1",
+            "period": "six",
+            "page_location": "https://webtellisense.com/heroes",
+            "page_referrer": ""
+          }
+        },
+        {
+          "kind": "event",
+          "provider": "www.facebook.com",
+          "event": "heroes_tier_select",
+          "pixel": "806267492040936",
+          "payload": {
+            "page_path": "/heroes",
+            "tier": "v1",
+            "period": "six"
+          }
+        },
+        {
+          "kind": "sdk",
+          "url": "https://www.googletagmanager.com/gtag/js?id=G-PS5FNQCJRN"
+        },
+        {
+          "kind": "sdk",
+          "url": "https://connect.facebook.net/en_US/fbevents.js"
+        },
+        {
+          "kind": "event",
+          "provider": "www.google-analytics.com",
+          "event": "page_view",
+          "pixel": null,
+          "payload": {
+            "page_path": "/heroes",
+            "page_location": "https://webtellisense.com/heroes",
+            "page_referrer": ""
+          }
+        },
+        {
+          "kind": "event",
+          "provider": "www.facebook.com",
+          "event": "PageView",
+          "pixel": "806267492040936",
+          "payload": {}
+        },
+        {
+          "kind": "provider-config",
+          "url": "https://connect.facebook.net/signals/config/806267492040936"
+        }
+      ]
+    },
+    {
+      "scenario": "Withdrawal during SDK loading, cleared queues and regrant",
+      "calls": [
+        {
+          "kind": "sdk",
+          "url": "https://www.googletagmanager.com/gtag/js?id=G-PS5FNQCJRN"
+        },
+        {
+          "kind": "sdk",
+          "url": "https://connect.facebook.net/en_US/fbevents.js"
+        },
+        {
+          "kind": "provider-config",
+          "url": "https://connect.facebook.net/signals/config/806267492040936"
+        },
+        {
+          "kind": "event",
+          "provider": "www.google-analytics.com",
+          "event": "page_view",
+          "pixel": null,
+          "payload": {
+            "page_path": "/heroes",
+            "page_location": "https://webtellisense.com/heroes",
+            "page_referrer": ""
+          }
+        },
+        {
+          "kind": "event",
+          "provider": "www.facebook.com",
+          "event": "PageView",
+          "pixel": "806267492040936",
+          "payload": {}
+        }
+      ]
+    },
+    {
+      "scenario": "Separate consent and partial withdrawal",
+      "calls": [
+        {
+          "kind": "sdk",
+          "url": "https://www.googletagmanager.com/gtag/js?id=G-PS5FNQCJRN"
+        },
+        {
+          "kind": "sdk",
+          "url": "https://connect.facebook.net/en_US/fbevents.js"
+        },
+        {
+          "kind": "event",
+          "provider": "www.google-analytics.com",
+          "event": "page_view",
+          "pixel": null,
+          "payload": {
+            "page_path": "/heroes",
+            "page_location": "https://webtellisense.com/heroes",
+            "page_referrer": ""
+          }
+        },
+        {
+          "kind": "event",
+          "provider": "www.facebook.com",
+          "event": "PageView",
+          "pixel": "806267492040936",
+          "payload": {}
+        },
+        {
+          "kind": "provider-config",
+          "url": "https://connect.facebook.net/signals/config/806267492040936"
+        },
+        {
+          "kind": "event",
+          "provider": "www.google-analytics.com",
+          "event": "heroes_period_select",
+          "pixel": null,
+          "payload": {
+            "page_path": "/heroes",
+            "period": "six",
+            "page_location": "https://webtellisense.com/heroes",
+            "page_referrer": ""
+          }
+        }
+      ]
+    },
+    {
+      "scenario": "Previous review consent is not reused for newly confirmed destinations",
+      "calls": []
+    },
+    {
+      "scenario": "Blocked storage fails closed; opt-in works for the current document",
+      "calls": [
+        {
+          "kind": "sdk",
+          "url": "https://www.googletagmanager.com/gtag/js?id=G-PS5FNQCJRN"
+        },
+        {
+          "kind": "sdk",
+          "url": "https://connect.facebook.net/en_US/fbevents.js"
+        },
+        {
+          "kind": "event",
+          "provider": "www.google-analytics.com",
+          "event": "page_view",
+          "pixel": null,
+          "payload": {
+            "page_path": "/heroes",
+            "page_location": "https://webtellisense.com/heroes",
+            "page_referrer": ""
+          }
+        },
+        {
+          "kind": "event",
+          "provider": "www.facebook.com",
+          "event": "PageView",
+          "pixel": "806267492040936",
+          "payload": {}
+        },
+        {
+          "kind": "provider-config",
+          "url": "https://connect.facebook.net/signals/config/806267492040936"
+        }
+      ]
+    },
+    {
+      "scenario": "Pre-existing GTM blocks an additional direct installation",
+      "calls": [
+        {
+          "kind": "sdk",
+          "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NJ6L82XR"
+        }
+      ]
+    },
+    {
+      "scenario": "Sensitive incoming referrer suppresses Meta, GA referrer remains empty",
+      "calls": [
+        {
+          "kind": "sdk",
+          "url": "https://www.googletagmanager.com/gtag/js?id=G-PS5FNQCJRN"
+        },
+        {
+          "kind": "event",
+          "provider": "www.google-analytics.com",
+          "event": "page_view",
+          "pixel": null,
+          "payload": {
+            "page_path": "/heroes",
+            "page_location": "https://webtellisense.com/heroes",
+            "page_referrer": ""
+          }
+        }
+      ]
+    },
+    {
+      "scenario": "Public payment selection: consented events only, no PageView, no unconfigured handoff",
+      "calls": [
+        {
+          "kind": "sdk",
+          "url": "https://www.googletagmanager.com/gtag/js?id=G-PS5FNQCJRN"
+        },
+        {
+          "kind": "sdk",
+          "url": "https://connect.facebook.net/en_US/fbevents.js"
+        },
+        {
+          "kind": "provider-config",
+          "url": "https://connect.facebook.net/signals/config/806267492040936"
+        },
+        {
+          "kind": "event",
+          "provider": "www.google-analytics.com",
+          "event": "heroes_tier_select",
+          "pixel": null,
+          "payload": {
+            "page_path": "/heroes-start",
+            "tier": "v3",
+            "page_location": "https://webtellisense.com/heroes-start",
+            "page_referrer": ""
+          }
+        },
+        {
+          "kind": "event",
+          "provider": "www.facebook.com",
+          "event": "heroes_tier_select",
+          "pixel": "806267492040936",
+          "payload": {
+            "page_path": "/heroes-start",
+            "tier": "v3"
+          }
+        },
+        {
+          "kind": "event",
+          "provider": "www.google-analytics.com",
+          "event": "heroes_period_select",
+          "pixel": null,
+          "payload": {
+            "page_path": "/heroes-start",
+            "period": "six",
+            "page_location": "https://webtellisense.com/heroes-start",
+            "page_referrer": ""
+          }
+        },
+        {
+          "kind": "event",
+          "provider": "www.facebook.com",
+          "event": "heroes_period_select",
+          "pixel": "806267492040936",
+          "payload": {
+            "page_path": "/heroes-start",
+            "period": "six"
+          }
+        }
+      ]
+    },
+    {
+      "scenario": "Synthetic configured handoff is a custom click only; no Paystack navigation",
+      "calls": [
+        {
+          "kind": "sdk",
+          "url": "https://www.googletagmanager.com/gtag/js?id=G-PS5FNQCJRN"
+        },
+        {
+          "kind": "sdk",
+          "url": "https://connect.facebook.net/en_US/fbevents.js"
+        },
+        {
+          "kind": "provider-config",
+          "url": "https://connect.facebook.net/signals/config/806267492040936"
+        },
+        {
+          "kind": "event",
+          "provider": "www.google-analytics.com",
+          "event": "heroes_paystack_handoff",
+          "pixel": null,
+          "payload": {
+            "page_path": "/heroes-start",
+            "tier": "v1",
+            "period": "monthly",
+            "page_location": "https://webtellisense.com/heroes-start",
+            "page_referrer": ""
+          }
+        },
+        {
+          "kind": "event",
+          "provider": "www.facebook.com",
+          "event": "heroes_paystack_handoff",
+          "pixel": "806267492040936",
+          "payload": {
+            "page_path": "/heroes-start",
+            "tier": "v1",
+            "period": "monthly"
+          }
+        }
+      ]
+    },
+    {
+      "scenario": "Excluded provider page: /heroes-welcome.html",
+      "calls": []
+    },
+    {
+      "scenario": "Excluded provider page: /heroes-profile-received",
+      "calls": []
+    },
+    {
+      "scenario": "Excluded provider page: /welcome.html",
+      "calls": []
+    },
+    {
+      "scenario": "Excluded provider page: /industries",
+      "calls": []
+    },
+    {
+      "scenario": "Excluded provider page: /education-marketing",
+      "calls": []
+    },
+    {
+      "scenario": "Excluded provider page: /privacy-policy",
+      "calls": []
+    },
+    {
+      "scenario": "Excluded provider page: /service-terms",
+      "calls": []
+    },
+    {
+      "scenario": "Inactive pages do not clear unrelated legacy cookies on arrival",
+      "calls": []
+    },
+    {
+      "scenario": "Preference controls: keyboard access, Escape and focus return",
+      "calls": []
+    }
+  ]
+}

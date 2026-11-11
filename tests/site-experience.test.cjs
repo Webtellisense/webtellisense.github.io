@@ -1,4 +1,4 @@
-const{test}=require('node:test');const assert=require('node:assert/strict');const fs=require('node:fs');const{execFileSync,spawnSync}=require('node:child_process');const{render,pages}=require('../scripts/site-chrome.cjs');
+const{test}=require('node:test');const assert=require('node:assert/strict');const fs=require('node:fs');const{execFileSync}=require('node:child_process');const{render,pages}=require('../scripts/site-chrome.cjs');
 const read=f=>fs.readFileSync(f,'utf8');
 test('all standard pages use the same build-time header/footer; intentional conversion exceptions stay separate',()=>{
  assert.equal(pages.standard.length,35);assert.equal(Object.keys(pages.exceptions).length,13);
@@ -10,7 +10,7 @@ test('old central pricing routes/fragments remain intact while inbound navigatio
  const old=execFileSync('git',['show','118ece7:pricing.html'],{encoding:'utf8'}),now=read('pricing.html');
  const ids=s=>[...s.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]).filter(x=>!['header','footer','navmenu','mobile-nav-toggle'].includes(x));
  for(const id of ids(old).filter(x=>!/^footer|scroll-top/.test(x)))assert.ok(ids(now).includes(id),id);
- assert.equal(read('_redirects'),execFileSync('git',['show','118ece7:_redirects'],{encoding:'utf8'}));
+ assert.equal(read('_redirects'),execFileSync('git',['show','ec5d24a:_redirects'],{encoding:'utf8'}),'Preserve main’s approved Pretty URL loop fix');
  for(const name of['web-design','google-business-profile','ppc','branding','graphics-design','social-media-management','social-media-marketing','content-marketing','email-marketing','conversion-rate-optimization']){
   const file=name+'.html',old=execFileSync('git',['show','118ece7:'+file],{encoding:'utf8'}),prices=s=>s.match(/₦\s*[\d,]+(?:\s*-\s*₦?[\d,]+)?/g)||[];
   assert.deepEqual(prices(read(file)),prices(old),file+' original commercial amounts');
@@ -29,9 +29,17 @@ test('gallery retains the twelve original artwork targets, not invented case stu
  for(const row of records){assert.ok(html.includes('href="/'+row.original+'"'));assert.ok(fs.existsSync(row.original));}
  const gallery=html.slice(html.indexOf('<section id="portfolio"'),html.indexOf('</section>',html.indexOf('<section id="portfolio"')));assert.doesNotMatch(gallery,/See case study|120%/);assert.match(gallery,/data-project-filter="websites"/);
 });
-test('legal candidates are clearly linked but cannot enter a Netlify production build without completed-copy sign-off',()=>{
- assert.equal(JSON.parse(read('config/legal-release.json')).copyApprovedForProduction,false);
+test('owner-approved legal publication flag and the existing production guard are preserved',()=>{
+ assert.equal(read('config/legal-release.json'),execFileSync('git',['show','ec5d24a:config/legal-release.json'],{encoding:'utf8'}));
  for(const file of['privacy-policy.html','service-terms.html']){assert.match(read(file),/noindex, follow/);assert.doesNotMatch(read(file),/draft for review|Not a final policy|NOT FINAL CONTRACT TERMS/);}
- const result=spawnSync(process.execPath,['scripts/build-static.cjs'],{env:{...process.env,CONTEXT:'production'},encoding:'utf8'});assert.notEqual(result.status,0);assert.match(result.stderr,/Production release blocked/);
- assert.ok(fs.existsSync('public/heroes.html'),'Failed release must not remove existing local preview output');
+ // Exercise denial without mutating the owner-approved real flag or build output.
+ let mutations=0;
+ const sandbox={process:{env:{CONTEXT:'production'}},require:id=>{
+   if(id==='../config/legal-release.json')return{copyApprovedForProduction:false};
+   if(id==='./site-chrome.cjs')return{render:s=>s};
+   if(id==='node:fs')return{rmSync(){mutations++;},mkdirSync(){mutations++;},readdirSync(){return[];}};
+   throw Error('Unexpected build dependency '+id);
+ }};
+ assert.throws(()=>require('node:vm').runInNewContext(read('scripts/build-static.cjs'),sandbox),/Production release blocked/);
+ assert.equal(mutations,0,'Unapproved release must stop before removing any output');
 });

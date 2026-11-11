@@ -46,9 +46,9 @@
     // Replace only with reviewed, owner-created hosted Payment Page URLs. Null disables payment.
     // Monthly links must point to monthly subscription pages, never one-time substitutes.
     paymentPages: {
-      v1: { monthly: null, three: null, six: null },
-      v2: { monthly: null, three: null, six: null },
-      v3: { monthly: null, three: null, six: null },
+      v1: { monthly: "https://paystack.shop/pay/2pozht134s", three: "https://paystack.shop/pay/3weao0g9o1", six: "https://paystack.shop/pay/a-u64wq5-z" },
+      v2: { monthly: "https://paystack.shop/pay/tokrc6dwfu", three: "https://paystack.shop/pay/fkrhl-vw40", six: "https://paystack.shop/pay/8dnenl3bi0" },
+      v3: { monthly: "https://paystack.shop/pay/iogn5rqgr5", three: "https://paystack.shop/pay/f1bqpchria", six: "https://paystack.shop/pay/5ld8eov40z" },
     },
   };
   function freeze(obj) {

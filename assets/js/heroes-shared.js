@@ -10,7 +10,7 @@
   function hostedUrl(value) {
     try {
       const u = new URL(value);
-      return u.origin === "https://paystack.com" &&
+      return (u.origin === "https://paystack.com" || u.origin === "https://paystack.shop") &&
         /^\/pay\/[a-zA-Z0-9_-]+\/?$/.test(u.pathname) &&
         !u.username &&
         !u.password &&
