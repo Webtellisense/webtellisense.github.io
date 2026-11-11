@@ -28,7 +28,7 @@ test("approved totals and markup match exactly; allocations included without inv
         ),
       );
       assert.equal(api.selection(tier, period, config).total, values[i]);
-      assert.equal(config.paymentPages[tier][period], null);
+      assert.equal(api.hostedUrl(config.paymentPages[tier][period]), config.paymentPages[tier][period]);
     }
   assert.match(config.periods.monthly.renewal, /Renews monthly/);
   assert.match(config.periods.three.renewal, /no automatic renewal/);
@@ -45,9 +45,11 @@ test("hosted links fail closed; only reviewed official Payment Page shape can be
     "javascript:alert(1)",
     "https://evil.invalid/pay/test",
     "https://paystack.com.evil.invalid/pay/a",
+    "https://paystack.shop.evil.invalid/pay/a",
     "https://paystack.com/pay/a?amount=1",
     "https://user@paystack.com/pay/a",
     "http://paystack.com/pay/a",
+    "http://paystack.shop/pay/a",
     "https://paystack.com/pay/a#proof",
   ])
     assert.equal(api.hostedUrl(value), null);
@@ -56,6 +58,7 @@ test("hosted links fail closed; only reviewed official Payment Page shape can be
     api.hostedUrl("https://paystack.com/pay/fixture-only"),
     "https://paystack.com/pay/fixture-only",
   );
+  assert.equal(api.hostedUrl("https://paystack.shop/pay/fixture-only"), "https://paystack.shop/pay/fixture-only");
 });
 test("contact-hours display: Lagos opening/closing, late-evening, next morning, year rollover", () => {
   const check = (iso, kind) => {
