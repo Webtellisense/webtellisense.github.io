@@ -158,7 +158,9 @@
   if (saved) choice = saved;
   else if (active() && mode === "marketing") dialog.hidden = false;
   if (privacySignal()) { choice = { analytics: false, marketing: false }; dialog.hidden = true; }
-  syncControls(); revoke(); start();
+  syncControls();
+  if (mode) revoke(); // Unrelated pages must not clear legacy cookies on arrival.
+  start();
   window.addEventListener("storage", event => {
     if (event.key !== key && event.key !== null) return;
     choice = parse(event.newValue) || { analytics: false, marketing: false };

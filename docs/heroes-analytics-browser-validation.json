@@ -26,6 +26,7 @@
     "Excluded provider page: /education-marketing",
     "Excluded provider page: /privacy-policy",
     "Excluded provider page: /service-terms",
+    "Inactive pages do not clear unrelated legacy cookies on arrival",
     "Preference controls: keyboard access, Escape and focus return"
   ],
   "accessibility": [
@@ -115,17 +116,6 @@
           "url": "https://connect.facebook.net/en_US/fbevents.js"
         },
         {
-          "kind": "provider-config",
-          "url": "https://connect.facebook.net/signals/config/806267492040936"
-        },
-        {
-          "kind": "event",
-          "provider": "www.facebook.com",
-          "event": "PageView",
-          "pixel": "806267492040936",
-          "payload": {}
-        },
-        {
           "kind": "event",
           "provider": "www.google-analytics.com",
           "event": "page_view",
@@ -135,6 +125,17 @@
             "page_location": "https://webtellisense.com/heroes",
             "page_referrer": ""
           }
+        },
+        {
+          "kind": "event",
+          "provider": "www.facebook.com",
+          "event": "PageView",
+          "pixel": "806267492040936",
+          "payload": {}
+        },
+        {
+          "kind": "provider-config",
+          "url": "https://connect.facebook.net/signals/config/806267492040936"
         }
       ]
     },
@@ -439,15 +440,15 @@
           }
         },
         {
-          "kind": "provider-config",
-          "url": "https://connect.facebook.net/signals/config/806267492040936"
-        },
-        {
           "kind": "event",
           "provider": "www.facebook.com",
           "event": "PageView",
           "pixel": "806267492040936",
           "payload": {}
+        },
+        {
+          "kind": "provider-config",
+          "url": "https://connect.facebook.net/signals/config/806267492040936"
         },
         {
           "kind": "event",
@@ -659,6 +660,10 @@
     },
     {
       "scenario": "Excluded provider page: /service-terms",
+      "calls": []
+    },
+    {
+      "scenario": "Inactive pages do not clear unrelated legacy cookies on arrival",
       "calls": []
     },
     {

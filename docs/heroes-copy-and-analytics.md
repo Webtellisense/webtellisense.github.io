@@ -24,7 +24,7 @@ Owner confirmed these general website destinations:
 
 Homepage source already contains direct GA4, GTM and the general Meta base code. That establishes possible GA/GTM overlap, not the contents of the published GTM container. Read-only retrieval of its public script was attempted: the environment’s proxy refused the CONNECT request with **HTTP 403**. No container/account contents were inspected and no homepage tag was removed. Adding GTM to Heroes would import unverified tags and consent behavior, so Heroes uses only the two known direct destinations.
 
-The shared module’s route allowlist prevents this activation from silently enabling industry or unrelated pages. Production measurement is restricted to `webtellisense.com` / `www.webtellisense.com`; local and Netlify preview hosts do not send production measurement.
+The shared module’s route allowlist prevents this activation from silently enabling industry or unrelated pages. Inactive pages also leave existing legacy cookies untouched on arrival; explicit withdrawal remains available through preferences. Production measurement is restricted to `webtellisense.com` / `www.webtellisense.com`; local and Netlify preview hosts do not send production measurement.
 
 ## What loads, and when
 
@@ -69,14 +69,14 @@ Duplicate prevention: a per-document module guard; a foreign-install check; sing
 
 `tests/measurement.browser.cjs` uses the **actual checked-in release config** and HTTPS production-origin fixtures served from the local build. SDKs/config-child responses/collectors are synthetic; no Google, Meta, Paystack or Netlify submission is contacted. [Network receipts](heroes-analytics-browser-validation.json) explicitly identify this limitation.
 
-The 26 scenarios cover: release/host gates, no opt-in and persistent rejection, analytics-only/Meta-only/both, exact destinations/config count, genuine tier/period/sales/call/WhatsApp actions with exact per-interaction event counts, PII/URL allowlisting, duplicate module execution/saving/regrant, new-document views, full/partial withdrawal, cookie cleanup, cross-tab changes, withdrawal during SDK loading, stale consent, blocked storage, foreign GTM, SDK child configuration, sensitive incoming referrers, event-only public selection, disabled links, a synthetic configured handoff, private/non-enabled routes and keyboard preferences. The synthetic handoff fixture is never written into production configuration and navigation is prevented.
+The 27 scenarios cover: release/host gates, no opt-in and persistent rejection, analytics-only/Meta-only/both, exact destinations/config count, genuine tier/period/sales/call/WhatsApp actions with exact per-interaction event counts, PII/URL allowlisting, duplicate module execution/saving/regrant, new-document views, full/partial withdrawal, cookie cleanup, cross-tab changes, withdrawal during SDK loading, stale consent, blocked storage, foreign GTM, SDK child configuration, sensitive incoming referrers, event-only public selection, disabled links, a synthetic configured handoff, private/non-enabled routes and keyboard preferences. The synthetic handoff fixture is never written into production configuration and navigation is prevented.
 
 Current visual captures and desktop/mobile checks are in [heroes-polish-previews](heroes-polish-previews/README.md). Existing product/copy, nine-price, animation, onboarding, no-JS, keyboard, responsive and accessibility regressions are also rerun. The source scan retains 48 pages and all 10 Heroes contextual links without broken local targets or fragments.
 
 | Final local check | Result |
 | --- | --- |
 | `npm test` | **29/29 passed**, including approved markup/specification/price preservation and copy-only animation changes |
-| `test:measurement` | **26 passed** with the actual enabled config and synthetic network transports; exact per-action/per-destination counts and consent races checked |
+| `test:measurement` | **27 passed** with the actual enabled config and synthetic network transports; exact per-action/per-destination counts and consent races checked |
 | Consent accessibility | **0** reported WCAG A/AA violations at **1440/390**; native 20px checkboxes inside 44px label targets; real mobile pointer access to withdrawal |
 | `test:product` | **320/360/390/768/1024/1440** reflow, keyboard native selection, independent billing, no-JS, reduced motion and full-page desktop/mobile axe passed |
 | `test:heroes` | Nine prices/disabled handoffs, manual confirmation, callback windows, mocked optional-profile failure/retry and responsive/no-JS passed |
