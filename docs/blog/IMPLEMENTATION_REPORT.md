@@ -151,3 +151,17 @@ Update `content/blog/settings.json` → `archiveUpdatedAt` for meaningful archiv
 - Existing `npm test` remains red for the five baseline missing-history failures. Full historical browser suites were not rerun or their provider integrations activated; the scoped new browser suite blocks all external providers and POSTs.
 
 The work is committed locally on `blog-redesign`; no push or deployment was performed.
+
+## Publication-date correction — 26 November 2026
+
+The owner supplied explicit real publication dates in this follow-up. Those dates take precedence over the Git-addition-date fallback and supersede the earlier legacy-date decisions above; the earlier rows remain historical evidence of the initial implementation.
+
+| Article slug | Old publishedAt | New publishedAt | Evidence |
+| --- | --- | --- | --- |
+| `10-essential-tips-for-businesses-2025` | `2023-05-15` | `2025-05-15` | Explicit owner-provided real date in the follow-up request. |
+| `top-features-for-a-school-website` | `2024-03-19` | `2024-11-15` | Explicit owner-provided real date in the follow-up request. |
+| `value-of-a-digital-agency` | `2023-07-22` | `2025-06-15` | Explicit owner-provided real date in the follow-up request. |
+
+Changed only these publishedAt values in `content/blog/legacy.json` and their duplicated visible publication dates, time datetime attributes and BlogPosting datePublished fields in the three hand-written HTML files. The existing registry-driven build regenerates the corresponding publication dates in index/category cards, article output and RSS. All updatedAt/dateModified values remain `2026-11-09`; article prose, URLs and every other registry/source field are unchanged. No branch was created; work continues on `blog-redesign`.
+
+Verification for this correction: `npm run build` passed; `npm run check:blog` passed (10 pages, 5 published articles, 5 RSS items, zero failures; the same 11 unchanged tracking-pixel exceptions); `npm run test:blog` passed all 6 tests. An exact before/after comparison confirmed that only the three publication dates and their formatted duplicates changed in the registry/article sources, with updatedAt, prose, URLs and other fields preserved. Built visible dates and BlogPosting datePublished match the new registry values; dateModified remains unchanged. `git diff --check` passed.
