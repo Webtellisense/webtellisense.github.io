@@ -13,3 +13,5 @@
 @media(prefers-reduced-motion:reduce){.blog-redesign{scroll-behavior:auto}.blog-redesign *{scroll-behavior:auto!important;transition:none!important}}
 
 .blog-redesign main nav[aria-label="Breadcrumb"] a{text-decoration:underline;text-underline-offset:3px}
+/* Preserve the second legacy audit passage as context, with only one interactive promotion. */
+.blog-context-note{border:1px solid #d4d6e2;padding:22px;margin:30px 0;border-radius:8px;background:#f4f4f4;color:#01033e}.blog-context-note .audit-graphic{display:none}.blog-redesign .blog-context-note :is(h3,p,.audit-eyebrow,.audit-checks,.audit-checks div,.audit-checks span){color:#01033e}.blog-redesign .blog-context-note h3{margin-top:0}

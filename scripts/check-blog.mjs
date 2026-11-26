@@ -38,6 +38,8 @@ export async function checkBlog({root=ROOT,output=path.join(root,'public'),conte
   if(article){const posting=schemas.filter(s=>s['@type']==='BlogPosting');assert(posting.length===1,`${url}: expected one BlogPosting`);assert(schemas.some(s=>s['@type']==='BreadcrumbList'),`${url}: BreadcrumbList missing`);assert(metas.get('robots')?.includes('max-image-preview:large'),`${url}: max-image-preview missing`);if(posting[0]){assert(posting[0].datePublished===article.publishedAt&&(posting[0].dateModified??null)===(article.updatedAt??null),`${url}: structured dates disagree`);assert(posting[0].author?.name==='Webtellisense Editorial Team',`${url}: author mismatch`);}
    const prose=ns.find(n=>'data-blog-prose'in n.attrs);const headings=nodes(inner(html,prose)).filter(n=>/^h[1-6]$/.test(n.tag));let previous=1;for(const h of headings){assert(['h2','h3'].includes(h.tag),`${url}: prose headings must be H2/H3`);assert(+h.tag[1]<=previous+1,`${url}: heading level skipped before ${text(inner(inner(html,prose),h))}`);previous=+h.tag[1];}
    assert(!ns.some(n=>n.tag==='form'),`${url}: newsletter/form present on article`);
+   assert(ns.filter(n=>(n.attrs.class||'').split(/\s+/).includes('blog-audit-cta')).length<=1,`${url}: more than one in-content audit CTA`);
+   assert(ns.filter(n=>(n.attrs.class||'').split(/\s+/).includes('blog-closing-cta')).length<=1,`${url}: more than one closing CTA`);
   }
   const ids=new Set();for(const n of ns){if(n.attrs.id){assert(!ids.has(n.attrs.id),`${url}: duplicate id ${n.attrs.id}`);ids.add(n.attrs.id);}}
   for(const n of ns){
