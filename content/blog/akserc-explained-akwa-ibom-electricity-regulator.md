@@ -17,6 +17,7 @@ updatedAt: "2026-11-26"
 author: Webtellisense Editorial Team
 heroImage: /assets/img/blog/akserc-explained-akwa-ibom-electricity-regulator/hero.jpg
 heroAlt: black street light turned on during night time
+heroCredit: Photographer and developer @ demidov.kz/theordsgam/
 quickAnswer: "AKSERC is Akwa Ibom's own electricity regulator. NERC ordered the handover on 18 August 2026 and it must be finished by 17 February 2027. Until then PHED still supplies, meters and bills you, and AKSERC says the order changes no tariff."
 faqs:
   - q: "Will my light bill change because of AKSERC?"
