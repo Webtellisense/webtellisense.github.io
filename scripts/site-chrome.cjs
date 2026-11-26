@@ -3,6 +3,8 @@ const fs=require('node:fs');const path=require('node:path');
 const root=path.resolve(__dirname,'..'),pages=require('../config/site-pages.json');
 const read=p=>fs.readFileSync(path.join(root,p),'utf8').trim();
 function render(html,page){
+ // Blog pages own a newsletter-free variant; build-blog reuses current partials.
+ if (/<body\b[^>]*\bdata-blog-slug=/.test(html)) return html;
  if(!pages.standard.includes(page))return html;
  for(const part of ['header','footer']){
   const start=`<!-- site-${part}:start -->`,end=`<!-- site-${part}:end -->`;

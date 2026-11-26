@@ -18,12 +18,12 @@ export function legacyBody(html){
 export function legacyFAQs(body){return nodes(body).filter(n=>n.tag==='details'&&hasClass(n,'faq-item')).map(n=>{const h=inner(body,n),parts=nodes(h),q=parts.find(x=>x.tag==='summary'),a=parts.find(x=>x.tag==='p');return {q:text(inner(h,q)),a:text(inner(h,a))};});}
 export function validateBodyLinks(body,a,allowed,articleRoutes,root){
  for(const n of nodes(body).filter(n=>n.tag==='a'&&n.attrs.href)){const h=n.attrs.href;if(h.startsWith('#'))continue;let u;try{u=new URL(h,ORIGIN+a.url);}catch{throw Error(`${a.source||a.slug}: invalid link ${h}`);}if(!['http:','https:','mailto:','tel:'].includes(u.protocol))throw Error(`${a.slug}: unsafe link protocol ${h}`);
- if(u.origin===ORIGIN){const route=normalRoute(u.pathname);if(!allowed.has(route)&&!articleRoutes.has(route))throw Error(`${a.slug}: internal link is not an approved route: ${h}`);if(u.hash&&allowed.has(route)){const file=route==='/'?'index.html':route.slice(1)+'.html';if(fs.existsSync(path.join(root,file))&&!nodes(read(root,file)).some(n=>n.attrs.id===decodeURIComponent(u.hash.slice(1))))throw Error(`${a.slug}: missing fragment ${h}`);}}
+ if(u.origin===ORIGIN||u.hostname==='www.webtellisense.com'){const route=normalRoute(u.pathname);if(!allowed.has(route)&&!articleRoutes.has(route))throw Error(`${a.slug}: internal link is not an approved route: ${h}`);if(u.hash&&allowed.has(route)){const file=route==='/'?'index.html':route.slice(1)+'.html';if(fs.existsSync(path.join(root,file))&&!nodes(read(root,file)).some(n=>n.attrs.id===decodeURIComponent(u.hash.slice(1))))throw Error(`${a.slug}: missing fragment ${h}`);}}
  }
 }
 export async function markdownBody(a,root,output){
- const markdown=new Marked({gfm:true});
- markdown.use({walkTokens(token){if(token.type==='html')throw Error(`${a.source}: raw HTML is not allowed; use Markdown`);if(token.type==='heading'&&![2,3].includes(token.depth))throw Error(`${a.source}: use H2 and H3 only`);}});
+ const markdown=new Marked({gfm:true});let lastHeading=1;
+ markdown.use({walkTokens(token){if(token.type==='html')throw Error(`${a.source}: raw HTML is not allowed; use Markdown`);if(token.type==='heading'){if(![2,3].includes(token.depth)||token.depth>lastHeading+1)throw Error(`${a.source}: use H2 and H3 only, without skipping a heading level`);lastHeading=token.depth;}}});
  let body=markdown.parse(a.body);body=await processBodyImages(body,root,output);
  body=body.replace(/<p>\s*(<figure>[\s\S]*?<\/figure>)\s*<\/p>/g,'$1');
  body=body.replace(/<table>([\s\S]*?)<\/table>/g,'<div class="blog-table-scroll" role="region" aria-label="Article table" tabindex="0"><table>$1</table></div>');
@@ -39,6 +39,10 @@ export async function buildBlog({root=ROOT,output=path.join(root,'public'),conte
  if(includeDrafts&&(process.env.CONTEXT||process.env.CI))throw Error('Draft preview is local only; unset CI/CONTEXT and use a separate output directory');
  if(includeDrafts&&path.resolve(output)===path.join(root,'public'))throw Error('Draft preview must use a separate --out directory, never public');
  if(!fs.existsSync(output))throw Error('Build the static site first, or provide an existing --out directory');
+ const actualOutput=fs.realpathSync(output),actualRoot=fs.realpathSync(root);
+ if(actualOutput===actualRoot||actualRoot.startsWith(actualOutput+path.sep)||(actualOutput.startsWith(actualRoot+path.sep)&&actualOutput!==path.join(actualRoot,'public')))throw Error('Output must be public or a separate directory outside the repository, never source directories');
+ if(includeDrafts&&actualOutput===path.join(actualRoot,'public'))throw Error('Draft preview must not point to public through a symlink');
+ const settings=JSON.parse(read(root,'content/blog/settings.json'));if(!dateOK(settings.archiveUpdatedAt))throw Error('settings.json: archiveUpdatedAt must be a real ISO date');
  const allowed=auditRoutes(root),legacy=JSON.parse(read(root,'content/blog/legacy.json'));
  const ctas=JSON.parse(read(root,'content/blog/cta.json'));for(const [cat,cta] of Object.entries(ctas)){if(!CATEGORIES.includes(cat)||!allowed.has(normalRoute(cta.destination)))throw Error('Invalid category CTA destination: '+cat+' '+cta.destination);}
  const md=fs.readdirSync(contentDir).filter(f=>f.endsWith('.md')).sort().map(f=>parseArticle(fs.readFileSync(path.join(contentDir,f),'utf8'),f,root));
@@ -58,7 +62,7 @@ export async function buildBlog({root=ROOT,output=path.join(root,'public'),conte
  fs.rmSync(generatedDir,{recursive:true,force:true});
  const sourceImages=path.join(root,'assets/img/blog/generated');
  if(fs.existsSync(sourceImages))fs.cpSync(sourceImages,generatedDir,{recursive:true});
- const defaultImage=await defaultSocial(output);
+ const defaultImage=await defaultSocial(output,root);
  for(const a of [...published,...previews]){
   const image=a.legacy?a.image:a.heroImage;
   if(image&&image!=='MISSING')a.imageData=await prepareImage(root,output,image);
@@ -66,7 +70,7 @@ export async function buildBlog({root=ROOT,output=path.join(root,'public'),conte
   const html=a.legacy?legacyBody(read(root,a.slug+'.html')):await markdownBody(a,root,output);
   a.renderedBody=html;a.readingTime=minutes(html);a.author??=AUTHOR;
   if(a.legacy)a.faqs=legacyFAQs(html);
-  validateBodyLinks(html,a,allowed,routes,root);
+  validateBodyLinks(html+(a.sources||[]).map(s=>`<a href="${e(s.url)}">${e(s.title)}</a>`).join(''),a,allowed,routes,root);
  }
  const head=headFrom(read(root,'business-not-showing-up-online.html'));
  for(const a of [...published,...previews]){
@@ -88,16 +92,16 @@ export async function buildBlog({root=ROOT,output=path.join(root,'public'),conte
    const slice=items.slice((page-1)*12,page*12),featured=!category&&page===1?slice[0]:null;
    const pagination=pages>1?`<nav class="blog-pagination" aria-label="Pagination">${Array.from({length:pages},(_,i)=>i+1).map(n=>n===page?`<span aria-current="page">${n}</span>`:`<a href="${n===1?base:base+'/page/'+n}" aria-label="Page ${n}">${n}</a>`).join('')}</nav>`:'';
    const main=`<div class="blog-listing"><nav aria-label="Breadcrumb"><a href="/">Home</a> / ${category?'<a href="/blog">Blog</a> / '+e(category):'Blog'}</nav><header><h1>${e(category||'Business insights and practical guides')}${page>1?' — Page '+page:''}</h1><p>${e(description)}</p><a href="/blog/rss.xml">Subscribe via RSS</a></header>${categoryNav}${featured?`<section class="blog-featured" aria-label="Featured article"><p class="blog-category">Featured</p>${cards([featured])}</section>`:''}<section aria-label="Latest articles"><div class="blog-grid">${cards(featured?slice.slice(1):slice)}</div></section>${pagination}</div>`;
-   emit(url.slice(1)+'.html',shell(root,head,{title,description,url,image:defaultImage},main));listings.push({url,lastmod:items.reduce((d,a)=>[d,a.updatedAt||a.publishedAt].sort().at(-1),'1970-01-01')});
+   emit(url.slice(1)+'.html',shell(root,head,{title,description,url,image:defaultImage},main));listings.push({url,lastmod:items.reduce((d,a)=>[d,a.updatedAt||a.publishedAt].sort().at(-1),settings.archiveUpdatedAt)});
   }
  };
  listing(published);for(const c of activeCategories)listing(published.filter(a=>a.category===c),c);
  emit('blog/related.json',JSON.stringify(Object.fromEntries(published.map(a=>[a.slug,relatedFor(a,published).map(r=>({slug:r.slug,title:r.title,url:r.url}))])),null,2)+'\n');
- const blogURLs=new Set(['/blog',...legacy.map(a=>a.url)]);
- const base=read(root,'sitemap.xml').replace(/<url>\s*<loc>([^<]+)<\/loc>[\s\S]*?<\/url>/g,(entry,loc)=>blogURLs.has(new URL(loc).pathname)?'':entry).replace(/\s*<\/urlset>\s*$/,'');
+ const blogURLs=new Set(['/blog',...legacy.map(a=>a.url),...md.map(a=>a.url)]);
+ const base=read(root,'sitemap.xml').replace(/<url>\s*<loc>([^<]+)<\/loc>[\s\S]*?<\/url>/g,(entry,loc)=>(blogURLs.has(new URL(loc).pathname)||new URL(loc).pathname.startsWith('/blog/'))?'':entry).replace(/\s*<\/urlset>\s*$/,'');
  const entries=[...published.map(a=>({url:a.url,lastmod:a.updatedAt||a.publishedAt})),...listings];
  emit('sitemap.xml',base+'\n'+entries.map(a=>`  <url><loc>${ORIGIN+e(a.url)}</loc><lastmod>${a.lastmod}</lastmod></url>`).join('\n')+'\n</urlset>\n');
- const last=published.map(a=>a.updatedAt||a.publishedAt).sort().at(-1);
+ const last=[settings.archiveUpdatedAt,...published.map(a=>a.updatedAt||a.publishedAt)].sort().at(-1);
  emit('blog/rss.xml',`<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Webtellisense Blog</title><link>${ORIGIN}/blog</link><description>Business insights and practical guides from Webtellisense.</description><language>en-NG</language><atom:link href="${ORIGIN}/blog/rss.xml" rel="self" type="application/rss+xml"/>${last?`<lastBuildDate>${new Date(last+'T00:00:00Z').toUTCString()}</lastBuildDate>`:''}${published.map(a=>`<item><title>${e(a.title)}</title><link>${ORIGIN+e(a.url)}</link><guid isPermaLink="true">${ORIGIN+e(a.url)}</guid><description>${e(a.excerpt)}</description><category>${e(a.category)}</category><pubDate>${new Date(a.publishedAt+'T00:00:00Z').toUTCString()}</pubDate></item>`).join('')}</channel></rss>\n`);
  emit('blog-build.json',JSON.stringify({version:1,preview:includeDrafts,articles:published.map(({slug,url,title,category,publishedAt,updatedAt})=>({slug,url,title,category,publishedAt,updatedAt})),listings: listings.map(a=>a.url),generatedSlugs:md.filter(a=>a.status==='ready'||includeDrafts).map(a=>a.slug),files:owned},null,2)+'\n');
  console.log(`Blog: ${published.length} published, ${excluded.length} excluded draft(s), ${previews.length} local preview(s); ${listings.length} archive page(s).`);

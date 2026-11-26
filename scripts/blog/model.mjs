@@ -16,7 +16,7 @@ export function localAsset(root, value) {
 export function parseArticle(source,file,root) {
  const fail=message=>{throw Error(`${file}: ${message}`);};
  const match=source.match(/^---\r?\n([\s\S]*?)\r?\n---(?:\r?\n|$)([\s\S]*)$/);if(!match)fail('expected YAML frontmatter between --- lines');
- const doc=parseDocument(match[1],{uniqueKeys:true});if(doc.errors.length)fail('invalid YAML: '+doc.errors.map(e=>e.message).join('; '));const a=doc.toJS({maxAliasCount:0});
+ const doc=parseDocument(match[1],{uniqueKeys:true});if(doc.errors.length)fail('invalid YAML: '+doc.errors.map(e=>e.message).join('; '));let a;try{a=doc.toJS({maxAliasCount:0});}catch(e){fail('invalid YAML: '+e.message);}
  if(!a||Array.isArray(a)||typeof a!=='object')fail('frontmatter must be a mapping');
  const fields=['title','slug','category','primaryKeyword','secondaryKeywords','metaTitle','metaDescription','excerpt','publishedAt','updatedAt','author','heroImage','heroAlt','heroCredit','quickAnswer','faqs','sources','related','status'];
  for(const k of Object.keys(a))if(!fields.includes(k))fail(`unknown field "${k}"`);
